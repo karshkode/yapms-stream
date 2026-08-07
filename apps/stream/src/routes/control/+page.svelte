@@ -8,10 +8,6 @@
 	import { loadPersistedState, persistState } from '$lib/data/manual';
 	import { remapLiveRegionsToSeed } from '$lib/data/source';
 	import { applyTemplate } from '$lib/picker/applyTemplate';
-	import { findRegionAttrByName } from '$lib/picker/civicapiResolver';
-	import { pushRecent } from '$lib/picker/recent';
-	import type { RaceTemplate } from '$lib/race-profile';
-	import type { RecentRaceRef } from '$lib/stream-state';
 	import { streamStore } from '$lib/stream-store.svelte';
 	import { createBroadcastSync } from '$lib/sync/broadcast';
 	import { BROWSE_US_TEMPLATE } from '$lib/templates';
@@ -78,8 +74,8 @@
 	 * Shared core for "open the StateRacesCard for <abbr>". Used by:
 	 *  - `backToState` (TopBar back-button) — replays the exact state the
 	 *    host drilled into.
-	 *  - The Recent dropdown's States section — lets them hop to any
-	 *    previously-viewed state, not just the most recent drill source.
+	 *  - The race picker's State results and browse-by-state grid — lets them
+	 *    hop to any state, not just the most recent drill source.
 	 *
 	 * Hop strategy: stamp the browse-us template, halt any in-flight
 	 * polling, then re-pin `selectedRegionAttr` AFTER the stamp (since
@@ -90,9 +86,7 @@
 	function openStateRacesFor(abbr: string) {
 		if (!abbr) return;
 		if (streamStore.state.ui.dirty) {
-			const ok = confirm(
-				'Unsaved edits on the current race will be lost. Continue?'
-			);
+			const ok = confirm('Unsaved edits on the current race will be lost. Continue?');
 			if (!ok) return;
 		}
 		streamStore.state = applyTemplate(streamStore.state, BROWSE_US_TEMPLATE);
@@ -104,64 +98,6 @@
 		};
 		streamStore.state.ui.selectedRegionAttr = abbr.toLowerCase();
 		streamStore.state.ui.statesCardOpen = true;
-	}
-
-	/**
-	 * Re-apply a Recent race entry. Mirrors the apply pipeline in
-	 * RacePicker.svelte's `handleApply` so polling resumes against the
-	 * original civicAPI race id, the preselected county is re-zoomed, and
-	 * the entry's loadedAt timestamp gets bumped to the top of the queue.
-	 *
-	 * Worth duplicating (rather than extracting a shared helper) because
-	 * the picker version also handles the picker-modal close + dirty-
-	 * confirm copy that doesn't apply here. If a third caller appears
-	 * we can lift this into `picker/applyRecent.ts`.
-	 */
-	function applyRecentRace(ref: RecentRaceRef, template: RaceTemplate) {
-		if (streamStore.state.ui.dirty) {
-			const ok = confirm(
-				`Loading '${ref.label}' will replace the current race. Replace?`
-			);
-			if (!ok) return;
-		}
-		streamStore.state = applyTemplate(streamStore.state, template);
-
-		if (ref.preselectCountyName) {
-			const regionAttr = findRegionAttrByName(
-				streamStore.state.regions,
-				ref.preselectCountyName
-			);
-			if (regionAttr) streamStore.state.ui.selectedRegionAttr = regionAttr;
-		}
-
-		streamStore.state = {
-			...streamStore.state,
-			savedRaces: pushRecent(streamStore.state.savedRaces, {
-				templateId: template.id,
-				label: ref.label,
-				parameters: ref.parameters,
-				civicApiRaceId: ref.civicApiRaceId,
-				civicApiTitle: ref.civicApiTitle,
-				subtitle: ref.subtitle,
-				preselectCountyName: ref.preselectCountyName
-			})
-		};
-
-		if (ref.civicApiRaceId) {
-			streamStore.state.dataSource = {
-				...streamStore.state.dataSource,
-				adapter: 'civicapi',
-				raceId: ref.civicApiRaceId,
-				running: true
-			};
-		} else {
-			streamStore.state.dataSource = {
-				...streamStore.state.dataSource,
-				adapter: 'manual',
-				raceId: null,
-				running: false
-			};
-		}
 	}
 
 	/**
@@ -191,13 +127,8 @@
 					streamStore.state.candidates = patch.candidates;
 				}
 				if (patch.regions && patch.regions.length > 0) {
-					const remapped = remapLiveRegionsToSeed(
-						streamStore.state.regions,
-						patch.regions
-					);
-					const byAttr = new Map(
-						streamStore.state.regions.map((r) => [r.regionAttr, r])
-					);
+					const remapped = remapLiveRegionsToSeed(streamStore.state.regions, patch.regions);
+					const byAttr = new Map(streamStore.state.regions.map((r) => [r.regionAttr, r]));
 					for (const row of remapped) byAttr.set(row.regionAttr, row);
 					streamStore.state.regions = Array.from(byAttr.values());
 				}
@@ -207,8 +138,7 @@
 				streamStore.state.dataSource.lastError = null;
 			}
 		} catch (err) {
-			streamStore.state.dataSource.lastError =
-				err instanceof Error ? err.message : String(err);
+			streamStore.state.dataSource.lastError = err instanceof Error ? err.message : String(err);
 		}
 	}
 
@@ -332,13 +262,8 @@
 							streamStore.state.candidates = patch.candidates;
 						}
 						if (patch.regions && patch.regions.length > 0) {
-							const remapped = remapLiveRegionsToSeed(
-								streamStore.state.regions,
-								patch.regions
-							);
-							const byAttr = new Map(
-								streamStore.state.regions.map((r) => [r.regionAttr, r])
-							);
+							const remapped = remapLiveRegionsToSeed(streamStore.state.regions, patch.regions);
+							const byAttr = new Map(streamStore.state.regions.map((r) => [r.regionAttr, r]));
 							for (const row of remapped) byAttr.set(row.regionAttr, row);
 							streamStore.state.regions = Array.from(byAttr.values());
 						}
@@ -349,8 +274,7 @@
 					}
 				}
 			} catch (err) {
-				streamStore.state.dataSource.lastError =
-					err instanceof Error ? err.message : String(err);
+				streamStore.state.dataSource.lastError = err instanceof Error ? err.message : String(err);
 			}
 		})();
 		return () => {
@@ -379,8 +303,6 @@
 			resetToBrowseHome();
 		}}
 		onBackToState={backToState}
-		onPickRecentState={openStateRacesFor}
-		onPickRecentRace={applyRecentRace}
 		onRefreshRace={refreshActiveRace}
 	/>
 
@@ -393,6 +315,7 @@
 	<RacePicker
 		open={streamStore.state.ui.pickerOpen}
 		onclose={() => (streamStore.state.ui.pickerOpen = false)}
+		onbrowsestate={openStateRacesFor}
 	/>
 </div>
 

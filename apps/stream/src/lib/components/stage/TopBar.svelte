@@ -1,19 +1,18 @@
 <script lang="ts">
-	import type { RaceTemplate } from '$lib/race-profile';
-	import type { RecentRaceRef, StreamState } from '$lib/stream-state';
+	import type { StreamState } from '$lib/stream-state';
 	import { STATES_BY_ABBR } from '$lib/templates/states';
 	import ArchivalSlider from './ArchivalSlider.svelte';
-	import RecentDropdown from './RecentDropdown.svelte';
 
 	interface Props {
 		// Named `streamState` (not `state`) because Svelte 5 treats a local
 		// `state` binding as ambiguous with the `$state` rune — every
 		// `$state(...)` call in this file would otherwise be flagged as a
 		// store subscription on the prop. Same workaround used by
-		// FormsDrawer / StateRacesCard / RecentDropdown.
+		// FormsDrawer / StateRacesCard.
 		streamState: StreamState;
 		overlayUrl: string;
 		onToggleDrawer: () => void;
+		/** Open the race search (RacePicker). */
 		onOpenPicker: () => void;
 		/** Return to the blank US map homepage. Host-triggered by clicking the
 		 * "YAPms Stream" brand wordmark — mirrors every webapp nav pattern
@@ -25,14 +24,6 @@
 		 * (`/control/+page.svelte`) implements the actual reset + replay
 		 * because it owns the browse-us template + dataSource lifecycle. */
 		onBackToState?: () => void;
-		/** Open the StateRacesCard for an arbitrary state abbr. Powers the
-		 * Recent dropdown's States section. Same flow as `onBackToState`
-		 * but parameterized — same parent owns the implementation. */
-		onPickRecentState?: (abbr: string) => void;
-		/** Re-apply a recent race entry. Drives the Recent dropdown's
-		 * Races section. Parent re-uses RacePicker's `handleApply`
-		 * pipeline so polling resumes against the original civicAPI id. */
-		onPickRecentRace?: (ref: RecentRaceRef, template: RaceTemplate) => void;
 		/** One-shot pull of the latest civicAPI data for the active race.
 		 * Visible only when a civicAPI race is loaded. Useful when the
 		 * regular poll is paused (host drilled into a region) or just
@@ -50,8 +41,6 @@
 		onOpenPicker,
 		onGoHome,
 		onBackToState,
-		onPickRecentState,
-		onPickRecentRace,
 		onRefreshRace
 	}: Props = $props();
 
@@ -120,6 +109,28 @@
 		navigator.clipboard.writeText(overlayUrl);
 	}
 
+	// Only consulted on phone widths, where `.obs-row` is a popover. Wider
+	// viewports render the same row inline and ignore this entirely (see the
+	// `.obs-row` rules), so there's no need to mirror the breakpoint in JS.
+	let obsOpen = $state(false);
+	let obsWrap: HTMLDivElement | null = $state(null);
+
+	$effect(() => {
+		if (!obsOpen) return;
+		const onPointerDown = (e: PointerEvent) => {
+			if (obsWrap && !obsWrap.contains(e.target as Node)) obsOpen = false;
+		};
+		const onKey = (e: KeyboardEvent) => {
+			if (e.key === 'Escape') obsOpen = false;
+		};
+		document.addEventListener('pointerdown', onPointerDown);
+		document.addEventListener('keydown', onKey);
+		return () => {
+			document.removeEventListener('pointerdown', onPointerDown);
+			document.removeEventListener('keydown', onKey);
+		};
+	});
+
 	// macOS / Windows key hint. Navigator.platform is deprecated but still the
 	// most widely-shipped way to detect macOS in a pure-client context without
 	// pulling in UA parsing. Falls back to Ctrl on unknown platforms.
@@ -149,13 +160,6 @@
 				← All {homeStateName} races
 			</button>
 		{/if}
-		{#if onPickRecentState && onPickRecentRace}
-			<RecentDropdown
-				{streamState}
-				onPickState={(abbr) => onPickRecentState?.(abbr)}
-				onPickRace={(ref, template) => onPickRecentRace?.(ref, template)}
-			/>
-		{/if}
 		{#if streamState.race.title && streamState.profile?.id !== 'browse-us'}
 			<span class="race-title">{streamState.race.title}</span>
 		{/if}
@@ -165,6 +169,23 @@
 	</div>
 
 	<div class="actions">
+		<!-- The one way in to race discovery. Styled as a search field rather
+		     than a button because that is what it opens: a query box over
+		     states, live civicAPI races and templates. It used to read
+		     "Templates", with a separate Recent dropdown beside it, which put
+		     the rarest corpus in the most prominent slot and split recall
+		     across two menus. -->
+		<button
+			type="button"
+			class="search-btn"
+			title={`Search races (${modKey}+K)`}
+			onclick={onOpenPicker}
+		>
+			<span class="search-icon" aria-hidden="true">⌕</span>
+			<span class="search-text">Search races</span>
+			<span class="search-keys"><kbd>{modKey}</kbd><kbd>K</kbd></span>
+		</button>
+
 		{#if canRefreshRace}
 			<button
 				type="button"
@@ -189,23 +210,16 @@
 				</span>
 			</button>
 		{/if}
-		<ArchivalSlider state={streamState} />
-
-		<button type="button" class="picker-btn" title={`${modKey}+K`} onclick={onOpenPicker}>
-			<span>Templates</span>
-			<kbd>{modKey}</kbd><kbd>K</kbd>
-		</button>
-
-		<div class="obs-row">
-			<input
-				type="text"
-				readonly
-				value={overlayUrl}
-				onclick={(e) => (e.currentTarget as HTMLInputElement).select()}
-			/>
-			<button type="button" onclick={copyOverlayUrl} title="Copy overlay URL">Copy</button>
-			<a class="btn-link" href="/overlay" target="_blank" rel="noreferrer">Open</a>
-		</div>
+		<!-- The archival scrubber overlays a past presidential result as the map
+		     baseline, which needs a race to overlay onto. On the browse-us home
+		     shell the regions carry no archival data, so the six pills were a
+		     full row of toolbar that did nothing — the bulk of the chrome above
+		     the map on a phone. -->
+		{#if streamState.profile && streamState.profile.id !== 'browse-us'}
+			<div class="archival-wrap">
+				<ArchivalSlider state={streamState} />
+			</div>
+		{/if}
 
 		<button
 			type="button"
@@ -217,6 +231,34 @@
 			{streamState.ui.drawerOpen ? 'Close edit' : 'Edit'}
 			<kbd>e</kbd>
 		</button>
+
+		<!-- OBS wiring. Inline on a desktop, where there is room and the host is
+		     actually setting up a browser source; folded behind the ⋯ button on a
+		     phone, where two bright yellow buttons were dominating the toolbar
+		     for a job nobody does from their phone. -->
+		<div class="obs" bind:this={obsWrap}>
+			<button
+				type="button"
+				class="obs-toggle"
+				aria-expanded={obsOpen}
+				aria-label="Overlay URL for OBS"
+				title="Overlay URL for OBS"
+				onclick={() => (obsOpen = !obsOpen)}
+			>
+				⋯
+			</button>
+			<div class="obs-row" class:open={obsOpen}>
+				<input
+					type="text"
+					readonly
+					value={overlayUrl}
+					aria-label="Overlay URL"
+					onclick={(e) => (e.currentTarget as HTMLInputElement).select()}
+				/>
+				<button type="button" onclick={copyOverlayUrl} title="Copy overlay URL">Copy</button>
+				<a class="btn-link" href="/overlay" target="_blank" rel="noreferrer">Open</a>
+			</div>
+		</div>
 	</div>
 </header>
 
@@ -267,7 +309,9 @@
 		border-radius: 0.3rem;
 		cursor: pointer;
 		white-space: nowrap;
-		transition: background 120ms ease, color 120ms ease;
+		transition:
+			background 120ms ease,
+			color 120ms ease;
 	}
 	.back-state-btn:hover {
 		background: var(--color-primary);
@@ -308,21 +352,62 @@
 		gap: 0.5rem;
 		flex-wrap: wrap;
 	}
-	.picker-btn {
+	/* Reads as an input, behaves as a button. Signals "type here to find a
+	   race" without duplicating the picker's own query box in the toolbar. */
+	.search-btn {
 		display: inline-flex;
 		align-items: center;
-		gap: 0.375rem;
-		background: var(--color-secondary);
-		border: none;
-		color: var(--color-base-content);
-		padding: 0.375rem 0.625rem;
-		border-radius: 0.25rem;
+		gap: 0.4rem;
+		min-width: 11rem;
+		background: var(--color-base-300);
+		border: 1px solid var(--color-secondary);
+		color: rgb(from var(--color-base-content) r g b / 0.7);
+		padding: 0.375rem 0.5rem;
+		border-radius: 0.375rem;
 		cursor: pointer;
 		font-size: 0.85rem;
+		text-align: left;
 	}
-	.picker-btn:hover {
-		background: var(--color-primary);
-		color: var(--color-primary-content);
+	.search-btn:hover {
+		border-color: var(--color-primary);
+		color: var(--color-base-content);
+	}
+	.search-icon {
+		font-size: 1.05rem;
+		line-height: 1;
+	}
+	.search-text {
+		flex: 1 1 auto;
+	}
+	.search-keys {
+		display: inline-flex;
+		gap: 0.15rem;
+		flex-shrink: 0;
+	}
+	.archival-wrap {
+		display: flex;
+		align-items: center;
+		min-width: 0;
+	}
+	.obs {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+	.obs-toggle {
+		/* Phone-only affordance; wide viewports show `.obs-row` inline. */
+		display: none;
+		align-items: center;
+		justify-content: center;
+		min-width: 2.25rem;
+		min-height: 2.25rem;
+		background: var(--color-secondary);
+		border: none;
+		border-radius: 0.25rem;
+		color: var(--color-base-content);
+		font-size: 1.1rem;
+		line-height: 1;
+		cursor: pointer;
 	}
 	.obs-row {
 		display: flex;
@@ -379,7 +464,10 @@
 		cursor: pointer;
 		font-size: 0.78rem;
 		font-weight: 600;
-		transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+		transition:
+			background 120ms ease,
+			color 120ms ease,
+			border-color 120ms ease;
 	}
 	.refresh-race-btn:hover:not(:disabled) {
 		background: var(--color-primary);
@@ -422,14 +510,19 @@
 		font-size: 0.7rem;
 		color: rgb(from var(--color-base-content) r g b / 0.8);
 	}
-	@media (max-width: 980px) {
+	/* Between a phone and a laptop the URL field is the first thing to go — the
+	   Copy button covers the same need in a fraction of the width. Below 640px
+	   the row becomes a popover where the field is wanted again, so this is
+	   bounded at both ends. */
+	@media (max-width: 980px) and (min-width: 641px) {
 		.obs-row input {
 			display: none;
 		}
 	}
-	/* Phone layout. The bar becomes two stacked rows (brand, then actions)
-	   and the action row spreads across the full width so every control
-	   stays reachable with a thumb. */
+	/* Phone layout. Two stacked rows: identity on top, then one action row
+	   where search takes all the leftover width and everything else is an
+	   icon-sized control. Previously this wrapped into three-plus rows of
+	   chrome above an already-cramped map. */
 	@media (max-width: 640px) {
 		.top-bar {
 			padding: 0.4rem 0.5rem;
@@ -440,7 +533,6 @@
 			flex-basis: 100%;
 		}
 		.actions {
-			justify-content: space-between;
 			gap: 0.35rem;
 		}
 		.brand h1 {
@@ -456,10 +548,21 @@
 		kbd {
 			display: none;
 		}
+		/* Search is the primary action, so it absorbs the spare width instead
+		   of leaving gaps between evenly-spread buttons. */
+		.search-btn {
+			flex: 1 1 auto;
+			min-width: 0;
+			min-height: 2.25rem;
+		}
+		.search-text {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
 		/* Touch targets. 2.25rem is the smallest that still reliably hits
 		   with a thumb without making this dense toolbar taller than the
 		   map it sits above. */
-		.picker-btn,
 		.edit-btn,
 		.refresh-race-btn,
 		.obs-row button,
@@ -467,10 +570,64 @@
 			min-height: 2.25rem;
 			padding-inline: 0.7rem;
 		}
+		.edit-btn,
+		.refresh-race-btn {
+			flex-shrink: 0;
+		}
 		/* The wordmark doubles as the "reset to home map" button, so it needs
 		   to be as tappable as the rest even though it reads as a heading. */
 		.brand-btn {
 			min-height: 2.25rem;
+		}
+		.obs-toggle {
+			display: inline-flex;
+			flex-shrink: 0;
+		}
+		/* Popover, anchored to the ⋯ button. Right-aligned so a wide URL field
+		   grows into the viewport instead of off its edge. */
+		.obs-row {
+			display: none;
+			position: absolute;
+			top: calc(100% + 0.35rem);
+			right: 0;
+			z-index: 20;
+			flex-wrap: wrap;
+			justify-content: flex-end;
+			width: max-content;
+			max-width: min(88vw, 22rem);
+			padding: 0.5rem;
+			background: var(--color-base-200);
+			border: 1px solid var(--color-secondary);
+			border-radius: 0.375rem;
+			box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+		}
+		.obs-row.open {
+			display: flex;
+		}
+		.obs-row input {
+			width: 100%;
+			min-height: 2.25rem;
+		}
+		/* Explicit order so the row reads search → edit → overflow, with the
+		   two widest optional controls pushed onto a second line instead of
+		   squeezing search down to an icon. Source order can't express this
+		   because refresh has to stay adjacent to the race title on desktop. */
+		.search-btn {
+			order: 1;
+		}
+		.edit-btn {
+			order: 2;
+		}
+		.obs {
+			order: 3;
+		}
+		.refresh-race-btn {
+			order: 4;
+		}
+		.archival-wrap {
+			order: 5;
+			flex-basis: 100%;
+			min-width: 0;
 		}
 	}
 </style>

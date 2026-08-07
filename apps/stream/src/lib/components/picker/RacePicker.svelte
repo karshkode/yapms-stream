@@ -8,25 +8,39 @@
 	import type { SavedRacesState, SavedRaceRef } from '../../stream-state';
 	import { streamStore } from '../../stream-store.svelte';
 	import CivicApiSearch from './CivicApiSearch.svelte';
+	import FindRace from './FindRace.svelte';
 	import SavedList from './SavedList.svelte';
 	import TemplateList from './TemplateList.svelte';
+	import type { RecentRaceRef } from '../../stream-state';
 
 	interface Props {
 		/**
 		 * When true, render the picker as a centered modal overlay. When false,
 		 * the component returns nothing (host controls visibility via Cmd+K /
-		 * the Templates button in TopBar). Kept as a prop so the picker can also
+		 * the search button in TopBar). Kept as a prop so the picker can also
 		 * run inline if future callers want that — just pass `open={true}`.
 		 */
 		open?: boolean;
 		/** Called after a successful apply or when the host dismisses the modal. */
 		onclose?: () => void;
+		/**
+		 * Open the state race list (StateRacesCard) for a two-letter abbr. Owned
+		 * by /control because resetting to the browse-us shell and re-selecting
+		 * the state touches the template + dataSource lifecycle. Drives both the
+		 * "States" search results and the browse-by-state grid.
+		 */
+		onbrowsestate?: (abbr: string) => void;
 	}
 
-	let { open = true, onclose }: Props = $props();
+	let { open = true, onclose, onbrowsestate }: Props = $props();
 
-	type Tab = 'templates' | 'civicapi' | 'saved';
-	let activeTab: Tab = $state('templates');
+	// Scopes, not tabs: "All" searches every corpus at once and is where the
+	// host lands. The rest narrow to one source for when they already know
+	// which they want. 'templates' / 'civicapi' / 'saved' keep their old names
+	// so persisted `pickerInitialTab` values and StateRacesCard's deep link
+	// still resolve.
+	type Scope = 'all' | 'civicapi' | 'templates' | 'saved';
+	let activeTab: Scope = $state('all');
 	let query = $state('');
 	let searchEl: HTMLInputElement | null = $state(null);
 	let highlightedId = $state<string | null>(null);
@@ -46,11 +60,11 @@
 			const seedTab = streamStore.state.ui.pickerInitialTab;
 			if (seedQuery) query = seedQuery;
 			if (seedTab) activeTab = seedTab;
-			// Reset the seeds so a subsequent plain open lands on Templates
-			// with an empty query, matching the historical Cmd+K behavior.
-			if (seedQuery || seedTab !== 'templates') {
+			// Reset the seeds so a subsequent plain open lands on the unified
+			// search with an empty query.
+			if (seedQuery || seedTab !== 'all') {
 				streamStore.state.ui.pickerQuery = '';
-				streamStore.state.ui.pickerInitialTab = 'templates';
+				streamStore.state.ui.pickerInitialTab = 'all';
 			}
 			tick().then(() => {
 				searchEl?.focus();
@@ -60,8 +74,39 @@
 		lastOpen = isOpen;
 	});
 
+	const SCOPES: Array<{ id: Scope; label: string }> = [
+		{ id: 'all', label: 'All' },
+		{ id: 'civicapi', label: 'Live' },
+		{ id: 'templates', label: 'Templates' },
+		{ id: 'saved', label: 'Saved' }
+	];
+
+	// navigator.platform is deprecated but still the most widely-shipped way to
+	// detect macOS client-side without UA parsing. Same derivation as TopBar.
+	let modKey = $derived(
+		typeof navigator !== 'undefined' && /Mac|iP(ad|od|hone)/.test(navigator.platform) ? '⌘' : 'Ctrl'
+	);
+
 	function close() {
 		onclose?.();
+	}
+
+	function browseState(abbr: string) {
+		onbrowsestate?.(abbr);
+		close();
+	}
+
+	// Re-applying a recent entry is `handleApply` with the civicAPI identity
+	// unpacked from the stored ref, so polling resumes against the original
+	// race rather than restarting it as a bare template.
+	function applyRecent(ref: RecentRaceRef, template: RaceTemplate) {
+		handleApply(
+			template,
+			ref.civicApiRaceId ?? undefined,
+			ref.civicApiTitle ?? undefined,
+			ref.subtitle ?? undefined,
+			ref.preselectCountyName ?? undefined
+		);
 	}
 
 	const hits = $derived(query ? searchTemplates(query, 60) : []);
@@ -192,95 +237,84 @@
 </script>
 
 {#if open}
-<!-- svelte-ignore a11y_click_events_have_key_events -->
-<!-- svelte-ignore a11y_no_static_element_interactions -->
-<div
-	class="picker-backdrop"
-	onclick={(e) => {
-		// Only close when clicking the backdrop itself; let clicks inside the
-		// card propagate normally (no stopPropagation at .picker-modal root).
-		if (e.target === e.currentTarget) close();
-	}}
->
-<div class="picker-modal" role="dialog" aria-modal="true" aria-label="Race picker">
-<div class="picker">
-	<div class="tabs" role="tablist">
-		<button
-			type="button"
-			role="tab"
-			aria-selected={activeTab === 'templates'}
-			class:active={activeTab === 'templates'}
-			onclick={() => (activeTab = 'templates')}
-		>
-			Templates
-		</button>
-		<button
-			type="button"
-			role="tab"
-			aria-selected={activeTab === 'civicapi'}
-			class:active={activeTab === 'civicapi'}
-			onclick={() => (activeTab = 'civicapi')}
-		>
-			civicAPI live
-		</button>
-		<button
-			type="button"
-			role="tab"
-			aria-selected={activeTab === 'saved'}
-			class:active={activeTab === 'saved'}
-			onclick={() => (activeTab = 'saved')}
-		>
-			Saved ({streamStore.state.savedRaces.bookmarked.length})
-		</button>
-	</div>
+	<!-- svelte-ignore a11y_click_events_have_key_events -->
+	<!-- svelte-ignore a11y_no_static_element_interactions -->
+	<div
+		class="picker-backdrop"
+		onclick={(e) => {
+			// Only close when clicking the backdrop itself; let clicks inside the
+			// card propagate normally (no stopPropagation at .picker-modal root).
+			if (e.target === e.currentTarget) close();
+		}}
+	>
+		<div class="picker-modal" role="dialog" aria-modal="true" aria-label="Race picker">
+			<div class="picker">
+				<div class="search-row">
+					<span class="search-icon" aria-hidden="true">⌕</span>
+					<input
+						type="search"
+						placeholder="Search a state, race, or template…"
+						aria-label="Search races"
+						bind:this={searchEl}
+						bind:value={query}
+						onkeydown={onSearchKey}
+					/>
+					<kbd class="shortcut">{modKey}+K</kbd>
+				</div>
 
-	<div class="search-row">
-		<input
-			type="search"
-			placeholder="Search races…"
-			bind:this={searchEl}
-			bind:value={query}
-			onkeydown={onSearchKey}
-		/>
-		<kbd class="shortcut">Cmd+K</kbd>
-	</div>
+				<div class="tabs" role="tablist">
+					{#each SCOPES as scope (scope.id)}
+						<button
+							type="button"
+							role="tab"
+							aria-selected={activeTab === scope.id}
+							class:active={activeTab === scope.id}
+							onclick={() => (activeTab = scope.id)}
+						>
+							{scope.label}{#if scope.id === 'saved'}
+								({streamStore.state.savedRaces.bookmarked.length}){/if}
+						</button>
+					{/each}
+				</div>
 
-	<div class="body">
-		{#if activeTab === 'templates'}
-			<TemplateList
-				{query}
-				state={streamStore.state}
-				{highlightedId}
-				onapply={(t) => handleApply(t)}
-				onapplyCivic={(t, raceId, title, subtitle, preselect) =>
-					handleApply(t, raceId, title, subtitle, preselect)}
-				onapplyRecent={(ref, t) =>
-					handleApply(
-						t,
-						ref.civicApiRaceId ?? undefined,
-						ref.civicApiTitle ?? undefined,
-						ref.subtitle ?? undefined,
-						ref.preselectCountyName ?? undefined
-					)}
-				onhover={(id) => (highlightedId = id)}
-			/>
-		{:else if activeTab === 'civicapi'}
-			<CivicApiSearch
-				{query}
-				onapply={(t, raceId, title, subtitle, preselect) =>
-					handleApply(t, raceId, title, subtitle, preselect)}
-			/>
-		{:else}
-			<SavedList
-				state={streamStore.state}
-				onload={handleLoadSaved}
-				onmutate={onSavedMutate}
-			/>
-		{/if}
+				<div class="body">
+					{#if activeTab === 'all'}
+						<FindRace
+							{query}
+							streamState={streamStore.state}
+							{highlightedId}
+							onapply={(t) => handleApply(t)}
+							onapplyCivic={(t, raceId, title, subtitle, preselect) =>
+								handleApply(t, raceId, title, subtitle, preselect)}
+							onapplyRecent={(ref, t) => applyRecent(ref, t)}
+							onbrowsestate={browseState}
+							onhover={(id) => (highlightedId = id)}
+						/>
+					{:else if activeTab === 'templates'}
+						<TemplateList
+							{query}
+							state={streamStore.state}
+							{highlightedId}
+							onapply={(t) => handleApply(t)}
+							onhover={(id) => (highlightedId = id)}
+						/>
+					{:else if activeTab === 'civicapi'}
+						<CivicApiSearch
+							{query}
+							onapply={(t, raceId, title, subtitle, preselect) =>
+								handleApply(t, raceId, title, subtitle, preselect)}
+						/>
+					{:else}
+						<SavedList
+							state={streamStore.state}
+							onload={handleLoadSaved}
+							onmutate={onSavedMutate}
+						/>
+					{/if}
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
-</div>
-</div>
 {/if}
 
 <style>
@@ -332,18 +366,35 @@
 		color: var(--color-base-content);
 		border-color: var(--color-secondary);
 	}
+	/* The query box leads, above the scope chips: the picker is a search
+	   surface first and a browser second, so the caret should be the first
+	   thing the host sees. */
 	.search-row {
+		position: relative;
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+	}
+	.search-icon {
+		position: absolute;
+		left: 0.6rem;
+		font-size: 1.1rem;
+		line-height: 1;
+		color: rgb(from var(--color-base-content) r g b / 0.5);
+		pointer-events: none;
 	}
 	input[type='search'] {
 		flex-grow: 1;
 		background: var(--color-base-300);
 		border: 1px solid var(--color-secondary);
 		color: var(--color-base-content);
-		padding: 0.5rem 0.625rem;
+		padding: 0.5rem 0.625rem 0.5rem 2rem;
 		border-radius: 0.375rem;
+		font-size: 0.95rem;
+	}
+	input[type='search']:focus {
+		outline: none;
+		border-color: var(--color-primary);
 	}
 	.shortcut {
 		font-family: ui-monospace, monospace;
@@ -358,5 +409,48 @@
 		min-height: 16rem;
 		max-height: 60vh;
 		overflow-y: auto;
+	}
+	/* Phone layout: the modal becomes a near-full-screen sheet. At 390px the
+	   6vh top inset plus a 60vh body left the results in a letterbox with
+	   dead space above and below. */
+	@media (max-width: 640px) {
+		.picker-backdrop {
+			padding: 0;
+			align-items: stretch;
+		}
+		.picker-modal {
+			width: 100%;
+			max-height: 100%;
+			border-radius: 0;
+		}
+		.picker {
+			border-radius: 0;
+			border: none;
+			padding: 0.5rem;
+		}
+		.body {
+			max-height: none;
+		}
+		.tabs {
+			/* Four scopes at thumb size overflow 390px, so let them scroll
+			   sideways rather than wrap onto a second row. */
+			overflow-x: auto;
+			scrollbar-width: none;
+		}
+		.tabs::-webkit-scrollbar {
+			display: none;
+		}
+		.tabs button {
+			flex-shrink: 0;
+			min-height: 2.25rem;
+		}
+		input[type='search'] {
+			/* Anything under 16px makes iOS Safari zoom the whole page on focus. */
+			font-size: 1rem;
+			min-height: 2.75rem;
+		}
+		.shortcut {
+			display: none;
+		}
 	}
 </style>
