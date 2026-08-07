@@ -1,4 +1,5 @@
 import { raceTier } from '../picker/raceImportance';
+import { formatTimeInZone, zoneForStateAbbr } from '../time-zone';
 import type {
 	DataSource,
 	DataSourceKind,
@@ -748,6 +749,11 @@ function normalizeRaceToPatch(r: CivicApiRaceDetail): StreamStatePatch {
 
 	const totalVotes = candidates.reduce((a, c) => a + c.votes, 0);
 
+	// civicAPI stamps the state on `province`, which makes it the most reliable
+	// source of the race's clock — better than the template the resolver picked,
+	// since that can fall back to a county map for a race it couldn't place.
+	const zone = zoneForStateAbbr(r.province);
+
 	return {
 		race: {
 			title: r.election_name,
@@ -757,14 +763,17 @@ function normalizeRaceToPatch(r: CivicApiRaceDetail): StreamStatePatch {
 					? `${r.percent_reporting >= 95 ? '>95' : r.percent_reporting.toFixed(1)}%`
 					: null,
 			totalVotes: totalVotes > 0 ? totalVotes : null,
+			// `polls_close` is an absolute instant, so which zone it reads in is
+			// purely a presentation choice — and the only useful one is the one the
+			// polls actually closed in. A Kentucky 6 PM close captioned "4:00 PM
+			// MDT" for a host in Denver is a true statement nobody can use.
 			pollsCloseLabel: r.polls_close
-				? `Polls close ${new Date(r.polls_close).toLocaleTimeString('en-US', {
-						hour: 'numeric',
-						minute: '2-digit',
-						timeZoneName: 'short'
-					})}`
+				? `Polls close ${formatTimeInZone(new Date(r.polls_close), zone)}`
 				: '',
-			dateLabel: r.election_date ? formatElectionDate(r.election_date) : ''
+			dateLabel: r.election_date ? formatElectionDate(r.election_date) : '',
+			// Only when known. `Object.assign` on the live patch would otherwise
+			// overwrite a zone the template got right with `undefined`.
+			...(zone ? { timeZone: zone } : {})
 		},
 		candidates,
 		regions,

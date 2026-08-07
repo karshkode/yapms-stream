@@ -18,7 +18,14 @@ export const RaceMeta = z.object({
 	decisionMadeLabel: z.string().nullable().default(null),
 	reportedPctLabel: z.string().nullable().default(null),
 	reportedPct: z.number().min(0).max(100).nullable().default(null),
-	totalVotes: z.number().int().nonnegative().nullable().default(null)
+	totalVotes: z.number().int().nonnegative().nullable().default(null),
+	/**
+	 * IANA zone the election is being held in, which is the clock the overlay
+	 * captions itself with. Null for a national race, or when the race's state
+	 * couldn't be identified, in which case the host's own clock is used — the
+	 * behaviour everything had before this field existed. See lib/time-zone.ts.
+	 */
+	timeZone: z.string().nullable().default(null)
 });
 export type RaceMeta = z.infer<typeof RaceMeta>;
 

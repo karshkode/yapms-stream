@@ -1,4 +1,5 @@
 import type { RaceTemplate } from '../race-profile';
+import { zoneForStateAbbr } from '../time-zone';
 import { FULL_SECTIONS, RESULTS_ONLY } from './defaults';
 import { STATES_BY_ABBR } from './states';
 
@@ -91,6 +92,7 @@ export function makeUsHouseTemplate(params: UsHouseParams): RaceTemplate {
 		},
 		seed: {
 			title: `US House ${params.stateAbbr.toUpperCase()}-${params.districtNumber}`,
+			timeZone: zoneForStateAbbr(params.stateAbbr) ?? undefined,
 			candidates: [],
 			regions: [],
 			performance: []

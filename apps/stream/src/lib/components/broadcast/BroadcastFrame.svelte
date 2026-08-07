@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import { streamStore } from '$lib/stream-store.svelte';
+	import { formatTimeInZone } from '$lib/time-zone';
 	import RaceTicker from './RaceTicker.svelte';
 
 	/**
@@ -31,18 +32,21 @@
 	const headline = $derived(config.headline.trim() || streamState.race.title || 'Election results');
 
 	// Wall clock in the banner corner, the way every results broadcast carries
-	// one. Formatted on a 1s tick.
+	// one — and on the election's clock, not the desk's. Everything else in the
+	// banner is already in local election time: the polls-close label, the
+	// "we're expecting Wayne around 10" the host says over it. A desk run from
+	// another zone that captions itself in its own is the one element on screen
+	// telling the audience the wrong time about their own election.
+	//
+	// Read reactively so the clock switches zones the moment a race loads,
+	// rather than at the next tick.
+	const zone = $derived(streamState.race.timeZone);
 	let clock = $state('');
 	$effect(() => {
-		const tick = () => {
-			// Local scratch instance for formatting, not reactive state — the
-			// formatted string is what the banner reads.
-			clock = new Date().toLocaleTimeString('en-US', {
-				hour: 'numeric',
-				minute: '2-digit',
-				timeZoneName: 'short'
-			});
-		};
+		const inZone = zone;
+		// Local scratch instance for formatting, not reactive state — the
+		// formatted string is what the banner reads.
+		const tick = () => (clock = formatTimeInZone(new Date(), inZone));
 		tick();
 		const id = setInterval(tick, 1000);
 		return () => clearInterval(id);

@@ -1,11 +1,18 @@
 <script lang="ts">
 	import type { StreamState } from '../stream-state';
+	import { formatTimeInZone, TIME_ZONE_CHOICES } from '../time-zone';
 
 	interface Props {
 		state: StreamState;
 	}
 
 	let { state }: Props = $props();
+
+	// Preview the clock the overlay will show, because the whole point of the
+	// field is that it may not be the time on the host's own wall — so "Central"
+	// alone doesn't confirm they picked the right one, but "9:41 PM CDT" does.
+	// Only needs to be right to the minute the host is looking at it.
+	const clockPreview = $derived(formatTimeInZone(new Date(), state.race.timeZone));
 </script>
 
 <section class="race-card p-4">
@@ -49,6 +56,24 @@
 				bind:value={state.race.pollsCloseLabel}
 				oninput={() => (state.ui.dirty = true)}
 			/>
+		</label>
+		<label class="field">
+			Overlay clock — {clockPreview}
+			<select
+				value={state.race.timeZone ?? ''}
+				onchange={(e) => {
+					state.race.timeZone = (e.currentTarget as HTMLSelectElement).value || null;
+					state.ui.dirty = true;
+				}}
+			>
+				<!-- Loading a race sets this from its state, so the override is only
+				     for the fourteen states split across two zones and for a race the
+				     resolver couldn't place. -->
+				<option value="">This computer</option>
+				{#each TIME_ZONE_CHOICES as choice (choice.zone)}
+					<option value={choice.zone}>{choice.label}</option>
+				{/each}
+			</select>
 		</label>
 		<label class="field">
 			#DecisionMade label
@@ -129,7 +154,8 @@
 		color: rgb(from var(--color-base-content) r g b / 0.65);
 	}
 	input[type='text'],
-	input[type='number'] {
+	input[type='number'],
+	select {
 		background: var(--color-base-300);
 		border: 1px solid var(--color-secondary);
 		color: var(--color-base-content);
