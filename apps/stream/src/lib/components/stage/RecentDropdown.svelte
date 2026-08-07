@@ -230,6 +230,27 @@
 		flex-direction: column;
 		gap: 0.5rem;
 	}
+	/* Phone layout. The 22rem floor is wider than the screen, and anchoring
+	   the menu to the button doesn't work once the toolbar wraps and the
+	   button can sit anywhere on any row. Detach it into a bottom sheet so
+	   it always fits and always appears in the same place. */
+	@media (max-width: 640px) {
+		.menu {
+			position: fixed;
+			top: auto;
+			left: 0.5rem;
+			right: 0.5rem;
+			bottom: 0.5rem;
+			min-width: 0;
+			max-width: none;
+			max-height: 60vh;
+			max-height: 60dvh;
+		}
+		.recent-btn {
+			min-height: 2.25rem;
+			padding-inline: 0.7rem;
+		}
+	}
 	.section {
 		display: flex;
 		flex-direction: column;

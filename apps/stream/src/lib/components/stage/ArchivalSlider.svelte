@@ -92,4 +92,23 @@
 		background: #16a34a;
 		color: #fff;
 	}
+	/* Six pills at ~2.9rem each overrun a phone's width on their own. Let the
+	   pill row scroll sideways rather than wrap mid-control or push the rest
+	   of the toolbar off-screen, and keep the track shape intact. */
+	@media (max-width: 640px) {
+		.archival-slider {
+			display: flex;
+			max-width: 100%;
+			overflow-x: auto;
+			scrollbar-width: none;
+		}
+		.archival-slider::-webkit-scrollbar {
+			display: none;
+		}
+		.stop {
+			padding: 0.4rem 0.6rem;
+			font-size: 0.78rem;
+			flex: 0 0 auto;
+		}
+	}
 </style>

@@ -119,7 +119,10 @@
 	}
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		/* auto-fit rather than a fixed 3 columns so the fields reflow to two
+		   and then one as the drawer narrows, instead of squeezing three
+		   unusable inputs into a phone width. */
+		grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
 		gap: 0.5rem;
 	}
 	.field {

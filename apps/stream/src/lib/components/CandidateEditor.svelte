@@ -175,4 +175,44 @@
 		color: rgb(from var(--color-base-content) r g b / 0.5);
 		padding: 0.75rem;
 	}
+	/* Phone layout. Seven columns in a ~360px drawer leaves the name field
+	   about four characters wide, so the row becomes a wrapping stack: name
+	   on its own line, then the colour / party / votes controls and the two
+	   flags flowing beneath it. */
+	@media (max-width: 640px) {
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.4rem 0.5rem;
+			padding: 0.5rem;
+		}
+		input.name {
+			flex: 1 1 100%;
+			min-width: 0;
+			min-height: 2.25rem;
+		}
+		input.votes {
+			/* Grows into the leftover space instead of holding a fixed 6rem. */
+			flex: 1 1 5rem;
+			width: auto;
+			min-height: 2.25rem;
+		}
+		input.party {
+			min-height: 2.25rem;
+		}
+		input[type='color'] {
+			width: 2.5rem;
+			height: 2.25rem;
+		}
+		.toggle {
+			font-size: 0.75rem;
+		}
+		button.danger {
+			/* Pushed to the trailing edge so it isn't adjacent to the flags
+			   a thumb is aiming for. */
+			margin-left: auto;
+			padding: 0.25rem 0.6rem;
+			font-size: 1.15rem;
+		}
+	}
 </style>

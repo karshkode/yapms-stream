@@ -51,6 +51,10 @@
 html,
 body {
 	background: var(--color-base-100);
+	/* Both routes are fixed-viewport apps with their own internal scrolling,
+	   so a downward drag has nothing to scroll and mobile browsers would
+	   turn it into pull-to-refresh — reloading the desk mid-broadcast. */
+	overscroll-behavior: none;
 }
 
 .overlay-transparent,
