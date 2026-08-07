@@ -23,7 +23,12 @@
 
 	let results = $state<RaceListEntry[]>([]);
 	let loading = $state(false);
+	// `error` is for a request that actually failed; `emptyNote` is for one that
+	// succeeded and found nothing. They render differently because "no Kentucky
+	// races this week" is a normal answer, and showing it in error red next to a
+	// perfectly good State result made the search look broken.
 	let error = $state<string | null>(null);
+	let emptyNote = $state<string | null>(null);
 	let debounceHandle: ReturnType<typeof setTimeout> | null = null;
 	// Time-range filter mirrors the StateRacesCard control: lets the host
 	// flip between today-forward races (race-night prep) and the past 90
@@ -48,6 +53,7 @@
 		debounceHandle = setTimeout(async () => {
 			loading = true;
 			error = null;
+			emptyNote = null;
 			try {
 				const fetched = await civicApi.searchRaces(q, range);
 				// Race-condition guard: a newer keystroke / range flip may
@@ -60,17 +66,17 @@
 				if (q !== query || range !== timeRange) return;
 				results = fetched;
 				if (results.length === 0) {
-					error = q
-						? `No civicAPI match for '${q}' in this range`
+					emptyNote = q
+						? `No live race matching '${q}' in this range. Try Recent or All.`
 						: range === 'upcoming'
-							? 'No upcoming civicAPI races right now. Try Recent for past results.'
+							? 'No upcoming races right now. Try Recent for past results.'
 							: range === 'recent'
-								? 'No recent civicAPI results in the past 90 days.'
-								: 'No civicAPI races available.';
+								? 'No results in the past 90 days.'
+								: 'No races available.';
 				}
 			} catch (err) {
 				if (q !== query || range !== timeRange) return;
-				error = 'civicAPI unreachable. Templates and Saved tabs still work.';
+				error = 'civicAPI unreachable. Templates and Saved still work.';
 				results = [];
 				console.warn(err);
 			} finally {
@@ -85,6 +91,9 @@
 	// together), and the divider makes the long list scannable.
 	type Group = { date: string; label: string; entries: RaceListEntry[] };
 	let grouped = $derived.by<Group[]>(() => {
+		// Scratch bucket, rebuilt from `results` on every recompute and never read
+		// after this function returns, so it needs no reactivity of its own.
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity
 		const byDate = new Map<string, RaceListEntry[]>();
 		for (const r of results) {
 			const key = r.date || '';
@@ -107,6 +116,8 @@
 		const now = new Date();
 		const todayIso = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 		if (iso === todayIso) return 'Today';
+		// Local to this formatting call — nothing renders it directly.
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity
 		const tomorrow = new Date();
 		tomorrow.setDate(tomorrow.getDate() + 1);
 		const tomorrowIso = `${tomorrow.getFullYear()}-${String(tomorrow.getMonth() + 1).padStart(2, '0')}-${String(tomorrow.getDate()).padStart(2, '0')}`;
@@ -131,11 +142,7 @@
 			// the Recent entry can distinguish "Yorktown Town Council"
 			// (Delaware IN) from the dozens of other township races on the
 			// same day.
-			const subtitle = [
-				entry.date,
-				entry.state,
-				entry.municipality ?? entry.district
-			]
+			const subtitle = [entry.date, entry.state, entry.municipality ?? entry.district]
 				.filter(Boolean)
 				.join(' · ');
 			onapply(
@@ -172,6 +179,8 @@
 		<p class="hint">Searching civicAPI…</p>
 	{:else if error}
 		<p class="error">{error}</p>
+	{:else if emptyNote}
+		<p class="hint muted">{emptyNote}</p>
 	{:else}
 		{#if !query}
 			<p class="hint muted">
@@ -198,7 +207,8 @@
 									{r.state ?? '—'}{#if r.district}
 										· {r.district}{#if r.municipality && r.municipality !== r.district}
 											/ {r.municipality}{/if} Co.{:else if r.municipality}
-										· {r.municipality}{/if} · {r.candidateCount ?? 0} candidates · {r.reportingStatus ?? 'Pre'}
+										· {r.municipality}{/if} · {r.candidateCount ?? 0} candidates · {r.reportingStatus ??
+										'Pre'}
 								</span>
 							</div>
 							<button type="button" onclick={() => load(r)}>Load + start polling</button>
@@ -233,7 +243,9 @@
 		font-size: 0.78rem;
 		font-weight: 600;
 		cursor: pointer;
-		transition: background 120ms ease, color 120ms ease;
+		transition:
+			background 120ms ease,
+			color 120ms ease;
 	}
 	.range-btn + .range-btn {
 		border-left: 1px solid rgb(from var(--color-secondary) r g b / 0.4);
@@ -320,5 +332,23 @@
 		border-radius: 0.25rem;
 		font-size: 0.75rem;
 		cursor: pointer;
+	}
+	@media (max-width: 640px) {
+		/* A race title and a "Load + start polling" button don't fit on one
+		   390px line, so the button drops under the title at full width — which
+		   also makes it a proper thumb target instead of a 20px sliver. */
+		li {
+			flex-direction: column;
+			align-items: stretch;
+			gap: 0.4rem;
+		}
+		li button {
+			width: 100%;
+			min-height: 2.25rem;
+			font-size: 0.8rem;
+		}
+		.range-btn {
+			min-height: 2.25rem;
+		}
 	}
 </style>

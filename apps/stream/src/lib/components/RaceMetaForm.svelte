@@ -13,11 +13,7 @@
 	<div class="grid">
 		<label class="field">
 			Title
-			<input
-				type="text"
-				bind:value={state.race.title}
-				oninput={() => (state.ui.dirty = true)}
-			/>
+			<input type="text" bind:value={state.race.title} oninput={() => (state.ui.dirty = true)} />
 		</label>
 		<label class="field">
 			Party badge letter
@@ -147,5 +143,11 @@
 		background: transparent;
 		border: 1px solid var(--color-secondary);
 		border-radius: 0.25rem;
+	}
+	@media (max-width: 640px) {
+		/* Matches the swatch in CandidateEditor; 1.75rem is under a thumb. */
+		input[type='color'] {
+			height: 2.25rem;
+		}
 	}
 </style>

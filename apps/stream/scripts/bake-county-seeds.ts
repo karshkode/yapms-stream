@@ -112,7 +112,9 @@ const STATES: Array<{ fips: string; name: string }> = [
 	{ fips: '56', name: 'Wyoming' }
 ];
 
-async function extractCountiesFromSvg(): Promise<Map<string, { name: string; regionAttr: string }[]>> {
+async function extractCountiesFromSvg(): Promise<
+	Map<string, { name: string; regionAttr: string }[]>
+> {
 	const svgText = await fs.readFile(COUNTIES_SVG, 'utf-8');
 	const dom = new JSDOM(svgText, { contentType: 'image/svg+xml' });
 	const byState = new Map<string, { name: string; regionAttr: string }[]>();
@@ -152,7 +154,6 @@ function parseLastPresMarginPerState(
 	const iCand = col('candidate');
 	const iParty = col('party');
 	const iVotes = col('candidatevotes');
-	const iTotal = col('totalvotes');
 
 	const byStateYear = new Map<string, Map<string, Map<string, number>>>();
 	for (let i = 1; i < lines.length; i++) {
@@ -183,8 +184,10 @@ function parseLastPresMarginPerState(
 		if (!winner || total === 0) continue;
 		const [party, name] = winner.split('|');
 		const margin = ((winnerVotes - runnerUpVotes) / total) * 100;
-		const partyColor = party === 'REPUBLICAN' ? '#BF1D29' : party === 'DEMOCRAT' ? '#1B6CB0' : '#6B7280';
-		const partyLetter = party === 'REPUBLICAN' ? 'Trump' : party === 'DEMOCRAT' ? name.split(' ').pop() : party[0];
+		const partyColor =
+			party === 'REPUBLICAN' ? '#BF1D29' : party === 'DEMOCRAT' ? '#1B6CB0' : '#6B7280';
+		const partyLetter =
+			party === 'REPUBLICAN' ? 'Trump' : party === 'DEMOCRAT' ? name.split(' ').pop() : party[0];
 		out.set(stateFips, {
 			label: `${partyLetter}+${margin.toFixed(1)}%`,
 			color: partyColor,

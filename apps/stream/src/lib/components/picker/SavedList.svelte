@@ -15,8 +15,8 @@
 <div class="saved">
 	{#if state.savedRaces.bookmarked.length === 0}
 		<p class="empty">
-			Load a template, edit candidates, then click "Save current race" below to
-			bookmark it for election night.
+			Load a template, edit candidates, then click "Save current race" below to bookmark it for
+			election night.
 		</p>
 	{:else}
 		<ul class="list">

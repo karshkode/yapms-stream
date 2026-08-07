@@ -53,6 +53,7 @@ function buildStatewide(stateFips: string, stateName: string, stateAbbr: string)
 				evr: 0,
 				reportedPct: 0,
 				totalReg: c.totalReg,
+				candidateVotes: {},
 				// Forward the baked multi-year archival baselines (2008-2024).
 				// The slider in /control picks which year paints the map.
 				archivalByYear: c.archivalByYear ?? {}

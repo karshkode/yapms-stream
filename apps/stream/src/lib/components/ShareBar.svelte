@@ -7,7 +7,12 @@
 
 	let { candidates }: Props = $props();
 
-	const total = $derived(Math.max(candidates.reduce((a, c) => a + c.votes, 0), 1));
+	const total = $derived(
+		Math.max(
+			candidates.reduce((a, c) => a + c.votes, 0),
+			1
+		)
+	);
 	const visible = $derived(candidates.filter((c) => !c.hidden));
 </script>
 

@@ -97,7 +97,12 @@ function derivePreselectCounty(entry: RaceListEntry): string | null {
 	// wards, seats, ballot-measure shorthand. These would just fail the
 	// fuzzy match anyway, but rejecting them here lets step 2 (title parse)
 	// fire instead of being skipped.
-	if (fromDistrict && !/(precinct|ward|seat|position|place|district|at\s?-?large|proposition|amendment|measure)\s*\d*/i.test(fromDistrict)) {
+	if (
+		fromDistrict &&
+		!/(precinct|ward|seat|position|place|district|at\s?-?large|proposition|amendment|measure)\s*\d*/i.test(
+			fromDistrict
+		)
+	) {
 		return fromDistrict;
 	}
 	const fromTitle = extractCountyFromTitle(entry.title);
@@ -121,9 +126,10 @@ function derivePreselectCounty(entry: RaceListEntry): string | null {
 function extractCountyFromTitle(title: string): string | null {
 	// Accept letters, spaces, periods, hyphens, apostrophes in the county
 	// name. Lazy match so we stop at the first " County " occurrence.
-	const m = /^([A-Za-z\u00c0-\u024f][A-Za-z\u00c0-\u024f.\-'\s]*?)\s+County\s+(commissioner|sheriff|judge|clerk|assessor|treasurer|recorder|auditor|attorney|coroner|surveyor|constable|executive|mayor|board|council|court|supervisor|comptroller|prosecutor|district\s+attorney|superintendent)/i.exec(
-		title
-	);
+	const m =
+		/^([A-Za-z\u00c0-\u024f][A-Za-z\u00c0-\u024f.\-'\s]*?)\s+County\s+(commissioner|sheriff|judge|clerk|assessor|treasurer|recorder|auditor|attorney|coroner|surveyor|constable|executive|mayor|board|council|court|supervisor|comptroller|prosecutor|district\s+attorney|superintendent)/i.exec(
+			title
+		);
 	if (!m) return null;
 	return m[1].trim();
 }
@@ -214,7 +220,10 @@ export function findRegionAttrByName(
 	countyName: string
 ): string | null {
 	const normalize = (s: string) =>
-		s.toLowerCase().replace(/\./g, '').replace(/[^a-z0-9]+/g, '');
+		s
+			.toLowerCase()
+			.replace(/\./g, '')
+			.replace(/[^a-z0-9]+/g, '');
 	const target = normalize(countyName);
 	if (!target) return null;
 
@@ -241,8 +250,7 @@ function detectStateLeg(title: string): { chamber: 'lower' | 'upper'; district: 
 	// Regexes are order-sensitive: check upper first so we don't mistake
 	// "state senate" for "state house".
 	const upperMatch =
-		/state\s+senate\s+(?:district\s+)?(\d+)/i.exec(title) ??
-		/\bsd[\s-]?(\d+)\b/i.exec(title);
+		/state\s+senate\s+(?:district\s+)?(\d+)/i.exec(title) ?? /\bsd[\s-]?(\d+)\b/i.exec(title);
 	if (upperMatch) return { chamber: 'upper', district: upperMatch[1] };
 
 	const lowerMatch =

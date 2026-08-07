@@ -39,8 +39,7 @@
 			// Toggle selection when the same region is re-clicked so the host can
 			// dismiss without aiming at empty space. The RegionsTable reacts via a
 			// pure-derived `forcedPage` so we don't have to reset regionsPage here.
-			streamStore.state.ui.selectedRegionAttr =
-				state.ui.selectedRegionAttr === attr ? null : attr;
+			streamStore.state.ui.selectedRegionAttr = state.ui.selectedRegionAttr === attr ? null : attr;
 		}}
 		onregionsextracted={(rows) => {
 			// Only fill in regions when the template didn't seed any; otherwise

@@ -64,7 +64,10 @@ export const UiState = z.object({
 	// state without making the host re-type the state name. Cleared by the
 	// picker's onclose so the next plain Cmd+K open is a clean slate.
 	pickerQuery: z.string().default(''),
-	pickerInitialTab: z.enum(['templates', 'civicapi', 'saved']).default('templates'),
+	// 'all' is the unified search across states, live civicAPI races and
+	// templates, and the default the picker opens on. The narrower scopes keep
+	// their original names so a persisted value still resolves.
+	pickerInitialTab: z.enum(['all', 'templates', 'civicapi', 'saved']).default('all'),
 	pipVisible: z.boolean().default(true),
 	// Default bottom-left so the PiP doesn't stomp the bottom-right map
 	// controls (zoom / reset / cities). Host can still cycle corners via
@@ -88,10 +91,7 @@ export const UiState = z.object({
 	// Archival time-slider position. null = live-only (map paints live data
 	// or NEUTRAL). A year string like "2024" paints the map from that year's
 	// archivalByYear snapshot when live data is absent for a region.
-	archivalYear: z
-		.enum(['2008', '2012', '2016', '2020', '2024'])
-		.nullable()
-		.default(null),
+	archivalYear: z.enum(['2008', '2012', '2016', '2020', '2024']).nullable().default(null),
 	// When true, clicking a state on a `regionLabel === 'States'` map opens
 	// the StateRacesCard instead of zooming into that state. Toggleable from
 	// the stage panel in a future iteration; default on because it matches

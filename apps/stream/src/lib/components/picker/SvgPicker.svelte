@@ -54,15 +54,10 @@
 </script>
 
 <div class="svg-picker">
-	<input
-		type="search"
-		placeholder="Filter SVG filename..."
-		bind:value={search}
-	/>
+	<input type="search" placeholder="Filter SVG filename..." bind:value={search} />
 	<p class="hint">
-		Power-user fallback for races nobody templated. Picking an SVG stamps a
-		minimal profile — the host enters candidates, region results, and meta
-		from scratch.
+		Power-user fallback for races nobody templated. Picking an SVG stamps a minimal profile — the
+		host enters candidates, region results, and meta from scratch.
 	</p>
 	<div class="list">
 		{#each filtered as svg (svg)}

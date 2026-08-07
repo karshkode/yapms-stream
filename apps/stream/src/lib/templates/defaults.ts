@@ -59,7 +59,10 @@ const seedByFips = new Map<string, StateSeed>();
 for (const [path, mod] of Object.entries(seedGlob)) {
 	const match = /state-(\d{2})\.json$/.exec(path);
 	if (match) {
-		seedByFips.set(match[1], (mod as unknown as { default?: StateSeed }).default ?? (mod as StateSeed));
+		seedByFips.set(
+			match[1],
+			(mod as unknown as { default?: StateSeed }).default ?? (mod as StateSeed)
+		);
 	}
 }
 

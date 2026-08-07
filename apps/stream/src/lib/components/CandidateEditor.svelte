@@ -74,20 +74,11 @@
 				     component whose fixed 40x24 box was overriding this label's
 				     intrinsic width and clipping the caption. -->
 				<label class="flag">
-					<input
-						type="radio"
-						name="called"
-						checked={c.called}
-						onchange={() => markCalled(c.id)}
-					/>
+					<input type="radio" name="called" checked={c.called} onchange={() => markCalled(c.id)} />
 					Called
 				</label>
 				<label class="flag">
-					<input
-						type="checkbox"
-						bind:checked={c.hidden}
-						onchange={() => (state.ui.dirty = true)}
-					/>
+					<input type="checkbox" bind:checked={c.hidden} onchange={() => (state.ui.dirty = true)} />
 					Hidden
 				</label>
 				<button type="button" class="danger" onclick={() => remove(c.id)}>×</button>

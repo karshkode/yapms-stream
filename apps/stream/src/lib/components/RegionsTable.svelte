@@ -1,5 +1,4 @@
 <script lang="ts">
-	import type { RegionResult } from '../race-profile';
 	import type { StreamState } from '../stream-state';
 
 	interface Props {
@@ -20,9 +19,7 @@
 
 	const filtered = $derived.by(() => {
 		const q = state.ui.regionsSearch.trim().toLowerCase();
-		return q
-			? state.regions.filter((r) => r.name.toLowerCase().includes(q))
-			: state.regions;
+		return q ? state.regions.filter((r) => r.name.toLowerCase().includes(q)) : state.regions;
 	});
 
 	const sorted = $derived.by(() => {
@@ -96,9 +93,7 @@
 		</div>
 
 		{#each rows as r (r.regionAttr)}
-			{@const leader = r.leaderId
-				? state.candidates.find((c) => c.id === r.leaderId)
-				: undefined}
+			{@const leader = r.leaderId ? state.candidates.find((c) => c.id === r.leaderId) : undefined}
 			{@const isSelected = state.ui.selectedRegionAttr === r.regionAttr}
 			<button
 				type="button"

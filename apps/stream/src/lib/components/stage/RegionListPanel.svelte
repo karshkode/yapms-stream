@@ -26,12 +26,16 @@
 	 * the same way it would if the host clicked the map.
 	 */
 
-	const state = $derived(streamStore.state);
+	// Named `streamState` rather than `state`: a local `state` binding makes
+	// Svelte 5 read every `$state(...)` in the file as a store subscription on
+	// it, which is why `query` below fails to type-check. Same workaround the
+	// rest of the stage components use (TopBar, FormsDrawer, StateRacesCard).
+	const streamState = $derived(streamStore.state);
 
 	// Geography label drives the heading. "Counties" / "Districts" /
 	// "States" — taken from the active profile, falls back to "Regions"
 	// for the shell-load window before any race is selected.
-	const label = $derived(state.profile?.geography?.regionLabel ?? 'Regions');
+	const label = $derived(streamState.profile?.geography?.regionLabel ?? 'Regions');
 
 	let query = $state('');
 
@@ -44,8 +48,8 @@
 	const filtered = $derived.by(() => {
 		const q = query.trim().toLowerCase();
 		const rows = q
-			? state.regions.filter((r) => r.name.toLowerCase().includes(q))
-			: state.regions;
+			? streamState.regions.filter((r) => r.name.toLowerCase().includes(q))
+			: streamState.regions;
 		return [...rows].sort((a, b) => a.name.localeCompare(b.name));
 	});
 
@@ -55,21 +59,22 @@
 	// counties" at a glance.
 	function leaderColor(leaderId: string | null): string | null {
 		if (!leaderId) return null;
-		const c = state.candidates.find((cand) => cand.id === leaderId);
+		const c = streamState.candidates.find((cand) => cand.id === leaderId);
 		return c?.partyColor ?? null;
 	}
 
 	function onPick(regionAttr: string) {
 		// Toggle: re-clicking the selected region dismisses, matching the
 		// map's click-to-deselect ergonomics.
-		const next = state.ui.selectedRegionAttr === regionAttr ? null : regionAttr;
+		const next = streamState.ui.selectedRegionAttr === regionAttr ? null : regionAttr;
 		streamStore.state.ui.selectedRegionAttr = next;
 
-		// On a phone this panel covers the whole stage (see the max-width:640px
-		// block below), so leaving it open would hide the very map zoom and
-		// detail sheet the pick just triggered. Collapse it so the result is
-		// visible; the handle re-opens it for the next lookup. Desktop keeps
-		// the panel open because there it sits beside the map, not over it.
+		// On a phone this panel is a bottom sheet occupying the same band as the
+		// region detail sheet (see the max-width:640px block below), so leaving
+		// it open would bury the very detail card the pick just opened.
+		// Collapse it so the result is visible; the handle re-opens it for the
+		// next lookup. Desktop keeps the panel open because there it sits
+		// beside the map, not over it.
 		if (next && typeof window !== 'undefined') {
 			if (window.matchMedia('(max-width: 640px)').matches) {
 				streamStore.state.ui.regionListOpen = false;
@@ -78,19 +83,38 @@
 	}
 
 	function toggleOpen() {
-		streamStore.state.ui.regionListOpen = !state.ui.regionListOpen;
+		streamStore.state.ui.regionListOpen = !streamState.ui.regionListOpen;
 	}
+
+	// `regionListOpen` persists and defaults to true, which is right on a
+	// desktop where the panel is a 14rem column beside the map. On a phone the
+	// panel is a bottom sheet, so defaulting it open means the host lands on
+	// /control with the lower half of the map covered by a region list they
+	// never asked for — and on the browse-us home map that list is just the 50
+	// states they can already see. Start collapsed on narrow viewports (and
+	// collapse again if the window is resized down) so the map is the first
+	// thing they touch; the handle re-opens it for a by-name lookup.
+	$effect(() => {
+		if (typeof window === 'undefined') return;
+		const mq = window.matchMedia('(max-width: 640px)');
+		const collapseIfNarrow = () => {
+			if (mq.matches) streamStore.state.ui.regionListOpen = false;
+		};
+		collapseIfNarrow();
+		mq.addEventListener('change', collapseIfNarrow);
+		return () => mq.removeEventListener('change', collapseIfNarrow);
+	});
 </script>
 
-{#if state.regions.length > 0}
-	{#if state.ui.regionListOpen}
+{#if streamState.regions.length > 0}
+	{#if streamState.ui.regionListOpen}
 		<aside class="panel" aria-label="{label} list">
 			<header class="head">
 				<div class="title">
 					<h3>{label}</h3>
 					<span class="count">
-						{filtered.length}{#if filtered.length !== state.regions.length}
-							/{state.regions.length}{/if}
+						{filtered.length}{#if filtered.length !== streamState.regions.length}
+							/{streamState.regions.length}{/if}
 					</span>
 				</div>
 				<button
@@ -103,15 +127,10 @@
 					‹
 				</button>
 			</header>
-			<input
-				class="search"
-				type="search"
-				placeholder="Filter…"
-				bind:value={query}
-			/>
+			<input class="search" type="search" placeholder="Filter…" bind:value={query} />
 			<ul class="rows">
 				{#each filtered as r (r.regionAttr)}
-					{@const isSelected = state.ui.selectedRegionAttr === r.regionAttr}
+					{@const isSelected = streamState.ui.selectedRegionAttr === r.regionAttr}
 					{@const color = leaderColor(r.leaderId)}
 					<li>
 						<button
@@ -124,7 +143,9 @@
 							<span
 								class="dot"
 								style:background={color ?? 'transparent'}
-								style:border={color ? '0' : '1px solid rgb(from var(--color-base-content) r g b / 0.25)'}
+								style:border={color
+									? '0'
+									: '1px solid rgb(from var(--color-base-content) r g b / 0.25)'}
 							></span>
 							<span class="name">{r.name}</span>
 							{#if r.reportedPct > 0}
@@ -314,18 +335,24 @@
 		font-size: 0.85rem;
 		line-height: 1;
 	}
-	/* Phone layout. A 14rem column beside the map doesn't fit next to
-	   anything at 390px, so the open panel becomes a full-stage picker:
-	   the host taps the handle, finds the region, taps it, and `onPick`
-	   collapses back to the map. Rows get taller for thumbs. */
+	/* Phone layout. A 14rem column beside the map doesn't fit next to anything
+	   at 390px, so the open panel becomes a bottom sheet instead: it takes the
+	   lower part of the stage and leaves the map visible — and, critically,
+	   still tappable — above it. An earlier revision stretched this to all four
+	   edges, which made the panel a full-stage cover and meant the map could
+	   not be touched at all while it was open. Rows get taller for thumbs. */
 	@media (max-width: 640px) {
 		.panel {
-			top: 0.5rem;
-			left: 0.5rem;
-			right: 0.5rem;
-			bottom: 0.5rem;
+			top: auto;
+			left: 0;
+			right: 0;
+			bottom: 0;
 			width: auto;
-			/* Above the detail sheet (z-index 4) so the picker is unobstructed
+			max-height: 60%;
+			border-inline: none;
+			border-bottom: none;
+			border-radius: 0.75rem 0.75rem 0 0;
+			/* Above the detail sheet (z-index 4) so the list is unobstructed
 			   while it's open. */
 			z-index: 6;
 		}
@@ -341,9 +368,11 @@
 			min-height: 2.25rem;
 		}
 		.handle {
-			/* Stays in the upper half, just under the tab strip. Anchoring it
-			   to the bottom would put it on top of the detail sheet. */
-			top: 3rem;
+			/* Stays in the upper half, sharing the row that starts below the tab
+			   strip with the map's zoom controls at the other end. Anchoring it
+			   to the bottom would put it on top of the detail sheet, and at
+			   3rem it tucked under the strip's bottom edge. */
+			top: 4.25rem;
 			left: 0.5rem;
 			min-height: 2.25rem;
 			padding-inline: 0.7rem;

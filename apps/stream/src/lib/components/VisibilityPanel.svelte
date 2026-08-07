@@ -77,7 +77,9 @@
 		border: 1px solid rgb(from var(--color-secondary) r g b / 0.5);
 		border-radius: 0.5rem;
 		cursor: pointer;
-		transition: background 120ms ease, border-color 120ms ease;
+		transition:
+			background 120ms ease,
+			border-color 120ms ease;
 	}
 	.vis-row:hover {
 		background: rgb(from var(--color-base-200) r g b / 0.9);
@@ -102,7 +104,9 @@
 		border: 1px solid rgb(from var(--color-secondary) r g b / 0.7);
 		border-radius: 999px;
 		flex-shrink: 0;
-		transition: background 150ms ease, border-color 150ms ease;
+		transition:
+			background 150ms ease,
+			border-color 150ms ease;
 	}
 	.thumb {
 		position: absolute;
@@ -113,7 +117,9 @@
 		background: #e5e7eb;
 		border-radius: 50%;
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
-		transition: transform 150ms ease, background 150ms ease;
+		transition:
+			transform 150ms ease,
+			background 150ms ease;
 	}
 	.vis-row input:checked ~ .track {
 		background: var(--color-primary);

@@ -41,9 +41,6 @@
 		cursor: pointer;
 		text-align: left;
 	}
-	.row + .row {
-		margin-top: 0.25rem;
-	}
 	.row:hover,
 	.row.highlighted {
 		background: var(--color-base-300);
@@ -69,5 +66,17 @@
 	.cta {
 		font-size: 0.75rem;
 		color: var(--color-primary);
+	}
+	@media (max-width: 640px) {
+		.row {
+			/* The category badge takes a third of a 390px row, which wrapped
+			   every "Connecticut — Statewide" onto two lines. The category
+			   heading these rows sit under already says what they are. */
+			grid-template-columns: 1fr auto;
+			min-height: 2.5rem;
+		}
+		.category {
+			display: none;
+		}
 	}
 </style>

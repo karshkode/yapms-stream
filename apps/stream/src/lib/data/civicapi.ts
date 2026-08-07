@@ -1,10 +1,5 @@
 import { raceTier } from '../picker/raceImportance';
-import type {
-	DataSource,
-	DataSourceKind,
-	RaceListEntry,
-	StreamStatePatch
-} from './source';
+import type { DataSource, DataSourceKind, RaceListEntry, StreamStatePatch } from './source';
 
 /**
  * How a search/firehose call should bound its result window relative to
@@ -234,8 +229,7 @@ export class CivicApiSource implements DataSource {
 		// Caching (10min TTL) means switching between ranges on the same state
 		// only fetches the previously-uncovered offsets; the upcoming probes
 		// already in cache short-circuit.
-		const offsets =
-			timeRange === 'upcoming' ? [0, 100] : [0, 100, 200, 300, 400];
+		const offsets = timeRange === 'upcoming' ? [0, 100] : [0, 100, 200, 300, 400];
 		// PERF: the old name=<stateName> probe is filtered out by our strict
 		// `province === upperAbbr` check anyway (civicAPI's name-search rows
 		// either carry the right province — duplicating the province probes —
@@ -254,19 +248,11 @@ export class CivicApiSource implements DataSource {
 		const byId = new Map<number, CivicApiSearchRace>();
 		const force = options.force === true;
 		const onPartial = options.onPartial;
-		const settled: PromiseSettledResult<CivicApiSearchRace[]>[] = new Array(
-			probes.length
-		);
+		const settled: PromiseSettledResult<CivicApiSearchRace[]>[] = new Array(probes.length);
 
 		const emit = () => {
 			if (!onPartial) return;
-			const partial = filterAndSortByState(
-				byId,
-				upperAbbr,
-				timeRange,
-				todayIso,
-				recentCutoffIso
-			);
+			const partial = filterAndSortByState(byId, upperAbbr, timeRange, todayIso, recentCutoffIso);
 			onPartial(partial);
 		};
 
@@ -295,13 +281,7 @@ export class CivicApiSource implements DataSource {
 			throw new Error(`civicAPI state probes all failed: ${reasons}`);
 		}
 
-		return filterAndSortByState(
-			byId,
-			upperAbbr,
-			timeRange,
-			todayIso,
-			recentCutoffIso
-		);
+		return filterAndSortByState(byId, upperAbbr, timeRange, todayIso, recentCutoffIso);
 	}
 
 	async searchRaces(query: string, timeRange: TimeRange = 'upcoming'): Promise<RaceListEntry[]> {
@@ -329,9 +309,7 @@ export class CivicApiSource implements DataSource {
 		const offsets = timeRange === 'upcoming' ? [0] : [0, 100, 200];
 		const urls = offsets.map(
 			(o) =>
-				`${this.baseUrl}/race/search?query=${encodeURIComponent(
-					trimmed
-				)}&limit=100&offset=${o}`
+				`${this.baseUrl}/race/search?query=${encodeURIComponent(trimmed)}&limit=100&offset=${o}`
 		);
 		const results = await Promise.allSettled(urls.map((u) => this.fetchRaces(u)));
 		const byId = new Map<number, CivicApiSearchRace>();
@@ -428,7 +406,9 @@ export class CivicApiSource implements DataSource {
 	}
 
 	async *pollRace(raceId: string, intervalMs: number): AsyncIterable<StreamStatePatch> {
-		let delay = intervalMs;
+		// Set from the interval on a good tick and doubled on a failure, so
+		// every path through the loop below assigns it before the sleep.
+		let delay: number;
 		// Emit an immediate fetch on subscription so the UI populates without
 		// waiting a full interval.
 		while (true) {
@@ -577,25 +557,16 @@ function sortByTimeRange(
 		if (!e.date || e.date >= todayIso) upcoming.push(e);
 		else past.push(e);
 	}
-	return [
-		...sortByDateThenTier(upcoming, 'asc'),
-		...sortByDateThenTier(past, 'desc')
-	];
+	return [...sortByDateThenTier(upcoming, 'asc'), ...sortByDateThenTier(past, 'desc')];
 }
 
-function sortByDateThenTier(
-	entries: RaceListEntry[],
-	dateDir: 'asc' | 'desc'
-): RaceListEntry[] {
+function sortByDateThenTier(entries: RaceListEntry[], dateDir: 'asc' | 'desc'): RaceListEntry[] {
 	return [...entries].sort((a, b) => {
 		// Missing-date entries to the bottom regardless of direction.
 		if (!a.date && !b.date) return raceTier(a.title) - raceTier(b.title);
 		if (!a.date) return 1;
 		if (!b.date) return -1;
-		const dateCmp =
-			dateDir === 'asc'
-				? a.date.localeCompare(b.date)
-				: b.date.localeCompare(a.date);
+		const dateCmp = dateDir === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
 		if (dateCmp !== 0) return dateCmp;
 		return raceTier(a.title) - raceTier(b.title);
 	});
@@ -688,7 +659,10 @@ function normalizeRaceToPatch(r: CivicApiRaceDetail): StreamStatePatch {
 	// Each candidate gets a stable id derived from name so leader lookups in
 	// region_results line up without us having to remap per-region.
 	const candIdFromName = (name: string) =>
-		`civ-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`;
+		`civ-${name
+			.toLowerCase()
+			.replace(/[^a-z0-9]+/g, '-')
+			.replace(/^-+|-+$/g, '')}`;
 
 	const candidates = (r.candidates ?? []).map((c) => ({
 		id: candIdFromName(c.name),

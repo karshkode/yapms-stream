@@ -97,7 +97,8 @@ function extractCountiesFromSvg(svgText) {
 	const byState = new Map();
 	// Match any self-closing or opening tag that carries both region + action-groups
 	const tagRe = /<(?:path|polygon|g)\b[^>]*\bregion="([^"]+)"[^>]*\baction-groups="([^"]+)"[^>]*>/g;
-	const tagRe2 = /<(?:path|polygon|g)\b[^>]*\baction-groups="([^"]+)"[^>]*\bregion="([^"]+)"[^>]*>/g;
+	const tagRe2 =
+		/<(?:path|polygon|g)\b[^>]*\baction-groups="([^"]+)"[^>]*\bregion="([^"]+)"[^>]*>/g;
 	const attr = (tag, name) => {
 		const m = new RegExp('\\b' + name + '="([^"]+)"').exec(tag);
 		return m ? m[1] : null;

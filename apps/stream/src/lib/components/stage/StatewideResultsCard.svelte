@@ -11,10 +11,14 @@
 	}
 	let { interactive = true }: Props = $props();
 
-	const state = $derived(streamStore.state);
+	// Named `streamState` rather than `state`: a local `state` binding makes
+	// Svelte 5 read every `$state(...)` in the file as a store subscription on
+	// it, which is what made `collapsed` below fail to type-check. Same naming
+	// the rest of the stage components use.
+	const streamState = $derived(streamStore.state);
 
 	// Single source of truth for the statewide candidate tally. We prefer
-	// `state.candidates[].votes` because civicAPI top-level race data already
+	// `streamState.candidates[].votes` because civicAPI top-level race data already
 	// carries the rolled-up totals per candidate — we don't need to sum the
 	// per-county dicts ourselves. When reporting hasn't started (all zeroes)
 	// we still list every candidate so the host has a full roster to talk
@@ -31,11 +35,11 @@
 	}
 
 	let totalVotes = $derived(
-		state.candidates.filter((c) => !c.hidden).reduce((a, c) => a + c.votes, 0)
+		streamState.candidates.filter((c) => !c.hidden).reduce((a, c) => a + c.votes, 0)
 	);
 
 	let leaderId = $derived.by<string | null>(() => {
-		const visible = state.candidates.filter((c) => !c.hidden);
+		const visible = streamState.candidates.filter((c) => !c.hidden);
 		if (visible.length === 0) return null;
 		let best = visible[0];
 		for (const c of visible) if (c.votes > best.votes) best = c;
@@ -43,19 +47,21 @@
 	});
 
 	let rows = $derived.by<CandidateRow[]>(() => {
-		const visible = state.candidates.filter((c) => !c.hidden);
+		const visible = streamState.candidates.filter((c) => !c.hidden);
 		if (visible.length === 0) return [];
 		return visible
-			.map((c): CandidateRow => ({
-				id: c.id,
-				name: c.name,
-				partyColor: c.partyColor,
-				partyLabel: c.partyLabel ?? '',
-				votes: c.votes,
-				pct: totalVotes > 0 ? (c.votes / totalVotes) * 100 : 0,
-				isLeader: c.id === leaderId,
-				called: c.called
-			}))
+			.map(
+				(c): CandidateRow => ({
+					id: c.id,
+					name: c.name,
+					partyColor: c.partyColor,
+					partyLabel: c.partyLabel ?? '',
+					votes: c.votes,
+					pct: totalVotes > 0 ? (c.votes / totalVotes) * 100 : 0,
+					isLeader: c.id === leaderId,
+					called: c.called
+				})
+			)
 			.sort((a, b) => b.votes - a.votes);
 	});
 
@@ -79,13 +85,13 @@
 	//   the host into thinking polls haven't closed.
 	//
 	// Three-tier resolution:
-	//   1. `state.race.reportedPct` (race-level, civicAPI-authoritative)
+	//   1. `streamState.race.reportedPct` (race-level, civicAPI-authoritative)
 	//   2. Mean of regions that have actually reported (`reportedPct > 0`)
 	//   3. `null` → render as "—" so the host knows "data unavailable"
 	//      rather than mis-reading "0.0%" as a real measurement.
 	let reportingPct = $derived.by<number | null>(() => {
-		if (state.race.reportedPct != null) return state.race.reportedPct;
-		const regs = state.regions;
+		if (streamState.race.reportedPct != null) return streamState.race.reportedPct;
+		const regs = streamState.regions;
 		if (regs.length === 0) return null;
 		// Filter to regions that have *any* reporting data. Including
 		// unreported zeroes in the mean dilutes legit numbers — e.g. a
@@ -114,7 +120,7 @@
 	// re-implement the toggle.
 	const CORNER_CYCLE = ['top-right', 'bottom-right', 'bottom-left', 'top-left'] as const;
 	function cycleCorner() {
-		const cur = state.ui.detailCardCorner;
+		const cur = streamState.ui.detailCardCorner;
 		const idx = CORNER_CYCLE.indexOf(cur);
 		const next = CORNER_CYCLE[(idx + 1) % CORNER_CYCLE.length];
 		streamStore.state.ui.detailCardCorner = next;
@@ -122,7 +128,7 @@
 	// Glyph hints which corner the card will jump to NEXT — visual cue that
 	// reduces the "I have to click and watch" feedback loop. Unicode arrows
 	// point at the next corner direction.
-	const CORNER_NEXT_GLYPH: Record<typeof CORNER_CYCLE[number], string> = {
+	const CORNER_NEXT_GLYPH: Record<(typeof CORNER_CYCLE)[number], string> = {
 		'top-right': '⤵', // next: bottom-right
 		'bottom-right': '⬅', // next: bottom-left
 		'bottom-left': '⬆', // next: top-left
@@ -130,15 +136,15 @@
 	};
 </script>
 
-{#if state.candidates.length > 0}
+{#if streamState.candidates.length > 0}
 	<!-- svelte-ignore a11y_no_noninteractive_element_to_interactive_role -->
 	<aside class="statewide-card" class:collapsed role="dialog" aria-label="Race summary">
 		<header>
 			<div>
-				<h3>{state.race.title || 'Race summary'}</h3>
+				<h3>{streamState.race.title || 'Race summary'}</h3>
 				<p class="sub">
 					Overall
-					{#if state.race.dateLabel}· {state.race.dateLabel}{/if}
+					{#if streamState.race.dateLabel}· {streamState.race.dateLabel}{/if}
 				</p>
 			</div>
 			{#if interactive}
@@ -148,9 +154,9 @@
 						class="icon-btn"
 						aria-label="Move card to next corner"
 						onclick={cycleCorner}
-						title="Move card (currently {state.ui.detailCardCorner.replace('-', ' ')}) →"
+						title="Move card (currently {streamState.ui.detailCardCorner.replace('-', ' ')}) →"
 					>
-						{CORNER_NEXT_GLYPH[state.ui.detailCardCorner]}
+						{CORNER_NEXT_GLYPH[streamState.ui.detailCardCorner]}
 					</button>
 					<button
 						type="button"
@@ -181,17 +187,16 @@
 					     misleading "0.0%". The title attribute explains the
 					     fallback so a host hovering can self-debug. -->
 					{#if reportingPct == null}
-						<dd
-							class="muted"
-							title="civicAPI did not return a reporting percentage for this race"
-						>—</dd>
+						<dd class="muted" title="civicAPI did not return a reporting percentage for this race">
+							—
+						</dd>
 					{:else}
 						<dd>{reportingPct.toFixed(1)}%</dd>
 					{/if}
 				</div>
 				<div>
 					<dt>Candidates</dt>
-					<dd>{state.candidates.filter((c) => !c.hidden).length}</dd>
+					<dd>{streamState.candidates.filter((c) => !c.hidden).length}</dd>
 				</div>
 			</dl>
 

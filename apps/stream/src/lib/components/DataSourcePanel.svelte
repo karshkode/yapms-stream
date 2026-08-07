@@ -26,12 +26,7 @@
 		</label>
 		<label class="field">
 			Poll interval (ms)
-			<input
-				type="number"
-				min="1000"
-				step="1000"
-				bind:value={state.dataSource.intervalMs}
-			/>
+			<input type="number" min="1000" step="1000" bind:value={state.dataSource.intervalMs} />
 		</label>
 		<label class="field">
 			Sidecar URL

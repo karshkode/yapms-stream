@@ -1,10 +1,7 @@
 <script lang="ts">
 	import { civicApi, type TimeRange } from '$lib/data/civicapi';
 	import type { RaceListEntry } from '$lib/data/source';
-	import {
-		findRegionAttrByName,
-		resolveCivicApiRace
-	} from '$lib/picker/civicapiResolver';
+	import { findRegionAttrByName, resolveCivicApiRace } from '$lib/picker/civicapiResolver';
 	import type { RaceTemplate } from '$lib/race-profile';
 	import type { StreamState } from '$lib/stream-state';
 	import { applyTemplate } from '$lib/picker/applyTemplate';
@@ -174,9 +171,7 @@
 	// tagged with both state name and FIPS, so filtering is a substring match.
 	let archivalTemplates = $derived<RaceTemplate[]>(
 		meta
-			? ALL_TEMPLATES.filter(
-					(t) => t.tags.includes(meta!.fips) || t.tags.includes(meta!.abbrLower)
-				)
+			? ALL_TEMPLATES.filter((t) => t.tags.includes(meta!.fips) || t.tags.includes(meta!.abbrLower))
 			: []
 	);
 
@@ -319,10 +314,7 @@
 		// (e.g. "Yorktown Town Council" → district="Delaware" → zoom Delaware,
 		// Indiana). Same flow the picker uses — centralized helper.
 		if (preselectCountyName) {
-			const regionAttr = findRegionAttrByName(
-				streamStore.state.regions,
-				preselectCountyName
-			);
+			const regionAttr = findRegionAttrByName(streamStore.state.regions, preselectCountyName);
 			if (regionAttr) streamStore.state.ui.selectedRegionAttr = regionAttr;
 		}
 
@@ -559,6 +551,21 @@
 			border-radius: 0;
 			padding: 0.75rem;
 		}
+		/* This card is now a primary mobile surface — it's what a tap on the map
+		   opens, and where a state result in the race search lands — so its
+		   controls need to be thumb-sized rather than the ~22px they inherit
+		   from the desktop layout. */
+		.close,
+		.refresh-btn {
+			min-width: 2.25rem;
+			min-height: 2.25rem;
+			width: auto;
+			height: auto;
+		}
+		.range-btn {
+			min-height: 2.25rem;
+			font-size: 0.8rem;
+		}
 	}
 	header {
 		display: flex;
@@ -630,7 +637,10 @@
 		border-radius: 0.25rem;
 		color: rgb(from var(--color-base-content) r g b / 0.7);
 		cursor: pointer;
-		transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+		transition:
+			background 120ms ease,
+			color 120ms ease,
+			border-color 120ms ease;
 	}
 	.refresh-btn:hover:not(:disabled) {
 		background: rgb(from var(--color-primary) r g b / 0.15);
@@ -679,7 +689,9 @@
 		font-size: 0.72rem;
 		font-weight: 600;
 		cursor: pointer;
-		transition: background 120ms ease, color 120ms ease;
+		transition:
+			background 120ms ease,
+			color 120ms ease;
 	}
 	.range-btn + .range-btn {
 		border-left: 1px solid rgb(from var(--color-secondary) r g b / 0.4);

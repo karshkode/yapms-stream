@@ -18,27 +18,21 @@
 		 * Presidential maps where the 50 states come straight out of the SVG).
 		 */
 		onregionsextracted?: (rows: StreamState['regions']) => void;
-	/**
-	 * When `true`, the map fills the parent's height (stage mode). When
-	 * unset/false, it keeps the 16:10 aspect-ratio that the overlay RacePage
-	 * and Geography tab rely on. Defaults to false for backwards compat.
-	 */
-	fill?: boolean;
-	/**
-	 * When true, hide the zoom/reset controls and skip attaching a click
-	 * handler. Used by the /overlay mirror mode so the OBS capture stays
-	 * input-inert while still re-painting on every BroadcastChannel update.
-	 */
-	readonly?: boolean;
-}
+		/**
+		 * When `true`, the map fills the parent's height (stage mode). When
+		 * unset/false, it keeps the 16:10 aspect-ratio that the overlay RacePage
+		 * and Geography tab rely on. Defaults to false for backwards compat.
+		 */
+		fill?: boolean;
+		/**
+		 * When true, hide the zoom/reset controls and skip attaching a click
+		 * handler. Used by the /overlay mirror mode so the OBS capture stays
+		 * input-inert while still re-painting on every BroadcastChannel update.
+		 */
+		readonly?: boolean;
+	}
 
-let {
-	tab,
-	onselect,
-	onregionsextracted,
-	fill = false,
-	readonly = false
-}: Props = $props();
+	let { tab, onselect, onregionsextracted, fill = false, readonly = false }: Props = $props();
 
 	// Read/write the app-level store directly — same rationale as StagePanel /
 	// FormsDrawer / OverlayPip: Svelte 5's ownership warning otherwise flags
@@ -71,6 +65,23 @@ let {
 	// detached node and the new node without any listener. That was the
 	// "have to reload the page to click into districts" bug.
 	let handlerSvg: SVGElement | null = null;
+	// True while the phone layout is active. The stage parks the region detail
+	// card as a sheet across the bottom half at this width (see StagePanel's
+	// max-width:640px block), so the bottom half of the map is spoken for and
+	// the click-to-zoom below has to aim above it.
+	let phoneLayout = $state(false);
+	/** Fraction of the container the phone detail sheet can cover, mirroring
+	 *  `.detail-slot { max-height: 50% }` in StagePanel. */
+	const PHONE_SHEET_FRACTION = 0.5;
+
+	$effect(() => {
+		if (typeof window === 'undefined') return;
+		const mq = window.matchMedia('(max-width: 640px)');
+		const sync = () => (phoneLayout = mq.matches);
+		sync();
+		mq.addEventListener('change', sync);
+		return () => mq.removeEventListener('change', sync);
+	});
 
 	$effect(() => {
 		// Re-load the SVG when the profile changes (not on every color update).
@@ -146,6 +157,7 @@ let {
 						evr: 0,
 						reportedPct: 0,
 						totalReg: 0,
+						candidateVotes: {},
 						// SVG-extracted regions (e.g. US presidential states) have no
 						// archival baseline at this layer — the US-President RacePage
 						// gets its state-level baselines another way. Leave null so
@@ -157,8 +169,9 @@ let {
 			}
 		}
 
-		// panzoom gets attached to the svg itself; `beforeWheel`/`beforeMouseDown`
-		// filter taps on regions from starting a drag so click still fires.
+		// panzoom gets attached to the svg itself, so a click that lands on a
+		// region path reaches the delegated handler above before panzoom's own
+		// drag tracking decides the gesture was a pan.
 		// `bounds` is off because our programmatic click-to-zoom computes an
 		// exact (tx, ty) that lands the target county at the container center.
 		// With `bounds: true`, panzoom clips those translations to keep *some*
@@ -177,7 +190,21 @@ let {
 				minZoom: 0.5,
 				autocenter: false,
 				bounds: false,
-				smoothScroll: false
+				smoothScroll: false,
+				// panzoom's built-in touchstart handler calls stopPropagation()
+				// and preventDefault() on every touch. preventDefault() on
+				// touchstart tells the browser not to synthesize the follow-up
+				// click, and region selection above listens for `click` — so
+				// with the default behavior a tap does nothing and the map is
+				// completely unselectable on any touch device, phone or not.
+				//
+				// Returning a falsy value opts that suppression out. We only do
+				// it for a single finger: `touch-action: none` on .viewport
+				// already stops the browser claiming one-finger drags for
+				// scrolling, so the pan handler keeps working without needing
+				// the default prevented. Two fingers keep the default blocked
+				// so pinch-zoom doesn't also zoom the page.
+				onTouch: (e: TouchEvent) => e.touches.length > 1
 			});
 			// Keep the city-overlay glyphs at a constant screen size as the
 			// user zooms. Without this, labels balloon to enormous sizes at
@@ -255,8 +282,9 @@ let {
 		// Read pzReady so the effect registers a dependency on panzoom's
 		// lifecycle — when the SVG finishes loading and `pz` is assigned,
 		// `pzReady` ticks and this effect re-runs so a preselected county
-		// (set before the SVG was ready) lands in frame.
-		pzReady;
+		// (set before the SVG was ready) lands in frame. `void` because a bare
+		// `pzReady;` reads as a stray expression to eslint.
+		void pzReady;
 		if (!pz || !container) return;
 		const svg = container.querySelector<SVGSVGElement>('svg');
 		if (!svg) return;
@@ -277,9 +305,7 @@ let {
 
 		rafPhaseA = requestAnimationFrame(() => {
 			if (!pz || !container) return;
-			const path = svg.querySelector<SVGGraphicsElement>(
-				`[region="${CSS.escape(attr)}"]`
-			);
+			const path = svg.querySelector<SVGGraphicsElement>(`[region="${CSS.escape(attr)}"]`);
 			if (!path) return;
 
 			const identityRect = path.getBoundingClientRect();
@@ -287,14 +313,22 @@ let {
 			if (identityRect.width === 0 || identityRect.height === 0) return;
 			if (containerRect.width === 0 || containerRect.height === 0) return;
 
-			// Fit the path to ~55% of the container. Clamped to [1, 12] —
+			// On a phone the detail sheet covers the bottom of the stage, so the
+			// map only really owns the band above it. Fitting and centring
+			// against the full container height there put the county the host
+			// just tapped straight behind the sheet.
+			const visibleHeight = phoneLayout
+				? containerRect.height * (1 - PHONE_SHEET_FRACTION)
+				: containerRect.height;
+
+			// Fit the path to ~55% of the visible area. Clamped to [1, 12] —
 			// tiny counties would otherwise blow up past raster fidelity;
 			// huge states (CA on the US map) shouldn't de-zoom below
 			// identity.
 			const padding = 0.55;
 			const fitScale = Math.min(
 				(containerRect.width * padding) / identityRect.width,
-				(containerRect.height * padding) / identityRect.height
+				(visibleHeight * padding) / identityRect.height
 			);
 			const targetScale = Math.min(12, Math.max(1, fitScale));
 
@@ -315,7 +349,7 @@ let {
 				const postCx = postRect.left + postRect.width / 2;
 				const postCy = postRect.top + postRect.height / 2;
 				const containerCx = containerRect.left + containerRect.width / 2;
-				const containerCy = containerRect.top + containerRect.height / 2;
+				const containerCy = containerRect.top + visibleHeight / 2;
 				// `moveBy` adds its delta directly to transform.x/y — since
 				// panzoom's parent (the viewport div) has no CSS transform,
 				// client-pixel delta === scene-pixel delta.
@@ -478,11 +512,15 @@ let {
 	}
 	@media (max-width: 640px) {
 		.controls {
-			/* Lifted clear of the detail sheet that occupies the bottom half
-			   of the stage on phones. */
+			/* Lifted clear of the detail sheet that occupies the bottom half of
+			   the stage on phones, and laid out along the row that starts under
+			   the tab strip — as a column these four buttons ran a third of the
+			   way down the map. RegionListPanel's collapsed handle takes the
+			   left end of the same row. */
 			bottom: auto;
-			top: 3rem;
+			top: 4.25rem;
 			right: 0.5rem;
+			flex-direction: row;
 		}
 		.controls button {
 			/* 1.75rem (28px) is well under a comfortable touch target, and

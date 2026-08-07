@@ -250,9 +250,7 @@ function computeLabel(
 
 	if (tab === 'margin') {
 		// Prefer live-derived margin when we have it; fall back to archival.
-		const leader = result.leaderId
-			? state.candidates.find((c) => c.id === result.leaderId)
-			: null;
+		const leader = result.leaderId ? state.candidates.find((c) => c.id === result.leaderId) : null;
 		if (leader && result.votes > 0 && state.candidates.length >= 2) {
 			const sorted = [...state.candidates].sort((a, b) => b.votes - a.votes);
 			const runnerUp = sorted.find((c) => c.id !== leader.id);
@@ -334,7 +332,11 @@ function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
 	const m = /^#?([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(hex.trim());
 	if (!m) return null;
 	let h = m[1];
-	if (h.length === 3) h = h.split('').map((c) => c + c).join('');
+	if (h.length === 3)
+		h = h
+			.split('')
+			.map((c) => c + c)
+			.join('');
 	const n = parseInt(h, 16);
 	return { r: (n >> 16) & 0xff, g: (n >> 8) & 0xff, b: n & 0xff };
 }
