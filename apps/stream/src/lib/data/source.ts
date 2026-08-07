@@ -1,4 +1,4 @@
-import type { StreamState } from '../stream-state';
+import type { StreamState, TickerCandidate } from '../stream-state';
 
 /**
  * A DataSource is anything that can produce a `Partial<StreamState>`:
@@ -39,6 +39,18 @@ export interface RaceListEntry {
 	 * which of 20 "Proposition A" rows they're about to load.
 	 */
 	municipality: string | null;
+}
+
+/**
+ * Headline numbers for a race that isn't loaded on the stage. Used by the
+ * broadcast ticker, which needs a leader and a reporting percentage for many
+ * races at once and none of the per-region detail a `StreamStatePatch` carries.
+ */
+export interface RaceSummary {
+	title: string;
+	state: string | null;
+	reportedPct: number | null;
+	candidates: TickerCandidate[];
 }
 
 export interface DataSource {
@@ -156,6 +168,47 @@ export function applyPatch(state: StreamState, patch: StreamStatePatch): StreamS
 		performance: patch.performance ?? state.performance,
 		regions: patch.regions ?? state.regions
 	};
+}
+
+/**
+ * Carry already-resolved headshots from the current roster onto an incoming
+ * live roster.
+ *
+ * Every live adapter normalizes candidates with `headshotUrl: null` because no
+ * results feed publishes portraits. The control desk replaces the whole
+ * candidates array on each poll tick, so without this a photo — whether the
+ * host pasted the URL by hand or the Wikipedia lookup resolved it — survives
+ * only until the next tick, roughly 30 seconds. Faces would appear and then
+ * silently vanish on air.
+ *
+ * Matching is by candidate id first (civicAPI derives ids deterministically
+ * from the name, so they're stable across ticks) and by normalized name as a
+ * fallback, which covers a roster loaded from a template seed with uuid ids and
+ * then refreshed from civicAPI.
+ *
+ * A non-null `headshotUrl` on the incoming row always wins, so a future feed
+ * that does carry portraits takes precedence over our guess.
+ */
+export function preserveHeadshots(
+	prev: StreamState['candidates'],
+	next: StreamState['candidates']
+): StreamState['candidates'] {
+	if (prev.length === 0 || next.length === 0) return next;
+	const normalize = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+	const byId = new Map<string, StreamState['candidates'][number]>();
+	const byName = new Map<string, StreamState['candidates'][number]>();
+	for (const c of prev) {
+		if (!c.headshotUrl) continue;
+		byId.set(c.id, c);
+		byName.set(normalize(c.name), c);
+	}
+	if (byId.size === 0) return next;
+	return next.map((c) => {
+		if (c.headshotUrl) return c;
+		const prior = byId.get(c.id) ?? byName.get(normalize(c.name));
+		if (!prior) return c;
+		return { ...c, headshotUrl: prior.headshotUrl, headshotCredit: prior.headshotCredit ?? null };
+	});
 }
 
 /**

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import BroadcastFrame from '$lib/components/broadcast/BroadcastFrame.svelte';
 	import StagePanel from '$lib/components/stage/StagePanel.svelte';
 	import { streamStore } from '$lib/stream-store.svelte';
 	import { createBroadcastSync } from '$lib/sync/broadcast';
@@ -49,7 +50,16 @@
 
 <div class="overlay-root">
 	{#if streamStore.state.profile}
-		<StagePanel interactive={false} showPip={false} />
+		{#if streamStore.state.ui.broadcast.frame}
+			<!-- Broadcast package: banner, lower third and results crawl wrapped
+			     around the same stage. Turning the frame off leaves the bare stage
+			     for hosts who build their own chrome in OBS. -->
+			<BroadcastFrame>
+				<StagePanel interactive={false} showPip={false} />
+			</BroadcastFrame>
+		{:else}
+			<StagePanel interactive={false} showPip={false} />
+		{/if}
 	{:else}
 		<p class="standby">Waiting for /control to load a race…</p>
 	{/if}
@@ -71,6 +81,12 @@
 		/* Match /control's behavior where the stage fills its container. The
 		   BroadcastChannel-replaced state still includes `profile` so the
 		   stage renders its map straight away. */
+		flex: 1 1 auto;
+		min-height: 0;
+	}
+	/* The frame is the outermost element in framed mode and owns the full
+	   capture area; the stage inside it is sized by the frame's own grid. */
+	.overlay-root > :global(.frame) {
 		flex: 1 1 auto;
 		min-height: 0;
 	}

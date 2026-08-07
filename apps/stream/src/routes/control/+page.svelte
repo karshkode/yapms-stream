@@ -1,13 +1,15 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 	import FormsDrawer from '$lib/components/stage/FormsDrawer.svelte';
 	import StagePanel from '$lib/components/stage/StagePanel.svelte';
 	import TopBar from '$lib/components/stage/TopBar.svelte';
 	import RacePicker from '$lib/components/picker/RacePicker.svelte';
+	import { fillMissingHeadshots } from '$lib/broadcast/candidatePhotoFill';
 	import { civicApi } from '$lib/data/civicapi';
 	import { loadPersistedState, persistState } from '$lib/data/manual';
-	import { remapLiveRegionsToSeed } from '$lib/data/source';
+	import { preserveHeadshots, remapLiveRegionsToSeed } from '$lib/data/source';
 	import { applyTemplate } from '$lib/picker/applyTemplate';
+	import type { FollowedRace } from '$lib/stream-state';
 	import { streamStore } from '$lib/stream-store.svelte';
 	import { createBroadcastSync } from '$lib/sync/broadcast';
 	import { BROWSE_US_TEMPLATE } from '$lib/templates';
@@ -124,7 +126,10 @@
 			}
 			if (!streamStore.state.ui.dirty) {
 				if (patch.candidates && patch.candidates.length > 0) {
-					streamStore.state.candidates = patch.candidates;
+					streamStore.state.candidates = preserveHeadshots(
+						streamStore.state.candidates,
+						patch.candidates
+					);
 				}
 				if (patch.regions && patch.regions.length > 0) {
 					const remapped = remapLiveRegionsToSeed(streamStore.state.regions, patch.regions);
@@ -262,7 +267,10 @@
 						// on pre-election races. Keep the template seed in that case
 						// instead of clobbering 67 counties with [].
 						if (patch.candidates && patch.candidates.length > 0) {
-							streamStore.state.candidates = patch.candidates;
+							streamStore.state.candidates = preserveHeadshots(
+								streamStore.state.candidates,
+								patch.candidates
+							);
 						}
 						if (patch.regions && patch.regions.length > 0) {
 							const remapped = remapLiveRegionsToSeed(streamStore.state.regions, patch.regions);
@@ -282,6 +290,105 @@
 				streamStore.state.dataSource.lastError = err instanceof Error ? err.message : String(err);
 			}
 		})();
+		return () => {
+			stop = true;
+		};
+	});
+
+	// Automatic candidate-photo pass.
+	//
+	// The dependency list is deliberately narrow: candidate *ids*, the race
+	// title and the drilled state (which together decide what we'd search for),
+	// plus the toggle. The roster read inside is untracked because the fill
+	// writes `headshotUrl` back onto those same candidate objects — tracking
+	// them would re-run this effect on every resolved photo, and the cleanup
+	// below would abort the batch that was still resolving the rest.
+	let photoPass = 0;
+	const rosterKey = $derived(
+		[
+			streamStore.state.candidates.map((c) => c.id).join('|'),
+			streamStore.state.race.title,
+			streamStore.state.ui.homeStateAbbr ?? ''
+		].join('~')
+	);
+	$effect(() => {
+		if (!streamStore.state.ui.broadcast.autoPhotos) return;
+		// Read for the dependency; the value itself is only a change signal.
+		void rosterKey;
+		const anyMissing = untrack(() =>
+			streamStore.state.candidates.some((c) => !c.hidden && !c.headshotUrl)
+		);
+		if (!anyMissing) return;
+		const myPass = ++photoPass;
+		const ctl = new AbortController();
+		void fillMissingHeadshots({ signal: ctl.signal }).catch((err) => {
+			if (myPass === photoPass) console.warn('candidate photo pass failed', err);
+		});
+		return () => ctl.abort();
+	});
+
+	// Followed-race ticker poll.
+	//
+	// Separate from the active-race loop above and much slower: these are
+	// background numbers for the marquee, not the race the host is narrating.
+	// One pass fetches every followed race in series (civicAPI is a free,
+	// donated service and a dozen parallel race fetches on election night is
+	// rude), writes each summary back as it lands, then sleeps.
+	//
+	// Only the followed race *ids* and the interval are tracked — writing the
+	// tallies back must not restart the loop.
+	let followPass = 0;
+	const followedKey = $derived(
+		streamStore.state.ui.broadcast.followed.map((f) => f.raceId).join('|')
+	);
+	$effect(() => {
+		const intervalMs = streamStore.state.ui.broadcast.followIntervalMs;
+		void followedKey;
+		const ids = untrack(() => streamStore.state.ui.broadcast.followed.map((f) => f.raceId));
+		if (ids.length === 0) return;
+		const myPass = ++followPass;
+		let stop = false;
+
+		const write = (raceId: string, patch: Partial<FollowedRace>) => {
+			const list = streamStore.state.ui.broadcast.followed;
+			const idx = list.findIndex((f) => f.raceId === raceId);
+			if (idx === -1) return;
+			Object.assign(list[idx], patch);
+		};
+
+		(async () => {
+			while (!stop && myPass === followPass) {
+				for (const raceId of ids) {
+					if (stop || myPass !== followPass) return;
+					try {
+						const summary = await civicApi.fetchRaceSummary(raceId);
+						write(raceId, {
+							// Keep the host's label if they renamed it, otherwise track
+							// civicAPI's name so a placeholder label fills itself in.
+							label:
+								streamStore.state.ui.broadcast.followed.find((f) => f.raceId === raceId)?.label ||
+								summary.title,
+							state: summary.state,
+							reportedPct: summary.reportedPct,
+							candidates: summary.candidates,
+							updatedAt: Date.now(),
+							lastError: null
+						});
+					} catch (err) {
+						write(raceId, {
+							lastError: err instanceof Error ? err.message : String(err)
+						});
+					}
+				}
+				// Sleep in short slices so removing the last followed race stops the
+				// loop promptly instead of after a full interval.
+				const until = Date.now() + intervalMs;
+				while (!stop && myPass === followPass && Date.now() < until) {
+					await new Promise((r) => setTimeout(r, 1000));
+				}
+			}
+		})();
+
 		return () => {
 			stop = true;
 		};

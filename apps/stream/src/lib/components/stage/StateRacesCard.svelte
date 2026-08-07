@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { followRace, isFollowed, unfollowRace } from '$lib/broadcast/followed';
 	import { civicApi, type TimeRange } from '$lib/data/civicapi';
 	import type { RaceListEntry } from '$lib/data/source';
 	import { findRegionAttrByName, resolveCivicApiRace } from '$lib/picker/civicapiResolver';
@@ -174,6 +175,22 @@
 			? ALL_TEMPLATES.filter((t) => t.tags.includes(meta!.fips) || t.tags.includes(meta!.abbrLower))
 			: []
 	);
+
+	/**
+	 * Add or remove a race from the broadcast crawl without loading it. Tallies
+	 * are left empty here — the followed-race poll on /control fills them in on
+	 * its next pass, so starring a race stays an instant, offline action.
+	 */
+	function toggleFollow(entry: RaceListEntry) {
+		const list = streamStore.state.ui.broadcast.followed;
+		streamStore.state.ui.broadcast.followed = isFollowed(list, entry.id)
+			? unfollowRace(list, entry.id)
+			: followRace(list, {
+					raceId: entry.id,
+					label: entry.title,
+					state: entry.state ?? meta?.abbr ?? null
+				});
+	}
 
 	function handleCivicApply(entry: RaceListEntry) {
 		if (!interactive) return;
@@ -437,6 +454,7 @@
 				<ul class="races">
 					{#each civicResults.slice(0, 25) as r (r.id)}
 						{@const rel = relativeDayLabel(r.date)}
+						{@const followed = isFollowed(streamState.ui.broadcast.followed, r.id)}
 						<li>
 							<button
 								type="button"
@@ -461,6 +479,23 @@
 								</div>
 								<span class="load-cue">Load →</span>
 							</button>
+							{#if interactive}
+								<!-- Sibling of the load button rather than nested inside it:
+								     following a race and loading it are different actions, and
+								     a button inside a button is invalid markup anyway. This is
+								     how a host builds the crawl for the night — star the races
+								     they care about while scanning a state, load one. -->
+								<button
+									type="button"
+									class="follow-btn"
+									class:on={followed}
+									aria-pressed={followed}
+									title={followed ? 'Remove from the results crawl' : 'Add to the results crawl'}
+									onclick={() => toggleFollow(r)}
+								>
+									{followed ? '★' : '☆'}
+								</button>
+							{/if}
 						</li>
 					{/each}
 				</ul>
@@ -714,12 +749,39 @@
 		max-height: 16rem;
 		overflow-y: auto;
 	}
+	/* The load button and the follow star sit side by side in each row, so the
+	   li is the flex container and the load button takes the leftover width. */
+	.races li {
+		display: flex;
+		align-items: stretch;
+		gap: 0.25rem;
+		min-width: 0;
+	}
+	.follow-btn {
+		flex: 0 0 auto;
+		width: 2rem;
+		background: rgb(from var(--color-base-200) r g b / 0.7);
+		border: 1px solid transparent;
+		border-radius: 0.375rem;
+		color: rgb(from var(--color-base-content) r g b / 0.5);
+		cursor: pointer;
+		font-size: 1rem;
+		line-height: 1;
+	}
+	.follow-btn:hover {
+		border-color: var(--color-primary);
+		color: var(--color-base-content);
+	}
+	.follow-btn.on {
+		color: var(--color-primary);
+	}
 	.race-btn {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		gap: 0.5rem;
-		width: 100%;
+		flex: 1 1 auto;
+		min-width: 0;
 		padding: 0.5rem 0.625rem;
 		background: rgb(from var(--color-base-200) r g b / 0.7);
 		border: 1px solid transparent;

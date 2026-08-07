@@ -92,7 +92,14 @@ export const Candidate = z.object({
 	votes: z.number().int().nonnegative().default(0),
 	called: z.boolean().default(false),
 	hidden: z.boolean().default(false),
-	headshotUrl: z.string().nullable().default(null)
+	headshotUrl: z.string().nullable().default(null),
+	// Where an auto-resolved headshot came from (a Wikipedia article title).
+	// Commons portraits are reusable but most carry an attribution condition,
+	// so the editor shows this next to the thumbnail and the host can check
+	// the source before putting a face on air. Optional rather than
+	// `.default(null)` so persisted state and hand-written seeds that predate
+	// the field still parse and still type-check.
+	headshotCredit: z.string().nullable().optional()
 });
 export type Candidate = z.infer<typeof Candidate>;
 

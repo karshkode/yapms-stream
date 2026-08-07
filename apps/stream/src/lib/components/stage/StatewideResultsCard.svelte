@@ -8,8 +8,14 @@
 		 * summary — the host just can't interact with it.
 		 */
 		interactive?: boolean;
+		/**
+		 * True when the card is rendered in the stage's results rail rather than
+		 * as a floating corner overlay. The corner-cycle button is meaningless
+		 * there, so it's not rendered — the dock has no corners to move between.
+		 */
+		docked?: boolean;
 	}
-	let { interactive = true }: Props = $props();
+	let { interactive = true, docked = false }: Props = $props();
 
 	// Named `streamState` rather than `state`: a local `state` binding makes
 	// Svelte 5 read every `$state(...)` in the file as a store subscription on
@@ -32,6 +38,7 @@
 		pct: number;
 		isLeader: boolean;
 		called: boolean;
+		headshotUrl: string | null;
 	}
 
 	let totalVotes = $derived(
@@ -59,7 +66,8 @@
 					votes: c.votes,
 					pct: totalVotes > 0 ? (c.votes / totalVotes) * 100 : 0,
 					isLeader: c.id === leaderId,
-					called: c.called
+					called: c.called,
+					headshotUrl: c.headshotUrl
 				})
 			)
 			.sort((a, b) => b.votes - a.votes);
@@ -149,15 +157,17 @@
 			</div>
 			{#if interactive}
 				<div class="header-actions">
-					<button
-						type="button"
-						class="icon-btn"
-						aria-label="Move card to next corner"
-						onclick={cycleCorner}
-						title="Move card (currently {streamState.ui.detailCardCorner.replace('-', ' ')}) →"
-					>
-						{CORNER_NEXT_GLYPH[streamState.ui.detailCardCorner]}
-					</button>
+					{#if !docked}
+						<button
+							type="button"
+							class="icon-btn"
+							aria-label="Move card to next corner"
+							onclick={cycleCorner}
+							title="Move card (currently {streamState.ui.detailCardCorner.replace('-', ' ')}) →"
+						>
+							{CORNER_NEXT_GLYPH[streamState.ui.detailCardCorner]}
+						</button>
+					{/if}
 					<button
 						type="button"
 						class="icon-btn"
@@ -213,7 +223,18 @@
 						<li class="cand-row" class:leader={c.isLeader}>
 							<div class="row-head">
 								<span class="name">
-									<span class="dot" style:background-color={c.partyColor}></span>
+									{#if c.headshotUrl}
+										<!-- Party colour moves to the portrait's ring so the row
+										     reads as a face without losing the party cue. -->
+										<img
+											class="face"
+											src={c.headshotUrl}
+											alt=""
+											style:border-color={c.partyColor}
+										/>
+									{:else}
+										<span class="dot" style:background-color={c.partyColor}></span>
+									{/if}
 									<strong>{c.name}</strong>
 									{#if c.partyLabel}
 										<span class="party">({c.partyLabel})</span>
@@ -271,6 +292,13 @@
 			border: none;
 			border-radius: 0;
 			padding: 0.75rem;
+		}
+		/* Collapsing the summary is how a phone host gives the map back its
+		   half of the stage, so the chevron has to be hittable rather than a
+		   20px glyph tucked in the corner. */
+		.icon-btn {
+			min-width: 2.25rem;
+			min-height: 2.25rem;
 		}
 	}
 	header {
@@ -413,6 +441,18 @@
 		width: 0.625rem;
 		height: 0.625rem;
 		border-radius: 50%;
+		flex-shrink: 0;
+	}
+	.face {
+		width: 1.75rem;
+		height: 1.75rem;
+		border-radius: 999px;
+		object-fit: cover;
+		/* Commons portraits carry headroom; bias the crop upward so the face,
+		   not the forehead, lands in the circle. */
+		object-position: center 20%;
+		border: 2px solid transparent;
+		background: var(--color-base-300);
 		flex-shrink: 0;
 	}
 	.row-head {

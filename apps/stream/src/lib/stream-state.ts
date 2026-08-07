@@ -40,6 +40,78 @@ export type RegionsSort = z.infer<typeof RegionsSort>;
 export const PipCorner = z.enum(['bottom-right', 'bottom-left', 'top-right', 'top-left']);
 export type PipCorner = z.infer<typeof PipCorner>;
 
+/**
+ * One candidate line in a followed race's ticker entry. Deliberately a flat
+ * copy rather than a `Candidate` reference: a followed race is a *different*
+ * race from the one loaded on the stage, so it has its own roster and there is
+ * nowhere in StreamState to hang it. Keeping the shape minimal also keeps the
+ * 250ms BroadcastChannel payload small when the host follows a dozen races.
+ */
+export const TickerCandidate = z.object({
+	name: z.string(),
+	partyLabel: z.string().default(''),
+	partyColor: z.string().default('#6b7280'),
+	votes: z.number().int().nonnegative().default(0),
+	called: z.boolean().default(false),
+	headshotUrl: z.string().nullable().default(null)
+});
+export type TickerCandidate = z.infer<typeof TickerCandidate>;
+
+/**
+ * A race the host is watching in the ticker without loading it onto the stage.
+ *
+ * The tallies live here, refreshed by a slow poll loop on /control. /overlay
+ * never fetches anything itself — it just renders whatever arrived over the
+ * BroadcastChannel, which keeps the OBS tab cheap and means the ticker can't
+ * disagree with the control desk.
+ */
+export const FollowedRace = z.object({
+	raceId: z.string(),
+	/** Display label, seeded from the civicAPI race name at follow time. */
+	label: z.string(),
+	/** Postal abbr, shown as the leading chip on the ticker item. */
+	state: z.string().nullable().default(null),
+	reportedPct: z.number().min(0).max(100).nullable().default(null),
+	candidates: z.array(TickerCandidate).default([]),
+	updatedAt: z.number().int().nullable().default(null),
+	lastError: z.string().nullable().default(null)
+});
+export type FollowedRace = z.infer<typeof FollowedRace>;
+
+export const BroadcastDock = z.enum(['right', 'left', 'off']);
+export type BroadcastDock = z.infer<typeof BroadcastDock>;
+
+/**
+ * Broadcast presentation config — the news-channel chrome the host asked for.
+ *
+ * `dock` applies to BOTH /control and /overlay: it moves the results card out
+ * of a floating corner overlay and into a real column beside the map, so the
+ * map never has a card sitting on top of it. `frame` / `ticker` are /overlay
+ * only, since they're the parts that only make sense once the scene is on air.
+ */
+export const BroadcastConfig = z.object({
+	/** Network-style border, top banner and lower third around the overlay. */
+	frame: z.boolean().default(true),
+	/** Which side the results rail docks to, or 'off' for the legacy
+	 *  floating-corner card. */
+	dock: BroadcastDock.default('right'),
+	ticker: z.boolean().default(true),
+	/** Seconds for one full marquee pass. Longer = slower crawl. */
+	tickerSpeedSec: z.number().min(15).max(300).default(60),
+	/** Branding in the top-left of the frame. */
+	networkName: z.string().default('DECISION DESK'),
+	/** Optional manual chyron line. Falls back to the race title when blank. */
+	headline: z.string().default(''),
+	liveBadge: z.boolean().default(true),
+	/** Auto-resolve candidate headshots from Wikipedia when a roster loads. */
+	autoPhotos: z.boolean().default(true),
+	/** Cadence for refreshing followed-race tallies. Much slower than the
+	 *  active race's poll because these are background numbers. */
+	followIntervalMs: z.number().int().min(15_000).default(60_000),
+	followed: z.array(FollowedRace).default([])
+});
+export type BroadcastConfig = z.infer<typeof BroadcastConfig>;
+
 export const UiState = z.object({
 	activeMapTab: MapTab.default('results'),
 	activeSubTab: SubTab.default('Results'),
@@ -86,7 +158,7 @@ export const UiState = z.object({
 	// (now docked bottom-right) on demand.
 	detailCardCorner: PipCorner.default('top-right'),
 	activeDrawerTab: z
-		.enum(['meta', 'candidates', 'regions', 'visibility', 'dataSource', 'saveLoad'])
+		.enum(['meta', 'candidates', 'regions', 'visibility', 'broadcast', 'dataSource', 'saveLoad'])
 		.default('meta'),
 	// Archival time-slider position. null = live-only (map paints live data
 	// or NEUTRAL). A year string like "2024" paints the map from that year's
@@ -124,7 +196,13 @@ export const UiState = z.object({
 	// the cap matches savedRaces.recent so the dropdown's two columns stay
 	// roughly the same height. Stored as uppercase abbrs to dedupe with
 	// the StateMeta lookup in the dropdown.
-	recentStates: z.array(z.string()).default([])
+	recentStates: z.array(z.string()).default([]),
+	// Broadcast chrome + followed races. Lives under `ui` for two reasons:
+	// `applyTemplate` spreads `...state.ui`, so loading a race can't wipe the
+	// host's ticker mid-broadcast; and `salvagePersistedState` rescues `ui`
+	// wholesale when a newer schema fails to parse, so a followed-race list
+	// survives an upgrade that invalidates the rest of the blob.
+	broadcast: BroadcastConfig.default(() => BroadcastConfig.parse({}))
 });
 export type UiState = z.infer<typeof UiState>;
 

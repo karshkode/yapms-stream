@@ -69,117 +69,148 @@
 	// strip is hidden in this mode; only the archival slider + edit drawer
 	// make sense for these races.
 	let hasMap = $derived(!!state.profile?.geography);
+
+	// Which results card the current selection calls for, or null when there's
+	// nothing to show (browse home before a state click, no-map races that
+	// already render their own candidate table).
+	type CardKind = 'stateRaces' | 'region' | 'statewide';
+	let cardKind = $derived.by<CardKind | null>(() => {
+		if (!hasMap) return null;
+		if (state.ui.selectedRegionAttr) return isBrowseShell ? 'stateRaces' : 'region';
+		if (!isBrowseShell && state.candidates.length > 0) return 'statewide';
+		return null;
+	});
+
+	// Docked mode puts the results card in a real column beside the map instead
+	// of floating it in a corner on top of the map. That's the difference
+	// between a scoreboard that's part of the scene and a card covering the
+	// counties the host is trying to point at — and because the map then gets
+	// its own box, MapView's click-to-zoom centres regions in the space it
+	// actually owns rather than behind the card.
+	//
+	// The dock only mounts when there's a card to put in it, so the browse-home
+	// map still gets the full stage until the host clicks a state.
+	let dockSide = $derived(state.ui.broadcast.dock);
+	let docked = $derived(dockSide !== 'off' && cardKind !== null);
 </script>
 
-<div class="stage" class:readonly={!interactive}>
-	{#if interactive && hasMap}
-		<!-- Color-tab strip floats over the top-left of the stage. It's the same
-		     MapTab set used in GeographySection (for /overlay parity) but rendered
-		     as a pill row so the map can breathe full-bleed behind it. Hidden on
-		     no-map profiles (e.g. local races) because they're meaningless there. -->
-		<div class="tabs" role="tablist">
-			{#each tabs as t (t.id)}
-				<button
-					type="button"
-					class="tab"
-					class:active={state.ui.activeMapTab === t.id}
-					role="tab"
-					aria-selected={state.ui.activeMapTab === t.id}
-					onclick={() => (streamStore.state.ui.activeMapTab = t.id)}
-				>
-					{t.label}
-				</button>
-			{/each}
-		</div>
-	{/if}
-
-	{#if state.profile && hasMap}
-		<MapView
-			tab={state.ui.activeMapTab}
-			fill
-			readonly={!interactive}
-			onselect={interactive
-				? (attr) => {
-						// Toggle so re-clicking a selected region dismisses — the host
-						// can clear selection without aiming at empty space.
-						streamStore.state.ui.selectedRegionAttr =
-							state.ui.selectedRegionAttr === attr ? null : attr;
-					}
-				: undefined}
-			onregionsextracted={(rows) => {
-				// Only auto-seed when the template didn't ship regions. Important:
-				// don't clobber the us-president baseline (which seeds regions with
-				// archival data) — its rows are already populated before the SVG
-				// loads.
-				if (state.regions.length > 0) return;
-				streamStore.state.regions = rows;
-			}}
+<!-- Shared by the dock and the legacy floating slot so the two layouts can't
+     drift apart. -->
+{#snippet resultsCard()}
+	{#if cardKind === 'stateRaces'}
+		<StateRacesCard
+			streamState={state}
+			{interactive}
+			onclose={() => (streamStore.state.ui.selectedRegionAttr = null)}
 		/>
-	{:else if state.profile}
-		<!-- No-map race: centered candidate card so the OBS scene still has
-		     something worth pointing at. RaceHeader carries polls-close time
-		     + party badge; CandidatesTable handles the leader highlight and
-		     reported-pct bar at the bottom. Wrapped in a max-width shell so
-		     the card doesn't stretch comically on 1080p+ stages. -->
-		<div class="no-map-shell">
-			<div class="no-map-card">
-				{#if state.ui.visible.header}
-					<RaceHeader {state} />
-				{/if}
-				<CandidatesTable {state} />
-				{#if state.candidates.length === 0}
-					<p class="no-cands">
-						No candidates loaded yet. Open the Edit drawer (<kbd>e</kbd>) and add them, or let
-						civicAPI polling populate them for live races.
-					</p>
-				{/if}
+	{:else if cardKind === 'region'}
+		<RegionDetailCard
+			{interactive}
+			onclose={() => (streamStore.state.ui.selectedRegionAttr = null)}
+		/>
+	{:else if cardKind === 'statewide'}
+		<StatewideResultsCard {interactive} {docked} />
+	{/if}
+{/snippet}
+
+<div class="stage" class:readonly={!interactive} class:rail-left={dockSide === 'left'}>
+	<div class="map-area">
+		{#if interactive && hasMap}
+			<!-- Color-tab strip floats over the top-left of the map. It's the same
+			     MapTab set used in GeographySection (for /overlay parity) but rendered
+			     as a pill row so the map can breathe full-bleed behind it. Hidden on
+			     no-map profiles (e.g. local races) because they're meaningless there. -->
+			<div class="tabs" role="tablist">
+				{#each tabs as t (t.id)}
+					<button
+						type="button"
+						class="tab"
+						class:active={state.ui.activeMapTab === t.id}
+						role="tab"
+						aria-selected={state.ui.activeMapTab === t.id}
+						onclick={() => (streamStore.state.ui.activeMapTab = t.id)}
+					>
+						{t.label}
+					</button>
+				{/each}
 			</div>
-		</div>
-	{:else}
-		<div class="placeholder">
-			<p>Pick a race template to start — <kbd>⌘</kbd><kbd>K</kbd> or the Templates button above.</p>
-		</div>
-	{/if}
+		{/if}
 
-	{#if state.ui.selectedRegionAttr && hasMap}
-		<div
-			class="detail-slot corner-{state.ui.detailCardCorner}"
-			class:regions-shifted={state.ui.regionListOpen && state.regions.length > 0}
-		>
-			{#if isBrowseShell}
-				<StateRacesCard
-					streamState={state}
-					{interactive}
-					onclose={() => (streamStore.state.ui.selectedRegionAttr = null)}
-				/>
-			{:else}
-				<RegionDetailCard
-					{interactive}
-					onclose={() => (streamStore.state.ui.selectedRegionAttr = null)}
-				/>
-			{/if}
-		</div>
-	{:else if hasMap && !isBrowseShell && state.candidates.length > 0}
-		<!-- No region selected on a loaded race → show the statewide tally.
-		     This is the "CNN scoreboard" that surfaces the full candidate list
-		     + vote counts the moment the race loads, so the host doesn't have
-		     to click a county to see the headline numbers. Suppressed on the
-		     browse-us shell (no candidates there) and on no-map local races
-		     (those already render CandidatesTable in the no-map-shell). -->
-		<div
-			class="detail-slot corner-{state.ui.detailCardCorner}"
-			class:regions-shifted={state.ui.regionListOpen && state.regions.length > 0}
-		>
-			<StatewideResultsCard {interactive} />
-		</div>
-	{/if}
+		{#if state.profile && hasMap}
+			<MapView
+				tab={state.ui.activeMapTab}
+				fill
+				readonly={!interactive}
+				onselect={interactive
+					? (attr) => {
+							// Toggle so re-clicking a selected region dismisses — the host
+							// can clear selection without aiming at empty space.
+							streamStore.state.ui.selectedRegionAttr =
+								state.ui.selectedRegionAttr === attr ? null : attr;
+						}
+					: undefined}
+				onregionsextracted={(rows) => {
+					// Only auto-seed when the template didn't ship regions. Important:
+					// don't clobber the us-president baseline (which seeds regions with
+					// archival data) — its rows are already populated before the SVG
+					// loads.
+					if (state.regions.length > 0) return;
+					streamStore.state.regions = rows;
+				}}
+			/>
+		{:else if state.profile}
+			<!-- No-map race: centered candidate card so the OBS scene still has
+			     something worth pointing at. RaceHeader carries polls-close time
+			     + party badge; CandidatesTable handles the leader highlight and
+			     reported-pct bar at the bottom. Wrapped in a max-width shell so
+			     the card doesn't stretch comically on 1080p+ stages. -->
+			<div class="no-map-shell">
+				<div class="no-map-card">
+					{#if state.ui.visible.header}
+						<RaceHeader {state} />
+					{/if}
+					<CandidatesTable {state} />
+					{#if state.candidates.length === 0}
+						<p class="no-cands">
+							No candidates loaded yet. Open the Edit drawer (<kbd>e</kbd>) and add them, or let
+							civicAPI polling populate them for live races.
+						</p>
+					{/if}
+				</div>
+			</div>
+		{:else}
+			<div class="placeholder">
+				<p>
+					Pick a race template to start — <kbd>⌘</kbd><kbd>K</kbd> or the Templates button above.
+				</p>
+			</div>
+		{/if}
 
-	<!-- Left-edge regions navigator. Only on /control (interactive=true) so
-	     the OBS capture stays clean. The component itself no-ops when
-	     `state.regions` is empty (browse-us shell pre-state-click, or
-	     no-map races), so we don't need an extra guard here. -->
-	{#if interactive && hasMap}
-		<RegionListPanel />
+		<!-- Legacy floating card. Only when the host has turned the dock off:
+		     `dock: 'off'` keeps the original corner-overlay behaviour, including
+		     the corner-cycle button and the offset that clears the region list. -->
+		{#if !docked && cardKind !== null}
+			<div
+				class="detail-slot corner-{state.ui.detailCardCorner}"
+				class:regions-shifted={state.ui.regionListOpen && state.regions.length > 0}
+			>
+				{@render resultsCard()}
+			</div>
+		{/if}
+
+		<!-- Left-edge regions navigator. Only on /control (interactive=true) so
+		     the OBS capture stays clean. The component itself no-ops when
+		     `state.regions` is empty (browse-us shell pre-state-click, or
+		     no-map races), so we don't need an extra guard here. -->
+		{#if interactive && hasMap}
+			<RegionListPanel />
+		{/if}
+	</div>
+
+	{#if docked}
+		<aside class="results-rail" aria-label="Results">
+			{@render resultsCard()}
+		</aside>
 	{/if}
 
 	{#if showPip && interactive && state.ui.pipVisible && state.profile}
@@ -194,6 +225,54 @@
 		min-height: 0;
 		background: var(--color-base-300);
 		overflow: hidden;
+		display: flex;
+	}
+	.map-area {
+		position: relative;
+		flex: 1 1 auto;
+		min-width: 0;
+		min-height: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	/* Results rail. A sibling column rather than an overlay, so the map keeps
+	   its own box: nothing covers the counties, and MapView's click-to-zoom
+	   frames a region inside the space the map actually owns.
+	   Named `results-rail` rather than `dock` because daisyUI 5 ships a `.dock`
+	   component (a fixed, full-width bottom bar) whose utility-layer rules win
+	   over this scoped block and drop the rail below the map. */
+	.results-rail {
+		flex: 0 0 22rem;
+		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		overflow-y: auto;
+		background: var(--color-base-100);
+		border-left: 1px solid var(--color-secondary);
+	}
+	.stage.rail-left {
+		flex-direction: row-reverse;
+	}
+	.stage.rail-left .results-rail {
+		border-left: none;
+		border-right: 1px solid var(--color-secondary);
+	}
+	/* The cards were built as floating glass panels — rounded, shadowed and
+	   width-capped so they'd read as separate objects above the map. In the
+	   rail they ARE the panel, so flatten that chrome and let them fill the
+	   column. Reaching in with :global beats forking three components that are
+	   otherwise identical in both layouts. */
+	.results-rail :global(.statewide-card),
+	.results-rail :global(.region-card),
+	.results-rail :global(.state-card) {
+		width: 100%;
+		min-width: 0;
+		max-width: none;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		background: transparent;
+		backdrop-filter: none;
 	}
 	.stage.readonly {
 		/* Prevent stray mouse input on the OBS capture from triggering
@@ -347,6 +426,22 @@
 	   card becomes a bottom sheet spanning the full width, and the map keeps
 	   the upper half of the stage to itself. */
 	@media (max-width: 640px) {
+		/* No room for a side rail on a phone, so the stage stacks and the dock
+		   becomes the same bottom sheet the floating card already used. Keeping
+		   it at half height matters beyond looks: MapView's PHONE_SHEET_FRACTION
+		   assumes the bottom half of the stage is spoken for when it centres a
+		   tapped region. */
+		.stage,
+		.stage.rail-left {
+			flex-direction: column;
+		}
+		.results-rail {
+			flex: 0 0 auto;
+			max-height: 50%;
+			border-left: none;
+			border-right: none;
+			border-top: 1px solid var(--color-secondary);
+		}
 		.detail-slot,
 		.detail-slot.corner-top-right,
 		.detail-slot.corner-top-left,

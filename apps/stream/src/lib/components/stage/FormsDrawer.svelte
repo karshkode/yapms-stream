@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { StreamState } from '$lib/stream-state';
+	import BroadcastPanel from '$lib/components/BroadcastPanel.svelte';
 	import CandidateEditor from '$lib/components/CandidateEditor.svelte';
 	import DataSourcePanel from '$lib/components/DataSourcePanel.svelte';
 	import RaceMetaForm from '$lib/components/RaceMetaForm.svelte';
@@ -21,6 +22,7 @@
 		{ id: 'candidates', label: 'Candidates' },
 		{ id: 'regions', label: 'Regions' },
 		{ id: 'visibility', label: 'Visibility' },
+		{ id: 'broadcast', label: 'Broadcast' },
 		{ id: 'dataSource', label: 'Data source' },
 		{ id: 'saveLoad', label: 'Save / Load' }
 	];
@@ -94,11 +96,13 @@
 		{#if streamState.ui.activeDrawerTab === 'meta'}
 			<RaceMetaForm state={streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'candidates'}
-			<CandidateEditor state={streamState} />
+			<CandidateEditor {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'regions'}
 			<RegionEditor state={streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'visibility'}
 			<VisibilityPanel state={streamState} />
+		{:else if streamState.ui.activeDrawerTab === 'broadcast'}
+			<BroadcastPanel {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'dataSource'}
 			<DataSourcePanel state={streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'saveLoad'}
