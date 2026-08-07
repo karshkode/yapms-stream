@@ -113,7 +113,7 @@
 	{/if}
 {/snippet}
 
-<div class="stage" class:readonly={!interactive} class:docked class:dock-left={dockSide === 'left'}>
+<div class="stage" class:readonly={!interactive} class:rail-left={dockSide === 'left'}>
 	<div class="map-area">
 		{#if interactive && hasMap}
 			<!-- Color-tab strip floats over the top-left of the map. It's the same
@@ -208,7 +208,7 @@
 	</div>
 
 	{#if docked}
-		<aside class="dock" aria-label="Results">
+		<aside class="results-rail" aria-label="Results">
 			{@render resultsCard()}
 		</aside>
 	{/if}
@@ -237,8 +237,11 @@
 	}
 	/* Results rail. A sibling column rather than an overlay, so the map keeps
 	   its own box: nothing covers the counties, and MapView's click-to-zoom
-	   frames a region inside the space the map actually owns. */
-	.dock {
+	   frames a region inside the space the map actually owns.
+	   Named `results-rail` rather than `dock` because daisyUI 5 ships a `.dock`
+	   component (a fixed, full-width bottom bar) whose utility-layer rules win
+	   over this scoped block and drop the rail below the map. */
+	.results-rail {
 		flex: 0 0 22rem;
 		min-width: 0;
 		display: flex;
@@ -247,10 +250,10 @@
 		background: var(--color-base-100);
 		border-left: 1px solid var(--color-secondary);
 	}
-	.stage.dock-left {
+	.stage.rail-left {
 		flex-direction: row-reverse;
 	}
-	.stage.dock-left .dock {
+	.stage.rail-left .results-rail {
 		border-left: none;
 		border-right: 1px solid var(--color-secondary);
 	}
@@ -259,9 +262,9 @@
 	   rail they ARE the panel, so flatten that chrome and let them fill the
 	   column. Reaching in with :global beats forking three components that are
 	   otherwise identical in both layouts. */
-	.dock :global(.statewide-card),
-	.dock :global(.region-card),
-	.dock :global(.state-card) {
+	.results-rail :global(.statewide-card),
+	.results-rail :global(.region-card),
+	.results-rail :global(.state-card) {
 		width: 100%;
 		min-width: 0;
 		max-width: none;
@@ -429,10 +432,10 @@
 		   assumes the bottom half of the stage is spoken for when it centres a
 		   tapped region. */
 		.stage,
-		.stage.dock-left {
+		.stage.rail-left {
 			flex-direction: column;
 		}
-		.dock {
+		.results-rail {
 			flex: 0 0 auto;
 			max-height: 50%;
 			border-left: none;

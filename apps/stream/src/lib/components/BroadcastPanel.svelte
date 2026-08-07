@@ -439,6 +439,14 @@
 		.bar button,
 		.f-actions button {
 			min-height: 2.25rem;
+			/* Height alone isn't a tap target: the reorder arrows are a single
+			   glyph wide, so without this they stay ~20px across and land
+			   between a thumb's worth of pixels. */
+			min-width: 2.25rem;
+		}
+		.row input[type='checkbox'] {
+			width: 1.25rem;
+			height: 1.25rem;
 		}
 		input[type='text'],
 		input[type='number'],

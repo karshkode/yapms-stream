@@ -293,6 +293,13 @@
 			border-radius: 0;
 			padding: 0.75rem;
 		}
+		/* Collapsing the summary is how a phone host gives the map back its
+		   half of the stage, so the chevron has to be hittable rather than a
+		   20px glyph tucked in the corner. */
+		.icon-btn {
+			min-width: 2.25rem;
+			min-height: 2.25rem;
+		}
 	}
 	header {
 		display: flex;

@@ -565,6 +565,7 @@
 		   map it sits above. */
 		.edit-btn,
 		.refresh-race-btn,
+		.back-state-btn,
 		.obs-row button,
 		.btn-link {
 			min-height: 2.25rem;
