@@ -180,6 +180,10 @@
 	   on its own line, then the colour / party / votes controls and the two
 	   flags flowing beneath it. */
 	@media (max-width: 640px) {
+		.bar button {
+			min-height: 2.25rem;
+			padding-inline: 0.7rem;
+		}
 		.row {
 			display: flex;
 			flex-wrap: wrap;
@@ -206,11 +210,25 @@
 		}
 		.toggle {
 			font-size: 0.75rem;
+			/* The label is the tap target — clicking it toggles the input — so
+			   give it thumb height rather than leaving a ~13px native box.
+			   `flex: 0 0 auto` keeps it at its content width; as a shrinkable
+			   item it collapsed far enough to squash the box to a few pixels
+			   and clip the caption. */
+			flex: 0 0 auto;
+			min-height: 2.25rem;
+			padding-inline: 0.2rem;
+		}
+		.toggle input {
+			flex: 0 0 auto;
+			width: 1.15rem;
+			height: 1.15rem;
 		}
 		button.danger {
 			/* Pushed to the trailing edge so it isn't adjacent to the flags
 			   a thumb is aiming for. */
 			margin-left: auto;
+			min-height: 2.25rem;
 			padding: 0.25rem 0.6rem;
 			font-size: 1.15rem;
 		}

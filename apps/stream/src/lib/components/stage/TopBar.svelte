@@ -467,5 +467,10 @@
 			min-height: 2.25rem;
 			padding-inline: 0.7rem;
 		}
+		/* The wordmark doubles as the "reset to home map" button, so it needs
+		   to be as tappable as the rest even though it reads as a heading. */
+		.brand-btn {
+			min-height: 2.25rem;
+		}
 	}
 </style>

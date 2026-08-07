@@ -109,6 +109,9 @@
 			padding: 0.4rem 0.6rem;
 			font-size: 0.78rem;
 			flex: 0 0 auto;
+			/* Padding alone left these at 27px tall, under the ~36px a thumb
+			   needs, and these six pills are the most-used control on the bar. */
+			min-height: 2.25rem;
 		}
 	}
 </style>
