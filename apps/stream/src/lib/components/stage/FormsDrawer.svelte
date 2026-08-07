@@ -94,7 +94,7 @@
 		{#if streamState.ui.activeDrawerTab === 'meta'}
 			<RaceMetaForm state={streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'candidates'}
-			<CandidateEditor state={streamState} />
+			<CandidateEditor {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'regions'}
 			<RegionEditor state={streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'visibility'}

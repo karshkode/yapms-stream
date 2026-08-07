@@ -1,5 +1,11 @@
 import { raceTier } from '../picker/raceImportance';
-import type { DataSource, DataSourceKind, RaceListEntry, StreamStatePatch } from './source';
+import type {
+	DataSource,
+	DataSourceKind,
+	RaceListEntry,
+	RaceSummary,
+	StreamStatePatch
+} from './source';
 
 /**
  * How a search/firehose call should bound its result window relative to
@@ -403,6 +409,36 @@ export class CivicApiSource implements DataSource {
 		if (!res.ok) throw new Error(`civicAPI fetch ${res.status}`);
 		const data = (await res.json()) as CivicApiRaceDetail;
 		return normalizeRaceToPatch(data);
+	}
+
+	/**
+	 * Headline-only fetch for a race the host is *following* rather than
+	 * displaying — the broadcast ticker's data source.
+	 *
+	 * Hits the same `/race/<id>` endpoint as `fetchRace` but throws away
+	 * `region_results` instead of normalizing it. A followed presidential or
+	 * big-state race carries hundreds of region rows, and the ticker only ever
+	 * shows the top two candidates and a reporting percentage; skipping the
+	 * per-region normalize keeps a dozen followed races off the main thread on
+	 * election night. The `fetchRaces` search cache deliberately isn't used
+	 * here — cached vote totals are exactly what a ticker must not show.
+	 */
+	async fetchRaceSummary(raceId: string): Promise<RaceSummary> {
+		const url = `${this.baseUrl}/race/${encodeURIComponent(raceId)}`;
+		const data = await fetchJsonWithTimeout<CivicApiRaceDetail>(url);
+		return {
+			title: data.election_name,
+			state: data.province ?? null,
+			reportedPct: data.percent_reporting ?? null,
+			candidates: (data.candidates ?? []).map((c) => ({
+				name: c.name,
+				partyLabel: c.party ?? '',
+				partyColor: c.color ?? defaultPartyColor(c.party),
+				votes: c.votes ?? 0,
+				called: c.winner ?? false,
+				headshotUrl: null
+			}))
+		};
 	}
 
 	async *pollRace(raceId: string, intervalMs: number): AsyncIterable<StreamStatePatch> {
