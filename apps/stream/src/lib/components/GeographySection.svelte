@@ -13,6 +13,7 @@
 		{ id: 'results', label: 'Results' },
 		{ id: 'margin', label: 'Margin' },
 		{ id: 'swing', label: 'Swing' },
+		{ id: 'turnout', label: 'Turnout' },
 		{ id: 'remaining', label: 'Remaining' }
 	];
 </script>

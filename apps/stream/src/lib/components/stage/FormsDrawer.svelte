@@ -2,6 +2,7 @@
 	import type { StreamState } from '$lib/stream-state';
 	import BroadcastPanel from '$lib/components/BroadcastPanel.svelte';
 	import CandidateEditor from '$lib/components/CandidateEditor.svelte';
+	import ComparePanel from '$lib/components/ComparePanel.svelte';
 	import DataSourcePanel from '$lib/components/DataSourcePanel.svelte';
 	import RaceMetaForm from '$lib/components/RaceMetaForm.svelte';
 	import RegionEditor from '$lib/components/RegionEditor.svelte';
@@ -21,6 +22,7 @@
 		{ id: 'meta', label: 'Race meta' },
 		{ id: 'candidates', label: 'Candidates' },
 		{ id: 'regions', label: 'Regions' },
+		{ id: 'compare', label: 'Compare' },
 		{ id: 'visibility', label: 'Visibility' },
 		{ id: 'broadcast', label: 'Broadcast' },
 		{ id: 'dataSource', label: 'Data source' },
@@ -99,6 +101,8 @@
 			<CandidateEditor {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'regions'}
 			<RegionEditor state={streamState} />
+		{:else if streamState.ui.activeDrawerTab === 'compare'}
+			<ComparePanel {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'visibility'}
 			<VisibilityPanel state={streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'broadcast'}
