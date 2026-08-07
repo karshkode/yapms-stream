@@ -2,6 +2,7 @@
 	import type { RaceListEntry } from '../../data/source';
 	import { civicApi, type TimeRange } from '../../data/civicapi';
 	import { resolveCivicApiRace } from '../../picker/civicapiResolver';
+	import { parseRaceQuery } from '../../picker/raceQuery';
 	import type { RaceTemplate } from '../../race-profile';
 
 	interface Props {
@@ -34,7 +35,19 @@
 	// flip between today-forward races (race-night prep) and the past 90
 	// days (Wed-morning recap of Tuesday primaries). Caching in the API
 	// layer means switching is mostly hits, not refetches.
-	let timeRange: TimeRange = $state('upcoming');
+	//
+	// Null until the host picks one, because the right default depends on what
+	// they're doing. An empty box is race-night prep, so Upcoming. Typing a
+	// race name is a lookup, and defaulting that to Upcoming is why last
+	// November's mayoral race appeared not to exist: it was filtered out before
+	// it could be matched, and "Recent" only reaches back 90 days.
+	let picked: TimeRange | null = $state(null);
+	let range = $derived<TimeRange>(picked ?? (query.trim() ? 'all' : 'upcoming'));
+
+	// What the search understood, surfaced so the host can see why they got
+	// these rows — and can discover that typing a year or a state does
+	// something. See picker/raceQuery.ts.
+	let parsed = $derived(parseRaceQuery(query));
 
 	$effect(() => {
 		// IMPORTANT: read `query` AND `timeRange` SYNCHRONOUSLY so Svelte 5
@@ -44,7 +57,7 @@
 		// re-run on keystrokes or range flips — same class of bug as the
 		// "civicAPI search doesn't refresh while I keep typing" one.
 		const q = query;
-		const range = timeRange;
+		const activeRange = range;
 		if (debounceHandle) clearTimeout(debounceHandle);
 		// Empty query -> `civicApi.searchRaces('')` fans out across election
 		// types + offsets to surface races for the requested range. civicAPI
@@ -55,7 +68,7 @@
 			error = null;
 			emptyNote = null;
 			try {
-				const fetched = await civicApi.searchRaces(q, range);
+				const fetched = await civicApi.searchRaces(q, activeRange);
 				// Race-condition guard: a newer keystroke / range flip may
 				// have fired another effect run while this fetch was in
 				// flight. Only commit results when we're still the latest
@@ -63,27 +76,30 @@
 				// results when it resolves. Without this, "tex" → "texas"
 				// can flicker back to the longer "tex" results if the
 				// network favors them.
-				if (q !== query || range !== timeRange) return;
+				if (q !== query || activeRange !== range) return;
 				results = fetched;
 				if (results.length === 0) {
 					emptyNote = q
-						? `No live race matching '${q}' in this range. Try Recent or All.`
-						: range === 'upcoming'
+						? `civicAPI has no ${yearLabel ? `${yearLabel} ` : ''}race matching '${q}'${stateLabel ? ` in ${stateLabel}` : ''}. Its local coverage is patchy — try fewer words, or build the race from a template below.`
+						: activeRange === 'upcoming'
 							? 'No upcoming races right now. Try Recent for past results.'
-							: range === 'recent'
+							: activeRange === 'recent'
 								? 'No results in the past 90 days.'
 								: 'No races available.';
 				}
 			} catch (err) {
-				if (q !== query || range !== timeRange) return;
+				if (q !== query || activeRange !== range) return;
 				error = 'civicAPI unreachable. Templates and Saved still work.';
 				results = [];
 				console.warn(err);
 			} finally {
-				if (q === query && range === timeRange) loading = false;
+				if (q === query && activeRange === range) loading = false;
 			}
 		}, 250);
 	});
+
+	let stateLabel = $derived(parsed.state?.name ?? null);
+	let yearLabel = $derived(parsed.year !== null ? String(parsed.year) : null);
 
 	// Group results by their ISO election_date so the picker renders a
 	// "Today"/"Tue May 5"/"Tue Nov 3" style header above each cluster. Most
@@ -166,14 +182,35 @@
 				type="button"
 				role="tab"
 				class="range-btn"
-				class:active={timeRange === opt.id}
-				aria-selected={timeRange === opt.id}
-				onclick={() => (timeRange = opt.id as TimeRange)}
+				class:active={range === opt.id}
+				aria-selected={range === opt.id}
+				disabled={yearLabel !== null}
+				title={yearLabel !== null ? `Showing ${yearLabel} only` : undefined}
+				onclick={() => (picked = opt.id as TimeRange)}
 			>
 				{opt.label}
 			</button>
 		{/each}
 	</div>
+
+	<!-- What the query was read as. Only when there's something to say, so the
+	     common case stays quiet — but a year or a state changes which races can
+	     come back at all, and that shouldn't be invisible. -->
+	{#if yearLabel || stateLabel}
+		<p class="parsed">
+			{#if yearLabel}<span class="chip">{yearLabel}</span>{/if}
+			{#if stateLabel}<span class="chip">{stateLabel}</span>{/if}
+			<span class="parsed-note">
+				{#if yearLabel && stateLabel}
+					Searching {stateLabel} races held in {yearLabel}.
+				{:else if yearLabel}
+					Searching races held in {yearLabel}, whatever the date toggle says.
+				{:else}
+					Searching every {stateLabel} race, not just ones with it in the title.
+				{/if}
+			</span>
+		</p>
+	{/if}
 
 	{#if loading}
 		<p class="hint">Searching civicAPI…</p>
@@ -184,12 +221,12 @@
 	{:else}
 		{#if !query}
 			<p class="hint muted">
-				{timeRange === 'upcoming'
+				{range === 'upcoming'
 					? 'Upcoming races across the US, soonest first.'
-					: timeRange === 'recent'
+					: range === 'recent'
 						? 'Recent races (past 90 days), most recent first.'
 						: 'All available races, upcoming then recent past.'}
-				Type to narrow (e.g. "texas", "richardson", "mayor").
+				Type to narrow — a state, a city, an office, or a year ("nyc mayoral 2025").
 			</p>
 		{/if}
 		{#each grouped as g (g.date || 'none')}
@@ -257,6 +294,29 @@
 	.range-btn.active {
 		background: var(--color-primary);
 		color: var(--color-primary-content);
+	}
+	.range-btn:disabled {
+		opacity: 0.45;
+		cursor: default;
+	}
+	.parsed {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.35rem;
+		margin: 0;
+		font-size: 0.75rem;
+	}
+	.chip {
+		padding: 0.1rem 0.4rem;
+		border-radius: 999px;
+		background: var(--color-primary);
+		color: var(--color-primary-content);
+		font-weight: 700;
+		font-size: 0.7rem;
+	}
+	.parsed-note {
+		color: rgb(from var(--color-base-content) r g b / 0.6);
 	}
 	.hint,
 	.error {
