@@ -19,9 +19,7 @@
 		candidates: (state.profile?.sections.candidates ?? true) && state.ui.visible.candidates,
 		performance: (state.profile?.sections.performance ?? false) && state.ui.visible.performance,
 		geography:
-			!!state.profile?.geography &&
-			state.profile.sections.geography &&
-			state.ui.visible.geography,
+			!!state.profile?.geography && state.profile.sections.geography && state.ui.visible.geography,
 		regions:
 			!!state.profile?.geography && state.profile.sections.regions && state.ui.visible.regions
 	});

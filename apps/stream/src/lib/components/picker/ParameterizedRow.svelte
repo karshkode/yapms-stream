@@ -96,9 +96,7 @@
 			District
 			<input type="text" bind:value={legDistrict} placeholder="1, 7, 42..." />
 		</label>
-		<button type="button" class="apply" disabled={!canApplyLeg} onclick={applyLeg}>
-			Apply
-		</button>
+		<button type="button" class="apply" disabled={!canApplyLeg} onclick={applyLeg}> Apply </button>
 	</div>
 {/if}
 

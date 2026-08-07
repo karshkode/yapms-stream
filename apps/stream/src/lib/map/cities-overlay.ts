@@ -151,9 +151,7 @@ export function applyCityOverlay(svg: SVGElement, scale: number): void {
 	let placed = 0;
 	for (const city of US_CITIES) {
 		if (city.tier > tier) continue;
-		const path = svg.querySelector<SVGGraphicsElement>(
-			`[region="${cssEscape(city.regionAttr)}"]`
-		);
+		const path = svg.querySelector<SVGGraphicsElement>(`[region="${cssEscape(city.regionAttr)}"]`);
 		if (!path) continue; // county not present (state-filtered SVG)
 
 		const center = centroidOf(path);

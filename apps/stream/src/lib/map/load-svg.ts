@@ -109,7 +109,12 @@ export function filterSvg(svgMarkup: string, filterAttr: string, filterValue: st
 	const svg = dom.documentElement as unknown as SVGSVGElement;
 	if (svg.nodeName !== 'svg') return svgMarkup;
 
-	const allowed = new Set(filterValue.split('|').map((s) => s.trim()).filter(Boolean));
+	const allowed = new Set(
+		filterValue
+			.split('|')
+			.map((s) => s.trim())
+			.filter(Boolean)
+	);
 	const regions = svg.querySelectorAll('[region]');
 	for (const node of Array.from(regions)) {
 		const attr = node.getAttribute(filterAttr);

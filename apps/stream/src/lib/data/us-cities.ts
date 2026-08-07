@@ -142,8 +142,8 @@ export const US_CITIES: UsCity[] = [
  * worth of counties — we'd otherwise iterate the full list on every repaint.
  */
 export function filterCitiesForSvg(svg: SVGElement): UsCity[] {
-	return US_CITIES.filter((c) =>
-		svg.querySelector(`[region="${cssEscape(c.regionAttr)}"]`) != null
+	return US_CITIES.filter(
+		(c) => svg.querySelector(`[region="${cssEscape(c.regionAttr)}"]`) != null
 	);
 }
 

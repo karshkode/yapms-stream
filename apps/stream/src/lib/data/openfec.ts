@@ -54,10 +54,7 @@ export class OpenFecSource {
 		return data.results ?? [];
 	}
 
-	toCandidates(
-		rows: OpenFecCandidate[],
-		partyColor: (party: string) => string
-	): Candidate[] {
+	toCandidates(rows: OpenFecCandidate[], partyColor: (party: string) => string): Candidate[] {
 		return rows.map((r, i) => ({
 			id: r.candidate_id ?? `openfec-${i}`,
 			name: r.name,

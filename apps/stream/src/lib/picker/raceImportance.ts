@@ -45,9 +45,7 @@ export function raceTier(title: string): number {
 	// regex defensively. Tested against ~50 civicAPI samples — no false
 	// positives among legitimately statewide titles.
 	const isSubStatewide =
-		/\b(?:town|township|village|borough|city|county|district|ward|precinct|school)\b/.test(
-			t
-		);
+		/\b(?:town|township|village|borough|city|county|district|ward|precinct|school)\b/.test(t);
 
 	// 1. President — exclude Vice President so it doesn't shadow itself.
 	if (/\bpresident(?:ial)?\b/.test(t) && !/\bvice\s*president\b/.test(t)) {
@@ -57,10 +55,7 @@ export function raceTier(title: string): number {
 	// 2. US Senate — must qualify with "US" / "United States" because
 	//    civicAPI titles a state senate race "[State] Senate" without
 	//    the "State" prefix sometimes; we don't want those to bubble up.
-	if (
-		/\b(?:u\.?\s?s\.?|united\s+states)\s*senate\b/.test(t) ||
-		/^senate\s+class\b/.test(t)
-	) {
+	if (/\b(?:u\.?\s?s\.?|united\s+states)\s*senate\b/.test(t) || /^senate\s+class\b/.test(t)) {
 		return 2;
 	}
 
@@ -71,9 +66,7 @@ export function raceTier(title: string): number {
 
 	// 4. US House / Congressional
 	if (
-		/\b(?:u\.?\s?s\.?|united\s+states)\s*(?:house|congress|representative)\b/.test(
-			t
-		) ||
+		/\b(?:u\.?\s?s\.?|united\s+states)\s*(?:house|congress|representative)\b/.test(t) ||
 		/\bcongressional\s+district\b/.test(t) ||
 		/\bus\s+rep\b/.test(t)
 	) {

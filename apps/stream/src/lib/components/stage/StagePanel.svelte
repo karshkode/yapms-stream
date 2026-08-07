@@ -129,8 +129,8 @@
 				<CandidatesTable {state} />
 				{#if state.candidates.length === 0}
 					<p class="no-cands">
-						No candidates loaded yet. Open the Edit drawer (<kbd>e</kbd>) and add them, or
-						let civicAPI polling populate them for live races.
+						No candidates loaded yet. Open the Edit drawer (<kbd>e</kbd>) and add them, or let
+						civicAPI polling populate them for live races.
 					</p>
 				{/if}
 			</div>

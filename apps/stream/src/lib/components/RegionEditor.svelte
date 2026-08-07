@@ -45,9 +45,7 @@
 				if (pctIdx >= 0) target.reportedPct = Number(cols[pctIdx]) || 0;
 				if (leaderIdx >= 0) {
 					const leaderName = cols[leaderIdx]?.trim().toLowerCase();
-					const match = state.candidates.find(
-						(c) => c.name.toLowerCase() === leaderName
-					);
+					const match = state.candidates.find((c) => c.name.toLowerCase() === leaderName);
 					target.leaderId = match?.id ?? null;
 				}
 			}

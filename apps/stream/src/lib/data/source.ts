@@ -105,7 +105,11 @@ function mergeRegions(
 	const manualByAttr = new Map((manual ?? []).map((r) => [r.regionAttr, r]));
 
 	// Union of all keys so a region appearing in any layer survives.
-	const keys = new Set<string>([...seedByAttr.keys(), ...liveByAttr.keys(), ...manualByAttr.keys()]);
+	const keys = new Set<string>([
+		...seedByAttr.keys(),
+		...liveByAttr.keys(),
+		...manualByAttr.keys()
+	]);
 
 	const merged: StreamState['regions'] = [];
 	const emptyRow = {
@@ -134,9 +138,7 @@ function mergeRegions(
 	// Preserve seed order where possible.
 	if (seed && seed.length > 0) {
 		const order = new Map(seed.map((r, i) => [r.regionAttr, i]));
-		merged.sort(
-			(a, b) => (order.get(a.regionAttr) ?? 9999) - (order.get(b.regionAttr) ?? 9999)
-		);
+		merged.sort((a, b) => (order.get(a.regionAttr) ?? 9999) - (order.get(b.regionAttr) ?? 9999));
 	}
 	return merged;
 }

@@ -83,22 +83,63 @@ const SOURCE_URL = {
 const SOURCE_CACHE = {
 	'long-per-year': (year) =>
 		path.resolve(CACHE_DIR, `${year}_US_County_Level_Presidential_Results.csv`),
-	'wide-08-16': () =>
-		path.resolve(CACHE_DIR, `US_County_Level_Presidential_Results_08-16.csv`)
+	'wide-08-16': () => path.resolve(CACHE_DIR, `US_County_Level_Presidential_Results_08-16.csv`)
 };
 
 // FIPS-to-postal-code, populated once at module load, used in both
 // writeUsPresBaseline and the wide-format parser (which has no state_name col).
 const FIPS_TO_PO = {
-	'01': 'al', '02': 'ak', '04': 'az', '05': 'ar', '06': 'ca', '08': 'co',
-	'09': 'ct', '10': 'de', '11': 'dc', '12': 'fl', '13': 'ga', '15': 'hi',
-	'16': 'id', '17': 'il', '18': 'in', '19': 'ia', '20': 'ks', '21': 'ky',
-	'22': 'la', '23': 'me', '24': 'md', '25': 'ma', '26': 'mi', '27': 'mn',
-	'28': 'ms', '29': 'mo', '30': 'mt', '31': 'ne', '32': 'nv', '33': 'nh',
-	'34': 'nj', '35': 'nm', '36': 'ny', '37': 'nc', '38': 'nd', '39': 'oh',
-	'40': 'ok', '41': 'or', '42': 'pa', '44': 'ri', '45': 'sc', '46': 'sd',
-	'47': 'tn', '48': 'tx', '49': 'ut', '50': 'vt', '51': 'va', '53': 'wa',
-	'54': 'wv', '55': 'wi', '56': 'wy'
+	'01': 'al',
+	'02': 'ak',
+	'04': 'az',
+	'05': 'ar',
+	'06': 'ca',
+	'08': 'co',
+	'09': 'ct',
+	10: 'de',
+	11: 'dc',
+	12: 'fl',
+	13: 'ga',
+	15: 'hi',
+	16: 'id',
+	17: 'il',
+	18: 'in',
+	19: 'ia',
+	20: 'ks',
+	21: 'ky',
+	22: 'la',
+	23: 'me',
+	24: 'md',
+	25: 'ma',
+	26: 'mi',
+	27: 'mn',
+	28: 'ms',
+	29: 'mo',
+	30: 'mt',
+	31: 'ne',
+	32: 'nv',
+	33: 'nh',
+	34: 'nj',
+	35: 'nm',
+	36: 'ny',
+	37: 'nc',
+	38: 'nd',
+	39: 'oh',
+	40: 'ok',
+	41: 'or',
+	42: 'pa',
+	44: 'ri',
+	45: 'sc',
+	46: 'sd',
+	47: 'tn',
+	48: 'tx',
+	49: 'ut',
+	50: 'vt',
+	51: 'va',
+	53: 'wa',
+	54: 'wv',
+	55: 'wi',
+	56: 'wy'
 };
 
 // DDHQ / yapms 4-stop color ramp. Index 0 = strongest margin, index 3 = near
@@ -391,9 +432,7 @@ async function mergeSeed(stateFips, marginsByYear) {
 	}
 
 	await fs.writeFile(seedPath, JSON.stringify(seed, null, 2) + '\n', 'utf8');
-	const pct = seed.counties?.length
-		? Math.round((matched / seed.counties.length) * 100)
-		: 0;
+	const pct = seed.counties?.length ? Math.round((matched / seed.counties.length) * 100) : 0;
 	console.log(
 		`  state-${stateFips} (${seed.stateName ?? '?'}): ${matched}/${seed.counties?.length ?? 0} matched (${pct}%)`
 	);
@@ -469,7 +508,9 @@ async function writeUsPresBaseline(marginsByYear) {
 
 	const outPath = path.resolve(SEED_DIR, 'us-presidential-archival.json');
 	await fs.writeFile(outPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
-	console.log(`Wrote US President archival (${Object.keys(out).length} states, 5 years) -> ${outPath}`);
+	console.log(
+		`Wrote US President archival (${Object.keys(out).length} states, 5 years) -> ${outPath}`
+	);
 
 	// Delete the superseded single-year baseline so stale data doesn't linger
 	// in the repo. Safe: us-president.ts imports the new file after the schema

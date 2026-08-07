@@ -19,11 +19,7 @@
 		{#each state.performance as row, i (i)}
 			<div class="row" role="row">
 				<span class="col-race">
-					<span
-						class="badge"
-						style:background-color={row.marginColor}
-						aria-hidden="true"
-					>
+					<span class="badge" style:background-color={row.marginColor} aria-hidden="true">
 						{row.partyBadge}
 					</span>
 					{row.raceName}

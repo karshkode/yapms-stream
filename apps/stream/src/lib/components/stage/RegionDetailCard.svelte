@@ -62,10 +62,7 @@
 		if (!region) return [];
 		const visible = state.candidates.filter((c) => !c.hidden);
 		if (visible.length === 0) return [];
-		const totalFromDict = Object.values(region.candidateVotes ?? {}).reduce(
-			(a, v) => a + v,
-			0
-		);
+		const totalFromDict = Object.values(region.candidateVotes ?? {}).reduce((a, v) => a + v, 0);
 		const hasRegionSplit = totalFromDict > 0;
 		const denom = hasRegionSplit ? totalFromDict : 0;
 		return visible
@@ -86,8 +83,7 @@
 	});
 
 	let hasRegionSplit = $derived(
-		!!region &&
-			Object.values(region.candidateVotes ?? {}).reduce((a, v) => a + v, 0) > 0
+		!!region && Object.values(region.candidateVotes ?? {}).reduce((a, v) => a + v, 0) > 0
 	);
 
 	// Year snapshot to display in the archival section. Defaults to 2024 when
@@ -260,10 +256,7 @@
 						<span class="source-note">{archivalSourceNote}</span>
 					{/if}
 					{#if archival.label}
-						<span
-							class="margin-chip"
-							style:background-color={archival.color ?? '#555'}
-						>
+						<span class="margin-chip" style:background-color={archival.color ?? '#555'}>
 							{archival.label}
 						</span>
 					{/if}
