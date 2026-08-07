@@ -193,6 +193,31 @@ export function parseName(raw: string): ParsedName {
 	};
 }
 
+/**
+ * The surname in its original casing, for display. `parseName` lowercases
+ * everything for matching, but a ticker wants "BESHEAR", not "beshear" put
+ * through `toUpperCase()` — which would mangle "O'Rourke" and "McConnell" if we
+ * ever showed mixed case. Falls back to the whole string for single-token
+ * names so a placeholder row still renders something.
+ */
+export function surnameOf(raw: string): string {
+	const cleaned = raw
+		.replace(/\s*[([{][^)\]}]*[)\]}]\s*$/g, ' ')
+		.replace(/["“”'‘’]([^"“”'‘’]{1,20})["“”'‘’]/g, ' ')
+		.trim();
+	const commaIdx = cleaned.indexOf(',');
+	if (commaIdx > 0) {
+		const surname = cleaned.slice(0, commaIdx).trim();
+		const rest = normalizeLoose(cleaned.slice(commaIdx + 1))
+			.split(' ')
+			.filter(Boolean);
+		// "Kennedy, Jr." is a suffix, not a surname-first listing.
+		if (rest.length > 0 && !NAME_SUFFIXES.has(rest[0])) return surname;
+	}
+	const tokens = cleaned.split(/\s+/).filter((t) => !NAME_SUFFIXES.has(normalizeLoose(t)));
+	return tokens.length > 1 ? tokens[tokens.length - 1] : cleaned;
+}
+
 /** True when two given names could be the same person: identical, one is an
  *  initial, or one is a prefix of the other ("Chris"/"Christopher"). Deliberately
  *  does NOT accept "same first letter" — that would happily match Jane Smith to
@@ -398,7 +423,9 @@ export async function lookupHeadshot(
 		cllimit: 'max'
 	});
 
-	let pages: WikiPage[] = [];
+	// Assigned on the success path; the catch below returns, so there's no path
+	// to the scoring loop with `pages` unset.
+	let pages: WikiPage[];
 	try {
 		const data = await fetchJson<WikiResponse>(`${API}?${params.toString()}`, signal);
 		pages = data.query?.pages ?? [];

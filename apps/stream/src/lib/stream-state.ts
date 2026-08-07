@@ -158,7 +158,7 @@ export const UiState = z.object({
 	// (now docked bottom-right) on demand.
 	detailCardCorner: PipCorner.default('top-right'),
 	activeDrawerTab: z
-		.enum(['meta', 'candidates', 'regions', 'visibility', 'dataSource', 'saveLoad'])
+		.enum(['meta', 'candidates', 'regions', 'visibility', 'broadcast', 'dataSource', 'saveLoad'])
 		.default('meta'),
 	// Archival time-slider position. null = live-only (map paints live data
 	// or NEUTRAL). A year string like "2024" paints the map from that year's
