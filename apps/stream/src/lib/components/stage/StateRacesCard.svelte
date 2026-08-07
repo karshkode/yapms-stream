@@ -548,6 +548,18 @@
 		color: var(--color-base-content);
 		font-size: 0.875rem;
 	}
+	/* See RegionDetailCard: 22rem is wider than a phone viewport, so the
+	   card fills the bottom sheet rather than overflowing it. */
+	@media (max-width: 640px) {
+		.state-card {
+			min-width: 0;
+			max-width: none;
+			width: 100%;
+			border: none;
+			border-radius: 0;
+			padding: 0.75rem;
+		}
+	}
 	header {
 		display: flex;
 		justify-content: space-between;

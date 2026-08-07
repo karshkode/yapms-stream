@@ -341,4 +341,53 @@
 		font-family: ui-monospace, monospace;
 		font-size: 0.75rem;
 	}
+	/* Phone layout. The stage is built from absolutely-positioned corner
+	   overlays sized in rem, which at 390px wide all land on top of each
+	   other and on top of the map. Rather than shrink each one, the detail
+	   card becomes a bottom sheet spanning the full width, and the map keeps
+	   the upper half of the stage to itself. */
+	@media (max-width: 640px) {
+		.detail-slot,
+		.detail-slot.corner-top-right,
+		.detail-slot.corner-top-left,
+		.detail-slot.corner-bottom-right,
+		.detail-slot.corner-bottom-left,
+		/* The regions-shifted offset exists to clear a 14rem left-edge
+		   column, but at this width the region panel is a full-stage
+		   overlay instead, so the 15.25rem indent would only push the
+		   sheet off-screen. */
+		.detail-slot.corner-top-left.regions-shifted,
+		.detail-slot.corner-bottom-left.regions-shifted {
+			top: auto;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			max-height: 50%;
+			border-top: 1px solid var(--color-secondary);
+		}
+		.tabs {
+			/* Centered and scrollable: four pills at 0.75rem padding are
+			   wider than the screen once the safe gutters are taken out. */
+			top: 0.5rem;
+			left: 0.5rem;
+			right: 0.5rem;
+			overflow-x: auto;
+			justify-content: flex-start;
+			scrollbar-width: none;
+		}
+		.tabs::-webkit-scrollbar {
+			display: none;
+		}
+		.tab {
+			padding: 0.35rem 0.6rem;
+			white-space: nowrap;
+		}
+		.no-map-shell {
+			padding: 0.75rem;
+		}
+		.placeholder {
+			padding: 1rem;
+			font-size: 0.85rem;
+		}
+	}
 </style>

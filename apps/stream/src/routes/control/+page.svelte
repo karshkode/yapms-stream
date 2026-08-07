@@ -386,6 +386,11 @@
 		display: flex;
 		flex-direction: column;
 		height: 100vh;
+		/* Mobile browsers count the collapsible address bar in 100vh, so the
+		   drawer and stage bottom sit below the fold until the bar hides.
+		   dvh tracks the visible viewport; the vh above stays as the fallback
+		   for engines without dvh. */
+		height: 100dvh;
 		min-height: 0;
 		overflow: hidden;
 	}

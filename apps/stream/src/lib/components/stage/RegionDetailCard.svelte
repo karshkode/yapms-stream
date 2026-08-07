@@ -319,6 +319,18 @@
 		color: var(--color-base-content);
 		font-size: 0.875rem;
 	}
+	/* The 20rem floor is wider than a 390px phone, so the card would push
+	   past the screen edge. Fill the bottom sheet instead. */
+	@media (max-width: 640px) {
+		.region-card {
+			min-width: 0;
+			max-width: none;
+			width: 100%;
+			border: none;
+			border-radius: 0;
+			padding: 0.75rem;
+		}
+	}
 	header {
 		display: flex;
 		justify-content: space-between;

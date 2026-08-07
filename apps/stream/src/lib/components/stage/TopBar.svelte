@@ -230,12 +230,17 @@
 		border-bottom: 1px solid var(--color-secondary);
 		gap: 0.75rem;
 		flex-shrink: 0;
+		/* Wrapping instead of overflowing matters below ~700px, where the
+		   brand block plus the six-pill archival slider plus the action
+		   buttons no longer fit on one line. */
+		flex-wrap: wrap;
 	}
 	.brand {
 		display: flex;
 		align-items: baseline;
 		gap: 0.5rem;
 		min-width: 0;
+		flex-wrap: wrap;
 	}
 	.brand-btn {
 		background: transparent;
@@ -282,6 +287,10 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		/* Without a shrinkable basis the ellipsis never engages and a long
+		   race title pushes the action buttons off-screen instead. */
+		min-width: 0;
+		flex: 0 1 auto;
 	}
 	.badge {
 		font-size: 0.7rem;
@@ -297,6 +306,7 @@
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+		flex-wrap: wrap;
 	}
 	.picker-btn {
 		display: inline-flex;
@@ -415,6 +425,47 @@
 	@media (max-width: 980px) {
 		.obs-row input {
 			display: none;
+		}
+	}
+	/* Phone layout. The bar becomes two stacked rows (brand, then actions)
+	   and the action row spreads across the full width so every control
+	   stays reachable with a thumb. */
+	@media (max-width: 640px) {
+		.top-bar {
+			padding: 0.4rem 0.5rem;
+			gap: 0.4rem;
+		}
+		.brand,
+		.actions {
+			flex-basis: 100%;
+		}
+		.actions {
+			justify-content: space-between;
+			gap: 0.35rem;
+		}
+		.brand h1 {
+			font-size: 0.85rem;
+		}
+		.race-title {
+			/* Full-width on its own line rather than competing with the
+			   wordmark for the first row. */
+			flex-basis: 100%;
+		}
+		/* Keyboard hints are noise on a touch device that has no ⌘, Ctrl,
+		   or `e` key to press. */
+		kbd {
+			display: none;
+		}
+		/* Touch targets. 2.25rem is the smallest that still reliably hits
+		   with a thumb without making this dense toolbar taller than the
+		   map it sits above. */
+		.picker-btn,
+		.edit-btn,
+		.refresh-race-btn,
+		.obs-row button,
+		.btn-link {
+			min-height: 2.25rem;
+			padding-inline: 0.7rem;
 		}
 	}
 </style>
