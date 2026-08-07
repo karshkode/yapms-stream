@@ -256,7 +256,15 @@
 					onclick={(e) => (e.currentTarget as HTMLInputElement).select()}
 				/>
 				<button type="button" onclick={copyOverlayUrl} title="Copy overlay URL">Copy</button>
-				<a class="btn-link" href="/overlay" target="_blank" rel="noreferrer">Open</a>
+				<a
+					class="btn-link"
+					href="/overlay"
+					target="_blank"
+					rel="noreferrer"
+					title="Open the overlay in a new tab. Move the mouse there (or press F) for a fullscreen button — handy as a program-out display on a second monitor."
+				>
+					Open
+				</a>
 			</div>
 		</div>
 	</div>
