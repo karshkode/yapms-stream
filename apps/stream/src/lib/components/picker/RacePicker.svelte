@@ -271,8 +271,9 @@
 							class:active={activeTab === scope.id}
 							onclick={() => (activeTab = scope.id)}
 						>
-							{scope.label}{#if scope.id === 'saved'}
-								({streamStore.state.savedRaces.bookmarked.length}){/if}
+							{scope.label}{#if scope.id === 'saved'}<span class="scope-count"
+									>({streamStore.state.savedRaces.bookmarked.length})</span
+								>{/if}
 						</button>
 					{/each}
 				</div>
@@ -365,6 +366,11 @@
 	.tabs button.active {
 		color: var(--color-base-content);
 		border-color: var(--color-secondary);
+	}
+	.scope-count {
+		margin-left: 0.3rem;
+		opacity: 0.6;
+		font-variant-numeric: tabular-nums;
 	}
 	/* The query box leads, above the scope chips: the picker is a search
 	   surface first and a browser second, so the caret should be the first

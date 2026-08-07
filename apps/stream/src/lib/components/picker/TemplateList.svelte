@@ -66,8 +66,13 @@
 
 	const hits = $derived<SearchHit[]>(query ? searchTemplates(query, 60) : []);
 
+	// Every category starts collapsed. `statewide-primary` used to default open,
+	// which meant the browse view opened with 51 statewide-primary rows — the
+	// least specific thing on offer — burying the recents and live races that
+	// FindRace lists above it. The counts on the headers make the corpus
+	// discoverable without spending the whole viewport on it.
 	function expanded(id: string): boolean {
-		return state.ui.pickerExpanded[id] ?? id === 'statewide-primary';
+		return state.ui.pickerExpanded[id] ?? false;
 	}
 	function toggle(id: string) {
 		state.ui.pickerExpanded[id] = !expanded(id);
