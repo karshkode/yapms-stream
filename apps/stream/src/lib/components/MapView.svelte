@@ -157,6 +157,7 @@
 						evr: 0,
 						reportedPct: 0,
 						totalReg: 0,
+						candidateVotes: {},
 						// SVG-extracted regions (e.g. US presidential states) have no
 						// archival baseline at this layer — the US-President RacePage
 						// gets its state-level baselines another way. Leave null so
@@ -281,8 +282,9 @@
 		// Read pzReady so the effect registers a dependency on panzoom's
 		// lifecycle — when the SVG finishes loading and `pz` is assigned,
 		// `pzReady` ticks and this effect re-runs so a preselected county
-		// (set before the SVG was ready) lands in frame.
-		pzReady;
+		// (set before the SVG was ready) lands in frame. `void` because a bare
+		// `pzReady;` reads as a stray expression to eslint.
+		void pzReady;
 		if (!pz || !container) return;
 		const svg = container.querySelector<SVGSVGElement>('svg');
 		if (!svg) return;

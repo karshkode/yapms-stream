@@ -20,6 +20,7 @@ const baselineRegions = Object.entries(baseline).map(([po, row]) => ({
 	evr: 0,
 	reportedPct: 0,
 	totalReg: 0,
+	candidateVotes: {},
 	archivalByYear: row.archivalByYear ?? {}
 }));
 

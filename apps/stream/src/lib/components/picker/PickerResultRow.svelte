@@ -41,9 +41,6 @@
 		cursor: pointer;
 		text-align: left;
 	}
-	.row + .row {
-		margin-top: 0.25rem;
-	}
 	.row:hover,
 	.row.highlighted {
 		background: var(--color-base-300);
