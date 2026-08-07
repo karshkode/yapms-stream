@@ -15,8 +15,8 @@ npm run dev -- --filter=stream
 
 Two URLs you'll use:
 
-- `http://localhost:8082/overlay` — OBS Browser Source URL (transparent).
-- `http://localhost:8082/control` — CNN-style operator desk; run this in a
+- `http://localhost:8083/overlay` — OBS Browser Source URL (transparent).
+- `http://localhost:8083/control` — CNN-style operator desk; run this in a
   normal browser tab on the same machine.
 
 Edits in `/control` push to `/overlay` through `BroadcastChannel`, live, on
@@ -50,15 +50,15 @@ only come out when you need to edit something.
 
 **Core gestures**
 
-| Gesture                        | What happens                                                      |
-| ------------------------------ | ----------------------------------------------------------------- |
-| Click a county / state         | Map zooms to that region; detail card appears with archival ±%    |
-| Click the same region again    | Deselects (toggle)                                                |
-| `Esc`                          | Closes picker → clears selection → closes drawer (cascade)        |
-| `Cmd/Ctrl + K`                 | Opens the race picker modal (templates / civicAPI / saved)        |
-| `e`                            | Toggles the FormsDrawer at the bottom                             |
-| Edit button (top bar)          | Same as `e` — for mice                                            |
-| PiP corner buttons             | Snap the overlay-preview PiP to any of the 4 corners, or hide it  |
+| Gesture                     | What happens                                                     |
+| --------------------------- | ---------------------------------------------------------------- |
+| Click a county / state      | Map zooms to that region; detail card appears with archival ±%   |
+| Click the same region again | Deselects (toggle)                                               |
+| `Esc`                       | Closes picker → clears selection → closes drawer (cascade)       |
+| `Cmd/Ctrl + K`              | Opens the race picker modal (templates / civicAPI / saved)       |
+| `e`                         | Toggles the FormsDrawer at the bottom                            |
+| Edit button (top bar)       | Same as `e` — for mice                                           |
+| PiP corner buttons          | Snap the overlay-preview PiP to any of the 4 corners, or hide it |
 
 **Archival colors (new)**
 
@@ -71,18 +71,18 @@ leader's party color on a per-region basis.
 
 The ramp mirrors yapms's candidate `margins` stops:
 
-| Two-party margin | R color     | D color     |
-| ---------------- | ----------- | ----------- |
-| ≥ 10 pts         | `#BF1D29`   | `#1C408C`   |
-| 5 – 10 pts       | `#FF5865`   | `#577CCC`   |
-| 1 – 5 pts        | `#FF8B98`   | `#8AAFFF`   |
-| < 1 pt           | `#CF8980`   | `#949BB3`   |
-| < 0.5 pt         | `#6b7280` (tossup gray)                   |
+| Two-party margin | R color                 | D color   |
+| ---------------- | ----------------------- | --------- |
+| ≥ 10 pts         | `#BF1D29`               | `#1C408C` |
+| 5 – 10 pts       | `#FF5865`               | `#577CCC` |
+| 1 – 5 pts        | `#FF8B98`               | `#8AAFFF` |
+| < 1 pt           | `#CF8980`               | `#949BB3` |
+| < 0.5 pt         | `#6b7280` (tossup gray) |
 
 ## OBS Browser Source setup
 
 1. OBS → Add Source → **Browser**.
-2. URL: `http://localhost:8082/overlay`
+2. URL: `http://localhost:8083/overlay`
 3. Width / Height: match your canvas (1920×1080 is typical).
 4. Uncheck **Shutdown source when not visible**.
 5. Uncheck **Refresh browser when scene becomes active**.
@@ -90,6 +90,39 @@ The ramp mirrors yapms's candidate `margins` stops:
    in OBS.
 
 Only `/overlay` belongs in OBS. `/control` stays in your normal browser.
+
+## Viewing from a phone or another device
+
+The dev server binds `0.0.0.0`, so another device on the same network can hit
+`http://<your-lan-ip>:8083/overlay` directly. For anything off the LAN
+(reviewing the overlay on cellular, showing a producer the desk), run a
+tunnel next to the dev server:
+
+```bash
+cloudflared tunnel --url http://localhost:8083
+```
+
+That prints a `https://<random-words>.trycloudflare.com` URL, which
+`vite.config.ts` already accepts via a `.trycloudflare.com` wildcard in
+`server.allowedHosts`. Without that entry Vite's host check answers
+`Blocked request` instead of the page.
+
+For a broker that isn't in the list, pass the hostnames yourself rather than
+editing the config:
+
+```bash
+STREAM_ALLOWED_HOSTS=my-tunnel.example.net npm run dev -- --filter=stream
+```
+
+Two caveats worth knowing:
+
+- Quick tunnels are public and unauthenticated for as long as they run. `/control`
+  has no auth, so anyone with the URL can drive the overlay. Stop the tunnel
+  when you're done rather than leaving it up during a show.
+- The hostname is new on every boot and can take a minute to resolve. A local
+  resolver that filters unknown domains may never resolve it even while the
+  tunnel is healthy — if the host machine can't load the URL but a phone on
+  cellular can, suspect DNS rather than the tunnel.
 
 ## Visibility presets
 
@@ -110,15 +143,15 @@ Adapter priority is **manual > live > seed**. A field set by the host on
 /control always wins over anything a live feed provides, which in turn wins
 over a template's baked seed.
 
-| Tier | Source                          | Status   | Notes                                                                                                 |
-| ---- | ------------------------------- | -------- | ----------------------------------------------------------------------------------------------------- |
-| 1    | Manual (`data/manual.ts`)       | Shipping | Host typing in /control. Always wins.                                                                 |
-| 1    | civicAPI (`data/civicapi.ts`)   | Shipping | Free, no API key. Primary live feed for May 5, 2026. Polls every 30s by default.                      |
-| 2    | Clarity (`data/clarity.ts`)     | Deferred | Python sidecar `apps/elections-scraper/` wraps elex-clarity. Covers ~12 SOE states (GA, KY, AR, NM…). |
-| 3    | Template seed                   | Shipping | County lists and past-cycle margins baked at build time via `scripts/bake-county-seeds.ts`.           |
-| 4    | OpenFEC (`data/openfec.ts`)     | Shipping | Metadata-only. Needs a free API key. Populates candidate editor for federal races.                    |
-| —    | DDHQ (`data/ddhq.ts`)           | Deferred | Paid API. Stub in place behind a feature flag for a future host who subscribes.                       |
-| —    | Ballotpedia                     | Deferred | Headshots + bios. Stub only.                                                                          |
+| Tier | Source                        | Status   | Notes                                                                                                 |
+| ---- | ----------------------------- | -------- | ----------------------------------------------------------------------------------------------------- |
+| 1    | Manual (`data/manual.ts`)     | Shipping | Host typing in /control. Always wins.                                                                 |
+| 1    | civicAPI (`data/civicapi.ts`) | Shipping | Free, no API key. Primary live feed for May 5, 2026. Polls every 30s by default.                      |
+| 2    | Clarity (`data/clarity.ts`)   | Deferred | Python sidecar `apps/elections-scraper/` wraps elex-clarity. Covers ~12 SOE states (GA, KY, AR, NM…). |
+| 3    | Template seed                 | Shipping | County lists and past-cycle margins baked at build time via `scripts/bake-county-seeds.ts`.           |
+| 4    | OpenFEC (`data/openfec.ts`)   | Shipping | Metadata-only. Needs a free API key. Populates candidate editor for federal races.                    |
+| —    | DDHQ (`data/ddhq.ts`)         | Deferred | Paid API. Stub in place behind a feature flag for a future host who subscribes.                       |
+| —    | Ballotpedia                   | Deferred | Headshots + bios. Stub only.                                                                          |
 
 ### civicAPI etiquette
 
@@ -202,13 +235,13 @@ environments, drop the CSV there manually and the downloader short-circuits.
 
 Pre-May-5 validation pass must cover at least one race of each shape:
 
-| Shape                               | Example (May 5, 2026)                                | Data source      |
-| ----------------------------------- | ---------------------------------------------------- | ---------------- |
-| State-wide partisan primary         | Indiana Governor / Ohio US Senate D Primary          | civicAPI live    |
-| US House district primary           | any contested `P US House N`                         | civicAPI         |
-| State-leg district primary          | any `P State House N` / `P State Senate N`           | Manual           |
-| Local no-map                        | Bangor / Mackinac Island City Council                | Manual           |
-| Historical replay (regression)      | 2024 Idaho President                                 | Baked seed       |
+| Shape                          | Example (May 5, 2026)                       | Data source   |
+| ------------------------------ | ------------------------------------------- | ------------- |
+| State-wide partisan primary    | Indiana Governor / Ohio US Senate D Primary | civicAPI live |
+| US House district primary      | any contested `P US House N`                | civicAPI      |
+| State-leg district primary     | any `P State House N` / `P State Senate N`  | Manual        |
+| Local no-map                   | Bangor / Mackinac Island City Council       | Manual        |
+| Historical replay (regression) | 2024 Idaho President                        | Baked seed    |
 
 ## Operator-desk smoke test
 
