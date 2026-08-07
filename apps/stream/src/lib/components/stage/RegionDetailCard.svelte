@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { streamStore } from '$lib/stream-store.svelte';
+	import {
+		projectedRaceTotal,
+		regionSwing,
+		regionTurnoutIndex,
+		resolveBaseline
+	} from '$lib/map/metrics';
 
 	interface Props {
 		onclose: () => void;
@@ -111,24 +117,20 @@
 
 	let nominees = $derived(NOMINEES[displayYear] ?? NOMINEES['2024']);
 
-	// Swing vs the selected baseline year. Positive = shifted toward R since
-	// that cycle. Only meaningful once live reporting exists for this region
-	// AND we have an archival snapshot to compare against.
+	// Comparison figures against whichever baseline the Compare panel selected —
+	// the same numbers the map is shaded with, from the same functions, so the
+	// card and the county under the cursor can't disagree.
+	//
+	// These used to be computed here from `state.candidates`, which are the
+	// race-wide totals: every county reported the same swing, and it was the
+	// statewide one.
+	let baseline = $derived(resolveBaseline(state));
+	let projectedTotal = $derived(projectedRaceTotal(state.regions));
+
 	let swing = $derived.by(() => {
-		if (!region || region.reportedPct === 0) return null;
-		if (!archival) return null;
-		if (region.votes === 0) return null;
-		if (state.candidates.length !== 2) return null;
-		const leaderCand = state.candidates.find((c) => c.id === region.leaderId);
-		if (!leaderCand) return null;
-		const runnerUp = state.candidates.find((c) => c.id !== region.leaderId);
-		if (!runnerUp) return null;
-		const twoParty = leaderCand.votes + runnerUp.votes;
-		if (twoParty === 0) return null;
-		const liveMargin = ((leaderCand.votes - runnerUp.votes) / twoParty) * 100;
-		const leaderIsR = isRedParty(leaderCand.partyColor);
-		const liveRMargin = leaderIsR ? liveMargin : -liveMargin;
-		const shift = liveRMargin - archival.margin;
+		if (!region) return null;
+		const shift = regionSwing(region, state.candidates, baseline);
+		if (shift === null) return null;
 		const towardR = shift > 0;
 		return {
 			shift,
@@ -137,14 +139,21 @@
 		};
 	});
 
-	function isRedParty(color: string): boolean {
-		const h = color.replace('#', '').toLowerCase();
-		if (h.length < 6) return false;
-		const r = parseInt(h.slice(0, 2), 16);
-		const g = parseInt(h.slice(2, 4), 16);
-		const b = parseInt(h.slice(4, 6), 16);
-		return r > b && r > g;
-	}
+	// Share of the race's projected vote against the baseline's share for the
+	// same region. This is the primary-to-general read: a county well above 0
+	// is turning out harder relative to the rest of the map than it did last
+	// time, whoever it's turning out for.
+	let turnout = $derived.by(() => {
+		if (!region) return null;
+		const index = regionTurnoutIndex(region, projectedTotal, baseline);
+		if (index === null) return null;
+		const pct = (index - 1) * 100;
+		return {
+			pct,
+			label: `${pct > 0 ? '+' : '−'}${Math.abs(pct).toFixed(0)}% of the vote`,
+			color: pct > 0 ? '#0d9488' : '#b45309'
+		};
+	});
 
 	function fmtNum(n: number | null | undefined): string {
 		if (n == null) return '—';
@@ -232,13 +241,30 @@
 						</li>
 					{/each}
 				</ul>
-				{#if swing}
-					<p class="swing">
-						<span class="swing-arrow" style:color={swing.color}>
-							{swing.shift > 0 ? '▲' : '▼'}
-						</span>
-						Swing vs {archival?.year}: <strong style:color={swing.color}>{swing.label}</strong>
-					</p>
+				{#if swing || turnout}
+					<div class="compare">
+						{#if swing}
+							<p class="swing">
+								<span class="swing-arrow" style:color={swing.color}>
+									{swing.shift > 0 ? '▲' : '▼'}
+								</span>
+								Swing: <strong style:color={swing.color}>{swing.label}</strong>
+							</p>
+						{/if}
+						{#if turnout}
+							<p class="swing">
+								<span class="swing-arrow" style:color={turnout.color}>
+									{turnout.pct > 0 ? '▲' : '▼'}
+								</span>
+								Turnout: <strong style:color={turnout.color}>{turnout.label}</strong>
+							</p>
+						{/if}
+						<!-- Naming the baseline on the card matters more than it looks:
+						     "R +4" against last year's primary and against the 2024
+						     presidential are different claims, and only one of them
+						     is safe to say on air. -->
+						<p class="compare-src">vs {baseline?.label}</p>
+					</div>
 				{/if}
 			</section>
 		{:else if region.reportedPct === 0 && archival}
@@ -467,8 +493,13 @@
 		border-radius: 0.2rem;
 		font-weight: 700;
 	}
+	.compare {
+		margin-top: 0.5rem;
+		padding-top: 0.4rem;
+		border-top: 1px solid rgb(from var(--color-secondary) r g b / 0.35);
+	}
 	.swing {
-		margin: 0.5rem 0 0;
+		margin: 0.15rem 0 0;
 		font-size: 0.8rem;
 		display: flex;
 		align-items: center;
@@ -476,6 +507,12 @@
 	}
 	.swing-arrow {
 		font-size: 0.75rem;
+	}
+	.compare-src {
+		margin: 0.25rem 0 0;
+		font-size: 0.65rem;
+		font-style: italic;
+		color: rgb(from var(--color-base-content) r g b / 0.5);
 	}
 	.dot {
 		display: inline-block;
