@@ -26,12 +26,16 @@
 	 * the same way it would if the host clicked the map.
 	 */
 
-	const state = $derived(streamStore.state);
+	// Named `streamState` rather than `state`: a local `state` binding makes
+	// Svelte 5 read every `$state(...)` in the file as a store subscription on
+	// it, which is why `query` below fails to type-check. Same workaround the
+	// rest of the stage components use (TopBar, FormsDrawer, StateRacesCard).
+	const streamState = $derived(streamStore.state);
 
 	// Geography label drives the heading. "Counties" / "Districts" /
 	// "States" — taken from the active profile, falls back to "Regions"
 	// for the shell-load window before any race is selected.
-	const label = $derived(state.profile?.geography?.regionLabel ?? 'Regions');
+	const label = $derived(streamState.profile?.geography?.regionLabel ?? 'Regions');
 
 	let query = $state('');
 
@@ -43,7 +47,9 @@
 	// "fort bend" hits the right row without needing fuzzy.
 	const filtered = $derived.by(() => {
 		const q = query.trim().toLowerCase();
-		const rows = q ? state.regions.filter((r) => r.name.toLowerCase().includes(q)) : state.regions;
+		const rows = q
+			? streamState.regions.filter((r) => r.name.toLowerCase().includes(q))
+			: streamState.regions;
 		return [...rows].sort((a, b) => a.name.localeCompare(b.name));
 	});
 
@@ -53,14 +59,14 @@
 	// counties" at a glance.
 	function leaderColor(leaderId: string | null): string | null {
 		if (!leaderId) return null;
-		const c = state.candidates.find((cand) => cand.id === leaderId);
+		const c = streamState.candidates.find((cand) => cand.id === leaderId);
 		return c?.partyColor ?? null;
 	}
 
 	function onPick(regionAttr: string) {
 		// Toggle: re-clicking the selected region dismisses, matching the
 		// map's click-to-deselect ergonomics.
-		const next = state.ui.selectedRegionAttr === regionAttr ? null : regionAttr;
+		const next = streamState.ui.selectedRegionAttr === regionAttr ? null : regionAttr;
 		streamStore.state.ui.selectedRegionAttr = next;
 
 		// On a phone this panel is a bottom sheet occupying the same band as the
@@ -77,7 +83,7 @@
 	}
 
 	function toggleOpen() {
-		streamStore.state.ui.regionListOpen = !state.ui.regionListOpen;
+		streamStore.state.ui.regionListOpen = !streamState.ui.regionListOpen;
 	}
 
 	// `regionListOpen` persists and defaults to true, which is right on a
@@ -100,15 +106,15 @@
 	});
 </script>
 
-{#if state.regions.length > 0}
-	{#if state.ui.regionListOpen}
+{#if streamState.regions.length > 0}
+	{#if streamState.ui.regionListOpen}
 		<aside class="panel" aria-label="{label} list">
 			<header class="head">
 				<div class="title">
 					<h3>{label}</h3>
 					<span class="count">
-						{filtered.length}{#if filtered.length !== state.regions.length}
-							/{state.regions.length}{/if}
+						{filtered.length}{#if filtered.length !== streamState.regions.length}
+							/{streamState.regions.length}{/if}
 					</span>
 				</div>
 				<button
@@ -124,7 +130,7 @@
 			<input class="search" type="search" placeholder="Filter…" bind:value={query} />
 			<ul class="rows">
 				{#each filtered as r (r.regionAttr)}
-					{@const isSelected = state.ui.selectedRegionAttr === r.regionAttr}
+					{@const isSelected = streamState.ui.selectedRegionAttr === r.regionAttr}
 					{@const color = leaderColor(r.leaderId)}
 					<li>
 						<button
