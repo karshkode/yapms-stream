@@ -1,4 +1,5 @@
 import { raceTier } from '../picker/raceImportance';
+import { isEmptyQuery, matchRaceQuery, parseRaceQuery } from '../picker/raceQuery';
 import type {
 	DataSource,
 	DataSourceKind,
@@ -22,6 +23,19 @@ import type {
 export type TimeRange = 'upcoming' | 'recent' | 'all';
 
 const RECENT_WINDOW_DAYS = 90;
+
+/**
+ * Ceiling on probes for one typed query. HTTP/1.1 allows six connections per
+ * host, so going much past this serialises the fan-out and the slowest probe
+ * stops overlapping with the rest — the picker feels slower, not more thorough.
+ */
+const MAX_SEARCH_PROBES = 8;
+
+/**
+ * Ceiling on rows returned for one typed query. A state-scoped probe with no
+ * narrowing words ("kentucky") legitimately matches every race in the state.
+ */
+const MAX_QUERY_RESULTS = 120;
 
 /**
  * civicAPI adapter — primary live feed.
@@ -299,37 +313,82 @@ export class CivicApiSource implements DataSource {
 		// recently-onboarded Nov 2026 general-election races first, burying
 		// the May 2026 Dallas bond propositions that were added weeks ago.
 		//
-		// For the empty-query case (host just opened Ctrl+K) we run the
-		// firehose fan-out. For a typed query we fetch the first page (or
-		// pages, when timeRange asks for past races), then filter and sort
-		// per the requested window so "richardson" with timeRange=recent
-		// surfaces the May 2 Richardson Bond proposition results.
-		const trimmed = query.trim();
-		if (!trimmed) return this.fetchFirehose(timeRange);
+		// A substring matcher also can't answer most of what a host types.
+		// "nyc mayoral 2025" is not a substring of any title, and neither is
+		// "kentucky" for a race called "Louisville Mayor". So the query is
+		// parsed first (see picker/raceQuery.ts) and its pieces are routed to
+		// whatever can actually answer them: the year and the state become
+		// filters, the words become a local match, and only the phrasings
+		// worth guessing at get handed to the name matcher.
+		const parsed = parseRaceQuery(query);
+		if (isEmptyQuery(parsed)) return this.fetchFirehose(timeRange);
 
 		const todayIso = localTodayIso();
 		const recentCutoffIso = isoDaysAgo(RECENT_WINDOW_DAYS);
-		// For typed queries, always fetch the first page; only paginate
-		// deeper when the host asked for past races. Most query terms
-		// only return ~10-30 hits anyway, so a single page is plenty.
-		const offsets = timeRange === 'upcoming' ? [0] : [0, 100, 200];
-		const urls = offsets.map(
-			(o) =>
-				`${this.baseUrl}/race/search?query=${encodeURIComponent(trimmed)}&limit=100&offset=${o}`
-		);
+		const base = `${this.baseUrl}/race/search`;
+		const urls: string[] = [];
+
+		// A named state gets the `province=` probes, which is the only truly
+		// reliable filter civicAPI offers. This is what makes a municipal race
+		// findable: "New York City Mayor" doesn't have to be guessed at as a
+		// title, it just has to be one of New York's races.
+		if (parsed.state) {
+			const stateOffsets = parsed.year !== null ? [0, 100, 200, 300, 400] : [0, 100, 200];
+			for (const o of stateOffsets) {
+				urls.push(`${base}?country=US&province=${parsed.state.abbr}&limit=100&offset=${o}`);
+			}
+		}
+		// Name probes. Without a state they're the only source, so the most
+		// selective phrasing gets paginated; alongside `province=` they're just
+		// a safety net for rows civicAPI left unstamped, so one page each.
+		for (const [i, probe] of parsed.probes.entries()) {
+			const offsets = i === 0 && !parsed.state ? [0, 100, 200] : [0];
+			for (const o of offsets) {
+				if (urls.length >= MAX_SEARCH_PROBES) break;
+				urls.push(`${base}?query=${encodeURIComponent(probe)}&limit=100&offset=${o}`);
+			}
+		}
+
 		const results = await Promise.allSettled(urls.map((u) => this.fetchRaces(u)));
+		if (results.every((r) => r.status === 'rejected')) {
+			const reasons = results
+				.map((r) => (r.status === 'rejected' ? (r.reason as Error).message : ''))
+				.filter(Boolean)
+				.join('; ');
+			throw new Error(`civicAPI search probes all failed: ${reasons}`);
+		}
+
 		const byId = new Map<number, CivicApiSearchRace>();
 		for (const r of results) {
 			if (r.status !== 'fulfilled') continue;
 			for (const race of r.value) byId.set(race.id, race);
 		}
-		const filtered: RaceListEntry[] = [];
+
+		// An explicit year IS the date filter, and a stricter one than the
+		// Upcoming/Recent toggle. Applying both would mean "nyc mayor 2025"
+		// returns nothing all through 2026, which is the bug this fixes.
+		const useTimeRange = parsed.year === null;
+		const strict: ScoredEntry[] = [];
+		const loose: ScoredEntry[] = [];
 		for (const race of byId.values()) {
-			const dateStr = race.election_date?.slice(0, 10);
-			if (!inTimeRange(dateStr, timeRange, todayIso, recentCutoffIso)) continue;
-			filtered.push(normalizeSearchEntry(race));
+			const entry = normalizeSearchEntry(race);
+			if (
+				useTimeRange &&
+				!inTimeRange(entry.date || undefined, timeRange, todayIso, recentCutoffIso)
+			) {
+				continue;
+			}
+			const match = matchRaceQuery(entry, parsed);
+			if (!match) continue;
+			(match.strict ? strict : loose).push({ entry, score: match.score });
 		}
-		return sortByTimeRange(filtered, timeRange, todayIso);
+
+		// Precision when it's available, recall when it isn't. If some row
+		// matched every word the host typed, the near-misses are noise; if
+		// none did, they're the only lead — civicAPI may simply file the race
+		// under wording the host didn't guess.
+		const chosen = strict.length > 0 ? strict : loose;
+		return sortByQueryRelevance(chosen, timeRange, todayIso);
 	}
 
 	/**
@@ -382,6 +441,16 @@ export class CivicApiSource implements DataSource {
 						`${base}?country=US&election_type=General&limit=100`
 					];
 		const results = await Promise.allSettled(urls.map((u) => this.fetchRaces(u)));
+		// Same reasoning as the state and query probes: an outage has to read as
+		// an outage. Returning an empty list makes the picker say there are no
+		// upcoming races anywhere in the country, which is never true.
+		if (results.every((r) => r.status === 'rejected')) {
+			const reasons = results
+				.map((r) => (r.status === 'rejected' ? (r.reason as Error).message : ''))
+				.filter(Boolean)
+				.join('; ');
+			throw new Error(`civicAPI firehose probes all failed: ${reasons}`);
+		}
 
 		const byId = new Map<number, CivicApiSearchRace>();
 		for (const r of results) {
@@ -594,6 +663,39 @@ function sortByTimeRange(
 		else past.push(e);
 	}
 	return [...sortByDateThenTier(upcoming, 'asc'), ...sortByDateThenTier(past, 'desc')];
+}
+
+interface ScoredEntry {
+	entry: RaceListEntry;
+	score: number;
+}
+
+/**
+ * Ordering for a *typed* query, where the firehose's date-first rule is wrong.
+ * Someone who typed "nyc mayoral 2025" wants that race at the top, not
+ * whichever New York race happens to be soonest — so how well a row answers
+ * the query leads, and date/importance only break ties among equally good
+ * answers.
+ *
+ * Capped because a state-scoped probe legitimately returns hundreds of rows,
+ * and past the first screenful the host is better served by adding a word.
+ */
+function sortByQueryRelevance(
+	scored: ScoredEntry[],
+	range: TimeRange,
+	todayIso: string
+): RaceListEntry[] {
+	const byScore = new Map<number, RaceListEntry[]>();
+	for (const { entry, score } of scored) {
+		const bucket = byScore.get(score);
+		if (bucket) bucket.push(entry);
+		else byScore.set(score, [entry]);
+	}
+	const out: RaceListEntry[] = [];
+	for (const score of [...byScore.keys()].sort((a, b) => b - a)) {
+		out.push(...sortByTimeRange(byScore.get(score)!, range, todayIso));
+	}
+	return out.slice(0, MAX_QUERY_RESULTS);
 }
 
 function sortByDateThenTier(entries: RaceListEntry[], dateDir: 'asc' | 'desc'): RaceListEntry[] {
