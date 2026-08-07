@@ -151,6 +151,28 @@
 		}
 	}
 
+	/**
+	 * The one-line detail under a race title, assembled here rather than in
+	 * markup. Interleaving " · " between optional `{#if}` blocks meant relying
+	 * on whitespace that Svelte trims from the start of a block, which is why
+	 * the state used to render glued to its separator ("NY· New York Co.").
+	 */
+	function subLine(r: RaceListEntry): string {
+		const parts: string[] = [r.state ?? '—'];
+		if (r.district) {
+			parts.push(
+				r.municipality && r.municipality !== r.district
+					? `${r.district} / ${r.municipality} Co.`
+					: `${r.district} Co.`
+			);
+		} else if (r.municipality) {
+			parts.push(r.municipality);
+		}
+		parts.push(`${r.candidateCount ?? 0} candidates`);
+		parts.push(r.reportingStatus ?? 'Pre');
+		return parts.join(' · ');
+	}
+
 	function load(entry: RaceListEntry) {
 		const resolved = resolveCivicApiRace(entry);
 		if (resolved) {
@@ -240,13 +262,7 @@
 						<li>
 							<div class="info">
 								<strong>{r.title}</strong>
-								<span class="sub">
-									{r.state ?? '—'}{#if r.district}
-										· {r.district}{#if r.municipality && r.municipality !== r.district}
-											/ {r.municipality}{/if} Co.{:else if r.municipality}
-										· {r.municipality}{/if} · {r.candidateCount ?? 0} candidates · {r.reportingStatus ??
-										'Pre'}
-								</span>
+								<span class="sub">{subLine(r)}</span>
 							</div>
 							<button type="button" onclick={() => load(r)}>Load + start polling</button>
 						</li>
