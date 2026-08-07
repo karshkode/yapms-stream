@@ -22,7 +22,12 @@
 	<ul class="toggles">
 		{#each sections as s (s.id)}
 			<li>
-				<label class="toggle">
+				<!-- `vis-row` / `vis-copy` rather than `toggle` / `label`:
+				     daisyUI ships components under both of those names, and
+				     their `width: 40px` and `width: 0` were winning over this
+				     scoped CSS (which never declares a width), collapsing each
+				     row to a 40px stub with the caption spilling out. -->
+				<label class="vis-row">
 					<input
 						type="checkbox"
 						role="switch"
@@ -32,7 +37,7 @@
 					<span class="track" aria-hidden="true">
 						<span class="thumb"></span>
 					</span>
-					<span class="label">
+					<span class="vis-copy">
 						<span class="label-main">{s.label}</span>
 						<span class="label-hint">{s.hint}</span>
 					</span>
@@ -63,7 +68,7 @@
 		grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 		gap: 0.5rem;
 	}
-	.toggle {
+	.vis-row {
 		display: flex;
 		align-items: center;
 		gap: 0.625rem;
@@ -74,7 +79,7 @@
 		cursor: pointer;
 		transition: background 120ms ease, border-color 120ms ease;
 	}
-	.toggle:hover {
+	.vis-row:hover {
 		background: rgb(from var(--color-base-200) r g b / 0.9);
 		border-color: var(--color-secondary);
 	}
@@ -82,7 +87,7 @@
 	   visually we render our own track + thumb. Using `appearance: none` +
 	   `position: absolute` keeps it focusable without showing the OS widget,
 	   which looked lumpy on Windows and mismatched across macOS Chrome/FF. */
-	.toggle input[type='checkbox'] {
+	.vis-row input[type='checkbox'] {
 		position: absolute;
 		opacity: 0;
 		pointer-events: none;
@@ -110,19 +115,19 @@
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 		transition: transform 150ms ease, background 150ms ease;
 	}
-	.toggle input:checked ~ .track {
+	.vis-row input:checked ~ .track {
 		background: var(--color-primary);
 		border-color: var(--color-primary);
 	}
-	.toggle input:checked ~ .track .thumb {
+	.vis-row input:checked ~ .track .thumb {
 		transform: translateX(1rem);
 		background: #fff;
 	}
-	.toggle input:focus-visible ~ .track {
+	.vis-row input:focus-visible ~ .track {
 		outline: 2px solid var(--color-primary);
 		outline-offset: 2px;
 	}
-	.label {
+	.vis-copy {
 		display: flex;
 		flex-direction: column;
 		gap: 0.05rem;

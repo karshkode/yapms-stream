@@ -70,7 +70,10 @@
 					bind:value={c.votes}
 					oninput={() => (state.ui.dirty = true)}
 				/>
-				<label class="toggle">
+				<!-- `flag`, not `toggle`: daisyUI ships a `.toggle` switch
+				     component whose fixed 40x24 box was overriding this label's
+				     intrinsic width and clipping the caption. -->
+				<label class="flag">
 					<input
 						type="radio"
 						name="called"
@@ -79,7 +82,7 @@
 					/>
 					Called
 				</label>
-				<label class="toggle">
+				<label class="flag">
 					<input
 						type="checkbox"
 						bind:checked={c.hidden}
@@ -148,7 +151,7 @@
 		width: 3rem;
 		text-align: center;
 	}
-	.toggle {
+	.flag {
 		display: flex;
 		align-items: center;
 		gap: 0.25rem;
@@ -208,18 +211,15 @@
 			width: 2.5rem;
 			height: 2.25rem;
 		}
-		.toggle {
+		.flag {
 			font-size: 0.75rem;
 			/* The label is the tap target — clicking it toggles the input — so
-			   give it thumb height rather than leaving a ~13px native box.
-			   `flex: 0 0 auto` keeps it at its content width; as a shrinkable
-			   item it collapsed far enough to squash the box to a few pixels
-			   and clip the caption. */
+			   give it thumb height rather than leaving a ~13px native box. */
 			flex: 0 0 auto;
 			min-height: 2.25rem;
 			padding-inline: 0.2rem;
 		}
-		.toggle input {
+		.flag input {
 			flex: 0 0 auto;
 			width: 1.15rem;
 			height: 1.15rem;
