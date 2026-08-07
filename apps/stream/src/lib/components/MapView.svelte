@@ -18,27 +18,21 @@
 		 * Presidential maps where the 50 states come straight out of the SVG).
 		 */
 		onregionsextracted?: (rows: StreamState['regions']) => void;
-	/**
-	 * When `true`, the map fills the parent's height (stage mode). When
-	 * unset/false, it keeps the 16:10 aspect-ratio that the overlay RacePage
-	 * and Geography tab rely on. Defaults to false for backwards compat.
-	 */
-	fill?: boolean;
-	/**
-	 * When true, hide the zoom/reset controls and skip attaching a click
-	 * handler. Used by the /overlay mirror mode so the OBS capture stays
-	 * input-inert while still re-painting on every BroadcastChannel update.
-	 */
-	readonly?: boolean;
-}
+		/**
+		 * When `true`, the map fills the parent's height (stage mode). When
+		 * unset/false, it keeps the 16:10 aspect-ratio that the overlay RacePage
+		 * and Geography tab rely on. Defaults to false for backwards compat.
+		 */
+		fill?: boolean;
+		/**
+		 * When true, hide the zoom/reset controls and skip attaching a click
+		 * handler. Used by the /overlay mirror mode so the OBS capture stays
+		 * input-inert while still re-painting on every BroadcastChannel update.
+		 */
+		readonly?: boolean;
+	}
 
-let {
-	tab,
-	onselect,
-	onregionsextracted,
-	fill = false,
-	readonly = false
-}: Props = $props();
+	let { tab, onselect, onregionsextracted, fill = false, readonly = false }: Props = $props();
 
 	// Read/write the app-level store directly — same rationale as StagePanel /
 	// FormsDrawer / OverlayPip: Svelte 5's ownership warning otherwise flags
@@ -157,8 +151,9 @@ let {
 			}
 		}
 
-		// panzoom gets attached to the svg itself; `beforeWheel`/`beforeMouseDown`
-		// filter taps on regions from starting a drag so click still fires.
+		// panzoom gets attached to the svg itself, so a click that lands on a
+		// region path reaches the delegated handler above before panzoom's own
+		// drag tracking decides the gesture was a pan.
 		// `bounds` is off because our programmatic click-to-zoom computes an
 		// exact (tx, ty) that lands the target county at the container center.
 		// With `bounds: true`, panzoom clips those translations to keep *some*
@@ -177,7 +172,21 @@ let {
 				minZoom: 0.5,
 				autocenter: false,
 				bounds: false,
-				smoothScroll: false
+				smoothScroll: false,
+				// panzoom's built-in touchstart handler calls stopPropagation()
+				// and preventDefault() on every touch. preventDefault() on
+				// touchstart tells the browser not to synthesize the follow-up
+				// click, and region selection above listens for `click` — so
+				// with the default behavior a tap does nothing and the map is
+				// completely unselectable on any touch device, phone or not.
+				//
+				// Returning a falsy value opts that suppression out. We only do
+				// it for a single finger: `touch-action: none` on .viewport
+				// already stops the browser claiming one-finger drags for
+				// scrolling, so the pan handler keeps working without needing
+				// the default prevented. Two fingers keep the default blocked
+				// so pinch-zoom doesn't also zoom the page.
+				onTouch: (e: TouchEvent) => e.touches.length > 1
 			});
 			// Keep the city-overlay glyphs at a constant screen size as the
 			// user zooms. Without this, labels balloon to enormous sizes at
@@ -277,9 +286,7 @@ let {
 
 		rafPhaseA = requestAnimationFrame(() => {
 			if (!pz || !container) return;
-			const path = svg.querySelector<SVGGraphicsElement>(
-				`[region="${CSS.escape(attr)}"]`
-			);
+			const path = svg.querySelector<SVGGraphicsElement>(`[region="${CSS.escape(attr)}"]`);
 			if (!path) return;
 
 			const identityRect = path.getBoundingClientRect();
