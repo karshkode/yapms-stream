@@ -1,5 +1,5 @@
 {
-  "name": "yapms-project",
+  "name": "yapms-stream",
   "engines": {
     "node": "22"
   },
@@ -21,6 +21,7 @@
   },
   "workspaces": [
     "./apps/yapms",
-    "./apps/pocketbase"
+    "./apps/pocketbase",
+    "./apps/stream"
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "stateFips": "11",
+  "stateName": "District of Columbia",
+  "counties": [
+    {
+      "name": "District of Columbia",
+      "regionAttr": "District of Columbia11",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +86.8",
+          "margin": -86.8,
+          "votesRep": 17367,
+          "votesDem": 245800,
+          "votesTotal": 265853
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +85.5",
+          "margin": -85.53,
+          "votesRep": 17337,
+          "votesDem": 222332,
+          "votesTotal": 243348
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +91.5",
+          "margin": -91.5,
+          "votesRep": 11553,
+          "votesDem": 260223,
+          "votesTotal": 280272
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +88.9",
+          "margin": -88.93,
+          "votesRep": 18586,
+          "votesDem": 317323,
+          "votesTotal": 344356
+        },
+        "2024": null
+      }
+    }
+  ]
+}

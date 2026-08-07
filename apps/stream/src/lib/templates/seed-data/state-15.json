@@ -1,0 +1,206 @@
+{
+  "stateFips": "15",
+  "stateName": "Hawaii",
+  "counties": [
+    {
+      "name": "Hawaii",
+      "regionAttr": "Hawaii15",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +54.7",
+          "margin": -54.74,
+          "votesRep": 14866,
+          "votesDem": 50819,
+          "votesTotal": 66916
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +52.5",
+          "margin": -52.49,
+          "votesRep": 14541,
+          "votesDem": 46670,
+          "votesTotal": 62653
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +40.4",
+          "margin": -40.43,
+          "votesRep": 17500,
+          "votesDem": 41258,
+          "votesTotal": 64865
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +37.2",
+          "margin": -37.18,
+          "votesRep": 26897,
+          "votesDem": 58731,
+          "votesTotal": 87814
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +28.9",
+          "margin": -28.94,
+          "votesRep": 28748,
+          "votesDem": 52163,
+          "votesTotal": 82823
+        }
+      }
+    },
+    {
+      "name": "Honolulu",
+      "regionAttr": "Honolulu15",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +41.7",
+          "margin": -41.69,
+          "votesRep": 88164,
+          "votesDem": 214239,
+          "votesTotal": 306813
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +39.6",
+          "margin": -39.63,
+          "votesRep": 87255,
+          "votesDem": 201803,
+          "votesTotal": 292925
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +32.1",
+          "margin": -32.09,
+          "votesRep": 90296,
+          "votesDem": 175634,
+          "votesTotal": 285683
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +27.4",
+          "margin": -27.35,
+          "votesRep": 136259,
+          "votesDem": 238869,
+          "votesTotal": 382114
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +22.0",
+          "margin": -22.05,
+          "votesRep": 130489,
+          "votesDem": 204301,
+          "votesTotal": 340921
+        }
+      }
+    },
+    {
+      "name": "Kalawao",
+      "regionAttr": "Kalawao15",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Kauai",
+      "regionAttr": "Kauai15",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +53.2",
+          "margin": -53.15,
+          "votesRep": 6245,
+          "votesDem": 20416,
+          "votesTotal": 27224
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +50.6",
+          "margin": -50.56,
+          "votesRep": 6121,
+          "votesDem": 18638,
+          "votesTotal": 25369
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +37.0",
+          "margin": -36.96,
+          "votesRep": 7574,
+          "votesDem": 16456,
+          "votesTotal": 26335
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +29.4",
+          "margin": -29.39,
+          "votesRep": 11582,
+          "votesDem": 21225,
+          "votesTotal": 33497
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +19.9",
+          "margin": -19.92,
+          "votesRep": 11803,
+          "votesDem": 17675,
+          "votesTotal": 30064
+        }
+      }
+    },
+    {
+      "name": "Maui",
+      "regionAttr": "Maui15",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +56.2",
+          "margin": -56.16,
+          "votesRep": 11154,
+          "votesDem": 39727,
+          "votesTotal": 51789
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +51.3",
+          "margin": -51.31,
+          "votesRep": 11577,
+          "votesDem": 35979,
+          "votesTotal": 48547
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +42.7",
+          "margin": -42.69,
+          "votesRep": 13445,
+          "votesDem": 33479,
+          "votesTotal": 51942
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +36.3",
+          "margin": -36.26,
+          "votesRep": 22126,
+          "votesDem": 47305,
+          "votesTotal": 71044
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +26.5",
+          "margin": -26.47,
+          "votesRep": 22621,
+          "votesDem": 38905,
+          "votesTotal": 62893
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+@import 'tailwindcss';
+@plugin 'daisyui';
+
+@plugin 'daisyui/theme' {
+	name: 'yapms-stream';
+	default: true;
+	prefersdark: true;
+	color-scheme: dark;
+
+	/* Neutral card + surface tokens lifted from DDHQ race page screenshots. */
+	--color-base-100: #0b0b0e; /* page background */
+	--color-base-200: #15151a; /* card surface */
+	--color-base-300: #1d1d24; /* elevated card */
+	--color-base-content: #e5e7eb;
+
+	--color-primary: #facc15; /* gold accent (PRO / date strip) */
+	--color-primary-content: #1a1400;
+
+	--color-secondary: #26262d; /* outline / divider / inactive tab */
+	--color-secondary-content: #e5e7eb;
+
+	--color-accent: #22c55e; /* green reporting-% bar + called check */
+	--color-accent-content: #052e13;
+
+	--color-neutral: #26262d;
+	--color-neutral-content: #e5e7eb;
+
+	--color-info: #3abff8;
+	--color-info-content: #002733;
+
+	--color-success: #22c55e;
+	--color-success-content: #052e13;
+
+	--color-warning: #f59e0b;
+	--color-warning-content: #1a1200;
+
+	--color-error: #ef4444;
+	--color-error-content: #2a0404;
+
+	--radius-selector: 0.5rem;
+	--radius-field: 0.5rem;
+	--radius-box: 0.75rem;
+}
+
+/*
+ * Overlay transparency: the /overlay route mounts this class on <html> and
+ * <body> so OBS Browser Source sees a transparent frame. Everything else on
+ * /control uses the normal base-100 background.
+ */
+:root,
+html,
+body {
+	background: var(--color-base-100);
+}
+
+.overlay-transparent,
+.overlay-transparent body,
+.overlay-transparent html {
+	background: transparent !important;
+}
+
+/* Shared card primitive used by every section (header / candidates / etc). */
+.race-card {
+	background: var(--color-base-200);
+	border: 1px solid var(--color-secondary);
+	border-radius: var(--radius-box);
+	overflow: hidden;
+}
+
+.race-card + .race-card {
+	margin-top: 0.75rem;
+}
+
+/* Matches the DDHQ left party stripe on non-winning candidate rows. */
+.party-stripe {
+	border-left: 4px solid var(--party-color, var(--color-secondary));
+}
+
+/*
+ * Region borders for every SVG map mounted via MapView.svelte.
+ *
+ * The yapms SVGs ship with an `auto-border-stroke-width` attribute but *no*
+ * inline per-path strokes — yapms itself relies on the CSS rule below
+ * (mirrored from apps/yapms/src/lib/styles/global.css) plus a zoom-aware
+ * stroke multiplier. Without these rules every county path collapses into a
+ * single edge-less blob and the map looks like a solid dark shape with no
+ * visible county/district boundaries.
+ *
+ * We use a small vector-aware stroke width: `vector-effect: non-scaling-stroke`
+ * would keep strokes a constant pixel width regardless of zoom. In practice
+ * panzoom scales the whole SVG, so we want strokes to scale too (otherwise
+ * they get chunky at high zoom); a modest default looks clean at every
+ * viewport size.
+ */
+[map-type='regions'] path {
+	stroke: rgb(from var(--color-base-100) r g b / 0.9);
+	stroke-width: 0.35;
+	stroke-linejoin: round;
+}
+
+[map-type='inset-texts'] {
+	fill: var(--color-base-content);
+}
+
+[map-type='inset-lines'] {
+	stroke: var(--color-base-content);
+	fill: var(--color-base-content);
+	opacity: 0.5;
+}

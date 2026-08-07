@@ -1,0 +1,2638 @@
+{
+  "stateFips": "30",
+  "stateName": "Montana",
+  "counties": [
+    {
+      "name": "Beaverhead",
+      "regionAttr": "Beaverhead30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +30.1",
+          "margin": 30.08,
+          "votesRep": 3008,
+          "votesDem": 1617,
+          "votesTotal": 4763
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +41.4",
+          "margin": 41.41,
+          "votesRep": 3251,
+          "votesDem": 1347,
+          "votesTotal": 4749
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +48.8",
+          "margin": 48.83,
+          "votesRep": 3243,
+          "votesDem": 1115,
+          "votesTotal": 4676
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +41.9",
+          "margin": 41.85,
+          "votesRep": 3923,
+          "votesDem": 1608,
+          "votesTotal": 5661
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +44.9",
+          "margin": 44.9,
+          "votesRep": 4058,
+          "votesDem": 1543,
+          "votesTotal": 5794
+        }
+      }
+    },
+    {
+      "name": "Big Horn",
+      "regionAttr": "Big Horn30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +36.7",
+          "margin": -36.7,
+          "votesRep": 1628,
+          "votesDem": 3516,
+          "votesTotal": 5218
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +26.2",
+          "margin": -26.2,
+          "votesRep": 1655,
+          "votesDem": 2830,
+          "votesTotal": 4561
+        },
+        "2016": {
+          "color": "#577CCC",
+          "label": "Clinton +5.9",
+          "margin": -5.86,
+          "votesRep": 1833,
+          "votesDem": 2061,
+          "votesTotal": 4148
+        },
+        "2020": {
+          "color": "#577CCC",
+          "label": "Biden +6.0",
+          "margin": -6.05,
+          "votesRep": 2207,
+          "votesDem": 2491,
+          "votesTotal": 4784
+        },
+        "2024": {
+          "color": "#FF8B98",
+          "label": "Trump +1.8",
+          "margin": 1.77,
+          "votesRep": 2188,
+          "votesDem": 2112,
+          "votesTotal": 4470
+        }
+      }
+    },
+    {
+      "name": "Blaine",
+      "regionAttr": "Blaine30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +19.8",
+          "margin": -19.82,
+          "votesRep": 1139,
+          "votesDem": 1702,
+          "votesTotal": 2924
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +15.5",
+          "margin": -15.5,
+          "votesRep": 1169,
+          "votesDem": 1598,
+          "votesTotal": 2832
+        },
+        "2016": {
+          "color": "#FF8B98",
+          "label": "Trump +2.9",
+          "margin": 2.94,
+          "votesRep": 1259,
+          "votesDem": 1187,
+          "votesTotal": 2621
+        },
+        "2020": {
+          "color": "#8AAFFF",
+          "label": "Biden +3.9",
+          "margin": -3.92,
+          "votesRep": 1469,
+          "votesDem": 1589,
+          "votesTotal": 3117
+        },
+        "2024": {
+          "color": "#FF5865",
+          "label": "Trump +6.2",
+          "margin": 6.19,
+          "votesRep": 1526,
+          "votesDem": 1348,
+          "votesTotal": 3019
+        }
+      }
+    },
+    {
+      "name": "Broadwater",
+      "regionAttr": "Broadwater30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +34.9",
+          "margin": 34.88,
+          "votesRep": 756,
+          "votesDem": 365,
+          "votesTotal": 1149
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +47.7",
+          "margin": 47.72,
+          "votesRep": 2150,
+          "votesDem": 761,
+          "votesTotal": 3005
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +60.9",
+          "margin": 60.9,
+          "votesRep": 2329,
+          "votesDem": 566,
+          "votesTotal": 3097
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +58.3",
+          "margin": 58.33,
+          "votesRep": 3173,
+          "votesDem": 835,
+          "votesTotal": 4097
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +62.0",
+          "margin": 61.98,
+          "votesRep": 3770,
+          "votesDem": 885,
+          "votesTotal": 4810
+        }
+      }
+    },
+    {
+      "name": "Carbon",
+      "regionAttr": "Carbon30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +12.0",
+          "margin": 11.98,
+          "votesRep": 3108,
+          "votesDem": 2443,
+          "votesTotal": 5746
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +24.6",
+          "margin": 24.6,
+          "votesRep": 3513,
+          "votesDem": 2126,
+          "votesTotal": 5806
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +34.3",
+          "margin": 34.31,
+          "votesRep": 3729,
+          "votesDem": 1824,
+          "votesTotal": 5923
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +29.7",
+          "margin": 29.71,
+          "votesRep": 4468,
+          "votesDem": 2421,
+          "votesTotal": 7101
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +33.5",
+          "margin": 33.46,
+          "votesRep": 4719,
+          "votesDem": 2353,
+          "votesTotal": 7297
+        }
+      }
+    },
+    {
+      "name": "Carter",
+      "regionAttr": "Carter30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +67.5",
+          "margin": 67.54,
+          "votesRep": 573,
+          "votesDem": 111,
+          "votesTotal": 715
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +75.2",
+          "margin": 75.19,
+          "votesRep": 678,
+          "votesDem": 96,
+          "votesTotal": 794
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +81.3",
+          "margin": 81.26,
+          "votesRep": 677,
+          "votesDem": 70,
+          "votesTotal": 777
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +82.6",
+          "margin": 82.57,
+          "votesRep": 775,
+          "votesDem": 74,
+          "votesTotal": 864
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +82.0",
+          "margin": 82.04,
+          "votesRep": 760,
+          "votesDem": 75,
+          "votesTotal": 854
+        }
+      }
+    },
+    {
+      "name": "Cascade",
+      "regionAttr": "Cascade30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#8AAFFF",
+          "label": "Obama +2.3",
+          "margin": -2.34,
+          "votesRep": 16857,
+          "votesDem": 17664,
+          "votesTotal": 35388
+        },
+        "2012": {
+          "color": "#FF5865",
+          "label": "Romney +9.4",
+          "margin": 9.37,
+          "votesRep": 18039,
+          "votesDem": 14949,
+          "votesTotal": 33952
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +23.2",
+          "margin": 23.22,
+          "votesRep": 19343,
+          "votesDem": 12053,
+          "votesTotal": 33791
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +20.3",
+          "margin": 20.27,
+          "votesRep": 23315,
+          "votesDem": 15456,
+          "votesTotal": 39885
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +23.0",
+          "margin": 23.05,
+          "votesRep": 22419,
+          "votesDem": 14021,
+          "votesTotal": 37583
+        }
+      }
+    },
+    {
+      "name": "Chouteau",
+      "regionAttr": "Chouteau30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +18.6",
+          "margin": 18.58,
+          "votesRep": 1634,
+          "votesDem": 1122,
+          "votesTotal": 2861
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +28.7",
+          "margin": 28.75,
+          "votesRep": 1751,
+          "votesDem": 969,
+          "votesTotal": 2804
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +39.4",
+          "margin": 39.38,
+          "votesRep": 1676,
+          "votesDem": 729,
+          "votesTotal": 2571
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +31.2",
+          "margin": 31.23,
+          "votesRep": 1891,
+          "votesDem": 991,
+          "votesTotal": 2974
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +33.5",
+          "margin": 33.45,
+          "votesRep": 1885,
+          "votesDem": 940,
+          "votesTotal": 2934
+        }
+      }
+    },
+    {
+      "name": "Custer",
+      "regionAttr": "Custer30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +14.7",
+          "margin": 14.68,
+          "votesRep": 3047,
+          "votesDem": 2267,
+          "votesTotal": 5452
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +29.5",
+          "margin": 29.53,
+          "votesRep": 3353,
+          "votesDem": 1824,
+          "votesTotal": 5336
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +51.3",
+          "margin": 51.27,
+          "votesRep": 3638,
+          "votesDem": 1172,
+          "votesTotal": 5145
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +47.1",
+          "margin": 47.05,
+          "votesRep": 4205,
+          "votesDem": 1514,
+          "votesTotal": 5883
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +50.5",
+          "margin": 50.47,
+          "votesRep": 4208,
+          "votesDem": 1385,
+          "votesTotal": 5797
+        }
+      }
+    },
+    {
+      "name": "Daniels",
+      "regionAttr": "Daniels30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +33.8",
+          "margin": 33.85,
+          "votesRep": 694,
+          "votesDem": 343,
+          "votesTotal": 1073
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +51.4",
+          "margin": 51.39,
+          "votesRep": 735,
+          "votesDem": 236,
+          "votesTotal": 1001
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +62.7",
+          "margin": 62.72,
+          "votesRep": 729,
+          "votesDem": 167,
+          "votesTotal": 952
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +60.8",
+          "margin": 60.76,
+          "votesRep": 799,
+          "votesDem": 195,
+          "votesTotal": 1014
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +67.0",
+          "margin": 66.95,
+          "votesRep": 778,
+          "votesDem": 154,
+          "votesTotal": 951
+        }
+      }
+    },
+    {
+      "name": "Dawson",
+      "regionAttr": "Dawson30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +24.7",
+          "margin": 24.72,
+          "votesRep": 2639,
+          "votesDem": 1593,
+          "votesTotal": 4432
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +42.5",
+          "margin": 42.54,
+          "votesRep": 3024,
+          "votesDem": 1219,
+          "votesTotal": 4417
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +61.5",
+          "margin": 61.51,
+          "votesRep": 3298,
+          "votesDem": 786,
+          "votesTotal": 4297
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +59.2",
+          "margin": 59.24,
+          "votesRep": 3758,
+          "votesDem": 962,
+          "votesTotal": 4837
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +60.5",
+          "margin": 60.45,
+          "votesRep": 3627,
+          "votesDem": 894,
+          "votesTotal": 4638
+        }
+      }
+    },
+    {
+      "name": "Deer Lodge",
+      "regionAttr": "Deer Lodge30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +38.7",
+          "margin": -38.74,
+          "votesRep": 1502,
+          "votesDem": 3402,
+          "votesTotal": 5074
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +32.8",
+          "margin": -32.82,
+          "votesRep": 1431,
+          "votesDem": 2829,
+          "votesTotal": 4408
+        },
+        "2016": {
+          "color": "#577CCC",
+          "label": "Clinton +7.5",
+          "margin": -7.51,
+          "votesRep": 1736,
+          "votesDem": 2018,
+          "votesTotal": 4099
+        },
+        "2020": {
+          "color": "#577CCC",
+          "label": "Biden +7.9",
+          "margin": -7.92,
+          "votesRep": 2186,
+          "votesDem": 2562,
+          "votesTotal": 4891
+        },
+        "2024": {
+          "color": "#949BB3",
+          "label": "Harris +1.0",
+          "margin": -1,
+          "votesRep": 2329,
+          "votesDem": 2376,
+          "votesTotal": 4870
+        }
+      }
+    },
+    {
+      "name": "Fallon",
+      "regionAttr": "Fallon30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +54.0",
+          "margin": 53.98,
+          "votesRep": 1064,
+          "votesDem": 318,
+          "votesTotal": 1432
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +65.3",
+          "margin": 65.27,
+          "votesRep": 1123,
+          "votesDem": 236,
+          "votesTotal": 1399
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +78.5",
+          "margin": 78.46,
+          "votesRep": 1276,
+          "votesDem": 154,
+          "votesTotal": 1474
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +77.8",
+          "margin": 77.76,
+          "votesRep": 1375,
+          "votesDem": 172,
+          "votesTotal": 1575
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +77.8",
+          "margin": 77.76,
+          "votesRep": 1303,
+          "votesDem": 163,
+          "votesTotal": 1507
+        }
+      }
+    },
+    {
+      "name": "Fergus",
+      "regionAttr": "Fergus30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +36.0",
+          "margin": 36,
+          "votesRep": 4108,
+          "votesDem": 1933,
+          "votesTotal": 6232
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +44.5",
+          "margin": 44.54,
+          "votesRep": 4243,
+          "votesDem": 1628,
+          "votesTotal": 6044
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +56.0",
+          "margin": 55.96,
+          "votesRep": 4235,
+          "votesDem": 1196,
+          "votesTotal": 5782
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +53.0",
+          "margin": 52.99,
+          "votesRep": 4869,
+          "votesDem": 1496,
+          "votesTotal": 6531
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +53.1",
+          "margin": 53.08,
+          "votesRep": 4965,
+          "votesDem": 1522,
+          "votesTotal": 6712
+        }
+      }
+    },
+    {
+      "name": "Flathead",
+      "regionAttr": "Flathead30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +22.6",
+          "margin": 22.59,
+          "votesRep": 25559,
+          "votesDem": 16138,
+          "votesTotal": 43714
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +34.3",
+          "margin": 34.35,
+          "votesRep": 27694,
+          "votesDem": 13534,
+          "votesTotal": 42465
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +38.9",
+          "margin": 38.89,
+          "votesRep": 30079,
+          "votesDem": 13233,
+          "votesTotal": 46144
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +30.8",
+          "margin": 30.8,
+          "votesRep": 38321,
+          "votesDem": 20274,
+          "votesTotal": 60258
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +34.7",
+          "margin": 34.71,
+          "votesRep": 41390,
+          "votesDem": 20062,
+          "votesTotal": 63140
+        }
+      }
+    },
+    {
+      "name": "Gallatin",
+      "regionAttr": "Gallatin30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#8AAFFF",
+          "label": "Obama +3.5",
+          "margin": -3.48,
+          "votesRep": 22578,
+          "votesDem": 24205,
+          "votesTotal": 48155
+        },
+        "2012": {
+          "color": "#FF5865",
+          "label": "Romney +5.5",
+          "margin": 5.52,
+          "votesRep": 24051,
+          "votesDem": 21534,
+          "votesTotal": 47113
+        },
+        "2016": {
+          "color": "#8AAFFF",
+          "label": "Clinton +1.1",
+          "margin": -1.1,
+          "votesRep": 23360,
+          "votesDem": 23879,
+          "votesTotal": 52169
+        },
+        "2020": {
+          "color": "#577CCC",
+          "label": "Biden +7.8",
+          "margin": -7.78,
+          "votesRep": 31696,
+          "votesDem": 37044,
+          "votesTotal": 71507
+        },
+        "2024": {
+          "color": "#8AAFFF",
+          "label": "Harris +3.3",
+          "margin": -3.32,
+          "votesRep": 32695,
+          "votesDem": 34938,
+          "votesTotal": 69897
+        }
+      }
+    },
+    {
+      "name": "Garfield",
+      "regionAttr": "Garfield30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +68.9",
+          "margin": 68.93,
+          "votesRep": 598,
+          "votesDem": 110,
+          "votesTotal": 727
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +80.8",
+          "margin": 80.81,
+          "votesRep": 622,
+          "votesDem": 66,
+          "votesTotal": 700
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +90.1",
+          "margin": 90.1,
+          "votesRep": 653,
+          "votesDem": 34,
+          "votesTotal": 715
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +89.8",
+          "margin": 89.81,
+          "votesRep": 764,
+          "votesDem": 41,
+          "votesTotal": 813
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +90.2",
+          "margin": 90.19,
+          "votesRep": 756,
+          "votesDem": 39,
+          "votesTotal": 800
+        }
+      }
+    },
+    {
+      "name": "Glacier",
+      "regionAttr": "Glacier30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +40.5",
+          "margin": -40.46,
+          "votesRep": 1451,
+          "votesDem": 3423,
+          "votesTotal": 4970
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +33.4",
+          "margin": -33.37,
+          "votesRep": 1391,
+          "votesDem": 2784,
+          "votesTotal": 4287
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +31.6",
+          "margin": -31.62,
+          "votesRep": 1598,
+          "votesDem": 3076,
+          "votesTotal": 4969
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +31.4",
+          "margin": -31.42,
+          "votesRep": 1884,
+          "votesDem": 3610,
+          "votesTotal": 5639
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +20.4",
+          "margin": -20.4,
+          "votesRep": 1939,
+          "votesDem": 2933,
+          "votesTotal": 5078
+        }
+      }
+    },
+    {
+      "name": "Golden Valley",
+      "regionAttr": "Golden Valley30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +46.9",
+          "margin": 46.9,
+          "votesRep": 343,
+          "votesDem": 124,
+          "votesTotal": 491
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +52.3",
+          "margin": 52.28,
+          "votesRep": 351,
+          "votesDem": 110,
+          "votesTotal": 479
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +67.4",
+          "margin": 67.43,
+          "votesRep": 365,
+          "votesDem": 71,
+          "votesTotal": 468
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +68.3",
+          "margin": 68.29,
+          "votesRep": 414,
+          "votesDem": 78,
+          "votesTotal": 503
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +73.6",
+          "margin": 73.57,
+          "votesRep": 440,
+          "votesDem": 67,
+          "votesTotal": 515
+        }
+      }
+    },
+    {
+      "name": "Granite",
+      "regionAttr": "Granite30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +25.5",
+          "margin": 25.53,
+          "votesRep": 1013,
+          "votesDem": 601,
+          "votesTotal": 1715
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +35.0",
+          "margin": 35,
+          "votesRep": 1107,
+          "votesDem": 533,
+          "votesTotal": 1705
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +43.3",
+          "margin": 43.29,
+          "votesRep": 1185,
+          "votesDem": 469,
+          "votesTotal": 1762
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +38.0",
+          "margin": 37.97,
+          "votesRep": 1419,
+          "votesDem": 638,
+          "votesTotal": 2102
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +45.3",
+          "margin": 45.27,
+          "votesRep": 1537,
+          "votesDem": 579,
+          "votesTotal": 2176
+        }
+      }
+    },
+    {
+      "name": "Hill",
+      "regionAttr": "Hill30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +12.7",
+          "margin": -12.67,
+          "votesRep": 2787,
+          "votesDem": 3596,
+          "votesTotal": 6624
+        },
+        "2012": {
+          "color": "#8AAFFF",
+          "label": "Obama +3.7",
+          "margin": -3.67,
+          "votesRep": 3133,
+          "votesDem": 3372,
+          "votesTotal": 6757
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +18.9",
+          "margin": 18.91,
+          "votesRep": 3446,
+          "votesDem": 2350,
+          "votesTotal": 6347
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +14.1",
+          "margin": 14.07,
+          "votesRep": 3957,
+          "votesDem": 2981,
+          "votesTotal": 7182
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +19.0",
+          "margin": 19.02,
+          "votesRep": 3871,
+          "votesDem": 2634,
+          "votesTotal": 6804
+        }
+      }
+    },
+    {
+      "name": "Jefferson",
+      "regionAttr": "Jefferson30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +15.6",
+          "margin": 15.62,
+          "votesRep": 3538,
+          "votesDem": 2582,
+          "votesTotal": 6340
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +28.4",
+          "margin": 28.36,
+          "votesRep": 4042,
+          "votesDem": 2256,
+          "votesTotal": 6490
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +35.0",
+          "margin": 34.97,
+          "votesRep": 4099,
+          "votesDem": 1975,
+          "votesTotal": 6535
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +34.1",
+          "margin": 34.13,
+          "votesRep": 5345,
+          "votesDem": 2625,
+          "votesTotal": 8191
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +37.6",
+          "margin": 37.57,
+          "votesRep": 5544,
+          "votesDem": 2516,
+          "votesTotal": 8291
+        }
+      }
+    },
+    {
+      "name": "Judith Basin",
+      "regionAttr": "Judith Basin30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +33.7",
+          "margin": 33.72,
+          "votesRep": 801,
+          "votesDem": 397,
+          "votesTotal": 1236
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +43.4",
+          "margin": 43.43,
+          "votesRep": 852,
+          "votesDem": 336,
+          "votesTotal": 1212
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +57.8",
+          "margin": 57.78,
+          "votesRep": 867,
+          "votesDem": 232,
+          "votesTotal": 1189
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +58.2",
+          "margin": 58.17,
+          "votesRep": 1040,
+          "votesDem": 275,
+          "votesTotal": 1344
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +59.7",
+          "margin": 59.73,
+          "votesRep": 1051,
+          "votesDem": 265,
+          "votesTotal": 1353
+        }
+      }
+    },
+    {
+      "name": "Lake",
+      "regionAttr": "Lake30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#8AAFFF",
+          "label": "Obama +2.0",
+          "margin": -2.02,
+          "votesRep": 6498,
+          "votesDem": 6766,
+          "votesTotal": 13913
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +10.7",
+          "margin": 10.7,
+          "votesRep": 7084,
+          "votesDem": 5715,
+          "votesTotal": 13156
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +22.6",
+          "margin": 22.62,
+          "votesRep": 7453,
+          "votesDem": 4703,
+          "votesTotal": 12898
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +14.8",
+          "margin": 14.82,
+          "votesRep": 9322,
+          "votesDem": 6916,
+          "votesTotal": 16626
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +20.6",
+          "margin": 20.56,
+          "votesRep": 9880,
+          "votesDem": 6510,
+          "votesTotal": 16910
+        }
+      }
+    },
+    {
+      "name": "Lewis and Clark",
+      "regionAttr": "Lewis and Clark30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#577CCC",
+          "label": "Obama +6.7",
+          "margin": -6.7,
+          "votesRep": 14966,
+          "votesDem": 17114,
+          "votesTotal": 32873
+        },
+        "2012": {
+          "color": "#FF8B98",
+          "label": "Romney +3.7",
+          "margin": 3.71,
+          "votesRep": 16673,
+          "votesDem": 15479,
+          "votesTotal": 33032
+        },
+        "2016": {
+          "color": "#FF5865",
+          "label": "Trump +7.5",
+          "margin": 7.53,
+          "votesRep": 16665,
+          "votesDem": 14331,
+          "votesTotal": 33697
+        },
+        "2020": {
+          "color": "#FF8B98",
+          "label": "Trump +4.0",
+          "margin": 4.05,
+          "votesRep": 21409,
+          "votesDem": 19743,
+          "votesTotal": 42485
+        },
+        "2024": {
+          "color": "#FF5865",
+          "label": "Trump +5.9",
+          "margin": 5.9,
+          "votesRep": 21479,
+          "votesDem": 19085,
+          "votesTotal": 42023
+        }
+      }
+    },
+    {
+      "name": "Liberty",
+      "regionAttr": "Liberty30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +23.6",
+          "margin": 23.62,
+          "votesRep": 594,
+          "votesDem": 367,
+          "votesTotal": 1001
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +46.2",
+          "margin": 46.18,
+          "votesRep": 698,
+          "votesDem": 257,
+          "votesTotal": 983
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +54.4",
+          "margin": 54.44,
+          "votesRep": 695,
+          "votesDem": 205,
+          "votesTotal": 949
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +53.5",
+          "margin": 53.46,
+          "votesRep": 821,
+          "votesDem": 249,
+          "votesTotal": 1083
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +55.7",
+          "margin": 55.69,
+          "votesRep": 752,
+          "votesDem": 214,
+          "votesTotal": 988
+        }
+      }
+    },
+    {
+      "name": "Lincoln",
+      "regionAttr": "Lincoln30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +30.7",
+          "margin": 30.69,
+          "votesRep": 5704,
+          "votesDem": 3025,
+          "votesTotal": 9227
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +40.8",
+          "margin": 40.76,
+          "votesRep": 6045,
+          "votesDem": 2544,
+          "votesTotal": 8869
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +53.4",
+          "margin": 53.42,
+          "votesRep": 6720,
+          "votesDem": 2040,
+          "votesTotal": 9250
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +50.7",
+          "margin": 50.73,
+          "votesRep": 8672,
+          "votesDem": 2835,
+          "votesTotal": 11747
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +54.6",
+          "margin": 54.62,
+          "votesRep": 8909,
+          "votesDem": 2615,
+          "votesTotal": 11789
+        }
+      }
+    },
+    {
+      "name": "Madison",
+      "regionAttr": "Madison30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +38.7",
+          "margin": 38.68,
+          "votesRep": 726,
+          "votesDem": 321,
+          "votesTotal": 1091
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +41.6",
+          "margin": 41.59,
+          "votesRep": 3115,
+          "votesDem": 1285,
+          "votesTotal": 4511
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +47.3",
+          "margin": 47.25,
+          "votesRep": 3280,
+          "votesDem": 1175,
+          "votesTotal": 4708
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +40.6",
+          "margin": 40.59,
+          "votesRep": 4191,
+          "votesDem": 1771,
+          "votesTotal": 6113
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +46.4",
+          "margin": 46.41,
+          "votesRep": 4615,
+          "votesDem": 1689,
+          "votesTotal": 6461
+        }
+      }
+    },
+    {
+      "name": "McCone",
+      "regionAttr": "McCone30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +27.4",
+          "margin": 27.43,
+          "votesRep": 2822,
+          "votesDem": 1607,
+          "votesTotal": 4567
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +54.1",
+          "margin": 54.1,
+          "votesRep": 742,
+          "votesDem": 221,
+          "votesTotal": 988
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +69.6",
+          "margin": 69.57,
+          "votesRep": 858,
+          "votesDem": 154,
+          "votesTotal": 1056
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +72.1",
+          "margin": 72.1,
+          "votesRep": 956,
+          "votesDem": 155,
+          "votesTotal": 1128
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +75.7",
+          "margin": 75.66,
+          "votesRep": 931,
+          "votesDem": 129,
+          "votesTotal": 1082
+        }
+      }
+    },
+    {
+      "name": "Meagher",
+      "regionAttr": "Meagher30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +35.4",
+          "margin": 35.36,
+          "votesRep": 624,
+          "votesDem": 298,
+          "votesTotal": 966
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +42.7",
+          "margin": 42.71,
+          "votesRep": 670,
+          "votesDem": 269,
+          "votesTotal": 972
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +58.4",
+          "margin": 58.43,
+          "votesRep": 728,
+          "votesDem": 191,
+          "votesTotal": 970
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +52.7",
+          "margin": 52.7,
+          "votesRep": 833,
+          "votesDem": 258,
+          "votesTotal": 1110
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +55.2",
+          "margin": 55.24,
+          "votesRep": 888,
+          "votesDem": 256,
+          "votesTotal": 1172
+        }
+      }
+    },
+    {
+      "name": "Mineral",
+      "regionAttr": "Mineral30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +11.0",
+          "margin": 10.96,
+          "votesRep": 1053,
+          "votesDem": 845,
+          "votesTotal": 1995
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +26.9",
+          "margin": 26.91,
+          "votesRep": 1212,
+          "votesDem": 698,
+          "votesTotal": 2009
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +43.9",
+          "margin": 43.93,
+          "votesRep": 1322,
+          "votesDem": 515,
+          "votesTotal": 1974
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +45.4",
+          "margin": 45.43,
+          "votesRep": 1828,
+          "votesDem": 686,
+          "votesTotal": 2563
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +49.7",
+          "margin": 49.67,
+          "votesRep": 2049,
+          "votesDem": 689,
+          "votesTotal": 2833
+        }
+      }
+    },
+    {
+      "name": "Missoula",
+      "regionAttr": "Missoula30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +27.6",
+          "margin": -27.57,
+          "votesRep": 20743,
+          "votesDem": 36531,
+          "votesTotal": 59075
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +19.2",
+          "margin": -19.24,
+          "votesRep": 23285,
+          "votesDem": 34380,
+          "votesTotal": 59374
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +17.2",
+          "margin": -17.24,
+          "votesRep": 21699,
+          "votesDem": 30740,
+          "votesTotal": 57271
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +24.4",
+          "margin": -24.4,
+          "votesRep": 26347,
+          "votesDem": 43357,
+          "votesTotal": 71986
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +22.2",
+          "margin": -22.22,
+          "votesRep": 27306,
+          "votesDem": 42903,
+          "votesTotal": 72773
+        }
+      }
+    },
+    {
+      "name": "Musselshell",
+      "regionAttr": "Musselshell30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +42.6",
+          "margin": 42.63,
+          "votesRep": 1581,
+          "votesDem": 636,
+          "votesTotal": 2306
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +57.6",
+          "margin": 57.61,
+          "votesRep": 1792,
+          "votesDem": 482,
+          "votesTotal": 2353
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +71.1",
+          "margin": 71.12,
+          "votesRep": 1961,
+          "votesDem": 331,
+          "votesTotal": 2404
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +70.9",
+          "margin": 70.87,
+          "votesRep": 2423,
+          "votesDem": 413,
+          "votesTotal": 2881
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +73.1",
+          "margin": 73.12,
+          "votesRep": 2550,
+          "votesDem": 396,
+          "votesTotal": 3012
+        }
+      }
+    },
+    {
+      "name": "Park",
+      "regionAttr": "Park30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#FF8B98",
+          "label": "McCain +2.4",
+          "margin": 2.37,
+          "votesRep": 4376,
+          "votesDem": 4173,
+          "votesTotal": 8892
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +10.9",
+          "margin": 10.87,
+          "votesRep": 4637,
+          "votesDem": 3728,
+          "votesTotal": 8634
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +16.1",
+          "margin": 16.1,
+          "votesRep": 4872,
+          "votesDem": 3521,
+          "votesTotal": 9056
+        },
+        "2020": {
+          "color": "#FF5865",
+          "label": "Trump +6.6",
+          "margin": 6.59,
+          "votesRep": 6025,
+          "votesDem": 5280,
+          "votesTotal": 11618
+        },
+        "2024": {
+          "color": "#FF5865",
+          "label": "Trump +8.0",
+          "margin": 7.96,
+          "votesRep": 6128,
+          "votesDem": 5224,
+          "votesTotal": 11717
+        }
+      }
+    },
+    {
+      "name": "Petroleum",
+      "regionAttr": "Petroleum30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +53.9",
+          "margin": 53.9,
+          "votesRep": 227,
+          "votesDem": 68,
+          "votesTotal": 300
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +66.1",
+          "margin": 66.09,
+          "votesRep": 240,
+          "votesDem": 49,
+          "votesTotal": 298
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +80.4",
+          "margin": 80.39,
+          "votesRep": 276,
+          "votesDem": 30,
+          "votesTotal": 319
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +76.9",
+          "margin": 76.85,
+          "votesRep": 298,
+          "votesDem": 39,
+          "votesTotal": 351
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +76.9",
+          "margin": 76.95,
+          "votesRep": 284,
+          "votesDem": 37,
+          "votesTotal": 324
+        }
+      }
+    },
+    {
+      "name": "Phillips",
+      "regionAttr": "Phillips30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +38.1",
+          "margin": 38.09,
+          "votesRep": 1423,
+          "votesDem": 638,
+          "votesTotal": 2123
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +56.4",
+          "margin": 56.37,
+          "votesRep": 1688,
+          "votesDem": 471,
+          "votesTotal": 2228
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +69.0",
+          "margin": 68.97,
+          "votesRep": 1715,
+          "votesDem": 315,
+          "votesTotal": 2147
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +64.6",
+          "margin": 64.63,
+          "votesRep": 1936,
+          "votesDem": 416,
+          "votesTotal": 2386
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +64.0",
+          "margin": 63.99,
+          "votesRep": 1753,
+          "votesDem": 385,
+          "votesTotal": 2189
+        }
+      }
+    },
+    {
+      "name": "Pondera",
+      "regionAttr": "Pondera30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +13.0",
+          "margin": 12.98,
+          "votesRep": 1588,
+          "votesDem": 1223,
+          "votesTotal": 2885
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +26.5",
+          "margin": 26.45,
+          "votesRep": 1666,
+          "votesDem": 969,
+          "votesTotal": 2704
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +41.6",
+          "margin": 41.58,
+          "votesRep": 1786,
+          "votesDem": 737,
+          "votesTotal": 2692
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +38.4",
+          "margin": 38.45,
+          "votesRep": 2031,
+          "votesDem": 903,
+          "votesTotal": 2995
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +43.2",
+          "margin": 43.21,
+          "votesRep": 1972,
+          "votesDem": 782,
+          "votesTotal": 2852
+        }
+      }
+    },
+    {
+      "name": "Powder River",
+      "regionAttr": "Powder River30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +58.8",
+          "margin": 58.81,
+          "votesRep": 802,
+          "votesDem": 208,
+          "votesTotal": 1038
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +66.1",
+          "margin": 66.1,
+          "votesRep": 833,
+          "votesDem": 170,
+          "votesTotal": 1019
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +74.8",
+          "margin": 74.78,
+          "votesRep": 880,
+          "votesDem": 127,
+          "votesTotal": 1047
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +72.6",
+          "margin": 72.6,
+          "votesRep": 970,
+          "votesDem": 154,
+          "votesTotal": 1136
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +76.1",
+          "margin": 76.05,
+          "votesRep": 963,
+          "votesDem": 131,
+          "votesTotal": 1106
+        }
+      }
+    },
+    {
+      "name": "Powell",
+      "regionAttr": "Powell30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +24.5",
+          "margin": 24.48,
+          "votesRep": 1683,
+          "votesDem": 1021,
+          "votesTotal": 2814
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +34.1",
+          "margin": 34.08,
+          "votesRep": 1798,
+          "votesDem": 884,
+          "votesTotal": 2763
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +57.2",
+          "margin": 57.21,
+          "votesRep": 2017,
+          "votesDem": 549,
+          "votesTotal": 2768
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +51.6",
+          "margin": 51.59,
+          "votesRep": 2355,
+          "votesDem": 752,
+          "votesTotal": 3195
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +55.3",
+          "margin": 55.29,
+          "votesRep": 2466,
+          "votesDem": 710,
+          "votesTotal": 3282
+        }
+      }
+    },
+    {
+      "name": "Prairie",
+      "regionAttr": "Prairie30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +40.9",
+          "margin": 40.9,
+          "votesRep": 503,
+          "votesDem": 211,
+          "votesTotal": 735
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +51.2",
+          "margin": 51.24,
+          "votesRep": 518,
+          "votesDem": 167,
+          "votesTotal": 701
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +69.5",
+          "margin": 69.47,
+          "votesRep": 555,
+          "votesDem": 100,
+          "votesTotal": 686
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +65.4",
+          "margin": 65.43,
+          "votesRep": 603,
+          "votesDem": 126,
+          "votesTotal": 744
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +63.5",
+          "margin": 63.47,
+          "votesRep": 546,
+          "votesDem": 122,
+          "votesTotal": 688
+        }
+      }
+    },
+    {
+      "name": "Ravalli",
+      "regionAttr": "Ravalli30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +21.5",
+          "margin": 21.5,
+          "votesRep": 13002,
+          "votesDem": 8400,
+          "votesTotal": 22083
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +32.9",
+          "margin": 32.94,
+          "votesRep": 12817,
+          "votesDem": 6466,
+          "votesTotal": 19797
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +40.8",
+          "margin": 40.82,
+          "votesRep": 14673,
+          "votesDem": 6166,
+          "votesTotal": 22063
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +37.1",
+          "margin": 37.13,
+          "votesRep": 19114,
+          "votesDem": 8763,
+          "votesTotal": 28507
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +41.7",
+          "margin": 41.69,
+          "votesRep": 20617,
+          "votesDem": 8485,
+          "votesTotal": 29904
+        }
+      }
+    },
+    {
+      "name": "Richland",
+      "regionAttr": "Richland30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +45.2",
+          "margin": 45.16,
+          "votesRep": 3184,
+          "votesDem": 1203,
+          "votesTotal": 4516
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +55.6",
+          "margin": 55.63,
+          "votesRep": 3479,
+          "votesDem": 992,
+          "votesTotal": 4602
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +70.6",
+          "margin": 70.62,
+          "votesRep": 3885,
+          "votesDem": 669,
+          "votesTotal": 4812
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +69.2",
+          "margin": 69.16,
+          "votesRep": 4800,
+          "votesDem": 875,
+          "votesTotal": 5798
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +69.9",
+          "margin": 69.87,
+          "votesRep": 4387,
+          "votesDem": 778,
+          "votesTotal": 5309
+        }
+      }
+    },
+    {
+      "name": "Roosevelt",
+      "regionAttr": "Roosevelt30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +27.0",
+          "margin": -27.03,
+          "votesRep": 1473,
+          "votesDem": 2564,
+          "votesTotal": 4150
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +15.3",
+          "margin": -15.25,
+          "votesRep": 1503,
+          "votesDem": 2044,
+          "votesTotal": 3618
+        },
+        "2016": {
+          "color": "#FF5865",
+          "label": "Trump +6.8",
+          "margin": 6.76,
+          "votesRep": 1722,
+          "votesDem": 1504,
+          "votesTotal": 3486
+        },
+        "2020": {
+          "color": "#FF8B98",
+          "label": "Trump +2.2",
+          "margin": 2.2,
+          "votesRep": 1996,
+          "votesDem": 1910,
+          "votesTotal": 4028
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +10.0",
+          "margin": 10.04,
+          "votesRep": 2055,
+          "votesDem": 1680,
+          "votesTotal": 3914
+        }
+      }
+    },
+    {
+      "name": "Rosebud",
+      "regionAttr": "Rosebud30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#8AAFFF",
+          "label": "Obama +4.1",
+          "margin": -4.1,
+          "votesRep": 1768,
+          "votesDem": 1919,
+          "votesTotal": 3810
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +15.9",
+          "margin": 15.86,
+          "votesRep": 2035,
+          "votesDem": 1478,
+          "votesTotal": 3610
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +39.1",
+          "margin": 39.06,
+          "votesRep": 2211,
+          "votesDem": 969,
+          "votesTotal": 3357
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +34.9",
+          "margin": 34.93,
+          "votesRep": 2486,
+          "votesDem": 1199,
+          "votesTotal": 3784
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +38.5",
+          "margin": 38.5,
+          "votesRep": 2466,
+          "votesDem": 1095,
+          "votesTotal": 3693
+        }
+      }
+    },
+    {
+      "name": "Sanders",
+      "regionAttr": "Sanders30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +28.8",
+          "margin": 28.79,
+          "votesRep": 3563,
+          "votesDem": 1970,
+          "votesTotal": 5849
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +39.7",
+          "margin": 39.65,
+          "votesRep": 3971,
+          "votesDem": 1716,
+          "votesTotal": 5888
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +55.8",
+          "margin": 55.79,
+          "votesRep": 4268,
+          "votesDem": 1211,
+          "votesTotal": 5871
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +51.3",
+          "margin": 51.34,
+          "votesRep": 5660,
+          "votesDem": 1820,
+          "votesTotal": 7652
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +56.6",
+          "margin": 56.59,
+          "votesRep": 6150,
+          "votesDem": 1705,
+          "votesTotal": 8069
+        }
+      }
+    },
+    {
+      "name": "Sheridan",
+      "regionAttr": "Sheridan30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#FF8B98",
+          "label": "McCain +1.8",
+          "margin": 1.75,
+          "votesRep": 987,
+          "votesDem": 953,
+          "votesTotal": 2006
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +29.1",
+          "margin": 29.08,
+          "votesRep": 1203,
+          "votesDem": 661,
+          "votesTotal": 1920
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +44.4",
+          "margin": 44.42,
+          "votesRep": 1237,
+          "votesDem": 476,
+          "votesTotal": 1825
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +41.9",
+          "margin": 41.93,
+          "votesRep": 1403,
+          "votesDem": 574,
+          "votesTotal": 2030
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +44.4",
+          "margin": 44.37,
+          "votesRep": 1321,
+          "votesDem": 509,
+          "votesTotal": 1912
+        }
+      }
+    },
+    {
+      "name": "Silver Bow",
+      "regionAttr": "Silver Bow30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +41.6",
+          "margin": -41.58,
+          "votesRep": 4818,
+          "votesDem": 11676,
+          "votesTotal": 16965
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +33.5",
+          "margin": -33.47,
+          "votesRep": 5374,
+          "votesDem": 10782,
+          "votesTotal": 16617
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +15.5",
+          "margin": -15.5,
+          "votesRep": 6252,
+          "votesDem": 8545,
+          "votesTotal": 16122
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +14.6",
+          "margin": -14.59,
+          "votesRep": 7745,
+          "votesDem": 10392,
+          "votesTotal": 18827
+        },
+        "2024": {
+          "color": "#577CCC",
+          "label": "Harris +7.3",
+          "margin": -7.29,
+          "votesRep": 8110,
+          "votesDem": 9386,
+          "votesTotal": 18226
+        }
+      }
+    },
+    {
+      "name": "Stillwater",
+      "regionAttr": "Stillwater30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +32.8",
+          "margin": 32.84,
+          "votesRep": 2991,
+          "votesDem": 1512,
+          "votesTotal": 4667
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +45.6",
+          "margin": 45.61,
+          "votesRep": 3237,
+          "votesDem": 1209,
+          "votesTotal": 4560
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +60.1",
+          "margin": 60.12,
+          "votesRep": 3630,
+          "votesDem": 904,
+          "votesTotal": 4816
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +58.8",
+          "margin": 58.85,
+          "votesRep": 4462,
+          "votesDem": 1156,
+          "votesTotal": 5741
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +63.3",
+          "margin": 63.3,
+          "votesRep": 4699,
+          "votesDem": 1056,
+          "votesTotal": 5906
+        }
+      }
+    },
+    {
+      "name": "Sweet Grass",
+      "regionAttr": "Sweet Grass30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +46.8",
+          "margin": 46.83,
+          "votesRep": 1494,
+          "votesDem": 541,
+          "votesTotal": 2083
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +54.0",
+          "margin": 54.01,
+          "votesRep": 1584,
+          "votesDem": 473,
+          "votesTotal": 2105
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +59.8",
+          "margin": 59.76,
+          "votesRep": 1580,
+          "votesDem": 398,
+          "votesTotal": 2077
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +54.0",
+          "margin": 54.04,
+          "votesRep": 1840,
+          "votesDem": 549,
+          "votesTotal": 2446
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +54.6",
+          "margin": 54.62,
+          "votesRep": 1789,
+          "votesDem": 525,
+          "votesTotal": 2381
+        }
+      }
+    },
+    {
+      "name": "Teton",
+      "regionAttr": "Teton30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +18.3",
+          "margin": 18.31,
+          "votesRep": 1874,
+          "votesDem": 1294,
+          "votesTotal": 3272
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +32.2",
+          "margin": 32.17,
+          "votesRep": 2091,
+          "votesDem": 1073,
+          "votesTotal": 3250
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +45.7",
+          "margin": 45.65,
+          "votesRep": 2152,
+          "votesDem": 803,
+          "votesTotal": 3143
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +44.3",
+          "margin": 44.29,
+          "votesRep": 2608,
+          "votesDem": 1007,
+          "votesTotal": 3695
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +46.4",
+          "margin": 46.42,
+          "votesRep": 2533,
+          "votesDem": 927,
+          "votesTotal": 3568
+        }
+      }
+    },
+    {
+      "name": "Toole",
+      "regionAttr": "Toole30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +28.2",
+          "margin": 28.24,
+          "votesRep": 1317,
+          "votesDem": 737,
+          "votesTotal": 2121
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +42.4",
+          "margin": 42.43,
+          "votesRep": 1440,
+          "votesDem": 582,
+          "votesTotal": 2102
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +57.9",
+          "margin": 57.87,
+          "votesRep": 1495,
+          "votesDem": 399,
+          "votesTotal": 2018
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +54.7",
+          "margin": 54.73,
+          "votesRep": 1596,
+          "votesDem": 467,
+          "votesTotal": 2123
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +58.2",
+          "margin": 58.21,
+          "votesRep": 1571,
+          "votesDem": 415,
+          "votesTotal": 2046
+        }
+      }
+    },
+    {
+      "name": "Treasure",
+      "regionAttr": "Treasure30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +33.6",
+          "margin": 33.62,
+          "votesRep": 314,
+          "votesDem": 156,
+          "votesTotal": 486
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +47.1",
+          "margin": 47.1,
+          "votesRep": 317,
+          "votesDem": 114,
+          "votesTotal": 453
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +71.1",
+          "margin": 71.15,
+          "votesRep": 350,
+          "votesDem": 59,
+          "votesTotal": 441
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +65.4",
+          "margin": 65.41,
+          "votesRep": 373,
+          "votesDem": 78,
+          "votesTotal": 460
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +73.1",
+          "margin": 73.11,
+          "votesRep": 367,
+          "votesDem": 57,
+          "votesTotal": 442
+        }
+      }
+    },
+    {
+      "name": "Valley",
+      "regionAttr": "Valley30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +12.6",
+          "margin": 12.64,
+          "votesRep": 2121,
+          "votesDem": 1645,
+          "votesTotal": 3911
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +25.5",
+          "margin": 25.54,
+          "votesRep": 2337,
+          "votesDem": 1386,
+          "votesTotal": 3860
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +50.5",
+          "margin": 50.54,
+          "votesRep": 2697,
+          "votesDem": 886,
+          "votesTotal": 3860
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +50.5",
+          "margin": 50.54,
+          "votesRep": 3135,
+          "votesDem": 1030,
+          "votesTotal": 4272
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +52.7",
+          "margin": 52.71,
+          "votesRep": 3019,
+          "votesDem": 935,
+          "votesTotal": 4079
+        }
+      }
+    },
+    {
+      "name": "Wheatland",
+      "regionAttr": "Wheatland30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +38.9",
+          "margin": 38.9,
+          "votesRep": 657,
+          "votesDem": 289,
+          "votesTotal": 981
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +43.5",
+          "margin": 43.45,
+          "votesRep": 690,
+          "votesDem": 272,
+          "votesTotal": 989
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +59.2",
+          "margin": 59.18,
+          "votesRep": 698,
+          "votesDem": 179,
+          "votesTotal": 932
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +57.1",
+          "margin": 57.06,
+          "votesRep": 823,
+          "votesDem": 225,
+          "votesTotal": 1068
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +60.3",
+          "margin": 60.27,
+          "votesRep": 843,
+          "votesDem": 209,
+          "votesTotal": 1086
+        }
+      }
+    },
+    {
+      "name": "Wibaux",
+      "regionAttr": "Wibaux30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#BF1D29",
+          "label": "McCain +44.4",
+          "margin": 44.38,
+          "votesRep": 379,
+          "votesDem": 146,
+          "votesTotal": 561
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +88.8",
+          "margin": 88.79,
+          "votesRep": 421,
+          "votesDem": 25,
+          "votesTotal": 544
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +78.6",
+          "margin": 78.64,
+          "votesRep": 460,
+          "votesDem": 55,
+          "votesTotal": 533
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +74.0",
+          "margin": 74.03,
+          "votesRep": 516,
+          "votesDem": 77,
+          "votesTotal": 598
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +73.4",
+          "margin": 73.41,
+          "votesRep": 463,
+          "votesDem": 71,
+          "votesTotal": 546
+        }
+      }
+    },
+    {
+      "name": "Yellowstone",
+      "regionAttr": "Yellowstone30",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#FF5865",
+          "label": "McCain +6.5",
+          "margin": 6.49,
+          "votesRep": 36483,
+          "votesDem": 32038,
+          "votesTotal": 70416
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +21.2",
+          "margin": 21.21,
+          "votesRep": 40421,
+          "votesDem": 26275,
+          "votesTotal": 68561
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +29.4",
+          "margin": 29.37,
+          "votesRep": 38675,
+          "votesDem": 21117,
+          "votesTotal": 64675
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +24.7",
+          "margin": 24.67,
+          "votesRep": 50772,
+          "votesDem": 30679,
+          "votesTotal": 83821
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +28.0",
+          "margin": 27.99,
+          "votesRep": 50460,
+          "votesDem": 28392,
+          "votesTotal": 81391
+        }
+      }
+    }
+  ]
+}

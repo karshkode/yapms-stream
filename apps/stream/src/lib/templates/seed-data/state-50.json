@@ -1,0 +1,664 @@
+{
+  "stateFips": "50",
+  "stateName": "Vermont",
+  "counties": [
+    {
+      "name": "Addison",
+      "regionAttr": "Addison50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +39.9",
+          "margin": -39.93,
+          "votesRep": 5667,
+          "votesDem": 13202,
+          "votesTotal": 19238
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +40.4",
+          "margin": -40.43,
+          "votesRep": 5214,
+          "votesDem": 12290,
+          "votesTotal": 17843
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +35.8",
+          "margin": -35.85,
+          "votesRep": 5297,
+          "votesDem": 11217,
+          "votesTotal": 17592
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +40.8",
+          "margin": -40.81,
+          "votesRep": 6292,
+          "votesDem": 14967,
+          "votesTotal": 22022
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +37.0",
+          "margin": -37.01,
+          "votesRep": 6841,
+          "votesDem": 14879,
+          "votesTotal": 22396
+        }
+      }
+    },
+    {
+      "name": "Bennington",
+      "regionAttr": "Bennington50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +34.3",
+          "margin": -34.26,
+          "votesRep": 6133,
+          "votesDem": 12524,
+          "votesTotal": 19129
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +33.9",
+          "margin": -33.89,
+          "votesRep": 5687,
+          "votesDem": 11517,
+          "votesTotal": 17512
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +23.4",
+          "margin": -23.37,
+          "votesRep": 5925,
+          "votesDem": 9539,
+          "votesTotal": 16345
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +28.2",
+          "margin": -28.21,
+          "votesRep": 7114,
+          "votesDem": 12705,
+          "votesTotal": 20462
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +23.1",
+          "margin": -23.12,
+          "votesRep": 7697,
+          "votesDem": 12326,
+          "votesTotal": 20552
+        }
+      }
+    },
+    {
+      "name": "Caledonia",
+      "regionAttr": "Caledonia50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +23.9",
+          "margin": -23.85,
+          "votesRep": 5472,
+          "votesDem": 8900,
+          "votesTotal": 14728
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +23.4",
+          "margin": -23.37,
+          "votesRep": 5088,
+          "votesDem": 8192,
+          "votesTotal": 13545
+        },
+        "2016": {
+          "color": "#577CCC",
+          "label": "Clinton +7.6",
+          "margin": -7.61,
+          "votesRep": 5533,
+          "votesDem": 6445,
+          "votesTotal": 12966
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +15.8",
+          "margin": -15.81,
+          "votesRep": 6551,
+          "votesDem": 9011,
+          "votesTotal": 16169
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +12.9",
+          "margin": -12.89,
+          "votesRep": 6927,
+          "votesDem": 8977,
+          "votesTotal": 16482
+        }
+      }
+    },
+    {
+      "name": "Chittenden",
+      "regionAttr": "Chittenden50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +45.7",
+          "margin": -45.66,
+          "votesRep": 22237,
+          "votesDem": 59611,
+          "votesTotal": 83440
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +42.6",
+          "margin": -42.63,
+          "votesRep": 21567,
+          "votesDem": 53615,
+          "votesTotal": 76531
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +49.7",
+          "margin": -49.7,
+          "votesRep": 18298,
+          "votesDem": 54463,
+          "votesTotal": 77263
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +56.2",
+          "margin": -56.2,
+          "votesRep": 21017,
+          "votesDem": 74961,
+          "votesTotal": 98915
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +55.3",
+          "margin": -55.26,
+          "votesRep": 20937,
+          "votesDem": 72656,
+          "votesTotal": 96405
+        }
+      }
+    },
+    {
+      "name": "Essex",
+      "regionAttr": "Essex50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +14.9",
+          "margin": -14.88,
+          "votesRep": 1284,
+          "votesDem": 1733,
+          "votesTotal": 3101
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +13.7",
+          "margin": -13.66,
+          "votesRep": 1169,
+          "votesDem": 1539,
+          "votesTotal": 2769
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +19.3",
+          "margin": 19.29,
+          "votesRep": 1506,
+          "votesDem": 1019,
+          "votesTotal": 2706
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +11.6",
+          "margin": 11.58,
+          "votesRep": 1773,
+          "votesDem": 1405,
+          "votesTotal": 3288
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +16.9",
+          "margin": 16.88,
+          "votesRep": 1890,
+          "votesDem": 1344,
+          "votesTotal": 3410
+        }
+      }
+    },
+    {
+      "name": "Franklin",
+      "regionAttr": "Franklin50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +25.3",
+          "margin": -25.32,
+          "votesRep": 7853,
+          "votesDem": 13179,
+          "votesTotal": 21460
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +23.9",
+          "margin": -23.9,
+          "votesRep": 7405,
+          "votesDem": 12057,
+          "votesTotal": 19755
+        },
+        "2016": {
+          "color": "#8AAFFF",
+          "label": "Clinton +3.3",
+          "margin": -3.31,
+          "votesRep": 8752,
+          "votesDem": 9351,
+          "votesTotal": 19373
+        },
+        "2020": {
+          "color": "#577CCC",
+          "label": "Biden +9.4",
+          "margin": -9.39,
+          "votesRep": 11274,
+          "votesDem": 13611,
+          "votesTotal": 25830
+        },
+        "2024": {
+          "color": "#8AAFFF",
+          "label": "Harris +3.1",
+          "margin": -3.07,
+          "votesRep": 12490,
+          "votesDem": 13280,
+          "votesTotal": 26552
+        }
+      }
+    },
+    {
+      "name": "Grand Isle",
+      "regionAttr": "Grand Isle50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +28.8",
+          "margin": -28.78,
+          "votesRep": 1490,
+          "votesDem": 2694,
+          "votesTotal": 4269
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +26.5",
+          "margin": -26.49,
+          "votesRep": 1471,
+          "votesDem": 2531,
+          "votesTotal": 4064
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +17.0",
+          "margin": -16.95,
+          "votesRep": 1487,
+          "votesDem": 2094,
+          "votesTotal": 3778
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +23.2",
+          "margin": -23.22,
+          "votesRep": 1810,
+          "votesDem": 2905,
+          "votesTotal": 4851
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +21.7",
+          "margin": -21.66,
+          "votesRep": 1893,
+          "votesDem": 2940,
+          "votesTotal": 4967
+        }
+      }
+    },
+    {
+      "name": "Lamoille",
+      "regionAttr": "Lamoille50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +43.4",
+          "margin": -43.44,
+          "votesRep": 3515,
+          "votesDem": 8914,
+          "votesTotal": 12668
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +42.8",
+          "margin": -42.81,
+          "votesRep": 3352,
+          "votesDem": 8371,
+          "votesTotal": 11924
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +34.0",
+          "margin": -33.96,
+          "votesRep": 3570,
+          "votesDem": 7241,
+          "votesTotal": 11641
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +42.2",
+          "margin": -42.19,
+          "votesRep": 4163,
+          "votesDem": 10240,
+          "votesTotal": 14915
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +37.0",
+          "margin": -36.96,
+          "votesRep": 4505,
+          "votesDem": 9788,
+          "votesTotal": 14757
+        }
+      }
+    },
+    {
+      "name": "Orange",
+      "regionAttr": "Orange50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +32.0",
+          "margin": -32.01,
+          "votesRep": 5047,
+          "votesDem": 9799,
+          "votesTotal": 15179
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +32.8",
+          "margin": -32.84,
+          "votesRep": 4588,
+          "votesDem": 9075,
+          "votesTotal": 13964
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +20.2",
+          "margin": -20.17,
+          "votesRep": 4997,
+          "votesDem": 7522,
+          "votesTotal": 13464
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +25.0",
+          "margin": -24.97,
+          "votesRep": 6187,
+          "votesDem": 10304,
+          "votesTotal": 17122
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +20.9",
+          "margin": -20.93,
+          "votesRep": 6683,
+          "votesDem": 10220,
+          "votesTotal": 17536
+        }
+      }
+    },
+    {
+      "name": "Orleans",
+      "regionAttr": "Orleans50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +28.2",
+          "margin": -28.17,
+          "votesRep": 4482,
+          "votesDem": 7998,
+          "votesTotal": 12771
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +24.6",
+          "margin": -24.6,
+          "votesRep": 4306,
+          "votesDem": 7116,
+          "votesTotal": 11631
+        },
+        "2016": {
+          "color": "#6b7280",
+          "label": "Clinton +0.2",
+          "margin": -0.22,
+          "votesRep": 5158,
+          "votesDem": 5181,
+          "votesTotal": 10988
+        },
+        "2020": {
+          "color": "#8AAFFF",
+          "label": "Biden +4.6",
+          "margin": -4.65,
+          "votesRep": 6512,
+          "votesDem": 7147,
+          "votesTotal": 14096
+        },
+        "2024": {
+          "color": "#FF8B98",
+          "label": "Trump +1.6",
+          "margin": 1.59,
+          "votesRep": 7233,
+          "votesDem": 7006,
+          "votesTotal": 14655
+        }
+      }
+    },
+    {
+      "name": "Rutland",
+      "regionAttr": "Rutland50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +25.1",
+          "margin": -25.12,
+          "votesRep": 11584,
+          "votesDem": 19355,
+          "votesTotal": 31617
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +22.4",
+          "margin": -22.4,
+          "votesRep": 10834,
+          "votesDem": 17087,
+          "votesTotal": 28414
+        },
+        "2016": {
+          "color": "#8AAFFF",
+          "label": "Clinton +4.4",
+          "margin": -4.44,
+          "votesRep": 12471,
+          "votesDem": 13629,
+          "votesTotal": 27660
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +10.8",
+          "margin": -10.81,
+          "votesRep": 14672,
+          "votesDem": 18230,
+          "votesTotal": 33970
+        },
+        "2024": {
+          "color": "#577CCC",
+          "label": "Harris +5.4",
+          "margin": -5.43,
+          "votesRep": 15586,
+          "votesDem": 17375,
+          "votesTotal": 33883
+        }
+      }
+    },
+    {
+      "name": "Washington",
+      "regionAttr": "Washington50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +42.0",
+          "margin": -41.95,
+          "votesRep": 9129,
+          "votesDem": 22324,
+          "votesTotal": 32200
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +43.1",
+          "margin": -43.1,
+          "votesRep": 8092,
+          "votesDem": 20349,
+          "votesTotal": 29049
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +39.9",
+          "margin": -39.87,
+          "votesRep": 7993,
+          "votesDem": 18594,
+          "votesTotal": 28654
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +47.7",
+          "margin": -47.67,
+          "votesRep": 8928,
+          "votesDem": 25191,
+          "votesTotal": 35307
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +44.9",
+          "margin": -44.9,
+          "votesRep": 9327,
+          "votesDem": 24527,
+          "votesTotal": 35058
+        }
+      }
+    },
+    {
+      "name": "Windham",
+      "regionAttr": "Windham50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +49.1",
+          "margin": -49.14,
+          "votesRep": 5997,
+          "votesDem": 17585,
+          "votesTotal": 24081
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +50.1",
+          "margin": -50.11,
+          "votesRep": 5344,
+          "votesDem": 16080,
+          "votesTotal": 21805
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +44.8",
+          "margin": -44.83,
+          "votesRep": 5462,
+          "votesDem": 14340,
+          "votesTotal": 21151
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +48.9",
+          "margin": -48.9,
+          "votesRep": 6440,
+          "votesDem": 18767,
+          "votesTotal": 26035
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +44.2",
+          "margin": -44.2,
+          "votesRep": 6928,
+          "votesDem": 17904,
+          "votesTotal": 25718
+        }
+      }
+    },
+    {
+      "name": "Windsor",
+      "regionAttr": "Windsor50",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +40.5",
+          "margin": -40.49,
+          "votesRep": 9084,
+          "votesDem": 21444,
+          "votesTotal": 31165
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +38.7",
+          "margin": -38.74,
+          "votesRep": 8583,
+          "votesDem": 19440,
+          "votesTotal": 28468
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +34.2",
+          "margin": -34.19,
+          "votesRep": 8604,
+          "votesDem": 17544,
+          "votesTotal": 27832
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +40.2",
+          "margin": -40.2,
+          "votesRep": 9971,
+          "votesDem": 23376,
+          "votesTotal": 34446
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +36.7",
+          "margin": -36.67,
+          "votesRep": 10458,
+          "votesDem": 22569,
+          "votesTotal": 34018
+        }
+      }
+    }
+  ]
+}

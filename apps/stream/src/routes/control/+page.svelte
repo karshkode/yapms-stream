@@ -1,0 +1,397 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import FormsDrawer from '$lib/components/stage/FormsDrawer.svelte';
+	import StagePanel from '$lib/components/stage/StagePanel.svelte';
+	import TopBar from '$lib/components/stage/TopBar.svelte';
+	import RacePicker from '$lib/components/picker/RacePicker.svelte';
+	import { civicApi } from '$lib/data/civicapi';
+	import { loadPersistedState, persistState } from '$lib/data/manual';
+	import { remapLiveRegionsToSeed } from '$lib/data/source';
+	import { applyTemplate } from '$lib/picker/applyTemplate';
+	import { findRegionAttrByName } from '$lib/picker/civicapiResolver';
+	import { pushRecent } from '$lib/picker/recent';
+	import type { RaceTemplate } from '$lib/race-profile';
+	import type { RecentRaceRef } from '$lib/stream-state';
+	import { streamStore } from '$lib/stream-store.svelte';
+	import { createBroadcastSync } from '$lib/sync/broadcast';
+	import { BROWSE_US_TEMPLATE } from '$lib/templates';
+
+	let overlayUrl = $state('');
+
+	// Apply the Browse US shell — the blank map / state-click navigator that
+	// the host lands on when no race is loaded. Called on first boot and when
+	// the host clicks the TopBar brand to "go home". Keeps Recent + Saved
+	// lists and the archival slider position intact so the host doesn't lose
+	// context. Stops any in-flight civicAPI polling so the landing map isn't
+	// clobbered by the previously-loaded race on the next tick.
+	function resetToBrowseHome() {
+		streamStore.state = applyTemplate(streamStore.state, BROWSE_US_TEMPLATE);
+		streamStore.state.dataSource = {
+			...streamStore.state.dataSource,
+			adapter: 'manual',
+			raceId: null,
+			running: false
+		};
+		streamStore.state.ui.selectedRegionAttr = null;
+		streamStore.state.ui.statesCardOpen = false;
+		// Brand-click is the universal "I'm starting fresh" gesture, so
+		// drop the back-to-state breadcrumb too. Without this the back
+		// button would reappear after the host went home → loaded a new
+		// (non-state-scoped) race, pointing to the previous state which
+		// is no longer the user's mental "home".
+		streamStore.state.ui.homeStateAbbr = null;
+	}
+
+	/**
+	 * Re-open the browse-us shell with the previously-drilled state
+	 * pre-selected. The StateRacesCard's `$effect` then refetches civicAPI
+	 * for that state, but with the bumped CACHE_TTL_MS (10 min for upcoming)
+	 * the previous probe responses are reused immediately — no spinner,
+	 * no network round-trip. Lets the host hop between races in the same
+	 * state at click-speed.
+	 */
+	function backToState() {
+		const abbr = streamStore.state.ui.homeStateAbbr;
+		if (!abbr) return;
+		openStateRacesFor(abbr);
+	}
+
+	/**
+	 * Shared core for "open the StateRacesCard for <abbr>". Used by:
+	 *  - `backToState` (TopBar back-button) — replays the exact state the
+	 *    host drilled into.
+	 *  - The Recent dropdown's States section — lets them hop to any
+	 *    previously-viewed state, not just the most recent drill source.
+	 *
+	 * Hop strategy: stamp the browse-us template, halt any in-flight
+	 * polling, then re-pin `selectedRegionAttr` AFTER the stamp (since
+	 * applyTemplate clears ui state). The cached civicAPI search results
+	 * (CACHE_TTL_MS = 10min) make the StateRacesCard re-render with no
+	 * loading spinner, so this whole transition feels instant.
+	 */
+	function openStateRacesFor(abbr: string) {
+		if (!abbr) return;
+		if (streamStore.state.ui.dirty) {
+			const ok = confirm(
+				'Unsaved edits on the current race will be lost. Continue?'
+			);
+			if (!ok) return;
+		}
+		streamStore.state = applyTemplate(streamStore.state, BROWSE_US_TEMPLATE);
+		streamStore.state.dataSource = {
+			...streamStore.state.dataSource,
+			adapter: 'manual',
+			raceId: null,
+			running: false
+		};
+		streamStore.state.ui.selectedRegionAttr = abbr.toLowerCase();
+		streamStore.state.ui.statesCardOpen = true;
+	}
+
+	/**
+	 * Re-apply a Recent race entry. Mirrors the apply pipeline in
+	 * RacePicker.svelte's `handleApply` so polling resumes against the
+	 * original civicAPI race id, the preselected county is re-zoomed, and
+	 * the entry's loadedAt timestamp gets bumped to the top of the queue.
+	 *
+	 * Worth duplicating (rather than extracting a shared helper) because
+	 * the picker version also handles the picker-modal close + dirty-
+	 * confirm copy that doesn't apply here. If a third caller appears
+	 * we can lift this into `picker/applyRecent.ts`.
+	 */
+	function applyRecentRace(ref: RecentRaceRef, template: RaceTemplate) {
+		if (streamStore.state.ui.dirty) {
+			const ok = confirm(
+				`Loading '${ref.label}' will replace the current race. Replace?`
+			);
+			if (!ok) return;
+		}
+		streamStore.state = applyTemplate(streamStore.state, template);
+
+		if (ref.preselectCountyName) {
+			const regionAttr = findRegionAttrByName(
+				streamStore.state.regions,
+				ref.preselectCountyName
+			);
+			if (regionAttr) streamStore.state.ui.selectedRegionAttr = regionAttr;
+		}
+
+		streamStore.state = {
+			...streamStore.state,
+			savedRaces: pushRecent(streamStore.state.savedRaces, {
+				templateId: template.id,
+				label: ref.label,
+				parameters: ref.parameters,
+				civicApiRaceId: ref.civicApiRaceId,
+				civicApiTitle: ref.civicApiTitle,
+				subtitle: ref.subtitle,
+				preselectCountyName: ref.preselectCountyName
+			})
+		};
+
+		if (ref.civicApiRaceId) {
+			streamStore.state.dataSource = {
+				...streamStore.state.dataSource,
+				adapter: 'civicapi',
+				raceId: ref.civicApiRaceId,
+				running: true
+			};
+		} else {
+			streamStore.state.dataSource = {
+				...streamStore.state.dataSource,
+				adapter: 'manual',
+				raceId: null,
+				running: false
+			};
+		}
+	}
+
+	/**
+	 * One-shot "refresh now" for the active civicAPI race. Bypasses the
+	 * regular poll cadence (so the host doesn't have to wait the full
+	 * `intervalMs` for the next tick) and the drilled-region pause (so
+	 * they can pull updated counts while still zoomed into a county).
+	 *
+	 * Mirrors the merge logic from the polling effect — same `Object.assign`
+	 * for the race header, same dirty-edit guard for candidates/regions,
+	 * same `remapLiveRegionsToSeed` to keep manual region overrides intact.
+	 * Stamps `lastPolledAt` on success so the TopBar's "Xs ago" hint
+	 * resets to "just now". Surfacing errors to `dataSource.lastError`
+	 * means the existing error pipeline (badge in the bottom-right of the
+	 * status bar) lights up just like a failed poll tick.
+	 */
+	async function refreshActiveRace(): Promise<void> {
+		const ds = streamStore.state.dataSource;
+		if (ds.adapter !== 'civicapi' || !ds.raceId) return;
+		try {
+			const patch = await civicApi.fetchRace(ds.raceId);
+			if (patch.race) {
+				Object.assign(streamStore.state.race, patch.race);
+			}
+			if (!streamStore.state.ui.dirty) {
+				if (patch.candidates && patch.candidates.length > 0) {
+					streamStore.state.candidates = patch.candidates;
+				}
+				if (patch.regions && patch.regions.length > 0) {
+					const remapped = remapLiveRegionsToSeed(
+						streamStore.state.regions,
+						patch.regions
+					);
+					const byAttr = new Map(
+						streamStore.state.regions.map((r) => [r.regionAttr, r])
+					);
+					for (const row of remapped) byAttr.set(row.regionAttr, row);
+					streamStore.state.regions = Array.from(byAttr.values());
+				}
+			}
+			streamStore.state.dataSource.lastPolledAt = Date.now();
+			if (streamStore.state.dataSource.lastError !== null) {
+				streamStore.state.dataSource.lastError = null;
+			}
+		} catch (err) {
+			streamStore.state.dataSource.lastError =
+				err instanceof Error ? err.message : String(err);
+		}
+	}
+
+	onMount(() => {
+		// Rehydrate from localStorage on boot so the host doesn't lose state
+		// across refreshes / accidental tab closes. If we come up with no
+		// profile (fresh install, cleared storage), land on the Browse US
+		// homepage so the host sees a clickable map instead of a blank stage.
+		const persisted = loadPersistedState();
+		if (persisted) streamStore.replace(persisted);
+		if (!streamStore.state.profile) {
+			resetToBrowseHome();
+		}
+
+		overlayUrl = `${location.origin}/overlay`;
+
+		// Every mutation re-publishes the whole state to /overlay + to
+		// localStorage. Cheap because the state payload is small.
+		const sync = createBroadcastSync('control');
+		const interval = setInterval(() => {
+			sync.publish(streamStore.state);
+			persistState(streamStore.state);
+		}, 250);
+
+		// Global keyboard shortcuts:
+		//   Cmd/Ctrl+K -> open race picker
+		//   e          -> toggle FormsDrawer (only when not typing in a field)
+		//   Esc        -> cascade: clear region selection, else close drawer,
+		//                 else close picker. Matches CNN remote-style "back out"
+		//                 ergonomics so a host can recover from any selected
+		//                 state with one key.
+		function onKey(e: KeyboardEvent) {
+			const target = e.target as HTMLElement | null;
+			const inEditable =
+				!!target &&
+				(target.tagName === 'INPUT' ||
+					target.tagName === 'TEXTAREA' ||
+					target.tagName === 'SELECT' ||
+					target.isContentEditable);
+
+			if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+				e.preventDefault();
+				streamStore.state.ui.pickerOpen = !streamStore.state.ui.pickerOpen;
+				return;
+			}
+
+			// Naked `e` toggles drawer, but only outside input fields so typing
+			// the letter 'e' in a candidate name doesn't yank the drawer open.
+			if (e.key === 'e' && !inEditable && !e.metaKey && !e.ctrlKey && !e.altKey) {
+				e.preventDefault();
+				streamStore.state.ui.drawerOpen = !streamStore.state.ui.drawerOpen;
+				return;
+			}
+
+			if (e.key === 'Escape') {
+				if (streamStore.state.ui.pickerOpen) {
+					// Picker owns its own Escape handler for query-clear; we only
+					// get here when it wasn't intercepted, so force-close.
+					streamStore.state.ui.pickerOpen = false;
+				} else if (streamStore.state.ui.selectedRegionAttr) {
+					streamStore.state.ui.selectedRegionAttr = null;
+				} else if (streamStore.state.ui.drawerOpen) {
+					streamStore.state.ui.drawerOpen = false;
+				}
+			}
+		}
+		window.addEventListener('keydown', onKey);
+
+		return () => {
+			clearInterval(interval);
+			sync.dispose();
+			window.removeEventListener('keydown', onKey);
+		};
+	});
+
+	// civicAPI live polling. Runs while dataSource.running is true with the
+	// civicapi adapter selected and a raceId set. Each tick fetches a patch and
+	// mutates StreamState (manual edits always win per source.ts).
+	//
+	// Critical implementation notes (preserved from pre-reorient version):
+	//   1. We *mutate* streamStore.state fields in place rather than assigning
+	//      a new `streamStore.state = applyPatch(...)`. Re-assigning the whole
+	//      state would re-run this effect on every poll tick (the effect reads
+	//      dataSource.*), cancel the in-flight generator, and start a new one —
+	//      an infinite "effect_update_depth_exceeded" loop that freezes the UI.
+	//   2. The subscription counter is a *plain* closure variable, not $state.
+	//      `++pollToken` on a $state would read and write the same signal inside
+	//      one effect, looping infinitely.
+	//   3. We skip writing `dataSource.lastError` when there's nothing to clear,
+	//      so a healthy poll doesn't re-trigger subscribers on every tick.
+	let pollToken = 0;
+	$effect(() => {
+		const ds = streamStore.state.dataSource;
+		if (!ds.running || ds.adapter !== 'civicapi' || !ds.raceId) return;
+		// Pause polling while the host is zoomed into a specific region. Each
+		// poll tick repaints the map and currently also re-runs the zoom
+		// effect, which can fight with the host's "I'm looking at Fort Bend
+		// right now" context (the map re-centers on the newly-reported region,
+		// or panzoom jitters). Resume automatically when the region is
+		// cleared (Esc, X button, or re-click). This mirrors CNN's touchscreen
+		// where the anchor manually drills in/out rather than being auto-
+		// refreshed mid-drilldown.
+		if (streamStore.state.ui.selectedRegionAttr) return;
+		const myToken = ++pollToken;
+		let stop = false;
+		const raceId = ds.raceId;
+		const intervalMs = ds.intervalMs;
+		(async () => {
+			try {
+				for await (const patch of civicApi.pollRace(raceId, intervalMs)) {
+					if (stop || pollToken !== myToken) break;
+					if (patch.race) {
+						Object.assign(streamStore.state.race, patch.race);
+					}
+					if (!streamStore.state.ui.dirty) {
+						// Empty `patch.candidates` / `patch.regions` means "civicAPI
+						// returned the race but with nothing populated yet" — common
+						// on pre-election races. Keep the template seed in that case
+						// instead of clobbering 67 counties with [].
+						if (patch.candidates && patch.candidates.length > 0) {
+							streamStore.state.candidates = patch.candidates;
+						}
+						if (patch.regions && patch.regions.length > 0) {
+							const remapped = remapLiveRegionsToSeed(
+								streamStore.state.regions,
+								patch.regions
+							);
+							const byAttr = new Map(
+								streamStore.state.regions.map((r) => [r.regionAttr, r])
+							);
+							for (const row of remapped) byAttr.set(row.regionAttr, row);
+							streamStore.state.regions = Array.from(byAttr.values());
+						}
+					}
+					streamStore.state.dataSource.lastPolledAt = Date.now();
+					if (streamStore.state.dataSource.lastError !== null) {
+						streamStore.state.dataSource.lastError = null;
+					}
+				}
+			} catch (err) {
+				streamStore.state.dataSource.lastError =
+					err instanceof Error ? err.message : String(err);
+			}
+		})();
+		return () => {
+			stop = true;
+		};
+	});
+</script>
+
+<svelte:head>
+	<title>YAPms Stream Control</title>
+</svelte:head>
+
+<div class="control-root">
+	<TopBar
+		streamState={streamStore.state}
+		{overlayUrl}
+		onToggleDrawer={() => (streamStore.state.ui.drawerOpen = !streamStore.state.ui.drawerOpen)}
+		onOpenPicker={() => (streamStore.state.ui.pickerOpen = true)}
+		onGoHome={() => {
+			if (streamStore.state.ui.dirty) {
+				const ok = confirm(
+					'Unsaved edits on the current race will be lost. Return to the home map?'
+				);
+				if (!ok) return;
+			}
+			resetToBrowseHome();
+		}}
+		onBackToState={backToState}
+		onPickRecentState={openStateRacesFor}
+		onPickRecentRace={applyRecentRace}
+		onRefreshRace={refreshActiveRace}
+	/>
+
+	<div class="stage-shell">
+		<StagePanel />
+	</div>
+
+	<FormsDrawer />
+
+	<RacePicker
+		open={streamStore.state.ui.pickerOpen}
+		onclose={() => (streamStore.state.ui.pickerOpen = false)}
+	/>
+</div>
+
+<style>
+	/* Full-viewport operator desk. `overflow: hidden` on html/body is set at the
+	   layout level; here we just claim the whole viewport with flex-column so
+	   the stage fills whatever's left between TopBar and FormsDrawer. */
+	.control-root {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		min-height: 0;
+		overflow: hidden;
+	}
+	.stage-shell {
+		flex: 1 1 auto;
+		min-height: 0;
+		display: flex;
+	}
+</style>

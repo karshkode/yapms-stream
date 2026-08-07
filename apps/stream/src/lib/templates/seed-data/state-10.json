@@ -1,0 +1,147 @@
+{
+  "stateFips": "10",
+  "stateName": "Delaware",
+  "counties": [
+    {
+      "name": "Kent",
+      "regionAttr": "Kent10",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#577CCC",
+          "label": "Obama +9.9",
+          "margin": -9.91,
+          "votesRep": 29827,
+          "votesDem": 36392,
+          "votesTotal": 66925
+        },
+        "2012": {
+          "color": "#577CCC",
+          "label": "Obama +5.0",
+          "margin": -5.01,
+          "votesRep": 32134,
+          "votesDem": 35525,
+          "votesTotal": 68669
+        },
+        "2016": {
+          "color": "#FF5865",
+          "label": "Trump +5.2",
+          "margin": 5.18,
+          "votesRep": 36989,
+          "votesDem": 33347,
+          "votesTotal": 74253
+        },
+        "2020": {
+          "color": "#8AAFFF",
+          "label": "Biden +4.1",
+          "margin": -4.14,
+          "votesRep": 41009,
+          "votesDem": 44552,
+          "votesTotal": 87025
+        },
+        "2024": {
+          "color": "#8AAFFF",
+          "label": "Harris +2.0",
+          "margin": -2.04,
+          "votesRep": 42458,
+          "votesDem": 44222,
+          "votesTotal": 88141
+        }
+      }
+    },
+    {
+      "name": "New Castle",
+      "regionAttr": "New Castle10",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#1C408C",
+          "label": "Obama +41.1",
+          "margin": -41.11,
+          "votesRep": 74608,
+          "votesDem": 178768,
+          "votesTotal": 256417
+        },
+        "2012": {
+          "color": "#1C408C",
+          "label": "Obama +34.6",
+          "margin": -34.57,
+          "votesRep": 81226,
+          "votesDem": 167051,
+          "votesTotal": 251960
+        },
+        "2016": {
+          "color": "#1C408C",
+          "label": "Clinton +31.2",
+          "margin": -31.16,
+          "votesRep": 85507,
+          "votesDem": 162905,
+          "votesTotal": 261468
+        },
+        "2020": {
+          "color": "#1C408C",
+          "label": "Biden +37.6",
+          "margin": -37.64,
+          "votesRep": 88364,
+          "votesDem": 195034,
+          "votesTotal": 287633
+        },
+        "2024": {
+          "color": "#1C408C",
+          "label": "Harris +33.1",
+          "margin": -33.08,
+          "votesRep": 90868,
+          "votesDem": 180700,
+          "votesTotal": 275917
+        }
+      }
+    },
+    {
+      "name": "Sussex",
+      "regionAttr": "Sussex10",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": {
+          "color": "#FF5865",
+          "label": "McCain +8.7",
+          "margin": 8.66,
+          "votesRep": 47939,
+          "votesDem": 40299,
+          "votesTotal": 89070
+        },
+        "2012": {
+          "color": "#BF1D29",
+          "label": "Romney +13.2",
+          "margin": 13.19,
+          "votesRep": 52116,
+          "votesDem": 39971,
+          "votesTotal": 93215
+        },
+        "2016": {
+          "color": "#BF1D29",
+          "label": "Trump +22.8",
+          "margin": 22.84,
+          "votesRep": 62607,
+          "votesDem": 39329,
+          "votesTotal": 105814
+        },
+        "2020": {
+          "color": "#BF1D29",
+          "label": "Trump +11.4",
+          "margin": 11.37,
+          "votesRep": 71230,
+          "votesDem": 56682,
+          "votesTotal": 129352
+        },
+        "2024": {
+          "color": "#BF1D29",
+          "label": "Trump +11.1",
+          "margin": 11.1,
+          "votesRep": 81025,
+          "votesDem": 64836,
+          "votesTotal": 147639
+        }
+      }
+    }
+  ]
+}

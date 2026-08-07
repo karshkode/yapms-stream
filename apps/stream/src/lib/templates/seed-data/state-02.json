@@ -1,0 +1,366 @@
+{
+  "stateFips": "02",
+  "stateName": "Alaska",
+  "counties": [
+    {
+      "name": "Aleutians East",
+      "regionAttr": "Aleutians East02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Aleutians West",
+      "regionAttr": "Aleutians West02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Anchorage",
+      "regionAttr": "Anchorage02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Bethel",
+      "regionAttr": "Bethel02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Bristol Bay",
+      "regionAttr": "Bristol Bay02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Chugach",
+      "regionAttr": "ALA2",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Copper River",
+      "regionAttr": "ALA1",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Denali",
+      "regionAttr": "Denali02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Dillingham",
+      "regionAttr": "Dillingham02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Fairbanks North Star",
+      "regionAttr": "Fairbanks North Star02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Haines",
+      "regionAttr": "Haines02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Hoonah-Angoon",
+      "regionAttr": "Hoonah-Angoon02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Juneau",
+      "regionAttr": "Juneau02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Kenai Peninsula",
+      "regionAttr": "Kenai Peninsula02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Ketchikan Gateway",
+      "regionAttr": "Ketchikan Gateway02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Kodiak Island",
+      "regionAttr": "Kodiak Island02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Kusilvak",
+      "regionAttr": "Kusilvak02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Lake and Peninsula",
+      "regionAttr": "Lake and Peninsula02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Matanuska-Susitna",
+      "regionAttr": "Matanuska-Susitna02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Nome",
+      "regionAttr": "Nome02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "North Slope",
+      "regionAttr": "North Slope02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Northwest Arctic",
+      "regionAttr": "Northwest Arctic02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Petersburg",
+      "regionAttr": "Petersburg02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Prince of Wales-Hyder",
+      "regionAttr": "Prince of Wales-Hyder02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Sitka",
+      "regionAttr": "Sitka02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Skagway",
+      "regionAttr": "Skagway02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Southeast Fairbanks",
+      "regionAttr": "Southeast Fairbanks02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Wrangell",
+      "regionAttr": "Wrangell02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Yakutat",
+      "regionAttr": "Yakutat02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    },
+    {
+      "name": "Yukon-Koyukuk",
+      "regionAttr": "Yukon-Koyukuk02",
+      "totalReg": 0,
+      "archivalByYear": {
+        "2008": null,
+        "2012": null,
+        "2016": null,
+        "2020": null,
+        "2024": null
+      }
+    }
+  ]
+}
