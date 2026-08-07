@@ -194,14 +194,4 @@
 		transform-origin: 0 0;
 		flex-shrink: 0;
 	}
-	/* The PiP frame is a hard 520px (set inline from PIP_W), which is wider
-	   than a phone viewport and would sit on top of both the map and the
-	   detail sheet. It's a host-desk convenience for checking the OBS feed,
-	   and the phone already has /overlay one tap away, so drop it entirely
-	   rather than scale it down to an unreadable thumbnail. */
-	@media (max-width: 640px) {
-		.pip {
-			display: none;
-		}
-	}
 </style>
