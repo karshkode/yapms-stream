@@ -65,6 +65,23 @@
 	// detached node and the new node without any listener. That was the
 	// "have to reload the page to click into districts" bug.
 	let handlerSvg: SVGElement | null = null;
+	// True while the phone layout is active. The stage parks the region detail
+	// card as a sheet across the bottom half at this width (see StagePanel's
+	// max-width:640px block), so the bottom half of the map is spoken for and
+	// the click-to-zoom below has to aim above it.
+	let phoneLayout = $state(false);
+	/** Fraction of the container the phone detail sheet can cover, mirroring
+	 *  `.detail-slot { max-height: 50% }` in StagePanel. */
+	const PHONE_SHEET_FRACTION = 0.5;
+
+	$effect(() => {
+		if (typeof window === 'undefined') return;
+		const mq = window.matchMedia('(max-width: 640px)');
+		const sync = () => (phoneLayout = mq.matches);
+		sync();
+		mq.addEventListener('change', sync);
+		return () => mq.removeEventListener('change', sync);
+	});
 
 	$effect(() => {
 		// Re-load the SVG when the profile changes (not on every color update).
@@ -294,14 +311,22 @@
 			if (identityRect.width === 0 || identityRect.height === 0) return;
 			if (containerRect.width === 0 || containerRect.height === 0) return;
 
-			// Fit the path to ~55% of the container. Clamped to [1, 12] —
+			// On a phone the detail sheet covers the bottom of the stage, so the
+			// map only really owns the band above it. Fitting and centring
+			// against the full container height there put the county the host
+			// just tapped straight behind the sheet.
+			const visibleHeight = phoneLayout
+				? containerRect.height * (1 - PHONE_SHEET_FRACTION)
+				: containerRect.height;
+
+			// Fit the path to ~55% of the visible area. Clamped to [1, 12] —
 			// tiny counties would otherwise blow up past raster fidelity;
 			// huge states (CA on the US map) shouldn't de-zoom below
 			// identity.
 			const padding = 0.55;
 			const fitScale = Math.min(
 				(containerRect.width * padding) / identityRect.width,
-				(containerRect.height * padding) / identityRect.height
+				(visibleHeight * padding) / identityRect.height
 			);
 			const targetScale = Math.min(12, Math.max(1, fitScale));
 
@@ -322,7 +347,7 @@
 				const postCx = postRect.left + postRect.width / 2;
 				const postCy = postRect.top + postRect.height / 2;
 				const containerCx = containerRect.left + containerRect.width / 2;
-				const containerCy = containerRect.top + containerRect.height / 2;
+				const containerCy = containerRect.top + visibleHeight / 2;
 				// `moveBy` adds its delta directly to transform.x/y — since
 				// panzoom's parent (the viewport div) has no CSS transform,
 				// client-pixel delta === scene-pixel delta.
@@ -485,11 +510,15 @@
 	}
 	@media (max-width: 640px) {
 		.controls {
-			/* Lifted clear of the detail sheet that occupies the bottom half
-			   of the stage on phones. */
+			/* Lifted clear of the detail sheet that occupies the bottom half of
+			   the stage on phones, and laid out along the row that starts under
+			   the tab strip — as a column these four buttons ran a third of the
+			   way down the map. RegionListPanel's collapsed handle takes the
+			   left end of the same row. */
 			bottom: auto;
-			top: 3rem;
+			top: 4.25rem;
 			right: 0.5rem;
+			flex-direction: row;
 		}
 		.controls button {
 			/* 1.75rem (28px) is well under a comfortable touch target, and

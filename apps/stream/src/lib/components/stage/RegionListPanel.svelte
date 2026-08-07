@@ -368,9 +368,11 @@
 			min-height: 2.25rem;
 		}
 		.handle {
-			/* Stays in the upper half, just under the tab strip. Anchoring it
-			   to the bottom would put it on top of the detail sheet. */
-			top: 3rem;
+			/* Stays in the upper half, sharing the row that starts below the tab
+			   strip with the map's zoom controls at the other end. Anchoring it
+			   to the bottom would put it on top of the detail sheet, and at
+			   3rem it tucked under the strip's bottom edge. */
+			top: 4.25rem;
 			left: 0.5rem;
 			min-height: 2.25rem;
 			padding-inline: 0.7rem;
