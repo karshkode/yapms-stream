@@ -219,6 +219,9 @@
 		padding: 0.375rem 0.5rem;
 		border-radius: 0.25rem;
 		min-width: 12rem;
+		/* min-width alone overflows a 390px screen once the row's buttons and
+		   padding are counted; cap it at the space actually available. */
+		max-width: 100%;
 	}
 	.row button {
 		padding: 0.375rem 0.625rem;
@@ -245,5 +248,35 @@
 		font-size: 0.75rem;
 		color: var(--color-warning);
 		margin: 0.5rem 0 0;
+	}
+	@media (max-width: 640px) {
+		.drawer {
+			/* The forms are the whole point of opening the drawer on a phone,
+			   and 60vh of a short viewport leaves almost nothing usable once
+			   the handle and tab strip are subtracted. */
+			max-height: 85vh;
+			max-height: 85dvh;
+		}
+		.drawer-body {
+			padding: 0.75rem;
+			/* Momentum scrolling inside the drawer rather than the page. */
+			-webkit-overflow-scrolling: touch;
+		}
+		.tab {
+			padding: 0.45rem 0.75rem;
+			font-size: 0.85rem;
+		}
+		.drawer-handle {
+			height: auto;
+			min-height: 2.75rem;
+		}
+		.collapse {
+			width: 2.25rem;
+			height: 2.25rem;
+		}
+		.row button,
+		.row .file {
+			min-height: 2.25rem;
+		}
 	}
 </style>

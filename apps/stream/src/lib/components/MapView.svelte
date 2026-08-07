@@ -417,6 +417,12 @@ let {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		/* panzoom handles drag-to-pan and pinch-to-zoom itself. Without this
+		   the browser claims the same gestures first for scrolling, overscroll
+		   glow and double-tap zoom, so a one-finger pan on the map either does
+		   nothing or bounces the page. Tap still synthesizes a click, so
+		   region selection is unaffected. */
+		touch-action: none;
 	}
 	/* Inline-SVG-from-{@html} defaults to 300x150 without explicit sizing; we
 	   force it to fill the flex item while preserving aspect so filtered states
@@ -469,5 +475,25 @@ let {
 		background: var(--color-primary, var(--color-secondary));
 		color: var(--color-primary-content, var(--color-base-content));
 		border-color: var(--color-primary, var(--color-secondary));
+	}
+	@media (max-width: 640px) {
+		.controls {
+			/* Lifted clear of the detail sheet that occupies the bottom half
+			   of the stage on phones. */
+			bottom: auto;
+			top: 3rem;
+			right: 0.5rem;
+		}
+		.controls button {
+			/* 1.75rem (28px) is well under a comfortable touch target, and
+			   these are the only way to zoom without a scroll wheel. */
+			width: 2.25rem;
+			height: 2.25rem;
+			font-size: 1rem;
+		}
+		.controls .cities-toggle {
+			width: auto;
+			padding: 0 0.6rem;
+		}
 	}
 </style>

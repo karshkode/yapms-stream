@@ -255,6 +255,19 @@
 	.statewide-card.collapsed {
 		min-width: 12rem;
 	}
+	/* See RegionDetailCard: the rem floors exceed a phone viewport, so the
+	   card fills the bottom sheet rather than overflowing it. */
+	@media (max-width: 640px) {
+		.statewide-card,
+		.statewide-card.collapsed {
+			min-width: 0;
+			max-width: none;
+			width: 100%;
+			border: none;
+			border-radius: 0;
+			padding: 0.75rem;
+		}
+	}
 	header {
 		display: flex;
 		justify-content: space-between;

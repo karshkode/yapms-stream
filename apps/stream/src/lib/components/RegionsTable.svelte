@@ -245,6 +245,33 @@
 		text-align: right;
 		font-variant-numeric: tabular-nums;
 	}
+	/* Phone layout. Five columns plus 0.75rem gutters and 1rem side padding
+	   don't fit, and the registration total is the least useful of them
+	   during live coverage, so it goes rather than letting the whole table
+	   scroll sideways. */
+	@media (max-width: 640px) {
+		.row {
+			grid-template-columns: 1.5fr 1fr auto auto;
+			gap: 0.4rem;
+			padding-inline: 0.6rem;
+			font-size: 0.8rem;
+		}
+		/* Registration totals are the least useful column during live
+		   coverage and the widest after the name, so dropping it buys the
+		   room the other four need. Hides the matching header cell too,
+		   which carries the same class. */
+		.col-reg {
+			display: none;
+		}
+		input[type='search'] {
+			width: 100%;
+			min-height: 2.25rem;
+		}
+		.bar {
+			flex-wrap: wrap;
+			padding-inline: 0.6rem;
+		}
+	}
 	.empty {
 		padding: 1rem;
 		text-align: center;

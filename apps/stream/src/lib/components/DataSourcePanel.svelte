@@ -37,7 +37,9 @@
 			Sidecar URL
 			<input type="text" bind:value={state.dataSource.sidecarUrl} />
 		</label>
-		<label class="toggle">
+		<!-- `run-row`, not `toggle`: daisyUI's `.toggle` switch component forces
+		     a 40x24 box that clipped the "Running" caption. -->
+		<label class="run-row">
 			<input type="checkbox" bind:checked={state.dataSource.running} />
 			Running
 		</label>
@@ -60,7 +62,8 @@
 	}
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		/* Collapses to one column on a phone instead of two cramped ones. */
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 		gap: 0.5rem;
 	}
 	.field {
@@ -70,7 +73,7 @@
 		font-size: 0.7rem;
 		color: rgb(from var(--color-base-content) r g b / 0.65);
 	}
-	.toggle {
+	.run-row {
 		display: flex;
 		gap: 0.375rem;
 		align-items: center;

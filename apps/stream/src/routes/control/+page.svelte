@@ -18,6 +18,24 @@
 
 	let overlayUrl = $state('');
 
+	// Phone viewports don't get the PiP preview: its frame is a hard 520px,
+	// wider than the screen, and the host can just open /overlay in another
+	// tab. Gating the mount (rather than hiding it in CSS) also stops the
+	// phone loading and rendering a second full copy of the SVG map.
+	//
+	// This lives here rather than in StagePanel because that component binds
+	// a local `state`, which makes svelte-check read every `$state(...)` in
+	// the file as a store subscription — the same reason TopBar/FormsDrawer
+	// take a `streamState` prop instead.
+	let pipTooNarrow = $state(false);
+	$effect(() => {
+		const mq = window.matchMedia('(max-width: 640px)');
+		const sync = () => (pipTooNarrow = mq.matches);
+		sync();
+		mq.addEventListener('change', sync);
+		return () => mq.removeEventListener('change', sync);
+	});
+
 	// Apply the Browse US shell — the blank map / state-click navigator that
 	// the host lands on when no race is loaded. Called on first boot and when
 	// the host clicks the TopBar brand to "go home". Keeps Recent + Saved
@@ -367,7 +385,7 @@
 	/>
 
 	<div class="stage-shell">
-		<StagePanel />
+		<StagePanel showPip={!pipTooNarrow} />
 	</div>
 
 	<FormsDrawer />
@@ -386,6 +404,11 @@
 		display: flex;
 		flex-direction: column;
 		height: 100vh;
+		/* Mobile browsers count the collapsible address bar in 100vh, so the
+		   drawer and stage bottom sit below the fold until the bar hides.
+		   dvh tracks the visible viewport; the vh above stays as the fallback
+		   for engines without dvh. */
+		height: 100dvh;
 		min-height: 0;
 		overflow: hidden;
 	}

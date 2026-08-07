@@ -62,8 +62,19 @@
 	function onPick(regionAttr: string) {
 		// Toggle: re-clicking the selected region dismisses, matching the
 		// map's click-to-deselect ergonomics.
-		streamStore.state.ui.selectedRegionAttr =
-			state.ui.selectedRegionAttr === regionAttr ? null : regionAttr;
+		const next = state.ui.selectedRegionAttr === regionAttr ? null : regionAttr;
+		streamStore.state.ui.selectedRegionAttr = next;
+
+		// On a phone this panel covers the whole stage (see the max-width:640px
+		// block below), so leaving it open would hide the very map zoom and
+		// detail sheet the pick just triggered. Collapse it so the result is
+		// visible; the handle re-opens it for the next lookup. Desktop keeps
+		// the panel open because there it sits beside the map, not over it.
+		if (next && typeof window !== 'undefined') {
+			if (window.matchMedia('(max-width: 640px)').matches) {
+				streamStore.state.ui.regionListOpen = false;
+			}
+		}
 	}
 
 	function toggleOpen() {
@@ -302,5 +313,40 @@
 	.handle-arrow {
 		font-size: 0.85rem;
 		line-height: 1;
+	}
+	/* Phone layout. A 14rem column beside the map doesn't fit next to
+	   anything at 390px, so the open panel becomes a full-stage picker:
+	   the host taps the handle, finds the region, taps it, and `onPick`
+	   collapses back to the map. Rows get taller for thumbs. */
+	@media (max-width: 640px) {
+		.panel {
+			top: 0.5rem;
+			left: 0.5rem;
+			right: 0.5rem;
+			bottom: 0.5rem;
+			width: auto;
+			/* Above the detail sheet (z-index 4) so the picker is unobstructed
+			   while it's open. */
+			z-index: 6;
+		}
+		.row {
+			padding-block: 0.5rem;
+			min-height: 2.5rem;
+		}
+		.search {
+			min-height: 2.25rem;
+		}
+		.collapse {
+			min-width: 2.25rem;
+			min-height: 2.25rem;
+		}
+		.handle {
+			/* Stays in the upper half, just under the tab strip. Anchoring it
+			   to the bottom would put it on top of the detail sheet. */
+			top: 3rem;
+			left: 0.5rem;
+			min-height: 2.25rem;
+			padding-inline: 0.7rem;
+		}
 	}
 </style>
