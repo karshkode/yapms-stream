@@ -91,6 +91,9 @@
 	// together), and the divider makes the long list scannable.
 	type Group = { date: string; label: string; entries: RaceListEntry[] };
 	let grouped = $derived.by<Group[]>(() => {
+		// Scratch bucket, rebuilt from `results` on every recompute and never read
+		// after this function returns, so it needs no reactivity of its own.
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity
 		const byDate = new Map<string, RaceListEntry[]>();
 		for (const r of results) {
 			const key = r.date || '';
@@ -113,6 +116,8 @@
 		const now = new Date();
 		const todayIso = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 		if (iso === todayIso) return 'Today';
+		// Local to this formatting call — nothing renders it directly.
+		// eslint-disable-next-line svelte/prefer-svelte-reactivity
 		const tomorrow = new Date();
 		tomorrow.setDate(tomorrow.getDate() + 1);
 		const tomorrowIso = `${tomorrow.getFullYear()}-${String(tomorrow.getMonth() + 1).padStart(2, '0')}-${String(tomorrow.getDate()).padStart(2, '0')}`;

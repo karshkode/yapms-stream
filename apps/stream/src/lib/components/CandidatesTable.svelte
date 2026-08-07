@@ -8,11 +8,14 @@
 	let { state }: Props = $props();
 
 	const sorted = $derived(
-		[...state.candidates]
-			.filter((c) => !c.hidden)
-			.sort((a, b) => b.votes - a.votes)
+		[...state.candidates].filter((c) => !c.hidden).sort((a, b) => b.votes - a.votes)
 	);
-	const total = $derived(Math.max(sorted.reduce((a, c) => a + c.votes, 0), 1));
+	const total = $derived(
+		Math.max(
+			sorted.reduce((a, c) => a + c.votes, 0),
+			1
+		)
+	);
 	// Winner is the leader if called; otherwise leave all rows un-filled.
 	const winner = $derived(sorted.find((c) => c.called) ?? null);
 
@@ -31,7 +34,7 @@
 
 <section class="race-card">
 	<ul class="list">
-		{#each visibleRows as c, idx (c.id)}
+		{#each visibleRows as c (c.id)}
 			{@const pct = (c.votes / total) * 100}
 			{@const isWinner = winner?.id === c.id}
 			<li

@@ -39,7 +39,18 @@ const config = [
 			}
 		},
 		rules: {
-			'svelte/no-navigation-without-resolve': 'off'
+			'svelte/no-navigation-without-resolve': 'off',
+			// The deferred data adapters (ballotpedia, ddhq) keep their real
+			// signatures with `_`-prefixed parameters so the shape is documented
+			// while the body still throws "not implemented".
+			'@typescript-eslint/no-unused-vars': [
+				'error',
+				{
+					argsIgnorePattern: '^_',
+					varsIgnorePattern: '^_',
+					caughtErrorsIgnorePattern: '^_'
+				}
+			]
 		}
 	},
 	{
@@ -64,6 +75,22 @@ const config = [
 					script: ['ts']
 				}
 			]
+		}
+	},
+	{
+		// One-time bake scripts (county seeds, historical margins). They run under
+		// Node rather than in the browser, so they need Node globals, and their
+		// `.ts` copies sit outside the SvelteKit tsconfig — the type-aware parser
+		// errors out on them rather than linting. Last in the array so it wins
+		// over the browser-globals blocks above.
+		files: ['scripts/**'],
+		languageOptions: {
+			globals: {
+				...globals.node
+			},
+			parserOptions: {
+				project: null
+			}
 		}
 	}
 ];

@@ -128,6 +128,9 @@
 				}
 				if (patch.regions && patch.regions.length > 0) {
 					const remapped = remapLiveRegionsToSeed(streamStore.state.regions, patch.regions);
+					// Merge scratch: discarded on the next line in favour of the array
+					// assigned to the reactive `regions`, so it needs no reactivity.
+					// eslint-disable-next-line svelte/prefer-svelte-reactivity
 					const byAttr = new Map(streamStore.state.regions.map((r) => [r.regionAttr, r]));
 					for (const row of remapped) byAttr.set(row.regionAttr, row);
 					streamStore.state.regions = Array.from(byAttr.values());
@@ -263,6 +266,8 @@
 						}
 						if (patch.regions && patch.regions.length > 0) {
 							const remapped = remapLiveRegionsToSeed(streamStore.state.regions, patch.regions);
+							// Same merge scratch as the manual refresh above.
+							// eslint-disable-next-line svelte/prefer-svelte-reactivity
 							const byAttr = new Map(streamStore.state.regions.map((r) => [r.regionAttr, r]));
 							for (const row of remapped) byAttr.set(row.regionAttr, row);
 							streamStore.state.regions = Array.from(byAttr.values());
