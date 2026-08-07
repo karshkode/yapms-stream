@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import BroadcastFrame from '$lib/components/broadcast/BroadcastFrame.svelte';
+	import FullscreenButton from '$lib/components/broadcast/FullscreenButton.svelte';
 	import StagePanel from '$lib/components/stage/StagePanel.svelte';
 	import { streamStore } from '$lib/stream-store.svelte';
 	import { createBroadcastSync } from '$lib/sync/broadcast';
@@ -63,6 +64,12 @@
 	{:else}
 		<p class="standby">Waiting for /control to load a race…</p>
 	{/if}
+
+	<!-- Outside the profile guard: a host setting up a second-monitor
+	     program-out wants to size the window before /control has picked a
+	     race. Hidden until a pointer or key says a human is here, so OBS's
+	     Browser Source never captures it. -->
+	<FullscreenButton belowBanner={streamStore.state.ui.broadcast.frame} />
 </div>
 
 <style>

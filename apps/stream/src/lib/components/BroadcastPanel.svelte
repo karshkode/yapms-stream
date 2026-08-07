@@ -177,6 +177,13 @@
 			<span class="status">{photoStatus}</span>
 		{/if}
 	</div>
+
+	<p class="hint">
+		Pointing OBS at the overlay URL needs no fullscreen — the Browser Source renders it offscreen at
+		its own canvas size. For a program-out display on a second monitor, open the overlay in a
+		browser and press <kbd>F</kbd>; the button only appears once you move the mouse, so it stays out
+		of the capture.
+	</p>
 </section>
 
 <section class="race-card p-4">
@@ -375,6 +382,17 @@
 		margin: 0 0 0.5rem;
 		font-size: 0.75rem;
 		color: rgb(from var(--color-base-content) r g b / 0.6);
+	}
+	.photo-actions + .hint {
+		margin: 0.625rem 0 0;
+	}
+	.hint kbd {
+		padding: 0.05rem 0.3rem;
+		background: var(--color-base-300);
+		border: 1px solid var(--color-secondary);
+		border-radius: 0.2rem;
+		font-family: ui-monospace, monospace;
+		font-size: 0.7rem;
 	}
 	.empty {
 		margin: 0;
