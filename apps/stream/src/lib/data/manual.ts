@@ -1,4 +1,4 @@
-import { StreamState } from '../stream-state';
+import { SavedRacesState, StreamState, UiState } from '../stream-state';
 import type { DataSource, DataSourceKind, StreamStatePatch } from './source';
 
 /**
@@ -47,15 +47,32 @@ export function loadPersistedState(): StreamState | null {
 		const parsed = JSON.parse(raw);
 		const result = StreamState.safeParse(parsed);
 		if (result.success) return result.data;
-		console.warn(
-			'Persisted state failed validation, falling back to defaults',
-			result.error.issues
-		);
-		return null;
+		console.warn('Persisted state failed validation, salvaging recents', result.error.issues);
+		return salvagePersistedState(parsed);
 	} catch (err) {
 		console.warn('Failed to parse persisted state', err);
 		return null;
 	}
+}
+
+/**
+ * A failed parse used to discard the whole blob, so one bad field in the loaded
+ * race also cost the host their recents, bookmarks and OBS setup. The race
+ * itself is cheap to get back — one click in the race search — but that
+ * navigation history isn't reproducible, so keep whichever of those two
+ * sub-objects still parses and let the rest fall back to defaults.
+ */
+function salvagePersistedState(parsed: unknown): StreamState | null {
+	if (typeof parsed !== 'object' || parsed === null) return null;
+	const blob = parsed as Record<string, unknown>;
+	const ui = UiState.safeParse(blob.ui);
+	const savedRaces = SavedRacesState.safeParse(blob.savedRaces);
+	if (!ui.success && !savedRaces.success) return null;
+
+	const fresh = StreamState.parse({});
+	if (ui.success) fresh.ui = ui.data;
+	if (savedRaces.success) fresh.savedRaces = savedRaces.data;
+	return fresh;
 }
 
 export function persistState(state: StreamState): void {

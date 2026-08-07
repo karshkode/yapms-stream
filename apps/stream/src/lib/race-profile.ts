@@ -65,7 +65,16 @@ export const RaceProfile = z.object({
 	geography: GeographyConfig.nullable(),
 	sections: SectionFlags,
 	subTabs: z.array(SubTab),
-	expectedCandidates: z.tuple([z.number().int().nonnegative(), z.number().int().positive()])
+	// The browse home profile ships [0, 0] because its map has no candidates at
+	// all, so the upper bound has to accept zero. Requiring a positive max here
+	// meant the profile the app boots into failed validation, and loadState
+	// dropped the entire persisted blob — recents, saved races and OBS setup with
+	// it — on every reload.
+	expectedCandidates: z
+		.tuple([z.number().int().nonnegative(), z.number().int().nonnegative()])
+		.refine(([min, max]) => max >= min, {
+			message: 'expectedCandidates upper bound must not be below the lower bound'
+		})
 });
 export type RaceProfile = z.infer<typeof RaceProfile>;
 
