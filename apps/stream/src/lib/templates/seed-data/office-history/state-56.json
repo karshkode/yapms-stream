@@ -1,0 +1,810 @@
+{
+  "stateFips": "56",
+  "stateName": "Wyoming",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "John Barrasso",
+      "candDem": "Scott Morrow",
+      "shortRep": "Barrasso",
+      "shortDem": "Morrow",
+      "partisan": true,
+      "margin": 51.38,
+      "votesRep": 198418,
+      "votesDem": 63727,
+      "votesTotal": 264162,
+      "regions": {
+        "Albany56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +11.4",
+          "margin": 11.39,
+          "votesRep": 9737,
+          "votesDem": 7745,
+          "votesTotal": 17596
+        },
+        "Big Horn56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +75.0",
+          "margin": 75,
+          "votesRep": 4922,
+          "votesDem": 703,
+          "votesTotal": 5664
+        },
+        "Campbell56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +78.7",
+          "margin": 78.73,
+          "votesRep": 15774,
+          "votesDem": 1877,
+          "votesTotal": 17788
+        },
+        "Carbon56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +61.1",
+          "margin": 61.05,
+          "votesRep": 5028,
+          "votesDem": 1216,
+          "votesTotal": 6284
+        },
+        "Converse56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +75.3",
+          "margin": 75.33,
+          "votesRep": 5699,
+          "votesDem": 802,
+          "votesTotal": 6553
+        },
+        "Crook56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +81.3",
+          "margin": 81.33,
+          "votesRep": 3817,
+          "votesDem": 393,
+          "votesTotal": 4244
+        },
+        "Fremont56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +42.4",
+          "margin": 42.42,
+          "votesRep": 11930,
+          "votesDem": 4823,
+          "votesTotal": 16870
+        },
+        "Goshen56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +66.7",
+          "margin": 66.73,
+          "votesRep": 5066,
+          "votesDem": 1011,
+          "votesTotal": 6103
+        },
+        "Hot Springs56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +66.1",
+          "margin": 66.15,
+          "votesRep": 2140,
+          "votesDem": 436,
+          "votesTotal": 2589
+        },
+        "Johnson56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +69.6",
+          "margin": 69.65,
+          "votesRep": 4063,
+          "votesDem": 727,
+          "votesTotal": 4828
+        },
+        "Laramie56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +38.7",
+          "margin": 38.74,
+          "votesRep": 29648,
+          "votesDem": 13092,
+          "votesTotal": 43111
+        },
+        "Lincoln56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +72.0",
+          "margin": 71.96,
+          "votesRep": 9077,
+          "votesDem": 1480,
+          "votesTotal": 10621
+        },
+        "Natrona56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +53.4",
+          "margin": 53.37,
+          "votesRep": 25240,
+          "votesDem": 7674,
+          "votesTotal": 33256
+        },
+        "Niobrara56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +80.2",
+          "margin": 80.18,
+          "votesRep": 1073,
+          "votesDem": 118,
+          "votesTotal": 1193
+        },
+        "Park56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +65.4",
+          "margin": 65.41,
+          "votesRep": 13343,
+          "votesDem": 2790,
+          "votesTotal": 16287
+        },
+        "Platte56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +68.0",
+          "margin": 68.02,
+          "votesRep": 3924,
+          "votesDem": 747,
+          "votesTotal": 4704
+        },
+        "Sheridan56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +57.1",
+          "margin": 57.07,
+          "votesRep": 12580,
+          "votesDem": 3438,
+          "votesTotal": 16154
+        },
+        "Sublette56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +67.4",
+          "margin": 67.45,
+          "votesRep": 4007,
+          "votesDem": 779,
+          "votesTotal": 4829
+        },
+        "Sweetwater56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +56.4",
+          "margin": 56.37,
+          "votesRep": 12724,
+          "votesDem": 3550,
+          "votesTotal": 16351
+        },
+        "Teton56": {
+          "color": "#1C408C",
+          "label": "Morrow +21.6",
+          "margin": -21.61,
+          "votesRep": 5083,
+          "votesDem": 7885,
+          "votesTotal": 13059
+        },
+        "Uinta56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +66.4",
+          "margin": 66.36,
+          "votesRep": 7310,
+          "votesDem": 1478,
+          "votesTotal": 8841
+        },
+        "Washakie56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +69.0",
+          "margin": 69.01,
+          "votesRep": 3207,
+          "votesDem": 588,
+          "votesTotal": 3821
+        },
+        "Weston56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +77.9",
+          "margin": 77.95,
+          "votesRep": 3026,
+          "votesDem": 375,
+          "votesTotal": 3416
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Mark Gordon",
+      "candDem": "Theresa Livingston",
+      "shortRep": "Gordon",
+      "shortDem": "Livingston",
+      "partisan": true,
+      "margin": 64.81,
+      "votesRep": 143696,
+      "votesDem": 30686,
+      "votesTotal": 194000,
+      "regions": {
+        "Albany56": {
+          "color": "#BF1D29",
+          "label": "Gordon +28.6",
+          "margin": 28.6,
+          "votesRep": 7462,
+          "votesDem": 4143,
+          "votesTotal": 12600
+        },
+        "Big Horn56": {
+          "color": "#BF1D29",
+          "label": "Gordon +84.1",
+          "margin": 84.09,
+          "votesRep": 3529,
+          "votesDem": 305,
+          "votesTotal": 4239
+        },
+        "Campbell56": {
+          "color": "#BF1D29",
+          "label": "Gordon +85.6",
+          "margin": 85.64,
+          "votesRep": 9787,
+          "votesDem": 757,
+          "votesTotal": 12262
+        },
+        "Carbon56": {
+          "color": "#BF1D29",
+          "label": "Gordon +72.0",
+          "margin": 72.05,
+          "votesRep": 3681,
+          "votesDem": 598,
+          "votesTotal": 4703
+        },
+        "Converse56": {
+          "color": "#BF1D29",
+          "label": "Gordon +82.9",
+          "margin": 82.9,
+          "votesRep": 3796,
+          "votesDem": 355,
+          "votesTotal": 4977
+        },
+        "Crook56": {
+          "color": "#BF1D29",
+          "label": "Gordon +85.3",
+          "margin": 85.27,
+          "votesRep": 2516,
+          "votesDem": 200,
+          "votesTotal": 3248
+        },
+        "Fremont56": {
+          "color": "#BF1D29",
+          "label": "Gordon +67.1",
+          "margin": 67.15,
+          "votesRep": 9866,
+          "votesDem": 1939,
+          "votesTotal": 13398
+        },
+        "Goshen56": {
+          "color": "#BF1D29",
+          "label": "Gordon +80.1",
+          "margin": 80.05,
+          "votesRep": 3972,
+          "votesDem": 440,
+          "votesTotal": 4813
+        },
+        "Hot Springs56": {
+          "color": "#BF1D29",
+          "label": "Gordon +75.0",
+          "margin": 74.99,
+          "votesRep": 1525,
+          "votesDem": 218,
+          "votesTotal": 2171
+        },
+        "Johnson56": {
+          "color": "#BF1D29",
+          "label": "Gordon +84.5",
+          "margin": 84.46,
+          "votesRep": 3182,
+          "votesDem": 268,
+          "votesTotal": 3865
+        },
+        "Laramie56": {
+          "color": "#BF1D29",
+          "label": "Gordon +58.6",
+          "margin": 58.57,
+          "votesRep": 22067,
+          "votesDem": 5765,
+          "votesTotal": 29911
+        },
+        "Lincoln56": {
+          "color": "#BF1D29",
+          "label": "Gordon +79.2",
+          "margin": 79.2,
+          "votesRep": 6021,
+          "votesDem": 699,
+          "votesTotal": 7482
+        },
+        "Natrona56": {
+          "color": "#BF1D29",
+          "label": "Gordon +67.9",
+          "margin": 67.85,
+          "votesRep": 17246,
+          "votesDem": 3303,
+          "votesTotal": 22491
+        },
+        "Niobrara56": {
+          "color": "#BF1D29",
+          "label": "Gordon +87.7",
+          "margin": 87.73,
+          "votesRep": 704,
+          "votesDem": 46,
+          "votesTotal": 1047
+        },
+        "Park56": {
+          "color": "#BF1D29",
+          "label": "Gordon +76.6",
+          "margin": 76.59,
+          "votesRep": 9700,
+          "votesDem": 1286,
+          "votesTotal": 12698
+        },
+        "Platte56": {
+          "color": "#BF1D29",
+          "label": "Gordon +75.3",
+          "margin": 75.29,
+          "votesRep": 2915,
+          "votesDem": 411,
+          "votesTotal": 3921
+        },
+        "Sheridan56": {
+          "color": "#BF1D29",
+          "label": "Gordon +70.5",
+          "margin": 70.49,
+          "votesRep": 9335,
+          "votesDem": 1616,
+          "votesTotal": 12191
+        },
+        "Sublette56": {
+          "color": "#BF1D29",
+          "label": "Gordon +79.0",
+          "margin": 78.95,
+          "votesRep": 2899,
+          "votesDem": 341,
+          "votesTotal": 3544
+        },
+        "Sweetwater56": {
+          "color": "#BF1D29",
+          "label": "Gordon +65.0",
+          "margin": 65.02,
+          "votesRep": 8827,
+          "votesDem": 1871,
+          "votesTotal": 11917
+        },
+        "Teton56": {
+          "color": "#6b7280",
+          "label": "Gordon +0.2",
+          "margin": 0.17,
+          "votesRep": 4943,
+          "votesDem": 4926,
+          "votesTotal": 10146
+        },
+        "Uinta56": {
+          "color": "#BF1D29",
+          "label": "Gordon +74.8",
+          "margin": 74.77,
+          "votesRep": 5224,
+          "votesDem": 754,
+          "votesTotal": 6596
+        },
+        "Washakie56": {
+          "color": "#BF1D29",
+          "label": "Gordon +80.5",
+          "margin": 80.46,
+          "votesRep": 2466,
+          "votesDem": 267,
+          "votesTotal": 3045
+        },
+        "Weston56": {
+          "color": "#BF1D29",
+          "label": "Gordon +83.9",
+          "margin": 83.9,
+          "votesRep": 2033,
+          "votesDem": 178,
+          "votesTotal": 2735
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Mark Gordon",
+      "candDem": "Mary Throne",
+      "shortRep": "Gordon",
+      "shortDem": "Throne",
+      "partisan": true,
+      "margin": 41.82,
+      "votesRep": 136412,
+      "votesDem": 55965,
+      "votesTotal": 203238,
+      "regions": {
+        "Albany56": {
+          "color": "#8AAFFF",
+          "label": "Throne +4.7",
+          "margin": -4.72,
+          "votesRep": 6494,
+          "votesDem": 7137,
+          "votesTotal": 14411
+        },
+        "Big Horn56": {
+          "color": "#BF1D29",
+          "label": "Gordon +69.6",
+          "margin": 69.59,
+          "votesRep": 3391,
+          "votesDem": 608,
+          "votesTotal": 4314
+        },
+        "Campbell56": {
+          "color": "#BF1D29",
+          "label": "Gordon +69.7",
+          "margin": 69.71,
+          "votesRep": 10398,
+          "votesDem": 1856,
+          "votesTotal": 13010
+        },
+        "Carbon56": {
+          "color": "#BF1D29",
+          "label": "Gordon +46.1",
+          "margin": 46.08,
+          "votesRep": 3560,
+          "votesDem": 1314,
+          "votesTotal": 5166
+        },
+        "Converse56": {
+          "color": "#BF1D29",
+          "label": "Gordon +67.3",
+          "margin": 67.29,
+          "votesRep": 3872,
+          "votesDem": 757,
+          "votesTotal": 4939
+        },
+        "Crook56": {
+          "color": "#BF1D29",
+          "label": "Gordon +75.6",
+          "margin": 75.59,
+          "votesRep": 2575,
+          "votesDem": 358,
+          "votesTotal": 3088
+        },
+        "Fremont56": {
+          "color": "#BF1D29",
+          "label": "Gordon +36.5",
+          "margin": 36.55,
+          "votesRep": 9251,
+          "votesDem": 4299,
+          "votesTotal": 14358
+        },
+        "Goshen56": {
+          "color": "#BF1D29",
+          "label": "Gordon +57.7",
+          "margin": 57.7,
+          "votesRep": 3568,
+          "votesDem": 957,
+          "votesTotal": 4805
+        },
+        "Hot Springs56": {
+          "color": "#BF1D29",
+          "label": "Gordon +58.3",
+          "margin": 58.31,
+          "votesRep": 1682,
+          "votesDem": 443,
+          "votesTotal": 2251
+        },
+        "Johnson56": {
+          "color": "#BF1D29",
+          "label": "Gordon +74.3",
+          "margin": 74.32,
+          "votesRep": 3245,
+          "votesDem": 478,
+          "votesTotal": 3881
+        },
+        "Laramie56": {
+          "color": "#BF1D29",
+          "label": "Gordon +28.3",
+          "margin": 28.34,
+          "votesRep": 20052,
+          "votesDem": 11196,
+          "votesTotal": 32702
+        },
+        "Lincoln56": {
+          "color": "#BF1D29",
+          "label": "Gordon +65.3",
+          "margin": 65.35,
+          "votesRep": 5511,
+          "votesDem": 1155,
+          "votesTotal": 7172
+        },
+        "Natrona56": {
+          "color": "#BF1D29",
+          "label": "Gordon +45.3",
+          "margin": 45.28,
+          "votesRep": 16866,
+          "votesDem": 6352,
+          "votesTotal": 24480
+        },
+        "Niobrara56": {
+          "color": "#BF1D29",
+          "label": "Gordon +71.4",
+          "margin": 71.43,
+          "votesRep": 918,
+          "votesDem": 153,
+          "votesTotal": 1160
+        },
+        "Park56": {
+          "color": "#BF1D29",
+          "label": "Gordon +58.9",
+          "margin": 58.94,
+          "votesRep": 8815,
+          "votesDem": 2277,
+          "votesTotal": 11809
+        },
+        "Platte56": {
+          "color": "#BF1D29",
+          "label": "Gordon +51.6",
+          "margin": 51.56,
+          "votesRep": 2644,
+          "votesDem": 845,
+          "votesTotal": 3776
+        },
+        "Sheridan56": {
+          "color": "#BF1D29",
+          "label": "Gordon +53.2",
+          "margin": 53.19,
+          "votesRep": 8727,
+          "votesDem": 2667,
+          "votesTotal": 11814
+        },
+        "Sublette56": {
+          "color": "#BF1D29",
+          "label": "Gordon +63.1",
+          "margin": 63.14,
+          "votesRep": 2664,
+          "votesDem": 602,
+          "votesTotal": 3402
+        },
+        "Sweetwater56": {
+          "color": "#BF1D29",
+          "label": "Gordon +38.1",
+          "margin": 38.05,
+          "votesRep": 8375,
+          "votesDem": 3758,
+          "votesTotal": 12933
+        },
+        "Teton56": {
+          "color": "#1C408C",
+          "label": "Throne +16.0",
+          "margin": -16.01,
+          "votesRep": 4736,
+          "votesDem": 6541,
+          "votesTotal": 11688
+        },
+        "Uinta56": {
+          "color": "#BF1D29",
+          "label": "Gordon +55.6",
+          "margin": 55.64,
+          "votesRep": 4547,
+          "votesDem": 1296,
+          "votesTotal": 6263
+        },
+        "Washakie56": {
+          "color": "#BF1D29",
+          "label": "Gordon +61.7",
+          "margin": 61.67,
+          "votesRep": 2396,
+          "votesDem": 568,
+          "votesTotal": 3112
+        },
+        "Weston56": {
+          "color": "#BF1D29",
+          "label": "Gordon +71.9",
+          "margin": 71.86,
+          "votesRep": 2125,
+          "votesDem": 348,
+          "votesTotal": 2704
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "John Barrasso",
+      "candDem": "Gary Trauner",
+      "shortRep": "Barrasso",
+      "shortDem": "Trauner",
+      "partisan": true,
+      "margin": 37.98,
+      "votesRep": 136210,
+      "votesDem": 61227,
+      "votesTotal": 203420,
+      "regions": {
+        "Albany56": {
+          "color": "#577CCC",
+          "label": "Trauner +8.7",
+          "margin": -8.68,
+          "votesRep": 6366,
+          "votesDem": 7576,
+          "votesTotal": 14419
+        },
+        "Big Horn56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +69.6",
+          "margin": 69.59,
+          "votesRep": 3564,
+          "votesDem": 639,
+          "votesTotal": 4317
+        },
+        "Campbell56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +74.3",
+          "margin": 74.26,
+          "votesRep": 11020,
+          "votesDem": 1628,
+          "votesTotal": 13051
+        },
+        "Carbon56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +46.0",
+          "margin": 45.99,
+          "votesRep": 3673,
+          "votesDem": 1359,
+          "votesTotal": 5194
+        },
+        "Converse56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +65.2",
+          "margin": 65.2,
+          "votesRep": 3959,
+          "votesDem": 834,
+          "votesTotal": 4957
+        },
+        "Crook56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +77.5",
+          "margin": 77.5,
+          "votesRep": 2643,
+          "votesDem": 335,
+          "votesTotal": 3089
+        },
+        "Fremont56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +32.4",
+          "margin": 32.35,
+          "votesRep": 9262,
+          "votesDem": 4734,
+          "votesTotal": 14395
+        },
+        "Goshen56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +56.4",
+          "margin": 56.39,
+          "votesRep": 3658,
+          "votesDem": 1020,
+          "votesTotal": 4798
+        },
+        "Hot Springs56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +58.6",
+          "margin": 58.58,
+          "votesRep": 1742,
+          "votesDem": 455,
+          "votesTotal": 2258
+        },
+        "Johnson56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +62.1",
+          "margin": 62.07,
+          "votesRep": 3085,
+          "votesDem": 722,
+          "votesTotal": 3889
+        },
+        "Laramie56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +23.1",
+          "margin": 23.09,
+          "votesRep": 19473,
+          "votesDem": 12167,
+          "votesTotal": 32608
+        },
+        "Lincoln56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +67.1",
+          "margin": 67.08,
+          "votesRep": 5846,
+          "votesDem": 1152,
+          "votesTotal": 7197
+        },
+        "Natrona56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +38.4",
+          "margin": 38.38,
+          "votesRep": 16359,
+          "votesDem": 7285,
+          "votesTotal": 24464
+        },
+        "Niobrara56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +74.4",
+          "margin": 74.38,
+          "votesRep": 980,
+          "votesDem": 144,
+          "votesTotal": 1159
+        },
+        "Park56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +55.1",
+          "margin": 55.08,
+          "votesRep": 8938,
+          "votesDem": 2589,
+          "votesTotal": 11827
+        },
+        "Platte56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +56.1",
+          "margin": 56.12,
+          "votesRep": 2850,
+          "votesDem": 801,
+          "votesTotal": 3785
+        },
+        "Sheridan56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +44.4",
+          "margin": 44.37,
+          "votesRep": 8318,
+          "votesDem": 3205,
+          "votesTotal": 11805
+        },
+        "Sublette56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +59.8",
+          "margin": 59.77,
+          "votesRep": 2653,
+          "votesDem": 668,
+          "votesTotal": 3407
+        },
+        "Sweetwater56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +37.0",
+          "margin": 37.01,
+          "votesRep": 8577,
+          "votesDem": 3943,
+          "votesTotal": 12973
+        },
+        "Teton56": {
+          "color": "#1C408C",
+          "label": "Trauner +33.5",
+          "margin": -33.48,
+          "votesRep": 3833,
+          "votesDem": 7691,
+          "votesTotal": 11750
+        },
+        "Uinta56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +54.9",
+          "margin": 54.93,
+          "votesRep": 4713,
+          "votesDem": 1371,
+          "votesTotal": 6280
+        },
+        "Washakie56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +60.9",
+          "margin": 60.94,
+          "votesRep": 2423,
+          "votesDem": 588,
+          "votesTotal": 3110
+        },
+        "Weston56": {
+          "color": "#BF1D29",
+          "label": "Barrasso +75.3",
+          "margin": 75.27,
+          "votesRep": 2275,
+          "votesDem": 321,
+          "votesTotal": 2688
+        }
+      }
+    }
+  ]
+}

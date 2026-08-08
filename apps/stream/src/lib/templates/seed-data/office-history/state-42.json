@@ -1,0 +1,3324 @@
+{
+  "stateFips": "42",
+  "stateName": "Pennsylvania",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Dave McCormick",
+      "candDem": "Robert Casey JR",
+      "shortRep": "McCormick",
+      "shortDem": "Casey",
+      "partisan": true,
+      "margin": 0.22,
+      "votesRep": 3399295,
+      "votesDem": 3384180,
+      "votesTotal": 6963137,
+      "regions": {
+        "Adams42": {
+          "color": "#BF1D29",
+          "label": "McCormick +31.7",
+          "margin": 31.75,
+          "votesRep": 38505,
+          "votesDem": 19947,
+          "votesTotal": 60276
+        },
+        "Allegheny42": {
+          "color": "#1C408C",
+          "label": "Casey +21.8",
+          "margin": -21.83,
+          "votesRep": 272861,
+          "votesDem": 425280,
+          "votesTotal": 715922
+        },
+        "Armstrong42": {
+          "color": "#BF1D29",
+          "label": "McCormick +48.9",
+          "margin": 48.95,
+          "votesRep": 26653,
+          "votesDem": 9136,
+          "votesTotal": 36944
+        },
+        "Beaver42": {
+          "color": "#BF1D29",
+          "label": "McCormick +16.4",
+          "margin": 16.35,
+          "votesRep": 53593,
+          "votesDem": 38529,
+          "votesTotal": 94757
+        },
+        "Bedford42": {
+          "color": "#BF1D29",
+          "label": "McCormick +66.3",
+          "margin": 66.35,
+          "votesRep": 22855,
+          "votesDem": 4624,
+          "votesTotal": 28043
+        },
+        "Berks42": {
+          "color": "#FF5865",
+          "label": "McCormick +9.6",
+          "margin": 9.64,
+          "votesRep": 108058,
+          "votesDem": 89063,
+          "votesTotal": 203642
+        },
+        "Blair42": {
+          "color": "#BF1D29",
+          "label": "McCormick +41.6",
+          "margin": 41.62,
+          "votesRep": 44741,
+          "votesDem": 18445,
+          "votesTotal": 64723
+        },
+        "Bradford42": {
+          "color": "#BF1D29",
+          "label": "McCormick +46.8",
+          "margin": 46.81,
+          "votesRep": 22099,
+          "votesDem": 8007,
+          "votesTotal": 30910
+        },
+        "Bucks42": {
+          "color": "#949BB3",
+          "label": "Casey +0.6",
+          "margin": -0.57,
+          "votesRep": 194203,
+          "votesDem": 196444,
+          "votesTotal": 399833
+        },
+        "Butler42": {
+          "color": "#BF1D29",
+          "label": "McCormick +30.7",
+          "margin": 30.73,
+          "votesRep": 77328,
+          "votesDem": 40973,
+          "votesTotal": 120967
+        },
+        "Cambria42": {
+          "color": "#BF1D29",
+          "label": "McCormick +34.0",
+          "margin": 34.01,
+          "votesRep": 46482,
+          "votesDem": 22887,
+          "votesTotal": 71004
+        },
+        "Cameron42": {
+          "color": "#BF1D29",
+          "label": "McCormick +45.7",
+          "margin": 45.74,
+          "votesRep": 1558,
+          "votesDem": 580,
+          "votesTotal": 2214
+        },
+        "Carbon42": {
+          "color": "#BF1D29",
+          "label": "McCormick +32.3",
+          "margin": 32.29,
+          "votesRep": 22603,
+          "votesDem": 11570,
+          "votesTotal": 35071
+        },
+        "Centre42": {
+          "color": "#8AAFFF",
+          "label": "Casey +3.0",
+          "margin": -2.97,
+          "votesRep": 38054,
+          "votesDem": 40382,
+          "votesTotal": 80415
+        },
+        "Chester42": {
+          "color": "#1C408C",
+          "label": "Casey +12.8",
+          "margin": -12.79,
+          "votesRep": 138270,
+          "votesDem": 178833,
+          "votesTotal": 324655
+        },
+        "Clarion42": {
+          "color": "#BF1D29",
+          "label": "McCormick +50.3",
+          "margin": 50.34,
+          "votesRep": 14180,
+          "votesDem": 4684,
+          "votesTotal": 19679
+        },
+        "Clearfield42": {
+          "color": "#BF1D29",
+          "label": "McCormick +48.4",
+          "margin": 48.38,
+          "votesRep": 29063,
+          "votesDem": 10111,
+          "votesTotal": 40212
+        },
+        "Clinton42": {
+          "color": "#BF1D29",
+          "label": "McCormick +36.3",
+          "margin": 36.32,
+          "votesRep": 12250,
+          "votesDem": 5722,
+          "votesTotal": 18448
+        },
+        "Columbia42": {
+          "color": "#BF1D29",
+          "label": "McCormick +30.5",
+          "margin": 30.54,
+          "votesRep": 20600,
+          "votesDem": 10962,
+          "votesTotal": 32375
+        },
+        "Crawford42": {
+          "color": "#BF1D29",
+          "label": "McCormick +35.7",
+          "margin": 35.73,
+          "votesRep": 28234,
+          "votesDem": 13370,
+          "votesTotal": 42714
+        },
+        "Cumberland42": {
+          "color": "#FF5865",
+          "label": "McCormick +9.4",
+          "margin": 9.42,
+          "votesRep": 78178,
+          "votesDem": 64713,
+          "votesTotal": 147403
+        },
+        "Dauphin42": {
+          "color": "#577CCC",
+          "label": "Casey +7.0",
+          "margin": -7,
+          "votesRep": 66949,
+          "votesDem": 77022,
+          "votesTotal": 148956
+        },
+        "Delaware42": {
+          "color": "#1C408C",
+          "label": "Casey +23.8",
+          "margin": -23.81,
+          "votesRep": 121482,
+          "votesDem": 197424,
+          "votesTotal": 326457
+        },
+        "Elk42": {
+          "color": "#BF1D29",
+          "label": "McCormick +43.7",
+          "margin": 43.7,
+          "votesRep": 11931,
+          "votesDem": 4674,
+          "votesTotal": 17089
+        },
+        "Erie42": {
+          "color": "#8AAFFF",
+          "label": "Casey +1.7",
+          "margin": -1.7,
+          "votesRep": 65603,
+          "votesDem": 67868,
+          "votesTotal": 136842
+        },
+        "Fayette42": {
+          "color": "#BF1D29",
+          "label": "McCormick +32.6",
+          "margin": 32.58,
+          "votesRep": 40804,
+          "votesDem": 20752,
+          "votesTotal": 62945
+        },
+        "Forest42": {
+          "color": "#BF1D29",
+          "label": "McCormick +41.9",
+          "margin": 41.86,
+          "votesRep": 1808,
+          "votesDem": 741,
+          "votesTotal": 2649
+        },
+        "Franklin42": {
+          "color": "#BF1D29",
+          "label": "McCormick +41.6",
+          "margin": 41.61,
+          "votesRep": 57217,
+          "votesDem": 23591,
+          "votesTotal": 83121
+        },
+        "Fulton42": {
+          "color": "#BF1D29",
+          "label": "McCormick +70.0",
+          "margin": 69.96,
+          "votesRep": 6773,
+          "votesDem": 1197,
+          "votesTotal": 8116
+        },
+        "Greene42": {
+          "color": "#BF1D29",
+          "label": "McCormick +39.3",
+          "margin": 39.29,
+          "votesRep": 11643,
+          "votesDem": 5075,
+          "votesTotal": 17145
+        },
+        "Huntingdon42": {
+          "color": "#BF1D29",
+          "label": "McCormick +50.4",
+          "margin": 50.36,
+          "votesRep": 16910,
+          "votesDem": 5582,
+          "votesTotal": 23028
+        },
+        "Indiana42": {
+          "color": "#BF1D29",
+          "label": "McCormick +35.8",
+          "margin": 35.8,
+          "votesRep": 27881,
+          "votesDem": 13181,
+          "votesTotal": 42068
+        },
+        "Jefferson42": {
+          "color": "#BF1D29",
+          "label": "McCormick +56.9",
+          "margin": 56.94,
+          "votesRep": 17618,
+          "votesDem": 4834,
+          "votesTotal": 23078
+        },
+        "Juniata42": {
+          "color": "#BF1D29",
+          "label": "McCormick +57.7",
+          "margin": 57.75,
+          "votesRep": 9251,
+          "votesDem": 2478,
+          "votesTotal": 12042
+        },
+        "Lackawanna42": {
+          "color": "#577CCC",
+          "label": "Casey +8.5",
+          "margin": -8.55,
+          "votesRep": 51944,
+          "votesDem": 61653,
+          "votesTotal": 115886
+        },
+        "Lancaster42": {
+          "color": "#BF1D29",
+          "label": "McCormick +15.5",
+          "margin": 15.51,
+          "votesRep": 162105,
+          "votesDem": 118580,
+          "votesTotal": 288352
+        },
+        "Lawrence42": {
+          "color": "#BF1D29",
+          "label": "McCormick +29.0",
+          "margin": 29.02,
+          "votesRep": 29405,
+          "votesDem": 16176,
+          "votesTotal": 46792
+        },
+        "Lebanon42": {
+          "color": "#BF1D29",
+          "label": "McCormick +30.2",
+          "margin": 30.21,
+          "votesRep": 46172,
+          "votesDem": 24745,
+          "votesTotal": 73139
+        },
+        "Lehigh42": {
+          "color": "#8AAFFF",
+          "label": "Casey +4.2",
+          "margin": -4.25,
+          "votesRep": 87147,
+          "votesDem": 94875,
+          "votesTotal": 187584
+        },
+        "Luzerne42": {
+          "color": "#BF1D29",
+          "label": "McCormick +14.9",
+          "margin": 14.87,
+          "votesRep": 87096,
+          "votesDem": 64546,
+          "votesTotal": 155090
+        },
+        "Lycoming42": {
+          "color": "#BF1D29",
+          "label": "McCormick +40.2",
+          "margin": 40.18,
+          "votesRep": 40669,
+          "votesDem": 17354,
+          "votesTotal": 59495
+        },
+        "McKean42": {
+          "color": "#BF1D29",
+          "label": "McCormick +45.0",
+          "margin": 45.02,
+          "votesRep": 13799,
+          "votesDem": 5231,
+          "votesTotal": 19571
+        },
+        "Mercer42": {
+          "color": "#BF1D29",
+          "label": "McCormick +28.5",
+          "margin": 28.48,
+          "votesRep": 36468,
+          "votesDem": 20302,
+          "votesTotal": 58088
+        },
+        "Mifflin42": {
+          "color": "#BF1D29",
+          "label": "McCormick +53.4",
+          "margin": 53.36,
+          "votesRep": 16413,
+          "votesDem": 4991,
+          "votesTotal": 21946
+        },
+        "Monroe42": {
+          "color": "#8AAFFF",
+          "label": "Casey +1.0",
+          "margin": -1,
+          "votesRep": 40872,
+          "votesDem": 41701,
+          "votesTotal": 85028
+        },
+        "Montgomery42": {
+          "color": "#1C408C",
+          "label": "Casey +22.7",
+          "margin": -22.71,
+          "votesRep": 196422,
+          "votesDem": 311859,
+          "votesTotal": 519968
+        },
+        "Montour42": {
+          "color": "#BF1D29",
+          "label": "McCormick +21.1",
+          "margin": 21.06,
+          "votesRep": 5847,
+          "votesDem": 3813,
+          "votesTotal": 9900
+        },
+        "Northampton42": {
+          "color": "#CF8980",
+          "label": "McCormick +0.6",
+          "margin": 0.6,
+          "votesRep": 85787,
+          "votesDem": 84762,
+          "votesTotal": 174615
+        },
+        "Northumberland42": {
+          "color": "#BF1D29",
+          "label": "McCormick +36.2",
+          "margin": 36.25,
+          "votesRep": 28706,
+          "votesDem": 13432,
+          "votesTotal": 43294
+        },
+        "Perry42": {
+          "color": "#BF1D29",
+          "label": "McCormick +47.9",
+          "margin": 47.88,
+          "votesRep": 18355,
+          "votesDem": 6470,
+          "votesTotal": 25680
+        },
+        "Philadelphia42": {
+          "color": "#1C408C",
+          "label": "Casey +61.5",
+          "margin": -61.5,
+          "votesRep": 129098,
+          "votesDem": 541567,
+          "votesTotal": 690316
+        },
+        "Pike42": {
+          "color": "#BF1D29",
+          "label": "McCormick +23.6",
+          "margin": 23.57,
+          "votesRep": 20869,
+          "votesDem": 12909,
+          "votesTotal": 34609
+        },
+        "Potter42": {
+          "color": "#BF1D29",
+          "label": "McCormick +61.5",
+          "margin": 61.49,
+          "votesRep": 7109,
+          "votesDem": 1695,
+          "votesTotal": 9055
+        },
+        "Schuylkill42": {
+          "color": "#BF1D29",
+          "label": "McCormick +37.2",
+          "margin": 37.2,
+          "votesRep": 48553,
+          "votesDem": 22224,
+          "votesTotal": 72840
+        },
+        "Snyder42": {
+          "color": "#BF1D29",
+          "label": "McCormick +45.6",
+          "margin": 45.6,
+          "votesRep": 14211,
+          "votesDem": 5309,
+          "votesTotal": 19947
+        },
+        "Somerset42": {
+          "color": "#BF1D29",
+          "label": "McCormick +54.4",
+          "margin": 54.39,
+          "votesRep": 30662,
+          "votesDem": 9057,
+          "votesTotal": 40809
+        },
+        "Sullivan42": {
+          "color": "#BF1D29",
+          "label": "McCormick +43.8",
+          "margin": 43.79,
+          "votesRep": 2612,
+          "votesDem": 1021,
+          "votesTotal": 3715
+        },
+        "Susquehanna42": {
+          "color": "#BF1D29",
+          "label": "McCormick +43.5",
+          "margin": 43.46,
+          "votesRep": 15547,
+          "votesDem": 6128,
+          "votesTotal": 22216
+        },
+        "Tioga42": {
+          "color": "#BF1D29",
+          "label": "McCormick +51.4",
+          "margin": 51.39,
+          "votesRep": 15778,
+          "votesDem": 5066,
+          "votesTotal": 21432
+        },
+        "Union42": {
+          "color": "#BF1D29",
+          "label": "McCormick +23.6",
+          "margin": 23.64,
+          "votesRep": 12747,
+          "votesDem": 7872,
+          "votesTotal": 21072
+        },
+        "Venango42": {
+          "color": "#BF1D29",
+          "label": "McCormick +38.6",
+          "margin": 38.57,
+          "votesRep": 17825,
+          "votesDem": 7902,
+          "votesTotal": 26631
+        },
+        "Warren42": {
+          "color": "#BF1D29",
+          "label": "McCormick +36.1",
+          "margin": 36.07,
+          "votesRep": 13655,
+          "votesDem": 6415,
+          "votesTotal": 20667
+        },
+        "Washington42": {
+          "color": "#BF1D29",
+          "label": "McCormick +22.0",
+          "margin": 21.98,
+          "votesRep": 71798,
+          "votesDem": 45926,
+          "votesTotal": 120441
+        },
+        "Wayne42": {
+          "color": "#BF1D29",
+          "label": "McCormick +34.6",
+          "margin": 34.64,
+          "votesRep": 19331,
+          "votesDem": 9385,
+          "votesTotal": 29335
+        },
+        "Westmoreland42": {
+          "color": "#BF1D29",
+          "label": "McCormick +25.5",
+          "margin": 25.5,
+          "votesRep": 128040,
+          "votesDem": 76004,
+          "votesTotal": 208937
+        },
+        "Wyoming42": {
+          "color": "#BF1D29",
+          "label": "McCormick +35.2",
+          "margin": 35.23,
+          "votesRep": 9917,
+          "votesDem": 4750,
+          "votesTotal": 15016
+        },
+        "York42": {
+          "color": "#BF1D29",
+          "label": "McCormick +23.5",
+          "margin": 23.48,
+          "votesRep": 148098,
+          "votesDem": 91779,
+          "votesTotal": 247928
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Douglas Mastriano",
+      "candDem": "Joshua Shapiro",
+      "shortRep": "Mastriano",
+      "shortDem": "Shapiro",
+      "partisan": true,
+      "margin": -15.04,
+      "votesRep": 2238337,
+      "votesDem": 3031032,
+      "votesTotal": 5365929,
+      "regions": {
+        "Adams42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +17.5",
+          "margin": 17.52,
+          "votesRep": 26819,
+          "votesDem": 18821,
+          "votesTotal": 46459
+        },
+        "Allegheny42": {
+          "color": "#1C408C",
+          "label": "Shapiro +39.7",
+          "margin": -39.67,
+          "votesRep": 169913,
+          "votesDem": 393386,
+          "votesTotal": 572813
+        },
+        "Armstrong42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +31.8",
+          "margin": 31.84,
+          "votesRep": 18419,
+          "votesDem": 9523,
+          "votesTotal": 28457
+        },
+        "Beaver42": {
+          "color": "#8AAFFF",
+          "label": "Shapiro +3.0",
+          "margin": -2.98,
+          "votesRep": 34777,
+          "votesDem": 36917,
+          "votesTotal": 73262
+        },
+        "Bedford42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +56.9",
+          "margin": 56.92,
+          "votesRep": 17198,
+          "votesDem": 4721,
+          "votesTotal": 22220
+        },
+        "Berks42": {
+          "color": "#8AAFFF",
+          "label": "Shapiro +4.4",
+          "margin": -4.35,
+          "votesRep": 72185,
+          "votesDem": 78757,
+          "votesTotal": 154818
+        },
+        "Blair42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +28.5",
+          "margin": 28.48,
+          "votesRep": 31823,
+          "votesDem": 17716,
+          "votesTotal": 50334
+        },
+        "Bradford42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +35.5",
+          "margin": 35.52,
+          "votesRep": 15529,
+          "votesDem": 7389,
+          "votesTotal": 23479
+        },
+        "Bucks42": {
+          "color": "#1C408C",
+          "label": "Shapiro +20.2",
+          "margin": -20.22,
+          "votesRep": 122982,
+          "votesDem": 185339,
+          "votesTotal": 314041
+        },
+        "Butler42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +12.5",
+          "margin": 12.53,
+          "votesRep": 51546,
+          "votesDem": 40065,
+          "votesTotal": 93461
+        },
+        "Cambria42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +17.2",
+          "margin": 17.18,
+          "votesRep": 32381,
+          "votesDem": 22885,
+          "votesTotal": 56281
+        },
+        "Cameron42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +30.5",
+          "margin": 30.51,
+          "votesRep": 1200,
+          "votesDem": 639,
+          "votesTotal": 1890
+        },
+        "Carbon42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +16.4",
+          "margin": 16.35,
+          "votesRep": 14943,
+          "votesDem": 10743,
+          "votesTotal": 26264
+        },
+        "Centre42": {
+          "color": "#1C408C",
+          "label": "Shapiro +17.2",
+          "margin": -17.18,
+          "votesRep": 25201,
+          "votesDem": 35653,
+          "votesTotal": 62017
+        },
+        "Chester42": {
+          "color": "#1C408C",
+          "label": "Shapiro +26.9",
+          "margin": -26.92,
+          "votesRep": 92585,
+          "votesDem": 160796,
+          "votesTotal": 258025
+        },
+        "Clarion42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +32.4",
+          "margin": 32.41,
+          "votesRep": 10019,
+          "votesDem": 5114,
+          "votesTotal": 15407
+        },
+        "Clearfield42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +33.1",
+          "margin": 33.06,
+          "votesRep": 20525,
+          "votesDem": 10326,
+          "votesTotal": 31411
+        },
+        "Clinton42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +23.3",
+          "margin": 23.32,
+          "votesRep": 8512,
+          "votesDem": 5293,
+          "votesTotal": 14073
+        },
+        "Columbia42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +15.8",
+          "margin": 15.81,
+          "votesRep": 13959,
+          "votesDem": 10148,
+          "votesTotal": 24703
+        },
+        "Crawford42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +21.6",
+          "margin": 21.56,
+          "votesRep": 19541,
+          "votesDem": 12609,
+          "votesTotal": 32829
+        },
+        "Cumberland42": {
+          "color": "#577CCC",
+          "label": "Shapiro +8.0",
+          "margin": -7.96,
+          "votesRep": 52280,
+          "votesDem": 61319,
+          "votesTotal": 116002
+        },
+        "Dauphin42": {
+          "color": "#1C408C",
+          "label": "Shapiro +22.3",
+          "margin": -22.29,
+          "votesRep": 43580,
+          "votesDem": 68585,
+          "votesTotal": 114398
+        },
+        "Delaware42": {
+          "color": "#1C408C",
+          "label": "Shapiro +37.8",
+          "margin": -37.76,
+          "votesRep": 76880,
+          "votesDem": 170162,
+          "votesTotal": 250855
+        },
+        "Elk42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +27.9",
+          "margin": 27.93,
+          "votesRep": 8597,
+          "votesDem": 4843,
+          "votesTotal": 13678
+        },
+        "Erie42": {
+          "color": "#1C408C",
+          "label": "Shapiro +21.9",
+          "margin": -21.88,
+          "votesRep": 40433,
+          "votesDem": 63081,
+          "votesTotal": 105599
+        },
+        "Fayette42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +13.1",
+          "margin": 13.06,
+          "votesRep": 26165,
+          "votesDem": 20120,
+          "votesTotal": 46877
+        },
+        "Forest42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +23.8",
+          "margin": 23.79,
+          "votesRep": 1340,
+          "votesDem": 825,
+          "votesTotal": 2192
+        },
+        "Franklin42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +32.8",
+          "margin": 32.82,
+          "votesRep": 42731,
+          "votesDem": 21612,
+          "votesTotal": 65350
+        },
+        "Fulton42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +63.7",
+          "margin": 63.73,
+          "votesRep": 5092,
+          "votesDem": 1128,
+          "votesTotal": 6287
+        },
+        "Greene42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +20.0",
+          "margin": 19.96,
+          "votesRep": 7706,
+          "votesDem": 5142,
+          "votesTotal": 13139
+        },
+        "Huntingdon42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +38.4",
+          "margin": 38.41,
+          "votesRep": 12579,
+          "votesDem": 5597,
+          "votesTotal": 18448
+        },
+        "Indiana42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +19.1",
+          "margin": 19.08,
+          "votesRep": 19179,
+          "votesDem": 13032,
+          "votesTotal": 32742
+        },
+        "Jefferson42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +42.3",
+          "margin": 42.33,
+          "votesRep": 12433,
+          "votesDem": 5038,
+          "votesTotal": 17820
+        },
+        "Juniata42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +42.6",
+          "margin": 42.55,
+          "votesRep": 6851,
+          "votesDem": 2761,
+          "votesTotal": 9768
+        },
+        "Lackawanna42": {
+          "color": "#1C408C",
+          "label": "Shapiro +25.0",
+          "margin": -24.95,
+          "votesRep": 32697,
+          "votesDem": 54442,
+          "votesTotal": 88843
+        },
+        "Lancaster42": {
+          "color": "#FF8B98",
+          "label": "Mastriano +1.7",
+          "margin": 1.73,
+          "votesRep": 112040,
+          "votesDem": 108233,
+          "votesTotal": 224268
+        },
+        "Lawrence42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +10.0",
+          "margin": 10.04,
+          "votesRep": 19471,
+          "votesDem": 15918,
+          "votesTotal": 36045
+        },
+        "Lebanon42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +14.6",
+          "margin": 14.6,
+          "votesRep": 31731,
+          "votesDem": 23646,
+          "votesTotal": 56466
+        },
+        "Lehigh42": {
+          "color": "#1C408C",
+          "label": "Shapiro +19.9",
+          "margin": -19.87,
+          "votesRep": 53468,
+          "votesDem": 79991,
+          "votesTotal": 136334
+        },
+        "Luzerne42": {
+          "color": "#8AAFFF",
+          "label": "Shapiro +1.1",
+          "margin": -1.12,
+          "votesRep": 56326,
+          "votesDem": 57598,
+          "votesTotal": 116064
+        },
+        "Lycoming42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +31.1",
+          "margin": 31.09,
+          "votesRep": 29755,
+          "votesDem": 15643,
+          "votesTotal": 46285
+        },
+        "McKean42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +39.3",
+          "margin": 39.31,
+          "votesRep": 10082,
+          "votesDem": 4392,
+          "votesTotal": 14712
+        },
+        "Mercer42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +17.9",
+          "margin": 17.94,
+          "votesRep": 26273,
+          "votesDem": 18282,
+          "votesTotal": 45331
+        },
+        "Mifflin42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +38.2",
+          "margin": 38.25,
+          "votesRep": 11460,
+          "votesDem": 5119,
+          "votesTotal": 16847
+        },
+        "Monroe42": {
+          "color": "#1C408C",
+          "label": "Shapiro +11.1",
+          "margin": -11.12,
+          "votesRep": 25604,
+          "votesDem": 32009,
+          "votesTotal": 58827
+        },
+        "Montgomery42": {
+          "color": "#1C408C",
+          "label": "Shapiro +40.4",
+          "margin": -40.4,
+          "votesRep": 121289,
+          "votesDem": 285712,
+          "votesTotal": 413016
+        },
+        "Montour42": {
+          "color": "#FF5865",
+          "label": "Mastriano +5.2",
+          "margin": 5.17,
+          "votesRep": 4037,
+          "votesDem": 3640,
+          "votesTotal": 7857
+        },
+        "Northampton42": {
+          "color": "#1C408C",
+          "label": "Shapiro +13.6",
+          "margin": -13.63,
+          "votesRep": 54928,
+          "votesDem": 72269,
+          "votesTotal": 129901
+        },
+        "Northumberland42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +22.6",
+          "margin": 22.61,
+          "votesRep": 19094,
+          "votesDem": 12052,
+          "votesTotal": 32951
+        },
+        "Perry42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +30.3",
+          "margin": 30.32,
+          "votesRep": 12928,
+          "votesDem": 6912,
+          "votesTotal": 20240
+        },
+        "Philadelphia42": {
+          "color": "#1C408C",
+          "label": "Shapiro +73.5",
+          "margin": -73.47,
+          "votesRep": 65293,
+          "votesDem": 426885,
+          "votesTotal": 498260
+        },
+        "Pike42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +16.3",
+          "margin": 16.32,
+          "votesRep": 14371,
+          "votesDem": 10339,
+          "votesTotal": 25133
+        },
+        "Potter42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +55.2",
+          "margin": 55.16,
+          "votesRep": 5235,
+          "votesDem": 1513,
+          "votesTotal": 7105
+        },
+        "Schuylkill42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +21.8",
+          "margin": 21.78,
+          "votesRep": 33008,
+          "votesDem": 21203,
+          "votesTotal": 55435
+        },
+        "Snyder42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +35.5",
+          "margin": 35.46,
+          "votesRep": 10215,
+          "votesDem": 4867,
+          "votesTotal": 15360
+        },
+        "Somerset42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +40.9",
+          "margin": 40.85,
+          "votesRep": 22559,
+          "votesDem": 9473,
+          "votesTotal": 32576
+        },
+        "Sullivan42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +30.5",
+          "margin": 30.51,
+          "votesRep": 1923,
+          "votesDem": 1024,
+          "votesTotal": 3023
+        },
+        "Susquehanna42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +31.8",
+          "margin": 31.82,
+          "votesRep": 11153,
+          "votesDem": 5768,
+          "votesTotal": 17316
+        },
+        "Tioga42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +45.0",
+          "margin": 44.97,
+          "votesRep": 11840,
+          "votesDem": 4494,
+          "votesTotal": 16658
+        },
+        "Union42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +12.7",
+          "margin": 12.66,
+          "votesRep": 8897,
+          "votesDem": 6898,
+          "votesTotal": 16113
+        },
+        "Venango42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +24.2",
+          "margin": 24.19,
+          "votesRep": 12741,
+          "votesDem": 7777,
+          "votesTotal": 20919
+        },
+        "Warren42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +23.3",
+          "margin": 23.34,
+          "votesRep": 9704,
+          "votesDem": 6032,
+          "votesTotal": 16064
+        },
+        "Washington42": {
+          "color": "#FF8B98",
+          "label": "Mastriano +2.2",
+          "margin": 2.2,
+          "votesRep": 47052,
+          "votesDem": 45030,
+          "votesTotal": 93617
+        },
+        "Wayne42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +24.2",
+          "margin": 24.19,
+          "votesRep": 13868,
+          "votesDem": 8466,
+          "votesTotal": 22743
+        },
+        "Westmoreland42": {
+          "color": "#FF5865",
+          "label": "Mastriano +6.5",
+          "margin": 6.46,
+          "votesRep": 87804,
+          "votesDem": 77152,
+          "votesTotal": 167968
+        },
+        "Wyoming42": {
+          "color": "#BF1D29",
+          "label": "Mastriano +21.3",
+          "margin": 21.31,
+          "votesRep": 6966,
+          "votesDem": 4519,
+          "votesTotal": 11777
+        },
+        "York42": {
+          "color": "#FF5865",
+          "label": "Mastriano +8.2",
+          "margin": 8.21,
+          "votesRep": 98622,
+          "votesDem": 83649,
+          "votesTotal": 186476
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Mehmet Oz",
+      "candDem": "John Fetterman",
+      "shortRep": "Oz",
+      "shortDem": "Fetterman",
+      "partisan": true,
+      "margin": -5.03,
+      "votesRep": 2487091,
+      "votesDem": 2750317,
+      "votesTotal": 5366638,
+      "regions": {
+        "Adams42": {
+          "color": "#BF1D29",
+          "label": "Oz +28.7",
+          "margin": 28.68,
+          "votesRep": 29039,
+          "votesDem": 16096,
+          "votesTotal": 46419
+        },
+        "Allegheny42": {
+          "color": "#1C408C",
+          "label": "Fetterman +28.9",
+          "margin": -28.92,
+          "votesRep": 200632,
+          "votesDem": 363873,
+          "votesTotal": 573709
+        },
+        "Armstrong42": {
+          "color": "#BF1D29",
+          "label": "Oz +41.6",
+          "margin": 41.64,
+          "votesRep": 19575,
+          "votesDem": 8065,
+          "votesTotal": 28413
+        },
+        "Beaver42": {
+          "color": "#FF5865",
+          "label": "Oz +8.5",
+          "margin": 8.51,
+          "votesRep": 38772,
+          "votesDem": 32692,
+          "votesTotal": 73443
+        },
+        "Bedford42": {
+          "color": "#BF1D29",
+          "label": "Oz +65.1",
+          "margin": 65.09,
+          "votesRep": 17954,
+          "votesDem": 3796,
+          "votesTotal": 22241
+        },
+        "Berks42": {
+          "color": "#FF8B98",
+          "label": "Oz +4.5",
+          "margin": 4.47,
+          "votesRep": 78019,
+          "votesDem": 71349,
+          "votesTotal": 154824
+        },
+        "Blair42": {
+          "color": "#BF1D29",
+          "label": "Oz +39.7",
+          "margin": 39.71,
+          "votesRep": 34214,
+          "votesDem": 14763,
+          "votesTotal": 50220
+        },
+        "Bradford42": {
+          "color": "#BF1D29",
+          "label": "Oz +41.5",
+          "margin": 41.48,
+          "votesRep": 16033,
+          "votesDem": 6632,
+          "votesTotal": 23481
+        },
+        "Bucks42": {
+          "color": "#577CCC",
+          "label": "Fetterman +7.6",
+          "margin": -7.58,
+          "votesRep": 141340,
+          "votesDem": 164536,
+          "votesTotal": 314311
+        },
+        "Butler42": {
+          "color": "#BF1D29",
+          "label": "Oz +25.5",
+          "margin": 25.52,
+          "votesRep": 57168,
+          "votesDem": 33921,
+          "votesTotal": 93335
+        },
+        "Cambria42": {
+          "color": "#BF1D29",
+          "label": "Oz +31.1",
+          "margin": 31.08,
+          "votesRep": 35847,
+          "votesDem": 18849,
+          "votesTotal": 56348
+        },
+        "Cameron42": {
+          "color": "#BF1D29",
+          "label": "Oz +39.0",
+          "margin": 39.02,
+          "votesRep": 1247,
+          "votesDem": 547,
+          "votesTotal": 1886
+        },
+        "Carbon42": {
+          "color": "#BF1D29",
+          "label": "Oz +23.6",
+          "margin": 23.59,
+          "votesRep": 15659,
+          "votesDem": 9682,
+          "votesTotal": 26232
+        },
+        "Centre42": {
+          "color": "#577CCC",
+          "label": "Fetterman +7.8",
+          "margin": -7.76,
+          "votesRep": 27902,
+          "votesDem": 32597,
+          "votesTotal": 62061
+        },
+        "Chester42": {
+          "color": "#1C408C",
+          "label": "Fetterman +17.3",
+          "margin": -17.31,
+          "votesRep": 104020,
+          "votesDem": 147559,
+          "votesTotal": 257963
+        },
+        "Clarion42": {
+          "color": "#BF1D29",
+          "label": "Oz +42.1",
+          "margin": 42.1,
+          "votesRep": 10620,
+          "votesDem": 4327,
+          "votesTotal": 15371
+        },
+        "Clearfield42": {
+          "color": "#BF1D29",
+          "label": "Oz +44.0",
+          "margin": 44.01,
+          "votesRep": 21948,
+          "votesDem": 8533,
+          "votesTotal": 31399
+        },
+        "Clinton42": {
+          "color": "#BF1D29",
+          "label": "Oz +29.8",
+          "margin": 29.84,
+          "votesRep": 8791,
+          "votesDem": 4750,
+          "votesTotal": 14017
+        },
+        "Columbia42": {
+          "color": "#BF1D29",
+          "label": "Oz +24.3",
+          "margin": 24.34,
+          "votesRep": 14830,
+          "votesDem": 9023,
+          "votesTotal": 24745
+        },
+        "Crawford42": {
+          "color": "#BF1D29",
+          "label": "Oz +30.9",
+          "margin": 30.9,
+          "votesRep": 20992,
+          "votesDem": 11081,
+          "votesTotal": 33033
+        },
+        "Cumberland42": {
+          "color": "#FF5865",
+          "label": "Oz +5.7",
+          "margin": 5.65,
+          "votesRep": 59663,
+          "votesDem": 53278,
+          "votesTotal": 115927
+        },
+        "Dauphin42": {
+          "color": "#1C408C",
+          "label": "Fetterman +10.3",
+          "margin": -10.25,
+          "votesRep": 50141,
+          "votesDem": 61599,
+          "votesTotal": 114446
+        },
+        "Delaware42": {
+          "color": "#1C408C",
+          "label": "Fetterman +28.7",
+          "margin": -28.69,
+          "votesRep": 87322,
+          "votesDem": 157599,
+          "votesTotal": 250667
+        },
+        "Elk42": {
+          "color": "#BF1D29",
+          "label": "Oz +38.4",
+          "margin": 38.37,
+          "votesRep": 9128,
+          "votesDem": 4066,
+          "votesTotal": 13619
+        },
+        "Erie42": {
+          "color": "#577CCC",
+          "label": "Fetterman +9.6",
+          "margin": -9.62,
+          "votesRep": 46507,
+          "votesDem": 56404,
+          "votesTotal": 105734
+        },
+        "Fayette42": {
+          "color": "#BF1D29",
+          "label": "Oz +22.8",
+          "margin": 22.85,
+          "votesRep": 28234,
+          "votesDem": 17731,
+          "votesTotal": 46824
+        },
+        "Forest42": {
+          "color": "#BF1D29",
+          "label": "Oz +34.8",
+          "margin": 34.77,
+          "votesRep": 1434,
+          "votesDem": 694,
+          "votesTotal": 2182
+        },
+        "Franklin42": {
+          "color": "#BF1D29",
+          "label": "Oz +41.1",
+          "margin": 41.08,
+          "votesRep": 44819,
+          "votesDem": 18718,
+          "votesTotal": 65220
+        },
+        "Fulton42": {
+          "color": "#BF1D29",
+          "label": "Oz +68.9",
+          "margin": 68.88,
+          "votesRep": 5171,
+          "votesDem": 953,
+          "votesTotal": 6246
+        },
+        "Greene42": {
+          "color": "#BF1D29",
+          "label": "Oz +31.0",
+          "margin": 31.03,
+          "votesRep": 8348,
+          "votesDem": 4394,
+          "votesTotal": 13091
+        },
+        "Huntingdon42": {
+          "color": "#BF1D29",
+          "label": "Oz +47.3",
+          "margin": 47.29,
+          "votesRep": 13035,
+          "votesDem": 4665,
+          "votesTotal": 18264
+        },
+        "Indiana42": {
+          "color": "#BF1D29",
+          "label": "Oz +29.9",
+          "margin": 29.86,
+          "votesRep": 20769,
+          "votesDem": 11218,
+          "votesTotal": 32755
+        },
+        "Jefferson42": {
+          "color": "#BF1D29",
+          "label": "Oz +52.1",
+          "margin": 52.12,
+          "votesRep": 13139,
+          "votesDem": 4135,
+          "votesTotal": 17274
+        },
+        "Juniata42": {
+          "color": "#BF1D29",
+          "label": "Oz +55.0",
+          "margin": 54.97,
+          "votesRep": 7265,
+          "votesDem": 2111,
+          "votesTotal": 9728
+        },
+        "Lackawanna42": {
+          "color": "#1C408C",
+          "label": "Fetterman +16.0",
+          "margin": -16.04,
+          "votesRep": 36534,
+          "votesDem": 50489,
+          "votesTotal": 88943
+        },
+        "Lancaster42": {
+          "color": "#BF1D29",
+          "label": "Oz +13.7",
+          "margin": 13.75,
+          "votesRep": 124798,
+          "votesDem": 94632,
+          "votesTotal": 224548
+        },
+        "Lawrence42": {
+          "color": "#BF1D29",
+          "label": "Oz +22.0",
+          "margin": 22.05,
+          "votesRep": 21384,
+          "votesDem": 13658,
+          "votesTotal": 35955
+        },
+        "Lebanon42": {
+          "color": "#BF1D29",
+          "label": "Oz +28.0",
+          "margin": 28.01,
+          "votesRep": 35023,
+          "votesDem": 19695,
+          "votesTotal": 56491
+        },
+        "Lehigh42": {
+          "color": "#1C408C",
+          "label": "Fetterman +10.5",
+          "margin": -10.49,
+          "votesRep": 59219,
+          "votesDem": 73096,
+          "votesTotal": 136301
+        },
+        "Luzerne42": {
+          "color": "#FF5865",
+          "label": "Oz +9.2",
+          "margin": 9.23,
+          "votesRep": 61978,
+          "votesDem": 51504,
+          "votesTotal": 116323
+        },
+        "Lycoming42": {
+          "color": "#BF1D29",
+          "label": "Oz +39.3",
+          "margin": 39.33,
+          "votesRep": 31171,
+          "votesDem": 13573,
+          "votesTotal": 46233
+        },
+        "McKean42": {
+          "color": "#BF1D29",
+          "label": "Oz +41.8",
+          "margin": 41.81,
+          "votesRep": 10076,
+          "votesDem": 4135,
+          "votesTotal": 14651
+        },
+        "Mercer42": {
+          "color": "#BF1D29",
+          "label": "Oz +22.6",
+          "margin": 22.59,
+          "votesRep": 27049,
+          "votesDem": 17080,
+          "votesTotal": 45352
+        },
+        "Mifflin42": {
+          "color": "#BF1D29",
+          "label": "Oz +51.1",
+          "margin": 51.13,
+          "votesRep": 12263,
+          "votesDem": 3965,
+          "votesTotal": 16785
+        },
+        "Monroe42": {
+          "color": "#577CCC",
+          "label": "Fetterman +6.1",
+          "margin": -6.15,
+          "votesRep": 26746,
+          "votesDem": 30251,
+          "votesTotal": 58730
+        },
+        "Montgomery42": {
+          "color": "#1C408C",
+          "label": "Fetterman +29.0",
+          "margin": -29.04,
+          "votesRep": 143077,
+          "votesDem": 260207,
+          "votesTotal": 412954
+        },
+        "Montour42": {
+          "color": "#BF1D29",
+          "label": "Oz +14.8",
+          "margin": 14.79,
+          "votesRep": 4328,
+          "votesDem": 3213,
+          "votesTotal": 7833
+        },
+        "Northampton42": {
+          "color": "#577CCC",
+          "label": "Fetterman +5.3",
+          "margin": -5.3,
+          "votesRep": 59860,
+          "votesDem": 66565,
+          "votesTotal": 129987
+        },
+        "Northumberland42": {
+          "color": "#BF1D29",
+          "label": "Oz +32.0",
+          "margin": 32.01,
+          "votesRep": 20992,
+          "votesDem": 10812,
+          "votesTotal": 32895
+        },
+        "Perry42": {
+          "color": "#BF1D29",
+          "label": "Oz +42.4",
+          "margin": 42.39,
+          "votesRep": 13956,
+          "votesDem": 5646,
+          "votesTotal": 20231
+        },
+        "Philadelphia42": {
+          "color": "#1C408C",
+          "label": "Fetterman +68.0",
+          "margin": -68.05,
+          "votesRep": 78386,
+          "votesDem": 412246,
+          "votesTotal": 498531
+        },
+        "Pike42": {
+          "color": "#BF1D29",
+          "label": "Oz +20.2",
+          "margin": 20.2,
+          "votesRep": 14792,
+          "votesDem": 9821,
+          "votesTotal": 25196
+        },
+        "Potter42": {
+          "color": "#BF1D29",
+          "label": "Oz +59.0",
+          "margin": 58.99,
+          "votesRep": 5486,
+          "votesDem": 1415,
+          "votesTotal": 7108
+        },
+        "Schuylkill42": {
+          "color": "#BF1D29",
+          "label": "Oz +32.6",
+          "margin": 32.56,
+          "votesRep": 35293,
+          "votesDem": 17954,
+          "votesTotal": 55413
+        },
+        "Snyder42": {
+          "color": "#BF1D29",
+          "label": "Oz +43.3",
+          "margin": 43.27,
+          "votesRep": 10657,
+          "votesDem": 4220,
+          "votesTotal": 15336
+        },
+        "Somerset42": {
+          "color": "#BF1D29",
+          "label": "Oz +51.6",
+          "margin": 51.56,
+          "votesRep": 23964,
+          "votesDem": 7660,
+          "votesTotal": 32528
+        },
+        "Sullivan42": {
+          "color": "#BF1D29",
+          "label": "Oz +39.9",
+          "margin": 39.9,
+          "votesRep": 2023,
+          "votesDem": 869,
+          "votesTotal": 3016
+        },
+        "Susquehanna42": {
+          "color": "#BF1D29",
+          "label": "Oz +37.4",
+          "margin": 37.43,
+          "votesRep": 11520,
+          "votesDem": 5245,
+          "votesTotal": 17311
+        },
+        "Tioga42": {
+          "color": "#BF1D29",
+          "label": "Oz +49.0",
+          "margin": 49,
+          "votesRep": 11988,
+          "votesDem": 4103,
+          "votesTotal": 16632
+        },
+        "Union42": {
+          "color": "#BF1D29",
+          "label": "Oz +20.1",
+          "margin": 20.14,
+          "votesRep": 9401,
+          "votesDem": 6249,
+          "votesTotal": 16094
+        },
+        "Venango42": {
+          "color": "#BF1D29",
+          "label": "Oz +32.8",
+          "margin": 32.84,
+          "votesRep": 13406,
+          "votesDem": 6777,
+          "votesTotal": 20854
+        },
+        "Warren42": {
+          "color": "#BF1D29",
+          "label": "Oz +30.5",
+          "margin": 30.49,
+          "votesRep": 10175,
+          "votesDem": 5420,
+          "votesTotal": 16092
+        },
+        "Washington42": {
+          "color": "#BF1D29",
+          "label": "Oz +13.8",
+          "margin": 13.75,
+          "votesRep": 52337,
+          "votesDem": 39684,
+          "votesTotal": 93836
+        },
+        "Wayne42": {
+          "color": "#BF1D29",
+          "label": "Oz +30.6",
+          "margin": 30.58,
+          "votesRep": 14425,
+          "votesDem": 7669,
+          "votesTotal": 22712
+        },
+        "Westmoreland42": {
+          "color": "#BF1D29",
+          "label": "Oz +19.5",
+          "margin": 19.45,
+          "votesRep": 98238,
+          "votesDem": 66240,
+          "votesTotal": 168009
+        },
+        "Wyoming42": {
+          "color": "#BF1D29",
+          "label": "Oz +28.8",
+          "margin": 28.77,
+          "votesRep": 7338,
+          "votesDem": 4059,
+          "votesTotal": 11779
+        },
+        "York42": {
+          "color": "#BF1D29",
+          "label": "Oz +20.8",
+          "margin": 20.77,
+          "votesRep": 109631,
+          "votesDem": 71929,
+          "votesTotal": 186551
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Scott Wagner",
+      "candDem": "Thomas Wolf",
+      "shortRep": "Wagner",
+      "shortDem": "Wolf",
+      "partisan": true,
+      "margin": -17.34,
+      "votesRep": 2040169,
+      "votesDem": 2895848,
+      "votesTotal": 5013046,
+      "regions": {
+        "Adams42": {
+          "color": "#BF1D29",
+          "label": "Wagner +17.3",
+          "margin": 17.31,
+          "votesRep": 22501,
+          "votesDem": 15862,
+          "votesTotal": 39053
+        },
+        "Allegheny42": {
+          "color": "#1C408C",
+          "label": "Wolf +36.7",
+          "margin": -36.7,
+          "votesRep": 168893,
+          "votesDem": 364710,
+          "votesTotal": 541305
+        },
+        "Armstrong42": {
+          "color": "#BF1D29",
+          "label": "Wagner +27.0",
+          "margin": 26.99,
+          "votesRep": 15373,
+          "votesDem": 8839,
+          "votesTotal": 24643
+        },
+        "Beaver42": {
+          "color": "#577CCC",
+          "label": "Wolf +8.3",
+          "margin": -8.35,
+          "votesRep": 30593,
+          "votesDem": 36166,
+          "votesTotal": 67876
+        },
+        "Bedford42": {
+          "color": "#BF1D29",
+          "label": "Wagner +52.8",
+          "margin": 52.78,
+          "votesRep": 14261,
+          "votesDem": 4408,
+          "votesTotal": 18863
+        },
+        "Berks42": {
+          "color": "#577CCC",
+          "label": "Wolf +7.3",
+          "margin": -7.32,
+          "votesRep": 65756,
+          "votesDem": 76136,
+          "votesTotal": 144426
+        },
+        "Blair42": {
+          "color": "#BF1D29",
+          "label": "Wagner +31.7",
+          "margin": 31.67,
+          "votesRep": 28175,
+          "votesDem": 14622,
+          "votesTotal": 43522
+        },
+        "Bradford42": {
+          "color": "#BF1D29",
+          "label": "Wagner +31.2",
+          "margin": 31.2,
+          "votesRep": 13068,
+          "votesDem": 6852,
+          "votesTotal": 20420
+        },
+        "Bucks42": {
+          "color": "#1C408C",
+          "label": "Wolf +18.7",
+          "margin": -18.74,
+          "votesRep": 117912,
+          "votesDem": 172302,
+          "votesTotal": 294329
+        },
+        "Butler42": {
+          "color": "#BF1D29",
+          "label": "Wagner +15.8",
+          "margin": 15.81,
+          "votesRep": 45242,
+          "votesDem": 32891,
+          "votesTotal": 79711
+        },
+        "Cambria42": {
+          "color": "#BF1D29",
+          "label": "Wagner +12.0",
+          "margin": 11.98,
+          "votesRep": 27530,
+          "votesDem": 21639,
+          "votesTotal": 49894
+        },
+        "Cameron42": {
+          "color": "#BF1D29",
+          "label": "Wagner +29.1",
+          "margin": 29.1,
+          "votesRep": 1127,
+          "votesDem": 619,
+          "votesTotal": 1773
+        },
+        "Carbon42": {
+          "color": "#BF1D29",
+          "label": "Wagner +12.7",
+          "margin": 12.73,
+          "votesRep": 12476,
+          "votesDem": 9659,
+          "votesTotal": 22542
+        },
+        "Centre42": {
+          "color": "#1C408C",
+          "label": "Wolf +17.9",
+          "margin": -17.88,
+          "votesRep": 24353,
+          "votesDem": 34961,
+          "votesTotal": 60678
+        },
+        "Chester42": {
+          "color": "#1C408C",
+          "label": "Wolf +24.6",
+          "margin": -24.6,
+          "votesRep": 87873,
+          "votesDem": 145212,
+          "votesTotal": 236775
+        },
+        "Clarion42": {
+          "color": "#BF1D29",
+          "label": "Wagner +24.7",
+          "margin": 24.69,
+          "votesRep": 8594,
+          "votesDem": 5191,
+          "votesTotal": 14094
+        },
+        "Clearfield42": {
+          "color": "#BF1D29",
+          "label": "Wagner +30.2",
+          "margin": 30.24,
+          "votesRep": 17241,
+          "votesDem": 9235,
+          "votesTotal": 26892
+        },
+        "Clinton42": {
+          "color": "#FF5865",
+          "label": "Wagner +9.9",
+          "margin": 9.88,
+          "votesRep": 6727,
+          "votesDem": 5517,
+          "votesTotal": 12476
+        },
+        "Columbia42": {
+          "color": "#BF1D29",
+          "label": "Wagner +11.7",
+          "margin": 11.7,
+          "votesRep": 12424,
+          "votesDem": 9822,
+          "votesTotal": 22638
+        },
+        "Crawford42": {
+          "color": "#BF1D29",
+          "label": "Wagner +19.1",
+          "margin": 19.08,
+          "votesRep": 17859,
+          "votesDem": 12137,
+          "votesTotal": 30544
+        },
+        "Cumberland42": {
+          "color": "#8AAFFF",
+          "label": "Wolf +3.2",
+          "margin": -3.24,
+          "votesRep": 49496,
+          "votesDem": 52807,
+          "votesTotal": 104478
+        },
+        "Dauphin42": {
+          "color": "#1C408C",
+          "label": "Wolf +20.3",
+          "margin": -20.29,
+          "votesRep": 42436,
+          "votesDem": 64045,
+          "votesTotal": 108549
+        },
+        "Delaware42": {
+          "color": "#1C408C",
+          "label": "Wolf +35.0",
+          "margin": -34.96,
+          "votesRep": 80576,
+          "votesDem": 167211,
+          "votesTotal": 250643
+        },
+        "Elk42": {
+          "color": "#BF1D29",
+          "label": "Wagner +24.4",
+          "margin": 24.38,
+          "votesRep": 6918,
+          "votesDem": 4206,
+          "votesTotal": 11301
+        },
+        "Erie42": {
+          "color": "#1C408C",
+          "label": "Wolf +21.4",
+          "margin": -21.37,
+          "votesRep": 39387,
+          "votesDem": 60790,
+          "votesTotal": 101711
+        },
+        "Fayette42": {
+          "color": "#FF8B98",
+          "label": "Wagner +1.7",
+          "margin": 1.69,
+          "votesRep": 20471,
+          "votesDem": 19791,
+          "votesTotal": 40909
+        },
+        "Forest42": {
+          "color": "#BF1D29",
+          "label": "Wagner +21.7",
+          "margin": 21.68,
+          "votesRep": 1159,
+          "votesDem": 746,
+          "votesTotal": 1938
+        },
+        "Franklin42": {
+          "color": "#BF1D29",
+          "label": "Wagner +31.8",
+          "margin": 31.78,
+          "votesRep": 35634,
+          "votesDem": 18447,
+          "votesTotal": 54922
+        },
+        "Fulton42": {
+          "color": "#BF1D29",
+          "label": "Wagner +60.4",
+          "margin": 60.41,
+          "votesRep": 4202,
+          "votesDem": 1037,
+          "votesTotal": 5296
+        },
+        "Greene42": {
+          "color": "#FF8B98",
+          "label": "Wagner +4.4",
+          "margin": 4.39,
+          "votesRep": 6381,
+          "votesDem": 5844,
+          "votesTotal": 12448
+        },
+        "Huntingdon42": {
+          "color": "#BF1D29",
+          "label": "Wagner +35.5",
+          "margin": 35.52,
+          "votesRep": 10586,
+          "votesDem": 5037,
+          "votesTotal": 15901
+        },
+        "Indiana42": {
+          "color": "#BF1D29",
+          "label": "Wagner +12.0",
+          "margin": 11.99,
+          "votesRep": 16179,
+          "votesDem": 12715,
+          "votesTotal": 29396
+        },
+        "Jefferson42": {
+          "color": "#BF1D29",
+          "label": "Wagner +44.1",
+          "margin": 44.14,
+          "votesRep": 11036,
+          "votesDem": 4277,
+          "votesTotal": 15574
+        },
+        "Juniata42": {
+          "color": "#BF1D29",
+          "label": "Wagner +38.8",
+          "margin": 38.78,
+          "votesRep": 5780,
+          "votesDem": 2550,
+          "votesTotal": 8493
+        },
+        "Lackawanna42": {
+          "color": "#1C408C",
+          "label": "Wolf +30.9",
+          "margin": -30.92,
+          "votesRep": 28616,
+          "votesDem": 54237,
+          "votesTotal": 83913
+        },
+        "Lancaster42": {
+          "color": "#FF8B98",
+          "label": "Wagner +3.1",
+          "margin": 3.12,
+          "votesRep": 102229,
+          "votesDem": 96040,
+          "votesTotal": 202224
+        },
+        "Lawrence42": {
+          "color": "#FF5865",
+          "label": "Wagner +5.3",
+          "margin": 5.29,
+          "votesRep": 16714,
+          "votesDem": 15035,
+          "votesTotal": 32241
+        },
+        "Lebanon42": {
+          "color": "#BF1D29",
+          "label": "Wagner +16.4",
+          "margin": 16.45,
+          "votesRep": 28096,
+          "votesDem": 20159,
+          "votesTotal": 49108
+        },
+        "Lehigh42": {
+          "color": "#1C408C",
+          "label": "Wolf +22.3",
+          "margin": -22.31,
+          "votesRep": 49071,
+          "votesDem": 77248,
+          "votesTotal": 128606
+        },
+        "Luzerne42": {
+          "color": "#8AAFFF",
+          "label": "Wolf +4.7",
+          "margin": -4.73,
+          "votesRep": 50701,
+          "votesDem": 55734,
+          "votesTotal": 107823
+        },
+        "Lycoming42": {
+          "color": "#BF1D29",
+          "label": "Wagner +26.9",
+          "margin": 26.91,
+          "votesRep": 25570,
+          "votesDem": 14727,
+          "votesTotal": 41025
+        },
+        "McKean42": {
+          "color": "#BF1D29",
+          "label": "Wagner +37.2",
+          "margin": 37.17,
+          "votesRep": 8512,
+          "votesDem": 3899,
+          "votesTotal": 12593
+        },
+        "Mercer42": {
+          "color": "#FF5865",
+          "label": "Wagner +9.9",
+          "margin": 9.93,
+          "votesRep": 22211,
+          "votesDem": 18200,
+          "votesTotal": 41100
+        },
+        "Mifflin42": {
+          "color": "#BF1D29",
+          "label": "Wagner +39.0",
+          "margin": 39.02,
+          "votesRep": 9408,
+          "votesDem": 4127,
+          "votesTotal": 13745
+        },
+        "Monroe42": {
+          "color": "#1C408C",
+          "label": "Wolf +17.5",
+          "margin": -17.46,
+          "votesRep": 22530,
+          "votesDem": 32064,
+          "votesTotal": 55437
+        },
+        "Montgomery42": {
+          "color": "#1C408C",
+          "label": "Wolf +36.1",
+          "margin": -36.14,
+          "votesRep": 120206,
+          "votesDem": 256252,
+          "votesTotal": 381446
+        },
+        "Montour42": {
+          "color": "#FF5865",
+          "label": "Wagner +6.0",
+          "margin": 6.03,
+          "votesRep": 3642,
+          "votesDem": 3228,
+          "votesTotal": 7015
+        },
+        "Northampton42": {
+          "color": "#1C408C",
+          "label": "Wolf +16.1",
+          "margin": -16.09,
+          "votesRep": 47527,
+          "votesDem": 65749,
+          "votesTotal": 115122
+        },
+        "Northumberland42": {
+          "color": "#BF1D29",
+          "label": "Wagner +14.1",
+          "margin": 14.11,
+          "votesRep": 16122,
+          "votesDem": 12135,
+          "votesTotal": 28821
+        },
+        "Perry42": {
+          "color": "#BF1D29",
+          "label": "Wagner +29.8",
+          "margin": 29.79,
+          "votesRep": 10915,
+          "votesDem": 5905,
+          "votesTotal": 17196
+        },
+        "Philadelphia42": {
+          "color": "#1C408C",
+          "label": "Wolf +76.5",
+          "margin": -76.48,
+          "votesRep": 64514,
+          "votesDem": 484124,
+          "votesTotal": 554175
+        },
+        "Pike42": {
+          "color": "#BF1D29",
+          "label": "Wagner +11.4",
+          "margin": 11.4,
+          "votesRep": 11408,
+          "votesDem": 9074,
+          "votesTotal": 20800
+        },
+        "Potter42": {
+          "color": "#BF1D29",
+          "label": "Wagner +52.7",
+          "margin": 52.7,
+          "votesRep": 4687,
+          "votesDem": 1452,
+          "votesTotal": 6248
+        },
+        "Schuylkill42": {
+          "color": "#BF1D29",
+          "label": "Wagner +11.4",
+          "margin": 11.42,
+          "votesRep": 26640,
+          "votesDem": 21179,
+          "votesTotal": 48718
+        },
+        "Snyder42": {
+          "color": "#BF1D29",
+          "label": "Wagner +26.3",
+          "margin": 26.3,
+          "votesRep": 8283,
+          "votesDem": 4833,
+          "votesTotal": 13332
+        },
+        "Somerset42": {
+          "color": "#BF1D29",
+          "label": "Wagner +35.1",
+          "margin": 35.09,
+          "votesRep": 19020,
+          "votesDem": 9138,
+          "votesTotal": 28728
+        },
+        "Sullivan42": {
+          "color": "#BF1D29",
+          "label": "Wagner +25.9",
+          "margin": 25.93,
+          "votesRep": 1661,
+          "votesDem": 977,
+          "votesTotal": 2699
+        },
+        "Susquehanna42": {
+          "color": "#BF1D29",
+          "label": "Wagner +31.6",
+          "margin": 31.56,
+          "votesRep": 10137,
+          "votesDem": 5273,
+          "votesTotal": 15719
+        },
+        "Tioga42": {
+          "color": "#BF1D29",
+          "label": "Wagner +44.8",
+          "margin": 44.81,
+          "votesRep": 10472,
+          "votesDem": 3991,
+          "votesTotal": 14778
+        },
+        "Union42": {
+          "color": "#FF5865",
+          "label": "Wagner +8.9",
+          "margin": 8.86,
+          "votesRep": 7676,
+          "votesDem": 6426,
+          "votesTotal": 14396
+        },
+        "Venango42": {
+          "color": "#BF1D29",
+          "label": "Wagner +18.7",
+          "margin": 18.73,
+          "votesRep": 10856,
+          "votesDem": 7431,
+          "votesTotal": 18625
+        },
+        "Warren42": {
+          "color": "#BF1D29",
+          "label": "Wagner +23.4",
+          "margin": 23.35,
+          "votesRep": 8766,
+          "votesDem": 5447,
+          "votesTotal": 14483
+        },
+        "Washington42": {
+          "color": "#CF8980",
+          "label": "Wagner +0.9",
+          "margin": 0.95,
+          "votesRep": 40662,
+          "votesDem": 39898,
+          "votesTotal": 82418
+        },
+        "Wayne42": {
+          "color": "#BF1D29",
+          "label": "Wagner +18.9",
+          "margin": 18.85,
+          "votesRep": 11751,
+          "votesDem": 8023,
+          "votesTotal": 20086
+        },
+        "Westmoreland42": {
+          "color": "#FF5865",
+          "label": "Wagner +5.7",
+          "margin": 5.72,
+          "votesRep": 76413,
+          "votesDem": 68146,
+          "votesTotal": 146786
+        },
+        "Wyoming42": {
+          "color": "#BF1D29",
+          "label": "Wagner +21.5",
+          "margin": 21.47,
+          "votesRep": 6344,
+          "votesDem": 4101,
+          "votesTotal": 10649
+        },
+        "York42": {
+          "color": "#FF5865",
+          "label": "Wagner +9.2",
+          "margin": 9.21,
+          "votesRep": 90590,
+          "votesDem": 75313,
+          "votesTotal": 168978
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Louis Barletta",
+      "candDem": "Robert Casey JR",
+      "shortRep": "Barletta",
+      "shortDem": "Casey",
+      "partisan": true,
+      "margin": -13.34,
+      "votesRep": 2135149,
+      "votesDem": 2792615,
+      "votesTotal": 5009890,
+      "regions": {
+        "Adams42": {
+          "color": "#BF1D29",
+          "label": "Barletta +22.3",
+          "margin": 22.3,
+          "votesRep": 23419,
+          "votesDem": 14880,
+          "votesTotal": 39102
+        },
+        "Allegheny42": {
+          "color": "#1C408C",
+          "label": "Casey +33.7",
+          "margin": -33.73,
+          "votesRep": 176351,
+          "votesDem": 355907,
+          "votesTotal": 541703
+        },
+        "Armstrong42": {
+          "color": "#BF1D29",
+          "label": "Barletta +28.6",
+          "margin": 28.64,
+          "votesRep": 15449,
+          "votesDem": 8570,
+          "votesTotal": 24488
+        },
+        "Beaver42": {
+          "color": "#8AAFFF",
+          "label": "Casey +3.8",
+          "margin": -3.81,
+          "votesRep": 31916,
+          "votesDem": 34442,
+          "votesTotal": 67642
+        },
+        "Bedford42": {
+          "color": "#BF1D29",
+          "label": "Barletta +50.9",
+          "margin": 50.92,
+          "votesRep": 14044,
+          "votesDem": 4567,
+          "votesTotal": 18823
+        },
+        "Berks42": {
+          "color": "#8AAFFF",
+          "label": "Casey +3.9",
+          "margin": -3.92,
+          "votesRep": 68159,
+          "votesDem": 73714,
+          "votesTotal": 144533
+        },
+        "Blair42": {
+          "color": "#BF1D29",
+          "label": "Barletta +31.2",
+          "margin": 31.18,
+          "votesRep": 27826,
+          "votesDem": 14599,
+          "votesTotal": 43165
+        },
+        "Bradford42": {
+          "color": "#BF1D29",
+          "label": "Barletta +30.6",
+          "margin": 30.59,
+          "votesRep": 13032,
+          "votesDem": 6926,
+          "votesTotal": 20328
+        },
+        "Bucks42": {
+          "color": "#1C408C",
+          "label": "Casey +14.3",
+          "margin": -14.26,
+          "votesRep": 124133,
+          "votesDem": 165408,
+          "votesTotal": 294317
+        },
+        "Butler42": {
+          "color": "#BF1D29",
+          "label": "Barletta +20.4",
+          "margin": 20.37,
+          "votesRep": 46875,
+          "votesDem": 31010,
+          "votesTotal": 79495
+        },
+        "Cambria42": {
+          "color": "#BF1D29",
+          "label": "Barletta +11.8",
+          "margin": 11.8,
+          "votesRep": 27367,
+          "votesDem": 21590,
+          "votesTotal": 49607
+        },
+        "Cameron42": {
+          "color": "#BF1D29",
+          "label": "Barletta +24.6",
+          "margin": 24.64,
+          "votesRep": 1080,
+          "votesDem": 653,
+          "votesTotal": 1765
+        },
+        "Carbon42": {
+          "color": "#BF1D29",
+          "label": "Barletta +21.5",
+          "margin": 21.48,
+          "votesRep": 13519,
+          "votesDem": 8739,
+          "votesTotal": 22574
+        },
+        "Centre42": {
+          "color": "#1C408C",
+          "label": "Casey +17.7",
+          "margin": -17.67,
+          "votesRep": 24332,
+          "votesDem": 34778,
+          "votesTotal": 60664
+        },
+        "Chester42": {
+          "color": "#1C408C",
+          "label": "Casey +20.5",
+          "margin": -20.54,
+          "votesRep": 92380,
+          "votesDem": 140138,
+          "votesTotal": 236718
+        },
+        "Clarion42": {
+          "color": "#BF1D29",
+          "label": "Barletta +28.4",
+          "margin": 28.44,
+          "votesRep": 8838,
+          "votesDem": 4924,
+          "votesTotal": 14031
+        },
+        "Clearfield42": {
+          "color": "#BF1D29",
+          "label": "Barletta +27.7",
+          "margin": 27.71,
+          "votesRep": 16852,
+          "votesDem": 9540,
+          "votesTotal": 26803
+        },
+        "Clinton42": {
+          "color": "#BF1D29",
+          "label": "Barletta +13.0",
+          "margin": 13,
+          "votesRep": 6869,
+          "votesDem": 5289,
+          "votesTotal": 12378
+        },
+        "Columbia42": {
+          "color": "#BF1D29",
+          "label": "Barletta +20.7",
+          "margin": 20.65,
+          "votesRep": 13437,
+          "votesDem": 8837,
+          "votesTotal": 22638
+        },
+        "Crawford42": {
+          "color": "#BF1D29",
+          "label": "Barletta +20.6",
+          "margin": 20.63,
+          "votesRep": 17813,
+          "votesDem": 11720,
+          "votesTotal": 30035
+        },
+        "Cumberland42": {
+          "color": "#FF5865",
+          "label": "Barletta +6.6",
+          "margin": 6.64,
+          "votesRep": 54525,
+          "votesDem": 47738,
+          "votesTotal": 104400
+        },
+        "Dauphin42": {
+          "color": "#1C408C",
+          "label": "Casey +11.6",
+          "margin": -11.61,
+          "votesRep": 47152,
+          "votesDem": 59533,
+          "votesTotal": 108708
+        },
+        "Delaware42": {
+          "color": "#1C408C",
+          "label": "Casey +31.8",
+          "margin": -31.82,
+          "votesRep": 84423,
+          "votesDem": 163216,
+          "votesTotal": 251002
+        },
+        "Elk42": {
+          "color": "#BF1D29",
+          "label": "Barletta +19.0",
+          "margin": 19.01,
+          "votesRep": 6610,
+          "votesDem": 4498,
+          "votesTotal": 11282
+        },
+        "Erie42": {
+          "color": "#1C408C",
+          "label": "Casey +18.7",
+          "margin": -18.7,
+          "votesRep": 40348,
+          "votesDem": 58906,
+          "votesTotal": 100889
+        },
+        "Fayette42": {
+          "color": "#FF8B98",
+          "label": "Barletta +2.4",
+          "margin": 2.37,
+          "votesRep": 20514,
+          "votesDem": 19563,
+          "votesTotal": 40705
+        },
+        "Forest42": {
+          "color": "#BF1D29",
+          "label": "Barletta +26.8",
+          "margin": 26.82,
+          "votesRep": 1201,
+          "votesDem": 693,
+          "votesTotal": 1932
+        },
+        "Franklin42": {
+          "color": "#BF1D29",
+          "label": "Barletta +35.8",
+          "margin": 35.75,
+          "votesRep": 36735,
+          "votesDem": 17385,
+          "votesTotal": 55027
+        },
+        "Fulton42": {
+          "color": "#BF1D29",
+          "label": "Barletta +59.5",
+          "margin": 59.46,
+          "votesRep": 4173,
+          "votesDem": 1061,
+          "votesTotal": 5304
+        },
+        "Greene42": {
+          "color": "#FF8B98",
+          "label": "Barletta +4.9",
+          "margin": 4.93,
+          "votesRep": 6422,
+          "votesDem": 5819,
+          "votesTotal": 12428
+        },
+        "Huntingdon42": {
+          "color": "#BF1D29",
+          "label": "Barletta +34.4",
+          "margin": 34.35,
+          "votesRep": 10491,
+          "votesDem": 5126,
+          "votesTotal": 15911
+        },
+        "Indiana42": {
+          "color": "#BF1D29",
+          "label": "Barletta +12.4",
+          "margin": 12.45,
+          "votesRep": 16314,
+          "votesDem": 12702,
+          "votesTotal": 29543
+        },
+        "Jefferson42": {
+          "color": "#BF1D29",
+          "label": "Barletta +42.0",
+          "margin": 42.03,
+          "votesRep": 10872,
+          "votesDem": 4437,
+          "votesTotal": 15576
+        },
+        "Juniata42": {
+          "color": "#BF1D29",
+          "label": "Barletta +41.6",
+          "margin": 41.63,
+          "votesRep": 5853,
+          "votesDem": 2412,
+          "votesTotal": 8468
+        },
+        "Lackawanna42": {
+          "color": "#1C408C",
+          "label": "Casey +23.4",
+          "margin": -23.42,
+          "votesRep": 31922,
+          "votesDem": 51444,
+          "votesTotal": 84256
+        },
+        "Lancaster42": {
+          "color": "#FF5865",
+          "label": "Barletta +8.6",
+          "margin": 8.55,
+          "votesRep": 107454,
+          "votesDem": 90521,
+          "votesTotal": 202364
+        },
+        "Lawrence42": {
+          "color": "#FF5865",
+          "label": "Barletta +9.6",
+          "margin": 9.62,
+          "votesRep": 17375,
+          "votesDem": 14324,
+          "votesTotal": 32147
+        },
+        "Lebanon42": {
+          "color": "#BF1D29",
+          "label": "Barletta +23.8",
+          "margin": 23.79,
+          "votesRep": 29836,
+          "votesDem": 18368,
+          "votesTotal": 49149
+        },
+        "Lehigh42": {
+          "color": "#1C408C",
+          "label": "Casey +16.7",
+          "margin": -16.68,
+          "votesRep": 52576,
+          "votesDem": 73632,
+          "votesTotal": 128438
+        },
+        "Luzerne42": {
+          "color": "#FF5865",
+          "label": "Barletta +8.2",
+          "margin": 8.24,
+          "votesRep": 58040,
+          "votesDem": 49200,
+          "votesTotal": 108296
+        },
+        "Lycoming42": {
+          "color": "#BF1D29",
+          "label": "Barletta +31.2",
+          "margin": 31.19,
+          "votesRep": 26488,
+          "votesDem": 13893,
+          "votesTotal": 41080
+        },
+        "McKean42": {
+          "color": "#BF1D29",
+          "label": "Barletta +35.2",
+          "margin": 35.19,
+          "votesRep": 8285,
+          "votesDem": 3972,
+          "votesTotal": 12454
+        },
+        "Mercer42": {
+          "color": "#BF1D29",
+          "label": "Barletta +10.3",
+          "margin": 10.28,
+          "votesRep": 22290,
+          "votesDem": 18136,
+          "votesTotal": 41097
+        },
+        "Mifflin42": {
+          "color": "#BF1D29",
+          "label": "Barletta +41.7",
+          "margin": 41.71,
+          "votesRep": 9564,
+          "votesDem": 3934,
+          "votesTotal": 13752
+        },
+        "Monroe42": {
+          "color": "#1C408C",
+          "label": "Casey +12.2",
+          "margin": -12.2,
+          "votesRep": 23968,
+          "votesDem": 30626,
+          "votesTotal": 55412
+        },
+        "Montgomery42": {
+          "color": "#1C408C",
+          "label": "Casey +32.5",
+          "margin": -32.47,
+          "votesRep": 126666,
+          "votesDem": 248454,
+          "votesTotal": 380865
+        },
+        "Montour42": {
+          "color": "#BF1D29",
+          "label": "Barletta +14.1",
+          "margin": 14.14,
+          "votesRep": 3943,
+          "votesDem": 2966,
+          "votesTotal": 7034
+        },
+        "Northampton42": {
+          "color": "#1C408C",
+          "label": "Casey +10.6",
+          "margin": -10.55,
+          "votesRep": 50385,
+          "votesDem": 62275,
+          "votesTotal": 114616
+        },
+        "Northumberland42": {
+          "color": "#BF1D29",
+          "label": "Barletta +26.0",
+          "margin": 26.02,
+          "votesRep": 17926,
+          "votesDem": 10524,
+          "votesTotal": 28875
+        },
+        "Perry42": {
+          "color": "#BF1D29",
+          "label": "Barletta +38.2",
+          "margin": 38.24,
+          "votesRep": 11607,
+          "votesDem": 5186,
+          "votesTotal": 17178
+        },
+        "Philadelphia42": {
+          "color": "#1C408C",
+          "label": "Casey +75.7",
+          "margin": -75.68,
+          "votesRep": 66653,
+          "votesDem": 481467,
+          "votesTotal": 554507
+        },
+        "Pike42": {
+          "color": "#BF1D29",
+          "label": "Barletta +15.0",
+          "margin": 15.03,
+          "votesRep": 11772,
+          "votesDem": 8696,
+          "votesTotal": 20794
+        },
+        "Potter42": {
+          "color": "#BF1D29",
+          "label": "Barletta +49.6",
+          "margin": 49.61,
+          "votesRep": 4564,
+          "votesDem": 1537,
+          "votesTotal": 6202
+        },
+        "Schuylkill42": {
+          "color": "#BF1D29",
+          "label": "Barletta +26.5",
+          "margin": 26.51,
+          "votesRep": 30452,
+          "votesDem": 17691,
+          "votesTotal": 48842
+        },
+        "Snyder42": {
+          "color": "#BF1D29",
+          "label": "Barletta +34.3",
+          "margin": 34.26,
+          "votesRep": 8826,
+          "votesDem": 4322,
+          "votesTotal": 13393
+        },
+        "Somerset42": {
+          "color": "#BF1D29",
+          "label": "Barletta +33.9",
+          "margin": 33.93,
+          "votesRep": 18896,
+          "votesDem": 9322,
+          "votesTotal": 28637
+        },
+        "Sullivan42": {
+          "color": "#BF1D29",
+          "label": "Barletta +28.3",
+          "margin": 28.26,
+          "votesRep": 1720,
+          "votesDem": 962,
+          "votesTotal": 2730
+        },
+        "Susquehanna42": {
+          "color": "#BF1D29",
+          "label": "Barletta +29.4",
+          "margin": 29.37,
+          "votesRep": 10112,
+          "votesDem": 5521,
+          "votesTotal": 15916
+        },
+        "Tioga42": {
+          "color": "#BF1D29",
+          "label": "Barletta +42.4",
+          "margin": 42.38,
+          "votesRep": 10242,
+          "votesDem": 4145,
+          "votesTotal": 14704
+        },
+        "Union42": {
+          "color": "#BF1D29",
+          "label": "Barletta +17.0",
+          "margin": 16.99,
+          "votesRep": 8317,
+          "votesDem": 5901,
+          "votesTotal": 14441
+        },
+        "Venango42": {
+          "color": "#BF1D29",
+          "label": "Barletta +23.5",
+          "margin": 23.49,
+          "votesRep": 11210,
+          "votesDem": 6945,
+          "votesTotal": 18512
+        },
+        "Warren42": {
+          "color": "#BF1D29",
+          "label": "Barletta +23.7",
+          "margin": 23.68,
+          "votesRep": 8734,
+          "votesDem": 5390,
+          "votesTotal": 14369
+        },
+        "Washington42": {
+          "color": "#FF8B98",
+          "label": "Barletta +3.4",
+          "margin": 3.37,
+          "votesRep": 41958,
+          "votesDem": 39220,
+          "votesTotal": 82496
+        },
+        "Wayne42": {
+          "color": "#BF1D29",
+          "label": "Barletta +23.3",
+          "margin": 23.34,
+          "votesRep": 12269,
+          "votesDem": 7625,
+          "votesTotal": 20162
+        },
+        "Westmoreland42": {
+          "color": "#BF1D29",
+          "label": "Barletta +10.8",
+          "margin": 10.76,
+          "votesRep": 79379,
+          "votesDem": 63956,
+          "votesTotal": 145748
+        },
+        "Wyoming42": {
+          "color": "#BF1D29",
+          "label": "Barletta +26.0",
+          "margin": 25.97,
+          "votesRep": 6582,
+          "votesDem": 3868,
+          "votesTotal": 10628
+        },
+        "York42": {
+          "color": "#BF1D29",
+          "label": "Barletta +16.1",
+          "margin": 16.08,
+          "votesRep": 95814,
+          "votesDem": 69272,
+          "votesTotal": 168812
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Patrick Toomey",
+      "candDem": "Katie McGinty",
+      "shortRep": "Toomey",
+      "shortDem": "McGinty",
+      "partisan": true,
+      "margin": 1.49,
+      "votesRep": 2951706,
+      "votesDem": 2865009,
+      "votesTotal": 6051857,
+      "regions": {
+        "Adams42": {
+          "color": "#BF1D29",
+          "label": "Toomey +35.3",
+          "margin": 35.26,
+          "votesRep": 30492,
+          "votesDem": 14593,
+          "votesTotal": 47503
+        },
+        "Allegheny42": {
+          "color": "#1C408C",
+          "label": "McGinty +15.5",
+          "margin": -15.54,
+          "votesRep": 261316,
+          "votesDem": 357450,
+          "votesTotal": 647026
+        },
+        "Armstrong42": {
+          "color": "#BF1D29",
+          "label": "Toomey +42.5",
+          "margin": 42.52,
+          "votesRep": 20793,
+          "votesDem": 8387,
+          "votesTotal": 31400
+        },
+        "Beaver42": {
+          "color": "#BF1D29",
+          "label": "Toomey +12.4",
+          "margin": 12.44,
+          "votesRep": 44000,
+          "votesDem": 34263,
+          "votesTotal": 83321
+        },
+        "Bedford42": {
+          "color": "#BF1D29",
+          "label": "Toomey +60.6",
+          "margin": 60.57,
+          "votesRep": 17739,
+          "votesDem": 4356,
+          "votesTotal": 23439
+        },
+        "Berks42": {
+          "color": "#BF1D29",
+          "label": "Toomey +10.7",
+          "margin": 10.69,
+          "votesRep": 95466,
+          "votesDem": 77028,
+          "votesTotal": 179413
+        },
+        "Blair42": {
+          "color": "#BF1D29",
+          "label": "Toomey +41.5",
+          "margin": 41.49,
+          "votesRep": 36533,
+          "votesDem": 15107,
+          "votesTotal": 54790
+        },
+        "Bradford42": {
+          "color": "#BF1D29",
+          "label": "Toomey +40.7",
+          "margin": 40.7,
+          "votesRep": 16574,
+          "votesDem": 6985,
+          "votesTotal": 25559
+        },
+        "Bucks42": {
+          "color": "#FF5865",
+          "label": "Toomey +5.5",
+          "margin": 5.45,
+          "votesRep": 175898,
+          "votesDem": 157709,
+          "votesTotal": 339452
+        },
+        "Butler42": {
+          "color": "#BF1D29",
+          "label": "Toomey +37.0",
+          "margin": 36.99,
+          "votesRep": 62425,
+          "votesDem": 28715,
+          "votesTotal": 96605
+        },
+        "Cambria42": {
+          "color": "#BF1D29",
+          "label": "Toomey +25.6",
+          "margin": 25.58,
+          "votesRep": 36948,
+          "votesDem": 21894,
+          "votesTotal": 62728
+        },
+        "Cameron42": {
+          "color": "#BF1D29",
+          "label": "Toomey +40.2",
+          "margin": 40.19,
+          "votesRep": 1390,
+          "votesDem": 593,
+          "votesTotal": 2154
+        },
+        "Carbon42": {
+          "color": "#BF1D29",
+          "label": "Toomey +23.7",
+          "margin": 23.72,
+          "votesRep": 16360,
+          "votesDem": 10086,
+          "votesTotal": 28216
+        },
+        "Centre42": {
+          "color": "#FF8B98",
+          "label": "Toomey +1.4",
+          "margin": 1.44,
+          "votesRep": 36527,
+          "votesDem": 35487,
+          "votesTotal": 76392
+        },
+        "Chester42": {
+          "color": "#FF8B98",
+          "label": "Toomey +2.3",
+          "margin": 2.34,
+          "votesRep": 133662,
+          "votesDem": 127552,
+          "votesTotal": 270802
+        },
+        "Clarion42": {
+          "color": "#BF1D29",
+          "label": "Toomey +39.3",
+          "margin": 39.28,
+          "votesRep": 11310,
+          "votesDem": 4931,
+          "votesTotal": 17445
+        },
+        "Clearfield42": {
+          "color": "#BF1D29",
+          "label": "Toomey +40.1",
+          "margin": 40.13,
+          "votesRep": 22128,
+          "votesDem": 9454,
+          "votesTotal": 34011
+        },
+        "Clinton42": {
+          "color": "#BF1D29",
+          "label": "Toomey +22.5",
+          "margin": 22.45,
+          "votesRep": 8702,
+          "votesDem": 5511,
+          "votesTotal": 15165
+        },
+        "Columbia42": {
+          "color": "#BF1D29",
+          "label": "Toomey +24.8",
+          "margin": 24.79,
+          "votesRep": 16292,
+          "votesDem": 9819,
+          "votesTotal": 28102
+        },
+        "Crawford42": {
+          "color": "#BF1D29",
+          "label": "Toomey +37.8",
+          "margin": 37.8,
+          "votesRep": 24472,
+          "votesDem": 11047,
+          "votesTotal": 37259
+        },
+        "Cumberland42": {
+          "color": "#BF1D29",
+          "label": "Toomey +23.1",
+          "margin": 23.05,
+          "votesRep": 71638,
+          "votesDem": 44796,
+          "votesTotal": 121943
+        },
+        "Dauphin42": {
+          "color": "#CF8980",
+          "label": "Toomey +0.9",
+          "margin": 0.94,
+          "votesRep": 63740,
+          "votesDem": 62551,
+          "votesTotal": 128674
+        },
+        "Delaware42": {
+          "color": "#1C408C",
+          "label": "McGinty +12.8",
+          "margin": -12.8,
+          "votesRep": 126300,
+          "votesDem": 163377,
+          "votesTotal": 293625
+        },
+        "Elk42": {
+          "color": "#BF1D29",
+          "label": "Toomey +31.7",
+          "margin": 31.74,
+          "votesRep": 8703,
+          "votesDem": 4509,
+          "votesTotal": 14323
+        },
+        "Erie42": {
+          "color": "#FF8B98",
+          "label": "Toomey +3.5",
+          "margin": 3.48,
+          "votesRep": 60948,
+          "votesDem": 56846,
+          "votesTotal": 122724
+        },
+        "Fayette42": {
+          "color": "#BF1D29",
+          "label": "Toomey +18.2",
+          "margin": 18.21,
+          "votesRep": 29699,
+          "votesDem": 20547,
+          "votesTotal": 53204
+        },
+        "Forest42": {
+          "color": "#BF1D29",
+          "label": "Toomey +35.9",
+          "margin": 35.93,
+          "votesRep": 1502,
+          "votesDem": 708,
+          "votesTotal": 2374
+        },
+        "Franklin42": {
+          "color": "#BF1D29",
+          "label": "Toomey +46.4",
+          "margin": 46.37,
+          "votesRep": 48658,
+          "votesDem": 17827,
+          "votesTotal": 69794
+        },
+        "Fulton42": {
+          "color": "#BF1D29",
+          "label": "Toomey +68.4",
+          "margin": 68.37,
+          "votesRep": 5456,
+          "votesDem": 1025,
+          "votesTotal": 6731
+        },
+        "Greene42": {
+          "color": "#BF1D29",
+          "label": "Toomey +21.6",
+          "margin": 21.59,
+          "votesRep": 8826,
+          "votesDem": 5692,
+          "votesTotal": 15414
+        },
+        "Huntingdon42": {
+          "color": "#BF1D29",
+          "label": "Toomey +43.8",
+          "margin": 43.85,
+          "votesRep": 13078,
+          "votesDem": 5105,
+          "votesTotal": 19589
+        },
+        "Indiana42": {
+          "color": "#BF1D29",
+          "label": "Toomey +27.7",
+          "margin": 27.71,
+          "votesRep": 22245,
+          "votesDem": 12592,
+          "votesTotal": 37792
+        },
+        "Jefferson42": {
+          "color": "#BF1D29",
+          "label": "Toomey +53.4",
+          "margin": 53.43,
+          "votesRep": 13706,
+          "votesDem": 4160,
+          "votesTotal": 19317
+        },
+        "Juniata42": {
+          "color": "#BF1D29",
+          "label": "Toomey +56.1",
+          "margin": 56.11,
+          "votesRep": 7657,
+          "votesDem": 2153,
+          "votesTotal": 10422
+        },
+        "Lackawanna42": {
+          "color": "#1C408C",
+          "label": "McGinty +14.2",
+          "margin": -14.2,
+          "votesRep": 40519,
+          "votesDem": 53936,
+          "votesTotal": 101910
+        },
+        "Lancaster42": {
+          "color": "#BF1D29",
+          "label": "Toomey +22.7",
+          "margin": 22.71,
+          "votesRep": 142774,
+          "votesDem": 89922,
+          "votesTotal": 242605
+        },
+        "Lawrence42": {
+          "color": "#BF1D29",
+          "label": "Toomey +19.5",
+          "margin": 19.45,
+          "votesRep": 22674,
+          "votesDem": 15289,
+          "votesTotal": 40280
+        },
+        "Lebanon42": {
+          "color": "#BF1D29",
+          "label": "Toomey +34.7",
+          "margin": 34.73,
+          "votesRep": 39386,
+          "votesDem": 19079,
+          "votesTotal": 61525
+        },
+        "Lehigh42": {
+          "color": "#949BB3",
+          "label": "McGinty +0.7",
+          "margin": -0.66,
+          "votesRep": 76216,
+          "votesDem": 77232,
+          "votesTotal": 160075
+        },
+        "Luzerne42": {
+          "color": "#FF5865",
+          "label": "Toomey +8.2",
+          "margin": 8.19,
+          "votesRep": 66551,
+          "votesDem": 56477,
+          "votesTotal": 131678
+        },
+        "Lycoming42": {
+          "color": "#BF1D29",
+          "label": "Toomey +39.9",
+          "margin": 39.89,
+          "votesRep": 33015,
+          "votesDem": 14187,
+          "votesTotal": 50567
+        },
+        "McKean42": {
+          "color": "#BF1D29",
+          "label": "Toomey +48.6",
+          "margin": 48.61,
+          "votesRep": 11530,
+          "votesDem": 3987,
+          "votesTotal": 16122
+        },
+        "Mercer42": {
+          "color": "#BF1D29",
+          "label": "Toomey +22.9",
+          "margin": 22.86,
+          "votesRep": 30567,
+          "votesDem": 19193,
+          "votesTotal": 51806
+        },
+        "Mifflin42": {
+          "color": "#BF1D29",
+          "label": "Toomey +52.9",
+          "margin": 52.91,
+          "votesRep": 13089,
+          "votesDem": 4031,
+          "votesTotal": 18213
+        },
+        "Monroe42": {
+          "color": "#577CCC",
+          "label": "McGinty +5.4",
+          "margin": -5.44,
+          "votesRep": 30743,
+          "votesDem": 34280,
+          "votesTotal": 66791
+        },
+        "Montgomery42": {
+          "color": "#1C408C",
+          "label": "McGinty +11.2",
+          "margin": -11.19,
+          "votesRep": 189574,
+          "votesDem": 237353,
+          "votesTotal": 432358
+        },
+        "Montour42": {
+          "color": "#BF1D29",
+          "label": "Toomey +27.2",
+          "margin": 27.22,
+          "votesRep": 5066,
+          "votesDem": 2898,
+          "votesTotal": 8550
+        },
+        "Northampton42": {
+          "color": "#FF5865",
+          "label": "Toomey +5.9",
+          "margin": 5.89,
+          "votesRep": 72176,
+          "votesDem": 64148,
+          "votesTotal": 139890
+        },
+        "Northumberland42": {
+          "color": "#BF1D29",
+          "label": "Toomey +32.5",
+          "margin": 32.51,
+          "votesRep": 21826,
+          "votesDem": 11117,
+          "votesTotal": 35535
+        },
+        "Perry42": {
+          "color": "#BF1D29",
+          "label": "Toomey +50.0",
+          "margin": 50.03,
+          "votesRep": 14898,
+          "votesDem": 4962,
+          "votesTotal": 21091
+        },
+        "Philadelphia42": {
+          "color": "#1C408C",
+          "label": "McGinty +65.5",
+          "margin": -65.53,
+          "votesRep": 116714,
+          "votesDem": 560421,
+          "votesTotal": 685165
+        },
+        "Pike42": {
+          "color": "#BF1D29",
+          "label": "Toomey +23.9",
+          "margin": 23.91,
+          "votesRep": 15192,
+          "votesDem": 9329,
+          "votesTotal": 25634
+        },
+        "Potter42": {
+          "color": "#BF1D29",
+          "label": "Toomey +62.4",
+          "margin": 62.4,
+          "votesRep": 5990,
+          "votesDem": 1387,
+          "votesTotal": 7700
+        },
+        "Schuylkill42": {
+          "color": "#BF1D29",
+          "label": "Toomey +31.8",
+          "margin": 31.8,
+          "votesRep": 37757,
+          "votesDem": 19539,
+          "votesTotal": 62128
+        },
+        "Snyder42": {
+          "color": "#BF1D29",
+          "label": "Toomey +43.3",
+          "margin": 43.31,
+          "votesRep": 10867,
+          "votesDem": 4299,
+          "votesTotal": 16282
+        },
+        "Somerset42": {
+          "color": "#BF1D29",
+          "label": "Toomey +50.7",
+          "margin": 50.67,
+          "votesRep": 25470,
+          "votesDem": 8340,
+          "votesTotal": 35733
+        },
+        "Sullivan42": {
+          "color": "#BF1D29",
+          "label": "Toomey +39.9",
+          "margin": 39.94,
+          "votesRep": 2020,
+          "votesDem": 867,
+          "votesTotal": 3093
+        },
+        "Susquehanna42": {
+          "color": "#BF1D29",
+          "label": "Toomey +36.9",
+          "margin": 36.85,
+          "votesRep": 11996,
+          "votesDem": 5535,
+          "votesTotal": 19247
+        },
+        "Tioga42": {
+          "color": "#BF1D29",
+          "label": "Toomey +54.1",
+          "margin": 54.14,
+          "votesRep": 13418,
+          "votesDem": 3992,
+          "votesTotal": 18174
+        },
+        "Union42": {
+          "color": "#BF1D29",
+          "label": "Toomey +26.9",
+          "margin": 26.87,
+          "votesRep": 10568,
+          "votesDem": 6092,
+          "votesTotal": 17501
+        },
+        "Venango42": {
+          "color": "#BF1D29",
+          "label": "Toomey +35.2",
+          "margin": 35.2,
+          "votesRep": 14581,
+          "votesDem": 6989,
+          "votesTotal": 23208
+        },
+        "Warren42": {
+          "color": "#BF1D29",
+          "label": "Toomey +40.6",
+          "margin": 40.61,
+          "votesRep": 12130,
+          "votesDem": 5124,
+          "votesTotal": 18212
+        },
+        "Washington42": {
+          "color": "#BF1D29",
+          "label": "Toomey +19.8",
+          "margin": 19.79,
+          "votesRep": 56952,
+          "votesDem": 38133,
+          "votesTotal": 100909
+        },
+        "Wayne42": {
+          "color": "#BF1D29",
+          "label": "Toomey +32.0",
+          "margin": 32.01,
+          "votesRep": 14538,
+          "votesDem": 7487,
+          "votesTotal": 23828
+        },
+        "Westmoreland42": {
+          "color": "#BF1D29",
+          "label": "Toomey +26.1",
+          "margin": 26.13,
+          "votesRep": 107532,
+          "votesDem": 62981,
+          "votesTotal": 180258
+        },
+        "Wyoming42": {
+          "color": "#BF1D29",
+          "label": "Toomey +30.8",
+          "margin": 30.76,
+          "votesRep": 7844,
+          "votesDem": 4154,
+          "votesTotal": 13066
+        },
+        "York42": {
+          "color": "#BF1D29",
+          "label": "Toomey +29.1",
+          "margin": 29.1,
+          "votesRep": 126350,
+          "votesDem": 69394,
+          "votesTotal": 206015
+        }
+      }
+    }
+  ]
+}

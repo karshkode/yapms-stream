@@ -1,0 +1,2195 @@
+{
+  "stateFips": "38",
+  "stateName": "North Dakota",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Kelly Armstrong",
+      "candDem": "Merrill Piepkorn",
+      "shortRep": "Armstrong",
+      "shortDem": "Piepkorn",
+      "partisan": true,
+      "margin": 43.54,
+      "votesRep": 209666,
+      "votesDem": 82474,
+      "votesTotal": 309333,
+      "regions": {
+        "Adams38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +71.6",
+          "margin": 71.58,
+          "votesRep": 978,
+          "votesDem": 162,
+          "votesTotal": 1194
+        },
+        "Barnes38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +44.1",
+          "margin": 44.12,
+          "votesRep": 3655,
+          "votesDem": 1417,
+          "votesTotal": 5284
+        },
+        "Benson38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +23.9",
+          "margin": 23.91,
+          "votesRep": 1135,
+          "votesDem": 697,
+          "votesTotal": 1938
+        },
+        "Billings38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +72.2",
+          "margin": 72.18,
+          "votesRep": 526,
+          "votesDem": 85,
+          "votesTotal": 650
+        },
+        "Bottineau38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +61.2",
+          "margin": 61.21,
+          "votesRep": 2585,
+          "votesDem": 622,
+          "votesTotal": 3426
+        },
+        "Bowman38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +78.0",
+          "margin": 78.05,
+          "votesRep": 1387,
+          "votesDem": 171,
+          "votesTotal": 1618
+        },
+        "Burke38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +76.7",
+          "margin": 76.74,
+          "votesRep": 874,
+          "votesDem": 115,
+          "votesTotal": 1045
+        },
+        "Cass38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +18.3",
+          "margin": 18.27,
+          "votesRep": 50505,
+          "votesDem": 34903,
+          "votesTotal": 89501
+        },
+        "Cavalier38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +57.6",
+          "margin": 57.61,
+          "votesRep": 1491,
+          "votesDem": 401,
+          "votesTotal": 1972
+        },
+        "Dickey38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +57.2",
+          "margin": 57.17,
+          "votesRep": 1802,
+          "votesDem": 491,
+          "votesTotal": 2417
+        },
+        "Dunn38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +73.5",
+          "margin": 73.49,
+          "votesRep": 1806,
+          "votesDem": 276,
+          "votesTotal": 2217
+        },
+        "Eddy38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +50.7",
+          "margin": 50.7,
+          "votesRep": 856,
+          "votesDem": 280,
+          "votesTotal": 1205
+        },
+        "Emmons38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +79.3",
+          "margin": 79.26,
+          "votesRep": 1582,
+          "votesDem": 183,
+          "votesTotal": 1898
+        },
+        "Foster38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +64.1",
+          "margin": 64.1,
+          "votesRep": 1330,
+          "votesDem": 291,
+          "votesTotal": 1692
+        },
+        "Golden Valley38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +78.2",
+          "margin": 78.19,
+          "votesRep": 825,
+          "votesDem": 101,
+          "votesTotal": 976
+        },
+        "Grand Forks38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +30.4",
+          "margin": 30.38,
+          "votesRep": 19016,
+          "votesDem": 10153,
+          "votesTotal": 30656
+        },
+        "Grant38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +72.7",
+          "margin": 72.73,
+          "votesRep": 1045,
+          "votesDem": 165,
+          "votesTotal": 1304
+        },
+        "Griggs38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +58.1",
+          "margin": 58.09,
+          "votesRep": 977,
+          "votesDem": 259,
+          "votesTotal": 1277
+        },
+        "Hettinger38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +76.9",
+          "margin": 76.9,
+          "votesRep": 1057,
+          "votesDem": 138,
+          "votesTotal": 1279
+        },
+        "Kidder38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +70.5",
+          "margin": 70.46,
+          "votesRep": 1085,
+          "votesDem": 188,
+          "votesTotal": 1378
+        },
+        "LaMoure38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +60.9",
+          "margin": 60.93,
+          "votesRep": 1619,
+          "votesDem": 393,
+          "votesTotal": 2116
+        },
+        "Logan38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +77.8",
+          "margin": 77.75,
+          "votesRep": 855,
+          "votesDem": 107,
+          "votesTotal": 1029
+        },
+        "McHenry38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +65.7",
+          "margin": 65.71,
+          "votesRep": 2102,
+          "votesDem": 435,
+          "votesTotal": 2727
+        },
+        "McIntosh38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +65.2",
+          "margin": 65.2,
+          "votesRep": 1087,
+          "votesDem": 229,
+          "votesTotal": 1380
+        },
+        "McKenzie38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +75.2",
+          "margin": 75.17,
+          "votesRep": 4473,
+          "votesDem": 634,
+          "votesTotal": 5410
+        },
+        "McLean38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +62.6",
+          "margin": 62.56,
+          "votesRep": 4094,
+          "votesDem": 943,
+          "votesTotal": 5375
+        },
+        "Mercer38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +71.2",
+          "margin": 71.23,
+          "votesRep": 3625,
+          "votesDem": 609,
+          "votesTotal": 4512
+        },
+        "Morton38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +59.3",
+          "margin": 59.31,
+          "votesRep": 12297,
+          "votesDem": 3141,
+          "votesTotal": 16617
+        },
+        "Mountrail38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +46.2",
+          "margin": 46.25,
+          "votesRep": 2759,
+          "votesDem": 1014,
+          "votesTotal": 4023
+        },
+        "Nelson38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +38.6",
+          "margin": 38.64,
+          "votesRep": 1159,
+          "votesDem": 513,
+          "votesTotal": 1741
+        },
+        "Oliver38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +73.5",
+          "margin": 73.55,
+          "votesRep": 866,
+          "votesDem": 132,
+          "votesTotal": 1068
+        },
+        "Pembina38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +59.3",
+          "margin": 59.35,
+          "votesRep": 2387,
+          "votesDem": 609,
+          "votesTotal": 3089
+        },
+        "Pierce38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +60.6",
+          "margin": 60.63,
+          "votesRep": 1477,
+          "votesDem": 362,
+          "votesTotal": 1959
+        },
+        "Ramsey38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +50.8",
+          "margin": 50.79,
+          "votesRep": 3671,
+          "votesDem": 1198,
+          "votesTotal": 5179
+        },
+        "Ransom38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +36.1",
+          "margin": 36.08,
+          "votesRep": 1699,
+          "votesDem": 798,
+          "votesTotal": 2621
+        },
+        "Renville38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +72.7",
+          "margin": 72.73,
+          "votesRep": 969,
+          "votesDem": 153,
+          "votesTotal": 1202
+        },
+        "Richland38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +46.4",
+          "margin": 46.35,
+          "votesRep": 5710,
+          "votesDem": 2093,
+          "votesTotal": 8163
+        },
+        "Rolette38": {
+          "color": "#1C408C",
+          "label": "Piepkorn +18.4",
+          "margin": -18.35,
+          "votesRep": 1548,
+          "votesDem": 2244,
+          "votesTotal": 3983
+        },
+        "Sargent38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +36.9",
+          "margin": 36.89,
+          "votesRep": 1310,
+          "votesDem": 604,
+          "votesTotal": 2018
+        },
+        "Sheridan38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +71.9",
+          "margin": 71.94,
+          "votesRep": 576,
+          "votesDem": 94,
+          "votesTotal": 746
+        },
+        "Sioux38": {
+          "color": "#1C408C",
+          "label": "Piepkorn +27.2",
+          "margin": -27.19,
+          "votesRep": 312,
+          "votesDem": 545,
+          "votesTotal": 942
+        },
+        "Slope38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +84.8",
+          "margin": 84.78,
+          "votesRep": 340,
+          "votesDem": 28,
+          "votesTotal": 391
+        },
+        "Stark38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +74.1",
+          "margin": 74.12,
+          "votesRep": 12056,
+          "votesDem": 1792,
+          "votesTotal": 14829
+        },
+        "Steele38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +32.3",
+          "margin": 32.28,
+          "votesRep": 627,
+          "votesDem": 321,
+          "votesTotal": 1001
+        },
+        "Stutsman38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +52.9",
+          "margin": 52.92,
+          "votesRep": 7009,
+          "votesDem": 2158,
+          "votesTotal": 9751
+        },
+        "Towner38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +53.4",
+          "margin": 53.44,
+          "votesRep": 804,
+          "votesDem": 244,
+          "votesTotal": 1107
+        },
+        "Traill38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +40.2",
+          "margin": 40.22,
+          "votesRep": 2721,
+          "votesDem": 1160,
+          "votesTotal": 4065
+        },
+        "Walsh38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +54.4",
+          "margin": 54.44,
+          "votesRep": 3305,
+          "votesDem": 975,
+          "votesTotal": 4482
+        },
+        "Ward38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +56.2",
+          "margin": 56.16,
+          "votesRep": 20361,
+          "votesDem": 5716,
+          "votesTotal": 28010
+        },
+        "Wells38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +66.9",
+          "margin": 66.87,
+          "votesRep": 1662,
+          "votesDem": 330,
+          "votesTotal": 2223
+        },
+        "Williams38": {
+          "color": "#BF1D29",
+          "label": "Armstrong +73.2",
+          "margin": 73.25,
+          "votesRep": 11669,
+          "votesDem": 1802,
+          "votesTotal": 14647
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Kevin Cramer",
+      "candDem": "Katrina Christiansen",
+      "shortRep": "Cramer",
+      "shortDem": "Christiansen",
+      "partisan": true,
+      "margin": 33.03,
+      "votesRep": 241569,
+      "votesDem": 121602,
+      "votesTotal": 364327,
+      "regions": {
+        "Adams38": {
+          "color": "#BF1D29",
+          "label": "Cramer +56.5",
+          "margin": 56.54,
+          "votesRep": 933,
+          "votesDem": 259,
+          "votesTotal": 1197
+        },
+        "Barnes38": {
+          "color": "#BF1D29",
+          "label": "Cramer +28.3",
+          "margin": 28.32,
+          "votesRep": 3403,
+          "votesDem": 1901,
+          "votesTotal": 5320
+        },
+        "Benson38": {
+          "color": "#BF1D29",
+          "label": "Cramer +10.2",
+          "margin": 10.19,
+          "votesRep": 1071,
+          "votesDem": 873,
+          "votesTotal": 1947
+        },
+        "Billings38": {
+          "color": "#BF1D29",
+          "label": "Cramer +63.8",
+          "margin": 63.78,
+          "votesRep": 529,
+          "votesDem": 117,
+          "votesTotal": 650
+        },
+        "Bottineau38": {
+          "color": "#BF1D29",
+          "label": "Cramer +47.4",
+          "margin": 47.45,
+          "votesRep": 2511,
+          "votesDem": 895,
+          "votesTotal": 3419
+        },
+        "Bowman38": {
+          "color": "#BF1D29",
+          "label": "Cramer +67.4",
+          "margin": 67.37,
+          "votesRep": 1349,
+          "votesDem": 263,
+          "votesTotal": 1615
+        },
+        "Burke38": {
+          "color": "#BF1D29",
+          "label": "Cramer +66.4",
+          "margin": 66.44,
+          "votesRep": 868,
+          "votesDem": 175,
+          "votesTotal": 1051
+        },
+        "Burleigh38": {
+          "color": "#BF1D29",
+          "label": "Cramer +38.9",
+          "margin": 38.94,
+          "votesRep": 35755,
+          "votesDem": 15714,
+          "votesTotal": 51709
+        },
+        "Cass38": {
+          "color": "#FF5865",
+          "label": "Cramer +8.1",
+          "margin": 8.13,
+          "votesRep": 48637,
+          "votesDem": 41321,
+          "votesTotal": 90157
+        },
+        "Cavalier38": {
+          "color": "#BF1D29",
+          "label": "Cramer +43.3",
+          "margin": 43.32,
+          "votesRep": 1421,
+          "votesDem": 562,
+          "votesTotal": 1989
+        },
+        "Dickey38": {
+          "color": "#BF1D29",
+          "label": "Cramer +41.8",
+          "margin": 41.85,
+          "votesRep": 1722,
+          "votesDem": 706,
+          "votesTotal": 2430
+        },
+        "Divide38": {
+          "color": "#BF1D29",
+          "label": "Cramer +48.3",
+          "margin": 48.33,
+          "votesRep": 887,
+          "votesDem": 309,
+          "votesTotal": 1200
+        },
+        "Dunn38": {
+          "color": "#BF1D29",
+          "label": "Cramer +64.1",
+          "margin": 64.09,
+          "votesRep": 1805,
+          "votesDem": 395,
+          "votesTotal": 2208
+        },
+        "Eddy38": {
+          "color": "#BF1D29",
+          "label": "Cramer +37.3",
+          "margin": 37.29,
+          "votesRep": 832,
+          "votesDem": 380,
+          "votesTotal": 1216
+        },
+        "Emmons38": {
+          "color": "#BF1D29",
+          "label": "Cramer +62.4",
+          "margin": 62.41,
+          "votesRep": 1534,
+          "votesDem": 355,
+          "votesTotal": 1901
+        },
+        "Foster38": {
+          "color": "#BF1D29",
+          "label": "Cramer +51.6",
+          "margin": 51.63,
+          "votesRep": 1279,
+          "votesDem": 408,
+          "votesTotal": 1690
+        },
+        "Golden Valley38": {
+          "color": "#BF1D29",
+          "label": "Cramer +68.1",
+          "margin": 68.1,
+          "votesRep": 822,
+          "votesDem": 156,
+          "votesTotal": 980
+        },
+        "Grand Forks38": {
+          "color": "#BF1D29",
+          "label": "Cramer +19.7",
+          "margin": 19.69,
+          "votesRep": 18509,
+          "votesDem": 12418,
+          "votesTotal": 30998
+        },
+        "Grant38": {
+          "color": "#BF1D29",
+          "label": "Cramer +59.0",
+          "margin": 58.99,
+          "votesRep": 1035,
+          "votesDem": 267,
+          "votesTotal": 1305
+        },
+        "Griggs38": {
+          "color": "#BF1D29",
+          "label": "Cramer +45.9",
+          "margin": 45.91,
+          "votesRep": 936,
+          "votesDem": 347,
+          "votesTotal": 1287
+        },
+        "Hettinger38": {
+          "color": "#BF1D29",
+          "label": "Cramer +64.9",
+          "margin": 64.9,
+          "votesRep": 1057,
+          "votesDem": 225,
+          "votesTotal": 1284
+        },
+        "Kidder38": {
+          "color": "#BF1D29",
+          "label": "Cramer +53.9",
+          "margin": 53.94,
+          "votesRep": 1056,
+          "votesDem": 316,
+          "votesTotal": 1374
+        },
+        "LaMoure38": {
+          "color": "#BF1D29",
+          "label": "Cramer +45.1",
+          "margin": 45.11,
+          "votesRep": 1536,
+          "votesDem": 581,
+          "votesTotal": 2123
+        },
+        "Logan38": {
+          "color": "#BF1D29",
+          "label": "Cramer +63.7",
+          "margin": 63.65,
+          "votesRep": 833,
+          "votesDem": 185,
+          "votesTotal": 1024
+        },
+        "McHenry38": {
+          "color": "#BF1D29",
+          "label": "Cramer +52.2",
+          "margin": 52.23,
+          "votesRep": 2068,
+          "votesDem": 649,
+          "votesTotal": 2727
+        },
+        "McIntosh38": {
+          "color": "#BF1D29",
+          "label": "Cramer +53.2",
+          "margin": 53.18,
+          "votesRep": 1060,
+          "votesDem": 324,
+          "votesTotal": 1390
+        },
+        "McKenzie38": {
+          "color": "#BF1D29",
+          "label": "Cramer +66.8",
+          "margin": 66.81,
+          "votesRep": 4523,
+          "votesDem": 900,
+          "votesTotal": 5445
+        },
+        "McLean38": {
+          "color": "#BF1D29",
+          "label": "Cramer +48.8",
+          "margin": 48.79,
+          "votesRep": 3981,
+          "votesDem": 1370,
+          "votesTotal": 5372
+        },
+        "Mercer38": {
+          "color": "#BF1D29",
+          "label": "Cramer +54.3",
+          "margin": 54.34,
+          "votesRep": 3414,
+          "votesDem": 1010,
+          "votesTotal": 4455
+        },
+        "Morton38": {
+          "color": "#BF1D29",
+          "label": "Cramer +46.9",
+          "margin": 46.92,
+          "votesRep": 12263,
+          "votesDem": 4431,
+          "votesTotal": 16769
+        },
+        "Mountrail38": {
+          "color": "#BF1D29",
+          "label": "Cramer +40.1",
+          "margin": 40.08,
+          "votesRep": 2824,
+          "votesDem": 1208,
+          "votesTotal": 4042
+        },
+        "Nelson38": {
+          "color": "#BF1D29",
+          "label": "Cramer +24.8",
+          "margin": 24.83,
+          "votesRep": 1091,
+          "votesDem": 657,
+          "votesTotal": 1751
+        },
+        "Oliver38": {
+          "color": "#BF1D29",
+          "label": "Cramer +59.2",
+          "margin": 59.17,
+          "votesRep": 846,
+          "votesDem": 217,
+          "votesTotal": 1069
+        },
+        "Pembina38": {
+          "color": "#BF1D29",
+          "label": "Cramer +45.9",
+          "margin": 45.88,
+          "votesRep": 2264,
+          "votesDem": 840,
+          "votesTotal": 3107
+        },
+        "Pierce38": {
+          "color": "#BF1D29",
+          "label": "Cramer +47.4",
+          "margin": 47.45,
+          "votesRep": 1445,
+          "votesDem": 515,
+          "votesTotal": 1968
+        },
+        "Ramsey38": {
+          "color": "#BF1D29",
+          "label": "Cramer +37.0",
+          "margin": 37.02,
+          "votesRep": 3568,
+          "votesDem": 1640,
+          "votesTotal": 5215
+        },
+        "Ransom38": {
+          "color": "#BF1D29",
+          "label": "Cramer +21.4",
+          "margin": 21.41,
+          "votesRep": 1596,
+          "votesDem": 1033,
+          "votesTotal": 2633
+        },
+        "Renville38": {
+          "color": "#BF1D29",
+          "label": "Cramer +61.1",
+          "margin": 61.13,
+          "votesRep": 970,
+          "votesDem": 234,
+          "votesTotal": 1205
+        },
+        "Richland38": {
+          "color": "#BF1D29",
+          "label": "Cramer +29.8",
+          "margin": 29.81,
+          "votesRep": 5321,
+          "votesDem": 2877,
+          "votesTotal": 8208
+        },
+        "Rolette38": {
+          "color": "#1C408C",
+          "label": "Christiansen +26.1",
+          "margin": -26.07,
+          "votesRep": 1486,
+          "votesDem": 2534,
+          "votesTotal": 4024
+        },
+        "Sargent38": {
+          "color": "#BF1D29",
+          "label": "Cramer +21.6",
+          "margin": 21.56,
+          "votesRep": 1235,
+          "votesDem": 797,
+          "votesTotal": 2033
+        },
+        "Sheridan38": {
+          "color": "#BF1D29",
+          "label": "Cramer +56.4",
+          "margin": 56.39,
+          "votesRep": 581,
+          "votesDem": 162,
+          "votesTotal": 749
+        },
+        "Sioux38": {
+          "color": "#1C408C",
+          "label": "Christiansen +40.6",
+          "margin": -40.59,
+          "votesRep": 281,
+          "votesDem": 665,
+          "votesTotal": 948
+        },
+        "Slope38": {
+          "color": "#BF1D29",
+          "label": "Cramer +73.1",
+          "margin": 73.13,
+          "votesRep": 335,
+          "votesDem": 52,
+          "votesTotal": 389
+        },
+        "Stark38": {
+          "color": "#BF1D29",
+          "label": "Cramer +63.3",
+          "margin": 63.27,
+          "votesRep": 12074,
+          "votesDem": 2716,
+          "votesTotal": 14843
+        },
+        "Steele38": {
+          "color": "#BF1D29",
+          "label": "Cramer +16.2",
+          "margin": 16.19,
+          "votesRep": 585,
+          "votesDem": 422,
+          "votesTotal": 1011
+        },
+        "Stutsman38": {
+          "color": "#BF1D29",
+          "label": "Cramer +36.2",
+          "margin": 36.21,
+          "votesRep": 6771,
+          "votesDem": 3171,
+          "votesTotal": 9958
+        },
+        "Towner38": {
+          "color": "#BF1D29",
+          "label": "Cramer +36.2",
+          "margin": 36.15,
+          "votesRep": 757,
+          "votesDem": 355,
+          "votesTotal": 1114
+        },
+        "Traill38": {
+          "color": "#BF1D29",
+          "label": "Cramer +27.4",
+          "margin": 27.38,
+          "votesRep": 2612,
+          "votesDem": 1489,
+          "votesTotal": 4114
+        },
+        "Walsh38": {
+          "color": "#BF1D29",
+          "label": "Cramer +39.5",
+          "margin": 39.5,
+          "votesRep": 3124,
+          "votesDem": 1355,
+          "votesTotal": 4493
+        },
+        "Ward38": {
+          "color": "#BF1D29",
+          "label": "Cramer +44.7",
+          "margin": 44.68,
+          "votesRep": 20328,
+          "votesDem": 7772,
+          "votesTotal": 28213
+        },
+        "Wells38": {
+          "color": "#BF1D29",
+          "label": "Cramer +51.8",
+          "margin": 51.77,
+          "votesRep": 1690,
+          "votesDem": 537,
+          "votesTotal": 2240
+        },
+        "Williams38": {
+          "color": "#BF1D29",
+          "label": "Cramer +65.4",
+          "margin": 65.41,
+          "votesRep": 12156,
+          "votesDem": 2542,
+          "votesTotal": 14768
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "John Hoeven",
+      "candDem": "Katrina Christiansen",
+      "shortRep": "Hoeven",
+      "shortDem": "Christiansen",
+      "partisan": true,
+      "margin": 38.61,
+      "votesRep": 135474,
+      "votesDem": 59995,
+      "votesTotal": 240140,
+      "regions": {
+        "Adams38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +67.6",
+          "margin": 67.57,
+          "votesRep": 651,
+          "votesDem": 126,
+          "votesTotal": 929
+        },
+        "Barnes38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +40.6",
+          "margin": 40.58,
+          "votesRep": 2314,
+          "votesDem": 978,
+          "votesTotal": 3888
+        },
+        "Benson38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +22.9",
+          "margin": 22.89,
+          "votesRep": 749,
+          "votesDem": 470,
+          "votesTotal": 1480
+        },
+        "Billings38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +77.6",
+          "margin": 77.62,
+          "votesRep": 381,
+          "votesDem": 48,
+          "votesTotal": 537
+        },
+        "Bottineau38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +59.1",
+          "margin": 59.14,
+          "votesRep": 1803,
+          "votesDem": 463,
+          "votesTotal": 2853
+        },
+        "Bowman38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +77.7",
+          "margin": 77.68,
+          "votesRep": 1003,
+          "votesDem": 126,
+          "votesTotal": 1356
+        },
+        "Burke38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +77.7",
+          "margin": 77.7,
+          "votesRep": 494,
+          "votesDem": 62,
+          "votesTotal": 777
+        },
+        "Burleigh38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +42.0",
+          "margin": 42.04,
+          "votesRep": 18759,
+          "votesDem": 7654,
+          "votesTotal": 35413
+        },
+        "Cass38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +10.8",
+          "margin": 10.78,
+          "votesRep": 26520,
+          "votesDem": 21360,
+          "votesTotal": 53872
+        },
+        "Cavalier38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +61.6",
+          "margin": 61.58,
+          "votesRep": 1123,
+          "votesDem": 267,
+          "votesTotal": 1570
+        },
+        "Dickey38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +56.7",
+          "margin": 56.66,
+          "votesRep": 1211,
+          "votesDem": 335,
+          "votesTotal": 1782
+        },
+        "Divide38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +60.6",
+          "margin": 60.64,
+          "votesRep": 657,
+          "votesDem": 161,
+          "votesTotal": 1024
+        },
+        "Dunn38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +70.8",
+          "margin": 70.83,
+          "votesRep": 1107,
+          "votesDem": 189,
+          "votesTotal": 1653
+        },
+        "Eddy38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +45.4",
+          "margin": 45.38,
+          "votesRep": 543,
+          "votesDem": 204,
+          "votesTotal": 936
+        },
+        "Emmons38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +79.2",
+          "margin": 79.24,
+          "votesRep": 915,
+          "votesDem": 106,
+          "votesTotal": 1542
+        },
+        "Foster38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +60.2",
+          "margin": 60.24,
+          "votesRep": 798,
+          "votesDem": 198,
+          "votesTotal": 1259
+        },
+        "Golden Valley38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +75.2",
+          "margin": 75.2,
+          "votesRep": 551,
+          "votesDem": 78,
+          "votesTotal": 778
+        },
+        "Grand Forks38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +21.2",
+          "margin": 21.18,
+          "votesRep": 9954,
+          "votesDem": 6474,
+          "votesTotal": 18887
+        },
+        "Grant38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +76.0",
+          "margin": 75.99,
+          "votesRep": 755,
+          "votesDem": 103,
+          "votesTotal": 1114
+        },
+        "Griggs38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +57.3",
+          "margin": 57.31,
+          "votesRep": 656,
+          "votesDem": 178,
+          "votesTotal": 994
+        },
+        "Hettinger38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +72.8",
+          "margin": 72.8,
+          "votesRep": 718,
+          "votesDem": 113,
+          "votesTotal": 1037
+        },
+        "Kidder38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +69.3",
+          "margin": 69.33,
+          "votesRep": 657,
+          "votesDem": 119,
+          "votesTotal": 1061
+        },
+        "LaMoure38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +56.4",
+          "margin": 56.44,
+          "votesRep": 1124,
+          "votesDem": 313,
+          "votesTotal": 1646
+        },
+        "Logan38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +77.7",
+          "margin": 77.67,
+          "votesRep": 541,
+          "votesDem": 68,
+          "votesTotal": 821
+        },
+        "McHenry38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +62.0",
+          "margin": 61.97,
+          "votesRep": 1265,
+          "votesDem": 297,
+          "votesTotal": 2158
+        },
+        "McIntosh38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +72.8",
+          "margin": 72.76,
+          "votesRep": 780,
+          "votesDem": 123,
+          "votesTotal": 1105
+        },
+        "McKenzie38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +69.1",
+          "margin": 69.12,
+          "votesRep": 2229,
+          "votesDem": 407,
+          "votesTotal": 3207
+        },
+        "McLean38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +53.6",
+          "margin": 53.62,
+          "votesRep": 2385,
+          "votesDem": 720,
+          "votesTotal": 4241
+        },
+        "Mercer38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +67.5",
+          "margin": 67.52,
+          "votesRep": 2213,
+          "votesDem": 429,
+          "votesTotal": 3583
+        },
+        "Morton38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +48.9",
+          "margin": 48.95,
+          "votesRep": 6130,
+          "votesDem": 2101,
+          "votesTotal": 11358
+        },
+        "Mountrail38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +37.6",
+          "margin": 37.58,
+          "votesRep": 1393,
+          "votesDem": 632,
+          "votesTotal": 2621
+        },
+        "Nelson38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +45.4",
+          "margin": 45.36,
+          "votesRep": 963,
+          "votesDem": 362,
+          "votesTotal": 1518
+        },
+        "Oliver38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +72.3",
+          "margin": 72.25,
+          "votesRep": 509,
+          "votesDem": 82,
+          "votesTotal": 833
+        },
+        "Pembina38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +62.1",
+          "margin": 62.11,
+          "votesRep": 1737,
+          "votesDem": 406,
+          "votesTotal": 2461
+        },
+        "Pierce38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +58.8",
+          "margin": 58.84,
+          "votesRep": 876,
+          "votesDem": 227,
+          "votesTotal": 1495
+        },
+        "Ramsey38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +46.3",
+          "margin": 46.29,
+          "votesRep": 2424,
+          "votesDem": 890,
+          "votesTotal": 4017
+        },
+        "Ransom38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +33.0",
+          "margin": 32.95,
+          "votesRep": 1045,
+          "votesDem": 527,
+          "votesTotal": 1821
+        },
+        "Renville38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +72.6",
+          "margin": 72.56,
+          "votesRep": 547,
+          "votesDem": 87,
+          "votesTotal": 896
+        },
+        "Richland38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +45.4",
+          "margin": 45.38,
+          "votesRep": 3756,
+          "votesDem": 1411,
+          "votesTotal": 5966
+        },
+        "Rolette38": {
+          "color": "#577CCC",
+          "label": "Christiansen +6.3",
+          "margin": -6.29,
+          "votesRep": 1118,
+          "votesDem": 1268,
+          "votesTotal": 2732
+        },
+        "Sargent38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +42.1",
+          "margin": 42.06,
+          "votesRep": 988,
+          "votesDem": 403,
+          "votesTotal": 1581
+        },
+        "Sheridan38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +69.9",
+          "margin": 69.88,
+          "votesRep": 361,
+          "votesDem": 64,
+          "votesTotal": 624
+        },
+        "Sioux38": {
+          "color": "#1C408C",
+          "label": "Christiansen +26.2",
+          "margin": -26.21,
+          "votesRep": 176,
+          "votesDem": 301,
+          "votesTotal": 584
+        },
+        "Slope38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +81.5",
+          "margin": 81.53,
+          "votesRep": 226,
+          "votesDem": 23,
+          "votesTotal": 302
+        },
+        "Stark38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +67.8",
+          "margin": 67.78,
+          "votesRep": 5927,
+          "votesDem": 1138,
+          "votesTotal": 9146
+        },
+        "Steele38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +35.7",
+          "margin": 35.75,
+          "votesRep": 469,
+          "votesDem": 222,
+          "votesTotal": 790
+        },
+        "Stutsman38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +43.2",
+          "margin": 43.17,
+          "votesRep": 3862,
+          "votesDem": 1533,
+          "votesTotal": 6724
+        },
+        "Towner38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +51.1",
+          "margin": 51.1,
+          "votesRep": 550,
+          "votesDem": 178,
+          "votesTotal": 855
+        },
+        "Traill38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +37.2",
+          "margin": 37.18,
+          "votesRep": 1795,
+          "votesDem": 822,
+          "votesTotal": 2972
+        },
+        "Walsh38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +58.1",
+          "margin": 58.12,
+          "votesRep": 2416,
+          "votesDem": 640,
+          "votesTotal": 3481
+        },
+        "Ward38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +49.6",
+          "margin": 49.65,
+          "votesRep": 9849,
+          "votesDem": 3314,
+          "votesTotal": 16756
+        },
+        "Wells38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +60.8",
+          "margin": 60.8,
+          "votesRep": 923,
+          "votesDem": 225,
+          "votesTotal": 1695
+        },
+        "Williams38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +65.0",
+          "margin": 65.03,
+          "votesRep": 4578,
+          "votesDem": 970,
+          "votesTotal": 7409
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Kevin Cramer",
+      "candDem": "Heidi Heitkamp",
+      "shortRep": "Cramer",
+      "shortDem": "Heitkamp",
+      "partisan": true,
+      "margin": 10.91,
+      "votesRep": 179720,
+      "votesDem": 144376,
+      "votesTotal": 326138,
+      "regions": {
+        "Adams38": {
+          "color": "#BF1D29",
+          "label": "Cramer +37.2",
+          "margin": 37.24,
+          "votesRep": 796,
+          "votesDem": 364,
+          "votesTotal": 1164
+        },
+        "Barnes38": {
+          "color": "#6b7280",
+          "label": "Heitkamp +0.2",
+          "margin": -0.2,
+          "votesRep": 2507,
+          "votesDem": 2517,
+          "votesTotal": 5043
+        },
+        "Benson38": {
+          "color": "#1C408C",
+          "label": "Heitkamp +26.6",
+          "margin": -26.56,
+          "votesRep": 828,
+          "votesDem": 1427,
+          "votesTotal": 2267
+        },
+        "Billings38": {
+          "color": "#BF1D29",
+          "label": "Cramer +59.3",
+          "margin": 59.29,
+          "votesRep": 450,
+          "votesDem": 115,
+          "votesTotal": 565
+        },
+        "Bottineau38": {
+          "color": "#BF1D29",
+          "label": "Cramer +31.8",
+          "margin": 31.84,
+          "votesRep": 2147,
+          "votesDem": 1110,
+          "votesTotal": 3271
+        },
+        "Bowman38": {
+          "color": "#BF1D29",
+          "label": "Cramer +50.6",
+          "margin": 50.64,
+          "votesRep": 1233,
+          "votesDem": 404,
+          "votesTotal": 1649
+        },
+        "Burke38": {
+          "color": "#BF1D29",
+          "label": "Cramer +52.4",
+          "margin": 52.35,
+          "votesRep": 729,
+          "votesDem": 228,
+          "votesTotal": 964
+        },
+        "Burleigh38": {
+          "color": "#BF1D29",
+          "label": "Cramer +24.3",
+          "margin": 24.29,
+          "votesRep": 28494,
+          "votesDem": 17357,
+          "votesTotal": 46209
+        },
+        "Cass38": {
+          "color": "#1C408C",
+          "label": "Heitkamp +16.3",
+          "margin": -16.25,
+          "votesRep": 32217,
+          "votesDem": 44723,
+          "votesTotal": 77427
+        },
+        "Cavalier38": {
+          "color": "#BF1D29",
+          "label": "Cramer +21.4",
+          "margin": 21.38,
+          "votesRep": 1181,
+          "votesDem": 765,
+          "votesTotal": 1958
+        },
+        "Dickey38": {
+          "color": "#BF1D29",
+          "label": "Cramer +15.8",
+          "margin": 15.8,
+          "votesRep": 1253,
+          "votesDem": 911,
+          "votesTotal": 2170
+        },
+        "Divide38": {
+          "color": "#BF1D29",
+          "label": "Cramer +21.1",
+          "margin": 21.11,
+          "votesRep": 720,
+          "votesDem": 469,
+          "votesTotal": 1197
+        },
+        "Dunn38": {
+          "color": "#BF1D29",
+          "label": "Cramer +48.1",
+          "margin": 48.12,
+          "votesRep": 1499,
+          "votesDem": 525,
+          "votesTotal": 2034
+        },
+        "Eddy38": {
+          "color": "#FF5865",
+          "label": "Cramer +9.8",
+          "margin": 9.76,
+          "votesRep": 675,
+          "votesDem": 555,
+          "votesTotal": 1234
+        },
+        "Emmons38": {
+          "color": "#BF1D29",
+          "label": "Cramer +57.1",
+          "margin": 57.13,
+          "votesRep": 1433,
+          "votesDem": 391,
+          "votesTotal": 1835
+        },
+        "Foster38": {
+          "color": "#BF1D29",
+          "label": "Cramer +28.3",
+          "margin": 28.29,
+          "votesRep": 1052,
+          "votesDem": 588,
+          "votesTotal": 1654
+        },
+        "Golden Valley38": {
+          "color": "#BF1D29",
+          "label": "Cramer +60.9",
+          "margin": 60.91,
+          "votesRep": 704,
+          "votesDem": 171,
+          "votesTotal": 880
+        },
+        "Grand Forks38": {
+          "color": "#577CCC",
+          "label": "Heitkamp +6.7",
+          "margin": -6.75,
+          "votesRep": 12952,
+          "votesDem": 14827,
+          "votesTotal": 27936
+        },
+        "Grant38": {
+          "color": "#BF1D29",
+          "label": "Cramer +46.6",
+          "margin": 46.59,
+          "votesRep": 925,
+          "votesDem": 337,
+          "votesTotal": 1268
+        },
+        "Griggs38": {
+          "color": "#BF1D29",
+          "label": "Cramer +12.6",
+          "margin": 12.6,
+          "votesRep": 688,
+          "votesDem": 534,
+          "votesTotal": 1226
+        },
+        "Hettinger38": {
+          "color": "#BF1D29",
+          "label": "Cramer +56.6",
+          "margin": 56.58,
+          "votesRep": 988,
+          "votesDem": 274,
+          "votesTotal": 1269
+        },
+        "Kidder38": {
+          "color": "#BF1D29",
+          "label": "Cramer +42.9",
+          "margin": 42.9,
+          "votesRep": 911,
+          "votesDem": 364,
+          "votesTotal": 1280
+        },
+        "LaMoure38": {
+          "color": "#BF1D29",
+          "label": "Cramer +16.8",
+          "margin": 16.8,
+          "votesRep": 1203,
+          "votesDem": 857,
+          "votesTotal": 2069
+        },
+        "Logan38": {
+          "color": "#BF1D29",
+          "label": "Cramer +52.9",
+          "margin": 52.94,
+          "votesRep": 741,
+          "votesDem": 228,
+          "votesTotal": 977
+        },
+        "McHenry38": {
+          "color": "#BF1D29",
+          "label": "Cramer +30.7",
+          "margin": 30.73,
+          "votesRep": 1659,
+          "votesDem": 879,
+          "votesTotal": 2553
+        },
+        "McIntosh38": {
+          "color": "#BF1D29",
+          "label": "Cramer +35.5",
+          "margin": 35.54,
+          "votesRep": 982,
+          "votesDem": 467,
+          "votesTotal": 1455
+        },
+        "McKenzie38": {
+          "color": "#BF1D29",
+          "label": "Cramer +44.1",
+          "margin": 44.15,
+          "votesRep": 3012,
+          "votesDem": 1167,
+          "votesTotal": 4193
+        },
+        "McLean38": {
+          "color": "#BF1D29",
+          "label": "Cramer +32.2",
+          "margin": 32.24,
+          "votesRep": 3320,
+          "votesDem": 1701,
+          "votesTotal": 5050
+        },
+        "Mercer38": {
+          "color": "#BF1D29",
+          "label": "Cramer +47.0",
+          "margin": 46.98,
+          "votesRep": 2941,
+          "votesDem": 1061,
+          "votesTotal": 4024
+        },
+        "Morton38": {
+          "color": "#BF1D29",
+          "label": "Cramer +29.9",
+          "margin": 29.87,
+          "votesRep": 9583,
+          "votesDem": 5175,
+          "votesTotal": 14896
+        },
+        "Mountrail38": {
+          "color": "#BF1D29",
+          "label": "Cramer +15.8",
+          "margin": 15.81,
+          "votesRep": 2208,
+          "votesDem": 1605,
+          "votesTotal": 3820
+        },
+        "Nelson38": {
+          "color": "#577CCC",
+          "label": "Heitkamp +5.9",
+          "margin": -5.87,
+          "votesRep": 770,
+          "votesDem": 866,
+          "votesTotal": 1647
+        },
+        "Oliver38": {
+          "color": "#BF1D29",
+          "label": "Cramer +48.3",
+          "margin": 48.29,
+          "votesRep": 717,
+          "votesDem": 250,
+          "votesTotal": 972
+        },
+        "Pembina38": {
+          "color": "#BF1D29",
+          "label": "Cramer +23.2",
+          "margin": 23.15,
+          "votesRep": 1814,
+          "votesDem": 1132,
+          "votesTotal": 2962
+        },
+        "Pierce38": {
+          "color": "#BF1D29",
+          "label": "Cramer +24.3",
+          "margin": 24.32,
+          "votesRep": 1168,
+          "votesDem": 711,
+          "votesTotal": 1888
+        },
+        "Ramsey38": {
+          "color": "#FF5865",
+          "label": "Cramer +6.6",
+          "margin": 6.63,
+          "votesRep": 2668,
+          "votesDem": 2336,
+          "votesTotal": 5057
+        },
+        "Ransom38": {
+          "color": "#1C408C",
+          "label": "Heitkamp +22.2",
+          "margin": -22.24,
+          "votesRep": 890,
+          "votesDem": 1399,
+          "votesTotal": 2310
+        },
+        "Renville38": {
+          "color": "#BF1D29",
+          "label": "Cramer +40.1",
+          "margin": 40.07,
+          "votesRep": 832,
+          "votesDem": 356,
+          "votesTotal": 1193
+        },
+        "Richland38": {
+          "color": "#577CCC",
+          "label": "Heitkamp +8.6",
+          "margin": -8.64,
+          "votesRep": 3316,
+          "votesDem": 3943,
+          "votesTotal": 7307
+        },
+        "Rolette38": {
+          "color": "#1C408C",
+          "label": "Heitkamp +60.6",
+          "margin": -60.56,
+          "votesRep": 993,
+          "votesDem": 4042,
+          "votesTotal": 5045
+        },
+        "Sargent38": {
+          "color": "#1C408C",
+          "label": "Heitkamp +17.6",
+          "margin": -17.57,
+          "votesRep": 821,
+          "votesDem": 1171,
+          "votesTotal": 2002
+        },
+        "Sheridan38": {
+          "color": "#BF1D29",
+          "label": "Cramer +54.5",
+          "margin": 54.45,
+          "votesRep": 607,
+          "votesDem": 179,
+          "votesTotal": 789
+        },
+        "Sioux38": {
+          "color": "#1C408C",
+          "label": "Heitkamp +69.1",
+          "margin": -69.13,
+          "votesRep": 221,
+          "votesDem": 1211,
+          "votesTotal": 1446
+        },
+        "Slope38": {
+          "color": "#BF1D29",
+          "label": "Cramer +61.6",
+          "margin": 61.58,
+          "votesRep": 307,
+          "votesDem": 73,
+          "votesTotal": 381
+        },
+        "Stark38": {
+          "color": "#BF1D29",
+          "label": "Cramer +47.9",
+          "margin": 47.9,
+          "votesRep": 8945,
+          "votesDem": 3151,
+          "votesTotal": 12166
+        },
+        "Steele38": {
+          "color": "#1C408C",
+          "label": "Heitkamp +16.5",
+          "margin": -16.53,
+          "votesRep": 399,
+          "votesDem": 557,
+          "votesTotal": 960
+        },
+        "Stutsman38": {
+          "color": "#BF1D29",
+          "label": "Cramer +15.4",
+          "margin": 15.36,
+          "votesRep": 5489,
+          "votesDem": 4027,
+          "votesTotal": 9583
+        },
+        "Towner38": {
+          "color": "#BF1D29",
+          "label": "Cramer +11.3",
+          "margin": 11.33,
+          "votesRep": 624,
+          "votesDem": 497,
+          "votesTotal": 1127
+        },
+        "Traill38": {
+          "color": "#577CCC",
+          "label": "Heitkamp +6.8",
+          "margin": -6.8,
+          "votesRep": 1735,
+          "votesDem": 1988,
+          "votesTotal": 3742
+        },
+        "Walsh38": {
+          "color": "#BF1D29",
+          "label": "Cramer +13.7",
+          "margin": 13.66,
+          "votesRep": 2550,
+          "votesDem": 1937,
+          "votesTotal": 4512
+        },
+        "Ward38": {
+          "color": "#BF1D29",
+          "label": "Cramer +26.1",
+          "margin": 26.08,
+          "votesRep": 15105,
+          "votesDem": 8856,
+          "votesTotal": 24128
+        },
+        "Wells38": {
+          "color": "#BF1D29",
+          "label": "Cramer +44.0",
+          "margin": 44.04,
+          "votesRep": 1601,
+          "votesDem": 622,
+          "votesTotal": 2233
+        },
+        "Williams38": {
+          "color": "#BF1D29",
+          "label": "Cramer +46.3",
+          "margin": 46.34,
+          "votesRep": 8117,
+          "votesDem": 2976,
+          "votesTotal": 11151
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "John Hoeven",
+      "candDem": "Eliot Glassheim",
+      "shortRep": "Hoeven",
+      "shortDem": "Glassheim",
+      "partisan": true,
+      "margin": 64.44,
+      "votesRep": 268788,
+      "votesDem": 58116,
+      "votesTotal": 342135,
+      "regions": {
+        "Adams38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +80.7",
+          "margin": 80.69,
+          "votesRep": 1067,
+          "votesDem": 114,
+          "votesTotal": 1221
+        },
+        "Barnes38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +67.5",
+          "margin": 67.49,
+          "votesRep": 4302,
+          "votesDem": 835,
+          "votesTotal": 5333
+        },
+        "Benson38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +40.0",
+          "margin": 40.02,
+          "votesRep": 1340,
+          "votesDem": 574,
+          "votesTotal": 2020
+        },
+        "Billings38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +85.3",
+          "margin": 85.32,
+          "votesRep": 543,
+          "votesDem": 43,
+          "votesTotal": 605
+        },
+        "Bottineau38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +77.3",
+          "margin": 77.34,
+          "votesRep": 2998,
+          "votesDem": 383,
+          "votesTotal": 3498
+        },
+        "Bowman38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +84.4",
+          "margin": 84.38,
+          "votesRep": 1605,
+          "votesDem": 136,
+          "votesTotal": 1792
+        },
+        "Burke38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +87.3",
+          "margin": 87.26,
+          "votesRep": 970,
+          "votesDem": 66,
+          "votesTotal": 1055
+        },
+        "Burleigh38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +69.8",
+          "margin": 69.81,
+          "votesRep": 38830,
+          "votesDem": 6904,
+          "votesTotal": 47776
+        },
+        "Cass38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +51.6",
+          "margin": 51.56,
+          "votesRep": 57151,
+          "votesDem": 18268,
+          "votesTotal": 79692
+        },
+        "Cavalier38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +71.0",
+          "margin": 70.96,
+          "votesRep": 1707,
+          "votesDem": 290,
+          "votesTotal": 2046
+        },
+        "Dickey38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +71.6",
+          "margin": 71.57,
+          "votesRep": 2022,
+          "votesDem": 335,
+          "votesTotal": 2429
+        },
+        "Divide38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +76.3",
+          "margin": 76.25,
+          "votesRep": 1039,
+          "votesDem": 140,
+          "votesTotal": 1229
+        },
+        "Dunn38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +76.8",
+          "margin": 76.76,
+          "votesRep": 1909,
+          "votesDem": 251,
+          "votesTotal": 2232
+        },
+        "Eddy38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +62.9",
+          "margin": 62.91,
+          "votesRep": 962,
+          "votesDem": 219,
+          "votesTotal": 1226
+        },
+        "Emmons38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +85.8",
+          "margin": 85.76,
+          "votesRep": 1774,
+          "votesDem": 136,
+          "votesTotal": 1975
+        },
+        "Foster38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +79.5",
+          "margin": 79.53,
+          "votesRep": 1491,
+          "votesDem": 170,
+          "votesTotal": 1741
+        },
+        "Golden Valley38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +86.5",
+          "margin": 86.51,
+          "votesRep": 857,
+          "votesDem": 62,
+          "votesTotal": 955
+        },
+        "Grand Forks38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +46.0",
+          "margin": 46.01,
+          "votesRep": 20860,
+          "votesDem": 7714,
+          "votesTotal": 29821
+        },
+        "Grant38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +84.1",
+          "margin": 84.11,
+          "votesRep": 1251,
+          "votesDem": 108,
+          "votesTotal": 1405
+        },
+        "Griggs38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +68.7",
+          "margin": 68.71,
+          "votesRep": 1046,
+          "votesDem": 194,
+          "votesTotal": 1280
+        },
+        "Hettinger38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +85.9",
+          "margin": 85.9,
+          "votesRep": 1160,
+          "votesDem": 88,
+          "votesTotal": 1295
+        },
+        "Kidder38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +82.6",
+          "margin": 82.55,
+          "votesRep": 1224,
+          "votesDem": 117,
+          "votesTotal": 1397
+        },
+        "LaMoure38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +72.3",
+          "margin": 72.32,
+          "votesRep": 1818,
+          "votesDem": 292,
+          "votesTotal": 2181
+        },
+        "Logan38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +86.4",
+          "margin": 86.43,
+          "votesRep": 989,
+          "votesDem": 72,
+          "votesTotal": 1092
+        },
+        "McHenry38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +78.3",
+          "margin": 78.31,
+          "votesRep": 2433,
+          "votesDem": 296,
+          "votesTotal": 2853
+        },
+        "McIntosh38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +84.7",
+          "margin": 84.69,
+          "votesRep": 1327,
+          "votesDem": 110,
+          "votesTotal": 1473
+        },
+        "McKenzie38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +77.5",
+          "margin": 77.53,
+          "votesRep": 3903,
+          "votesDem": 494,
+          "votesTotal": 4599
+        },
+        "McLean38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +71.4",
+          "margin": 71.42,
+          "votesRep": 4391,
+          "votesDem": 732,
+          "votesTotal": 5331
+        },
+        "Mercer38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +79.2",
+          "margin": 79.16,
+          "votesRep": 4041,
+          "votesDem": 470,
+          "votesTotal": 4672
+        },
+        "Morton38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +72.1",
+          "margin": 72.07,
+          "votesRep": 12963,
+          "votesDem": 2104,
+          "votesTotal": 15738
+        },
+        "Mountrail38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +53.9",
+          "margin": 53.93,
+          "votesRep": 2980,
+          "votesDem": 892,
+          "votesTotal": 4081
+        },
+        "Nelson38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +61.2",
+          "margin": 61.22,
+          "votesRep": 1343,
+          "votesDem": 323,
+          "votesTotal": 1748
+        },
+        "Oliver38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +85.0",
+          "margin": 85.04,
+          "votesRep": 915,
+          "votesDem": 74,
+          "votesTotal": 1025
+        },
+        "Pembina38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +70.7",
+          "margin": 70.75,
+          "votesRep": 2644,
+          "votesDem": 453,
+          "votesTotal": 3180
+        },
+        "Pierce38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +78.0",
+          "margin": 77.95,
+          "votesRep": 1816,
+          "votesDem": 225,
+          "votesTotal": 2093
+        },
+        "Ramsey38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +66.3",
+          "margin": 66.32,
+          "votesRep": 4291,
+          "votesDem": 869,
+          "votesTotal": 5365
+        },
+        "Ransom38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +59.0",
+          "margin": 58.95,
+          "votesRep": 1793,
+          "votesDem": 463,
+          "votesTotal": 2365
+        },
+        "Renville38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +83.3",
+          "margin": 83.28,
+          "votesRep": 1140,
+          "votesDem": 104,
+          "votesTotal": 1291
+        },
+        "Richland38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +68.9",
+          "margin": 68.93,
+          "votesRep": 6074,
+          "votesDem": 1117,
+          "votesTotal": 7556
+        },
+        "Rolette38": {
+          "color": "#FF8B98",
+          "label": "Hoeven +2.9",
+          "margin": 2.86,
+          "votesRep": 1801,
+          "votesDem": 1701,
+          "votesTotal": 3725
+        },
+        "Sargent38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +56.3",
+          "margin": 56.3,
+          "votesRep": 1513,
+          "votesDem": 423,
+          "votesTotal": 2024
+        },
+        "Sheridan38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +84.3",
+          "margin": 84.27,
+          "votesRep": 703,
+          "votesDem": 60,
+          "votesTotal": 792
+        },
+        "Sioux38": {
+          "color": "#1C408C",
+          "label": "Glassheim +19.5",
+          "margin": -19.55,
+          "votesRep": 426,
+          "votesDem": 633,
+          "votesTotal": 1183
+        },
+        "Slope38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +87.9",
+          "margin": 87.89,
+          "votesRep": 388,
+          "votesDem": 25,
+          "votesTotal": 427
+        },
+        "Stark38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +81.2",
+          "margin": 81.24,
+          "votesRep": 10635,
+          "votesDem": 1101,
+          "votesTotal": 12190
+        },
+        "Steele38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +59.0",
+          "margin": 58.99,
+          "votesRep": 791,
+          "votesDem": 204,
+          "votesTotal": 1031
+        },
+        "Stutsman38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +72.7",
+          "margin": 72.66,
+          "votesRep": 8392,
+          "votesDem": 1329,
+          "votesTotal": 10080
+        },
+        "Towner38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +68.3",
+          "margin": 68.35,
+          "votesRep": 952,
+          "votesDem": 179,
+          "votesTotal": 1177
+        },
+        "Traill38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +60.8",
+          "margin": 60.78,
+          "votesRep": 3062,
+          "votesDem": 747,
+          "votesTotal": 3956
+        },
+        "Walsh38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +67.0",
+          "margin": 66.98,
+          "votesRep": 3788,
+          "votesDem": 749,
+          "votesTotal": 4703
+        },
+        "Ward38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +74.4",
+          "margin": 74.4,
+          "votesRep": 22538,
+          "votesDem": 3309,
+          "votesTotal": 27198
+        },
+        "Wells38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +79.4",
+          "margin": 79.39,
+          "votesRep": 2080,
+          "votesDem": 239,
+          "votesTotal": 2397
+        },
+        "Williams38": {
+          "color": "#BF1D29",
+          "label": "Hoeven +80.2",
+          "margin": 80.22,
+          "votesRep": 10750,
+          "votesDem": 1180,
+          "votesTotal": 12586
+        }
+      }
+    }
+  ]
+}

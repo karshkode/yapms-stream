@@ -1,0 +1,2122 @@
+{
+  "stateFips": "08",
+  "stateName": "Colorado",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Heidi Ganahl",
+      "candDem": "Jared Polis",
+      "shortRep": "Ganahl",
+      "shortDem": "Polis",
+      "partisan": true,
+      "margin": -19.8,
+      "votesRep": 983040,
+      "votesDem": 1468481,
+      "votesTotal": 2508830,
+      "regions": {
+        "Adams08": {
+          "color": "#1C408C",
+          "label": "Polis +21.8",
+          "margin": -21.8,
+          "votesRep": 63960,
+          "votesDem": 99625,
+          "votesTotal": 167624
+        },
+        "Alamosa08": {
+          "color": "#577CCC",
+          "label": "Polis +6.1",
+          "margin": -6.11,
+          "votesRep": 2674,
+          "votesDem": 3022,
+          "votesTotal": 5921
+        },
+        "Arapahoe08": {
+          "color": "#1C408C",
+          "label": "Polis +28.8",
+          "margin": -28.83,
+          "votesRep": 89656,
+          "votesDem": 162304,
+          "votesTotal": 257126
+        },
+        "Archuleta08": {
+          "color": "#FF8B98",
+          "label": "Ganahl +4.2",
+          "margin": 4.21,
+          "votesRep": 3961,
+          "votesDem": 3641,
+          "votesTotal": 7810
+        },
+        "Baca08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +57.5",
+          "margin": 57.46,
+          "votesRep": 1103,
+          "votesDem": 298,
+          "votesTotal": 1747
+        },
+        "Bent08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +27.0",
+          "margin": 27.01,
+          "votesRep": 1091,
+          "votesDem": 627,
+          "votesTotal": 1830
+        },
+        "Boulder08": {
+          "color": "#1C408C",
+          "label": "Polis +62.5",
+          "margin": -62.55,
+          "votesRep": 30454,
+          "votesDem": 132173,
+          "votesTotal": 165077
+        },
+        "Broomfield08": {
+          "color": "#1C408C",
+          "label": "Polis +35.9",
+          "margin": -35.89,
+          "votesRep": 11796,
+          "votesDem": 25006,
+          "votesTotal": 37480
+        },
+        "Chaffee08": {
+          "color": "#1C408C",
+          "label": "Polis +18.9",
+          "margin": -18.87,
+          "votesRep": 4646,
+          "votesDem": 6807,
+          "votesTotal": 11749
+        },
+        "Cheyenne08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +73.7",
+          "margin": 73.65,
+          "votesRep": 758,
+          "votesDem": 115,
+          "votesTotal": 915
+        },
+        "Clear Creek08": {
+          "color": "#1C408C",
+          "label": "Polis +23.8",
+          "margin": -23.8,
+          "votesRep": 1919,
+          "votesDem": 3118,
+          "votesTotal": 5180
+        },
+        "Conejos08": {
+          "color": "#FF8B98",
+          "label": "Ganahl +1.3",
+          "margin": 1.28,
+          "votesRep": 1702,
+          "votesDem": 1659,
+          "votesTotal": 3450
+        },
+        "Costilla08": {
+          "color": "#1C408C",
+          "label": "Polis +37.7",
+          "margin": -37.68,
+          "votesRep": 507,
+          "votesDem": 1120,
+          "votesTotal": 1676
+        },
+        "Crowley08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +36.0",
+          "margin": 36.02,
+          "votesRep": 861,
+          "votesDem": 405,
+          "votesTotal": 1378
+        },
+        "Custer08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +29.7",
+          "margin": 29.69,
+          "votesRep": 2103,
+          "votesDem": 1140,
+          "votesTotal": 3341
+        },
+        "Delta08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +26.6",
+          "margin": 26.63,
+          "votesRep": 9753,
+          "votesDem": 5651,
+          "votesTotal": 15917
+        },
+        "Denver08": {
+          "color": "#1C408C",
+          "label": "Polis +67.1",
+          "margin": -67.14,
+          "votesRep": 46046,
+          "votesDem": 234250,
+          "votesTotal": 284424
+        },
+        "Dolores08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +39.7",
+          "margin": 39.69,
+          "votesRep": 806,
+          "votesDem": 348,
+          "votesTotal": 1299
+        },
+        "Douglas08": {
+          "color": "#CF8980",
+          "label": "Ganahl +0.7",
+          "margin": 0.69,
+          "votesRep": 94312,
+          "votesDem": 93022,
+          "votesTotal": 190690
+        },
+        "Eagle08": {
+          "color": "#1C408C",
+          "label": "Polis +39.1",
+          "margin": -39.14,
+          "votesRep": 6661,
+          "votesDem": 15230,
+          "votesTotal": 22222
+        },
+        "El Paso08": {
+          "color": "#FF8B98",
+          "label": "Ganahl +3.9",
+          "margin": 3.94,
+          "votesRep": 144384,
+          "votesDem": 133447,
+          "votesTotal": 285027
+        },
+        "Elbert08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +47.7",
+          "margin": 47.66,
+          "votesRep": 11618,
+          "votesDem": 4118,
+          "votesTotal": 16277
+        },
+        "Fremont08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +25.6",
+          "margin": 25.57,
+          "votesRep": 12087,
+          "votesDem": 7165,
+          "votesTotal": 19965
+        },
+        "Garfield08": {
+          "color": "#1C408C",
+          "label": "Polis +12.6",
+          "margin": -12.55,
+          "votesRep": 10444,
+          "votesDem": 13443,
+          "votesTotal": 24538
+        },
+        "Gilpin08": {
+          "color": "#1C408C",
+          "label": "Polis +21.7",
+          "margin": -21.68,
+          "votesRep": 1302,
+          "votesDem": 2023,
+          "votesTotal": 3417
+        },
+        "Grand08": {
+          "color": "#577CCC",
+          "label": "Polis +6.6",
+          "margin": -6.57,
+          "votesRep": 3649,
+          "votesDem": 4162,
+          "votesTotal": 8006
+        },
+        "Gunnison08": {
+          "color": "#1C408C",
+          "label": "Polis +38.7",
+          "margin": -38.7,
+          "votesRep": 2733,
+          "votesDem": 6184,
+          "votesTotal": 9135
+        },
+        "Hinsdale08": {
+          "color": "#FF8B98",
+          "label": "Ganahl +1.0",
+          "margin": 1.01,
+          "votesRep": 251,
+          "votesDem": 246,
+          "votesTotal": 511
+        },
+        "Huerfano08": {
+          "color": "#1C408C",
+          "label": "Polis +11.9",
+          "margin": -11.87,
+          "votesRep": 1656,
+          "votesDem": 2102,
+          "votesTotal": 3859
+        },
+        "Jackson08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +58.0",
+          "margin": 57.96,
+          "votesRep": 526,
+          "votesDem": 140,
+          "votesTotal": 682
+        },
+        "Jefferson08": {
+          "color": "#1C408C",
+          "label": "Polis +26.1",
+          "margin": -26.11,
+          "votesRep": 108638,
+          "votesDem": 185398,
+          "votesTotal": 300165
+        },
+        "Kiowa08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +70.0",
+          "margin": 70.05,
+          "votesRep": 562,
+          "votesDem": 99,
+          "votesTotal": 759
+        },
+        "Kit Carson08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +67.7",
+          "margin": 67.69,
+          "votesRep": 2465,
+          "votesDem": 475,
+          "votesTotal": 3026
+        },
+        "La Plata08": {
+          "color": "#1C408C",
+          "label": "Polis +26.4",
+          "margin": -26.38,
+          "votesRep": 10689,
+          "votesDem": 18350,
+          "votesTotal": 29704
+        },
+        "Lake08": {
+          "color": "#1C408C",
+          "label": "Polis +31.4",
+          "margin": -31.42,
+          "votesRep": 991,
+          "votesDem": 1899,
+          "votesTotal": 2975
+        },
+        "Larimer08": {
+          "color": "#1C408C",
+          "label": "Polis +22.5",
+          "margin": -22.54,
+          "votesRep": 66749,
+          "votesDem": 105588,
+          "votesTotal": 176328
+        },
+        "Las Animas08": {
+          "color": "#577CCC",
+          "label": "Polis +5.2",
+          "margin": -5.25,
+          "votesRep": 3071,
+          "votesDem": 3411,
+          "votesTotal": 6691
+        },
+        "Lincoln08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +61.0",
+          "margin": 60.96,
+          "votesRep": 1608,
+          "votesDem": 390,
+          "votesTotal": 2100
+        },
+        "Logan08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +52.2",
+          "margin": 52.22,
+          "votesRep": 5925,
+          "votesDem": 1860,
+          "votesTotal": 8256
+        },
+        "Mesa08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +13.8",
+          "margin": 13.82,
+          "votesRep": 40376,
+          "votesDem": 30571,
+          "votesTotal": 73551
+        },
+        "Mineral08": {
+          "color": "#FF5865",
+          "label": "Ganahl +6.2",
+          "margin": 6.16,
+          "votesRep": 362,
+          "votesDem": 320,
+          "votesTotal": 708
+        },
+        "Moffat08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +59.6",
+          "margin": 59.56,
+          "votesRep": 4174,
+          "votesDem": 1058,
+          "votesTotal": 5418
+        },
+        "Montezuma08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +13.3",
+          "margin": 13.25,
+          "votesRep": 6772,
+          "votesDem": 5187,
+          "votesTotal": 12520
+        },
+        "Montrose08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +26.1",
+          "margin": 26.06,
+          "votesRep": 12835,
+          "votesDem": 7529,
+          "votesTotal": 20900
+        },
+        "Morgan08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +45.2",
+          "margin": 45.15,
+          "votesRep": 7090,
+          "votesDem": 2679,
+          "votesTotal": 10154
+        },
+        "Otero08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +15.7",
+          "margin": 15.73,
+          "votesRep": 4053,
+          "votesDem": 2951,
+          "votesTotal": 7246
+        },
+        "Ouray08": {
+          "color": "#1C408C",
+          "label": "Polis +28.2",
+          "margin": -28.22,
+          "votesRep": 1255,
+          "votesDem": 2242,
+          "votesTotal": 3566
+        },
+        "Park08": {
+          "color": "#FF5865",
+          "label": "Ganahl +8.3",
+          "margin": 8.3,
+          "votesRep": 5271,
+          "votesDem": 4463,
+          "votesTotal": 10050
+        },
+        "Phillips08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +59.6",
+          "margin": 59.64,
+          "votesRep": 1519,
+          "votesDem": 384,
+          "votesTotal": 1969
+        },
+        "Pitkin08": {
+          "color": "#1C408C",
+          "label": "Polis +59.7",
+          "margin": -59.73,
+          "votesRep": 1907,
+          "votesDem": 7565,
+          "votesTotal": 9576
+        },
+        "Prowers08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +42.8",
+          "margin": 42.85,
+          "votesRep": 2847,
+          "votesDem": 1139,
+          "votesTotal": 4286
+        },
+        "Pueblo08": {
+          "color": "#1C408C",
+          "label": "Polis +12.2",
+          "margin": -12.2,
+          "votesRep": 28645,
+          "votesDem": 36602,
+          "votesTotal": 67512
+        },
+        "Rio Blanco08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +65.2",
+          "margin": 65.21,
+          "votesRep": 2408,
+          "votesDem": 507,
+          "votesTotal": 3053
+        },
+        "Rio Grande08": {
+          "color": "#FF5865",
+          "label": "Ganahl +7.5",
+          "margin": 7.46,
+          "votesRep": 2485,
+          "votesDem": 2140,
+          "votesTotal": 4955
+        },
+        "Routt08": {
+          "color": "#1C408C",
+          "label": "Polis +35.3",
+          "margin": -35.33,
+          "votesRep": 4415,
+          "votesDem": 9238,
+          "votesTotal": 13873
+        },
+        "Saguache08": {
+          "color": "#1C408C",
+          "label": "Polis +19.7",
+          "margin": -19.65,
+          "votesRep": 1061,
+          "votesDem": 1580,
+          "votesTotal": 2766
+        },
+        "San Juan08": {
+          "color": "#1C408C",
+          "label": "Polis +41.4",
+          "margin": -41.44,
+          "votesRep": 154,
+          "votesDem": 372,
+          "votesTotal": 540
+        },
+        "San Miguel08": {
+          "color": "#1C408C",
+          "label": "Polis +59.4",
+          "margin": -59.39,
+          "votesRep": 815,
+          "votesDem": 3199,
+          "votesTotal": 4086
+        },
+        "Sedgwick08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +44.2",
+          "margin": 44.24,
+          "votesRep": 807,
+          "votesDem": 312,
+          "votesTotal": 1162
+        },
+        "Summit08": {
+          "color": "#1C408C",
+          "label": "Polis +48.0",
+          "margin": -47.98,
+          "votesRep": 3650,
+          "votesDem": 10383,
+          "votesTotal": 14276
+        },
+        "Teller08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +27.0",
+          "margin": 27.02,
+          "votesRep": 8430,
+          "votesDem": 4843,
+          "votesTotal": 13550
+        },
+        "Washington08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +72.5",
+          "margin": 72.52,
+          "votesRep": 1971,
+          "votesDem": 314,
+          "votesTotal": 2389
+        },
+        "Weld08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +16.3",
+          "margin": 16.32,
+          "votesRep": 72542,
+          "votesDem": 52186,
+          "votesTotal": 128483
+        },
+        "Yuma08": {
+          "color": "#BF1D29",
+          "label": "Ganahl +64.9",
+          "margin": 64.87,
+          "votesRep": 3079,
+          "votesDem": 656,
+          "votesTotal": 3964
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Joe O'Dea",
+      "candDem": "Michael Bennet",
+      "shortRep": "O'Dea",
+      "shortDem": "Bennet",
+      "partisan": true,
+      "margin": -15.05,
+      "votesRep": 1031693,
+      "votesDem": 1397170,
+      "votesTotal": 2500201,
+      "regions": {
+        "Adams08": {
+          "color": "#1C408C",
+          "label": "Bennet +17.5",
+          "margin": -17.46,
+          "votesRep": 63586,
+          "votesDem": 90483,
+          "votesTotal": 159288
+        },
+        "Alamosa08": {
+          "color": "#8AAFFF",
+          "label": "Bennet +4.6",
+          "margin": -4.62,
+          "votesRep": 2734,
+          "votesDem": 2999,
+          "votesTotal": 5930
+        },
+        "Arapahoe08": {
+          "color": "#1C408C",
+          "label": "Bennet +23.4",
+          "margin": -23.39,
+          "votesRep": 96033,
+          "votesDem": 154678,
+          "votesTotal": 257320
+        },
+        "Archuleta08": {
+          "color": "#FF5865",
+          "label": "O'Dea +8.9",
+          "margin": 8.91,
+          "votesRep": 4099,
+          "votesDem": 3428,
+          "votesTotal": 7823
+        },
+        "Baca08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +55.7",
+          "margin": 55.68,
+          "votesRep": 1303,
+          "votesDem": 371,
+          "votesTotal": 1745
+        },
+        "Bent08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +26.6",
+          "margin": 26.61,
+          "votesRep": 1104,
+          "votesDem": 640,
+          "votesTotal": 1810
+        },
+        "Boulder08": {
+          "color": "#1C408C",
+          "label": "Bennet +58.2",
+          "margin": -58.22,
+          "votesRep": 33858,
+          "votesDem": 128227,
+          "votesTotal": 165434
+        },
+        "Broomfield08": {
+          "color": "#1C408C",
+          "label": "Bennet +29.1",
+          "margin": -29.08,
+          "votesRep": 12975,
+          "votesDem": 23617,
+          "votesTotal": 37543
+        },
+        "Chaffee08": {
+          "color": "#1C408C",
+          "label": "Bennet +15.3",
+          "margin": -15.3,
+          "votesRep": 4854,
+          "votesDem": 6607,
+          "votesTotal": 11801
+        },
+        "Cheyenne08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +72.8",
+          "margin": 72.82,
+          "votesRep": 763,
+          "votesDem": 120,
+          "votesTotal": 917
+        },
+        "Clear Creek08": {
+          "color": "#1C408C",
+          "label": "Bennet +18.5",
+          "margin": -18.5,
+          "votesRep": 2040,
+          "votesDem": 2966,
+          "votesTotal": 5189
+        },
+        "Conejos08": {
+          "color": "#FF8B98",
+          "label": "O'Dea +1.0",
+          "margin": 1.04,
+          "votesRep": 1704,
+          "votesDem": 1669,
+          "votesTotal": 3447
+        },
+        "Costilla08": {
+          "color": "#1C408C",
+          "label": "Bennet +36.3",
+          "margin": -36.29,
+          "votesRep": 518,
+          "votesDem": 1108,
+          "votesTotal": 1686
+        },
+        "Crowley08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +32.6",
+          "margin": 32.55,
+          "votesRep": 849,
+          "votesDem": 432,
+          "votesTotal": 1375
+        },
+        "Custer08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +33.1",
+          "margin": 33.12,
+          "votesRep": 2112,
+          "votesDem": 1061,
+          "votesTotal": 3328
+        },
+        "Delta08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +29.4",
+          "margin": 29.42,
+          "votesRep": 9901,
+          "votesDem": 5400,
+          "votesTotal": 15918
+        },
+        "Denver08": {
+          "color": "#1C408C",
+          "label": "Bennet +63.2",
+          "margin": -63.16,
+          "votesRep": 51582,
+          "votesDem": 228419,
+          "votesTotal": 285131
+        },
+        "Dolores08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +42.4",
+          "margin": 42.41,
+          "votesRep": 873,
+          "votesDem": 353,
+          "votesTotal": 1285
+        },
+        "Douglas08": {
+          "color": "#FF5865",
+          "label": "O'Dea +8.5",
+          "margin": 8.49,
+          "votesRep": 100978,
+          "votesDem": 85173,
+          "votesTotal": 190913
+        },
+        "Eagle08": {
+          "color": "#1C408C",
+          "label": "Bennet +28.5",
+          "margin": -28.45,
+          "votesRep": 7776,
+          "votesDem": 13960,
+          "votesTotal": 22195
+        },
+        "El Paso08": {
+          "color": "#FF5865",
+          "label": "O'Dea +9.5",
+          "margin": 9.48,
+          "votesRep": 149995,
+          "votesDem": 124024,
+          "votesTotal": 284319
+        },
+        "Elbert08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +51.4",
+          "margin": 51.35,
+          "votesRep": 11897,
+          "votesDem": 3824,
+          "votesTotal": 16254
+        },
+        "Fremont08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +28.7",
+          "margin": 28.73,
+          "votesRep": 12285,
+          "votesDem": 6802,
+          "votesTotal": 19988
+        },
+        "Garfield08": {
+          "color": "#577CCC",
+          "label": "Bennet +7.8",
+          "margin": -7.82,
+          "votesRep": 10924,
+          "votesDem": 12777,
+          "votesTotal": 24515
+        },
+        "Gilpin08": {
+          "color": "#1C408C",
+          "label": "Bennet +16.0",
+          "margin": -16.04,
+          "votesRep": 1385,
+          "votesDem": 1914,
+          "votesTotal": 3414
+        },
+        "Grand08": {
+          "color": "#8AAFFF",
+          "label": "Bennet +1.1",
+          "margin": -1.14,
+          "votesRep": 3824,
+          "votesDem": 3912,
+          "votesTotal": 7985
+        },
+        "Gunnison08": {
+          "color": "#1C408C",
+          "label": "Bennet +34.7",
+          "margin": -34.7,
+          "votesRep": 2905,
+          "votesDem": 5993,
+          "votesTotal": 9164
+        },
+        "Hinsdale08": {
+          "color": "#FF5865",
+          "label": "O'Dea +9.9",
+          "margin": 9.9,
+          "votesRep": 272,
+          "votesDem": 223,
+          "votesTotal": 517
+        },
+        "Huerfano08": {
+          "color": "#577CCC",
+          "label": "Bennet +8.2",
+          "margin": -8.23,
+          "votesRep": 1705,
+          "votesDem": 2011,
+          "votesTotal": 3850
+        },
+        "Jackson08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +53.3",
+          "margin": 53.32,
+          "votesRep": 496,
+          "votesDem": 151,
+          "votesTotal": 685
+        },
+        "Jefferson08": {
+          "color": "#1C408C",
+          "label": "Bennet +20.7",
+          "margin": -20.66,
+          "votesRep": 115978,
+          "votesDem": 176378,
+          "votesTotal": 300365
+        },
+        "Kiowa08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +66.8",
+          "margin": 66.76,
+          "votesRep": 602,
+          "votesDem": 120,
+          "votesTotal": 749
+        },
+        "Kit Carson08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +63.9",
+          "margin": 63.87,
+          "votesRep": 2408,
+          "votesDem": 531,
+          "votesTotal": 3028
+        },
+        "La Plata08": {
+          "color": "#1C408C",
+          "label": "Bennet +22.4",
+          "margin": -22.39,
+          "votesRep": 11231,
+          "votesDem": 17711,
+          "votesTotal": 29729
+        },
+        "Lake08": {
+          "color": "#1C408C",
+          "label": "Bennet +25.9",
+          "margin": -25.88,
+          "votesRep": 1067,
+          "votesDem": 1812,
+          "votesTotal": 2995
+        },
+        "Larimer08": {
+          "color": "#1C408C",
+          "label": "Bennet +18.2",
+          "margin": -18.17,
+          "votesRep": 69573,
+          "votesDem": 100466,
+          "votesTotal": 175283
+        },
+        "Las Animas08": {
+          "color": "#8AAFFF",
+          "label": "Bennet +1.9",
+          "margin": -1.94,
+          "votesRep": 3166,
+          "votesDem": 3291,
+          "votesTotal": 6673
+        },
+        "Lincoln08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +60.4",
+          "margin": 60.4,
+          "votesRep": 1624,
+          "votesDem": 401,
+          "votesTotal": 2106
+        },
+        "Logan08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +50.7",
+          "margin": 50.74,
+          "votesRep": 5980,
+          "votesDem": 1954,
+          "votesTotal": 8263
+        },
+        "Mesa08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +18.5",
+          "margin": 18.49,
+          "votesRep": 41766,
+          "votesDem": 28732,
+          "votesTotal": 73440
+        },
+        "Mineral08": {
+          "color": "#FF5865",
+          "label": "O'Dea +8.7",
+          "margin": 8.69,
+          "votesRep": 369,
+          "votesDem": 310,
+          "votesTotal": 709
+        },
+        "Moffat08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +59.0",
+          "margin": 59.03,
+          "votesRep": 4150,
+          "votesDem": 1069,
+          "votesTotal": 5398
+        },
+        "Montezuma08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +15.7",
+          "margin": 15.69,
+          "votesRep": 6960,
+          "votesDem": 5072,
+          "votesTotal": 12509
+        },
+        "Montrose08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +28.0",
+          "margin": 27.99,
+          "votesRep": 12894,
+          "votesDem": 7255,
+          "votesTotal": 20832
+        },
+        "Morgan08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +43.1",
+          "margin": 43.06,
+          "votesRep": 7000,
+          "votesDem": 2786,
+          "votesTotal": 10169
+        },
+        "Otero08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +12.9",
+          "margin": 12.92,
+          "votesRep": 3958,
+          "votesDem": 3052,
+          "votesTotal": 7236
+        },
+        "Ouray08": {
+          "color": "#1C408C",
+          "label": "Bennet +23.9",
+          "margin": -23.89,
+          "votesRep": 1327,
+          "votesDem": 2160,
+          "votesTotal": 3566
+        },
+        "Park08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +12.0",
+          "margin": 12.01,
+          "votesRep": 5390,
+          "votesDem": 4234,
+          "votesTotal": 10045
+        },
+        "Phillips08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +58.0",
+          "margin": 57.96,
+          "votesRep": 1503,
+          "votesDem": 400,
+          "votesTotal": 1981
+        },
+        "Pitkin08": {
+          "color": "#1C408C",
+          "label": "Bennet +51.7",
+          "margin": -51.66,
+          "votesRep": 2281,
+          "votesDem": 7157,
+          "votesTotal": 9581
+        },
+        "Prowers08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +43.2",
+          "margin": 43.22,
+          "votesRep": 2956,
+          "votesDem": 1172,
+          "votesTotal": 4277
+        },
+        "Pueblo08": {
+          "color": "#577CCC",
+          "label": "Bennet +9.4",
+          "margin": -9.36,
+          "votesRep": 29493,
+          "votesDem": 35581,
+          "votesTotal": 67352
+        },
+        "Rio Blanco08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +64.0",
+          "margin": 63.99,
+          "votesRep": 2391,
+          "votesDem": 525,
+          "votesTotal": 3021
+        },
+        "Rio Grande08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +10.3",
+          "margin": 10.27,
+          "votesRep": 2625,
+          "votesDem": 2136,
+          "votesTotal": 4944
+        },
+        "Routt08": {
+          "color": "#1C408C",
+          "label": "Bennet +28.7",
+          "margin": -28.74,
+          "votesRep": 4836,
+          "votesDem": 8737,
+          "votesTotal": 13867
+        },
+        "Saguache08": {
+          "color": "#1C408C",
+          "label": "Bennet +19.2",
+          "margin": -19.15,
+          "votesRep": 1070,
+          "votesDem": 1577,
+          "votesTotal": 2771
+        },
+        "San Juan08": {
+          "color": "#1C408C",
+          "label": "Bennet +36.2",
+          "margin": -36.19,
+          "votesRep": 164,
+          "votesDem": 350,
+          "votesTotal": 538
+        },
+        "San Miguel08": {
+          "color": "#1C408C",
+          "label": "Bennet +55.6",
+          "margin": -55.58,
+          "votesRep": 888,
+          "votesDem": 3110,
+          "votesTotal": 4083
+        },
+        "Sedgwick08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +44.8",
+          "margin": 44.75,
+          "votesRep": 807,
+          "votesDem": 308,
+          "votesTotal": 1162
+        },
+        "Summit08": {
+          "color": "#1C408C",
+          "label": "Bennet +39.5",
+          "margin": -39.5,
+          "votesRep": 4211,
+          "votesDem": 9710,
+          "votesTotal": 14244
+        },
+        "Teller08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +31.2",
+          "margin": 31.16,
+          "votesRep": 8602,
+          "votesDem": 4515,
+          "votesTotal": 13557
+        },
+        "Washington08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +70.0",
+          "margin": 69.97,
+          "votesRep": 1964,
+          "votesDem": 347,
+          "votesTotal": 2402
+        },
+        "Weld08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +19.3",
+          "margin": 19.26,
+          "votesRep": 74043,
+          "votesDem": 50129,
+          "votesTotal": 128590
+        },
+        "Yuma08": {
+          "color": "#BF1D29",
+          "label": "O'Dea +61.3",
+          "margin": 61.32,
+          "votesRep": 3086,
+          "votesDem": 740,
+          "votesTotal": 3967
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Walker Stapleton",
+      "candDem": "Jared Polis",
+      "shortRep": "Stapleton",
+      "shortDem": "Polis",
+      "partisan": true,
+      "margin": -11.03,
+      "votesRep": 1080801,
+      "votesDem": 1348888,
+      "votesTotal": 2525062,
+      "regions": {
+        "Adams08": {
+          "color": "#1C408C",
+          "label": "Polis +14.7",
+          "margin": -14.72,
+          "votesRep": 69465,
+          "votesDem": 93449,
+          "votesTotal": 171235
+        },
+        "Alamosa08": {
+          "color": "#577CCC",
+          "label": "Polis +6.0",
+          "margin": -5.98,
+          "votesRep": 2696,
+          "votesDem": 3039,
+          "votesTotal": 6040
+        },
+        "Arapahoe08": {
+          "color": "#1C408C",
+          "label": "Polis +18.4",
+          "margin": -18.41,
+          "votesRep": 106833,
+          "votesDem": 155056,
+          "votesTotal": 271140
+        },
+        "Archuleta08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +14.3",
+          "margin": 14.32,
+          "votesRep": 3736,
+          "votesDem": 2800,
+          "votesTotal": 6776
+        },
+        "Baca08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +62.9",
+          "margin": 62.91,
+          "votesRep": 1454,
+          "votesDem": 331,
+          "votesTotal": 1873
+        },
+        "Bent08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +26.3",
+          "margin": 26.33,
+          "votesRep": 1094,
+          "votesDem": 638,
+          "votesTotal": 1871
+        },
+        "Boulder08": {
+          "color": "#1C408C",
+          "label": "Polis +55.2",
+          "margin": -55.2,
+          "votesRep": 38423,
+          "votesDem": 133116,
+          "votesTotal": 176262
+        },
+        "Broomfield08": {
+          "color": "#1C408C",
+          "label": "Polis +22.4",
+          "margin": -22.36,
+          "votesRep": 13582,
+          "votesDem": 21405,
+          "votesTotal": 36148
+        },
+        "Chaffee08": {
+          "color": "#8AAFFF",
+          "label": "Polis +4.2",
+          "margin": -4.23,
+          "votesRep": 5018,
+          "votesDem": 5461,
+          "votesTotal": 10933
+        },
+        "Cheyenne08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +70.9",
+          "margin": 70.86,
+          "votesRep": 809,
+          "votesDem": 138,
+          "votesTotal": 980
+        },
+        "Clear Creek08": {
+          "color": "#1C408C",
+          "label": "Polis +13.9",
+          "margin": -13.93,
+          "votesRep": 2215,
+          "votesDem": 2932,
+          "votesTotal": 5376
+        },
+        "Conejos08": {
+          "color": "#FF8B98",
+          "label": "Stapleton +3.1",
+          "margin": 3.05,
+          "votesRep": 1756,
+          "votesDem": 1652,
+          "votesTotal": 3541
+        },
+        "Costilla08": {
+          "color": "#1C408C",
+          "label": "Polis +33.0",
+          "margin": -32.98,
+          "votesRep": 510,
+          "votesDem": 1012,
+          "votesTotal": 1609
+        },
+        "Crowley08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +37.9",
+          "margin": 37.89,
+          "votesRep": 888,
+          "votesDem": 400,
+          "votesTotal": 1388
+        },
+        "Custer08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +35.2",
+          "margin": 35.24,
+          "votesRep": 1869,
+          "votesDem": 895,
+          "votesTotal": 2863
+        },
+        "Delta08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +33.6",
+          "margin": 33.63,
+          "votesRep": 9699,
+          "votesDem": 4817,
+          "votesTotal": 15126
+        },
+        "Denver08": {
+          "color": "#1C408C",
+          "label": "Polis +59.8",
+          "margin": -59.75,
+          "votesRep": 60151,
+          "votesDem": 238762,
+          "votesTotal": 308518
+        },
+        "Dolores08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +52.5",
+          "margin": 52.55,
+          "votesRep": 868,
+          "votesDem": 270,
+          "votesTotal": 1184
+        },
+        "Douglas08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +16.1",
+          "margin": 16.14,
+          "votesRep": 99123,
+          "votesDem": 71573,
+          "votesTotal": 176641
+        },
+        "Eagle08": {
+          "color": "#1C408C",
+          "label": "Polis +27.8",
+          "margin": -27.76,
+          "votesRep": 7804,
+          "votesDem": 13802,
+          "votesTotal": 22326
+        },
+        "El Paso08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +17.4",
+          "margin": 17.36,
+          "votesRep": 155006,
+          "votesDem": 109154,
+          "votesTotal": 276292
+        },
+        "Elbert08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +54.0",
+          "margin": 54.02,
+          "votesRep": 10859,
+          "votesDem": 3242,
+          "votesTotal": 14618
+        },
+        "Fremont08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +35.2",
+          "margin": 35.23,
+          "votesRep": 12574,
+          "votesDem": 6022,
+          "votesTotal": 19581
+        },
+        "Garfield08": {
+          "color": "#8AAFFF",
+          "label": "Polis +1.5",
+          "margin": -1.53,
+          "votesRep": 11436,
+          "votesDem": 11791,
+          "votesTotal": 24058
+        },
+        "Gilpin08": {
+          "color": "#1C408C",
+          "label": "Polis +12.5",
+          "margin": -12.5,
+          "votesRep": 1407,
+          "votesDem": 1809,
+          "votesTotal": 3368
+        },
+        "Grand08": {
+          "color": "#FF8B98",
+          "label": "Stapleton +3.2",
+          "margin": 3.24,
+          "votesRep": 3837,
+          "votesDem": 3596,
+          "votesTotal": 7745
+        },
+        "Gunnison08": {
+          "color": "#1C408C",
+          "label": "Polis +30.7",
+          "margin": -30.75,
+          "votesRep": 2927,
+          "votesDem": 5526,
+          "votesTotal": 8785
+        },
+        "Hinsdale08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +18.7",
+          "margin": 18.66,
+          "votesRep": 318,
+          "votesDem": 218,
+          "votesTotal": 556
+        },
+        "Huerfano08": {
+          "color": "#8AAFFF",
+          "label": "Polis +4.4",
+          "margin": -4.38,
+          "votesRep": 1647,
+          "votesDem": 1798,
+          "votesTotal": 3611
+        },
+        "Jackson08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +52.4",
+          "margin": 52.43,
+          "votesRep": 564,
+          "votesDem": 176,
+          "votesTotal": 778
+        },
+        "Jefferson08": {
+          "color": "#1C408C",
+          "label": "Polis +13.4",
+          "margin": -13.43,
+          "votesRep": 127038,
+          "votesDem": 166455,
+          "votesTotal": 305997
+        },
+        "Kiowa08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +74.3",
+          "margin": 74.32,
+          "votesRep": 638,
+          "votesDem": 94,
+          "votesTotal": 767
+        },
+        "Kit Carson08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +63.1",
+          "margin": 63.09,
+          "votesRep": 2417,
+          "votesDem": 547,
+          "votesTotal": 3089
+        },
+        "La Plata08": {
+          "color": "#1C408C",
+          "label": "Polis +15.0",
+          "margin": -14.98,
+          "votesRep": 11727,
+          "votesDem": 15859,
+          "votesTotal": 28384
+        },
+        "Lake08": {
+          "color": "#1C408C",
+          "label": "Polis +25.4",
+          "margin": -25.41,
+          "votesRep": 998,
+          "votesDem": 1678,
+          "votesTotal": 2870
+        },
+        "Larimer08": {
+          "color": "#1C408C",
+          "label": "Polis +13.5",
+          "margin": -13.47,
+          "votesRep": 75002,
+          "votesDem": 98361,
+          "votesTotal": 179636
+        },
+        "Las Animas08": {
+          "color": "#CF8980",
+          "label": "Stapleton +1.0",
+          "margin": 0.99,
+          "votesRep": 3008,
+          "votesDem": 2949,
+          "votesTotal": 6239
+        },
+        "Lincoln08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +63.8",
+          "margin": 63.78,
+          "votesRep": 1619,
+          "votesDem": 358,
+          "votesTotal": 2074
+        },
+        "Logan08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +54.6",
+          "margin": 54.55,
+          "votesRep": 6349,
+          "votesDem": 1867,
+          "votesTotal": 8588
+        },
+        "Mesa08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +26.6",
+          "margin": 26.62,
+          "votesRep": 41193,
+          "votesDem": 23873,
+          "votesTotal": 67566
+        },
+        "Mineral08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +10.4",
+          "margin": 10.38,
+          "votesRep": 319,
+          "votesDem": 259,
+          "votesTotal": 602
+        },
+        "Moffat08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +63.4",
+          "margin": 63.43,
+          "votesRep": 4228,
+          "votesDem": 946,
+          "votesTotal": 5377
+        },
+        "Montezuma08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +22.3",
+          "margin": 22.32,
+          "votesRep": 6933,
+          "votesDem": 4403,
+          "votesTotal": 11714
+        },
+        "Montrose08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +36.1",
+          "margin": 36.08,
+          "votesRep": 12466,
+          "votesDem": 5855,
+          "votesTotal": 18937
+        },
+        "Morgan08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +44.1",
+          "margin": 44.09,
+          "votesRep": 7329,
+          "votesDem": 2844,
+          "votesTotal": 10633
+        },
+        "Otero08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +16.6",
+          "margin": 16.64,
+          "votesRep": 4076,
+          "votesDem": 2913,
+          "votesTotal": 7438
+        },
+        "Ouray08": {
+          "color": "#1C408C",
+          "label": "Polis +20.3",
+          "margin": -20.32,
+          "votesRep": 1237,
+          "votesDem": 1868,
+          "votesTotal": 3192
+        },
+        "Park08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +19.9",
+          "margin": 19.86,
+          "votesRep": 5452,
+          "votesDem": 3645,
+          "votesTotal": 9522
+        },
+        "Phillips08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +59.9",
+          "margin": 59.9,
+          "votesRep": 1583,
+          "votesDem": 397,
+          "votesTotal": 2056
+        },
+        "Pitkin08": {
+          "color": "#1C408C",
+          "label": "Polis +50.9",
+          "margin": -50.95,
+          "votesRep": 2354,
+          "votesDem": 7244,
+          "votesTotal": 9830
+        },
+        "Prowers08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +45.3",
+          "margin": 45.34,
+          "votesRep": 2898,
+          "votesDem": 1090,
+          "votesTotal": 4150
+        },
+        "Pueblo08": {
+          "color": "#577CCC",
+          "label": "Polis +6.5",
+          "margin": -6.53,
+          "votesRep": 29545,
+          "votesDem": 33674,
+          "votesTotal": 66456
+        },
+        "Rio Blanco08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +67.0",
+          "margin": 67.04,
+          "votesRep": 2473,
+          "votesDem": 488,
+          "votesTotal": 3053
+        },
+        "Rio Grande08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +18.8",
+          "margin": 18.76,
+          "votesRep": 2795,
+          "votesDem": 1912,
+          "votesTotal": 4931
+        },
+        "Routt08": {
+          "color": "#1C408C",
+          "label": "Polis +26.1",
+          "margin": -26.07,
+          "votesRep": 4787,
+          "votesDem": 8163,
+          "votesTotal": 13357
+        },
+        "Saguache08": {
+          "color": "#1C408C",
+          "label": "Polis +20.3",
+          "margin": -20.25,
+          "votesRep": 1014,
+          "votesDem": 1529,
+          "votesTotal": 2670
+        },
+        "San Juan08": {
+          "color": "#1C408C",
+          "label": "Polis +23.7",
+          "margin": -23.74,
+          "votesRep": 167,
+          "votesDem": 271,
+          "votesTotal": 450
+        },
+        "San Miguel08": {
+          "color": "#1C408C",
+          "label": "Polis +53.5",
+          "margin": -53.5,
+          "votesRep": 923,
+          "votesDem": 3047,
+          "votesTotal": 4085
+        },
+        "Sedgwick08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +49.5",
+          "margin": 49.52,
+          "votesRep": 859,
+          "votesDem": 290,
+          "votesTotal": 1209
+        },
+        "Summit08": {
+          "color": "#1C408C",
+          "label": "Polis +38.2",
+          "margin": -38.25,
+          "votesRep": 4243,
+          "votesDem": 9499,
+          "votesTotal": 14229
+        },
+        "Teller08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +35.7",
+          "margin": 35.68,
+          "votesRep": 8409,
+          "votesDem": 3986,
+          "votesTotal": 12876
+        },
+        "Washington08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +74.4",
+          "margin": 74.41,
+          "votesRep": 2004,
+          "votesDem": 294,
+          "votesTotal": 2389
+        },
+        "Weld08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +21.9",
+          "margin": 21.95,
+          "votesRep": 72886,
+          "votesDem": 46653,
+          "votesTotal": 125372
+        },
+        "Yuma08": {
+          "color": "#BF1D29",
+          "label": "Stapleton +64.8",
+          "margin": 64.81,
+          "votesRep": 3264,
+          "votesDem": 697,
+          "votesTotal": 4102
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Darryl Glenn",
+      "candDem": "Michael Bennet",
+      "shortRep": "Glenn",
+      "shortDem": "Bennet",
+      "partisan": true,
+      "margin": -6.01,
+      "votesRep": 1215318,
+      "votesDem": 1370710,
+      "votesTotal": 2743029,
+      "regions": {
+        "Adams08": {
+          "color": "#1C408C",
+          "label": "Bennet +12.2",
+          "margin": -12.16,
+          "votesRep": 76285,
+          "votesDem": 97402,
+          "votesTotal": 184996
+        },
+        "Alamosa08": {
+          "color": "#1C408C",
+          "label": "Bennet +12.2",
+          "margin": -12.16,
+          "votesRep": 2894,
+          "votesDem": 3695,
+          "votesTotal": 6972
+        },
+        "Arapahoe08": {
+          "color": "#1C408C",
+          "label": "Bennet +13.7",
+          "margin": -13.71,
+          "votesRep": 123509,
+          "votesDem": 162747,
+          "votesTotal": 301361
+        },
+        "Archuleta08": {
+          "color": "#BF1D29",
+          "label": "Glenn +19.4",
+          "margin": 19.38,
+          "votesRep": 4072,
+          "votesDem": 2750,
+          "votesTotal": 7252
+        },
+        "Baca08": {
+          "color": "#BF1D29",
+          "label": "Glenn +43.6",
+          "margin": 43.6,
+          "votesRep": 1469,
+          "votesDem": 577,
+          "votesTotal": 2138
+        },
+        "Bent08": {
+          "color": "#BF1D29",
+          "label": "Glenn +12.1",
+          "margin": 12.15,
+          "votesRep": 1034,
+          "votesDem": 810,
+          "votesTotal": 1918
+        },
+        "Boulder08": {
+          "color": "#1C408C",
+          "label": "Bennet +46.8",
+          "margin": -46.82,
+          "votesRep": 45755,
+          "votesDem": 126334,
+          "votesTotal": 185820
+        },
+        "Broomfield08": {
+          "color": "#1C408C",
+          "label": "Bennet +12.6",
+          "margin": -12.62,
+          "votesRep": 15077,
+          "votesDem": 19431,
+          "votesTotal": 36617
+        },
+        "Chaffee08": {
+          "color": "#FF8B98",
+          "label": "Glenn +1.2",
+          "margin": 1.17,
+          "votesRep": 5384,
+          "votesDem": 5259,
+          "votesTotal": 11261
+        },
+        "Cheyenne08": {
+          "color": "#BF1D29",
+          "label": "Glenn +58.0",
+          "margin": 58.02,
+          "votesRep": 828,
+          "votesDem": 220,
+          "votesTotal": 1090
+        },
+        "Clear Creek08": {
+          "color": "#577CCC",
+          "label": "Bennet +6.3",
+          "margin": -6.31,
+          "votesRep": 2541,
+          "votesDem": 2883,
+          "votesTotal": 5875
+        },
+        "Conejos08": {
+          "color": "#8AAFFF",
+          "label": "Bennet +4.9",
+          "margin": -4.94,
+          "votesRep": 1878,
+          "votesDem": 2073,
+          "votesTotal": 4056
+        },
+        "Costilla08": {
+          "color": "#1C408C",
+          "label": "Bennet +36.9",
+          "margin": -36.87,
+          "votesRep": 547,
+          "votesDem": 1186,
+          "votesTotal": 1823
+        },
+        "Crowley08": {
+          "color": "#BF1D29",
+          "label": "Glenn +30.0",
+          "margin": 30,
+          "votesRep": 936,
+          "votesDem": 504,
+          "votesTotal": 1518
+        },
+        "Custer08": {
+          "color": "#BF1D29",
+          "label": "Glenn +35.5",
+          "margin": 35.52,
+          "votesRep": 1984,
+          "votesDem": 944,
+          "votesTotal": 3060
+        },
+        "Delta08": {
+          "color": "#BF1D29",
+          "label": "Glenn +38.1",
+          "margin": 38.11,
+          "votesRep": 10970,
+          "votesDem": 4916,
+          "votesTotal": 16761
+        },
+        "Denver08": {
+          "color": "#1C408C",
+          "label": "Bennet +54.1",
+          "margin": -54.12,
+          "votesRep": 71078,
+          "votesDem": 238774,
+          "votesTotal": 327293
+        },
+        "Dolores08": {
+          "color": "#BF1D29",
+          "label": "Glenn +41.0",
+          "margin": 41.01,
+          "votesRep": 808,
+          "votesDem": 338,
+          "votesTotal": 1205
+        },
+        "Douglas08": {
+          "color": "#BF1D29",
+          "label": "Glenn +21.3",
+          "margin": 21.31,
+          "votesRep": 107920,
+          "votesDem": 70005,
+          "votesTotal": 186384
+        },
+        "Eagle08": {
+          "color": "#1C408C",
+          "label": "Bennet +22.0",
+          "margin": -21.95,
+          "votesRep": 8772,
+          "votesDem": 13707,
+          "votesTotal": 24819
+        },
+        "El Paso08": {
+          "color": "#BF1D29",
+          "label": "Glenn +23.5",
+          "margin": 23.53,
+          "votesRep": 183709,
+          "votesDem": 113726,
+          "votesTotal": 316719
+        },
+        "Elbert08": {
+          "color": "#BF1D29",
+          "label": "Glenn +51.7",
+          "margin": 51.66,
+          "votesRep": 11558,
+          "votesDem": 3684,
+          "votesTotal": 15913
+        },
+        "Fremont08": {
+          "color": "#BF1D29",
+          "label": "Glenn +35.9",
+          "margin": 35.93,
+          "votesRep": 14154,
+          "votesDem": 6671,
+          "votesTotal": 21954
+        },
+        "Garfield08": {
+          "color": "#FF8B98",
+          "label": "Glenn +2.3",
+          "margin": 2.26,
+          "votesRep": 12596,
+          "votesDem": 12039,
+          "votesTotal": 26201
+        },
+        "Gilpin08": {
+          "color": "#577CCC",
+          "label": "Bennet +7.0",
+          "margin": -6.99,
+          "votesRep": 1503,
+          "votesDem": 1729,
+          "votesTotal": 3581
+        },
+        "Grand08": {
+          "color": "#FF5865",
+          "label": "Glenn +9.7",
+          "margin": 9.71,
+          "votesRep": 4402,
+          "votesDem": 3623,
+          "votesTotal": 8566
+        },
+        "Gunnison08": {
+          "color": "#1C408C",
+          "label": "Bennet +26.3",
+          "margin": -26.35,
+          "votesRep": 3216,
+          "votesDem": 5517,
+          "votesTotal": 9392
+        },
+        "Hinsdale08": {
+          "color": "#BF1D29",
+          "label": "Glenn +12.5",
+          "margin": 12.46,
+          "votesRep": 316,
+          "votesDem": 246,
+          "votesTotal": 586
+        },
+        "Huerfano08": {
+          "color": "#577CCC",
+          "label": "Bennet +6.8",
+          "margin": -6.82,
+          "votesRep": 1694,
+          "votesDem": 1942,
+          "votesTotal": 3789
+        },
+        "Jackson08": {
+          "color": "#BF1D29",
+          "label": "Glenn +42.5",
+          "margin": 42.54,
+          "votesRep": 583,
+          "votesDem": 235,
+          "votesTotal": 854
+        },
+        "Jefferson08": {
+          "color": "#577CCC",
+          "label": "Bennet +7.9",
+          "margin": -7.91,
+          "votesRep": 139237,
+          "votesDem": 163172,
+          "votesTotal": 321371
+        },
+        "Kiowa08": {
+          "color": "#BF1D29",
+          "label": "Glenn +52.0",
+          "margin": 52.02,
+          "votesRep": 621,
+          "votesDem": 196,
+          "votesTotal": 838
+        },
+        "Kit Carson08": {
+          "color": "#BF1D29",
+          "label": "Glenn +48.9",
+          "margin": 48.93,
+          "votesRep": 2607,
+          "votesDem": 894,
+          "votesTotal": 3631
+        },
+        "La Plata08": {
+          "color": "#1C408C",
+          "label": "Bennet +11.3",
+          "margin": -11.28,
+          "votesRep": 12678,
+          "votesDem": 15903,
+          "votesTotal": 30638
+        },
+        "Lake08": {
+          "color": "#1C408C",
+          "label": "Bennet +18.4",
+          "margin": -18.42,
+          "votesRep": 1174,
+          "votesDem": 1704,
+          "votesTotal": 3145
+        },
+        "Larimer08": {
+          "color": "#577CCC",
+          "label": "Bennet +5.3",
+          "margin": -5.33,
+          "votesRep": 86101,
+          "votesDem": 95789,
+          "votesTotal": 193866
+        },
+        "Las Animas08": {
+          "color": "#8AAFFF",
+          "label": "Bennet +2.0",
+          "margin": -2.02,
+          "votesRep": 3174,
+          "votesDem": 3305,
+          "votesTotal": 6774
+        },
+        "Lincoln08": {
+          "color": "#BF1D29",
+          "label": "Glenn +49.5",
+          "margin": 49.53,
+          "votesRep": 1742,
+          "votesDem": 588,
+          "votesTotal": 2413
+        },
+        "Logan08": {
+          "color": "#BF1D29",
+          "label": "Glenn +40.5",
+          "margin": 40.49,
+          "votesRep": 6534,
+          "votesDem": 2768,
+          "votesTotal": 9666
+        },
+        "Mesa08": {
+          "color": "#BF1D29",
+          "label": "Glenn +33.6",
+          "margin": 33.65,
+          "votesRep": 48559,
+          "votesDem": 24109,
+          "votesTotal": 77268
+        },
+        "Mineral08": {
+          "color": "#FF8B98",
+          "label": "Glenn +4.0",
+          "margin": 3.99,
+          "votesRep": 326,
+          "votesDem": 301,
+          "votesTotal": 658
+        },
+        "Moffat08": {
+          "color": "#BF1D29",
+          "label": "Glenn +56.3",
+          "margin": 56.3,
+          "votesRep": 4786,
+          "votesDem": 1338,
+          "votesTotal": 6395
+        },
+        "Montezuma08": {
+          "color": "#BF1D29",
+          "label": "Glenn +27.0",
+          "margin": 26.97,
+          "votesRep": 7484,
+          "votesDem": 4305,
+          "votesTotal": 12599
+        },
+        "Montrose08": {
+          "color": "#BF1D29",
+          "label": "Glenn +39.5",
+          "margin": 39.45,
+          "votesRep": 13946,
+          "votesDem": 6055,
+          "votesTotal": 20986
+        },
+        "Morgan08": {
+          "color": "#BF1D29",
+          "label": "Glenn +31.6",
+          "margin": 31.56,
+          "votesRep": 7516,
+          "votesDem": 3910,
+          "votesTotal": 11874
+        },
+        "Otero08": {
+          "color": "#BF1D29",
+          "label": "Glenn +11.1",
+          "margin": 11.08,
+          "votesRep": 4561,
+          "votesDem": 3651,
+          "votesTotal": 8533
+        },
+        "Ouray08": {
+          "color": "#1C408C",
+          "label": "Bennet +10.8",
+          "margin": -10.79,
+          "votesRep": 1397,
+          "votesDem": 1735,
+          "votesTotal": 3309
+        },
+        "Park08": {
+          "color": "#BF1D29",
+          "label": "Glenn +22.9",
+          "margin": 22.93,
+          "votesRep": 5937,
+          "votesDem": 3722,
+          "votesTotal": 10377
+        },
+        "Phillips08": {
+          "color": "#BF1D29",
+          "label": "Glenn +38.6",
+          "margin": 38.63,
+          "votesRep": 1570,
+          "votesDem": 695,
+          "votesTotal": 2316
+        },
+        "Pitkin08": {
+          "color": "#1C408C",
+          "label": "Bennet +44.1",
+          "margin": -44.1,
+          "votesRep": 2656,
+          "votesDem": 6847,
+          "votesTotal": 10020
+        },
+        "Prowers08": {
+          "color": "#BF1D29",
+          "label": "Glenn +30.7",
+          "margin": 30.73,
+          "votesRep": 3110,
+          "votesDem": 1648,
+          "votesTotal": 4945
+        },
+        "Pueblo08": {
+          "color": "#1C408C",
+          "label": "Bennet +10.1",
+          "margin": -10.1,
+          "votesRep": 33051,
+          "votesDem": 40475,
+          "votesTotal": 77819
+        },
+        "Rio Blanco08": {
+          "color": "#BF1D29",
+          "label": "Glenn +63.0",
+          "margin": 62.97,
+          "votesRep": 2641,
+          "votesDem": 600,
+          "votesTotal": 3375
+        },
+        "Rio Grande08": {
+          "color": "#BF1D29",
+          "label": "Glenn +11.3",
+          "margin": 11.26,
+          "votesRep": 2974,
+          "votesDem": 2372,
+          "votesTotal": 5573
+        },
+        "Routt08": {
+          "color": "#1C408C",
+          "label": "Bennet +19.4",
+          "margin": -19.36,
+          "votesRep": 5265,
+          "votesDem": 7793,
+          "votesTotal": 13780
+        },
+        "Saguache08": {
+          "color": "#1C408C",
+          "label": "Bennet +20.2",
+          "margin": -20.21,
+          "votesRep": 1042,
+          "votesDem": 1570,
+          "votesTotal": 2849
+        },
+        "San Juan08": {
+          "color": "#1C408C",
+          "label": "Bennet +18.2",
+          "margin": -18.22,
+          "votesRep": 193,
+          "votesDem": 279,
+          "votesTotal": 498
+        },
+        "San Miguel08": {
+          "color": "#1C408C",
+          "label": "Bennet +47.3",
+          "margin": -47.33,
+          "votesRep": 1055,
+          "votesDem": 2951,
+          "votesTotal": 4308
+        },
+        "Sedgwick08": {
+          "color": "#BF1D29",
+          "label": "Glenn +33.9",
+          "margin": 33.9,
+          "votesRep": 863,
+          "votesDem": 426,
+          "votesTotal": 1340
+        },
+        "Summit08": {
+          "color": "#1C408C",
+          "label": "Bennet +29.6",
+          "margin": -29.62,
+          "votesRep": 5178,
+          "votesDem": 9536,
+          "votesTotal": 15914
+        },
+        "Teller08": {
+          "color": "#BF1D29",
+          "label": "Glenn +40.3",
+          "margin": 40.28,
+          "votesRep": 9547,
+          "votesDem": 4064,
+          "votesTotal": 14330
+        },
+        "Washington08": {
+          "color": "#BF1D29",
+          "label": "Glenn +59.8",
+          "margin": 59.76,
+          "votesRep": 2092,
+          "votesDem": 527,
+          "votesTotal": 2702
+        },
+        "Weld08": {
+          "color": "#BF1D29",
+          "label": "Glenn +17.8",
+          "margin": 17.76,
+          "votesRep": 74843,
+          "votesDem": 52263,
+          "votesTotal": 134383
+        },
+        "Yuma08": {
+          "color": "#BF1D29",
+          "label": "Glenn +46.0",
+          "margin": 46.01,
+          "votesRep": 3386,
+          "votesDem": 1252,
+          "votesTotal": 4762
+        }
+      }
+    }
+  ]
+}

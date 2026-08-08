@@ -1,0 +1,1212 @@
+{
+  "stateFips": "24",
+  "stateName": "Maryland",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Larry Hogan",
+      "candDem": "Angela Alsobrooks",
+      "shortRep": "Hogan",
+      "shortDem": "Alsobrooks",
+      "partisan": true,
+      "margin": -12.11,
+      "votesRep": 1294344,
+      "votesDem": 1650912,
+      "votesTotal": 3021378,
+      "regions": {
+        "Allegany24": {
+          "color": "#BF1D29",
+          "label": "Hogan +49.4",
+          "margin": 49.35,
+          "votesRep": 21811,
+          "votesDem": 7396,
+          "votesTotal": 31411
+        },
+        "Anne Arundel24": {
+          "color": "#FF5865",
+          "label": "Hogan +8.9",
+          "margin": 8.95,
+          "votesRep": 164698,
+          "votesDem": 137645,
+          "votesTotal": 310387
+        },
+        "BaltimoreCounty24": {
+          "color": "#577CCC",
+          "label": "Alsobrooks +6.1",
+          "margin": -6.09,
+          "votesRep": 188177,
+          "votesDem": 212585,
+          "votesTotal": 411123
+        },
+        "Calvert24": {
+          "color": "#BF1D29",
+          "label": "Hogan +29.3",
+          "margin": 29.31,
+          "votesRep": 33580,
+          "votesDem": 18359,
+          "votesTotal": 53755
+        },
+        "Caroline24": {
+          "color": "#BF1D29",
+          "label": "Hogan +50.5",
+          "margin": 50.54,
+          "votesRep": 11536,
+          "votesDem": 3790,
+          "votesTotal": 16129
+        },
+        "Carroll24": {
+          "color": "#BF1D29",
+          "label": "Hogan +46.7",
+          "margin": 46.7,
+          "votesRep": 72049,
+          "votesDem": 26180,
+          "votesTotal": 101991
+        },
+        "Cecil24": {
+          "color": "#BF1D29",
+          "label": "Hogan +45.3",
+          "margin": 45.28,
+          "votesRep": 35557,
+          "votesDem": 13392,
+          "votesTotal": 51872
+        },
+        "Charles24": {
+          "color": "#1C408C",
+          "label": "Alsobrooks +28.9",
+          "margin": -28.89,
+          "votesRep": 31941,
+          "votesDem": 57893,
+          "votesTotal": 91790
+        },
+        "Dorchester24": {
+          "color": "#BF1D29",
+          "label": "Hogan +26.8",
+          "margin": 26.81,
+          "votesRep": 10113,
+          "votesDem": 5837,
+          "votesTotal": 16639
+        },
+        "Frederick24": {
+          "color": "#BF1D29",
+          "label": "Hogan +11.7",
+          "margin": 11.65,
+          "votesRep": 83767,
+          "votesDem": 66280,
+          "votesTotal": 154769
+        },
+        "Garrett24": {
+          "color": "#BF1D29",
+          "label": "Hogan +66.3",
+          "margin": 66.32,
+          "votesRep": 11966,
+          "votesDem": 2423,
+          "votesTotal": 15502
+        },
+        "Harford24": {
+          "color": "#BF1D29",
+          "label": "Hogan +33.0",
+          "margin": 32.98,
+          "votesRep": 95455,
+          "votesDem": 48108,
+          "votesTotal": 149179
+        },
+        "Howard24": {
+          "color": "#1C408C",
+          "label": "Alsobrooks +15.6",
+          "margin": -15.65,
+          "votesRep": 75247,
+          "votesDem": 103163,
+          "votesTotal": 181792
+        },
+        "Kent24": {
+          "color": "#BF1D29",
+          "label": "Hogan +19.0",
+          "margin": 18.99,
+          "votesRep": 6375,
+          "votesDem": 4340,
+          "votesTotal": 11055
+        },
+        "Montgomery24": {
+          "color": "#1C408C",
+          "label": "Alsobrooks +33.6",
+          "margin": -33.55,
+          "votesRep": 169303,
+          "votesDem": 340280,
+          "votesTotal": 516847
+        },
+        "Prince George's24": {
+          "color": "#1C408C",
+          "label": "Alsobrooks +67.5",
+          "margin": -67.53,
+          "votesRep": 64550,
+          "votesDem": 333021,
+          "votesTotal": 402683
+        },
+        "Queen Anne's24": {
+          "color": "#BF1D29",
+          "label": "Hogan +47.1",
+          "margin": 47.15,
+          "votesRep": 22842,
+          "votesDem": 8204,
+          "votesTotal": 32196
+        },
+        "Somerset24": {
+          "color": "#BF1D29",
+          "label": "Hogan +27.7",
+          "margin": 27.73,
+          "votesRep": 5953,
+          "votesDem": 3368,
+          "votesTotal": 9952
+        },
+        "St. Mary's24": {
+          "color": "#BF1D29",
+          "label": "Hogan +34.1",
+          "margin": 34.07,
+          "votesRep": 37471,
+          "votesDem": 18426,
+          "votesTotal": 58457
+        },
+        "Talbot24": {
+          "color": "#BF1D29",
+          "label": "Hogan +20.8",
+          "margin": 20.82,
+          "votesRep": 13393,
+          "votesDem": 8778,
+          "votesTotal": 22779
+        },
+        "Washington24": {
+          "color": "#BF1D29",
+          "label": "Hogan +37.1",
+          "margin": 37.13,
+          "votesRep": 46870,
+          "votesDem": 21488,
+          "votesTotal": 71993
+        },
+        "Wicomico24": {
+          "color": "#BF1D29",
+          "label": "Hogan +22.7",
+          "margin": 22.7,
+          "votesRep": 27244,
+          "votesDem": 17163,
+          "votesTotal": 46480
+        },
+        "Worcester24": {
+          "color": "#BF1D29",
+          "label": "Hogan +43.2",
+          "margin": 43.22,
+          "votesRep": 22358,
+          "votesDem": 8864,
+          "votesTotal": 32560
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Dan Cox",
+      "candDem": "Wes Moore",
+      "shortRep": "Cox",
+      "shortDem": "Moore",
+      "partisan": true,
+      "margin": -33.54,
+      "votesRep": 644000,
+      "votesDem": 1293944,
+      "votesTotal": 2005223,
+      "regions": {
+        "Allegany24": {
+          "color": "#BF1D29",
+          "label": "Cox +35.1",
+          "margin": 35.09,
+          "votesRep": 14145,
+          "votesDem": 6796,
+          "votesTotal": 21697
+        },
+        "Anne Arundel24": {
+          "color": "#1C408C",
+          "label": "Moore +19.3",
+          "margin": -19.3,
+          "votesRep": 83823,
+          "votesDem": 123929,
+          "votesTotal": 216023
+        },
+        "BaltimoreCounty24": {
+          "color": "#1C408C",
+          "label": "Moore +31.9",
+          "margin": -31.94,
+          "votesRep": 88971,
+          "votesDem": 172494,
+          "votesTotal": 272054
+        },
+        "Calvert24": {
+          "color": "#FF5865",
+          "label": "Cox +8.0",
+          "margin": 7.99,
+          "votesRep": 19668,
+          "votesDem": 16757,
+          "votesTotal": 37577
+        },
+        "Caroline24": {
+          "color": "#BF1D29",
+          "label": "Cox +33.2",
+          "margin": 33.17,
+          "votesRep": 6869,
+          "votesDem": 3447,
+          "votesTotal": 10729
+        },
+        "Carroll24": {
+          "color": "#BF1D29",
+          "label": "Cox +18.3",
+          "margin": 18.26,
+          "votesRep": 40683,
+          "votesDem": 28117,
+          "votesTotal": 71887
+        },
+        "Cecil24": {
+          "color": "#BF1D29",
+          "label": "Cox +24.7",
+          "margin": 24.73,
+          "votesRep": 19873,
+          "votesDem": 11992,
+          "votesTotal": 33067
+        },
+        "Charles24": {
+          "color": "#1C408C",
+          "label": "Moore +40.5",
+          "margin": -40.49,
+          "votesRep": 15830,
+          "votesDem": 37367,
+          "votesTotal": 54510
+        },
+        "Dorchester24": {
+          "color": "#BF1D29",
+          "label": "Cox +15.0",
+          "margin": 14.98,
+          "votesRep": 6377,
+          "votesDem": 4715,
+          "votesTotal": 11493
+        },
+        "Frederick24": {
+          "color": "#1C408C",
+          "label": "Moore +10.6",
+          "margin": -10.63,
+          "votesRep": 46040,
+          "votesDem": 56992,
+          "votesTotal": 106608
+        },
+        "Garrett24": {
+          "color": "#BF1D29",
+          "label": "Cox +53.9",
+          "margin": 53.95,
+          "votesRep": 8381,
+          "votesDem": 2507,
+          "votesTotal": 11305
+        },
+        "Harford24": {
+          "color": "#FF5865",
+          "label": "Cox +8.8",
+          "margin": 8.81,
+          "votesRep": 53962,
+          "votesDem": 45222,
+          "votesTotal": 103346
+        },
+        "Howard24": {
+          "color": "#1C408C",
+          "label": "Moore +45.0",
+          "margin": -45.02,
+          "votesRep": 34514,
+          "votesDem": 91031,
+          "votesTotal": 130291
+        },
+        "Kent24": {
+          "color": "#577CCC",
+          "label": "Moore +7.4",
+          "margin": -7.37,
+          "votesRep": 3791,
+          "votesDem": 4394,
+          "votesTotal": 8463
+        },
+        "Montgomery24": {
+          "color": "#1C408C",
+          "label": "Moore +61.3",
+          "margin": -61.32,
+          "votesRep": 64507,
+          "votesDem": 269072,
+          "votesTotal": 343371
+        },
+        "Prince George's24": {
+          "color": "#1C408C",
+          "label": "Moore +82.9",
+          "margin": -82.94,
+          "votesRep": 20045,
+          "votesDem": 214971,
+          "votesTotal": 240908
+        },
+        "Queen Anne's24": {
+          "color": "#BF1D29",
+          "label": "Cox +19.1",
+          "margin": 19.11,
+          "votesRep": 13123,
+          "votesDem": 8913,
+          "votesTotal": 22899
+        },
+        "Somerset24": {
+          "color": "#BF1D29",
+          "label": "Cox +24.7",
+          "margin": 24.73,
+          "votesRep": 4128,
+          "votesDem": 2491,
+          "votesTotal": 6829
+        },
+        "St. Mary's24": {
+          "color": "#BF1D29",
+          "label": "Cox +16.8",
+          "margin": 16.83,
+          "votesRep": 21150,
+          "votesDem": 15057,
+          "votesTotal": 37703
+        },
+        "Talbot24": {
+          "color": "#577CCC",
+          "label": "Moore +6.9",
+          "margin": -6.93,
+          "votesRep": 7935,
+          "votesDem": 9116,
+          "votesTotal": 17646
+        },
+        "Washington24": {
+          "color": "#BF1D29",
+          "label": "Cox +20.8",
+          "margin": 20.77,
+          "votesRep": 28547,
+          "votesDem": 18727,
+          "votesTotal": 48853
+        },
+        "Wicomico24": {
+          "color": "#FF5865",
+          "label": "Cox +5.1",
+          "margin": 5.09,
+          "votesRep": 15362,
+          "votesDem": 13873,
+          "votesTotal": 30296
+        },
+        "Worcester24": {
+          "color": "#BF1D29",
+          "label": "Cox +20.6",
+          "margin": 20.6,
+          "votesRep": 13967,
+          "votesDem": 9196,
+          "votesTotal": 23801
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Chris Chaffee",
+      "candDem": "Chris Van Hollen",
+      "shortRep": "Chaffee",
+      "shortDem": "Hollen",
+      "partisan": true,
+      "margin": -31.74,
+      "votesRep": 682293,
+      "votesDem": 1316897,
+      "votesTotal": 2002336,
+      "regions": {
+        "Allegany24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +32.8",
+          "margin": 32.83,
+          "votesRep": 14326,
+          "votesDem": 7244,
+          "votesTotal": 21587
+        },
+        "Anne Arundel24": {
+          "color": "#1C408C",
+          "label": "Hollen +15.0",
+          "margin": -14.98,
+          "votesRep": 91471,
+          "votesDem": 123696,
+          "votesTotal": 215544
+        },
+        "BaltimoreCounty24": {
+          "color": "#1C408C",
+          "label": "Hollen +28.6",
+          "margin": -28.64,
+          "votesRep": 97307,
+          "votesDem": 175417,
+          "votesTotal": 273126
+        },
+        "Calvert24": {
+          "color": "#FF5865",
+          "label": "Chaffee +9.0",
+          "margin": 9.03,
+          "votesRep": 20382,
+          "votesDem": 17007,
+          "votesTotal": 37426
+        },
+        "Caroline24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +32.6",
+          "margin": 32.59,
+          "votesRep": 7054,
+          "votesDem": 3586,
+          "votesTotal": 10656
+        },
+        "Carroll24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +22.3",
+          "margin": 22.35,
+          "votesRep": 43761,
+          "votesDem": 27775,
+          "votesTotal": 71626
+        },
+        "Cecil24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +26.2",
+          "margin": 26.15,
+          "votesRep": 20725,
+          "votesDem": 12132,
+          "votesTotal": 32913
+        },
+        "Charles24": {
+          "color": "#1C408C",
+          "label": "Hollen +40.5",
+          "margin": -40.5,
+          "votesRep": 16207,
+          "votesDem": 38270,
+          "votesTotal": 54574
+        },
+        "Dorchester24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +13.6",
+          "margin": 13.65,
+          "votesRep": 6511,
+          "votesDem": 4947,
+          "votesTotal": 11473
+        },
+        "Frederick24": {
+          "color": "#1C408C",
+          "label": "Hollen +10.7",
+          "margin": -10.65,
+          "votesRep": 47406,
+          "votesDem": 58708,
+          "votesTotal": 106233
+        },
+        "Garrett24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +53.7",
+          "margin": 53.66,
+          "votesRep": 8647,
+          "votesDem": 2608,
+          "votesTotal": 11262
+        },
+        "Harford24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +12.1",
+          "margin": 12.08,
+          "votesRep": 57713,
+          "votesDem": 45273,
+          "votesTotal": 103136
+        },
+        "Howard24": {
+          "color": "#1C408C",
+          "label": "Hollen +42.0",
+          "margin": -42.05,
+          "votesRep": 37617,
+          "votesDem": 92205,
+          "votesTotal": 130052
+        },
+        "Kent24": {
+          "color": "#577CCC",
+          "label": "Hollen +6.1",
+          "margin": -6.08,
+          "votesRep": 3950,
+          "votesDem": 4461,
+          "votesTotal": 8425
+        },
+        "Montgomery24": {
+          "color": "#1C408C",
+          "label": "Hollen +61.5",
+          "margin": -61.48,
+          "votesRep": 65956,
+          "votesDem": 276482,
+          "votesTotal": 343072
+        },
+        "Prince George's24": {
+          "color": "#1C408C",
+          "label": "Hollen +82.4",
+          "margin": -82.38,
+          "votesRep": 21127,
+          "votesDem": 218726,
+          "votesTotal": 240251
+        },
+        "Queen Anne's24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +23.5",
+          "margin": 23.51,
+          "votesRep": 14064,
+          "votesDem": 8710,
+          "votesTotal": 22805
+        },
+        "Somerset24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +21.9",
+          "margin": 21.91,
+          "votesRep": 4146,
+          "votesDem": 2656,
+          "votesTotal": 6807
+        },
+        "St. Mary's24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +16.6",
+          "margin": 16.56,
+          "votesRep": 21869,
+          "votesDem": 15656,
+          "votesTotal": 37568
+        },
+        "Talbot24": {
+          "color": "#8AAFFF",
+          "label": "Hollen +2.7",
+          "margin": -2.73,
+          "votesRep": 8548,
+          "votesDem": 9028,
+          "votesTotal": 17589
+        },
+        "Washington24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +19.9",
+          "margin": 19.9,
+          "votesRep": 29072,
+          "votesDem": 19420,
+          "votesTotal": 48556
+        },
+        "Wicomico24": {
+          "color": "#FF5865",
+          "label": "Chaffee +5.9",
+          "margin": 5.95,
+          "votesRep": 16104,
+          "votesDem": 14296,
+          "votesTotal": 30432
+        },
+        "Worcester24": {
+          "color": "#BF1D29",
+          "label": "Chaffee +21.6",
+          "margin": 21.6,
+          "votesRep": 14481,
+          "votesDem": 9337,
+          "votesTotal": 23837
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Larry Hogan",
+      "candDem": "Ben Jealous",
+      "shortRep": "Hogan",
+      "shortDem": "Jealous",
+      "partisan": true,
+      "margin": 11.98,
+      "votesRep": 1275644,
+      "votesDem": 1002639,
+      "votesTotal": 2304512,
+      "regions": {
+        "Allegany24": {
+          "color": "#BF1D29",
+          "label": "Hogan +65.7",
+          "margin": 65.66,
+          "votesRep": 19224,
+          "votesDem": 3985,
+          "votesTotal": 23530
+        },
+        "Anne Arundel24": {
+          "color": "#BF1D29",
+          "label": "Hogan +38.7",
+          "margin": 38.75,
+          "votesRep": 157202,
+          "votesDem": 69399,
+          "votesTotal": 229206
+        },
+        "BaltimoreCounty24": {
+          "color": "#BF1D29",
+          "label": "Hogan +23.5",
+          "margin": 23.48,
+          "votesRep": 198122,
+          "votesDem": 122773,
+          "votesTotal": 324276
+        },
+        "Calvert24": {
+          "color": "#BF1D29",
+          "label": "Hogan +52.5",
+          "margin": 52.53,
+          "votesRep": 29610,
+          "votesDem": 9216,
+          "votesTotal": 39284
+        },
+        "Caroline24": {
+          "color": "#BF1D29",
+          "label": "Hogan +66.6",
+          "margin": 66.63,
+          "votesRep": 9489,
+          "votesDem": 1900,
+          "votesTotal": 11505
+        },
+        "Carroll24": {
+          "color": "#BF1D29",
+          "label": "Hogan +68.3",
+          "margin": 68.29,
+          "votesRep": 62445,
+          "votesDem": 11767,
+          "votesTotal": 75051
+        },
+        "Cecil24": {
+          "color": "#BF1D29",
+          "label": "Hogan +57.3",
+          "margin": 57.27,
+          "votesRep": 27063,
+          "votesDem": 7354,
+          "votesTotal": 34939
+        },
+        "Charles24": {
+          "color": "#949BB3",
+          "label": "Jealous +0.5",
+          "margin": -0.54,
+          "votesRep": 31756,
+          "votesDem": 32100,
+          "votesTotal": 64360
+        },
+        "Dorchester24": {
+          "color": "#BF1D29",
+          "label": "Hogan +50.3",
+          "margin": 50.31,
+          "votesRep": 9205,
+          "votesDem": 3043,
+          "votesTotal": 12367
+        },
+        "Frederick24": {
+          "color": "#BF1D29",
+          "label": "Hogan +37.0",
+          "margin": 37.02,
+          "votesRep": 72560,
+          "votesDem": 33355,
+          "votesTotal": 107219
+        },
+        "Garrett24": {
+          "color": "#BF1D29",
+          "label": "Hogan +74.3",
+          "margin": 74.33,
+          "votesRep": 9472,
+          "votesDem": 1395,
+          "votesTotal": 11008
+        },
+        "Harford24": {
+          "color": "#BF1D29",
+          "label": "Hogan +56.1",
+          "margin": 56.05,
+          "votesRep": 85259,
+          "votesDem": 24012,
+          "votesTotal": 110579
+        },
+        "Howard24": {
+          "color": "#BF1D29",
+          "label": "Hogan +13.7",
+          "margin": 13.71,
+          "votesRep": 80574,
+          "votesDem": 61146,
+          "votesTotal": 143383
+        },
+        "Kent24": {
+          "color": "#BF1D29",
+          "label": "Hogan +48.3",
+          "margin": 48.28,
+          "votesRep": 6370,
+          "votesDem": 2222,
+          "votesTotal": 8694
+        },
+        "Montgomery24": {
+          "color": "#1C408C",
+          "label": "Jealous +10.9",
+          "margin": -10.89,
+          "votesRep": 180018,
+          "votesDem": 224029,
+          "votesTotal": 408428
+        },
+        "Prince George's24": {
+          "color": "#1C408C",
+          "label": "Jealous +43.1",
+          "margin": -43.05,
+          "votesRep": 89925,
+          "votesDem": 225889,
+          "votesTotal": 318985
+        },
+        "Queen Anne's24": {
+          "color": "#BF1D29",
+          "label": "Hogan +71.3",
+          "margin": 71.3,
+          "votesRep": 19503,
+          "votesDem": 3268,
+          "votesTotal": 22971
+        },
+        "Somerset24": {
+          "color": "#BF1D29",
+          "label": "Hogan +37.2",
+          "margin": 37.25,
+          "votesRep": 5203,
+          "votesDem": 2379,
+          "votesTotal": 7702
+        },
+        "St. Mary's24": {
+          "color": "#BF1D29",
+          "label": "Hogan +54.3",
+          "margin": 54.34,
+          "votesRep": 30703,
+          "votesDem": 9084,
+          "votesTotal": 40394
+        },
+        "Talbot24": {
+          "color": "#BF1D29",
+          "label": "Hogan +56.1",
+          "margin": 56.13,
+          "votesRep": 14081,
+          "votesDem": 3957,
+          "votesTotal": 18190
+        },
+        "Washington24": {
+          "color": "#BF1D29",
+          "label": "Hogan +56.1",
+          "margin": 56.12,
+          "votesRep": 38765,
+          "votesDem": 10894,
+          "votesTotal": 50461
+        },
+        "Wicomico24": {
+          "color": "#BF1D29",
+          "label": "Hogan +37.0",
+          "margin": 36.97,
+          "votesRep": 22659,
+          "votesDem": 10426,
+          "votesTotal": 33534
+        },
+        "Worcester24": {
+          "color": "#BF1D29",
+          "label": "Hogan +53.8",
+          "margin": 53.75,
+          "votesRep": 18076,
+          "votesDem": 5437,
+          "votesTotal": 23755
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Tony Campbell",
+      "candDem": "Ben Cardin",
+      "shortRep": "Campbell",
+      "shortDem": "Cardin",
+      "partisan": true,
+      "margin": -36.31,
+      "votesRep": 697017,
+      "votesDem": 1491614,
+      "votesTotal": 2299889,
+      "regions": {
+        "Allegany24": {
+          "color": "#BF1D29",
+          "label": "Campbell +23.2",
+          "margin": 23.2,
+          "votesRep": 13790,
+          "votesDem": 8597,
+          "votesTotal": 23349
+        },
+        "Anne Arundel24": {
+          "color": "#1C408C",
+          "label": "Cardin +14.2",
+          "margin": -14.17,
+          "votesRep": 92401,
+          "votesDem": 122910,
+          "votesTotal": 228703
+        },
+        "BaltimoreCounty24": {
+          "color": "#1C408C",
+          "label": "Cardin +30.0",
+          "margin": -30.04,
+          "votesRep": 106275,
+          "votesDem": 197530,
+          "votesTotal": 324600
+        },
+        "Calvert24": {
+          "color": "#FF5865",
+          "label": "Campbell +6.8",
+          "margin": 6.79,
+          "votesRep": 19901,
+          "votesDem": 17372,
+          "votesTotal": 39031
+        },
+        "Caroline24": {
+          "color": "#BF1D29",
+          "label": "Campbell +20.6",
+          "margin": 20.57,
+          "votesRep": 6474,
+          "votesDem": 4265,
+          "votesTotal": 11304
+        },
+        "Carroll24": {
+          "color": "#BF1D29",
+          "label": "Campbell +24.1",
+          "margin": 24.09,
+          "votesRep": 42479,
+          "votesDem": 25986,
+          "votesTotal": 74489
+        },
+        "Cecil24": {
+          "color": "#BF1D29",
+          "label": "Campbell +20.0",
+          "margin": 19.99,
+          "votesRep": 19851,
+          "votesDem": 13237,
+          "votesTotal": 34791
+        },
+        "Charles24": {
+          "color": "#1C408C",
+          "label": "Cardin +43.0",
+          "margin": -43.03,
+          "votesRep": 17872,
+          "votesDem": 44874,
+          "votesTotal": 64533
+        },
+        "Dorchester24": {
+          "color": "#949BB3",
+          "label": "Cardin +0.5",
+          "margin": -0.54,
+          "votesRep": 5864,
+          "votesDem": 5928,
+          "votesTotal": 12292
+        },
+        "Frederick24": {
+          "color": "#577CCC",
+          "label": "Cardin +8.0",
+          "margin": -8.03,
+          "votesRep": 47038,
+          "votesDem": 55256,
+          "votesTotal": 106933
+        },
+        "Garrett24": {
+          "color": "#BF1D29",
+          "label": "Campbell +46.9",
+          "margin": 46.94,
+          "votesRep": 7801,
+          "votesDem": 2817,
+          "votesTotal": 10939
+        },
+        "Harford24": {
+          "color": "#BF1D29",
+          "label": "Campbell +10.5",
+          "margin": 10.55,
+          "votesRep": 56749,
+          "votesDem": 45921,
+          "votesTotal": 110307
+        },
+        "Howard24": {
+          "color": "#1C408C",
+          "label": "Cardin +42.5",
+          "margin": -42.47,
+          "votesRep": 38797,
+          "votesDem": 96067,
+          "votesTotal": 143448
+        },
+        "Kent24": {
+          "color": "#1C408C",
+          "label": "Cardin +13.6",
+          "margin": -13.59,
+          "votesRep": 3490,
+          "votesDem": 4588,
+          "votesTotal": 8578
+        },
+        "Montgomery24": {
+          "color": "#1C408C",
+          "label": "Cardin +61.5",
+          "margin": -61.53,
+          "votesRep": 74924,
+          "votesDem": 314568,
+          "votesTotal": 406997
+        },
+        "Prince George's24": {
+          "color": "#1C408C",
+          "label": "Cardin +84.5",
+          "margin": -84.48,
+          "votesRep": 24140,
+          "votesDem": 286975,
+          "votesTotal": 318523
+        },
+        "Queen Anne's24": {
+          "color": "#BF1D29",
+          "label": "Campbell +20.4",
+          "margin": 20.45,
+          "votesRep": 12813,
+          "votesDem": 8463,
+          "votesTotal": 22744
+        },
+        "Somerset24": {
+          "color": "#FF8B98",
+          "label": "Campbell +3.1",
+          "margin": 3.05,
+          "votesRep": 3882,
+          "votesDem": 3652,
+          "votesTotal": 7755
+        },
+        "St. Mary's24": {
+          "color": "#BF1D29",
+          "label": "Campbell +11.9",
+          "margin": 11.88,
+          "votesRep": 21393,
+          "votesDem": 16849,
+          "votesTotal": 40180
+        },
+        "Talbot24": {
+          "color": "#577CCC",
+          "label": "Cardin +5.9",
+          "margin": -5.87,
+          "votesRep": 8050,
+          "votesDem": 9054,
+          "votesTotal": 18066
+        },
+        "Washington24": {
+          "color": "#BF1D29",
+          "label": "Campbell +17.3",
+          "margin": 17.32,
+          "votesRep": 28319,
+          "votesDem": 19956,
+          "votesTotal": 50406
+        },
+        "Wicomico24": {
+          "color": "#8AAFFF",
+          "label": "Cardin +2.8",
+          "margin": -2.78,
+          "votesRep": 15644,
+          "votesDem": 16539,
+          "votesTotal": 33691
+        },
+        "Worcester24": {
+          "color": "#BF1D29",
+          "label": "Campbell +13.4",
+          "margin": 13.4,
+          "votesRep": 12886,
+          "votesDem": 9840,
+          "votesTotal": 23788
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Kathy Szeliga",
+      "candDem": "Chris Van Hollen",
+      "shortRep": "Szeliga",
+      "shortDem": "Hollen",
+      "partisan": true,
+      "margin": -26.13,
+      "votesRep": 972099,
+      "votesDem": 1659907,
+      "votesTotal": 2723626,
+      "regions": {
+        "Allegany24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +29.9",
+          "margin": 29.86,
+          "votesRep": 18072,
+          "votesDem": 9761,
+          "votesTotal": 29097
+        },
+        "Anne Arundel24": {
+          "color": "#6b7280",
+          "label": "Szeliga +0.1",
+          "margin": 0.12,
+          "votesRep": 128268,
+          "votesDem": 127961,
+          "votesTotal": 264735
+        },
+        "BaltimoreCounty24": {
+          "color": "#1C408C",
+          "label": "Hollen +16.7",
+          "margin": -16.68,
+          "votesRep": 155079,
+          "votesDem": 217151,
+          "votesTotal": 384673
+        },
+        "Calvert24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +15.7",
+          "margin": 15.69,
+          "votesRep": 25431,
+          "votesDem": 18534,
+          "votesTotal": 45842
+        },
+        "Caroline24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +31.9",
+          "margin": 31.91,
+          "votesRep": 8903,
+          "votesDem": 4596,
+          "votesTotal": 13855
+        },
+        "Carroll24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +37.0",
+          "margin": 37.05,
+          "votesRep": 60195,
+          "votesDem": 27649,
+          "votesTotal": 90245
+        },
+        "Cecil24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +28.9",
+          "margin": 28.9,
+          "votesRep": 26914,
+          "votesDem": 14846,
+          "votesTotal": 43439
+        },
+        "Charles24": {
+          "color": "#1C408C",
+          "label": "Hollen +31.5",
+          "margin": -31.53,
+          "votesRep": 25507,
+          "votesDem": 48994,
+          "votesTotal": 76913
+        },
+        "Dorchester24": {
+          "color": "#FF5865",
+          "label": "Szeliga +7.4",
+          "margin": 7.37,
+          "votesRep": 7763,
+          "votesDem": 6697,
+          "votesTotal": 14825
+        },
+        "Frederick24": {
+          "color": "#FF8B98",
+          "label": "Szeliga +2.9",
+          "margin": 2.92,
+          "votesRep": 60516,
+          "votesDem": 57084,
+          "votesTotal": 122479
+        },
+        "Garrett24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +58.2",
+          "margin": 58.22,
+          "votesRep": 10210,
+          "votesDem": 2696,
+          "votesTotal": 13325
+        },
+        "Harford24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +25.3",
+          "margin": 25.35,
+          "votesRep": 80355,
+          "votesDem": 47858,
+          "votesTotal": 132068
+        },
+        "Howard24": {
+          "color": "#1C408C",
+          "label": "Hollen +27.2",
+          "margin": -27.19,
+          "votesRep": 55888,
+          "votesDem": 97622,
+          "votesTotal": 159079
+        },
+        "Kent24": {
+          "color": "#FF8B98",
+          "label": "Szeliga +2.4",
+          "margin": 2.35,
+          "votesRep": 4936,
+          "votesDem": 4709,
+          "votesTotal": 9884
+        },
+        "Montgomery24": {
+          "color": "#1C408C",
+          "label": "Hollen +54.8",
+          "margin": -54.8,
+          "votesRep": 103401,
+          "votesDem": 354149,
+          "votesTotal": 471082
+        },
+        "Prince George's24": {
+          "color": "#1C408C",
+          "label": "Hollen +81.5",
+          "margin": -81.5,
+          "votesRep": 34067,
+          "votesDem": 334265,
+          "votesTotal": 380939
+        },
+        "Queen Anne's24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +33.5",
+          "margin": 33.5,
+          "votesRep": 17006,
+          "votesDem": 8472,
+          "votesTotal": 26128
+        },
+        "Somerset24": {
+          "color": "#FF5865",
+          "label": "Szeliga +9.5",
+          "margin": 9.53,
+          "votesRep": 5178,
+          "votesDem": 4277,
+          "votesTotal": 9652
+        },
+        "St. Mary's24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +22.1",
+          "margin": 22.14,
+          "votesRep": 28207,
+          "votesDem": 17980,
+          "votesTotal": 48149
+        },
+        "Talbot24": {
+          "color": "#FF5865",
+          "label": "Szeliga +9.6",
+          "margin": 9.55,
+          "votesRep": 10861,
+          "votesDem": 8967,
+          "votesTotal": 20259
+        },
+        "Washington24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +23.0",
+          "margin": 23.05,
+          "votesRep": 37278,
+          "votesDem": 23313,
+          "votesTotal": 63167
+        },
+        "Wicomico24": {
+          "color": "#FF5865",
+          "label": "Szeliga +9.0",
+          "margin": 9.02,
+          "votesRep": 22027,
+          "votesDem": 18382,
+          "votesTotal": 41742
+        },
+        "Worcester24": {
+          "color": "#BF1D29",
+          "label": "Szeliga +24.6",
+          "margin": 24.6,
+          "votesRep": 16731,
+          "votesDem": 10125,
+          "votesTotal": 27635
+        }
+      }
+    }
+  ]
+}

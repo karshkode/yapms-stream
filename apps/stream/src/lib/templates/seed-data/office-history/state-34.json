@@ -1,0 +1,376 @@
+{
+  "stateFips": "34",
+  "stateName": "New Jersey",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Curtis Bashaw",
+      "candDem": "Andy Kim",
+      "shortRep": "Bashaw",
+      "shortDem": "Kim",
+      "partisan": true,
+      "margin": -9.86,
+      "votesRep": 1773589,
+      "votesDem": 2161491,
+      "votesTotal": 4031795,
+      "regions": {
+        "Atlantic34": {
+          "color": "#FF8B98",
+          "label": "Bashaw +1.6",
+          "margin": 1.6,
+          "votesRep": 60859,
+          "votesDem": 58942,
+          "votesTotal": 122230
+        },
+        "Bergen34": {
+          "color": "#577CCC",
+          "label": "Kim +7.7",
+          "margin": -7.75,
+          "votesRep": 192452,
+          "votesDem": 224775,
+          "votesTotal": 427834
+        },
+        "Burlington34": {
+          "color": "#1C408C",
+          "label": "Kim +23.7",
+          "margin": -23.68,
+          "votesRep": 83225,
+          "votesDem": 134884,
+          "votesTotal": 221831
+        },
+        "Camden34": {
+          "color": "#1C408C",
+          "label": "Kim +32.6",
+          "margin": -32.59,
+          "votesRep": 79545,
+          "votesDem": 156445,
+          "votesTotal": 239408
+        },
+        "Cape May34": {
+          "color": "#BF1D29",
+          "label": "Bashaw +21.2",
+          "margin": 21.19,
+          "votesRep": 30905,
+          "votesDem": 20096,
+          "votesTotal": 51617
+        },
+        "Cumberland34": {
+          "color": "#CF8980",
+          "label": "Bashaw +0.5",
+          "margin": 0.5,
+          "votesRep": 25441,
+          "votesDem": 25186,
+          "votesTotal": 52210
+        },
+        "Essex34": {
+          "color": "#1C408C",
+          "label": "Kim +48.3",
+          "margin": -48.34,
+          "votesRep": 75420,
+          "votesDem": 216580,
+          "votesTotal": 299887
+        },
+        "Gloucester34": {
+          "color": "#8AAFFF",
+          "label": "Kim +1.7",
+          "margin": -1.74,
+          "votesRep": 77303,
+          "votesDem": 80034,
+          "votesTotal": 159349
+        },
+        "Hudson34": {
+          "color": "#1C408C",
+          "label": "Kim +35.8",
+          "margin": -35.84,
+          "votesRep": 64050,
+          "votesDem": 135615,
+          "votesTotal": 207904
+        },
+        "Hunterdon34": {
+          "color": "#FF5865",
+          "label": "Bashaw +7.0",
+          "margin": 7.03,
+          "votesRep": 40273,
+          "votesDem": 34983,
+          "votesTotal": 77099
+        },
+        "Mercer34": {
+          "color": "#1C408C",
+          "label": "Kim +38.5",
+          "margin": -38.5,
+          "votesRep": 46932,
+          "votesDem": 105685,
+          "votesTotal": 156524
+        },
+        "Middlesex34": {
+          "color": "#1C408C",
+          "label": "Kim +14.5",
+          "margin": -14.52,
+          "votesRep": 140676,
+          "votesDem": 188482,
+          "votesTotal": 342702
+        },
+        "Monmouth34": {
+          "color": "#FF5865",
+          "label": "Bashaw +9.9",
+          "margin": 9.87,
+          "votesRep": 185197,
+          "votesDem": 151920,
+          "votesTotal": 344229
+        },
+        "Morris34": {
+          "color": "#FF8B98",
+          "label": "Bashaw +3.0",
+          "margin": 3,
+          "votesRep": 135636,
+          "votesDem": 127727,
+          "votesTotal": 268652
+        },
+        "Ocean34": {
+          "color": "#BF1D29",
+          "label": "Bashaw +28.5",
+          "margin": 28.51,
+          "votesRep": 197040,
+          "votesDem": 109610,
+          "votesTotal": 309533
+        },
+        "Passaic34": {
+          "color": "#8AAFFF",
+          "label": "Kim +2.8",
+          "margin": -2.84,
+          "votesRep": 86654,
+          "votesDem": 91719,
+          "votesTotal": 186028
+        },
+        "Salem34": {
+          "color": "#BF1D29",
+          "label": "Bashaw +16.0",
+          "margin": 15.98,
+          "votesRep": 17338,
+          "votesDem": 12561,
+          "votesTotal": 30708
+        },
+        "Somerset34": {
+          "color": "#1C408C",
+          "label": "Kim +14.2",
+          "margin": -14.19,
+          "votesRep": 71652,
+          "votesDem": 95344,
+          "votesTotal": 171268
+        },
+        "Sussex34": {
+          "color": "#BF1D29",
+          "label": "Bashaw +24.8",
+          "margin": 24.81,
+          "votesRep": 49734,
+          "votesDem": 29959,
+          "votesTotal": 82264
+        },
+        "Union34": {
+          "color": "#1C408C",
+          "label": "Kim +27.1",
+          "margin": -27.14,
+          "votesRep": 79183,
+          "votesDem": 138186,
+          "votesTotal": 222224
+        },
+        "Warren34": {
+          "color": "#BF1D29",
+          "label": "Bashaw +19.9",
+          "margin": 19.91,
+          "votesRep": 34074,
+          "votesDem": 22758,
+          "votesTotal": 58294
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Bob Hugin",
+      "candDem": "Robert Menendez",
+      "shortRep": "Hugin",
+      "shortDem": "Menendez",
+      "partisan": true,
+      "margin": -11.36,
+      "votesRep": 1340763,
+      "votesDem": 1684391,
+      "votesTotal": 3127554,
+      "regions": {
+        "Atlantic34": {
+          "color": "#FF8B98",
+          "label": "Hugin +1.5",
+          "margin": 1.48,
+          "votesRep": 45954,
+          "votesDem": 44617,
+          "votesTotal": 94073
+        },
+        "Bergen34": {
+          "color": "#1C408C",
+          "label": "Menendez +12.5",
+          "margin": -12.5,
+          "votesRep": 146406,
+          "votesDem": 188235,
+          "votesTotal": 344428
+        },
+        "Burlington34": {
+          "color": "#577CCC",
+          "label": "Menendez +9.1",
+          "margin": -9.12,
+          "votesRep": 82240,
+          "votesDem": 98749,
+          "votesTotal": 187199
+        },
+        "Camden34": {
+          "color": "#1C408C",
+          "label": "Menendez +28.2",
+          "margin": -28.24,
+          "votesRep": 63307,
+          "votesDem": 113137,
+          "votesTotal": 183185
+        },
+        "Cape May34": {
+          "color": "#BF1D29",
+          "label": "Hugin +26.1",
+          "margin": 26.08,
+          "votesRep": 24823,
+          "votesDem": 14555,
+          "votesTotal": 40696
+        },
+        "Cumberland34": {
+          "color": "#6b7280",
+          "label": "Menendez +0.4",
+          "margin": -0.37,
+          "votesRep": 19244,
+          "votesDem": 19386,
+          "votesTotal": 40164
+        },
+        "Essex34": {
+          "color": "#1C408C",
+          "label": "Menendez +56.9",
+          "margin": -56.94,
+          "votesRep": 53180,
+          "votesDem": 193796,
+          "votesTotal": 253202
+        },
+        "Gloucester34": {
+          "color": "#FF8B98",
+          "label": "Hugin +3.5",
+          "margin": 3.49,
+          "votesRep": 56090,
+          "votesDem": 52303,
+          "votesTotal": 112802
+        },
+        "Hudson34": {
+          "color": "#1C408C",
+          "label": "Menendez +57.1",
+          "margin": -57.11,
+          "votesRep": 36087,
+          "votesDem": 132180,
+          "votesTotal": 173249
+        },
+        "Hunterdon34": {
+          "color": "#BF1D29",
+          "label": "Hugin +18.4",
+          "margin": 18.43,
+          "votesRep": 36098,
+          "votesDem": 24865,
+          "votesTotal": 64865
+        },
+        "Mercer34": {
+          "color": "#1C408C",
+          "label": "Menendez +32.4",
+          "margin": -32.42,
+          "votesRep": 41225,
+          "votesDem": 80773,
+          "votesTotal": 126863
+        },
+        "Middlesex34": {
+          "color": "#1C408C",
+          "label": "Menendez +19.2",
+          "margin": -19.23,
+          "votesRep": 82519,
+          "votesDem": 121800,
+          "votesTotal": 210727
+        },
+        "Monmouth34": {
+          "color": "#BF1D29",
+          "label": "Hugin +11.2",
+          "margin": 11.16,
+          "votesRep": 140628,
+          "votesDem": 112383,
+          "votesTotal": 261603
+        },
+        "Morris34": {
+          "color": "#BF1D29",
+          "label": "Hugin +10.1",
+          "margin": 10.08,
+          "votesRep": 114783,
+          "votesDem": 93763,
+          "votesTotal": 215215
+        },
+        "Ocean34": {
+          "color": "#BF1D29",
+          "label": "Hugin +30.5",
+          "margin": 30.49,
+          "votesRep": 141902,
+          "votesDem": 75597,
+          "votesTotal": 224394
+        },
+        "Passaic34": {
+          "color": "#1C408C",
+          "label": "Menendez +19.3",
+          "margin": -19.26,
+          "votesRep": 58382,
+          "votesDem": 86242,
+          "votesTotal": 149421
+        },
+        "Salem34": {
+          "color": "#BF1D29",
+          "label": "Hugin +20.5",
+          "margin": 20.48,
+          "votesRep": 13687,
+          "votesDem": 9033,
+          "votesTotal": 23843
+        },
+        "Somerset34": {
+          "color": "#577CCC",
+          "label": "Menendez +6.8",
+          "margin": -6.82,
+          "votesRep": 61373,
+          "votesDem": 70359,
+          "votesTotal": 136286
+        },
+        "Sussex34": {
+          "color": "#BF1D29",
+          "label": "Hugin +30.2",
+          "margin": 30.18,
+          "votesRep": 37720,
+          "votesDem": 20229,
+          "votesTotal": 60945
+        },
+        "Union34": {
+          "color": "#1C408C",
+          "label": "Menendez +32.0",
+          "margin": -32,
+          "votesRep": 60758,
+          "votesDem": 117937,
+          "votesTotal": 183726
+        },
+        "Warren34": {
+          "color": "#BF1D29",
+          "label": "Hugin +25.5",
+          "margin": 25.52,
+          "votesRep": 24357,
+          "votesDem": 14452,
+          "votesTotal": 40668
+        }
+      }
+    }
+  ]
+}

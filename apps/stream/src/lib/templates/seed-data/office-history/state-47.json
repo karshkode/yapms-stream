@@ -1,0 +1,2337 @@
+{
+  "stateFips": "47",
+  "stateName": "Tennessee",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Marsha Blackburn",
+      "candDem": "Gloria Johnson",
+      "shortRep": "Blackburn",
+      "shortDem": "Johnson",
+      "partisan": true,
+      "margin": 30.25,
+      "votesRep": 1918743,
+      "votesDem": 1027461,
+      "votesTotal": 3007608,
+      "regions": {
+        "Anderson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +34.4",
+          "margin": 34.36,
+          "votesRep": 23718,
+          "votesDem": 11587,
+          "votesTotal": 36027
+        },
+        "Bedford47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +57.6",
+          "margin": 57.56,
+          "votesRep": 15098,
+          "votesDem": 4067,
+          "votesTotal": 19580
+        },
+        "Benton47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +63.0",
+          "margin": 63,
+          "votesRep": 5653,
+          "votesDem": 1283,
+          "votesTotal": 7090
+        },
+        "Bledsoe47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +69.9",
+          "margin": 69.89,
+          "votesRep": 5061,
+          "votesDem": 897,
+          "votesTotal": 6061
+        },
+        "Blount47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +47.5",
+          "margin": 47.51,
+          "votesRep": 49551,
+          "votesDem": 17632,
+          "votesTotal": 68454
+        },
+        "Bradley47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +59.7",
+          "margin": 59.7,
+          "votesRep": 37622,
+          "votesDem": 9494,
+          "votesTotal": 48145
+        },
+        "Campbell47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +66.2",
+          "margin": 66.16,
+          "votesRep": 12250,
+          "votesDem": 2495,
+          "votesTotal": 15034
+        },
+        "Cannon47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +63.9",
+          "margin": 63.85,
+          "votesRep": 5308,
+          "votesDem": 1171,
+          "votesTotal": 6609
+        },
+        "Carroll47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +64.8",
+          "margin": 64.81,
+          "votesRep": 9446,
+          "votesDem": 2017,
+          "votesTotal": 11655
+        },
+        "Carter47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +65.7",
+          "margin": 65.66,
+          "votesRep": 19687,
+          "votesDem": 4081,
+          "votesTotal": 24216
+        },
+        "Cheatham47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +44.6",
+          "margin": 44.59,
+          "votesRep": 14518,
+          "votesDem": 5563,
+          "votesTotal": 20495
+        },
+        "Chester47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +68.9",
+          "margin": 68.92,
+          "votesRep": 6169,
+          "votesDem": 1135,
+          "votesTotal": 7445
+        },
+        "Claiborne47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.4",
+          "margin": 67.42,
+          "votesRep": 10885,
+          "votesDem": 2118,
+          "votesTotal": 13196
+        },
+        "Clay47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +66.0",
+          "margin": 66.05,
+          "votesRep": 2900,
+          "votesDem": 593,
+          "votesTotal": 3551
+        },
+        "Cocke47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.1",
+          "margin": 67.09,
+          "votesRep": 12471,
+          "votesDem": 2456,
+          "votesTotal": 15223
+        },
+        "Coffee47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +54.6",
+          "margin": 54.56,
+          "votesRep": 18463,
+          "votesDem": 5428,
+          "votesTotal": 24481
+        },
+        "Crockett47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +60.2",
+          "margin": 60.24,
+          "votesRep": 4530,
+          "votesDem": 1124,
+          "votesTotal": 5738
+        },
+        "Cumberland47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +59.3",
+          "margin": 59.3,
+          "votesRep": 26427,
+          "votesDem": 6751,
+          "votesTotal": 33718
+        },
+        "Davidson47": {
+          "color": "#1C408C",
+          "label": "Johnson +28.3",
+          "margin": -28.34,
+          "votesRep": 100124,
+          "votesDem": 179312,
+          "votesTotal": 285401
+        },
+        "Decatur47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +68.9",
+          "margin": 68.93,
+          "votesRep": 4410,
+          "votesDem": 811,
+          "votesTotal": 5318
+        },
+        "DeKalb47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +61.4",
+          "margin": 61.4,
+          "votesRep": 7137,
+          "votesDem": 1707,
+          "votesTotal": 9035
+        },
+        "Dickson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +50.5",
+          "margin": 50.51,
+          "votesRep": 18149,
+          "votesDem": 5967,
+          "votesTotal": 24701
+        },
+        "Dyer47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +62.4",
+          "margin": 62.43,
+          "votesRep": 11050,
+          "votesDem": 2556,
+          "votesTotal": 13859
+        },
+        "Fayette47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.2",
+          "margin": 46.18,
+          "votesRep": 16600,
+          "votesDem": 6111,
+          "votesTotal": 23081
+        },
+        "Fentress47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +74.3",
+          "margin": 74.32,
+          "votesRep": 8064,
+          "votesDem": 1188,
+          "votesTotal": 9417
+        },
+        "Franklin47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +52.5",
+          "margin": 52.53,
+          "votesRep": 14437,
+          "votesDem": 4493,
+          "votesTotal": 19274
+        },
+        "Gibson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +57.1",
+          "margin": 57.13,
+          "votesRep": 16078,
+          "votesDem": 4386,
+          "votesTotal": 20886
+        },
+        "Giles47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +55.8",
+          "margin": 55.81,
+          "votesRep": 10027,
+          "votesDem": 2844,
+          "votesTotal": 13138
+        },
+        "Grainger47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +71.4",
+          "margin": 71.44,
+          "votesRep": 9226,
+          "votesDem": 1537,
+          "votesTotal": 10909
+        },
+        "Greene47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.7",
+          "margin": 67.72,
+          "votesRep": 25157,
+          "votesDem": 4841,
+          "votesTotal": 30559
+        },
+        "Grundy47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.4",
+          "margin": 67.41,
+          "votesRep": 4931,
+          "votesDem": 960,
+          "votesTotal": 6029
+        },
+        "Hamblen47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +57.5",
+          "margin": 57.53,
+          "votesRep": 19382,
+          "votesDem": 5225,
+          "votesTotal": 24977
+        },
+        "Hamilton47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +15.0",
+          "margin": 14.95,
+          "votesRep": 97475,
+          "votesDem": 72115,
+          "votesTotal": 173117
+        },
+        "Hancock47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +74.7",
+          "margin": 74.67,
+          "votesRep": 2365,
+          "votesDem": 343,
+          "votesTotal": 2754
+        },
+        "Hardeman47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +28.3",
+          "margin": 28.28,
+          "votesRep": 5731,
+          "votesDem": 3204,
+          "votesTotal": 9121
+        },
+        "Hardin47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +72.7",
+          "margin": 72.7,
+          "votesRep": 9945,
+          "votesDem": 1572,
+          "votesTotal": 11724
+        },
+        "Hawkins47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +70.2",
+          "margin": 70.19,
+          "votesRep": 21209,
+          "votesDem": 3715,
+          "votesTotal": 25399
+        },
+        "Haywood47": {
+          "color": "#FF8B98",
+          "label": "Blackburn +2.3",
+          "margin": 2.3,
+          "votesRep": 3269,
+          "votesDem": 3122,
+          "votesTotal": 6511
+        },
+        "Henderson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +70.9",
+          "margin": 70.87,
+          "votesRep": 9994,
+          "votesDem": 1704,
+          "votesTotal": 11880
+        },
+        "Henry47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +56.3",
+          "margin": 56.34,
+          "votesRep": 11048,
+          "votesDem": 3085,
+          "votesTotal": 14419
+        },
+        "Hickman47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +61.1",
+          "margin": 61.07,
+          "votesRep": 8055,
+          "votesDem": 1947,
+          "votesTotal": 10197
+        },
+        "Houston47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +55.7",
+          "margin": 55.68,
+          "votesRep": 2814,
+          "votesDem": 801,
+          "votesTotal": 3684
+        },
+        "Humphreys47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +54.9",
+          "margin": 54.95,
+          "votesRep": 6153,
+          "votesDem": 1789,
+          "votesTotal": 8119
+        },
+        "Jackson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +59.3",
+          "margin": 59.31,
+          "votesRep": 4279,
+          "votesDem": 1093,
+          "votesTotal": 5468
+        },
+        "Jefferson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +62.5",
+          "margin": 62.53,
+          "votesRep": 20239,
+          "votesDem": 4666,
+          "votesTotal": 25333
+        },
+        "Johnson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +72.0",
+          "margin": 72,
+          "votesRep": 6666,
+          "votesDem": 1085,
+          "votesTotal": 7849
+        },
+        "Knox47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +18.5",
+          "margin": 18.5,
+          "votesRep": 129275,
+          "votesDem": 88913,
+          "votesTotal": 221561
+        },
+        "Lake47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +57.3",
+          "margin": 57.29,
+          "votesRep": 1414,
+          "votesDem": 384,
+          "votesTotal": 1830
+        },
+        "Lauderdale47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +40.3",
+          "margin": 40.32,
+          "votesRep": 5434,
+          "votesDem": 2311,
+          "votesTotal": 7901
+        },
+        "Lawrence47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +68.1",
+          "margin": 68.15,
+          "votesRep": 15484,
+          "votesDem": 2933,
+          "votesTotal": 18915
+        },
+        "Lewis47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +64.3",
+          "margin": 64.31,
+          "votesRep": 4613,
+          "votesDem": 1002,
+          "votesTotal": 5749
+        },
+        "Lincoln47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +66.5",
+          "margin": 66.52,
+          "votesRep": 12744,
+          "votesDem": 2562,
+          "votesTotal": 15613
+        },
+        "Loudon47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +54.0",
+          "margin": 53.97,
+          "votesRep": 24848,
+          "votesDem": 7428,
+          "votesTotal": 32792
+        },
+        "Macon47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +72.7",
+          "margin": 72.66,
+          "votesRep": 8342,
+          "votesDem": 1321,
+          "votesTotal": 9848
+        },
+        "Madison47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +22.9",
+          "margin": 22.85,
+          "votesRep": 23578,
+          "votesDem": 14807,
+          "votesTotal": 39166
+        },
+        "Marion47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +54.4",
+          "margin": 54.45,
+          "votesRep": 10314,
+          "votesDem": 3042,
+          "votesTotal": 13646
+        },
+        "Marshall47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +55.7",
+          "margin": 55.69,
+          "votesRep": 11916,
+          "votesDem": 3391,
+          "votesTotal": 15596
+        },
+        "Maury47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +44.7",
+          "margin": 44.71,
+          "votesRep": 36665,
+          "votesDem": 14008,
+          "votesTotal": 51623
+        },
+        "McMinn47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +63.7",
+          "margin": 63.65,
+          "votesRep": 18934,
+          "votesDem": 4205,
+          "votesTotal": 23642
+        },
+        "McNairy47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +69.0",
+          "margin": 68.99,
+          "votesRep": 9155,
+          "votesDem": 1680,
+          "votesTotal": 11000
+        },
+        "Meigs47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +66.0",
+          "margin": 66.01,
+          "votesRep": 4810,
+          "votesDem": 985,
+          "votesTotal": 5904
+        },
+        "Monroe47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +65.6",
+          "margin": 65.56,
+          "votesRep": 17759,
+          "votesDem": 3694,
+          "votesTotal": 21902
+        },
+        "Montgomery47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +20.1",
+          "margin": 20.1,
+          "votesRep": 46104,
+          "votesDem": 30669,
+          "votesTotal": 79003
+        },
+        "Moore47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +68.8",
+          "margin": 68.85,
+          "votesRep": 2954,
+          "votesDem": 545,
+          "votesTotal": 3586
+        },
+        "Morgan47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +70.7",
+          "margin": 70.74,
+          "votesRep": 7090,
+          "votesDem": 1215,
+          "votesTotal": 8437
+        },
+        "Obion47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.1",
+          "margin": 67.13,
+          "votesRep": 10378,
+          "votesDem": 2041,
+          "votesTotal": 12598
+        },
+        "Overton47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +62.1",
+          "margin": 62.05,
+          "votesRep": 8413,
+          "votesDem": 1970,
+          "votesTotal": 10594
+        },
+        "Perry47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.3",
+          "margin": 67.25,
+          "votesRep": 2906,
+          "votesDem": 569,
+          "votesTotal": 3540
+        },
+        "Pickett47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +63.6",
+          "margin": 63.6,
+          "votesRep": 2306,
+          "votesDem": 513,
+          "votesTotal": 2883
+        },
+        "Polk47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +66.3",
+          "margin": 66.26,
+          "votesRep": 7041,
+          "votesDem": 1429,
+          "votesTotal": 8601
+        },
+        "Putnam47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.5",
+          "margin": 46.48,
+          "votesRep": 24520,
+          "votesDem": 8960,
+          "votesTotal": 34168
+        },
+        "Rhea47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.0",
+          "margin": 66.99,
+          "votesRep": 11553,
+          "votesDem": 2284,
+          "votesTotal": 14129
+        },
+        "Roane47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +52.7",
+          "margin": 52.72,
+          "votesRep": 20207,
+          "votesDem": 6255,
+          "votesTotal": 26982
+        },
+        "Robertson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +50.3",
+          "margin": 50.27,
+          "votesRep": 25146,
+          "votesDem": 8322,
+          "votesTotal": 34294
+        },
+        "Rutherford47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +21.5",
+          "margin": 21.48,
+          "votesRep": 86026,
+          "votesDem": 55605,
+          "votesTotal": 145113
+        },
+        "Scott47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +76.4",
+          "margin": 76.36,
+          "votesRep": 7924,
+          "votesDem": 1062,
+          "votesTotal": 9146
+        },
+        "Sequatchie47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +66.1",
+          "margin": 66.13,
+          "votesRep": 6253,
+          "votesDem": 1275,
+          "votesTotal": 7689
+        },
+        "Sevier47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +60.5",
+          "margin": 60.48,
+          "votesRep": 34101,
+          "votesDem": 8399,
+          "votesTotal": 43270
+        },
+        "Shelby47": {
+          "color": "#1C408C",
+          "label": "Johnson +22.3",
+          "margin": -22.34,
+          "votesRep": 120568,
+          "votesDem": 189954,
+          "votesTotal": 319094
+        },
+        "Smith47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +64.3",
+          "margin": 64.31,
+          "votesRep": 7255,
+          "votesDem": 1576,
+          "votesTotal": 9008
+        },
+        "Stewart47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +65.1",
+          "margin": 65.06,
+          "votesRep": 5201,
+          "votesDem": 1101,
+          "votesTotal": 6445
+        },
+        "Sullivan47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +57.5",
+          "margin": 57.5,
+          "votesRep": 57989,
+          "votesDem": 15646,
+          "votesTotal": 74902
+        },
+        "Sumner47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +42.0",
+          "margin": 42.01,
+          "votesRep": 66413,
+          "votesDem": 27119,
+          "votesTotal": 95572
+        },
+        "Tipton47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +54.1",
+          "margin": 54.14,
+          "votesRep": 19625,
+          "votesDem": 5839,
+          "votesTotal": 26003
+        },
+        "Trousdale47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +57.1",
+          "margin": 57.05,
+          "votesRep": 3079,
+          "votesDem": 842,
+          "votesTotal": 4010
+        },
+        "Unicoi47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +65.6",
+          "margin": 65.6,
+          "votesRep": 6754,
+          "votesDem": 1403,
+          "votesTotal": 8313
+        },
+        "Union47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +67.7",
+          "margin": 67.73,
+          "votesRep": 6834,
+          "votesDem": 1315,
+          "votesTotal": 8279
+        },
+        "Van Buren47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +65.3",
+          "margin": 65.29,
+          "votesRep": 2533,
+          "votesDem": 532,
+          "votesTotal": 3144
+        },
+        "Warren47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +54.2",
+          "margin": 54.21,
+          "votesRep": 12287,
+          "votesDem": 3648,
+          "votesTotal": 16329
+        },
+        "Washington47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +42.8",
+          "margin": 42.84,
+          "votesRep": 42160,
+          "votesDem": 16872,
+          "votesTotal": 60237
+        },
+        "Wayne47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +76.6",
+          "margin": 76.57,
+          "votesRep": 5690,
+          "votesDem": 755,
+          "votesTotal": 6565
+        },
+        "Weakley47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +61.2",
+          "margin": 61.24,
+          "votesRep": 10375,
+          "votesDem": 2494,
+          "votesTotal": 13107
+        },
+        "White47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +65.2",
+          "margin": 65.19,
+          "votesRep": 10316,
+          "votesDem": 2174,
+          "votesTotal": 12736
+        },
+        "Williamson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +33.9",
+          "margin": 33.91,
+          "votesRep": 94791,
+          "votesDem": 46785,
+          "votesTotal": 144134
+        },
+        "Wilson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +39.9",
+          "margin": 39.95,
+          "votesRep": 54895,
+          "votesDem": 23556,
+          "votesTotal": 80132
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Bill Lee",
+      "candDem": "Karl Dean",
+      "shortRep": "Lee",
+      "shortDem": "Dean",
+      "partisan": true,
+      "margin": 21.41,
+      "votesRep": 1336106,
+      "votesDem": 864863,
+      "votesTotal": 2243294,
+      "regions": {
+        "Anderson47": {
+          "color": "#BF1D29",
+          "label": "Lee +26.4",
+          "margin": 26.44,
+          "votesRep": 16265,
+          "votesDem": 9462,
+          "votesTotal": 26040
+        },
+        "Bedford47": {
+          "color": "#BF1D29",
+          "label": "Lee +46.7",
+          "margin": 46.71,
+          "votesRep": 9489,
+          "votesDem": 3447,
+          "votesTotal": 13049
+        },
+        "Benton47": {
+          "color": "#BF1D29",
+          "label": "Lee +39.6",
+          "margin": 39.6,
+          "votesRep": 3696,
+          "votesDem": 1599,
+          "votesTotal": 5346
+        },
+        "Bledsoe47": {
+          "color": "#BF1D29",
+          "label": "Lee +54.1",
+          "margin": 54.14,
+          "votesRep": 3102,
+          "votesDem": 923,
+          "votesTotal": 4072
+        },
+        "Blount47": {
+          "color": "#BF1D29",
+          "label": "Lee +42.3",
+          "margin": 42.31,
+          "votesRep": 32958,
+          "votesDem": 13362,
+          "votesTotal": 46775
+        },
+        "Bradley47": {
+          "color": "#BF1D29",
+          "label": "Lee +56.4",
+          "margin": 56.38,
+          "votesRep": 26123,
+          "votesDem": 7287,
+          "votesTotal": 33765
+        },
+        "Campbell47": {
+          "color": "#BF1D29",
+          "label": "Lee +56.3",
+          "margin": 56.26,
+          "votesRep": 7820,
+          "votesDem": 2189,
+          "votesTotal": 10154
+        },
+        "Cannon47": {
+          "color": "#BF1D29",
+          "label": "Lee +50.0",
+          "margin": 50.02,
+          "votesRep": 3473,
+          "votesDem": 1157,
+          "votesTotal": 4657
+        },
+        "Carroll47": {
+          "color": "#BF1D29",
+          "label": "Lee +48.3",
+          "margin": 48.33,
+          "votesRep": 6451,
+          "votesDem": 2247,
+          "votesTotal": 8788
+        },
+        "Carter47": {
+          "color": "#BF1D29",
+          "label": "Lee +61.8",
+          "margin": 61.78,
+          "votesRep": 14922,
+          "votesDem": 3525,
+          "votesTotal": 18617
+        },
+        "Cheatham47": {
+          "color": "#BF1D29",
+          "label": "Lee +38.6",
+          "margin": 38.58,
+          "votesRep": 9966,
+          "votesDem": 4417,
+          "votesTotal": 14459
+        },
+        "Chester47": {
+          "color": "#BF1D29",
+          "label": "Lee +57.3",
+          "margin": 57.26,
+          "votesRep": 4161,
+          "votesDem": 1131,
+          "votesTotal": 5387
+        },
+        "Claiborne47": {
+          "color": "#BF1D29",
+          "label": "Lee +55.4",
+          "margin": 55.37,
+          "votesRep": 6514,
+          "votesDem": 1871,
+          "votesTotal": 8487
+        },
+        "Clay47": {
+          "color": "#BF1D29",
+          "label": "Lee +39.0",
+          "margin": 39,
+          "votesRep": 1773,
+          "votesDem": 778,
+          "votesTotal": 2571
+        },
+        "Cocke47": {
+          "color": "#BF1D29",
+          "label": "Lee +59.3",
+          "margin": 59.29,
+          "votesRep": 8139,
+          "votesDem": 2080,
+          "votesTotal": 10362
+        },
+        "Coffee47": {
+          "color": "#BF1D29",
+          "label": "Lee +41.7",
+          "margin": 41.7,
+          "votesRep": 11828,
+          "votesDem": 4867,
+          "votesTotal": 17008
+        },
+        "Crockett47": {
+          "color": "#BF1D29",
+          "label": "Lee +47.2",
+          "margin": 47.25,
+          "votesRep": 3274,
+          "votesDem": 1173,
+          "votesTotal": 4484
+        },
+        "Cumberland47": {
+          "color": "#BF1D29",
+          "label": "Lee +54.3",
+          "margin": 54.3,
+          "votesRep": 18217,
+          "votesDem": 5396,
+          "votesTotal": 23829
+        },
+        "Davidson47": {
+          "color": "#1C408C",
+          "label": "Dean +32.1",
+          "margin": -32.14,
+          "votesRep": 78286,
+          "votesDem": 152441,
+          "votesTotal": 244528
+        },
+        "Decatur47": {
+          "color": "#BF1D29",
+          "label": "Lee +50.4",
+          "margin": 50.44,
+          "votesRep": 2844,
+          "votesDem": 937,
+          "votesTotal": 3864
+        },
+        "DeKalb47": {
+          "color": "#BF1D29",
+          "label": "Lee +41.2",
+          "margin": 41.25,
+          "votesRep": 4176,
+          "votesDem": 1737,
+          "votesTotal": 5957
+        },
+        "Dickson47": {
+          "color": "#BF1D29",
+          "label": "Lee +37.4",
+          "margin": 37.38,
+          "votesRep": 11413,
+          "votesDem": 5202,
+          "votesTotal": 16706
+        },
+        "Dyer47": {
+          "color": "#BF1D29",
+          "label": "Lee +55.6",
+          "margin": 55.58,
+          "votesRep": 8515,
+          "votesDem": 2431,
+          "votesTotal": 11107
+        },
+        "Fayette47": {
+          "color": "#BF1D29",
+          "label": "Lee +41.2",
+          "margin": 41.25,
+          "votesRep": 11883,
+          "votesDem": 4943,
+          "votesTotal": 17074
+        },
+        "Fentress47": {
+          "color": "#BF1D29",
+          "label": "Lee +60.1",
+          "margin": 60.15,
+          "votesRep": 5043,
+          "votesDem": 1255,
+          "votesTotal": 6389
+        },
+        "Franklin47": {
+          "color": "#BF1D29",
+          "label": "Lee +36.3",
+          "margin": 36.25,
+          "votesRep": 9432,
+          "votesDem": 4413,
+          "votesTotal": 13933
+        },
+        "Gibson47": {
+          "color": "#BF1D29",
+          "label": "Lee +43.6",
+          "margin": 43.64,
+          "votesRep": 11402,
+          "votesDem": 4474,
+          "votesTotal": 16091
+        },
+        "Giles47": {
+          "color": "#BF1D29",
+          "label": "Lee +42.0",
+          "margin": 41.98,
+          "votesRep": 6730,
+          "votesDem": 2750,
+          "votesTotal": 9601
+        },
+        "Grainger47": {
+          "color": "#BF1D29",
+          "label": "Lee +62.0",
+          "margin": 61.99,
+          "votesRep": 5476,
+          "votesDem": 1285,
+          "votesTotal": 6838
+        },
+        "Greene47": {
+          "color": "#BF1D29",
+          "label": "Lee +59.1",
+          "margin": 59.06,
+          "votesRep": 16196,
+          "votesDem": 4169,
+          "votesTotal": 20570
+        },
+        "Grundy47": {
+          "color": "#BF1D29",
+          "label": "Lee +45.7",
+          "margin": 45.66,
+          "votesRep": 2699,
+          "votesDem": 1007,
+          "votesTotal": 3755
+        },
+        "Hamblen47": {
+          "color": "#BF1D29",
+          "label": "Lee +52.9",
+          "margin": 52.92,
+          "votesRep": 13197,
+          "votesDem": 4063,
+          "votesTotal": 17393
+        },
+        "Hamilton47": {
+          "color": "#BF1D29",
+          "label": "Lee +12.6",
+          "margin": 12.59,
+          "votesRep": 74437,
+          "votesDem": 57794,
+          "votesTotal": 133433
+        },
+        "Hancock47": {
+          "color": "#BF1D29",
+          "label": "Lee +62.8",
+          "margin": 62.77,
+          "votesRep": 1447,
+          "votesDem": 331,
+          "votesTotal": 1800
+        },
+        "Hardeman47": {
+          "color": "#FF5865",
+          "label": "Lee +9.8",
+          "margin": 9.79,
+          "votesRep": 4060,
+          "votesDem": 3336,
+          "votesTotal": 7512
+        },
+        "Hardin47": {
+          "color": "#BF1D29",
+          "label": "Lee +60.0",
+          "margin": 59.99,
+          "votesRep": 6410,
+          "votesDem": 1603,
+          "votesTotal": 8200
+        },
+        "Hawkins47": {
+          "color": "#BF1D29",
+          "label": "Lee +62.9",
+          "margin": 62.92,
+          "votesRep": 14069,
+          "votesDem": 3202,
+          "votesTotal": 17444
+        },
+        "Haywood47": {
+          "color": "#1C408C",
+          "label": "Dean +12.9",
+          "margin": -12.9,
+          "votesRep": 2522,
+          "votesDem": 3269,
+          "votesTotal": 5861
+        },
+        "Henderson47": {
+          "color": "#BF1D29",
+          "label": "Lee +61.7",
+          "margin": 61.65,
+          "votesRep": 6922,
+          "votesDem": 1642,
+          "votesTotal": 8640
+        },
+        "Henry47": {
+          "color": "#BF1D29",
+          "label": "Lee +43.5",
+          "margin": 43.5,
+          "votesRep": 7698,
+          "votesDem": 3031,
+          "votesTotal": 10841
+        },
+        "Hickman47": {
+          "color": "#BF1D29",
+          "label": "Lee +41.5",
+          "margin": 41.47,
+          "votesRep": 4894,
+          "votesDem": 2025,
+          "votesTotal": 6989
+        },
+        "Houston47": {
+          "color": "#BF1D29",
+          "label": "Lee +27.4",
+          "margin": 27.42,
+          "votesRep": 1738,
+          "votesDem": 990,
+          "votesTotal": 2755
+        },
+        "Humphreys47": {
+          "color": "#BF1D29",
+          "label": "Lee +30.4",
+          "margin": 30.36,
+          "votesRep": 3813,
+          "votesDem": 2037,
+          "votesTotal": 5896
+        },
+        "Jackson47": {
+          "color": "#BF1D29",
+          "label": "Lee +36.1",
+          "margin": 36.13,
+          "votesRep": 2647,
+          "votesDem": 1242,
+          "votesTotal": 3927
+        },
+        "Jefferson47": {
+          "color": "#BF1D29",
+          "label": "Lee +55.2",
+          "margin": 55.22,
+          "votesRep": 12411,
+          "votesDem": 3581,
+          "votesTotal": 16147
+        },
+        "Johnson47": {
+          "color": "#BF1D29",
+          "label": "Lee +65.2",
+          "margin": 65.2,
+          "votesRep": 4809,
+          "votesDem": 1013,
+          "votesTotal": 5892
+        },
+        "Knox47": {
+          "color": "#BF1D29",
+          "label": "Lee +16.8",
+          "margin": 16.77,
+          "votesRep": 96006,
+          "votesDem": 68437,
+          "votesTotal": 166443
+        },
+        "Lake47": {
+          "color": "#BF1D29",
+          "label": "Lee +47.7",
+          "margin": 47.67,
+          "votesRep": 951,
+          "votesDem": 337,
+          "votesTotal": 1462
+        },
+        "Lauderdale47": {
+          "color": "#BF1D29",
+          "label": "Lee +22.6",
+          "margin": 22.58,
+          "votesRep": 4026,
+          "votesDem": 2543,
+          "votesTotal": 6668
+        },
+        "Lawrence47": {
+          "color": "#BF1D29",
+          "label": "Lee +52.7",
+          "margin": 52.68,
+          "votesRep": 9834,
+          "votesDem": 3048,
+          "votesTotal": 12954
+        },
+        "Lewis47": {
+          "color": "#BF1D29",
+          "label": "Lee +47.8",
+          "margin": 47.82,
+          "votesRep": 2969,
+          "votesDem": 1048,
+          "votesTotal": 4045
+        },
+        "Lincoln47": {
+          "color": "#BF1D29",
+          "label": "Lee +58.8",
+          "margin": 58.79,
+          "votesRep": 8110,
+          "votesDem": 2105,
+          "votesTotal": 10488
+        },
+        "Loudon47": {
+          "color": "#BF1D29",
+          "label": "Lee +51.6",
+          "margin": 51.64,
+          "votesRep": 16245,
+          "votesDem": 5181,
+          "votesTotal": 21647
+        },
+        "Macon47": {
+          "color": "#BF1D29",
+          "label": "Lee +60.6",
+          "margin": 60.59,
+          "votesRep": 5078,
+          "votesDem": 1246,
+          "votesTotal": 6373
+        },
+        "Madison47": {
+          "color": "#BF1D29",
+          "label": "Lee +15.3",
+          "margin": 15.28,
+          "votesRep": 18722,
+          "votesDem": 13759,
+          "votesTotal": 32853
+        },
+        "Marion47": {
+          "color": "#BF1D29",
+          "label": "Lee +38.6",
+          "margin": 38.55,
+          "votesRep": 6327,
+          "votesDem": 2806,
+          "votesTotal": 9231
+        },
+        "Marshall47": {
+          "color": "#BF1D29",
+          "label": "Lee +42.0",
+          "margin": 41.98,
+          "votesRep": 7074,
+          "votesDem": 2891,
+          "votesTotal": 10031
+        },
+        "Maury47": {
+          "color": "#BF1D29",
+          "label": "Lee +31.3",
+          "margin": 31.28,
+          "votesRep": 21297,
+          "votesDem": 11149,
+          "votesTotal": 32730
+        },
+        "McMinn47": {
+          "color": "#BF1D29",
+          "label": "Lee +56.8",
+          "margin": 56.78,
+          "votesRep": 12268,
+          "votesDem": 3382,
+          "votesTotal": 15824
+        },
+        "McNairy47": {
+          "color": "#BF1D29",
+          "label": "Lee +54.5",
+          "margin": 54.52,
+          "votesRep": 6201,
+          "votesDem": 1825,
+          "votesTotal": 8174
+        },
+        "Meigs47": {
+          "color": "#BF1D29",
+          "label": "Lee +55.1",
+          "margin": 55.07,
+          "votesRep": 2920,
+          "votesDem": 846,
+          "votesTotal": 3806
+        },
+        "Monroe47": {
+          "color": "#BF1D29",
+          "label": "Lee +55.3",
+          "margin": 55.32,
+          "votesRep": 11146,
+          "votesDem": 3206,
+          "votesTotal": 14495
+        },
+        "Montgomery47": {
+          "color": "#BF1D29",
+          "label": "Lee +10.4",
+          "margin": 10.39,
+          "votesRep": 27920,
+          "votesDem": 22664,
+          "votesTotal": 51724
+        },
+        "Moore47": {
+          "color": "#BF1D29",
+          "label": "Lee +57.5",
+          "margin": 57.54,
+          "votesRep": 1944,
+          "votesDem": 524,
+          "votesTotal": 2506
+        },
+        "Morgan47": {
+          "color": "#BF1D29",
+          "label": "Lee +55.4",
+          "margin": 55.4,
+          "votesRep": 4331,
+          "votesDem": 1243,
+          "votesTotal": 5633
+        },
+        "Obion47": {
+          "color": "#BF1D29",
+          "label": "Lee +56.7",
+          "margin": 56.68,
+          "votesRep": 7425,
+          "votesDem": 2053,
+          "votesTotal": 9578
+        },
+        "Overton47": {
+          "color": "#BF1D29",
+          "label": "Lee +38.2",
+          "margin": 38.22,
+          "votesRep": 4951,
+          "votesDem": 2213,
+          "votesTotal": 7224
+        },
+        "Perry47": {
+          "color": "#BF1D29",
+          "label": "Lee +46.1",
+          "margin": 46.06,
+          "votesRep": 1771,
+          "votesDem": 654,
+          "votesTotal": 2447
+        },
+        "Pickett47": {
+          "color": "#BF1D29",
+          "label": "Lee +48.5",
+          "margin": 48.48,
+          "votesRep": 1689,
+          "votesDem": 586,
+          "votesTotal": 2284
+        },
+        "Polk47": {
+          "color": "#BF1D29",
+          "label": "Lee +50.8",
+          "margin": 50.8,
+          "votesRep": 4359,
+          "votesDem": 1422,
+          "votesTotal": 5833
+        },
+        "Putnam47": {
+          "color": "#BF1D29",
+          "label": "Lee +36.1",
+          "margin": 36.06,
+          "votesRep": 16407,
+          "votesDem": 7710,
+          "votesTotal": 24369
+        },
+        "Rhea47": {
+          "color": "#BF1D29",
+          "label": "Lee +58.6",
+          "margin": 58.62,
+          "votesRep": 7382,
+          "votesDem": 1926,
+          "votesTotal": 9394
+        },
+        "Roane47": {
+          "color": "#BF1D29",
+          "label": "Lee +45.4",
+          "margin": 45.4,
+          "votesRep": 13868,
+          "votesDem": 5207,
+          "votesTotal": 19284
+        },
+        "Robertson47": {
+          "color": "#BF1D29",
+          "label": "Lee +40.2",
+          "margin": 40.17,
+          "votesRep": 16816,
+          "votesDem": 7177,
+          "votesTotal": 24158
+        },
+        "Rutherford47": {
+          "color": "#BF1D29",
+          "label": "Lee +16.2",
+          "margin": 16.16,
+          "votesRep": 56957,
+          "votesDem": 41108,
+          "votesTotal": 98973
+        },
+        "Scott47": {
+          "color": "#BF1D29",
+          "label": "Lee +64.6",
+          "margin": 64.62,
+          "votesRep": 4472,
+          "votesDem": 961,
+          "votesTotal": 5485
+        },
+        "Sequatchie47": {
+          "color": "#BF1D29",
+          "label": "Lee +52.1",
+          "margin": 52.13,
+          "votesRep": 3766,
+          "votesDem": 1185,
+          "votesTotal": 5005
+        },
+        "Sevier47": {
+          "color": "#BF1D29",
+          "label": "Lee +56.3",
+          "margin": 56.33,
+          "votesRep": 23059,
+          "votesDem": 6442,
+          "votesTotal": 30054
+        },
+        "Shelby47": {
+          "color": "#1C408C",
+          "label": "Dean +24.4",
+          "margin": -24.42,
+          "votesRep": 106594,
+          "votesDem": 175478,
+          "votesTotal": 290148
+        },
+        "Smith47": {
+          "color": "#BF1D29",
+          "label": "Lee +46.0",
+          "margin": 45.98,
+          "votesRep": 4745,
+          "votesDem": 1756,
+          "votesTotal": 6556
+        },
+        "Stewart47": {
+          "color": "#BF1D29",
+          "label": "Lee +40.0",
+          "margin": 40.01,
+          "votesRep": 3102,
+          "votesDem": 1329,
+          "votesTotal": 4480
+        },
+        "Sullivan47": {
+          "color": "#BF1D29",
+          "label": "Lee +54.1",
+          "margin": 54.11,
+          "votesRep": 41548,
+          "votesDem": 12373,
+          "votesTotal": 54370
+        },
+        "Sumner47": {
+          "color": "#BF1D29",
+          "label": "Lee +35.7",
+          "margin": 35.71,
+          "votesRep": 44149,
+          "votesDem": 20914,
+          "votesTotal": 65576
+        },
+        "Tipton47": {
+          "color": "#BF1D29",
+          "label": "Lee +48.3",
+          "margin": 48.29,
+          "votesRep": 14074,
+          "votesDem": 4908,
+          "votesTotal": 19318
+        },
+        "Trousdale47": {
+          "color": "#BF1D29",
+          "label": "Lee +32.7",
+          "margin": 32.75,
+          "votesRep": 1739,
+          "votesDem": 881,
+          "votesTotal": 2651
+        },
+        "Unicoi47": {
+          "color": "#BF1D29",
+          "label": "Lee +60.6",
+          "margin": 60.62,
+          "votesRep": 5008,
+          "votesDem": 1228,
+          "votesTotal": 6294
+        },
+        "Union47": {
+          "color": "#BF1D29",
+          "label": "Lee +56.1",
+          "margin": 56.09,
+          "votesRep": 4028,
+          "votesDem": 1133,
+          "votesTotal": 5224
+        },
+        "Van Buren47": {
+          "color": "#BF1D29",
+          "label": "Lee +42.7",
+          "margin": 42.73,
+          "votesRep": 1555,
+          "votesDem": 624,
+          "votesTotal": 2213
+        },
+        "Warren47": {
+          "color": "#BF1D29",
+          "label": "Lee +36.0",
+          "margin": 35.98,
+          "votesRep": 7737,
+          "votesDem": 3643,
+          "votesTotal": 11472
+        },
+        "Washington47": {
+          "color": "#BF1D29",
+          "label": "Lee +39.2",
+          "margin": 39.15,
+          "votesRep": 31066,
+          "votesDem": 13584,
+          "votesTotal": 45036
+        },
+        "Wayne47": {
+          "color": "#BF1D29",
+          "label": "Lee +65.1",
+          "margin": 65.15,
+          "votesRep": 3876,
+          "votesDem": 818,
+          "votesTotal": 4731
+        },
+        "Weakley47": {
+          "color": "#BF1D29",
+          "label": "Lee +47.6",
+          "margin": 47.6,
+          "votesRep": 7203,
+          "votesDem": 2557,
+          "votesTotal": 9892
+        },
+        "White47": {
+          "color": "#BF1D29",
+          "label": "Lee +52.1",
+          "margin": 52.14,
+          "votesRep": 6374,
+          "votesDem": 2005,
+          "votesTotal": 8444
+        },
+        "Williamson47": {
+          "color": "#BF1D29",
+          "label": "Lee +32.6",
+          "margin": 32.62,
+          "votesRep": 68189,
+          "votesDem": 34647,
+          "votesTotal": 105654
+        },
+        "Wilson47": {
+          "color": "#BF1D29",
+          "label": "Lee +35.3",
+          "margin": 35.26,
+          "votesRep": 35488,
+          "votesDem": 16987,
+          "votesTotal": 53067
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Marsha Blackburn",
+      "candDem": "Phil Bredesen",
+      "shortRep": "Blackburn",
+      "shortDem": "Bredesen",
+      "partisan": true,
+      "margin": 10.94,
+      "votesRep": 1227483,
+      "votesDem": 985450,
+      "votesTotal": 2243740,
+      "regions": {
+        "Anderson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +15.3",
+          "margin": 15.28,
+          "votesRep": 14720,
+          "votesDem": 10818,
+          "votesTotal": 26008
+        },
+        "Bedford47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +38.9",
+          "margin": 38.95,
+          "votesRep": 8942,
+          "votesDem": 3929,
+          "votesTotal": 13033
+        },
+        "Benton47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +33.9",
+          "margin": 33.91,
+          "votesRep": 3489,
+          "votesDem": 1722,
+          "votesTotal": 5298
+        },
+        "Bledsoe47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +45.3",
+          "margin": 45.25,
+          "votesRep": 2908,
+          "votesDem": 1096,
+          "votesTotal": 4076
+        },
+        "Blount47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +30.2",
+          "margin": 30.21,
+          "votesRep": 29928,
+          "votesDem": 16040,
+          "votesTotal": 46782
+        },
+        "Bradley47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.0",
+          "margin": 46.03,
+          "votesRep": 24433,
+          "votesDem": 9030,
+          "votesTotal": 33954
+        },
+        "Campbell47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +45.3",
+          "margin": 45.32,
+          "votesRep": 7208,
+          "votesDem": 2712,
+          "votesTotal": 10147
+        },
+        "Cannon47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +39.7",
+          "margin": 39.68,
+          "votesRep": 3198,
+          "votesDem": 1381,
+          "votesTotal": 4646
+        },
+        "Carroll47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +39.7",
+          "margin": 39.75,
+          "votesRep": 6044,
+          "votesDem": 2606,
+          "votesTotal": 8779
+        },
+        "Carter47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +50.8",
+          "margin": 50.82,
+          "votesRep": 13946,
+          "votesDem": 4547,
+          "votesTotal": 18693
+        },
+        "Cheatham47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +27.9",
+          "margin": 27.9,
+          "votesRep": 9135,
+          "votesDem": 5150,
+          "votesTotal": 14452
+        },
+        "Chester47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +48.8",
+          "margin": 48.76,
+          "votesRep": 3902,
+          "votesDem": 1344,
+          "votesTotal": 5395
+        },
+        "Claiborne47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.1",
+          "margin": 46.09,
+          "votesRep": 6083,
+          "votesDem": 2245,
+          "votesTotal": 8496
+        },
+        "Clay47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +30.7",
+          "margin": 30.71,
+          "votesRep": 1643,
+          "votesDem": 871,
+          "votesTotal": 2559
+        },
+        "Cocke47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +48.3",
+          "margin": 48.35,
+          "votesRep": 7528,
+          "votesDem": 2621,
+          "votesTotal": 10382
+        },
+        "Coffee47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +33.2",
+          "margin": 33.22,
+          "votesRep": 11115,
+          "votesDem": 5572,
+          "votesTotal": 17026
+        },
+        "Crockett47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +35.6",
+          "margin": 35.57,
+          "votesRep": 2984,
+          "votesDem": 1418,
+          "votesTotal": 4491
+        },
+        "Cumberland47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +45.7",
+          "margin": 45.71,
+          "votesRep": 16966,
+          "votesDem": 6321,
+          "votesTotal": 23808
+        },
+        "Davidson47": {
+          "color": "#1C408C",
+          "label": "Bredesen +42.6",
+          "margin": -42.57,
+          "votesRep": 69338,
+          "votesDem": 172137,
+          "votesTotal": 243639
+        },
+        "Decatur47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +43.1",
+          "margin": 43.13,
+          "votesRep": 2718,
+          "votesDem": 1080,
+          "votesTotal": 3878
+        },
+        "DeKalb47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +32.6",
+          "margin": 32.63,
+          "votesRep": 3906,
+          "votesDem": 1984,
+          "votesTotal": 5954
+        },
+        "Dickson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +27.2",
+          "margin": 27.18,
+          "votesRep": 10465,
+          "votesDem": 5992,
+          "votesTotal": 16700
+        },
+        "Dyer47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.9",
+          "margin": 46.88,
+          "votesRep": 8013,
+          "votesDem": 2898,
+          "votesTotal": 11114
+        },
+        "Fayette47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +33.7",
+          "margin": 33.7,
+          "votesRep": 11371,
+          "votesDem": 5639,
+          "votesTotal": 17224
+        },
+        "Fentress47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +53.4",
+          "margin": 53.44,
+          "votesRep": 4745,
+          "votesDem": 1440,
+          "votesTotal": 6337
+        },
+        "Franklin47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +30.6",
+          "margin": 30.57,
+          "votesRep": 8981,
+          "votesDem": 4776,
+          "votesTotal": 13927
+        },
+        "Gibson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +32.1",
+          "margin": 32.07,
+          "votesRep": 10407,
+          "votesDem": 5353,
+          "votesTotal": 16174
+        },
+        "Giles47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +35.0",
+          "margin": 35.01,
+          "votesRep": 6403,
+          "votesDem": 3082,
+          "votesTotal": 9610
+        },
+        "Grainger47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +50.5",
+          "margin": 50.49,
+          "votesRep": 5039,
+          "votesDem": 1658,
+          "votesTotal": 6810
+        },
+        "Greene47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.7",
+          "margin": 46.67,
+          "votesRep": 14844,
+          "votesDem": 5398,
+          "votesTotal": 20490
+        },
+        "Grundy47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +40.3",
+          "margin": 40.29,
+          "votesRep": 2587,
+          "votesDem": 1101,
+          "votesTotal": 3758
+        },
+        "Hamblen47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +41.9",
+          "margin": 41.87,
+          "votesRep": 12134,
+          "votesDem": 4972,
+          "votesTotal": 17407
+        },
+        "Hamilton47": {
+          "color": "#FF8B98",
+          "label": "Blackburn +1.5",
+          "margin": 1.54,
+          "votesRep": 67152,
+          "votesDem": 65119,
+          "votesTotal": 133708
+        },
+        "Hancock47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +51.7",
+          "margin": 51.74,
+          "votesRep": 1327,
+          "votesDem": 422,
+          "votesTotal": 1780
+        },
+        "Hardeman47": {
+          "color": "#FF8B98",
+          "label": "Blackburn +4.2",
+          "margin": 4.16,
+          "votesRep": 3869,
+          "votesDem": 3560,
+          "votesTotal": 7535
+        },
+        "Hardin47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +52.7",
+          "margin": 52.65,
+          "votesRep": 6181,
+          "votesDem": 1917,
+          "votesTotal": 8246
+        },
+        "Hawkins47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +51.1",
+          "margin": 51.13,
+          "votesRep": 13058,
+          "votesDem": 4222,
+          "votesTotal": 17471
+        },
+        "Haywood47": {
+          "color": "#1C408C",
+          "label": "Bredesen +18.7",
+          "margin": -18.67,
+          "votesRep": 2364,
+          "votesDem": 3449,
+          "votesTotal": 5886
+        },
+        "Henderson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +52.6",
+          "margin": 52.59,
+          "votesRep": 6514,
+          "votesDem": 2024,
+          "votesTotal": 8651
+        },
+        "Henry47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +34.6",
+          "margin": 34.56,
+          "votesRep": 7190,
+          "votesDem": 3497,
+          "votesTotal": 10848
+        },
+        "Hickman47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +33.2",
+          "margin": 33.25,
+          "votesRep": 4563,
+          "votesDem": 2286,
+          "votesTotal": 6982
+        },
+        "Houston47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +19.9",
+          "margin": 19.88,
+          "votesRep": 1613,
+          "votesDem": 1078,
+          "votesTotal": 2736
+        },
+        "Humphreys47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +22.1",
+          "margin": 22.11,
+          "votesRep": 3549,
+          "votesDem": 2264,
+          "votesTotal": 5892
+        },
+        "Jackson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +29.8",
+          "margin": 29.75,
+          "votesRep": 2514,
+          "votesDem": 1361,
+          "votesTotal": 3923
+        },
+        "Jefferson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +44.9",
+          "margin": 44.91,
+          "votesRep": 11435,
+          "votesDem": 4347,
+          "votesTotal": 16114
+        },
+        "Johnson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +55.3",
+          "margin": 55.3,
+          "votesRep": 4520,
+          "votesDem": 1301,
+          "votesTotal": 5898
+        },
+        "Knox47": {
+          "color": "#FF8B98",
+          "label": "Blackburn +3.1",
+          "margin": 3.13,
+          "votesRep": 84407,
+          "votesDem": 79283,
+          "votesTotal": 166162
+        },
+        "Lake47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +31.0",
+          "margin": 30.99,
+          "votesRep": 930,
+          "votesDem": 490,
+          "votesTotal": 1451
+        },
+        "Lauderdale47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +14.3",
+          "margin": 14.26,
+          "votesRep": 3745,
+          "votesDem": 2810,
+          "votesTotal": 6671
+        },
+        "Lawrence47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.3",
+          "margin": 46.28,
+          "votesRep": 9365,
+          "votesDem": 3439,
+          "votesTotal": 12968
+        },
+        "Lewis47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +41.3",
+          "margin": 41.34,
+          "votesRep": 2836,
+          "votesDem": 1177,
+          "votesTotal": 4054
+        },
+        "Lincoln47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +53.1",
+          "margin": 53.07,
+          "votesRep": 7949,
+          "votesDem": 2437,
+          "votesTotal": 10542
+        },
+        "Loudon47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +39.9",
+          "margin": 39.91,
+          "votesRep": 14834,
+          "votesDem": 6371,
+          "votesTotal": 21605
+        },
+        "Macon47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +52.6",
+          "margin": 52.55,
+          "votesRep": 4768,
+          "votesDem": 1483,
+          "votesTotal": 6348
+        },
+        "Madison47": {
+          "color": "#FF5865",
+          "label": "Blackburn +5.6",
+          "margin": 5.58,
+          "votesRep": 17127,
+          "votesDem": 15316,
+          "votesTotal": 32907
+        },
+        "Marion47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +29.7",
+          "margin": 29.68,
+          "votesRep": 5839,
+          "votesDem": 3166,
+          "votesTotal": 9173
+        },
+        "Marshall47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +31.9",
+          "margin": 31.88,
+          "votesRep": 6543,
+          "votesDem": 3380,
+          "votesTotal": 10041
+        },
+        "Maury47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +21.8",
+          "margin": 21.82,
+          "votesRep": 19569,
+          "votesDem": 12560,
+          "votesTotal": 32559
+        },
+        "McMinn47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +47.0",
+          "margin": 47,
+          "votesRep": 11434,
+          "votesDem": 4122,
+          "votesTotal": 15819
+        },
+        "McNairy47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +49.4",
+          "margin": 49.37,
+          "votesRep": 6007,
+          "votesDem": 2036,
+          "votesTotal": 8188
+        },
+        "Meigs47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +44.3",
+          "margin": 44.3,
+          "votesRep": 2694,
+          "votesDem": 1040,
+          "votesTotal": 3795
+        },
+        "Monroe47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +45.6",
+          "margin": 45.61,
+          "votesRep": 10274,
+          "votesDem": 3838,
+          "votesTotal": 14460
+        },
+        "Montgomery47": {
+          "color": "#FF8B98",
+          "label": "Blackburn +2.2",
+          "margin": 2.22,
+          "votesRep": 25932,
+          "votesDem": 24807,
+          "votesTotal": 51887
+        },
+        "Moore47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +50.5",
+          "margin": 50.47,
+          "votesRep": 1856,
+          "votesDem": 611,
+          "votesTotal": 2504
+        },
+        "Morgan47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +48.0",
+          "margin": 47.96,
+          "votesRep": 4083,
+          "votesDem": 1436,
+          "votesTotal": 5640
+        },
+        "Obion47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +50.7",
+          "margin": 50.74,
+          "votesRep": 7118,
+          "votesDem": 2326,
+          "votesTotal": 9559
+        },
+        "Overton47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +30.9",
+          "margin": 30.85,
+          "votesRep": 4640,
+          "votesDem": 2452,
+          "votesTotal": 7195
+        },
+        "Perry47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +38.9",
+          "margin": 38.85,
+          "votesRep": 1644,
+          "votesDem": 724,
+          "votesTotal": 2432
+        },
+        "Pickett47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +42.4",
+          "margin": 42.45,
+          "votesRep": 1599,
+          "votesDem": 646,
+          "votesTotal": 2270
+        },
+        "Polk47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +44.5",
+          "margin": 44.5,
+          "votesRep": 4127,
+          "votesDem": 1585,
+          "votesTotal": 5819
+        },
+        "Putnam47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +27.0",
+          "margin": 27.02,
+          "votesRep": 15230,
+          "votesDem": 8750,
+          "votesTotal": 24333
+        },
+        "Rhea47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +48.7",
+          "margin": 48.66,
+          "votesRep": 6866,
+          "votesDem": 2371,
+          "votesTotal": 9412
+        },
+        "Roane47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +34.2",
+          "margin": 34.19,
+          "votesRep": 12727,
+          "votesDem": 6242,
+          "votesTotal": 19340
+        },
+        "Robertson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +30.2",
+          "margin": 30.19,
+          "votesRep": 15501,
+          "votesDem": 8311,
+          "votesTotal": 24109
+        },
+        "Rutherford47": {
+          "color": "#FF5865",
+          "label": "Blackburn +6.7",
+          "margin": 6.7,
+          "votesRep": 52254,
+          "votesDem": 45692,
+          "votesTotal": 99125
+        },
+        "Scott47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +56.5",
+          "margin": 56.51,
+          "votesRep": 4232,
+          "votesDem": 1176,
+          "votesTotal": 5501
+        },
+        "Sequatchie47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +44.6",
+          "margin": 44.55,
+          "votesRep": 3564,
+          "votesDem": 1367,
+          "votesTotal": 5017
+        },
+        "Sevier47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +47.0",
+          "margin": 46.99,
+          "votesRep": 21541,
+          "votesDem": 7769,
+          "votesTotal": 30084
+        },
+        "Shelby47": {
+          "color": "#1C408C",
+          "label": "Bredesen +32.8",
+          "margin": -32.85,
+          "votesRep": 96493,
+          "votesDem": 190885,
+          "votesTotal": 291145
+        },
+        "Smith47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +34.3",
+          "margin": 34.32,
+          "votesRep": 4317,
+          "votesDem": 2111,
+          "votesTotal": 6516
+        },
+        "Stewart47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +32.6",
+          "margin": 32.64,
+          "votesRep": 2938,
+          "votesDem": 1492,
+          "votesTotal": 4495
+        },
+        "Sullivan47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +43.7",
+          "margin": 43.7,
+          "votesRep": 38753,
+          "votesDem": 15183,
+          "votesTotal": 54493
+        },
+        "Sumner47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +26.7",
+          "margin": 26.73,
+          "votesRep": 41099,
+          "votesDem": 23762,
+          "votesTotal": 65565
+        },
+        "Tipton47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +40.8",
+          "margin": 40.84,
+          "votesRep": 13390,
+          "votesDem": 5625,
+          "votesTotal": 19393
+        },
+        "Trousdale47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +22.6",
+          "margin": 22.57,
+          "votesRep": 1586,
+          "votesDem": 1002,
+          "votesTotal": 2628
+        },
+        "Unicoi47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +50.0",
+          "margin": 49.98,
+          "votesRep": 4659,
+          "votesDem": 1554,
+          "votesTotal": 6280
+        },
+        "Union47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +46.0",
+          "margin": 46.03,
+          "votesRep": 3739,
+          "votesDem": 1382,
+          "votesTotal": 5228
+        },
+        "Van Buren47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +34.2",
+          "margin": 34.23,
+          "votesRep": 1451,
+          "votesDem": 711,
+          "votesTotal": 2207
+        },
+        "Warren47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +25.1",
+          "margin": 25.12,
+          "votesRep": 7018,
+          "votesDem": 4200,
+          "votesTotal": 11419
+        },
+        "Washington47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +27.4",
+          "margin": 27.41,
+          "votesRep": 28514,
+          "votesDem": 16246,
+          "votesTotal": 45201
+        },
+        "Wayne47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +61.4",
+          "margin": 61.39,
+          "votesRep": 3787,
+          "votesDem": 906,
+          "votesTotal": 4736
+        },
+        "Weakley47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +37.5",
+          "margin": 37.5,
+          "votesRep": 6704,
+          "votesDem": 3047,
+          "votesTotal": 9901
+        },
+        "White47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +44.6",
+          "margin": 44.56,
+          "votesRep": 5979,
+          "votesDem": 2293,
+          "votesTotal": 8423
+        },
+        "Williamson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +18.6",
+          "margin": 18.56,
+          "votesRep": 62039,
+          "votesDem": 42611,
+          "votesTotal": 105369
+        },
+        "Wilson47": {
+          "color": "#BF1D29",
+          "label": "Blackburn +25.6",
+          "margin": 25.57,
+          "votesRep": 32810,
+          "votesDem": 19447,
+          "votesTotal": 53054
+        }
+      }
+    }
+  ]
+}

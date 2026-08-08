@@ -1,0 +1,2411 @@
+{
+  "stateFips": "06",
+  "stateName": "California",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Steve Garvey",
+      "candDem": "Adam Schiff",
+      "shortRep": "Garvey",
+      "shortDem": "Schiff",
+      "partisan": true,
+      "margin": -17.75,
+      "votesRep": 6312594,
+      "votesDem": 9036252,
+      "votesTotal": 15348846,
+      "regions": {
+        "Alameda06": {
+          "color": "#1C408C",
+          "label": "Schiff +53.6",
+          "margin": -53.6,
+          "votesRep": 147721,
+          "votesDem": 489039,
+          "votesTotal": 636760
+        },
+        "Alpine06": {
+          "color": "#1C408C",
+          "label": "Schiff +27.7",
+          "margin": -27.72,
+          "votesRep": 262,
+          "votesDem": 463,
+          "votesTotal": 725
+        },
+        "Amador06": {
+          "color": "#BF1D29",
+          "label": "Garvey +32.2",
+          "margin": 32.2,
+          "votesRep": 14534,
+          "votesDem": 7454,
+          "votesTotal": 21988
+        },
+        "Butte06": {
+          "color": "#FF5865",
+          "label": "Garvey +7.4",
+          "margin": 7.4,
+          "votesRep": 49192,
+          "votesDem": 42417,
+          "votesTotal": 91609
+        },
+        "Calaveras06": {
+          "color": "#BF1D29",
+          "label": "Garvey +31.3",
+          "margin": 31.28,
+          "votesRep": 17109,
+          "votesDem": 8956,
+          "votesTotal": 26065
+        },
+        "Colusa06": {
+          "color": "#BF1D29",
+          "label": "Garvey +29.5",
+          "margin": 29.46,
+          "votesRep": 4471,
+          "votesDem": 2436,
+          "votesTotal": 6907
+        },
+        "Contra Costa06": {
+          "color": "#1C408C",
+          "label": "Schiff +35.0",
+          "margin": -35,
+          "votesRep": 165245,
+          "votesDem": 343169,
+          "votesTotal": 508414
+        },
+        "Del Norte06": {
+          "color": "#BF1D29",
+          "label": "Garvey +18.1",
+          "margin": 18.12,
+          "votesRep": 6084,
+          "votesDem": 4217,
+          "votesTotal": 10301
+        },
+        "El Dorado06": {
+          "color": "#BF1D29",
+          "label": "Garvey +17.1",
+          "margin": 17.15,
+          "votesRep": 64663,
+          "votesDem": 45734,
+          "votesTotal": 110397
+        },
+        "Fresno06": {
+          "color": "#FF5865",
+          "label": "Garvey +5.8",
+          "margin": 5.8,
+          "votesRep": 166675,
+          "votesDem": 148396,
+          "votesTotal": 315071
+        },
+        "Glenn06": {
+          "color": "#BF1D29",
+          "label": "Garvey +39.0",
+          "margin": 39,
+          "votesRep": 7114,
+          "votesDem": 3122,
+          "votesTotal": 10236
+        },
+        "Humboldt06": {
+          "color": "#1C408C",
+          "label": "Schiff +27.7",
+          "margin": -27.68,
+          "votesRep": 22793,
+          "votesDem": 40240,
+          "votesTotal": 63033
+        },
+        "Imperial06": {
+          "color": "#6b7280",
+          "label": "Garvey +0.3",
+          "margin": 0.26,
+          "votesRep": 26579,
+          "votesDem": 26441,
+          "votesTotal": 53020
+        },
+        "Inyo06": {
+          "color": "#FF5865",
+          "label": "Garvey +6.1",
+          "margin": 6.12,
+          "votesRep": 4673,
+          "votesDem": 4134,
+          "votesTotal": 8807
+        },
+        "Kern06": {
+          "color": "#BF1D29",
+          "label": "Garvey +22.1",
+          "margin": 22.09,
+          "votesRep": 168458,
+          "votesDem": 107501,
+          "votesTotal": 275959
+        },
+        "Kings06": {
+          "color": "#BF1D29",
+          "label": "Garvey +25.0",
+          "margin": 24.96,
+          "votesRep": 25354,
+          "votesDem": 15225,
+          "votesTotal": 40579
+        },
+        "Lake06": {
+          "color": "#FF8B98",
+          "label": "Garvey +2.3",
+          "margin": 2.31,
+          "votesRep": 13401,
+          "votesDem": 12797,
+          "votesTotal": 26198
+        },
+        "Lassen06": {
+          "color": "#BF1D29",
+          "label": "Garvey +56.2",
+          "margin": 56.17,
+          "votesRep": 8691,
+          "votesDem": 2439,
+          "votesTotal": 11130
+        },
+        "Los Angeles06": {
+          "color": "#1C408C",
+          "label": "Schiff +31.3",
+          "margin": -31.34,
+          "votesRep": 1220750,
+          "votesDem": 2335222,
+          "votesTotal": 3555972
+        },
+        "Madera06": {
+          "color": "#BF1D29",
+          "label": "Garvey +22.5",
+          "margin": 22.48,
+          "votesRep": 32451,
+          "votesDem": 20538,
+          "votesTotal": 52989
+        },
+        "Marin06": {
+          "color": "#1C408C",
+          "label": "Schiff +59.7",
+          "margin": -59.68,
+          "votesRep": 28490,
+          "votesDem": 112842,
+          "votesTotal": 141332
+        },
+        "Mariposa06": {
+          "color": "#BF1D29",
+          "label": "Garvey +23.2",
+          "margin": 23.21,
+          "votesRep": 5747,
+          "votesDem": 3582,
+          "votesTotal": 9329
+        },
+        "Mendocino06": {
+          "color": "#1C408C",
+          "label": "Schiff +25.9",
+          "margin": -25.92,
+          "votesRep": 14182,
+          "votesDem": 24106,
+          "votesTotal": 38288
+        },
+        "Merced06": {
+          "color": "#FF8B98",
+          "label": "Garvey +3.5",
+          "margin": 3.5,
+          "votesRep": 43320,
+          "votesDem": 40394,
+          "votesTotal": 83714
+        },
+        "Modoc06": {
+          "color": "#BF1D29",
+          "label": "Garvey +50.2",
+          "margin": 50.22,
+          "votesRep": 2951,
+          "votesDem": 978,
+          "votesTotal": 3929
+        },
+        "Mono06": {
+          "color": "#1C408C",
+          "label": "Schiff +15.0",
+          "margin": -14.97,
+          "votesRep": 2503,
+          "votesDem": 3384,
+          "votesTotal": 5887
+        },
+        "Monterey06": {
+          "color": "#1C408C",
+          "label": "Schiff +28.0",
+          "margin": -28.01,
+          "votesRep": 51913,
+          "votesDem": 92302,
+          "votesTotal": 144215
+        },
+        "Napa06": {
+          "color": "#1C408C",
+          "label": "Schiff +31.5",
+          "margin": -31.54,
+          "votesRep": 21986,
+          "votesDem": 42245,
+          "votesTotal": 64231
+        },
+        "Nevada06": {
+          "color": "#577CCC",
+          "label": "Schiff +8.8",
+          "margin": -8.76,
+          "votesRep": 27987,
+          "votesDem": 33363,
+          "votesTotal": 61350
+        },
+        "Orange06": {
+          "color": "#FF8B98",
+          "label": "Garvey +1.0",
+          "margin": 1.03,
+          "votesRep": 688967,
+          "votesDem": 674882,
+          "votesTotal": 1363849
+        },
+        "Placer06": {
+          "color": "#BF1D29",
+          "label": "Garvey +13.9",
+          "margin": 13.93,
+          "votesRep": 129981,
+          "votesDem": 98198,
+          "votesTotal": 228179
+        },
+        "Plumas06": {
+          "color": "#BF1D29",
+          "label": "Garvey +21.2",
+          "margin": 21.23,
+          "votesRep": 6034,
+          "votesDem": 3921,
+          "votesTotal": 9955
+        },
+        "Riverside06": {
+          "color": "#FF8B98",
+          "label": "Garvey +3.4",
+          "margin": 3.39,
+          "votesRep": 474241,
+          "votesDem": 443181,
+          "votesTotal": 917422
+        },
+        "Sacramento06": {
+          "color": "#1C408C",
+          "label": "Schiff +17.4",
+          "margin": -17.41,
+          "votesRep": 263954,
+          "votesDem": 375265,
+          "votesTotal": 639219
+        },
+        "San Benito06": {
+          "color": "#1C408C",
+          "label": "Schiff +11.0",
+          "margin": -10.95,
+          "votesRep": 12031,
+          "votesDem": 14991,
+          "votesTotal": 27022
+        },
+        "San Bernardino06": {
+          "color": "#FF8B98",
+          "label": "Garvey +3.8",
+          "margin": 3.84,
+          "votesRep": 384091,
+          "votesDem": 355667,
+          "votesTotal": 739758
+        },
+        "San Diego06": {
+          "color": "#1C408C",
+          "label": "Schiff +13.4",
+          "margin": -13.35,
+          "votesRep": 625129,
+          "votesDem": 817805,
+          "votesTotal": 1442934
+        },
+        "San Francisco06": {
+          "color": "#1C408C",
+          "label": "Schiff +64.8",
+          "margin": -64.8,
+          "votesRep": 66421,
+          "votesDem": 310932,
+          "votesTotal": 377353
+        },
+        "San Joaquin06": {
+          "color": "#CF8980",
+          "label": "Garvey +0.7",
+          "margin": 0.73,
+          "votesRep": 129064,
+          "votesDem": 127205,
+          "votesTotal": 256269
+        },
+        "San Luis Obispo06": {
+          "color": "#577CCC",
+          "label": "Schiff +6.1",
+          "margin": -6.13,
+          "votesRep": 68569,
+          "votesDem": 77525,
+          "votesTotal": 146094
+        },
+        "San Mateo06": {
+          "color": "#1C408C",
+          "label": "Schiff +47.5",
+          "margin": -47.48,
+          "votesRep": 84474,
+          "votesDem": 237186,
+          "votesTotal": 321660
+        },
+        "Santa Barbara06": {
+          "color": "#1C408C",
+          "label": "Schiff +22.4",
+          "margin": -22.4,
+          "votesRep": 70126,
+          "votesDem": 110609,
+          "votesTotal": 180735
+        },
+        "Santa Clara06": {
+          "color": "#1C408C",
+          "label": "Schiff +37.9",
+          "margin": -37.9,
+          "votesRep": 224597,
+          "votesDem": 498785,
+          "votesTotal": 723382
+        },
+        "Santa Cruz06": {
+          "color": "#1C408C",
+          "label": "Schiff +52.5",
+          "margin": -52.48,
+          "votesRep": 30737,
+          "votesDem": 98631,
+          "votesTotal": 129368
+        },
+        "Shasta06": {
+          "color": "#BF1D29",
+          "label": "Garvey +40.5",
+          "margin": 40.51,
+          "votesRep": 61402,
+          "votesDem": 25996,
+          "votesTotal": 87398
+        },
+        "Sierra06": {
+          "color": "#BF1D29",
+          "label": "Garvey +28.5",
+          "margin": 28.55,
+          "votesRep": 1110,
+          "votesDem": 617,
+          "votesTotal": 1727
+        },
+        "Siskiyou06": {
+          "color": "#BF1D29",
+          "label": "Garvey +23.1",
+          "margin": 23.15,
+          "votesRep": 12958,
+          "votesDem": 8087,
+          "votesTotal": 21045
+        },
+        "Solano06": {
+          "color": "#1C408C",
+          "label": "Schiff +22.0",
+          "margin": -21.98,
+          "votesRep": 72404,
+          "votesDem": 113204,
+          "votesTotal": 185608
+        },
+        "Sonoma06": {
+          "color": "#1C408C",
+          "label": "Schiff +44.0",
+          "margin": -43.95,
+          "votesRep": 68712,
+          "votesDem": 176477,
+          "votesTotal": 245189
+        },
+        "Stanislaus06": {
+          "color": "#BF1D29",
+          "label": "Garvey +10.6",
+          "margin": 10.6,
+          "votesRep": 106444,
+          "votesDem": 86040,
+          "votesTotal": 192484
+        },
+        "Sutter06": {
+          "color": "#BF1D29",
+          "label": "Garvey +31.9",
+          "margin": 31.87,
+          "votesRep": 25129,
+          "votesDem": 12984,
+          "votesTotal": 38113
+        },
+        "Tehama06": {
+          "color": "#BF1D29",
+          "label": "Garvey +44.8",
+          "margin": 44.83,
+          "votesRep": 18632,
+          "votesDem": 7098,
+          "votesTotal": 25730
+        },
+        "Trinity06": {
+          "color": "#BF1D29",
+          "label": "Garvey +13.2",
+          "margin": 13.22,
+          "votesRep": 3148,
+          "votesDem": 2413,
+          "votesTotal": 5561
+        },
+        "Tulare06": {
+          "color": "#BF1D29",
+          "label": "Garvey +23.2",
+          "margin": 23.24,
+          "votesRep": 83439,
+          "votesDem": 51972,
+          "votesTotal": 135411
+        },
+        "Tuolumne06": {
+          "color": "#BF1D29",
+          "label": "Garvey +24.7",
+          "margin": 24.75,
+          "votesRep": 17372,
+          "votesDem": 10479,
+          "votesTotal": 27851
+        },
+        "Ventura06": {
+          "color": "#1C408C",
+          "label": "Schiff +10.9",
+          "margin": -10.95,
+          "votesRep": 169660,
+          "votesDem": 211381,
+          "votesTotal": 381041
+        },
+        "Yolo06": {
+          "color": "#1C408C",
+          "label": "Schiff +34.5",
+          "margin": -34.48,
+          "votesRep": 29758,
+          "votesDem": 61084,
+          "votesTotal": 90842
+        },
+        "Yuba06": {
+          "color": "#BF1D29",
+          "label": "Garvey +28.1",
+          "margin": 28.1,
+          "votesRep": 18711,
+          "votesDem": 10501,
+          "votesTotal": 29212
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Brian Dahle",
+      "candDem": "Gavin Newsom",
+      "shortRep": "Dahle",
+      "shortDem": "Newsom",
+      "partisan": true,
+      "margin": -18.36,
+      "votesRep": 4462336,
+      "votesDem": 6469743,
+      "votesTotal": 10932079,
+      "regions": {
+        "Alameda06": {
+          "color": "#1C408C",
+          "label": "Newsom +58.6",
+          "margin": -58.64,
+          "votesRep": 100923,
+          "votesDem": 387046,
+          "votesTotal": 487969
+        },
+        "Alpine06": {
+          "color": "#1C408C",
+          "label": "Newsom +17.3",
+          "margin": -17.29,
+          "votesRep": 256,
+          "votesDem": 363,
+          "votesTotal": 619
+        },
+        "Amador06": {
+          "color": "#BF1D29",
+          "label": "Dahle +35.4",
+          "margin": 35.38,
+          "votesRep": 12628,
+          "votesDem": 6027,
+          "votesTotal": 18655
+        },
+        "Butte06": {
+          "color": "#BF1D29",
+          "label": "Dahle +13.0",
+          "margin": 13.03,
+          "votesRep": 40939,
+          "votesDem": 31502,
+          "votesTotal": 72441
+        },
+        "Calaveras06": {
+          "color": "#BF1D29",
+          "label": "Dahle +33.1",
+          "margin": 33.12,
+          "votesRep": 14137,
+          "votesDem": 7103,
+          "votesTotal": 21240
+        },
+        "Colusa06": {
+          "color": "#BF1D29",
+          "label": "Dahle +44.2",
+          "margin": 44.16,
+          "votesRep": 4009,
+          "votesDem": 1553,
+          "votesTotal": 5562
+        },
+        "Contra Costa06": {
+          "color": "#1C408C",
+          "label": "Newsom +36.6",
+          "margin": -36.61,
+          "votesRep": 123132,
+          "votesDem": 265371,
+          "votesTotal": 388503
+        },
+        "Del Norte06": {
+          "color": "#BF1D29",
+          "label": "Dahle +22.1",
+          "margin": 22.05,
+          "votesRep": 5111,
+          "votesDem": 3264,
+          "votesTotal": 8375
+        },
+        "El Dorado06": {
+          "color": "#BF1D29",
+          "label": "Dahle +22.1",
+          "margin": 22.11,
+          "votesRep": 54137,
+          "votesDem": 34534,
+          "votesTotal": 88671
+        },
+        "Fresno06": {
+          "color": "#BF1D29",
+          "label": "Dahle +10.2",
+          "margin": 10.16,
+          "votesRep": 120668,
+          "votesDem": 98417,
+          "votesTotal": 219085
+        },
+        "Glenn06": {
+          "color": "#BF1D29",
+          "label": "Dahle +51.3",
+          "margin": 51.32,
+          "votesRep": 6000,
+          "votesDem": 1930,
+          "votesTotal": 7930
+        },
+        "Humboldt06": {
+          "color": "#1C408C",
+          "label": "Newsom +23.6",
+          "margin": -23.61,
+          "votesRep": 18257,
+          "votesDem": 29541,
+          "votesTotal": 47798
+        },
+        "Imperial06": {
+          "color": "#1C408C",
+          "label": "Newsom +11.9",
+          "margin": -11.9,
+          "votesRep": 13158,
+          "votesDem": 16711,
+          "votesTotal": 29869
+        },
+        "Inyo06": {
+          "color": "#FF5865",
+          "label": "Dahle +9.5",
+          "margin": 9.54,
+          "votesRep": 4095,
+          "votesDem": 3382,
+          "votesTotal": 7477
+        },
+        "Kern06": {
+          "color": "#BF1D29",
+          "label": "Dahle +26.1",
+          "margin": 26.13,
+          "votesRep": 119002,
+          "votesDem": 69701,
+          "votesTotal": 188703
+        },
+        "Kings06": {
+          "color": "#BF1D29",
+          "label": "Dahle +30.2",
+          "margin": 30.22,
+          "votesRep": 17523,
+          "votesDem": 9389,
+          "votesTotal": 26912
+        },
+        "Lake06": {
+          "color": "#FF8B98",
+          "label": "Dahle +2.9",
+          "margin": 2.93,
+          "votesRep": 10360,
+          "votesDem": 9771,
+          "votesTotal": 20131
+        },
+        "Lassen06": {
+          "color": "#BF1D29",
+          "label": "Dahle +68.5",
+          "margin": 68.51,
+          "votesRep": 7726,
+          "votesDem": 1444,
+          "votesTotal": 9170
+        },
+        "Los Angeles06": {
+          "color": "#1C408C",
+          "label": "Newsom +35.6",
+          "margin": -35.61,
+          "votesRep": 769174,
+          "votesDem": 1620053,
+          "votesTotal": 2389227
+        },
+        "Madera06": {
+          "color": "#BF1D29",
+          "label": "Dahle +28.1",
+          "margin": 28.12,
+          "votesRep": 23678,
+          "votesDem": 13283,
+          "votesTotal": 36961
+        },
+        "Marin06": {
+          "color": "#1C408C",
+          "label": "Newsom +60.1",
+          "margin": -60.06,
+          "votesRep": 23775,
+          "votesDem": 95289,
+          "votesTotal": 119064
+        },
+        "Mariposa06": {
+          "color": "#BF1D29",
+          "label": "Dahle +24.9",
+          "margin": 24.9,
+          "votesRep": 4896,
+          "votesDem": 2944,
+          "votesTotal": 7840
+        },
+        "Mendocino06": {
+          "color": "#1C408C",
+          "label": "Newsom +25.2",
+          "margin": -25.23,
+          "votesRep": 11363,
+          "votesDem": 19031,
+          "votesTotal": 30394
+        },
+        "Merced06": {
+          "color": "#FF5865",
+          "label": "Dahle +8.8",
+          "margin": 8.82,
+          "votesRep": 30073,
+          "votesDem": 25200,
+          "votesTotal": 55273
+        },
+        "Modoc06": {
+          "color": "#BF1D29",
+          "label": "Dahle +59.7",
+          "margin": 59.73,
+          "votesRep": 2725,
+          "votesDem": 687,
+          "votesTotal": 3412
+        },
+        "Mono06": {
+          "color": "#577CCC",
+          "label": "Newsom +9.1",
+          "margin": -9.13,
+          "votesRep": 2076,
+          "votesDem": 2493,
+          "votesTotal": 4569
+        },
+        "Monterey06": {
+          "color": "#1C408C",
+          "label": "Newsom +27.8",
+          "margin": -27.8,
+          "votesRep": 36867,
+          "votesDem": 65262,
+          "votesTotal": 102129
+        },
+        "Napa06": {
+          "color": "#1C408C",
+          "label": "Newsom +29.5",
+          "margin": -29.47,
+          "votesRep": 17671,
+          "votesDem": 32437,
+          "votesTotal": 50108
+        },
+        "Nevada06": {
+          "color": "#577CCC",
+          "label": "Newsom +5.1",
+          "margin": -5.07,
+          "votesRep": 24082,
+          "votesDem": 26655,
+          "votesTotal": 50737
+        },
+        "Orange06": {
+          "color": "#FF8B98",
+          "label": "Dahle +3.0",
+          "margin": 2.98,
+          "votesRep": 492734,
+          "votesDem": 464206,
+          "votesTotal": 956940
+        },
+        "Placer06": {
+          "color": "#BF1D29",
+          "label": "Dahle +19.1",
+          "margin": 19.13,
+          "votesRep": 108450,
+          "votesDem": 73619,
+          "votesTotal": 182069
+        },
+        "Plumas06": {
+          "color": "#BF1D29",
+          "label": "Dahle +28.6",
+          "margin": 28.58,
+          "votesRep": 5550,
+          "votesDem": 3083,
+          "votesTotal": 8633
+        },
+        "Riverside06": {
+          "color": "#FF8B98",
+          "label": "Dahle +4.3",
+          "margin": 4.35,
+          "votesRep": 310901,
+          "votesDem": 285000,
+          "votesTotal": 595901
+        },
+        "Sacramento06": {
+          "color": "#1C408C",
+          "label": "Newsom +15.0",
+          "margin": -15.02,
+          "votesRep": 202933,
+          "votesDem": 274680,
+          "votesTotal": 477613
+        },
+        "San Benito06": {
+          "color": "#577CCC",
+          "label": "Newsom +6.5",
+          "margin": -6.53,
+          "votesRep": 9150,
+          "votesDem": 10428,
+          "votesTotal": 19578
+        },
+        "San Bernardino06": {
+          "color": "#FF5865",
+          "label": "Dahle +5.2",
+          "margin": 5.22,
+          "votesRep": 239109,
+          "votesDem": 215391,
+          "votesTotal": 454500
+        },
+        "San Diego06": {
+          "color": "#1C408C",
+          "label": "Newsom +11.6",
+          "margin": -11.6,
+          "votesRep": 454533,
+          "votesDem": 573765,
+          "votesTotal": 1028298
+        },
+        "San Francisco06": {
+          "color": "#1C408C",
+          "label": "Newsom +70.8",
+          "margin": -70.77,
+          "votesRep": 44064,
+          "votesDem": 257402,
+          "votesTotal": 301466
+        },
+        "San Joaquin06": {
+          "color": "#FF8B98",
+          "label": "Dahle +3.6",
+          "margin": 3.57,
+          "votesRep": 91827,
+          "votesDem": 85498,
+          "votesTotal": 177325
+        },
+        "San Luis Obispo06": {
+          "color": "#8AAFFF",
+          "label": "Newsom +2.3",
+          "margin": -2.26,
+          "votesRep": 58464,
+          "votesDem": 61166,
+          "votesTotal": 119630
+        },
+        "San Mateo06": {
+          "color": "#1C408C",
+          "label": "Newsom +50.0",
+          "margin": -49.97,
+          "votesRep": 61918,
+          "votesDem": 185599,
+          "votesTotal": 247517
+        },
+        "Santa Barbara06": {
+          "color": "#1C408C",
+          "label": "Newsom +19.1",
+          "margin": -19.15,
+          "votesRep": 54726,
+          "votesDem": 80648,
+          "votesTotal": 135374
+        },
+        "Santa Clara06": {
+          "color": "#1C408C",
+          "label": "Newsom +40.0",
+          "margin": -40.02,
+          "votesRep": 162518,
+          "votesDem": 379377,
+          "votesTotal": 541895
+        },
+        "Santa Cruz06": {
+          "color": "#1C408C",
+          "label": "Newsom +51.9",
+          "margin": -51.9,
+          "votesRep": 25052,
+          "votesDem": 79117,
+          "votesTotal": 104169
+        },
+        "Shasta06": {
+          "color": "#BF1D29",
+          "label": "Dahle +45.7",
+          "margin": 45.69,
+          "votesRep": 49913,
+          "votesDem": 18607,
+          "votesTotal": 68520
+        },
+        "Sierra06": {
+          "color": "#BF1D29",
+          "label": "Dahle +31.4",
+          "margin": 31.43,
+          "votesRep": 1014,
+          "votesDem": 529,
+          "votesTotal": 1543
+        },
+        "Siskiyou06": {
+          "color": "#BF1D29",
+          "label": "Dahle +28.6",
+          "margin": 28.61,
+          "votesRep": 11397,
+          "votesDem": 6326,
+          "votesTotal": 17723
+        },
+        "Solano06": {
+          "color": "#1C408C",
+          "label": "Newsom +19.1",
+          "margin": -19.08,
+          "votesRep": 52850,
+          "votesDem": 77769,
+          "votesTotal": 130619
+        },
+        "Sonoma06": {
+          "color": "#1C408C",
+          "label": "Newsom +41.8",
+          "margin": -41.85,
+          "votesRep": 57413,
+          "votesDem": 140041,
+          "votesTotal": 197454
+        },
+        "Stanislaus06": {
+          "color": "#BF1D29",
+          "label": "Dahle +15.5",
+          "margin": 15.53,
+          "votesRep": 75656,
+          "votesDem": 55311,
+          "votesTotal": 130967
+        },
+        "Sutter06": {
+          "color": "#BF1D29",
+          "label": "Dahle +35.4",
+          "margin": 35.37,
+          "votesRep": 19024,
+          "votesDem": 9082,
+          "votesTotal": 28106
+        },
+        "Tehama06": {
+          "color": "#BF1D29",
+          "label": "Dahle +51.3",
+          "margin": 51.3,
+          "votesRep": 15607,
+          "votesDem": 5024,
+          "votesTotal": 20631
+        },
+        "Trinity06": {
+          "color": "#BF1D29",
+          "label": "Dahle +17.8",
+          "margin": 17.83,
+          "votesRep": 2667,
+          "votesDem": 1860,
+          "votesTotal": 4527
+        },
+        "Tulare06": {
+          "color": "#BF1D29",
+          "label": "Dahle +27.1",
+          "margin": 27.13,
+          "votesRep": 58053,
+          "votesDem": 33273,
+          "votesTotal": 91326
+        },
+        "Tuolumne06": {
+          "color": "#BF1D29",
+          "label": "Dahle +27.1",
+          "margin": 27.07,
+          "votesRep": 14759,
+          "votesDem": 8471,
+          "votesTotal": 23230
+        },
+        "Ventura06": {
+          "color": "#577CCC",
+          "label": "Newsom +9.1",
+          "margin": -9.08,
+          "votesRep": 127709,
+          "votesDem": 153226,
+          "votesTotal": 280935
+        },
+        "Yolo06": {
+          "color": "#1C408C",
+          "label": "Newsom +32.1",
+          "margin": -32.06,
+          "votesRep": 22807,
+          "votesDem": 44328,
+          "votesTotal": 67135
+        },
+        "Yuba06": {
+          "color": "#BF1D29",
+          "label": "Dahle +33.4",
+          "margin": 33.43,
+          "votesRep": 13097,
+          "votesDem": 6534,
+          "votesTotal": 19631
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "John Cox",
+      "candDem": "Gavin Newsom",
+      "shortRep": "Cox",
+      "shortDem": "Newsom",
+      "partisan": true,
+      "margin": -23.9,
+      "votesRep": 4742825,
+      "votesDem": 7721410,
+      "votesTotal": 12464235,
+      "regions": {
+        "Alameda06": {
+          "color": "#1C408C",
+          "label": "Newsom +61.1",
+          "margin": -61.1,
+          "votesRep": 111677,
+          "votesDem": 462558,
+          "votesTotal": 574235
+        },
+        "Alpine06": {
+          "color": "#1C408C",
+          "label": "Newsom +25.5",
+          "margin": -25.53,
+          "votesRep": 229,
+          "votesDem": 386,
+          "votesTotal": 615
+        },
+        "Amador06": {
+          "color": "#BF1D29",
+          "label": "Cox +29.1",
+          "margin": 29.1,
+          "votesRep": 11356,
+          "votesDem": 6237,
+          "votesTotal": 17593
+        },
+        "Butte06": {
+          "color": "#FF5865",
+          "label": "Cox +6.5",
+          "margin": 6.45,
+          "votesRep": 47226,
+          "votesDem": 41500,
+          "votesTotal": 88726
+        },
+        "Calaveras06": {
+          "color": "#BF1D29",
+          "label": "Cox +28.1",
+          "margin": 28.14,
+          "votesRep": 13845,
+          "votesDem": 7765,
+          "votesTotal": 21610
+        },
+        "Colusa06": {
+          "color": "#BF1D29",
+          "label": "Cox +30.6",
+          "margin": 30.63,
+          "votesRep": 3764,
+          "votesDem": 1999,
+          "votesTotal": 5763
+        },
+        "Contra Costa06": {
+          "color": "#1C408C",
+          "label": "Newsom +36.4",
+          "margin": -36.4,
+          "votesRep": 132345,
+          "votesDem": 283805,
+          "votesTotal": 416150
+        },
+        "Del Norte06": {
+          "color": "#BF1D29",
+          "label": "Cox +17.4",
+          "margin": 17.36,
+          "votesRep": 4887,
+          "votesDem": 3441,
+          "votesTotal": 8328
+        },
+        "El Dorado06": {
+          "color": "#BF1D29",
+          "label": "Cox +18.8",
+          "margin": 18.83,
+          "votesRep": 53140,
+          "votesDem": 36297,
+          "votesTotal": 89437
+        },
+        "Fresno06": {
+          "color": "#FF8B98",
+          "label": "Cox +1.8",
+          "margin": 1.83,
+          "votesRep": 128974,
+          "votesDem": 124332,
+          "votesTotal": 253306
+        },
+        "Glenn06": {
+          "color": "#BF1D29",
+          "label": "Cox +41.8",
+          "margin": 41.81,
+          "votesRep": 5908,
+          "votesDem": 2424,
+          "votesTotal": 8332
+        },
+        "Humboldt06": {
+          "color": "#1C408C",
+          "label": "Newsom +29.0",
+          "margin": -28.99,
+          "votesRep": 18418,
+          "votesDem": 33455,
+          "votesTotal": 51873
+        },
+        "Imperial06": {
+          "color": "#1C408C",
+          "label": "Newsom +23.3",
+          "margin": -23.35,
+          "votesRep": 12785,
+          "votesDem": 20573,
+          "votesTotal": 33358
+        },
+        "Inyo06": {
+          "color": "#BF1D29",
+          "label": "Cox +10.7",
+          "margin": 10.66,
+          "votesRep": 4018,
+          "votesDem": 3244,
+          "votesTotal": 7262
+        },
+        "Kern06": {
+          "color": "#BF1D29",
+          "label": "Cox +17.9",
+          "margin": 17.88,
+          "votesRep": 119870,
+          "votesDem": 83507,
+          "votesTotal": 203377
+        },
+        "Kings06": {
+          "color": "#BF1D29",
+          "label": "Cox +18.8",
+          "margin": 18.85,
+          "votesRep": 17976,
+          "votesDem": 12275,
+          "votesTotal": 30251
+        },
+        "Lake06": {
+          "color": "#8AAFFF",
+          "label": "Newsom +2.8",
+          "margin": -2.79,
+          "votesRep": 10280,
+          "votesDem": 10869,
+          "votesTotal": 21149
+        },
+        "Lassen06": {
+          "color": "#BF1D29",
+          "label": "Cox +54.7",
+          "margin": 54.68,
+          "votesRep": 6973,
+          "votesDem": 2043,
+          "votesTotal": 9016
+        },
+        "Los Angeles06": {
+          "color": "#1C408C",
+          "label": "Newsom +43.8",
+          "margin": -43.8,
+          "votesRep": 826402,
+          "votesDem": 2114699,
+          "votesTotal": 2941101
+        },
+        "Madera06": {
+          "color": "#BF1D29",
+          "label": "Cox +21.9",
+          "margin": 21.94,
+          "votesRep": 23488,
+          "votesDem": 15037,
+          "votesTotal": 38525
+        },
+        "Marin06": {
+          "color": "#1C408C",
+          "label": "Newsom +59.0",
+          "margin": -58.98,
+          "votesRep": 26750,
+          "votesDem": 103671,
+          "votesTotal": 130421
+        },
+        "Mariposa06": {
+          "color": "#BF1D29",
+          "label": "Cox +22.6",
+          "margin": 22.61,
+          "votesRep": 5043,
+          "votesDem": 3183,
+          "votesTotal": 8226
+        },
+        "Mendocino06": {
+          "color": "#1C408C",
+          "label": "Newsom +32.6",
+          "margin": -32.62,
+          "votesRep": 11255,
+          "votesDem": 22152,
+          "votesTotal": 33407
+        },
+        "Merced06": {
+          "color": "#8AAFFF",
+          "label": "Newsom +4.0",
+          "margin": -3.98,
+          "votesRep": 28424,
+          "votesDem": 30783,
+          "votesTotal": 59207
+        },
+        "Modoc06": {
+          "color": "#BF1D29",
+          "label": "Cox +52.4",
+          "margin": 52.44,
+          "votesRep": 2628,
+          "votesDem": 820,
+          "votesTotal": 3448
+        },
+        "Mono06": {
+          "color": "#1C408C",
+          "label": "Newsom +11.5",
+          "margin": -11.52,
+          "votesRep": 2147,
+          "votesDem": 2706,
+          "votesTotal": 4853
+        },
+        "Monterey06": {
+          "color": "#1C408C",
+          "label": "Newsom +32.0",
+          "margin": -31.97,
+          "votesRep": 39516,
+          "votesDem": 76648,
+          "votesTotal": 116164
+        },
+        "Napa06": {
+          "color": "#1C408C",
+          "label": "Newsom +29.6",
+          "margin": -29.6,
+          "votesRep": 19834,
+          "votesDem": 36513,
+          "votesTotal": 56347
+        },
+        "Nevada06": {
+          "color": "#577CCC",
+          "label": "Newsom +5.9",
+          "margin": -5.87,
+          "votesRep": 24882,
+          "votesDem": 27985,
+          "votesTotal": 52867
+        },
+        "Orange06": {
+          "color": "#6b7280",
+          "label": "Newsom +0.3",
+          "margin": -0.29,
+          "votesRep": 539951,
+          "votesDem": 543047,
+          "votesTotal": 1082998
+        },
+        "Placer06": {
+          "color": "#BF1D29",
+          "label": "Cox +17.6",
+          "margin": 17.61,
+          "votesRep": 103157,
+          "votesDem": 72270,
+          "votesTotal": 175427
+        },
+        "Plumas06": {
+          "color": "#BF1D29",
+          "label": "Cox +25.7",
+          "margin": 25.69,
+          "votesRep": 5807,
+          "votesDem": 3433,
+          "votesTotal": 9240
+        },
+        "Riverside06": {
+          "color": "#6b7280",
+          "label": "Cox +0.4",
+          "margin": 0.37,
+          "votesRep": 322243,
+          "votesDem": 319845,
+          "votesTotal": 642088
+        },
+        "Sacramento06": {
+          "color": "#1C408C",
+          "label": "Newsom +17.6",
+          "margin": -17.62,
+          "votesRep": 212010,
+          "votesDem": 302696,
+          "votesTotal": 514706
+        },
+        "San Benito06": {
+          "color": "#1C408C",
+          "label": "Newsom +12.2",
+          "margin": -12.24,
+          "votesRep": 8815,
+          "votesDem": 11274,
+          "votesTotal": 20089
+        },
+        "San Bernardino06": {
+          "color": "#8AAFFF",
+          "label": "Newsom +3.1",
+          "margin": -3.07,
+          "votesRep": 260379,
+          "votesDem": 276874,
+          "votesTotal": 537253
+        },
+        "San Diego06": {
+          "color": "#1C408C",
+          "label": "Newsom +13.7",
+          "margin": -13.72,
+          "votesRep": 499532,
+          "votesDem": 658346,
+          "votesTotal": 1157878
+        },
+        "San Francisco06": {
+          "color": "#1C408C",
+          "label": "Newsom +72.8",
+          "margin": -72.78,
+          "votesRep": 49181,
+          "votesDem": 312181,
+          "votesTotal": 361362
+        },
+        "San Joaquin06": {
+          "color": "#8AAFFF",
+          "label": "Newsom +4.4",
+          "margin": -4.38,
+          "votesRep": 92966,
+          "votesDem": 101474,
+          "votesTotal": 194440
+        },
+        "San Luis Obispo06": {
+          "color": "#8AAFFF",
+          "label": "Newsom +3.2",
+          "margin": -3.15,
+          "votesRep": 61137,
+          "votesDem": 65117,
+          "votesTotal": 126254
+        },
+        "San Mateo06": {
+          "color": "#1C408C",
+          "label": "Newsom +50.5",
+          "margin": -50.45,
+          "votesRep": 70242,
+          "votesDem": 213282,
+          "votesTotal": 283524
+        },
+        "Santa Barbara06": {
+          "color": "#1C408C",
+          "label": "Newsom +21.0",
+          "margin": -20.98,
+          "votesRep": 61300,
+          "votesDem": 93841,
+          "votesTotal": 155141
+        },
+        "Santa Clara06": {
+          "color": "#1C408C",
+          "label": "Newsom +42.8",
+          "margin": -42.79,
+          "votesRep": 175791,
+          "votesDem": 438758,
+          "votesTotal": 614549
+        },
+        "Santa Cruz06": {
+          "color": "#1C408C",
+          "label": "Newsom +53.6",
+          "margin": -53.58,
+          "votesRep": 27665,
+          "votesDem": 91523,
+          "votesTotal": 119188
+        },
+        "Shasta06": {
+          "color": "#BF1D29",
+          "label": "Cox +42.2",
+          "margin": 42.19,
+          "votesRep": 49825,
+          "votesDem": 20256,
+          "votesTotal": 70081
+        },
+        "Sierra06": {
+          "color": "#BF1D29",
+          "label": "Cox +28.1",
+          "margin": 28.13,
+          "votesRep": 1068,
+          "votesDem": 599,
+          "votesTotal": 1667
+        },
+        "Siskiyou06": {
+          "color": "#BF1D29",
+          "label": "Cox +20.5",
+          "margin": 20.52,
+          "votesRep": 10946,
+          "votesDem": 7218,
+          "votesTotal": 18164
+        },
+        "Solano06": {
+          "color": "#1C408C",
+          "label": "Newsom +22.6",
+          "margin": -22.6,
+          "votesRep": 56627,
+          "votesDem": 89694,
+          "votesTotal": 146321
+        },
+        "Sonoma06": {
+          "color": "#1C408C",
+          "label": "Newsom +44.5",
+          "margin": -44.54,
+          "votesRep": 58338,
+          "votesDem": 152040,
+          "votesTotal": 210378
+        },
+        "Stanislaus06": {
+          "color": "#FF8B98",
+          "label": "Cox +1.6",
+          "margin": 1.61,
+          "votesRep": 79751,
+          "votesDem": 77220,
+          "votesTotal": 156971
+        },
+        "Sutter06": {
+          "color": "#BF1D29",
+          "label": "Cox +26.0",
+          "margin": 26.04,
+          "votesRep": 18953,
+          "votesDem": 11122,
+          "votesTotal": 30075
+        },
+        "Tehama06": {
+          "color": "#BF1D29",
+          "label": "Cox +44.9",
+          "margin": 44.9,
+          "votesRep": 15137,
+          "votesDem": 5756,
+          "votesTotal": 20893
+        },
+        "Trinity06": {
+          "color": "#BF1D29",
+          "label": "Cox +15.5",
+          "margin": 15.49,
+          "votesRep": 3075,
+          "votesDem": 2250,
+          "votesTotal": 5325
+        },
+        "Tulare06": {
+          "color": "#BF1D29",
+          "label": "Cox +14.4",
+          "margin": 14.35,
+          "votesRep": 57012,
+          "votesDem": 42702,
+          "votesTotal": 99714
+        },
+        "Tuolumne06": {
+          "color": "#BF1D29",
+          "label": "Cox +22.1",
+          "margin": 22.14,
+          "votesRep": 14580,
+          "votesDem": 9294,
+          "votesTotal": 23874
+        },
+        "Ventura06": {
+          "color": "#1C408C",
+          "label": "Newsom +11.1",
+          "margin": -11.11,
+          "votesRep": 137393,
+          "votesDem": 171729,
+          "votesTotal": 309122
+        },
+        "Yolo06": {
+          "color": "#1C408C",
+          "label": "Newsom +35.6",
+          "margin": -35.64,
+          "votesRep": 23611,
+          "votesDem": 49759,
+          "votesTotal": 73370
+        },
+        "Yuba06": {
+          "color": "#BF1D29",
+          "label": "Cox +28.1",
+          "margin": 28.08,
+          "votesRep": 12293,
+          "votesDem": 6903,
+          "votesTotal": 19196
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Kevin De Leon",
+      "candDem": "Dianne Feinstein",
+      "shortRep": "Leon",
+      "shortDem": "Feinstein",
+      "partisan": false,
+      "margin": -8.33,
+      "votesRep": 5093942,
+      "votesDem": 6019422,
+      "votesTotal": 11113364,
+      "regions": {
+        "Alameda06": {
+          "color": "#1C408C",
+          "label": "Feinstein +16.8",
+          "margin": -16.77,
+          "votesRep": 226950,
+          "votesDem": 318377,
+          "votesTotal": 545327
+        },
+        "Alpine06": {
+          "color": "#FF8B98",
+          "label": "Leon +2.4",
+          "margin": 2.38,
+          "votesRep": 280,
+          "votesDem": 267,
+          "votesTotal": 547
+        },
+        "Amador06": {
+          "color": "#BF1D29",
+          "label": "Leon +17.1",
+          "margin": 17.11,
+          "votesRep": 8244,
+          "votesDem": 5835,
+          "votesTotal": 14079
+        },
+        "Butte06": {
+          "color": "#BF1D29",
+          "label": "Leon +14.2",
+          "margin": 14.15,
+          "votesRep": 43108,
+          "votesDem": 32418,
+          "votesTotal": 75526
+        },
+        "Calaveras06": {
+          "color": "#BF1D29",
+          "label": "Leon +19.1",
+          "margin": 19.13,
+          "votesRep": 10357,
+          "votesDem": 7031,
+          "votesTotal": 17388
+        },
+        "Colusa06": {
+          "color": "#BF1D29",
+          "label": "Leon +29.8",
+          "margin": 29.82,
+          "votesRep": 3039,
+          "votesDem": 1643,
+          "votesTotal": 4682
+        },
+        "Contra Costa06": {
+          "color": "#1C408C",
+          "label": "Feinstein +16.7",
+          "margin": -16.69,
+          "votesRep": 158748,
+          "votesDem": 222349,
+          "votesTotal": 381097
+        },
+        "Del Norte06": {
+          "color": "#BF1D29",
+          "label": "Leon +24.3",
+          "margin": 24.31,
+          "votesRep": 4254,
+          "votesDem": 2590,
+          "votesTotal": 6844
+        },
+        "El Dorado06": {
+          "color": "#FF5865",
+          "label": "Leon +6.9",
+          "margin": 6.92,
+          "votesRep": 38791,
+          "votesDem": 33772,
+          "votesTotal": 72563
+        },
+        "Fresno06": {
+          "color": "#FF8B98",
+          "label": "Leon +4.6",
+          "margin": 4.64,
+          "votesRep": 113557,
+          "votesDem": 103491,
+          "votesTotal": 217048
+        },
+        "Glenn06": {
+          "color": "#BF1D29",
+          "label": "Leon +30.4",
+          "margin": 30.42,
+          "votesRep": 4388,
+          "votesDem": 2341,
+          "votesTotal": 6729
+        },
+        "Humboldt06": {
+          "color": "#BF1D29",
+          "label": "Leon +10.5",
+          "margin": 10.46,
+          "votesRep": 26319,
+          "votesDem": 21336,
+          "votesTotal": 47655
+        },
+        "Imperial06": {
+          "color": "#BF1D29",
+          "label": "Leon +13.3",
+          "margin": 13.31,
+          "votesRep": 17150,
+          "votesDem": 13121,
+          "votesTotal": 30271
+        },
+        "Inyo06": {
+          "color": "#BF1D29",
+          "label": "Leon +20.2",
+          "margin": 20.22,
+          "votesRep": 3532,
+          "votesDem": 2344,
+          "votesTotal": 5876
+        },
+        "Kern06": {
+          "color": "#BF1D29",
+          "label": "Leon +20.0",
+          "margin": 20.02,
+          "votesRep": 99981,
+          "votesDem": 66628,
+          "votesTotal": 166609
+        },
+        "Kings06": {
+          "color": "#BF1D29",
+          "label": "Leon +24.3",
+          "margin": 24.26,
+          "votesRep": 15748,
+          "votesDem": 9599,
+          "votesTotal": 25347
+        },
+        "Lake06": {
+          "color": "#BF1D29",
+          "label": "Leon +11.8",
+          "margin": 11.78,
+          "votesRep": 10317,
+          "votesDem": 8142,
+          "votesTotal": 18459
+        },
+        "Lassen06": {
+          "color": "#BF1D29",
+          "label": "Leon +40.5",
+          "margin": 40.45,
+          "votesRep": 4788,
+          "votesDem": 2030,
+          "votesTotal": 6818
+        },
+        "Los Angeles06": {
+          "color": "#1C408C",
+          "label": "Feinstein +15.5",
+          "margin": -15.46,
+          "votesRep": 1146044,
+          "votesDem": 1565167,
+          "votesTotal": 2711211
+        },
+        "Madera06": {
+          "color": "#BF1D29",
+          "label": "Leon +17.8",
+          "margin": 17.79,
+          "votesRep": 19032,
+          "votesDem": 13284,
+          "votesTotal": 32316
+        },
+        "Marin06": {
+          "color": "#1C408C",
+          "label": "Feinstein +30.6",
+          "margin": -30.65,
+          "votesRep": 42638,
+          "votesDem": 80319,
+          "votesTotal": 122957
+        },
+        "Mariposa06": {
+          "color": "#BF1D29",
+          "label": "Leon +17.8",
+          "margin": 17.79,
+          "votesRep": 3939,
+          "votesDem": 2749,
+          "votesTotal": 6688
+        },
+        "Mendocino06": {
+          "color": "#FF8B98",
+          "label": "Leon +1.4",
+          "margin": 1.36,
+          "votesRep": 15529,
+          "votesDem": 15113,
+          "votesTotal": 30642
+        },
+        "Merced06": {
+          "color": "#FF5865",
+          "label": "Leon +8.4",
+          "margin": 8.38,
+          "votesRep": 27985,
+          "votesDem": 23659,
+          "votesTotal": 51644
+        },
+        "Modoc06": {
+          "color": "#BF1D29",
+          "label": "Leon +42.6",
+          "margin": 42.63,
+          "votesRep": 1867,
+          "votesDem": 751,
+          "votesTotal": 2618
+        },
+        "Mono06": {
+          "color": "#FF8B98",
+          "label": "Leon +4.7",
+          "margin": 4.67,
+          "votesRep": 2197,
+          "votesDem": 2001,
+          "votesTotal": 4198
+        },
+        "Monterey06": {
+          "color": "#577CCC",
+          "label": "Feinstein +5.4",
+          "margin": -5.39,
+          "votesRep": 50562,
+          "votesDem": 56320,
+          "votesTotal": 106882
+        },
+        "Napa06": {
+          "color": "#577CCC",
+          "label": "Feinstein +9.0",
+          "margin": -9.01,
+          "votesRep": 23290,
+          "votesDem": 27904,
+          "votesTotal": 51194
+        },
+        "Nevada06": {
+          "color": "#FF8B98",
+          "label": "Leon +3.7",
+          "margin": 3.72,
+          "votesRep": 23911,
+          "votesDem": 22198,
+          "votesTotal": 46109
+        },
+        "Orange06": {
+          "color": "#577CCC",
+          "label": "Feinstein +8.8",
+          "margin": -8.77,
+          "votesRep": 420814,
+          "votesDem": 501678,
+          "votesTotal": 922492
+        },
+        "Placer06": {
+          "color": "#FF5865",
+          "label": "Leon +7.1",
+          "margin": 7.09,
+          "votesRep": 76733,
+          "votesDem": 66578,
+          "votesTotal": 143311
+        },
+        "Plumas06": {
+          "color": "#BF1D29",
+          "label": "Leon +22.3",
+          "margin": 22.27,
+          "votesRep": 4428,
+          "votesDem": 2815,
+          "votesTotal": 7243
+        },
+        "Riverside06": {
+          "color": "#FF8B98",
+          "label": "Leon +1.6",
+          "margin": 1.61,
+          "votesRep": 278409,
+          "votesDem": 269567,
+          "votesTotal": 547976
+        },
+        "Sacramento06": {
+          "color": "#577CCC",
+          "label": "Feinstein +6.1",
+          "margin": -6.06,
+          "votesRep": 213949,
+          "votesDem": 241571,
+          "votesTotal": 455520
+        },
+        "San Benito06": {
+          "color": "#FF8B98",
+          "label": "Leon +4.2",
+          "margin": 4.25,
+          "votesRep": 9371,
+          "votesDem": 8607,
+          "votesTotal": 17978
+        },
+        "San Bernardino06": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": 0.06,
+          "votesRep": 233360,
+          "votesDem": 233103,
+          "votesTotal": 466463
+        },
+        "San Diego06": {
+          "color": "#577CCC",
+          "label": "Feinstein +5.8",
+          "margin": -5.83,
+          "votesRep": 468564,
+          "votesDem": 526628,
+          "votesTotal": 995192
+        },
+        "San Francisco06": {
+          "color": "#1C408C",
+          "label": "Feinstein +28.5",
+          "margin": -28.46,
+          "votesRep": 125954,
+          "votesDem": 226167,
+          "votesTotal": 352121
+        },
+        "San Joaquin06": {
+          "color": "#FF5865",
+          "label": "Leon +7.7",
+          "margin": 7.74,
+          "votesRep": 92351,
+          "votesDem": 79088,
+          "votesTotal": 171439
+        },
+        "San Luis Obispo06": {
+          "color": "#CF8980",
+          "label": "Leon +0.7",
+          "margin": 0.73,
+          "votesRep": 54027,
+          "votesDem": 53242,
+          "votesTotal": 107269
+        },
+        "San Mateo06": {
+          "color": "#1C408C",
+          "label": "Feinstein +26.0",
+          "margin": -25.97,
+          "votesRep": 99136,
+          "votesDem": 168679,
+          "votesTotal": 267815
+        },
+        "Santa Barbara06": {
+          "color": "#1C408C",
+          "label": "Feinstein +10.3",
+          "margin": -10.3,
+          "votesRep": 61217,
+          "votesDem": 75274,
+          "votesTotal": 136491
+        },
+        "Santa Clara06": {
+          "color": "#1C408C",
+          "label": "Feinstein +19.6",
+          "margin": -19.56,
+          "votesRep": 228642,
+          "votesDem": 339866,
+          "votesTotal": 568508
+        },
+        "Santa Cruz06": {
+          "color": "#1C408C",
+          "label": "Feinstein +15.0",
+          "margin": -15.02,
+          "votesRep": 47416,
+          "votesDem": 64178,
+          "votesTotal": 111594
+        },
+        "Shasta06": {
+          "color": "#BF1D29",
+          "label": "Leon +30.3",
+          "margin": 30.26,
+          "votesRep": 36227,
+          "votesDem": 19397,
+          "votesTotal": 55624
+        },
+        "Sierra06": {
+          "color": "#BF1D29",
+          "label": "Leon +23.0",
+          "margin": 22.98,
+          "votesRep": 808,
+          "votesDem": 506,
+          "votesTotal": 1314
+        },
+        "Siskiyou06": {
+          "color": "#BF1D29",
+          "label": "Leon +21.5",
+          "margin": 21.48,
+          "votesRep": 8930,
+          "votesDem": 5772,
+          "votesTotal": 14702
+        },
+        "Solano06": {
+          "color": "#577CCC",
+          "label": "Feinstein +5.8",
+          "margin": -5.78,
+          "votesRep": 62506,
+          "votesDem": 70174,
+          "votesTotal": 132680
+        },
+        "Sonoma06": {
+          "color": "#1C408C",
+          "label": "Feinstein +12.0",
+          "margin": -12,
+          "votesRep": 85220,
+          "votesDem": 108472,
+          "votesTotal": 193692
+        },
+        "Stanislaus06": {
+          "color": "#BF1D29",
+          "label": "Leon +14.2",
+          "margin": 14.22,
+          "votesRep": 77724,
+          "votesDem": 58375,
+          "votesTotal": 136099
+        },
+        "Sutter06": {
+          "color": "#BF1D29",
+          "label": "Leon +14.9",
+          "margin": 14.86,
+          "votesRep": 14166,
+          "votesDem": 10501,
+          "votesTotal": 24667
+        },
+        "Tehama06": {
+          "color": "#BF1D29",
+          "label": "Leon +34.9",
+          "margin": 34.86,
+          "votesRep": 11253,
+          "votesDem": 5435,
+          "votesTotal": 16688
+        },
+        "Trinity06": {
+          "color": "#BF1D29",
+          "label": "Leon +23.8",
+          "margin": 23.82,
+          "votesRep": 2838,
+          "votesDem": 1746,
+          "votesTotal": 4584
+        },
+        "Tulare06": {
+          "color": "#BF1D29",
+          "label": "Leon +20.2",
+          "margin": 20.25,
+          "votesRep": 49765,
+          "votesDem": 33005,
+          "votesTotal": 82770
+        },
+        "Tuolumne06": {
+          "color": "#BF1D29",
+          "label": "Leon +18.3",
+          "margin": 18.31,
+          "votesRep": 11271,
+          "votesDem": 7783,
+          "votesTotal": 19054
+        },
+        "Ventura06": {
+          "color": "#8AAFFF",
+          "label": "Feinstein +2.6",
+          "margin": -2.63,
+          "votesRep": 130101,
+          "votesDem": 137141,
+          "votesTotal": 267242
+        },
+        "Yolo06": {
+          "color": "#8AAFFF",
+          "label": "Feinstein +3.7",
+          "margin": -3.73,
+          "votesRep": 32551,
+          "votesDem": 35071,
+          "votesTotal": 67622
+        },
+        "Yuba06": {
+          "color": "#BF1D29",
+          "label": "Leon +21.7",
+          "margin": 21.66,
+          "votesRep": 9666,
+          "votesDem": 6224,
+          "votesTotal": 15890
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Loretta Sanchez",
+      "candDem": "Kamala Harris",
+      "shortRep": "Sanchez",
+      "shortDem": "Harris",
+      "partisan": false,
+      "margin": -23.2,
+      "votesRep": 4699281,
+      "votesDem": 7539212,
+      "votesTotal": 12238493,
+      "regions": {
+        "Alameda06": {
+          "color": "#1C408C",
+          "label": "Harris +50.9",
+          "margin": -50.95,
+          "votesRep": 144134,
+          "votesDem": 443536,
+          "votesTotal": 587670
+        },
+        "Alpine06": {
+          "color": "#1C408C",
+          "label": "Harris +44.0",
+          "margin": -44,
+          "votesRep": 133,
+          "votesDem": 342,
+          "votesTotal": 475
+        },
+        "Amador06": {
+          "color": "#1C408C",
+          "label": "Harris +28.2",
+          "margin": -28.15,
+          "votesRep": 4872,
+          "votesDem": 8690,
+          "votesTotal": 13562
+        },
+        "Butte06": {
+          "color": "#1C408C",
+          "label": "Harris +17.3",
+          "margin": -17.27,
+          "votesRep": 30680,
+          "votesDem": 43491,
+          "votesTotal": 74171
+        },
+        "Calaveras06": {
+          "color": "#1C408C",
+          "label": "Harris +28.2",
+          "margin": -28.23,
+          "votesRep": 6302,
+          "votesDem": 11259,
+          "votesTotal": 17561
+        },
+        "Colusa06": {
+          "color": "#8AAFFF",
+          "label": "Harris +1.7",
+          "margin": -1.68,
+          "votesRep": 2369,
+          "votesDem": 2450,
+          "votesTotal": 4819
+        },
+        "Contra Costa06": {
+          "color": "#1C408C",
+          "label": "Harris +38.8",
+          "margin": -38.75,
+          "votesRep": 124731,
+          "votesDem": 282587,
+          "votesTotal": 407318
+        },
+        "Del Norte06": {
+          "color": "#1C408C",
+          "label": "Harris +22.1",
+          "margin": -22.06,
+          "votesRep": 2939,
+          "votesDem": 4603,
+          "votesTotal": 7542
+        },
+        "El Dorado06": {
+          "color": "#1C408C",
+          "label": "Harris +26.7",
+          "margin": -26.72,
+          "votesRep": 26408,
+          "votesDem": 45671,
+          "votesTotal": 72079
+        },
+        "Fresno06": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": 0.08,
+          "votesRep": 118148,
+          "votesDem": 117956,
+          "votesTotal": 236104
+        },
+        "Glenn06": {
+          "color": "#FF5865",
+          "label": "Sanchez +5.1",
+          "margin": 5.13,
+          "votesRep": 3793,
+          "votesDem": 3423,
+          "votesTotal": 7216
+        },
+        "Humboldt06": {
+          "color": "#1C408C",
+          "label": "Harris +33.6",
+          "margin": -33.57,
+          "votesRep": 16277,
+          "votesDem": 32729,
+          "votesTotal": 49006
+        },
+        "Imperial06": {
+          "color": "#BF1D29",
+          "label": "Sanchez +34.8",
+          "margin": 34.77,
+          "votesRep": 28871,
+          "votesDem": 13974,
+          "votesTotal": 42845
+        },
+        "Inyo06": {
+          "color": "#1C408C",
+          "label": "Harris +26.2",
+          "margin": -26.22,
+          "votesRep": 2258,
+          "votesDem": 3863,
+          "votesTotal": 6121
+        },
+        "Kern06": {
+          "color": "#6b7280",
+          "label": "Harris +0.4",
+          "margin": -0.43,
+          "votesRep": 97689,
+          "votesDem": 98526,
+          "votesTotal": 196215
+        },
+        "Kings06": {
+          "color": "#577CCC",
+          "label": "Harris +5.3",
+          "margin": -5.32,
+          "votesRep": 13034,
+          "votesDem": 14499,
+          "votesTotal": 27533
+        },
+        "Lake06": {
+          "color": "#1C408C",
+          "label": "Harris +30.4",
+          "margin": -30.38,
+          "votesRep": 6765,
+          "votesDem": 12670,
+          "votesTotal": 19435
+        },
+        "Lassen06": {
+          "color": "#1C408C",
+          "label": "Harris +12.5",
+          "margin": -12.54,
+          "votesRep": 3226,
+          "votesDem": 4151,
+          "votesTotal": 7377
+        },
+        "Los Angeles06": {
+          "color": "#1C408C",
+          "label": "Harris +21.8",
+          "margin": -21.76,
+          "votesRep": 1218236,
+          "votesDem": 1895675,
+          "votesTotal": 3113911
+        },
+        "Madera06": {
+          "color": "#FF8B98",
+          "label": "Sanchez +2.3",
+          "margin": 2.31,
+          "votesRep": 17562,
+          "votesDem": 16769,
+          "votesTotal": 34331
+        },
+        "Marin06": {
+          "color": "#1C408C",
+          "label": "Harris +56.7",
+          "margin": -56.74,
+          "votesRep": 27101,
+          "votesDem": 98196,
+          "votesTotal": 125297
+        },
+        "Mariposa06": {
+          "color": "#1C408C",
+          "label": "Harris +24.3",
+          "margin": -24.27,
+          "votesRep": 2519,
+          "votesDem": 4134,
+          "votesTotal": 6653
+        },
+        "Mendocino06": {
+          "color": "#1C408C",
+          "label": "Harris +40.0",
+          "margin": -40.04,
+          "votesRep": 9564,
+          "votesDem": 22335,
+          "votesTotal": 31899
+        },
+        "Merced06": {
+          "color": "#949BB3",
+          "label": "Harris +0.6",
+          "margin": -0.56,
+          "votesRep": 29835,
+          "votesDem": 30172,
+          "votesTotal": 60007
+        },
+        "Modoc06": {
+          "color": "#1C408C",
+          "label": "Harris +18.9",
+          "margin": -18.91,
+          "votesRep": 1044,
+          "votesDem": 1531,
+          "votesTotal": 2575
+        },
+        "Mono06": {
+          "color": "#1C408C",
+          "label": "Harris +24.3",
+          "margin": -24.27,
+          "votesRep": 1591,
+          "votesDem": 2611,
+          "votesTotal": 4202
+        },
+        "Monterey06": {
+          "color": "#1C408C",
+          "label": "Harris +28.7",
+          "margin": -28.66,
+          "votesRep": 43060,
+          "votesDem": 77659,
+          "votesTotal": 120719
+        },
+        "Napa06": {
+          "color": "#1C408C",
+          "label": "Harris +33.8",
+          "margin": -33.79,
+          "votesRep": 17778,
+          "votesDem": 35925,
+          "votesTotal": 53703
+        },
+        "Nevada06": {
+          "color": "#1C408C",
+          "label": "Harris +38.0",
+          "margin": -37.96,
+          "votesRep": 13329,
+          "votesDem": 29639,
+          "votesTotal": 42968
+        },
+        "Orange06": {
+          "color": "#577CCC",
+          "label": "Harris +6.6",
+          "margin": -6.59,
+          "votesRep": 486783,
+          "votesDem": 555459,
+          "votesTotal": 1042242
+        },
+        "Placer06": {
+          "color": "#1C408C",
+          "label": "Harris +26.4",
+          "margin": -26.43,
+          "votesRep": 52192,
+          "votesDem": 89687,
+          "votesTotal": 141879
+        },
+        "Plumas06": {
+          "color": "#1C408C",
+          "label": "Harris +31.2",
+          "margin": -31.15,
+          "votesRep": 2418,
+          "votesDem": 4606,
+          "votesTotal": 7024
+        },
+        "Riverside06": {
+          "color": "#577CCC",
+          "label": "Harris +9.4",
+          "margin": -9.35,
+          "votesRep": 281437,
+          "votesDem": 339497,
+          "votesTotal": 620934
+        },
+        "Sacramento06": {
+          "color": "#1C408C",
+          "label": "Harris +31.7",
+          "margin": -31.74,
+          "votesRep": 161673,
+          "votesDem": 312038,
+          "votesTotal": 473711
+        },
+        "San Benito06": {
+          "color": "#1C408C",
+          "label": "Harris +19.1",
+          "margin": -19.14,
+          "votesRep": 7568,
+          "votesDem": 11151,
+          "votesTotal": 18719
+        },
+        "San Bernardino06": {
+          "color": "#577CCC",
+          "label": "Harris +9.0",
+          "margin": -8.97,
+          "votesRep": 251246,
+          "votesDem": 300738,
+          "votesTotal": 551984
+        },
+        "San Diego06": {
+          "color": "#1C408C",
+          "label": "Harris +16.8",
+          "margin": -16.77,
+          "votesRep": 446063,
+          "votesDem": 625843,
+          "votesTotal": 1071906
+        },
+        "San Francisco06": {
+          "color": "#1C408C",
+          "label": "Harris +56.0",
+          "margin": -55.95,
+          "votesRep": 80985,
+          "votesDem": 286723,
+          "votesTotal": 367708
+        },
+        "San Joaquin06": {
+          "color": "#1C408C",
+          "label": "Harris +15.7",
+          "margin": -15.69,
+          "votesRep": 81295,
+          "votesDem": 111563,
+          "votesTotal": 192858
+        },
+        "San Luis Obispo06": {
+          "color": "#1C408C",
+          "label": "Harris +30.0",
+          "margin": -29.97,
+          "votesRep": 35985,
+          "votesDem": 66792,
+          "votesTotal": 102777
+        },
+        "San Mateo06": {
+          "color": "#1C408C",
+          "label": "Harris +42.3",
+          "margin": -42.29,
+          "votesRep": 81090,
+          "votesDem": 199956,
+          "votesTotal": 281046
+        },
+        "Santa Barbara06": {
+          "color": "#1C408C",
+          "label": "Harris +18.6",
+          "margin": -18.6,
+          "votesRep": 60995,
+          "votesDem": 88861,
+          "votesTotal": 149856
+        },
+        "Santa Clara06": {
+          "color": "#1C408C",
+          "label": "Harris +33.0",
+          "margin": -33.01,
+          "votesRep": 207380,
+          "votesDem": 411765,
+          "votesTotal": 619145
+        },
+        "Santa Cruz06": {
+          "color": "#1C408C",
+          "label": "Harris +42.7",
+          "margin": -42.68,
+          "votesRep": 32720,
+          "votesDem": 81443,
+          "votesTotal": 114163
+        },
+        "Shasta06": {
+          "color": "#1C408C",
+          "label": "Harris +13.3",
+          "margin": -13.35,
+          "votesRep": 24369,
+          "votesDem": 31877,
+          "votesTotal": 56246
+        },
+        "Sierra06": {
+          "color": "#1C408C",
+          "label": "Harris +30.3",
+          "margin": -30.28,
+          "votesRep": 442,
+          "votesDem": 826,
+          "votesTotal": 1268
+        },
+        "Siskiyou06": {
+          "color": "#1C408C",
+          "label": "Harris +15.0",
+          "margin": -15.05,
+          "votesRep": 6457,
+          "votesDem": 8744,
+          "votesTotal": 15201
+        },
+        "Solano06": {
+          "color": "#1C408C",
+          "label": "Harris +32.9",
+          "margin": -32.86,
+          "votesRep": 49229,
+          "votesDem": 97410,
+          "votesTotal": 146639
+        },
+        "Sonoma06": {
+          "color": "#1C408C",
+          "label": "Harris +46.0",
+          "margin": -45.98,
+          "votesRep": 54600,
+          "votesDem": 147532,
+          "votesTotal": 202132
+        },
+        "Stanislaus06": {
+          "color": "#1C408C",
+          "label": "Harris +13.6",
+          "margin": -13.61,
+          "votesRep": 61219,
+          "votesDem": 80502,
+          "votesTotal": 141721
+        },
+        "Sutter06": {
+          "color": "#1C408C",
+          "label": "Harris +13.0",
+          "margin": -12.98,
+          "votesRep": 11700,
+          "votesDem": 15191,
+          "votesTotal": 26891
+        },
+        "Tehama06": {
+          "color": "#577CCC",
+          "label": "Harris +8.4",
+          "margin": -8.4,
+          "votesRep": 7991,
+          "votesDem": 9456,
+          "votesTotal": 17447
+        },
+        "Trinity06": {
+          "color": "#1C408C",
+          "label": "Harris +19.6",
+          "margin": -19.59,
+          "votesRep": 1625,
+          "votesDem": 2417,
+          "votesTotal": 4042
+        },
+        "Tulare06": {
+          "color": "#8AAFFF",
+          "label": "Harris +3.4",
+          "margin": -3.4,
+          "votesRep": 44044,
+          "votesDem": 47145,
+          "votesTotal": 91189
+        },
+        "Tuolumne06": {
+          "color": "#1C408C",
+          "label": "Harris +31.7",
+          "margin": -31.72,
+          "votesRep": 6345,
+          "votesDem": 12239,
+          "votesTotal": 18584
+        },
+        "Ventura06": {
+          "color": "#1C408C",
+          "label": "Harris +22.1",
+          "margin": -22.11,
+          "votesRep": 115964,
+          "votesDem": 181785,
+          "votesTotal": 297749
+        },
+        "Yolo06": {
+          "color": "#1C408C",
+          "label": "Harris +35.2",
+          "margin": -35.22,
+          "votesRep": 23429,
+          "votesDem": 48901,
+          "votesTotal": 72330
+        },
+        "Yuba06": {
+          "color": "#1C408C",
+          "label": "Harris +12.4",
+          "margin": -12.42,
+          "votesRep": 7789,
+          "votesDem": 9999,
+          "votesTotal": 17788
+        }
+      }
+    }
+  ]
+}

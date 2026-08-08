@@ -1,0 +1,2850 @@
+{
+  "stateFips": "27",
+  "stateName": "Minnesota",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Royce White",
+      "candDem": "Amy Klobuchar",
+      "shortRep": "White",
+      "shortDem": "Klobuchar",
+      "partisan": true,
+      "margin": -16.24,
+      "votesRep": 1291712,
+      "votesDem": 1792441,
+      "votesTotal": 3189323,
+      "regions": {
+        "Aitkin27": {
+          "color": "#BF1D29",
+          "label": "White +17.2",
+          "margin": 17.23,
+          "votesRep": 5857,
+          "votesDem": 4135,
+          "votesTotal": 10284
+        },
+        "Anoka27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +7.8",
+          "margin": -7.81,
+          "votesRep": 91380,
+          "votesDem": 106871,
+          "votesTotal": 206111
+        },
+        "Becker27": {
+          "color": "#BF1D29",
+          "label": "White +20.8",
+          "margin": 20.76,
+          "votesRep": 11489,
+          "votesDem": 7539,
+          "votesTotal": 19475
+        },
+        "Beltrami27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +4.7",
+          "margin": -4.7,
+          "votesRep": 11278,
+          "votesDem": 12390,
+          "votesTotal": 24569
+        },
+        "Benton27": {
+          "color": "#BF1D29",
+          "label": "White +21.5",
+          "margin": 21.47,
+          "votesRep": 13048,
+          "votesDem": 8435,
+          "votesTotal": 22308
+        },
+        "Big Stone27": {
+          "color": "#BF1D29",
+          "label": "White +10.6",
+          "margin": 10.62,
+          "votesRep": 1516,
+          "votesDem": 1225,
+          "votesTotal": 2805
+        },
+        "Blue Earth27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +11.5",
+          "margin": -11.51,
+          "votesRep": 15185,
+          "votesDem": 19135,
+          "votesTotal": 35699
+        },
+        "Brown27": {
+          "color": "#BF1D29",
+          "label": "White +16.3",
+          "margin": 16.34,
+          "votesRep": 8137,
+          "votesDem": 5851,
+          "votesTotal": 14381
+        },
+        "Carlton27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +12.2",
+          "margin": -12.21,
+          "votesRep": 8650,
+          "votesDem": 11056,
+          "votesTotal": 20402
+        },
+        "Carver27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +4.2",
+          "margin": -4.15,
+          "votesRep": 31720,
+          "votesDem": 34470,
+          "votesTotal": 68128
+        },
+        "Cass27": {
+          "color": "#BF1D29",
+          "label": "White +21.4",
+          "margin": 21.37,
+          "votesRep": 11259,
+          "votesDem": 7294,
+          "votesTotal": 19052
+        },
+        "Chippewa27": {
+          "color": "#FF5865",
+          "label": "White +9.4",
+          "margin": 9.43,
+          "votesRep": 3320,
+          "votesDem": 2748,
+          "votesTotal": 6233
+        },
+        "Chisago27": {
+          "color": "#BF1D29",
+          "label": "White +19.3",
+          "margin": 19.28,
+          "votesRep": 20205,
+          "votesDem": 13673,
+          "votesTotal": 34932
+        },
+        "Clay27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +14.6",
+          "margin": -14.63,
+          "votesRep": 13220,
+          "votesDem": 17750,
+          "votesTotal": 32134
+        },
+        "Clearwater27": {
+          "color": "#BF1D29",
+          "label": "White +39.8",
+          "margin": 39.81,
+          "votesRep": 3203,
+          "votesDem": 1379,
+          "votesTotal": 4713
+        },
+        "Cook27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +43.1",
+          "margin": -43.13,
+          "votesRep": 1000,
+          "votesDem": 2517,
+          "votesTotal": 3614
+        },
+        "Cottonwood27": {
+          "color": "#BF1D29",
+          "label": "White +16.1",
+          "margin": 16.1,
+          "votesRep": 3328,
+          "votesDem": 2405,
+          "votesTotal": 5913
+        },
+        "Crow Wing27": {
+          "color": "#BF1D29",
+          "label": "White +18.6",
+          "margin": 18.57,
+          "votesRep": 23953,
+          "votesDem": 16451,
+          "votesTotal": 41664
+        },
+        "Dakota27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +24.5",
+          "margin": -24.5,
+          "votesRep": 93160,
+          "votesDem": 153609,
+          "votesTotal": 255245
+        },
+        "Dodge27": {
+          "color": "#BF1D29",
+          "label": "White +17.5",
+          "margin": 17.54,
+          "votesRep": 6992,
+          "votesDem": 4905,
+          "votesTotal": 12303
+        },
+        "Douglas27": {
+          "color": "#BF1D29",
+          "label": "White +14.9",
+          "margin": 14.89,
+          "votesRep": 13741,
+          "votesDem": 10179,
+          "votesTotal": 24587
+        },
+        "Faribault27": {
+          "color": "#BF1D29",
+          "label": "White +16.4",
+          "margin": 16.41,
+          "votesRep": 4305,
+          "votesDem": 3091,
+          "votesTotal": 7670
+        },
+        "Fillmore27": {
+          "color": "#FF5865",
+          "label": "White +8.3",
+          "margin": 8.35,
+          "votesRep": 6417,
+          "votesDem": 5428,
+          "votesTotal": 12189
+        },
+        "Freeborn27": {
+          "color": "#FF8B98",
+          "label": "White +1.2",
+          "margin": 1.23,
+          "votesRep": 8013,
+          "votesDem": 7818,
+          "votesTotal": 16343
+        },
+        "Goodhue27": {
+          "color": "#FF8B98",
+          "label": "White +1.2",
+          "margin": 1.15,
+          "votesRep": 13947,
+          "votesDem": 13629,
+          "votesTotal": 28374
+        },
+        "Grant27": {
+          "color": "#FF5865",
+          "label": "White +6.4",
+          "margin": 6.39,
+          "votesRep": 1791,
+          "votesDem": 1576,
+          "votesTotal": 3503
+        },
+        "Hennepin27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +50.5",
+          "margin": -50.51,
+          "votesRep": 168903,
+          "votesDem": 513644,
+          "votesTotal": 705827
+        },
+        "Houston27": {
+          "color": "#BF1D29",
+          "label": "White +11.3",
+          "margin": 11.29,
+          "votesRep": 6036,
+          "votesDem": 4811,
+          "votesTotal": 11188
+        },
+        "Hubbard27": {
+          "color": "#BF1D29",
+          "label": "White +20.5",
+          "margin": 20.45,
+          "votesRep": 7886,
+          "votesDem": 5208,
+          "votesTotal": 13461
+        },
+        "Isanti27": {
+          "color": "#BF1D29",
+          "label": "White +27.8",
+          "margin": 27.8,
+          "votesRep": 15642,
+          "votesDem": 8837,
+          "votesTotal": 25363
+        },
+        "Itasca27": {
+          "color": "#FF5865",
+          "label": "White +9.0",
+          "margin": 9.01,
+          "votesRep": 14065,
+          "votesDem": 11741,
+          "votesTotal": 26447
+        },
+        "Jackson27": {
+          "color": "#BF1D29",
+          "label": "White +23.2",
+          "margin": 23.15,
+          "votesRep": 3327,
+          "votesDem": 2076,
+          "votesTotal": 5550
+        },
+        "Kanabec27": {
+          "color": "#BF1D29",
+          "label": "White +26.5",
+          "margin": 26.46,
+          "votesRep": 5797,
+          "votesDem": 3371,
+          "votesTotal": 9469
+        },
+        "Kandiyohi27": {
+          "color": "#BF1D29",
+          "label": "White +14.7",
+          "margin": 14.67,
+          "votesRep": 12797,
+          "votesDem": 9522,
+          "votesTotal": 22920
+        },
+        "Kittson27": {
+          "color": "#FF8B98",
+          "label": "White +1.5",
+          "margin": 1.53,
+          "votesRep": 1226,
+          "votesDem": 1189,
+          "votesTotal": 2461
+        },
+        "Koochiching27": {
+          "color": "#FF5865",
+          "label": "White +9.2",
+          "margin": 9.22,
+          "votesRep": 3537,
+          "votesDem": 2940,
+          "votesTotal": 6654
+        },
+        "Lac qui Parle27": {
+          "color": "#FF5865",
+          "label": "White +6.7",
+          "margin": 6.72,
+          "votesRep": 2048,
+          "votesDem": 1790,
+          "votesTotal": 3943
+        },
+        "Lake27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +17.5",
+          "margin": -17.54,
+          "votesRep": 2747,
+          "votesDem": 3916,
+          "votesTotal": 6842
+        },
+        "Lake of the Woods27": {
+          "color": "#BF1D29",
+          "label": "White +35.5",
+          "margin": 35.48,
+          "votesRep": 1514,
+          "votesDem": 721,
+          "votesTotal": 2293
+        },
+        "Le Sueur27": {
+          "color": "#BF1D29",
+          "label": "White +15.6",
+          "margin": 15.55,
+          "votesRep": 9570,
+          "votesDem": 6994,
+          "votesTotal": 17119
+        },
+        "Lincoln27": {
+          "color": "#BF1D29",
+          "label": "White +18.1",
+          "margin": 18.13,
+          "votesRep": 1815,
+          "votesDem": 1258,
+          "votesTotal": 3178
+        },
+        "Lyon27": {
+          "color": "#BF1D29",
+          "label": "White +12.4",
+          "margin": 12.41,
+          "votesRep": 6976,
+          "votesDem": 5436,
+          "votesTotal": 12819
+        },
+        "Mahnomen27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +4.2",
+          "margin": -4.18,
+          "votesRep": 997,
+          "votesDem": 1084,
+          "votesTotal": 2140
+        },
+        "Marshall27": {
+          "color": "#BF1D29",
+          "label": "White +26.1",
+          "margin": 26.1,
+          "votesRep": 3010,
+          "votesDem": 1764,
+          "votesTotal": 4911
+        },
+        "Martin27": {
+          "color": "#BF1D29",
+          "label": "White +21.4",
+          "margin": 21.35,
+          "votesRep": 6272,
+          "votesDem": 4065,
+          "votesTotal": 10624
+        },
+        "McLeod27": {
+          "color": "#BF1D29",
+          "label": "White +18.7",
+          "margin": 18.7,
+          "votesRep": 11985,
+          "votesDem": 8209,
+          "votesTotal": 20915
+        },
+        "Meeker27": {
+          "color": "#BF1D29",
+          "label": "White +26.8",
+          "margin": 26.84,
+          "votesRep": 8306,
+          "votesDem": 4791,
+          "votesTotal": 13515
+        },
+        "Mille Lacs27": {
+          "color": "#BF1D29",
+          "label": "White +27.4",
+          "margin": 27.41,
+          "votesRep": 9099,
+          "votesDem": 5184,
+          "votesTotal": 14864
+        },
+        "Morrison27": {
+          "color": "#BF1D29",
+          "label": "White +39.9",
+          "margin": 39.93,
+          "votesRep": 13495,
+          "votesDem": 5793,
+          "votesTotal": 19885
+        },
+        "Mower27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +5.5",
+          "margin": -5.45,
+          "votesRep": 8415,
+          "votesDem": 9386,
+          "votesTotal": 18561
+        },
+        "Murray27": {
+          "color": "#BF1D29",
+          "label": "White +22.7",
+          "margin": 22.74,
+          "votesRep": 2796,
+          "votesDem": 1760,
+          "votesTotal": 4687
+        },
+        "Nicollet27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +12.5",
+          "margin": -12.51,
+          "votesRep": 8094,
+          "votesDem": 10408,
+          "votesTotal": 19103
+        },
+        "Nobles27": {
+          "color": "#BF1D29",
+          "label": "White +20.0",
+          "margin": 19.99,
+          "votesRep": 4654,
+          "votesDem": 3103,
+          "votesTotal": 8027
+        },
+        "Norman27": {
+          "color": "#949BB3",
+          "label": "Klobuchar +0.8",
+          "margin": -0.8,
+          "votesRep": 1549,
+          "votesDem": 1574,
+          "votesTotal": 3234
+        },
+        "Olmsted27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +21.1",
+          "margin": -21.12,
+          "votesRep": 34077,
+          "votesDem": 52328,
+          "votesTotal": 89148
+        },
+        "Otter Tail27": {
+          "color": "#BF1D29",
+          "label": "White +19.8",
+          "margin": 19.77,
+          "votesRep": 21085,
+          "votesDem": 14125,
+          "votesTotal": 36124
+        },
+        "Pennington27": {
+          "color": "#BF1D29",
+          "label": "White +10.2",
+          "margin": 10.18,
+          "votesRep": 3879,
+          "votesDem": 3162,
+          "votesTotal": 7286
+        },
+        "Pine27": {
+          "color": "#BF1D29",
+          "label": "White +18.2",
+          "margin": 18.2,
+          "votesRep": 9431,
+          "votesDem": 6527,
+          "votesTotal": 16519
+        },
+        "Pipestone27": {
+          "color": "#BF1D29",
+          "label": "White +36.5",
+          "margin": 36.48,
+          "votesRep": 3154,
+          "votesDem": 1468,
+          "votesTotal": 4755
+        },
+        "Polk27": {
+          "color": "#BF1D29",
+          "label": "White +16.5",
+          "margin": 16.51,
+          "votesRep": 8558,
+          "votesDem": 6133,
+          "votesTotal": 15098
+        },
+        "Pope27": {
+          "color": "#FF5865",
+          "label": "White +8.8",
+          "margin": 8.78,
+          "votesRep": 3768,
+          "votesDem": 3160,
+          "votesTotal": 7131
+        },
+        "Ramsey27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +53.2",
+          "margin": -53.15,
+          "votesRep": 60719,
+          "votesDem": 198504,
+          "votesTotal": 269572
+        },
+        "Red Lake27": {
+          "color": "#BF1D29",
+          "label": "White +12.0",
+          "margin": 11.97,
+          "votesRep": 1127,
+          "votesDem": 886,
+          "votesTotal": 2087
+        },
+        "Redwood27": {
+          "color": "#BF1D29",
+          "label": "White +23.2",
+          "margin": 23.24,
+          "votesRep": 4937,
+          "votesDem": 3075,
+          "votesTotal": 8235
+        },
+        "Renville27": {
+          "color": "#BF1D29",
+          "label": "White +16.3",
+          "margin": 16.28,
+          "votesRep": 4488,
+          "votesDem": 3231,
+          "votesTotal": 7951
+        },
+        "Rice27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +11.2",
+          "margin": -11.19,
+          "votesRep": 15362,
+          "votesDem": 19235,
+          "votesTotal": 35701
+        },
+        "Rock27": {
+          "color": "#BF1D29",
+          "label": "White +28.9",
+          "margin": 28.92,
+          "votesRep": 3283,
+          "votesDem": 1810,
+          "votesTotal": 5274
+        },
+        "Roseau27": {
+          "color": "#BF1D29",
+          "label": "White +29.8",
+          "margin": 29.85,
+          "votesRep": 5262,
+          "votesDem": 2843,
+          "votesTotal": 8345
+        },
+        "Scott27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +4.0",
+          "margin": -3.97,
+          "votesRep": 41018,
+          "votesDem": 44408,
+          "votesTotal": 88394
+        },
+        "Sherburne27": {
+          "color": "#BF1D29",
+          "label": "White +22.3",
+          "margin": 22.3,
+          "votesRep": 33341,
+          "votesDem": 21183,
+          "votesTotal": 56606
+        },
+        "Sibley27": {
+          "color": "#BF1D29",
+          "label": "White +21.5",
+          "margin": 21.48,
+          "votesRep": 4949,
+          "votesDem": 3199,
+          "votesTotal": 8406
+        },
+        "St. Louis27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +27.3",
+          "margin": -27.32,
+          "votesRep": 41273,
+          "votesDem": 72294,
+          "votesTotal": 117278
+        },
+        "Stearns27": {
+          "color": "#BF1D29",
+          "label": "White +10.6",
+          "margin": 10.56,
+          "votesRep": 45225,
+          "votesDem": 36587,
+          "votesTotal": 84543
+        },
+        "Steele27": {
+          "color": "#FF5865",
+          "label": "White +7.7",
+          "margin": 7.68,
+          "votesRep": 10601,
+          "votesDem": 9089,
+          "votesTotal": 20455
+        },
+        "Stevens27": {
+          "color": "#FF5865",
+          "label": "White +8.1",
+          "margin": 8.13,
+          "votesRep": 2667,
+          "votesDem": 2266,
+          "votesTotal": 5054
+        },
+        "Swift27": {
+          "color": "#BF1D29",
+          "label": "White +10.4",
+          "margin": 10.41,
+          "votesRep": 2667,
+          "votesDem": 2164,
+          "votesTotal": 4971
+        },
+        "Todd27": {
+          "color": "#BF1D29",
+          "label": "White +32.5",
+          "margin": 32.54,
+          "votesRep": 8651,
+          "votesDem": 4403,
+          "votesTotal": 13459
+        },
+        "Traverse27": {
+          "color": "#FF5865",
+          "label": "White +5.3",
+          "margin": 5.29,
+          "votesRep": 906,
+          "votesDem": 815,
+          "votesTotal": 1779
+        },
+        "Wabasha27": {
+          "color": "#BF1D29",
+          "label": "White +11.3",
+          "margin": 11.33,
+          "votesRep": 7194,
+          "votesDem": 5730,
+          "votesTotal": 13324
+        },
+        "Wadena27": {
+          "color": "#BF1D29",
+          "label": "White +37.7",
+          "margin": 37.66,
+          "votesRep": 5295,
+          "votesDem": 2398,
+          "votesTotal": 7898
+        },
+        "Waseca27": {
+          "color": "#BF1D29",
+          "label": "White +15.8",
+          "margin": 15.84,
+          "votesRep": 5789,
+          "votesDem": 4206,
+          "votesTotal": 10288
+        },
+        "Washington27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +19.9",
+          "margin": -19.92,
+          "votesRep": 64562,
+          "votesDem": 96678,
+          "votesTotal": 166578
+        },
+        "Watonwan27": {
+          "color": "#FF5865",
+          "label": "White +6.7",
+          "margin": 6.74,
+          "votesRep": 2488,
+          "votesDem": 2174,
+          "votesTotal": 4832
+        },
+        "Wilkin27": {
+          "color": "#BF1D29",
+          "label": "White +18.2",
+          "margin": 18.18,
+          "votesRep": 1875,
+          "votesDem": 1298,
+          "votesTotal": 3285
+        },
+        "Winona27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +2.5",
+          "margin": -2.54,
+          "votesRep": 12806,
+          "votesDem": 13474,
+          "votesTotal": 27128
+        },
+        "Wright27": {
+          "color": "#BF1D29",
+          "label": "White +16.7",
+          "margin": 16.7,
+          "votesRep": 49500,
+          "votesDem": 35333,
+          "votesTotal": 87825
+        },
+        "Yellow Medicine27": {
+          "color": "#BF1D29",
+          "label": "White +18.8",
+          "margin": 18.8,
+          "votesRep": 3103,
+          "votesDem": 2121,
+          "votesTotal": 5363
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Scott Jensen",
+      "candDem": "Tim Walz",
+      "shortRep": "Jensen",
+      "shortDem": "Walz",
+      "partisan": true,
+      "margin": -7.91,
+      "votesRep": 1119941,
+      "votesDem": 1312349,
+      "votesTotal": 2510661,
+      "regions": {
+        "Aitkin27": {
+          "color": "#BF1D29",
+          "label": "Jensen +25.6",
+          "margin": 25.55,
+          "votesRep": 5110,
+          "votesDem": 3030,
+          "votesTotal": 8434
+        },
+        "Anoka27": {
+          "color": "#FF8B98",
+          "label": "Jensen +1.4",
+          "margin": 1.37,
+          "votesRep": 76587,
+          "votesDem": 74515,
+          "votesTotal": 156313
+        },
+        "Becker27": {
+          "color": "#BF1D29",
+          "label": "Jensen +33.4",
+          "margin": 33.38,
+          "votesRep": 9486,
+          "votesDem": 4738,
+          "votesTotal": 14747
+        },
+        "Beltrami27": {
+          "color": "#FF5865",
+          "label": "Jensen +6.5",
+          "margin": 6.47,
+          "votesRep": 9248,
+          "votesDem": 8124,
+          "votesTotal": 18085
+        },
+        "Benton27": {
+          "color": "#BF1D29",
+          "label": "Jensen +33.4",
+          "margin": 33.36,
+          "votesRep": 10495,
+          "votesDem": 5244,
+          "votesTotal": 16387
+        },
+        "Big Stone27": {
+          "color": "#BF1D29",
+          "label": "Jensen +26.7",
+          "margin": 26.71,
+          "votesRep": 1492,
+          "votesDem": 863,
+          "votesTotal": 2438
+        },
+        "Blue Earth27": {
+          "color": "#577CCC",
+          "label": "Walz +7.3",
+          "margin": -7.31,
+          "votesRep": 11904,
+          "votesDem": 13783,
+          "votesTotal": 26509
+        },
+        "Brown27": {
+          "color": "#BF1D29",
+          "label": "Jensen +31.0",
+          "margin": 31.04,
+          "votesRep": 7439,
+          "votesDem": 3915,
+          "votesTotal": 11648
+        },
+        "Carlton27": {
+          "color": "#8AAFFF",
+          "label": "Walz +4.2",
+          "margin": -4.21,
+          "votesRep": 7274,
+          "votesDem": 7913,
+          "votesTotal": 15896
+        },
+        "Carver27": {
+          "color": "#FF5865",
+          "label": "Jensen +6.0",
+          "margin": 6.02,
+          "votesRep": 28078,
+          "votesDem": 24888,
+          "votesTotal": 54214
+        },
+        "Cass27": {
+          "color": "#BF1D29",
+          "label": "Jensen +31.0",
+          "margin": 30.99,
+          "votesRep": 9626,
+          "votesDem": 5071,
+          "votesTotal": 15217
+        },
+        "Chippewa27": {
+          "color": "#BF1D29",
+          "label": "Jensen +30.0",
+          "margin": 30.04,
+          "votesRep": 3115,
+          "votesDem": 1676,
+          "votesTotal": 4930
+        },
+        "Chisago27": {
+          "color": "#BF1D29",
+          "label": "Jensen +25.3",
+          "margin": 25.34,
+          "votesRep": 15647,
+          "votesDem": 9321,
+          "votesTotal": 25925
+        },
+        "Clay27": {
+          "color": "#8AAFFF",
+          "label": "Walz +4.4",
+          "margin": -4.41,
+          "votesRep": 10199,
+          "votesDem": 11139,
+          "votesTotal": 22241
+        },
+        "Clearwater27": {
+          "color": "#BF1D29",
+          "label": "Jensen +48.7",
+          "margin": 48.73,
+          "votesRep": 2550,
+          "votesDem": 879,
+          "votesTotal": 3569
+        },
+        "Cook27": {
+          "color": "#1C408C",
+          "label": "Walz +38.8",
+          "margin": -38.77,
+          "votesRep": 958,
+          "votesDem": 2171,
+          "votesTotal": 3221
+        },
+        "Cottonwood27": {
+          "color": "#BF1D29",
+          "label": "Jensen +38.7",
+          "margin": 38.74,
+          "votesRep": 3087,
+          "votesDem": 1363,
+          "votesTotal": 4619
+        },
+        "Crow Wing27": {
+          "color": "#BF1D29",
+          "label": "Jensen +27.9",
+          "margin": 27.87,
+          "votesRep": 20188,
+          "votesDem": 11388,
+          "votesTotal": 32656
+        },
+        "Dakota27": {
+          "color": "#1C408C",
+          "label": "Walz +14.7",
+          "margin": -14.74,
+          "votesRep": 83220,
+          "votesDem": 112003,
+          "votesTotal": 200613
+        },
+        "Dodge27": {
+          "color": "#BF1D29",
+          "label": "Jensen +28.1",
+          "margin": 28.09,
+          "votesRep": 5855,
+          "votesDem": 3287,
+          "votesTotal": 9421
+        },
+        "Douglas27": {
+          "color": "#BF1D29",
+          "label": "Jensen +33.6",
+          "margin": 33.62,
+          "votesRep": 12797,
+          "votesDem": 6358,
+          "votesTotal": 19710
+        },
+        "Faribault27": {
+          "color": "#BF1D29",
+          "label": "Jensen +31.6",
+          "margin": 31.58,
+          "votesRep": 3846,
+          "votesDem": 2000,
+          "votesTotal": 6028
+        },
+        "Fillmore27": {
+          "color": "#BF1D29",
+          "label": "Jensen +17.6",
+          "margin": 17.56,
+          "votesRep": 5432,
+          "votesDem": 3809,
+          "votesTotal": 9501
+        },
+        "Freeborn27": {
+          "color": "#BF1D29",
+          "label": "Jensen +15.2",
+          "margin": 15.16,
+          "votesRep": 7262,
+          "votesDem": 5350,
+          "votesTotal": 13034
+        },
+        "Goodhue27": {
+          "color": "#BF1D29",
+          "label": "Jensen +11.0",
+          "margin": 11.04,
+          "votesRep": 12407,
+          "votesDem": 9940,
+          "votesTotal": 23104
+        },
+        "Grant27": {
+          "color": "#BF1D29",
+          "label": "Jensen +25.4",
+          "margin": 25.38,
+          "votesRep": 1771,
+          "votesDem": 1054,
+          "votesTotal": 2953
+        },
+        "Hennepin27": {
+          "color": "#1C408C",
+          "label": "Walz +44.8",
+          "margin": -44.8,
+          "votesRep": 154393,
+          "votesDem": 405013,
+          "votesTotal": 575529
+        },
+        "Houston27": {
+          "color": "#BF1D29",
+          "label": "Jensen +15.0",
+          "margin": 14.98,
+          "votesRep": 4874,
+          "votesDem": 3604,
+          "votesTotal": 8745
+        },
+        "Hubbard27": {
+          "color": "#BF1D29",
+          "label": "Jensen +28.4",
+          "margin": 28.44,
+          "votesRep": 6590,
+          "votesDem": 3672,
+          "votesTotal": 10649
+        },
+        "Isanti27": {
+          "color": "#BF1D29",
+          "label": "Jensen +36.0",
+          "margin": 35.97,
+          "votesRep": 12271,
+          "votesDem": 5778,
+          "votesTotal": 18862
+        },
+        "Itasca27": {
+          "color": "#BF1D29",
+          "label": "Jensen +12.1",
+          "margin": 12.05,
+          "votesRep": 11488,
+          "votesDem": 9017,
+          "votesTotal": 21373
+        },
+        "Jackson27": {
+          "color": "#BF1D29",
+          "label": "Jensen +38.7",
+          "margin": 38.71,
+          "votesRep": 3055,
+          "votesDem": 1350,
+          "votesTotal": 4560
+        },
+        "Kanabec27": {
+          "color": "#BF1D29",
+          "label": "Jensen +33.6",
+          "margin": 33.61,
+          "votesRep": 4582,
+          "votesDem": 2277,
+          "votesTotal": 7160
+        },
+        "Kandiyohi27": {
+          "color": "#BF1D29",
+          "label": "Jensen +27.5",
+          "margin": 27.45,
+          "votesRep": 11281,
+          "votesDem": 6421,
+          "votesTotal": 18233
+        },
+        "Kittson27": {
+          "color": "#BF1D29",
+          "label": "Jensen +25.5",
+          "margin": 25.47,
+          "votesRep": 1160,
+          "votesDem": 689,
+          "votesTotal": 1926
+        },
+        "Koochiching27": {
+          "color": "#BF1D29",
+          "label": "Jensen +17.9",
+          "margin": 17.86,
+          "votesRep": 2953,
+          "votesDem": 2058,
+          "votesTotal": 5227
+        },
+        "Lac qui Parle27": {
+          "color": "#BF1D29",
+          "label": "Jensen +27.4",
+          "margin": 27.43,
+          "votesRep": 1935,
+          "votesDem": 1102,
+          "votesTotal": 3150
+        },
+        "Lake27": {
+          "color": "#577CCC",
+          "label": "Walz +8.6",
+          "margin": -8.57,
+          "votesRep": 2501,
+          "votesDem": 2970,
+          "votesTotal": 5661
+        },
+        "Lake of the Woods27": {
+          "color": "#BF1D29",
+          "label": "Jensen +46.6",
+          "margin": 46.55,
+          "votesRep": 1297,
+          "votesDem": 473,
+          "votesTotal": 1828
+        },
+        "Le Sueur27": {
+          "color": "#BF1D29",
+          "label": "Jensen +28.1",
+          "margin": 28.13,
+          "votesRep": 8184,
+          "votesDem": 4591,
+          "votesTotal": 13217
+        },
+        "Lincoln27": {
+          "color": "#BF1D29",
+          "label": "Jensen +39.9",
+          "margin": 39.91,
+          "votesRep": 1653,
+          "votesDem": 710,
+          "votesTotal": 2440
+        },
+        "Lyon27": {
+          "color": "#BF1D29",
+          "label": "Jensen +31.5",
+          "margin": 31.51,
+          "votesRep": 6267,
+          "votesDem": 3264,
+          "votesTotal": 9800
+        },
+        "Mahnomen27": {
+          "color": "#BF1D29",
+          "label": "Jensen +15.9",
+          "margin": 15.95,
+          "votesRep": 898,
+          "votesDem": 651,
+          "votesTotal": 1648
+        },
+        "Marshall27": {
+          "color": "#BF1D29",
+          "label": "Jensen +51.4",
+          "margin": 51.38,
+          "votesRep": 2970,
+          "votesDem": 954,
+          "votesTotal": 4067
+        },
+        "Martin27": {
+          "color": "#BF1D29",
+          "label": "Jensen +39.1",
+          "margin": 39.1,
+          "votesRep": 5644,
+          "votesDem": 2471,
+          "votesTotal": 8374
+        },
+        "McLeod27": {
+          "color": "#BF1D29",
+          "label": "Jensen +35.1",
+          "margin": 35.12,
+          "votesRep": 10768,
+          "votesDem": 5171,
+          "votesTotal": 16457
+        },
+        "Meeker27": {
+          "color": "#BF1D29",
+          "label": "Jensen +38.6",
+          "margin": 38.56,
+          "votesRep": 7249,
+          "votesDem": 3214,
+          "votesTotal": 10814
+        },
+        "Mille Lacs27": {
+          "color": "#BF1D29",
+          "label": "Jensen +36.0",
+          "margin": 36.03,
+          "votesRep": 7209,
+          "votesDem": 3390,
+          "votesTotal": 11078
+        },
+        "Morrison27": {
+          "color": "#BF1D29",
+          "label": "Jensen +53.9",
+          "margin": 53.93,
+          "votesRep": 11529,
+          "votesDem": 3451,
+          "votesTotal": 15458
+        },
+        "Mower27": {
+          "color": "#FF8B98",
+          "label": "Jensen +3.5",
+          "margin": 3.45,
+          "votesRep": 7043,
+          "votesDem": 6573,
+          "votesTotal": 14112
+        },
+        "Murray27": {
+          "color": "#BF1D29",
+          "label": "Jensen +44.4",
+          "margin": 44.39,
+          "votesRep": 2729,
+          "votesDem": 1051,
+          "votesTotal": 3915
+        },
+        "Nicollet27": {
+          "color": "#577CCC",
+          "label": "Walz +6.5",
+          "margin": -6.49,
+          "votesRep": 6962,
+          "votesDem": 7929,
+          "votesTotal": 15309
+        },
+        "Nobles27": {
+          "color": "#BF1D29",
+          "label": "Jensen +36.8",
+          "margin": 36.8,
+          "votesRep": 4013,
+          "votesDem": 1854,
+          "votesTotal": 6082
+        },
+        "Norman27": {
+          "color": "#BF1D29",
+          "label": "Jensen +21.8",
+          "margin": 21.83,
+          "votesRep": 1448,
+          "votesDem": 929,
+          "votesTotal": 2504
+        },
+        "Olmsted27": {
+          "color": "#1C408C",
+          "label": "Walz +12.6",
+          "margin": -12.63,
+          "votesRep": 29068,
+          "votesDem": 37471,
+          "votesTotal": 68121
+        },
+        "Otter Tail27": {
+          "color": "#BF1D29",
+          "label": "Jensen +35.1",
+          "margin": 35.07,
+          "votesRep": 18618,
+          "votesDem": 8950,
+          "votesTotal": 28518
+        },
+        "Pennington27": {
+          "color": "#BF1D29",
+          "label": "Jensen +33.3",
+          "margin": 33.28,
+          "votesRep": 3464,
+          "votesDem": 1734,
+          "votesTotal": 5461
+        },
+        "Pine27": {
+          "color": "#BF1D29",
+          "label": "Jensen +27.8",
+          "margin": 27.84,
+          "votesRep": 7601,
+          "votesDem": 4290,
+          "votesTotal": 12393
+        },
+        "Pipestone27": {
+          "color": "#BF1D29",
+          "label": "Jensen +52.7",
+          "margin": 52.75,
+          "votesRep": 2819,
+          "votesDem": 872,
+          "votesTotal": 3809
+        },
+        "Polk27": {
+          "color": "#BF1D29",
+          "label": "Jensen +35.7",
+          "margin": 35.73,
+          "votesRep": 7180,
+          "votesDem": 3400,
+          "votesTotal": 10934
+        },
+        "Pope27": {
+          "color": "#BF1D29",
+          "label": "Jensen +28.6",
+          "margin": 28.61,
+          "votesRep": 3549,
+          "votesDem": 1970,
+          "votesTotal": 5673
+        },
+        "Ramsey27": {
+          "color": "#1C408C",
+          "label": "Walz +48.0",
+          "margin": -47.99,
+          "votesRep": 54771,
+          "votesDem": 155850,
+          "votesTotal": 218077
+        },
+        "Red Lake27": {
+          "color": "#BF1D29",
+          "label": "Jensen +36.9",
+          "margin": 36.86,
+          "votesRep": 1047,
+          "votesDem": 483,
+          "votesTotal": 1602
+        },
+        "Redwood27": {
+          "color": "#BF1D29",
+          "label": "Jensen +45.9",
+          "margin": 45.91,
+          "votesRep": 4581,
+          "votesDem": 1698,
+          "votesTotal": 6439
+        },
+        "Renville27": {
+          "color": "#BF1D29",
+          "label": "Jensen +38.0",
+          "margin": 38.01,
+          "votesRep": 4192,
+          "votesDem": 1883,
+          "votesTotal": 6297
+        },
+        "Rice27": {
+          "color": "#8AAFFF",
+          "label": "Walz +3.9",
+          "margin": -3.9,
+          "votesRep": 13182,
+          "votesDem": 14252,
+          "votesTotal": 28379
+        },
+        "Rock27": {
+          "color": "#BF1D29",
+          "label": "Jensen +43.3",
+          "margin": 43.28,
+          "votesRep": 2877,
+          "votesDem": 1139,
+          "votesTotal": 4139
+        },
+        "Roseau27": {
+          "color": "#BF1D29",
+          "label": "Jensen +51.4",
+          "margin": 51.41,
+          "votesRep": 4783,
+          "votesDem": 1535,
+          "votesTotal": 6501
+        },
+        "Scott27": {
+          "color": "#FF5865",
+          "label": "Jensen +6.7",
+          "margin": 6.68,
+          "votesRep": 35289,
+          "votesDem": 30870,
+          "votesTotal": 67960
+        },
+        "Sherburne27": {
+          "color": "#BF1D29",
+          "label": "Jensen +31.9",
+          "margin": 31.88,
+          "votesRep": 26517,
+          "votesDem": 13697,
+          "votesTotal": 41621
+        },
+        "Sibley27": {
+          "color": "#BF1D29",
+          "label": "Jensen +40.6",
+          "margin": 40.65,
+          "votesRep": 4519,
+          "votesDem": 1907,
+          "votesTotal": 6620
+        },
+        "Stearns27": {
+          "color": "#BF1D29",
+          "label": "Jensen +23.7",
+          "margin": 23.7,
+          "votesRep": 39171,
+          "votesDem": 24162,
+          "votesTotal": 65485
+        },
+        "Steele27": {
+          "color": "#BF1D29",
+          "label": "Jensen +18.7",
+          "margin": 18.69,
+          "votesRep": 9485,
+          "votesDem": 6498,
+          "votesTotal": 16539
+        },
+        "Stevens27": {
+          "color": "#BF1D29",
+          "label": "Jensen +24.1",
+          "margin": 24.12,
+          "votesRep": 2437,
+          "votesDem": 1490,
+          "votesTotal": 4033
+        },
+        "Swift27": {
+          "color": "#BF1D29",
+          "label": "Jensen +26.9",
+          "margin": 26.86,
+          "votesRep": 2409,
+          "votesDem": 1389,
+          "votesTotal": 3917
+        },
+        "Todd27": {
+          "color": "#BF1D29",
+          "label": "Jensen +49.2",
+          "margin": 49.2,
+          "votesRep": 7780,
+          "votesDem": 2649,
+          "votesTotal": 10859
+        },
+        "Traverse27": {
+          "color": "#BF1D29",
+          "label": "Jensen +30.2",
+          "margin": 30.2,
+          "votesRep": 968,
+          "votesDem": 519,
+          "votesTotal": 1548
+        },
+        "Wabasha27": {
+          "color": "#BF1D29",
+          "label": "Jensen +22.6",
+          "margin": 22.59,
+          "votesRep": 6366,
+          "votesDem": 4020,
+          "votesTotal": 10731
+        },
+        "Wadena27": {
+          "color": "#BF1D29",
+          "label": "Jensen +47.6",
+          "margin": 47.63,
+          "votesRep": 4260,
+          "votesDem": 1511,
+          "votesTotal": 5983
+        },
+        "Waseca27": {
+          "color": "#BF1D29",
+          "label": "Jensen +29.4",
+          "margin": 29.41,
+          "votesRep": 5212,
+          "votesDem": 2843,
+          "votesTotal": 8383
+        },
+        "Washington27": {
+          "color": "#1C408C",
+          "label": "Walz +11.3",
+          "margin": -11.27,
+          "votesRep": 56472,
+          "votesDem": 70814,
+          "votesTotal": 130714
+        },
+        "Watonwan27": {
+          "color": "#BF1D29",
+          "label": "Jensen +23.3",
+          "margin": 23.34,
+          "votesRep": 2325,
+          "votesDem": 1445,
+          "votesTotal": 3868
+        },
+        "Wilkin27": {
+          "color": "#BF1D29",
+          "label": "Jensen +43.4",
+          "margin": 43.39,
+          "votesRep": 1783,
+          "votesDem": 704,
+          "votesTotal": 2592
+        },
+        "Winona27": {
+          "color": "#6b7280",
+          "label": "Jensen +0.1",
+          "margin": 0.12,
+          "votesRep": 9913,
+          "votesDem": 9889,
+          "votesTotal": 20450
+        },
+        "Wright27": {
+          "color": "#BF1D29",
+          "label": "Jensen +27.9",
+          "margin": 27.89,
+          "votesRep": 40993,
+          "votesDem": 23116,
+          "votesTotal": 66223
+        },
+        "Yellow Medicine27": {
+          "color": "#BF1D29",
+          "label": "Jensen +38.4",
+          "margin": 38.41,
+          "votesRep": 2919,
+          "votesDem": 1299,
+          "votesTotal": 4361
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Jeff Johnson",
+      "candDem": "Tim Walz",
+      "shortRep": "Johnson",
+      "shortDem": "Walz",
+      "partisan": true,
+      "margin": -11.86,
+      "votesRep": 1097705,
+      "votesDem": 1393096,
+      "votesTotal": 2587287,
+      "regions": {
+        "Aitkin27": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.3",
+          "margin": 14.3,
+          "votesRep": 4481,
+          "votesDem": 3360,
+          "votesTotal": 8144
+        },
+        "Anoka27": {
+          "color": "#6b7280",
+          "label": "Walz +0.2",
+          "margin": -0.19,
+          "votesRep": 75957,
+          "votesDem": 76239,
+          "votesTotal": 159286
+        },
+        "Becker27": {
+          "color": "#BF1D29",
+          "label": "Johnson +23.9",
+          "margin": 23.86,
+          "votesRep": 8784,
+          "votesDem": 5400,
+          "votesTotal": 14727
+        },
+        "Beltrami27": {
+          "color": "#8AAFFF",
+          "label": "Walz +3.0",
+          "margin": -3.03,
+          "votesRep": 8328,
+          "votesDem": 8848,
+          "votesTotal": 17954
+        },
+        "Benton27": {
+          "color": "#BF1D29",
+          "label": "Johnson +21.9",
+          "margin": 21.94,
+          "votesRep": 9405,
+          "votesDem": 6020,
+          "votesTotal": 16048
+        },
+        "Big Stone27": {
+          "color": "#FF5865",
+          "label": "Johnson +9.8",
+          "margin": 9.82,
+          "votesRep": 1353,
+          "votesDem": 1111,
+          "votesTotal": 2573
+        },
+        "Blue Earth27": {
+          "color": "#1C408C",
+          "label": "Walz +20.3",
+          "margin": -20.32,
+          "votesRep": 10806,
+          "votesDem": 16317,
+          "votesTotal": 28135
+        },
+        "Brown27": {
+          "color": "#BF1D29",
+          "label": "Johnson +13.4",
+          "margin": 13.42,
+          "votesRep": 6461,
+          "votesDem": 4932,
+          "votesTotal": 11809
+        },
+        "Carlton27": {
+          "color": "#1C408C",
+          "label": "Walz +15.5",
+          "margin": -15.51,
+          "votesRep": 6621,
+          "votesDem": 9051,
+          "votesTotal": 16312
+        },
+        "Carver27": {
+          "color": "#FF5865",
+          "label": "Johnson +9.1",
+          "margin": 9.13,
+          "votesRep": 26822,
+          "votesDem": 22334,
+          "votesTotal": 50856
+        },
+        "Cass27": {
+          "color": "#BF1D29",
+          "label": "Johnson +21.0",
+          "margin": 20.99,
+          "votesRep": 8145,
+          "votesDem": 5319,
+          "votesTotal": 13981
+        },
+        "Chippewa27": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.2",
+          "margin": 14.18,
+          "votesRep": 3008,
+          "votesDem": 2261,
+          "votesTotal": 5507
+        },
+        "Chisago27": {
+          "color": "#BF1D29",
+          "label": "Johnson +18.1",
+          "margin": 18.12,
+          "votesRep": 14556,
+          "votesDem": 10091,
+          "votesTotal": 25774
+        },
+        "Clay27": {
+          "color": "#1C408C",
+          "label": "Walz +10.6",
+          "margin": -10.62,
+          "votesRep": 10301,
+          "votesDem": 12748,
+          "votesTotal": 24219
+        },
+        "Clearwater27": {
+          "color": "#BF1D29",
+          "label": "Johnson +33.1",
+          "margin": 33.12,
+          "votesRep": 2239,
+          "votesDem": 1125,
+          "votesTotal": 3467
+        },
+        "Cook27": {
+          "color": "#1C408C",
+          "label": "Walz +34.1",
+          "margin": -34.12,
+          "votesRep": 1009,
+          "votesDem": 2054,
+          "votesTotal": 3191
+        },
+        "Cottonwood27": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.3",
+          "margin": 16.33,
+          "votesRep": 2843,
+          "votesDem": 2045,
+          "votesTotal": 5019
+        },
+        "Crow Wing27": {
+          "color": "#BF1D29",
+          "label": "Johnson +21.0",
+          "margin": 21,
+          "votesRep": 18176,
+          "votesDem": 11866,
+          "votesTotal": 31310
+        },
+        "Dakota27": {
+          "color": "#1C408C",
+          "label": "Walz +12.2",
+          "margin": -12.16,
+          "votesRep": 87266,
+          "votesDem": 111429,
+          "votesTotal": 206771
+        },
+        "Dodge27": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.3",
+          "margin": 14.35,
+          "votesRep": 5037,
+          "votesDem": 3773,
+          "votesTotal": 9128
+        },
+        "Douglas27": {
+          "color": "#BF1D29",
+          "label": "Johnson +24.3",
+          "margin": 24.27,
+          "votesRep": 10901,
+          "votesDem": 6643,
+          "votesTotal": 18045
+        },
+        "Faribault27": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.2",
+          "margin": 14.18,
+          "votesRep": 3495,
+          "votesDem": 2627,
+          "votesTotal": 6364
+        },
+        "Fillmore27": {
+          "color": "#FF8B98",
+          "label": "Johnson +2.0",
+          "margin": 2.02,
+          "votesRep": 4797,
+          "votesDem": 4607,
+          "votesTotal": 9704
+        },
+        "Freeborn27": {
+          "color": "#8AAFFF",
+          "label": "Walz +1.4",
+          "margin": -1.44,
+          "votesRep": 6651,
+          "votesDem": 6846,
+          "votesTotal": 13970
+        },
+        "Goodhue27": {
+          "color": "#FF5865",
+          "label": "Johnson +5.4",
+          "margin": 5.41,
+          "votesRep": 11668,
+          "votesDem": 10471,
+          "votesTotal": 23091
+        },
+        "Grant27": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.1",
+          "margin": 14.11,
+          "votesRep": 1710,
+          "votesDem": 1287,
+          "votesTotal": 3115
+        },
+        "Hennepin27": {
+          "color": "#1C408C",
+          "label": "Walz +39.8",
+          "margin": -39.77,
+          "votesRep": 182128,
+          "votesDem": 422618,
+          "votesTotal": 626662
+        },
+        "Houston27": {
+          "color": "#8AAFFF",
+          "label": "Walz +1.7",
+          "margin": -1.69,
+          "votesRep": 4269,
+          "votesDem": 4416,
+          "votesTotal": 8956
+        },
+        "Hubbard27": {
+          "color": "#BF1D29",
+          "label": "Johnson +20.5",
+          "margin": 20.5,
+          "votesRep": 5885,
+          "votesDem": 3883,
+          "votesTotal": 10130
+        },
+        "Isanti27": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.6",
+          "margin": 26.55,
+          "votesRep": 10483,
+          "votesDem": 6084,
+          "votesTotal": 17351
+        },
+        "Itasca27": {
+          "color": "#FF8B98",
+          "label": "Johnson +1.7",
+          "margin": 1.65,
+          "votesRep": 10470,
+          "votesDem": 10130,
+          "votesTotal": 21562
+        },
+        "Jackson27": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.0",
+          "margin": 15.98,
+          "votesRep": 2594,
+          "votesDem": 1879,
+          "votesTotal": 4661
+        },
+        "Kanabec27": {
+          "color": "#BF1D29",
+          "label": "Johnson +20.4",
+          "margin": 20.41,
+          "votesRep": 3853,
+          "votesDem": 2547,
+          "votesTotal": 6702
+        },
+        "Kandiyohi27": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.4",
+          "margin": 16.44,
+          "votesRep": 10438,
+          "votesDem": 7490,
+          "votesTotal": 18604
+        },
+        "Kittson27": {
+          "color": "#FF8B98",
+          "label": "Johnson +2.9",
+          "margin": 2.86,
+          "votesRep": 1149,
+          "votesDem": 1085,
+          "votesTotal": 2334
+        },
+        "Koochiching27": {
+          "color": "#949BB3",
+          "label": "Walz +0.6",
+          "margin": -0.57,
+          "votesRep": 2512,
+          "votesDem": 2541,
+          "votesTotal": 5218
+        },
+        "Lac qui Parle27": {
+          "color": "#FF5865",
+          "label": "Johnson +9.7",
+          "margin": 9.73,
+          "votesRep": 1776,
+          "votesDem": 1461,
+          "votesTotal": 3351
+        },
+        "Lake27": {
+          "color": "#1C408C",
+          "label": "Walz +14.6",
+          "margin": -14.61,
+          "votesRep": 2432,
+          "votesDem": 3264,
+          "votesTotal": 5896
+        },
+        "Lake of the Woods27": {
+          "color": "#BF1D29",
+          "label": "Johnson +32.2",
+          "margin": 32.17,
+          "votesRep": 1171,
+          "votesDem": 601,
+          "votesTotal": 1833
+        },
+        "Le Sueur27": {
+          "color": "#BF1D29",
+          "label": "Johnson +10.5",
+          "margin": 10.47,
+          "votesRep": 6827,
+          "votesDem": 5533,
+          "votesTotal": 12804
+        },
+        "Lincoln27": {
+          "color": "#BF1D29",
+          "label": "Johnson +11.7",
+          "margin": 11.66,
+          "votesRep": 1326,
+          "votesDem": 1049,
+          "votesTotal": 2431
+        },
+        "Lyon27": {
+          "color": "#BF1D29",
+          "label": "Johnson +13.8",
+          "margin": 13.79,
+          "votesRep": 5468,
+          "votesDem": 4143,
+          "votesTotal": 9956
+        },
+        "Mahnomen27": {
+          "color": "#577CCC",
+          "label": "Walz +9.3",
+          "margin": -9.31,
+          "votesRep": 823,
+          "votesDem": 992,
+          "votesTotal": 1907
+        },
+        "Marshall27": {
+          "color": "#BF1D29",
+          "label": "Johnson +27.3",
+          "margin": 27.25,
+          "votesRep": 2512,
+          "votesDem": 1436,
+          "votesTotal": 4088
+        },
+        "Martin27": {
+          "color": "#BF1D29",
+          "label": "Johnson +23.2",
+          "margin": 23.25,
+          "votesRep": 5190,
+          "votesDem": 3232,
+          "votesTotal": 8729
+        },
+        "McLeod27": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.7",
+          "margin": 26.73,
+          "votesRep": 9065,
+          "votesDem": 5241,
+          "votesTotal": 14902
+        },
+        "Meeker27": {
+          "color": "#BF1D29",
+          "label": "Johnson +27.7",
+          "margin": 27.66,
+          "votesRep": 6325,
+          "votesDem": 3584,
+          "votesTotal": 10307
+        },
+        "Mille Lacs27": {
+          "color": "#BF1D29",
+          "label": "Johnson +23.1",
+          "margin": 23.14,
+          "votesRep": 6292,
+          "votesDem": 3927,
+          "votesTotal": 10717
+        },
+        "Morrison27": {
+          "color": "#BF1D29",
+          "label": "Johnson +40.4",
+          "margin": 40.39,
+          "votesRep": 9711,
+          "votesDem": 4123,
+          "votesTotal": 14286
+        },
+        "Mower27": {
+          "color": "#577CCC",
+          "label": "Walz +8.7",
+          "margin": -8.66,
+          "votesRep": 6464,
+          "votesDem": 7690,
+          "votesTotal": 14672
+        },
+        "Murray27": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.2",
+          "margin": 16.18,
+          "votesRep": 2323,
+          "votesDem": 1676,
+          "votesTotal": 4122
+        },
+        "Nicollet27": {
+          "color": "#1C408C",
+          "label": "Walz +19.8",
+          "margin": -19.78,
+          "votesRep": 6132,
+          "votesDem": 9156,
+          "votesTotal": 15733
+        },
+        "Nobles27": {
+          "color": "#BF1D29",
+          "label": "Johnson +10.9",
+          "margin": 10.9,
+          "votesRep": 3734,
+          "votesDem": 3000,
+          "votesTotal": 6971
+        },
+        "Norman27": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": 0,
+          "votesRep": 1280,
+          "votesDem": 1280,
+          "votesTotal": 2682
+        },
+        "Olmsted27": {
+          "color": "#1C408C",
+          "label": "Walz +11.7",
+          "margin": -11.71,
+          "votesRep": 30517,
+          "votesDem": 38613,
+          "votesTotal": 71145
+        },
+        "Otter Tail27": {
+          "color": "#BF1D29",
+          "label": "Johnson +25.5",
+          "margin": 25.47,
+          "votesRep": 16622,
+          "votesDem": 9873,
+          "votesTotal": 27365
+        },
+        "Pennington27": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.9",
+          "margin": 14.93,
+          "votesRep": 2949,
+          "votesDem": 2183,
+          "votesTotal": 5359
+        },
+        "Pine27": {
+          "color": "#BF1D29",
+          "label": "Johnson +13.1",
+          "margin": 13.12,
+          "votesRep": 6240,
+          "votesDem": 4793,
+          "votesTotal": 11557
+        },
+        "Pipestone27": {
+          "color": "#BF1D29",
+          "label": "Johnson +31.9",
+          "margin": 31.91,
+          "votesRep": 2379,
+          "votesDem": 1228,
+          "votesTotal": 3711
+        },
+        "Polk27": {
+          "color": "#BF1D29",
+          "label": "Johnson +18.4",
+          "margin": 18.4,
+          "votesRep": 6736,
+          "votesDem": 4642,
+          "votesTotal": 11796
+        },
+        "Pope27": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.0",
+          "margin": 13.95,
+          "votesRep": 3014,
+          "votesDem": 2276,
+          "votesTotal": 5441
+        },
+        "Ramsey27": {
+          "color": "#1C408C",
+          "label": "Walz +45.6",
+          "margin": -45.62,
+          "votesRep": 63685,
+          "votesDem": 170553,
+          "votesTotal": 244036
+        },
+        "Red Lake27": {
+          "color": "#FF5865",
+          "label": "Johnson +8.3",
+          "margin": 8.3,
+          "votesRep": 855,
+          "votesDem": 724,
+          "votesTotal": 1643
+        },
+        "Redwood27": {
+          "color": "#BF1D29",
+          "label": "Johnson +28.3",
+          "margin": 28.31,
+          "votesRep": 3855,
+          "votesDem": 2154,
+          "votesTotal": 6206
+        },
+        "Renville27": {
+          "color": "#BF1D29",
+          "label": "Johnson +18.1",
+          "margin": 18.1,
+          "votesRep": 3562,
+          "votesDem": 2470,
+          "votesTotal": 6270
+        },
+        "Rice27": {
+          "color": "#577CCC",
+          "label": "Walz +9.4",
+          "margin": -9.38,
+          "votesRep": 12353,
+          "votesDem": 14910,
+          "votesTotal": 28380
+        },
+        "Rock27": {
+          "color": "#BF1D29",
+          "label": "Johnson +24.4",
+          "margin": 24.42,
+          "votesRep": 2288,
+          "votesDem": 1390,
+          "votesTotal": 3765
+        },
+        "Roseau27": {
+          "color": "#BF1D29",
+          "label": "Johnson +38.7",
+          "margin": 38.72,
+          "votesRep": 4335,
+          "votesDem": 1915,
+          "votesTotal": 6442
+        },
+        "Scott27": {
+          "color": "#FF5865",
+          "label": "Johnson +7.8",
+          "margin": 7.85,
+          "votesRep": 34201,
+          "votesDem": 29223,
+          "votesTotal": 66040
+        },
+        "Sherburne27": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.3",
+          "margin": 26.27,
+          "votesRep": 23721,
+          "votesDem": 13851,
+          "votesTotal": 39231
+        },
+        "Sibley27": {
+          "color": "#BF1D29",
+          "label": "Johnson +24.5",
+          "margin": 24.5,
+          "votesRep": 3936,
+          "votesDem": 2387,
+          "votesTotal": 6563
+        },
+        "St. Louis27": {
+          "color": "#1C408C",
+          "label": "Walz +26.3",
+          "margin": -26.33,
+          "votesRep": 35212,
+          "votesDem": 60383,
+          "votesTotal": 99447
+        },
+        "Stearns27": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.9",
+          "margin": 15.93,
+          "votesRep": 36830,
+          "votesDem": 26707,
+          "votesTotal": 65925
+        },
+        "Steele27": {
+          "color": "#BF1D29",
+          "label": "Johnson +11.1",
+          "margin": 11.08,
+          "votesRep": 8733,
+          "votesDem": 6991,
+          "votesTotal": 16326
+        },
+        "Stevens27": {
+          "color": "#FF5865",
+          "label": "Johnson +9.2",
+          "margin": 9.24,
+          "votesRep": 2306,
+          "votesDem": 1916,
+          "votesTotal": 4378
+        },
+        "Swift27": {
+          "color": "#BF1D29",
+          "label": "Johnson +10.9",
+          "margin": 10.89,
+          "votesRep": 2179,
+          "votesDem": 1751,
+          "votesTotal": 4041
+        },
+        "Todd27": {
+          "color": "#BF1D29",
+          "label": "Johnson +34.3",
+          "margin": 34.25,
+          "votesRep": 6244,
+          "votesDem": 3058,
+          "votesTotal": 9602
+        },
+        "Traverse27": {
+          "color": "#BF1D29",
+          "label": "Johnson +10.8",
+          "margin": 10.79,
+          "votesRep": 806,
+          "votesDem": 649,
+          "votesTotal": 1511
+        },
+        "Wabasha27": {
+          "color": "#BF1D29",
+          "label": "Johnson +10.5",
+          "margin": 10.51,
+          "votesRep": 5324,
+          "votesDem": 4311,
+          "votesTotal": 9987
+        },
+        "Wadena27": {
+          "color": "#BF1D29",
+          "label": "Johnson +35.9",
+          "margin": 35.87,
+          "votesRep": 3667,
+          "votesDem": 1731,
+          "votesTotal": 5544
+        },
+        "Waseca27": {
+          "color": "#BF1D29",
+          "label": "Johnson +11.5",
+          "margin": 11.46,
+          "votesRep": 4406,
+          "votesDem": 3500,
+          "votesTotal": 8153
+        },
+        "Washington27": {
+          "color": "#577CCC",
+          "label": "Walz +8.2",
+          "margin": -8.15,
+          "votesRep": 57537,
+          "votesDem": 67751,
+          "votesTotal": 129753
+        },
+        "Watonwan27": {
+          "color": "#6b7280",
+          "label": "Johnson +0.3",
+          "margin": 0.32,
+          "votesRep": 2018,
+          "votesDem": 2005,
+          "votesTotal": 4130
+        },
+        "Wilkin27": {
+          "color": "#BF1D29",
+          "label": "Johnson +24.6",
+          "margin": 24.58,
+          "votesRep": 1528,
+          "votesDem": 925,
+          "votesTotal": 2557
+        },
+        "Winona27": {
+          "color": "#1C408C",
+          "label": "Walz +15.6",
+          "margin": -15.62,
+          "votesRep": 8679,
+          "votesDem": 11893,
+          "votesTotal": 21361
+        },
+        "Wright27": {
+          "color": "#BF1D29",
+          "label": "Johnson +23.2",
+          "margin": 23.15,
+          "votesRep": 34992,
+          "votesDem": 21834,
+          "votesTotal": 59243
+        },
+        "Yellow Medicine27": {
+          "color": "#BF1D29",
+          "label": "Johnson +21.6",
+          "margin": 21.58,
+          "votesRep": 2544,
+          "votesDem": 1641,
+          "votesTotal": 4312
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Jim Newberger",
+      "candDem": "Amy Klobuchar",
+      "shortRep": "Newberger",
+      "shortDem": "Klobuchar",
+      "partisan": true,
+      "margin": -24.96,
+      "votesRep": 940437,
+      "votesDem": 1566174,
+      "votesTotal": 2596879,
+      "regions": {
+        "Aitkin27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +3.9",
+          "margin": -3.91,
+          "votesRep": 3808,
+          "votesDem": 4118,
+          "votesTotal": 8187
+        },
+        "Anoka27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +14.4",
+          "margin": -14.37,
+          "votesRep": 65707,
+          "votesDem": 87756,
+          "votesTotal": 159628
+        },
+        "Becker27": {
+          "color": "#FF5865",
+          "label": "Newberger +5.8",
+          "margin": 5.77,
+          "votesRep": 7520,
+          "votesDem": 6699,
+          "votesTotal": 14770
+        },
+        "Beltrami27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +12.4",
+          "margin": -12.44,
+          "votesRep": 7562,
+          "votesDem": 9711,
+          "votesTotal": 18009
+        },
+        "Benton27": {
+          "color": "#FF5865",
+          "label": "Newberger +7.5",
+          "margin": 7.52,
+          "votesRep": 8290,
+          "votesDem": 7131,
+          "votesTotal": 16088
+        },
+        "Big Stone27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +9.7",
+          "margin": -9.66,
+          "votesRep": 1127,
+          "votesDem": 1368,
+          "votesTotal": 2594
+        },
+        "Blue Earth27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +25.4",
+          "margin": -25.38,
+          "votesRep": 9984,
+          "votesDem": 16776,
+          "votesTotal": 28138
+        },
+        "Brown27": {
+          "color": "#FF8B98",
+          "label": "Newberger +1.8",
+          "margin": 1.77,
+          "votesRep": 5816,
+          "votesDem": 5614,
+          "votesTotal": 11831
+        },
+        "Carlton27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +28.4",
+          "margin": -28.45,
+          "votesRep": 5682,
+          "votesDem": 10200,
+          "votesTotal": 16405
+        },
+        "Carver27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +9.3",
+          "margin": -9.31,
+          "votesRep": 22540,
+          "votesDem": 27168,
+          "votesTotal": 51054
+        },
+        "Cass27": {
+          "color": "#FF5865",
+          "label": "Newberger +8.0",
+          "margin": 8.02,
+          "votesRep": 7332,
+          "votesDem": 6243,
+          "votesTotal": 14024
+        },
+        "Chippewa27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +9.4",
+          "margin": -9.41,
+          "votesRep": 2422,
+          "votesDem": 2925,
+          "votesTotal": 5532
+        },
+        "Chisago27": {
+          "color": "#FF8B98",
+          "label": "Newberger +2.1",
+          "margin": 2.12,
+          "votesRep": 12663,
+          "votesDem": 12138,
+          "votesTotal": 25839
+        },
+        "Clay27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +27.6",
+          "margin": -27.61,
+          "votesRep": 8480,
+          "votesDem": 14950,
+          "votesTotal": 24403
+        },
+        "Clearwater27": {
+          "color": "#BF1D29",
+          "label": "Newberger +23.0",
+          "margin": 23,
+          "votesRep": 2080,
+          "votesDem": 1302,
+          "votesTotal": 3487
+        },
+        "Cook27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +41.0",
+          "margin": -41.02,
+          "votesRep": 911,
+          "votesDem": 2178,
+          "votesTotal": 3215
+        },
+        "Cottonwood27": {
+          "color": "#FF8B98",
+          "label": "Newberger +1.5",
+          "margin": 1.53,
+          "votesRep": 2488,
+          "votesDem": 2413,
+          "votesTotal": 5047
+        },
+        "Crow Wing27": {
+          "color": "#FF5865",
+          "label": "Newberger +6.3",
+          "margin": 6.35,
+          "votesRep": 16132,
+          "votesDem": 14206,
+          "votesTotal": 31436
+        },
+        "Dakota27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +26.7",
+          "margin": -26.71,
+          "votesRep": 73462,
+          "votesDem": 127016,
+          "votesTotal": 207324
+        },
+        "Dodge27": {
+          "color": "#FF8B98",
+          "label": "Newberger +2.8",
+          "margin": 2.83,
+          "votesRep": 4527,
+          "votesDem": 4278,
+          "votesTotal": 9133
+        },
+        "Douglas27": {
+          "color": "#FF8B98",
+          "label": "Newberger +3.5",
+          "margin": 3.46,
+          "votesRep": 9113,
+          "votesDem": 8504,
+          "votesTotal": 18084
+        },
+        "Faribault27": {
+          "color": "#FF8B98",
+          "label": "Newberger +1.2",
+          "margin": 1.17,
+          "votesRep": 3103,
+          "votesDem": 3031,
+          "votesTotal": 6377
+        },
+        "Fillmore27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +9.2",
+          "margin": -9.21,
+          "votesRep": 4263,
+          "votesDem": 5128,
+          "votesTotal": 9732
+        },
+        "Freeborn27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +14.1",
+          "margin": -14.09,
+          "votesRep": 5779,
+          "votesDem": 7675,
+          "votesTotal": 14001
+        },
+        "Goodhue27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +10.9",
+          "margin": -10.93,
+          "votesRep": 9940,
+          "votesDem": 12379,
+          "votesTotal": 23177
+        },
+        "Grant27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +7.7",
+          "margin": -7.73,
+          "votesRep": 1402,
+          "votesDem": 1637,
+          "votesTotal": 3140
+        },
+        "Hennepin27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +51.0",
+          "margin": -50.97,
+          "votesRep": 149297,
+          "votesDem": 459729,
+          "votesTotal": 629534
+        },
+        "Houston27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +3.2",
+          "margin": -3.22,
+          "votesRep": 4149,
+          "votesDem": 4425,
+          "votesTotal": 8949
+        },
+        "Hubbard27": {
+          "color": "#FF5865",
+          "label": "Newberger +8.3",
+          "margin": 8.34,
+          "votesRep": 5312,
+          "votesDem": 4494,
+          "votesTotal": 10145
+        },
+        "Isanti27": {
+          "color": "#BF1D29",
+          "label": "Newberger +10.7",
+          "margin": 10.72,
+          "votesRep": 9226,
+          "votesDem": 7440,
+          "votesTotal": 17420
+        },
+        "Itasca27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +11.5",
+          "margin": -11.46,
+          "votesRep": 9203,
+          "votesDem": 11585,
+          "votesTotal": 21655
+        },
+        "Jackson27": {
+          "color": "#FF8B98",
+          "label": "Newberger +3.7",
+          "margin": 3.7,
+          "votesRep": 2341,
+          "votesDem": 2174,
+          "votesTotal": 4683
+        },
+        "Kanabec27": {
+          "color": "#FF8B98",
+          "label": "Newberger +3.5",
+          "margin": 3.46,
+          "votesRep": 3363,
+          "votesDem": 3138,
+          "votesTotal": 6719
+        },
+        "Kandiyohi27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +4.4",
+          "margin": -4.35,
+          "votesRep": 8596,
+          "votesDem": 9378,
+          "votesTotal": 18669
+        },
+        "Kittson27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +16.8",
+          "margin": -16.84,
+          "votesRep": 943,
+          "votesDem": 1325,
+          "votesTotal": 2365
+        },
+        "Koochiching27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +12.6",
+          "margin": -12.65,
+          "votesRep": 2238,
+          "votesDem": 2886,
+          "votesTotal": 5256
+        },
+        "Lac qui Parle27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +14.1",
+          "margin": -14.13,
+          "votesRep": 1404,
+          "votesDem": 1866,
+          "votesTotal": 3362
+        },
+        "Lake27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +23.4",
+          "margin": -23.42,
+          "votesRep": 2196,
+          "votesDem": 3539,
+          "votesTotal": 5916
+        },
+        "Lake of the Woods27": {
+          "color": "#BF1D29",
+          "label": "Newberger +19.0",
+          "margin": 19.04,
+          "votesRep": 1072,
+          "votesDem": 729,
+          "votesTotal": 1852
+        },
+        "Le Sueur27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +3.7",
+          "margin": -3.74,
+          "votesRep": 5979,
+          "votesDem": 6444,
+          "votesTotal": 12880
+        },
+        "Lincoln27": {
+          "color": "#FF8B98",
+          "label": "Newberger +2.1",
+          "margin": 2.06,
+          "votesRep": 1213,
+          "votesDem": 1164,
+          "votesTotal": 2428
+        },
+        "Lyon27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +2.8",
+          "margin": -2.82,
+          "votesRep": 4700,
+          "votesDem": 4973,
+          "votesTotal": 9986
+        },
+        "Mahnomen27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +21.6",
+          "margin": -21.59,
+          "votesRep": 708,
+          "votesDem": 1098,
+          "votesTotal": 1922
+        },
+        "Marshall27": {
+          "color": "#FF5865",
+          "label": "Newberger +6.4",
+          "margin": 6.43,
+          "votesRep": 2120,
+          "votesDem": 1864,
+          "votesTotal": 4110
+        },
+        "Martin27": {
+          "color": "#BF1D29",
+          "label": "Newberger +10.6",
+          "margin": 10.6,
+          "votesRep": 4664,
+          "votesDem": 3770,
+          "votesTotal": 8739
+        },
+        "McLeod27": {
+          "color": "#FF5865",
+          "label": "Newberger +5.9",
+          "margin": 5.92,
+          "votesRep": 7684,
+          "votesDem": 6825,
+          "votesTotal": 14965
+        },
+        "Meeker27": {
+          "color": "#FF5865",
+          "label": "Newberger +6.8",
+          "margin": 6.83,
+          "votesRep": 5363,
+          "votesDem": 4677,
+          "votesTotal": 10338
+        },
+        "Mille Lacs27": {
+          "color": "#FF5865",
+          "label": "Newberger +7.0",
+          "margin": 7.03,
+          "votesRep": 5492,
+          "votesDem": 4771,
+          "votesTotal": 10730
+        },
+        "Morrison27": {
+          "color": "#BF1D29",
+          "label": "Newberger +24.6",
+          "margin": 24.65,
+          "votesRep": 8678,
+          "votesDem": 5246,
+          "votesTotal": 14323
+        },
+        "Mower27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +19.1",
+          "margin": -19.08,
+          "votesRep": 5705,
+          "votesDem": 8396,
+          "votesTotal": 14693
+        },
+        "Murray27": {
+          "color": "#FF8B98",
+          "label": "Newberger +3.6",
+          "margin": 3.63,
+          "votesRep": 2070,
+          "votesDem": 1925,
+          "votesTotal": 4131
+        },
+        "Nicollet27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +27.2",
+          "margin": -27.16,
+          "votesRep": 5517,
+          "votesDem": 9632,
+          "votesTotal": 15729
+        },
+        "Nobles27": {
+          "color": "#FF5865",
+          "label": "Newberger +5.0",
+          "margin": 5.04,
+          "votesRep": 3523,
+          "votesDem": 3185,
+          "votesTotal": 7011
+        },
+        "Norman27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +20.4",
+          "margin": -20.44,
+          "votesRep": 1049,
+          "votesDem": 1588,
+          "votesTotal": 2719
+        },
+        "Olmsted27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +21.0",
+          "margin": -20.96,
+          "votesRep": 27291,
+          "votesDem": 41769,
+          "votesTotal": 71246
+        },
+        "Otter Tail27": {
+          "color": "#BF1D29",
+          "label": "Newberger +10.1",
+          "margin": 10.06,
+          "votesRep": 14688,
+          "votesDem": 12002,
+          "votesTotal": 27466
+        },
+        "Pennington27": {
+          "color": "#6b7280",
+          "label": "Klobuchar +0.2",
+          "margin": -0.17,
+          "votesRep": 2573,
+          "votesDem": 2582,
+          "votesTotal": 5371
+        },
+        "Pine27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +1.1",
+          "margin": -1.07,
+          "votesRep": 5528,
+          "votesDem": 5648,
+          "votesTotal": 11599
+        },
+        "Pipestone27": {
+          "color": "#BF1D29",
+          "label": "Newberger +26.3",
+          "margin": 26.35,
+          "votesRep": 2266,
+          "votesDem": 1321,
+          "votesTotal": 3725
+        },
+        "Polk27": {
+          "color": "#6b7280",
+          "label": "Newberger +0.5",
+          "margin": 0.49,
+          "votesRep": 5785,
+          "votesDem": 5729,
+          "votesTotal": 11877
+        },
+        "Pope27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +7.7",
+          "margin": -7.71,
+          "votesRep": 2443,
+          "votesDem": 2851,
+          "votesTotal": 5452
+        },
+        "Ramsey27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +54.9",
+          "margin": -54.91,
+          "votesRep": 53101,
+          "votesDem": 182445,
+          "votesTotal": 245570
+        },
+        "Red Lake27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +11.9",
+          "margin": -11.87,
+          "votesRep": 709,
+          "votesDem": 900,
+          "votesTotal": 1668
+        },
+        "Redwood27": {
+          "color": "#BF1D29",
+          "label": "Newberger +10.7",
+          "margin": 10.73,
+          "votesRep": 3334,
+          "votesDem": 2688,
+          "votesTotal": 6221
+        },
+        "Renville27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +5.0",
+          "margin": -5.03,
+          "votesRep": 2888,
+          "votesDem": 3194,
+          "votesTotal": 6299
+        },
+        "Rice27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +22.8",
+          "margin": -22.84,
+          "votesRep": 10604,
+          "votesDem": 16881,
+          "votesTotal": 28500
+        },
+        "Rock27": {
+          "color": "#BF1D29",
+          "label": "Newberger +20.9",
+          "margin": 20.85,
+          "votesRep": 2217,
+          "votesDem": 1452,
+          "votesTotal": 3770
+        },
+        "Roseau27": {
+          "color": "#BF1D29",
+          "label": "Newberger +19.9",
+          "margin": 19.94,
+          "votesRep": 3771,
+          "votesDem": 2517,
+          "votesTotal": 6474
+        },
+        "Scott27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +8.3",
+          "margin": -8.32,
+          "votesRep": 29308,
+          "votesDem": 34624,
+          "votesTotal": 66274
+        },
+        "Sherburne27": {
+          "color": "#BF1D29",
+          "label": "Newberger +13.0",
+          "margin": 13.04,
+          "votesRep": 21437,
+          "votesDem": 16491,
+          "votesTotal": 39347
+        },
+        "Sibley27": {
+          "color": "#FF8B98",
+          "label": "Newberger +4.5",
+          "margin": 4.49,
+          "votesRep": 3337,
+          "votesDem": 3050,
+          "votesTotal": 6587
+        },
+        "St. Louis27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +37.1",
+          "margin": -37.12,
+          "votesRep": 30293,
+          "votesDem": 66056,
+          "votesTotal": 99814
+        },
+        "Stearns27": {
+          "color": "#6b7280",
+          "label": "Klobuchar +0.2",
+          "margin": -0.23,
+          "votesRep": 31821,
+          "votesDem": 31970,
+          "votesTotal": 66117
+        },
+        "Steele27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +4.5",
+          "margin": -4.48,
+          "votesRep": 7490,
+          "votesDem": 8192,
+          "votesTotal": 16351
+        },
+        "Stevens27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +7.5",
+          "margin": -7.54,
+          "votesRep": 1969,
+          "votesDem": 2290,
+          "votesTotal": 4394
+        },
+        "Swift27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +9.0",
+          "margin": -8.98,
+          "votesRep": 1793,
+          "votesDem": 2147,
+          "votesTotal": 4051
+        },
+        "Todd27": {
+          "color": "#BF1D29",
+          "label": "Newberger +17.6",
+          "margin": 17.62,
+          "votesRep": 5516,
+          "votesDem": 3863,
+          "votesTotal": 9636
+        },
+        "Traverse27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +10.7",
+          "margin": -10.74,
+          "votesRep": 665,
+          "votesDem": 825,
+          "votesTotal": 1530
+        },
+        "Wabasha27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +2.8",
+          "margin": -2.75,
+          "votesRep": 4695,
+          "votesDem": 4961,
+          "votesTotal": 10006
+        },
+        "Wadena27": {
+          "color": "#BF1D29",
+          "label": "Newberger +24.6",
+          "margin": 24.62,
+          "votesRep": 3379,
+          "votesDem": 2044,
+          "votesTotal": 5550
+        },
+        "Waseca27": {
+          "color": "#8AAFFF",
+          "label": "Klobuchar +2.1",
+          "margin": -2.06,
+          "votesRep": 3872,
+          "votesDem": 4035,
+          "votesTotal": 8155
+        },
+        "Washington27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +24.2",
+          "margin": -24.24,
+          "votesRep": 47785,
+          "votesDem": 78364,
+          "votesTotal": 130088
+        },
+        "Watonwan27": {
+          "color": "#577CCC",
+          "label": "Klobuchar +9.5",
+          "margin": -9.48,
+          "votesRep": 1819,
+          "votesDem": 2200,
+          "votesTotal": 4127
+        },
+        "Wilkin27": {
+          "color": "#6b7280",
+          "label": "Klobuchar +0.3",
+          "margin": -0.32,
+          "votesRep": 1243,
+          "votesDem": 1251,
+          "votesTotal": 2587
+        },
+        "Winona27": {
+          "color": "#1C408C",
+          "label": "Klobuchar +19.0",
+          "margin": -18.96,
+          "votesRep": 8236,
+          "votesDem": 12090,
+          "votesTotal": 21387
+        },
+        "Wright27": {
+          "color": "#FF5865",
+          "label": "Newberger +6.5",
+          "margin": 6.54,
+          "votesRep": 30572,
+          "votesDem": 26821,
+          "votesTotal": 59442
+        },
+        "Yellow Medicine27": {
+          "color": "#949BB3",
+          "label": "Klobuchar +1.0",
+          "margin": -0.96,
+          "votesRep": 2071,
+          "votesDem": 2111,
+          "votesTotal": 4314
+        }
+      }
+    }
+  ]
+}

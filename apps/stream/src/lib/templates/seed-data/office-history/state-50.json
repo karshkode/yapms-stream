@@ -1,0 +1,909 @@
+{
+  "stateFips": "50",
+  "stateName": "Vermont",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Phil Scott",
+      "candDem": "Esther Charlestin",
+      "shortRep": "Scott",
+      "shortDem": "Charlestin",
+      "partisan": true,
+      "margin": 54.16,
+      "votesRep": 266439,
+      "votesDem": 79217,
+      "votesTotal": 362841,
+      "regions": {
+        "Addison50": {
+          "color": "#BF1D29",
+          "label": "Scott +50.1",
+          "margin": 50.11,
+          "votesRep": 16171,
+          "votesDem": 5375,
+          "votesTotal": 22276
+        },
+        "Bennington50": {
+          "color": "#BF1D29",
+          "label": "Scott +53.1",
+          "margin": 53.09,
+          "votesRep": 14007,
+          "votesDem": 4292,
+          "votesTotal": 20223
+        },
+        "Caledonia50": {
+          "color": "#BF1D29",
+          "label": "Scott +66.1",
+          "margin": 66.11,
+          "votesRep": 12947,
+          "votesDem": 2641,
+          "votesTotal": 16402
+        },
+        "Chittenden50": {
+          "color": "#BF1D29",
+          "label": "Scott +43.0",
+          "margin": 43.03,
+          "votesRep": 65873,
+          "votesDem": 26237,
+          "votesTotal": 95224
+        },
+        "Essex50": {
+          "color": "#BF1D29",
+          "label": "Scott +76.2",
+          "margin": 76.18,
+          "votesRep": 2773,
+          "votesDem": 375,
+          "votesTotal": 3368
+        },
+        "Franklin50": {
+          "color": "#BF1D29",
+          "label": "Scott +74.0",
+          "margin": 74.01,
+          "votesRep": 21960,
+          "votesDem": 3280,
+          "votesTotal": 26522
+        },
+        "Grand Isle50": {
+          "color": "#BF1D29",
+          "label": "Scott +69.0",
+          "margin": 68.96,
+          "votesRep": 4050,
+          "votesDem": 744,
+          "votesTotal": 4954
+        },
+        "Lamoille50": {
+          "color": "#BF1D29",
+          "label": "Scott +63.5",
+          "margin": 63.5,
+          "votesRep": 11491,
+          "votesDem": 2565,
+          "votesTotal": 14653
+        },
+        "Orange50": {
+          "color": "#BF1D29",
+          "label": "Scott +60.3",
+          "margin": 60.26,
+          "votesRep": 13348,
+          "votesDem": 3310,
+          "votesTotal": 17486
+        },
+        "Orleans50": {
+          "color": "#BF1D29",
+          "label": "Scott +73.2",
+          "margin": 73.19,
+          "votesRep": 11966,
+          "votesDem": 1852,
+          "votesTotal": 14530
+        },
+        "Rutland50": {
+          "color": "#BF1D29",
+          "label": "Scott +68.6",
+          "margin": 68.64,
+          "votesRep": 26849,
+          "votesDem": 4992,
+          "votesTotal": 33628
+        },
+        "Washington50": {
+          "color": "#BF1D29",
+          "label": "Scott +49.5",
+          "margin": 49.53,
+          "votesRep": 24817,
+          "votesDem": 8377,
+          "votesTotal": 34757
+        },
+        "Windham50": {
+          "color": "#BF1D29",
+          "label": "Scott +34.1",
+          "margin": 34.05,
+          "votesRep": 15715,
+          "votesDem": 7731,
+          "votesTotal": 25139
+        },
+        "Windsor50": {
+          "color": "#BF1D29",
+          "label": "Scott +53.3",
+          "margin": 53.34,
+          "votesRep": 24472,
+          "votesDem": 7446,
+          "votesTotal": 33679
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Gerald Malloy",
+      "candDem": "Bernie Sanders",
+      "shortRep": "Malloy",
+      "shortDem": "Sanders",
+      "partisan": true,
+      "margin": -32.64,
+      "votesRep": 116512,
+      "votesDem": 229429,
+      "votesTotal": 363253,
+      "regions": {
+        "Addison50": {
+          "color": "#1C408C",
+          "label": "Sanders +34.4",
+          "margin": -34.36,
+          "votesRep": 7038,
+          "votesDem": 14407,
+          "votesTotal": 22351
+        },
+        "Bennington50": {
+          "color": "#1C408C",
+          "label": "Sanders +28.4",
+          "margin": -28.4,
+          "votesRep": 6597,
+          "votesDem": 11831,
+          "votesTotal": 20237
+        },
+        "Caledonia50": {
+          "color": "#1C408C",
+          "label": "Sanders +14.9",
+          "margin": -14.91,
+          "votesRep": 6556,
+          "votesDem": 8853,
+          "votesTotal": 16373
+        },
+        "Chittenden50": {
+          "color": "#1C408C",
+          "label": "Sanders +52.2",
+          "margin": -52.23,
+          "votesRep": 21966,
+          "votesDem": 70006,
+          "votesTotal": 95539
+        },
+        "Essex50": {
+          "color": "#FF5865",
+          "label": "Malloy +7.5",
+          "margin": 7.53,
+          "votesRep": 1677,
+          "votesDem": 1442,
+          "votesTotal": 3352
+        },
+        "Franklin50": {
+          "color": "#8AAFFF",
+          "label": "Sanders +5.0",
+          "margin": -4.98,
+          "votesRep": 12021,
+          "votesDem": 13282,
+          "votesTotal": 26426
+        },
+        "Grand Isle50": {
+          "color": "#1C408C",
+          "label": "Sanders +19.7",
+          "margin": -19.7,
+          "votesRep": 1910,
+          "votesDem": 2847,
+          "votesTotal": 4935
+        },
+        "Lamoille50": {
+          "color": "#1C408C",
+          "label": "Sanders +35.8",
+          "margin": -35.8,
+          "votesRep": 4465,
+          "votesDem": 9444,
+          "votesTotal": 14605
+        },
+        "Orange50": {
+          "color": "#1C408C",
+          "label": "Sanders +21.9",
+          "margin": -21.95,
+          "votesRep": 6481,
+          "votesDem": 10126,
+          "votesTotal": 17462
+        },
+        "Orleans50": {
+          "color": "#8AAFFF",
+          "label": "Sanders +4.1",
+          "margin": -4.08,
+          "votesRep": 6619,
+          "votesDem": 7182,
+          "votesTotal": 14475
+        },
+        "Rutland50": {
+          "color": "#577CCC",
+          "label": "Sanders +5.6",
+          "margin": -5.64,
+          "votesRep": 15040,
+          "votesDem": 16838,
+          "votesTotal": 33631
+        },
+        "Washington50": {
+          "color": "#1C408C",
+          "label": "Sanders +43.7",
+          "margin": -43.67,
+          "votesRep": 9401,
+          "votesDem": 23979,
+          "votesTotal": 34850
+        },
+        "Windham50": {
+          "color": "#1C408C",
+          "label": "Sanders +47.4",
+          "margin": -47.36,
+          "votesRep": 6282,
+          "votesDem": 17585,
+          "votesTotal": 25328
+        },
+        "Windsor50": {
+          "color": "#1C408C",
+          "label": "Sanders +34.8",
+          "margin": -34.77,
+          "votesRep": 10459,
+          "votesDem": 21607,
+          "votesTotal": 33689
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Phil Scott",
+      "candDem": "Brenda Siegel",
+      "shortRep": "Scott",
+      "shortDem": "Siegel",
+      "partisan": true,
+      "margin": 49.52,
+      "votesRep": 202147,
+      "votesDem": 68248,
+      "votesTotal": 284787,
+      "regions": {
+        "Addison50": {
+          "color": "#BF1D29",
+          "label": "Scott +48.6",
+          "margin": 48.6,
+          "votesRep": 12856,
+          "votesDem": 4447,
+          "votesTotal": 17993
+        },
+        "Bennington50": {
+          "color": "#BF1D29",
+          "label": "Scott +48.0",
+          "margin": 47.98,
+          "votesRep": 10642,
+          "votesDem": 3741,
+          "votesTotal": 15827
+        },
+        "Caledonia50": {
+          "color": "#BF1D29",
+          "label": "Scott +59.4",
+          "margin": 59.35,
+          "votesRep": 9507,
+          "votesDem": 2425,
+          "votesTotal": 12760
+        },
+        "Chittenden50": {
+          "color": "#BF1D29",
+          "label": "Scott +42.3",
+          "margin": 42.26,
+          "votesRep": 52215,
+          "votesDem": 21193,
+          "votesTotal": 75805
+        },
+        "Essex50": {
+          "color": "#BF1D29",
+          "label": "Scott +71.4",
+          "margin": 71.38,
+          "votesRep": 1880,
+          "votesDem": 314,
+          "votesTotal": 2375
+        },
+        "Franklin50": {
+          "color": "#BF1D29",
+          "label": "Scott +70.2",
+          "margin": 70.22,
+          "votesRep": 15667,
+          "votesDem": 2741,
+          "votesTotal": 19695
+        },
+        "Grand Isle50": {
+          "color": "#BF1D29",
+          "label": "Scott +65.3",
+          "margin": 65.3,
+          "votesRep": 3115,
+          "votesDem": 654,
+          "votesTotal": 3954
+        },
+        "Lamoille50": {
+          "color": "#BF1D29",
+          "label": "Scott +57.6",
+          "margin": 57.65,
+          "votesRep": 8625,
+          "votesDem": 2317,
+          "votesTotal": 11468
+        },
+        "Orange50": {
+          "color": "#BF1D29",
+          "label": "Scott +52.3",
+          "margin": 52.29,
+          "votesRep": 10013,
+          "votesDem": 3137,
+          "votesTotal": 13836
+        },
+        "Orleans50": {
+          "color": "#BF1D29",
+          "label": "Scott +63.4",
+          "margin": 63.42,
+          "votesRep": 7840,
+          "votesDem": 1755,
+          "votesTotal": 10649
+        },
+        "Rutland50": {
+          "color": "#BF1D29",
+          "label": "Scott +64.8",
+          "margin": 64.76,
+          "votesRep": 20134,
+          "votesDem": 4307,
+          "votesTotal": 26134
+        },
+        "Washington50": {
+          "color": "#BF1D29",
+          "label": "Scott +41.7",
+          "margin": 41.66,
+          "votesRep": 18938,
+          "votesDem": 7799,
+          "votesTotal": 27823
+        },
+        "Windham50": {
+          "color": "#BF1D29",
+          "label": "Scott +26.0",
+          "margin": 26.04,
+          "votesRep": 11737,
+          "votesDem": 6887,
+          "votesTotal": 19659
+        },
+        "Windsor50": {
+          "color": "#BF1D29",
+          "label": "Scott +48.8",
+          "margin": 48.79,
+          "votesRep": 18978,
+          "votesDem": 6531,
+          "votesTotal": 26809
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Gerald Malloy",
+      "candDem": "Peter Welch",
+      "shortRep": "Malloy",
+      "shortDem": "Welch",
+      "partisan": true,
+      "margin": -41.91,
+      "votesRep": 80468,
+      "votesDem": 196575,
+      "votesTotal": 287078,
+      "regions": {
+        "Addison50": {
+          "color": "#1C408C",
+          "label": "Welch +44.8",
+          "margin": -44.85,
+          "votesRep": 4843,
+          "votesDem": 12720,
+          "votesTotal": 18085
+        },
+        "Bennington50": {
+          "color": "#1C408C",
+          "label": "Welch +34.2",
+          "margin": -34.23,
+          "votesRep": 4937,
+          "votesDem": 10075,
+          "votesTotal": 15908
+        },
+        "Caledonia50": {
+          "color": "#1C408C",
+          "label": "Welch +26.3",
+          "margin": -26.31,
+          "votesRep": 4544,
+          "votesDem": 7789,
+          "votesTotal": 12781
+        },
+        "Chittenden50": {
+          "color": "#1C408C",
+          "label": "Welch +57.9",
+          "margin": -57.94,
+          "votesRep": 15589,
+          "votesDem": 58534,
+          "votesTotal": 76345
+        },
+        "Essex50": {
+          "color": "#6b7280",
+          "label": "Malloy +0.3",
+          "margin": 0.26,
+          "votesRep": 1156,
+          "votesDem": 1150,
+          "votesTotal": 2410
+        },
+        "Franklin50": {
+          "color": "#1C408C",
+          "label": "Welch +19.6",
+          "margin": -19.62,
+          "votesRep": 7712,
+          "votesDem": 11478,
+          "votesTotal": 19794
+        },
+        "Grand Isle50": {
+          "color": "#1C408C",
+          "label": "Welch +30.8",
+          "margin": -30.77,
+          "votesRep": 1341,
+          "votesDem": 2533,
+          "votesTotal": 3967
+        },
+        "Lamoille50": {
+          "color": "#1C408C",
+          "label": "Welch +47.3",
+          "margin": -47.32,
+          "votesRep": 2953,
+          "votesDem": 8259,
+          "votesTotal": 11551
+        },
+        "Orange50": {
+          "color": "#1C408C",
+          "label": "Welch +33.1",
+          "margin": -33.06,
+          "votesRep": 4501,
+          "votesDem": 8947,
+          "votesTotal": 13941
+        },
+        "Orleans50": {
+          "color": "#1C408C",
+          "label": "Welch +16.9",
+          "margin": -16.92,
+          "votesRep": 4293,
+          "votesDem": 6041,
+          "votesTotal": 10720
+        },
+        "Rutland50": {
+          "color": "#1C408C",
+          "label": "Welch +16.2",
+          "margin": -16.15,
+          "votesRep": 10718,
+          "votesDem": 14848,
+          "votesTotal": 26370
+        },
+        "Washington50": {
+          "color": "#1C408C",
+          "label": "Welch +52.9",
+          "margin": -52.89,
+          "votesRep": 6371,
+          "votesDem": 20676,
+          "votesTotal": 28114
+        },
+        "Windham50": {
+          "color": "#1C408C",
+          "label": "Welch +54.9",
+          "margin": -54.88,
+          "votesRep": 4248,
+          "votesDem": 14581,
+          "votesTotal": 20039
+        },
+        "Windsor50": {
+          "color": "#1C408C",
+          "label": "Welch +44.6",
+          "margin": -44.58,
+          "votesRep": 7262,
+          "votesDem": 18944,
+          "votesTotal": 27053
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Phil Scott",
+      "candDem": "Christine Hallquist",
+      "shortRep": "Scott",
+      "shortDem": "Hallquist",
+      "partisan": true,
+      "margin": 15.64,
+      "votesRep": 151261,
+      "votesDem": 110335,
+      "votesTotal": 274084,
+      "regions": {
+        "Addison50": {
+          "color": "#BF1D29",
+          "label": "Scott +13.8",
+          "margin": 13.82,
+          "votesRep": 9514,
+          "votesDem": 7203,
+          "votesTotal": 17338
+        },
+        "Bennington50": {
+          "color": "#FF5865",
+          "label": "Scott +8.9",
+          "margin": 8.88,
+          "votesRep": 7351,
+          "votesDem": 6152,
+          "votesTotal": 14686
+        },
+        "Caledonia50": {
+          "color": "#BF1D29",
+          "label": "Scott +31.7",
+          "margin": 31.72,
+          "votesRep": 7427,
+          "votesDem": 3850,
+          "votesTotal": 11751
+        },
+        "Chittenden50": {
+          "color": "#FF8B98",
+          "label": "Scott +4.5",
+          "margin": 4.52,
+          "votesRep": 38443,
+          "votesDem": 35121,
+          "votesTotal": 75935
+        },
+        "Essex50": {
+          "color": "#BF1D29",
+          "label": "Scott +51.3",
+          "margin": 51.32,
+          "votesRep": 1573,
+          "votesDem": 506,
+          "votesTotal": 2216
+        },
+        "Franklin50": {
+          "color": "#BF1D29",
+          "label": "Scott +43.2",
+          "margin": 43.23,
+          "votesRep": 12592,
+          "votesDem": 4991,
+          "votesTotal": 18300
+        },
+        "Grand Isle50": {
+          "color": "#BF1D29",
+          "label": "Scott +36.2",
+          "margin": 36.19,
+          "votesRep": 2429,
+          "votesDem": 1138,
+          "votesTotal": 3709
+        },
+        "Lamoille50": {
+          "color": "#BF1D29",
+          "label": "Scott +18.2",
+          "margin": 18.19,
+          "votesRep": 6571,
+          "votesDem": 4548,
+          "votesTotal": 11460
+        },
+        "Orange50": {
+          "color": "#BF1D29",
+          "label": "Scott +25.3",
+          "margin": 25.27,
+          "votesRep": 7492,
+          "votesDem": 4469,
+          "votesTotal": 12582
+        },
+        "Orleans50": {
+          "color": "#BF1D29",
+          "label": "Scott +37.0",
+          "margin": 36.95,
+          "votesRep": 6538,
+          "votesDem": 3010,
+          "votesTotal": 9950
+        },
+        "Rutland50": {
+          "color": "#BF1D29",
+          "label": "Scott +37.9",
+          "margin": 37.9,
+          "votesRep": 15630,
+          "votesDem": 7038,
+          "votesTotal": 24473
+        },
+        "Washington50": {
+          "color": "#BF1D29",
+          "label": "Scott +14.5",
+          "margin": 14.49,
+          "votesRep": 15182,
+          "votesDem": 11340,
+          "votesTotal": 27412
+        },
+        "Windham50": {
+          "color": "#1C408C",
+          "label": "Hallquist +19.6",
+          "margin": -19.64,
+          "votesRep": 7193,
+          "votesDem": 10708,
+          "votesTotal": 19068
+        },
+        "Windsor50": {
+          "color": "#BF1D29",
+          "label": "Scott +13.0",
+          "margin": 12.99,
+          "votesRep": 13326,
+          "votesDem": 10261,
+          "votesTotal": 25204
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Lawrence Zupan",
+      "candDem": "Bernie Sanders",
+      "shortRep": "Zupan",
+      "shortDem": "Sanders",
+      "partisan": true,
+      "margin": -42.11,
+      "votesRep": 74815,
+      "votesDem": 183649,
+      "votesTotal": 272624,
+      "regions": {
+        "Addison50": {
+          "color": "#1C408C",
+          "label": "Sanders +45.9",
+          "margin": -45.88,
+          "votesRep": 4439,
+          "votesDem": 11965,
+          "votesTotal": 17202
+        },
+        "Bennington50": {
+          "color": "#1C408C",
+          "label": "Sanders +39.3",
+          "margin": -39.29,
+          "votesRep": 3910,
+          "votesDem": 8971,
+          "votesTotal": 14732
+        },
+        "Caledonia50": {
+          "color": "#1C408C",
+          "label": "Sanders +22.6",
+          "margin": -22.59,
+          "votesRep": 4296,
+          "votesDem": 6803,
+          "votesTotal": 11666
+        },
+        "Chittenden50": {
+          "color": "#1C408C",
+          "label": "Sanders +54.4",
+          "margin": -54.4,
+          "votesRep": 16441,
+          "votesDem": 55669,
+          "votesTotal": 75490
+        },
+        "Essex50": {
+          "color": "#8AAFFF",
+          "label": "Sanders +4.1",
+          "margin": -4.08,
+          "votesRep": 976,
+          "votesDem": 1059,
+          "votesTotal": 2176
+        },
+        "Franklin50": {
+          "color": "#1C408C",
+          "label": "Sanders +21.5",
+          "margin": -21.48,
+          "votesRep": 6782,
+          "votesDem": 10492,
+          "votesTotal": 18214
+        },
+        "Grand Isle50": {
+          "color": "#1C408C",
+          "label": "Sanders +30.5",
+          "margin": -30.49,
+          "votesRep": 1229,
+          "votesDem": 2307,
+          "votesTotal": 3685
+        },
+        "Lamoille50": {
+          "color": "#1C408C",
+          "label": "Sanders +46.3",
+          "margin": -46.32,
+          "votesRep": 2931,
+          "votesDem": 7989,
+          "votesTotal": 11355
+        },
+        "Orange50": {
+          "color": "#1C408C",
+          "label": "Sanders +36.2",
+          "margin": -36.24,
+          "votesRep": 3790,
+          "votesDem": 8099,
+          "votesTotal": 12538
+        },
+        "Orleans50": {
+          "color": "#1C408C",
+          "label": "Sanders +18.2",
+          "margin": -18.23,
+          "votesRep": 3853,
+          "votesDem": 5571,
+          "votesTotal": 9876
+        },
+        "Rutland50": {
+          "color": "#1C408C",
+          "label": "Sanders +17.3",
+          "margin": -17.32,
+          "votesRep": 9576,
+          "votesDem": 13587,
+          "votesTotal": 24359
+        },
+        "Washington50": {
+          "color": "#1C408C",
+          "label": "Sanders +49.7",
+          "margin": -49.7,
+          "votesRep": 6517,
+          "votesDem": 19395,
+          "votesTotal": 27265
+        },
+        "Windham50": {
+          "color": "#1C408C",
+          "label": "Sanders +59.3",
+          "margin": -59.32,
+          "votesRep": 3673,
+          "votesDem": 14386,
+          "votesTotal": 19014
+        },
+        "Windsor50": {
+          "color": "#1C408C",
+          "label": "Sanders +46.1",
+          "margin": -46.11,
+          "votesRep": 6402,
+          "votesDem": 17356,
+          "votesTotal": 25052
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Scott Milne",
+      "candDem": "Patrick Leahy",
+      "shortRep": "Milne",
+      "shortDem": "Leahy",
+      "partisan": true,
+      "margin": -29.95,
+      "votesRep": 103637,
+      "votesDem": 192243,
+      "votesTotal": 313809,
+      "regions": {
+        "Addison50": {
+          "color": "#1C408C",
+          "label": "Leahy +30.7",
+          "margin": -30.74,
+          "votesRep": 6294,
+          "votesDem": 11882,
+          "votesTotal": 19029
+        },
+        "Bennington50": {
+          "color": "#1C408C",
+          "label": "Leahy +29.9",
+          "margin": -29.92,
+          "votesRep": 5527,
+          "votesDem": 10246,
+          "votesTotal": 17249
+        },
+        "Caledonia50": {
+          "color": "#1C408C",
+          "label": "Leahy +10.8",
+          "margin": -10.85,
+          "votesRep": 5910,
+          "votesDem": 7348,
+          "votesTotal": 14074
+        },
+        "Chittenden50": {
+          "color": "#1C408C",
+          "label": "Leahy +45.2",
+          "margin": -45.17,
+          "votesRep": 21654,
+          "votesDem": 57338,
+          "votesTotal": 82848
+        },
+        "Essex50": {
+          "color": "#FF8B98",
+          "label": "Milne +1.2",
+          "margin": 1.19,
+          "votesRep": 1356,
+          "votesDem": 1324,
+          "votesTotal": 2891
+        },
+        "Franklin50": {
+          "color": "#1C408C",
+          "label": "Leahy +16.7",
+          "margin": -16.71,
+          "votesRep": 8526,
+          "votesDem": 11948,
+          "votesTotal": 21478
+        },
+        "Grand Isle50": {
+          "color": "#1C408C",
+          "label": "Leahy +20.6",
+          "margin": -20.59,
+          "votesRep": 1556,
+          "votesDem": 2363,
+          "votesTotal": 4110
+        },
+        "Lamoille50": {
+          "color": "#1C408C",
+          "label": "Leahy +31.0",
+          "margin": -30.99,
+          "votesRep": 4163,
+          "votesDem": 7902,
+          "votesTotal": 12767
+        },
+        "Orange50": {
+          "color": "#1C408C",
+          "label": "Leahy +16.2",
+          "margin": -16.19,
+          "votesRep": 5823,
+          "votesDem": 8073,
+          "votesTotal": 14650
+        },
+        "Orleans50": {
+          "color": "#577CCC",
+          "label": "Leahy +7.4",
+          "margin": -7.43,
+          "votesRep": 5199,
+          "votesDem": 6033,
+          "votesTotal": 11973
+        },
+        "Rutland50": {
+          "color": "#1C408C",
+          "label": "Leahy +10.4",
+          "margin": -10.44,
+          "votesRep": 12492,
+          "votesDem": 15404,
+          "votesTotal": 29458
+        },
+        "Washington50": {
+          "color": "#1C408C",
+          "label": "Leahy +32.9",
+          "margin": -32.88,
+          "votesRep": 9914,
+          "votesDem": 19628,
+          "votesTotal": 31184
+        },
+        "Windham50": {
+          "color": "#1C408C",
+          "label": "Leahy +46.2",
+          "margin": -46.25,
+          "votesRep": 5410,
+          "votesDem": 14720,
+          "votesTotal": 22301
+        },
+        "Windsor50": {
+          "color": "#1C408C",
+          "label": "Leahy +29.5",
+          "margin": -29.52,
+          "votesRep": 9813,
+          "votesDem": 18034,
+          "votesTotal": 29797
+        }
+      }
+    }
+  ]
+}

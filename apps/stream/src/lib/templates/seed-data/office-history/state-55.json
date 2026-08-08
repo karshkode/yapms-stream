@@ -1,0 +1,3564 @@
+{
+  "stateFips": "55",
+  "stateName": "Wisconsin",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Eric Hovde",
+      "candDem": "Tammy Baldwin",
+      "shortRep": "Hovde",
+      "shortDem": "Baldwin",
+      "partisan": true,
+      "margin": -0.87,
+      "votesRep": 1643996,
+      "votesDem": 1672777,
+      "votesTotal": 3390787,
+      "regions": {
+        "Adams55": {
+          "color": "#BF1D29",
+          "label": "Hovde +22.2",
+          "margin": 22.21,
+          "votesRep": 7551,
+          "votesDem": 4806,
+          "votesTotal": 12759
+        },
+        "Ashland55": {
+          "color": "#1C408C",
+          "label": "Baldwin +10.8",
+          "margin": -10.8,
+          "votesRep": 3844,
+          "votesDem": 4775,
+          "votesTotal": 8839
+        },
+        "Barron55": {
+          "color": "#BF1D29",
+          "label": "Hovde +27.5",
+          "margin": 27.54,
+          "votesRep": 16462,
+          "votesDem": 9352,
+          "votesTotal": 26541
+        },
+        "Bayfield55": {
+          "color": "#1C408C",
+          "label": "Baldwin +14.3",
+          "margin": -14.26,
+          "votesRep": 4697,
+          "votesDem": 6260,
+          "votesTotal": 11169
+        },
+        "Brown55": {
+          "color": "#FF5865",
+          "label": "Hovde +6.2",
+          "margin": 6.18,
+          "votesRep": 76722,
+          "votesDem": 67789,
+          "votesTotal": 147871
+        },
+        "Buffalo55": {
+          "color": "#BF1D29",
+          "label": "Hovde +25.4",
+          "margin": 25.41,
+          "votesRep": 4898,
+          "votesDem": 2913,
+          "votesTotal": 8019
+        },
+        "Burnett55": {
+          "color": "#BF1D29",
+          "label": "Hovde +28.8",
+          "margin": 28.78,
+          "votesRep": 6745,
+          "votesDem": 3730,
+          "votesTotal": 10731
+        },
+        "Calumet55": {
+          "color": "#BF1D29",
+          "label": "Hovde +19.5",
+          "margin": 19.5,
+          "votesRep": 19075,
+          "votesDem": 12850,
+          "votesTotal": 32674
+        },
+        "Chippewa55": {
+          "color": "#BF1D29",
+          "label": "Hovde +19.7",
+          "margin": 19.73,
+          "votesRep": 22189,
+          "votesDem": 14875,
+          "votesTotal": 38055
+        },
+        "Clark55": {
+          "color": "#BF1D29",
+          "label": "Hovde +34.6",
+          "margin": 34.6,
+          "votesRep": 9917,
+          "votesDem": 4819,
+          "votesTotal": 15177
+        },
+        "Columbia55": {
+          "color": "#FF8B98",
+          "label": "Hovde +1.1",
+          "margin": 1.08,
+          "votesRep": 17120,
+          "votesDem": 16753,
+          "votesTotal": 34624
+        },
+        "Crawford55": {
+          "color": "#FF5865",
+          "label": "Hovde +8.4",
+          "margin": 8.36,
+          "votesRep": 4761,
+          "votesDem": 4026,
+          "votesTotal": 9042
+        },
+        "Dane55": {
+          "color": "#1C408C",
+          "label": "Baldwin +52.7",
+          "margin": -52.71,
+          "votesRep": 84762,
+          "votesDem": 273696,
+          "votesTotal": 363441
+        },
+        "Dodge55": {
+          "color": "#BF1D29",
+          "label": "Hovde +31.0",
+          "margin": 30.99,
+          "votesRep": 31928,
+          "votesDem": 16819,
+          "votesTotal": 49895
+        },
+        "Door55": {
+          "color": "#8AAFFF",
+          "label": "Baldwin +2.7",
+          "margin": -2.74,
+          "votesRep": 9942,
+          "votesDem": 10503,
+          "votesTotal": 20808
+        },
+        "Douglas55": {
+          "color": "#577CCC",
+          "label": "Baldwin +8.3",
+          "margin": -8.31,
+          "votesRep": 11105,
+          "votesDem": 13119,
+          "votesTotal": 24889
+        },
+        "Dunn55": {
+          "color": "#BF1D29",
+          "label": "Hovde +12.9",
+          "margin": 12.87,
+          "votesRep": 13983,
+          "votesDem": 10795,
+          "votesTotal": 25376
+        },
+        "Eau Claire55": {
+          "color": "#1C408C",
+          "label": "Baldwin +12.8",
+          "margin": -12.79,
+          "votesRep": 26584,
+          "votesDem": 34382,
+          "votesTotal": 62389
+        },
+        "Florence55": {
+          "color": "#BF1D29",
+          "label": "Hovde +48.5",
+          "margin": 48.5,
+          "votesRep": 2272,
+          "votesDem": 788,
+          "votesTotal": 3134
+        },
+        "Fond du Lac55": {
+          "color": "#BF1D29",
+          "label": "Hovde +26.7",
+          "margin": 26.69,
+          "votesRep": 35909,
+          "votesDem": 20777,
+          "votesTotal": 58039
+        },
+        "Forest55": {
+          "color": "#BF1D29",
+          "label": "Hovde +26.7",
+          "margin": 26.66,
+          "votesRep": 3200,
+          "votesDem": 1853,
+          "votesTotal": 5191
+        },
+        "Grant55": {
+          "color": "#BF1D29",
+          "label": "Hovde +14.1",
+          "margin": 14.05,
+          "votesRep": 14995,
+          "votesDem": 11300,
+          "votesTotal": 26910
+        },
+        "Green55": {
+          "color": "#8AAFFF",
+          "label": "Baldwin +4.2",
+          "margin": -4.23,
+          "votesRep": 10280,
+          "votesDem": 11188,
+          "votesTotal": 21934
+        },
+        "Green Lake55": {
+          "color": "#BF1D29",
+          "label": "Hovde +33.0",
+          "margin": 33.05,
+          "votesRep": 7138,
+          "votesDem": 3592,
+          "votesTotal": 10986
+        },
+        "Iowa55": {
+          "color": "#1C408C",
+          "label": "Baldwin +11.4",
+          "margin": -11.37,
+          "votesRep": 6323,
+          "votesDem": 7946,
+          "votesTotal": 14566
+        },
+        "Iron55": {
+          "color": "#BF1D29",
+          "label": "Hovde +23.5",
+          "margin": 23.55,
+          "votesRep": 2445,
+          "votesDem": 1513,
+          "votesTotal": 4036
+        },
+        "Jackson55": {
+          "color": "#BF1D29",
+          "label": "Hovde +14.4",
+          "margin": 14.39,
+          "votesRep": 5764,
+          "votesDem": 4314,
+          "votesTotal": 10401
+        },
+        "Jefferson55": {
+          "color": "#BF1D29",
+          "label": "Hovde +15.2",
+          "margin": 15.16,
+          "votesRep": 28005,
+          "votesDem": 20631,
+          "votesTotal": 49689
+        },
+        "Juneau55": {
+          "color": "#BF1D29",
+          "label": "Hovde +28.6",
+          "margin": 28.62,
+          "votesRep": 8993,
+          "votesDem": 4991,
+          "votesTotal": 14436
+        },
+        "Kenosha55": {
+          "color": "#FF8B98",
+          "label": "Hovde +3.7",
+          "margin": 3.7,
+          "votesRep": 45165,
+          "votesDem": 41946,
+          "votesTotal": 89598
+        },
+        "Kewaunee55": {
+          "color": "#BF1D29",
+          "label": "Hovde +29.8",
+          "margin": 29.82,
+          "votesRep": 7869,
+          "votesDem": 4254,
+          "votesTotal": 12378
+        },
+        "La Crosse55": {
+          "color": "#1C408C",
+          "label": "Baldwin +12.2",
+          "margin": -12.17,
+          "votesRep": 30746,
+          "votesDem": 39268,
+          "votesTotal": 71615
+        },
+        "Lafayette55": {
+          "color": "#BF1D29",
+          "label": "Hovde +12.5",
+          "margin": 12.5,
+          "votesRep": 4838,
+          "votesDem": 3763,
+          "votesTotal": 8768
+        },
+        "Langlade55": {
+          "color": "#BF1D29",
+          "label": "Hovde +32.1",
+          "margin": 32.06,
+          "votesRep": 7444,
+          "votesDem": 3830,
+          "votesTotal": 11558
+        },
+        "Lincoln55": {
+          "color": "#BF1D29",
+          "label": "Hovde +21.3",
+          "margin": 21.25,
+          "votesRep": 10119,
+          "votesDem": 6572,
+          "votesTotal": 17092
+        },
+        "Manitowoc55": {
+          "color": "#BF1D29",
+          "label": "Hovde +21.4",
+          "margin": 21.36,
+          "votesRep": 27201,
+          "votesDem": 17627,
+          "votesTotal": 45966
+        },
+        "Marathon55": {
+          "color": "#BF1D29",
+          "label": "Hovde +16.8",
+          "margin": 16.82,
+          "votesRep": 44779,
+          "votesDem": 31883,
+          "votesTotal": 78312
+        },
+        "Marinette55": {
+          "color": "#BF1D29",
+          "label": "Hovde +34.4",
+          "margin": 34.4,
+          "votesRep": 15730,
+          "votesDem": 7678,
+          "votesTotal": 24129
+        },
+        "Marquette55": {
+          "color": "#BF1D29",
+          "label": "Hovde +25.4",
+          "margin": 25.44,
+          "votesRep": 5729,
+          "votesDem": 3405,
+          "votesTotal": 9371
+        },
+        "Menominee55": {
+          "color": "#1C408C",
+          "label": "Baldwin +61.4",
+          "margin": -61.37,
+          "votesRep": 288,
+          "votesDem": 1203,
+          "votesTotal": 1535
+        },
+        "Milwaukee55": {
+          "color": "#1C408C",
+          "label": "Baldwin +41.1",
+          "margin": -41.09,
+          "votesRep": 131700,
+          "votesDem": 315402,
+          "votesTotal": 457507
+        },
+        "Monroe55": {
+          "color": "#BF1D29",
+          "label": "Hovde +23.2",
+          "margin": 23.16,
+          "votesRep": 13860,
+          "votesDem": 8647,
+          "votesTotal": 23163
+        },
+        "Oconto55": {
+          "color": "#BF1D29",
+          "label": "Hovde +40.5",
+          "margin": 40.51,
+          "votesRep": 16959,
+          "votesDem": 7180,
+          "votesTotal": 24705
+        },
+        "Oneida55": {
+          "color": "#BF1D29",
+          "label": "Hovde +15.0",
+          "margin": 15,
+          "votesRep": 13898,
+          "votesDem": 10272,
+          "votesTotal": 24667
+        },
+        "Outagamie55": {
+          "color": "#FF5865",
+          "label": "Hovde +9.1",
+          "margin": 9.13,
+          "votesRep": 59077,
+          "votesDem": 49196,
+          "votesTotal": 111106
+        },
+        "Ozaukee55": {
+          "color": "#BF1D29",
+          "label": "Hovde +12.4",
+          "margin": 12.4,
+          "votesRep": 34914,
+          "votesDem": 27208,
+          "votesTotal": 63073
+        },
+        "Pepin55": {
+          "color": "#BF1D29",
+          "label": "Hovde +24.7",
+          "margin": 24.72,
+          "votesRep": 2636,
+          "votesDem": 1591,
+          "votesTotal": 4318
+        },
+        "Pierce55": {
+          "color": "#BF1D29",
+          "label": "Hovde +15.3",
+          "margin": 15.32,
+          "votesRep": 14172,
+          "votesDem": 10407,
+          "votesTotal": 25138
+        },
+        "Polk55": {
+          "color": "#BF1D29",
+          "label": "Hovde +28.5",
+          "margin": 28.49,
+          "votesRep": 17446,
+          "votesDem": 9710,
+          "votesTotal": 27931
+        },
+        "Portage55": {
+          "color": "#8AAFFF",
+          "label": "Baldwin +4.5",
+          "margin": -4.53,
+          "votesRep": 20082,
+          "votesDem": 21989,
+          "votesTotal": 42932
+        },
+        "Price55": {
+          "color": "#BF1D29",
+          "label": "Hovde +26.1",
+          "margin": 26.07,
+          "votesRep": 5424,
+          "votesDem": 3181,
+          "votesTotal": 8806
+        },
+        "Racine55": {
+          "color": "#FF5865",
+          "label": "Hovde +5.2",
+          "margin": 5.24,
+          "votesRep": 54789,
+          "votesDem": 49333,
+          "votesTotal": 106626
+        },
+        "Richland55": {
+          "color": "#FF5865",
+          "label": "Hovde +8.9",
+          "margin": 8.88,
+          "votesRep": 4912,
+          "votesDem": 4111,
+          "votesTotal": 9233
+        },
+        "Rock55": {
+          "color": "#1C408C",
+          "label": "Baldwin +10.5",
+          "margin": -10.55,
+          "votesRep": 38097,
+          "votesDem": 47080,
+          "votesTotal": 87434
+        },
+        "Rusk55": {
+          "color": "#BF1D29",
+          "label": "Hovde +35.7",
+          "margin": 35.66,
+          "votesRep": 5372,
+          "votesDem": 2548,
+          "votesTotal": 8201
+        },
+        "Sauk55": {
+          "color": "#8AAFFF",
+          "label": "Baldwin +1.5",
+          "margin": -1.47,
+          "votesRep": 17895,
+          "votesDem": 18429,
+          "votesTotal": 37177
+        },
+        "Sawyer55": {
+          "color": "#BF1D29",
+          "label": "Hovde +14.7",
+          "margin": 14.66,
+          "votesRep": 6208,
+          "votesDem": 4621,
+          "votesTotal": 11033
+        },
+        "Shawano55": {
+          "color": "#BF1D29",
+          "label": "Hovde +33.2",
+          "margin": 33.2,
+          "votesRep": 15052,
+          "votesDem": 7549,
+          "votesTotal": 23298
+        },
+        "Sheboygan55": {
+          "color": "#BF1D29",
+          "label": "Hovde +15.6",
+          "margin": 15.61,
+          "votesRep": 37747,
+          "votesDem": 27552,
+          "votesTotal": 66904
+        },
+        "St. Croix55": {
+          "color": "#BF1D29",
+          "label": "Hovde +18.8",
+          "margin": 18.85,
+          "votesRep": 34844,
+          "votesDem": 23792,
+          "votesTotal": 60029
+        },
+        "Taylor55": {
+          "color": "#BF1D29",
+          "label": "Hovde +45.7",
+          "margin": 45.68,
+          "votesRep": 7892,
+          "votesDem": 2943,
+          "votesTotal": 11122
+        },
+        "Trempealeau55": {
+          "color": "#BF1D29",
+          "label": "Hovde +17.3",
+          "margin": 17.33,
+          "votesRep": 9118,
+          "votesDem": 6424,
+          "votesTotal": 15922
+        },
+        "Vernon55": {
+          "color": "#FF8B98",
+          "label": "Hovde +3.4",
+          "margin": 3.4,
+          "votesRep": 8312,
+          "votesDem": 7765,
+          "votesTotal": 16482
+        },
+        "Vilas55": {
+          "color": "#BF1D29",
+          "label": "Hovde +22.2",
+          "margin": 22.17,
+          "votesRep": 9607,
+          "votesDem": 6120,
+          "votesTotal": 16015
+        },
+        "Walworth55": {
+          "color": "#BF1D29",
+          "label": "Hovde +21.9",
+          "margin": 21.87,
+          "votesRep": 35692,
+          "votesDem": 22882,
+          "votesTotal": 60028
+        },
+        "Washburn55": {
+          "color": "#BF1D29",
+          "label": "Hovde +26.4",
+          "margin": 26.39,
+          "votesRep": 6724,
+          "votesDem": 3916,
+          "votesTotal": 10882
+        },
+        "Washington55": {
+          "color": "#BF1D29",
+          "label": "Hovde +37.1",
+          "margin": 37.11,
+          "votesRep": 61163,
+          "votesDem": 28053,
+          "votesTotal": 90742
+        },
+        "Waukesha55": {
+          "color": "#BF1D29",
+          "label": "Hovde +21.5",
+          "margin": 21.46,
+          "votesRep": 163590,
+          "votesDem": 105781,
+          "votesTotal": 273681
+        },
+        "Waupaca55": {
+          "color": "#BF1D29",
+          "label": "Hovde +31.3",
+          "margin": 31.25,
+          "votesRep": 19117,
+          "votesDem": 10013,
+          "votesTotal": 30107
+        },
+        "Waushara55": {
+          "color": "#BF1D29",
+          "label": "Hovde +33.2",
+          "margin": 33.18,
+          "votesRep": 9253,
+          "votesDem": 4643,
+          "votesTotal": 14250
+        },
+        "Winnebago55": {
+          "color": "#FF8B98",
+          "label": "Hovde +2.8",
+          "margin": 2.77,
+          "votesRep": 47265,
+          "votesDem": 44721,
+          "votesTotal": 94501
+        },
+        "Wood55": {
+          "color": "#BF1D29",
+          "label": "Hovde +16.0",
+          "margin": 16,
+          "votesRep": 23662,
+          "votesDem": 17134,
+          "votesTotal": 41831
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Tim Michels",
+      "candDem": "Tony Evers",
+      "shortRep": "Michels",
+      "shortDem": "Evers",
+      "partisan": true,
+      "margin": -3.43,
+      "votesRep": 1268535,
+      "votesDem": 1358774,
+      "votesTotal": 2656386,
+      "regions": {
+        "Adams55": {
+          "color": "#BF1D29",
+          "label": "Michels +20.5",
+          "margin": 20.54,
+          "votesRep": 5856,
+          "votesDem": 3860,
+          "votesTotal": 9906
+        },
+        "Ashland55": {
+          "color": "#1C408C",
+          "label": "Evers +16.3",
+          "margin": -16.27,
+          "votesRep": 2905,
+          "votesDem": 4034,
+          "votesTotal": 7014
+        },
+        "Barron55": {
+          "color": "#BF1D29",
+          "label": "Michels +23.7",
+          "margin": 23.71,
+          "votesRep": 12246,
+          "votesDem": 7552,
+          "votesTotal": 20128
+        },
+        "Bayfield55": {
+          "color": "#1C408C",
+          "label": "Evers +16.5",
+          "margin": -16.55,
+          "votesRep": 3843,
+          "votesDem": 5367,
+          "votesTotal": 9290
+        },
+        "Brown55": {
+          "color": "#FF8B98",
+          "label": "Michels +4.5",
+          "margin": 4.52,
+          "votesRep": 58986,
+          "votesDem": 53887,
+          "votesTotal": 114186
+        },
+        "Buffalo55": {
+          "color": "#BF1D29",
+          "label": "Michels +20.7",
+          "margin": 20.68,
+          "votesRep": 3638,
+          "votesDem": 2391,
+          "votesTotal": 6138
+        },
+        "Burnett55": {
+          "color": "#BF1D29",
+          "label": "Michels +26.1",
+          "margin": 26.13,
+          "votesRep": 5061,
+          "votesDem": 2964,
+          "votesTotal": 8142
+        },
+        "Calumet55": {
+          "color": "#BF1D29",
+          "label": "Michels +19.8",
+          "margin": 19.76,
+          "votesRep": 14828,
+          "votesDem": 9935,
+          "votesTotal": 25025
+        },
+        "Chippewa55": {
+          "color": "#BF1D29",
+          "label": "Michels +16.7",
+          "margin": 16.67,
+          "votesRep": 16792,
+          "votesDem": 11994,
+          "votesTotal": 29201
+        },
+        "Clark55": {
+          "color": "#BF1D29",
+          "label": "Michels +33.9",
+          "margin": 33.89,
+          "votesRep": 7690,
+          "votesDem": 3797,
+          "votesTotal": 11690
+        },
+        "Columbia55": {
+          "color": "#8AAFFF",
+          "label": "Evers +4.3",
+          "margin": -4.27,
+          "votesRep": 13008,
+          "votesDem": 14168,
+          "votesTotal": 27476
+        },
+        "Crawford55": {
+          "color": "#CF8980",
+          "label": "Michels +0.8",
+          "margin": 0.82,
+          "votesRep": 3486,
+          "votesDem": 3429,
+          "votesTotal": 7006
+        },
+        "Dane55": {
+          "color": "#1C408C",
+          "label": "Evers +58.3",
+          "margin": -58.31,
+          "votesRep": 62300,
+          "votesDem": 236577,
+          "votesTotal": 301029
+        },
+        "Dodge55": {
+          "color": "#BF1D29",
+          "label": "Michels +31.5",
+          "margin": 31.52,
+          "votesRep": 25428,
+          "votesDem": 13240,
+          "votesTotal": 39082
+        },
+        "Door55": {
+          "color": "#8AAFFF",
+          "label": "Evers +4.9",
+          "margin": -4.9,
+          "votesRep": 8145,
+          "votesDem": 8984,
+          "votesTotal": 17303
+        },
+        "Douglas55": {
+          "color": "#1C408C",
+          "label": "Evers +15.1",
+          "margin": -15.1,
+          "votesRep": 7823,
+          "votesDem": 10606,
+          "votesTotal": 18638
+        },
+        "Dunn55": {
+          "color": "#FF5865",
+          "label": "Michels +8.8",
+          "margin": 8.79,
+          "votesRep": 9899,
+          "votesDem": 8299,
+          "votesTotal": 18434
+        },
+        "Eau Claire55": {
+          "color": "#1C408C",
+          "label": "Evers +17.1",
+          "margin": -17.13,
+          "votesRep": 19856,
+          "votesDem": 28063,
+          "votesTotal": 48459
+        },
+        "Florence55": {
+          "color": "#BF1D29",
+          "label": "Michels +47.5",
+          "margin": 47.45,
+          "votesRep": 1838,
+          "votesDem": 655,
+          "votesTotal": 2517
+        },
+        "Fond du Lac55": {
+          "color": "#BF1D29",
+          "label": "Michels +28.2",
+          "margin": 28.21,
+          "votesRep": 29642,
+          "votesDem": 16598,
+          "votesTotal": 46718
+        },
+        "Forest55": {
+          "color": "#BF1D29",
+          "label": "Michels +29.5",
+          "margin": 29.55,
+          "votesRep": 2670,
+          "votesDem": 1452,
+          "votesTotal": 4190
+        },
+        "Grant55": {
+          "color": "#FF5865",
+          "label": "Michels +6.9",
+          "margin": 6.86,
+          "votesRep": 10594,
+          "votesDem": 9234,
+          "votesTotal": 20093
+        },
+        "Green55": {
+          "color": "#1C408C",
+          "label": "Evers +11.1",
+          "margin": -11.12,
+          "votesRep": 7681,
+          "votesDem": 9603,
+          "votesTotal": 17532
+        },
+        "Green Lake55": {
+          "color": "#BF1D29",
+          "label": "Michels +36.2",
+          "margin": 36.21,
+          "votesRep": 5864,
+          "votesDem": 2746,
+          "votesTotal": 8714
+        },
+        "Iowa55": {
+          "color": "#1C408C",
+          "label": "Evers +18.3",
+          "margin": -18.35,
+          "votesRep": 4717,
+          "votesDem": 6837,
+          "votesTotal": 11678
+        },
+        "Iron55": {
+          "color": "#BF1D29",
+          "label": "Michels +21.9",
+          "margin": 21.87,
+          "votesRep": 1964,
+          "votesDem": 1259,
+          "votesTotal": 3260
+        },
+        "Jackson55": {
+          "color": "#BF1D29",
+          "label": "Michels +11.0",
+          "margin": 11.04,
+          "votesRep": 4375,
+          "votesDem": 3505,
+          "votesTotal": 7999
+        },
+        "Jefferson55": {
+          "color": "#BF1D29",
+          "label": "Michels +12.3",
+          "margin": 12.35,
+          "votesRep": 21488,
+          "votesDem": 16765,
+          "votesTotal": 38730
+        },
+        "Juneau55": {
+          "color": "#BF1D29",
+          "label": "Michels +23.4",
+          "margin": 23.36,
+          "votesRep": 6516,
+          "votesDem": 4048,
+          "votesTotal": 10738
+        },
+        "Kenosha55": {
+          "color": "#FF8B98",
+          "label": "Michels +1.4",
+          "margin": 1.37,
+          "votesRep": 33068,
+          "votesDem": 32176,
+          "votesTotal": 66073
+        },
+        "Kewaunee55": {
+          "color": "#BF1D29",
+          "label": "Michels +27.7",
+          "margin": 27.67,
+          "votesRep": 6229,
+          "votesDem": 3529,
+          "votesTotal": 9893
+        },
+        "La Crosse55": {
+          "color": "#1C408C",
+          "label": "Evers +18.0",
+          "margin": -17.99,
+          "votesRep": 22325,
+          "votesDem": 32119,
+          "votesTotal": 55169
+        },
+        "Lafayette55": {
+          "color": "#FF5865",
+          "label": "Michels +7.6",
+          "margin": 7.58,
+          "votesRep": 3498,
+          "votesDem": 3005,
+          "votesTotal": 6569
+        },
+        "Langlade55": {
+          "color": "#BF1D29",
+          "label": "Michels +33.7",
+          "margin": 33.71,
+          "votesRep": 5966,
+          "votesDem": 2958,
+          "votesTotal": 9034
+        },
+        "Lincoln55": {
+          "color": "#BF1D29",
+          "label": "Michels +21.5",
+          "margin": 21.47,
+          "votesRep": 8084,
+          "votesDem": 5226,
+          "votesTotal": 13552
+        },
+        "Manitowoc55": {
+          "color": "#BF1D29",
+          "label": "Michels +21.5",
+          "margin": 21.5,
+          "votesRep": 21573,
+          "votesDem": 13937,
+          "votesTotal": 36036
+        },
+        "Marathon55": {
+          "color": "#BF1D29",
+          "label": "Michels +17.5",
+          "margin": 17.53,
+          "votesRep": 35860,
+          "votesDem": 25163,
+          "votesTotal": 61768
+        },
+        "Marinette55": {
+          "color": "#BF1D29",
+          "label": "Michels +33.1",
+          "margin": 33.13,
+          "votesRep": 12164,
+          "votesDem": 6110,
+          "votesTotal": 18540
+        },
+        "Marquette55": {
+          "color": "#BF1D29",
+          "label": "Michels +25.6",
+          "margin": 25.56,
+          "votesRep": 4549,
+          "votesDem": 2697,
+          "votesTotal": 7338
+        },
+        "Menominee55": {
+          "color": "#1C408C",
+          "label": "Evers +58.8",
+          "margin": -58.8,
+          "votesRep": 254,
+          "votesDem": 979,
+          "votesTotal": 1244
+        },
+        "Milwaukee55": {
+          "color": "#1C408C",
+          "label": "Evers +43.3",
+          "margin": -43.26,
+          "votesRep": 97471,
+          "votesDem": 246073,
+          "votesTotal": 346889
+        },
+        "Monroe55": {
+          "color": "#BF1D29",
+          "label": "Michels +18.9",
+          "margin": 18.86,
+          "votesRep": 10153,
+          "votesDem": 6931,
+          "votesTotal": 17341
+        },
+        "Oconto55": {
+          "color": "#BF1D29",
+          "label": "Michels +38.7",
+          "margin": 38.67,
+          "votesRep": 13363,
+          "votesDem": 5910,
+          "votesTotal": 19537
+        },
+        "Oneida55": {
+          "color": "#BF1D29",
+          "label": "Michels +13.2",
+          "margin": 13.17,
+          "votesRep": 11297,
+          "votesDem": 8667,
+          "votesTotal": 20227
+        },
+        "Outagamie55": {
+          "color": "#FF5865",
+          "label": "Michels +7.1",
+          "margin": 7.08,
+          "votesRep": 45601,
+          "votesDem": 39572,
+          "votesTotal": 86099
+        },
+        "Ozaukee55": {
+          "color": "#BF1D29",
+          "label": "Michels +11.0",
+          "margin": 11.02,
+          "votesRep": 28827,
+          "votesDem": 23104,
+          "votesTotal": 52360
+        },
+        "Pepin55": {
+          "color": "#BF1D29",
+          "label": "Michels +21.7",
+          "margin": 21.71,
+          "votesRep": 1990,
+          "votesDem": 1280,
+          "votesTotal": 3311
+        },
+        "Pierce55": {
+          "color": "#BF1D29",
+          "label": "Michels +10.2",
+          "margin": 10.21,
+          "votesRep": 9779,
+          "votesDem": 7967,
+          "votesTotal": 18026
+        },
+        "Polk55": {
+          "color": "#BF1D29",
+          "label": "Michels +24.6",
+          "margin": 24.64,
+          "votesRep": 12548,
+          "votesDem": 7587,
+          "votesTotal": 20424
+        },
+        "Portage55": {
+          "color": "#577CCC",
+          "label": "Evers +7.8",
+          "margin": -7.76,
+          "votesRep": 15361,
+          "votesDem": 17947,
+          "votesTotal": 33680
+        },
+        "Price55": {
+          "color": "#BF1D29",
+          "label": "Michels +25.5",
+          "margin": 25.46,
+          "votesRep": 4369,
+          "votesDem": 2596,
+          "votesTotal": 7062
+        },
+        "Racine55": {
+          "color": "#FF5865",
+          "label": "Michels +5.1",
+          "margin": 5.11,
+          "votesRep": 42359,
+          "votesDem": 38241,
+          "votesTotal": 81525
+        },
+        "Richland55": {
+          "color": "#FF8B98",
+          "label": "Michels +3.0",
+          "margin": 3.01,
+          "votesRep": 3562,
+          "votesDem": 3354,
+          "votesTotal": 7008
+        },
+        "Rock55": {
+          "color": "#1C408C",
+          "label": "Evers +17.1",
+          "margin": -17.11,
+          "votesRep": 26722,
+          "votesDem": 37755,
+          "votesTotal": 65276
+        },
+        "Rusk55": {
+          "color": "#BF1D29",
+          "label": "Michels +30.8",
+          "margin": 30.79,
+          "votesRep": 4120,
+          "votesDem": 2180,
+          "votesTotal": 6386
+        },
+        "Sauk55": {
+          "color": "#577CCC",
+          "label": "Evers +6.8",
+          "margin": -6.76,
+          "votesRep": 13348,
+          "votesDem": 15285,
+          "votesTotal": 28960
+        },
+        "Sawyer55": {
+          "color": "#BF1D29",
+          "label": "Michels +11.8",
+          "margin": 11.82,
+          "votesRep": 4735,
+          "votesDem": 3734,
+          "votesTotal": 8565
+        },
+        "Shawano55": {
+          "color": "#BF1D29",
+          "label": "Michels +34.0",
+          "margin": 33.97,
+          "votesRep": 11875,
+          "votesDem": 5853,
+          "votesTotal": 17937
+        },
+        "Sheboygan55": {
+          "color": "#BF1D29",
+          "label": "Michels +15.8",
+          "margin": 15.76,
+          "votesRep": 30679,
+          "votesDem": 22325,
+          "votesTotal": 53660
+        },
+        "St. Croix55": {
+          "color": "#BF1D29",
+          "label": "Michels +14.8",
+          "margin": 14.84,
+          "votesRep": 24968,
+          "votesDem": 18516,
+          "votesTotal": 44038
+        },
+        "Taylor55": {
+          "color": "#BF1D29",
+          "label": "Michels +47.1",
+          "margin": 47.14,
+          "votesRep": 6296,
+          "votesDem": 2262,
+          "votesTotal": 8700
+        },
+        "Trempealeau55": {
+          "color": "#BF1D29",
+          "label": "Michels +12.7",
+          "margin": 12.67,
+          "votesRep": 6813,
+          "votesDem": 5281,
+          "votesTotal": 12248
+        },
+        "Vernon55": {
+          "color": "#8AAFFF",
+          "label": "Evers +1.4",
+          "margin": -1.45,
+          "votesRep": 6409,
+          "votesDem": 6597,
+          "votesTotal": 13201
+        },
+        "Vilas55": {
+          "color": "#BF1D29",
+          "label": "Michels +22.1",
+          "margin": 22.15,
+          "votesRep": 7983,
+          "votesDem": 5088,
+          "votesTotal": 13220
+        },
+        "Walworth55": {
+          "color": "#BF1D29",
+          "label": "Michels +18.0",
+          "margin": 17.96,
+          "votesRep": 26700,
+          "votesDem": 18569,
+          "votesTotal": 45925
+        },
+        "Washburn55": {
+          "color": "#BF1D29",
+          "label": "Michels +22.3",
+          "margin": 22.28,
+          "votesRep": 5032,
+          "votesDem": 3198,
+          "votesTotal": 8351
+        },
+        "Washington55": {
+          "color": "#BF1D29",
+          "label": "Michels +38.2",
+          "margin": 38.19,
+          "votesRep": 50749,
+          "votesDem": 22698,
+          "votesTotal": 74029
+        },
+        "Waukesha55": {
+          "color": "#BF1D29",
+          "label": "Michels +20.5",
+          "margin": 20.49,
+          "votesRep": 134212,
+          "votesDem": 88564,
+          "votesTotal": 224603
+        },
+        "Waupaca55": {
+          "color": "#BF1D29",
+          "label": "Michels +30.3",
+          "margin": 30.31,
+          "votesRep": 14939,
+          "votesDem": 7990,
+          "votesTotal": 23226
+        },
+        "Waushara55": {
+          "color": "#BF1D29",
+          "label": "Michels +32.9",
+          "margin": 32.9,
+          "votesRep": 7459,
+          "votesDem": 3766,
+          "votesTotal": 11337
+        },
+        "Winnebago55": {
+          "color": "#CF8980",
+          "label": "Michels +1.0",
+          "margin": 0.99,
+          "votesRep": 37242,
+          "votesDem": 36512,
+          "votesTotal": 74712
+        },
+        "Wood55": {
+          "color": "#BF1D29",
+          "label": "Michels +16.1",
+          "margin": 16.13,
+          "votesRep": 18865,
+          "votesDem": 13624,
+          "votesTotal": 32991
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Ron Johnson",
+      "candDem": "Mandela Barnes",
+      "shortRep": "Johnson",
+      "shortDem": "Barnes",
+      "partisan": true,
+      "margin": 1.01,
+      "votesRep": 1337185,
+      "votesDem": 1310467,
+      "votesTotal": 2652477,
+      "regions": {
+        "Adams55": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.0",
+          "margin": 25.98,
+          "votesRep": 6202,
+          "votesDem": 3644,
+          "votesTotal": 9884
+        },
+        "Ashland55": {
+          "color": "#1C408C",
+          "label": "Barnes +11.9",
+          "margin": -11.88,
+          "votesRep": 3074,
+          "votesDem": 3903,
+          "votesTotal": 6986
+        },
+        "Barron55": {
+          "color": "#BF1D29",
+          "label": "Johnson +29.0",
+          "margin": 28.96,
+          "votesRep": 12928,
+          "votesDem": 7121,
+          "votesTotal": 20079
+        },
+        "Bayfield55": {
+          "color": "#1C408C",
+          "label": "Barnes +11.9",
+          "margin": -11.88,
+          "votesRep": 4082,
+          "votesDem": 5183,
+          "votesTotal": 9280
+        },
+        "Brown55": {
+          "color": "#FF5865",
+          "label": "Johnson +9.5",
+          "margin": 9.5,
+          "votesRep": 62221,
+          "votesDem": 51421,
+          "votesTotal": 113879
+        },
+        "Buffalo55": {
+          "color": "#BF1D29",
+          "label": "Johnson +27.9",
+          "margin": 27.93,
+          "votesRep": 3907,
+          "votesDem": 2201,
+          "votesTotal": 6118
+        },
+        "Burnett55": {
+          "color": "#BF1D29",
+          "label": "Johnson +30.8",
+          "margin": 30.84,
+          "votesRep": 5362,
+          "votesDem": 2834,
+          "votesTotal": 8196
+        },
+        "Calumet55": {
+          "color": "#BF1D29",
+          "label": "Johnson +24.2",
+          "margin": 24.18,
+          "votesRep": 15466,
+          "votesDem": 9444,
+          "votesTotal": 24951
+        },
+        "Chippewa55": {
+          "color": "#BF1D29",
+          "label": "Johnson +23.0",
+          "margin": 23.03,
+          "votesRep": 17694,
+          "votesDem": 11069,
+          "votesTotal": 28823
+        },
+        "Clark55": {
+          "color": "#BF1D29",
+          "label": "Johnson +40.7",
+          "margin": 40.66,
+          "votesRep": 8181,
+          "votesDem": 3451,
+          "votesTotal": 11654
+        },
+        "Columbia55": {
+          "color": "#FF8B98",
+          "label": "Johnson +1.8",
+          "margin": 1.79,
+          "votesRep": 13899,
+          "votesDem": 13410,
+          "votesTotal": 27373
+        },
+        "Crawford55": {
+          "color": "#FF5865",
+          "label": "Johnson +8.9",
+          "margin": 8.86,
+          "votesRep": 3797,
+          "votesDem": 3179,
+          "votesTotal": 6989
+        },
+        "Dane55": {
+          "color": "#1C408C",
+          "label": "Barnes +54.5",
+          "margin": -54.52,
+          "votesRep": 68228,
+          "votesDem": 231818,
+          "votesTotal": 300728
+        },
+        "Dodge55": {
+          "color": "#BF1D29",
+          "label": "Johnson +33.8",
+          "margin": 33.77,
+          "votesRep": 25914,
+          "votesDem": 12830,
+          "votesTotal": 38744
+        },
+        "Door55": {
+          "color": "#6b7280",
+          "label": "Johnson +0.4",
+          "margin": 0.43,
+          "votesRep": 8685,
+          "votesDem": 8611,
+          "votesTotal": 17322
+        },
+        "Douglas55": {
+          "color": "#1C408C",
+          "label": "Barnes +10.2",
+          "margin": -10.18,
+          "votesRep": 8373,
+          "votesDem": 10270,
+          "votesTotal": 18665
+        },
+        "Dunn55": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.5",
+          "margin": 14.48,
+          "votesRep": 10544,
+          "votesDem": 7876,
+          "votesTotal": 18420
+        },
+        "Eau Claire55": {
+          "color": "#1C408C",
+          "label": "Barnes +11.1",
+          "margin": -11.15,
+          "votesRep": 21208,
+          "votesDem": 26529,
+          "votesTotal": 47852
+        },
+        "Florence55": {
+          "color": "#BF1D29",
+          "label": "Johnson +50.8",
+          "margin": 50.75,
+          "votesRep": 1898,
+          "votesDem": 620,
+          "votesTotal": 2518
+        },
+        "Fond du Lac55": {
+          "color": "#BF1D29",
+          "label": "Johnson +31.4",
+          "margin": 31.36,
+          "votesRep": 30584,
+          "votesDem": 15982,
+          "votesTotal": 46604
+        },
+        "Forest55": {
+          "color": "#BF1D29",
+          "label": "Johnson +34.0",
+          "margin": 34.02,
+          "votesRep": 2785,
+          "votesDem": 1371,
+          "votesTotal": 4163
+        },
+        "Grant55": {
+          "color": "#BF1D29",
+          "label": "Johnson +13.6",
+          "margin": 13.58,
+          "votesRep": 11397,
+          "votesDem": 8671,
+          "votesTotal": 20109
+        },
+        "Green55": {
+          "color": "#8AAFFF",
+          "label": "Barnes +4.3",
+          "margin": -4.28,
+          "votesRep": 8350,
+          "votesDem": 9097,
+          "votesTotal": 17480
+        },
+        "Green Lake55": {
+          "color": "#BF1D29",
+          "label": "Johnson +39.5",
+          "margin": 39.54,
+          "votesRep": 6061,
+          "votesDem": 2626,
+          "votesTotal": 8692
+        },
+        "Iowa55": {
+          "color": "#1C408C",
+          "label": "Barnes +12.3",
+          "margin": -12.35,
+          "votesRep": 5082,
+          "votesDem": 6514,
+          "votesTotal": 11621
+        },
+        "Iron55": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.6",
+          "margin": 26.59,
+          "votesRep": 2064,
+          "votesDem": 1197,
+          "votesTotal": 3265
+        },
+        "Jackson55": {
+          "color": "#BF1D29",
+          "label": "Johnson +17.7",
+          "margin": 17.68,
+          "votesRep": 4700,
+          "votesDem": 3288,
+          "votesTotal": 7988
+        },
+        "Jefferson55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.2",
+          "margin": 16.24,
+          "votesRep": 22402,
+          "votesDem": 16141,
+          "votesTotal": 38607
+        },
+        "Juneau55": {
+          "color": "#BF1D29",
+          "label": "Johnson +29.5",
+          "margin": 29.48,
+          "votesRep": 6944,
+          "votesDem": 3782,
+          "votesTotal": 10746
+        },
+        "Kenosha55": {
+          "color": "#FF8B98",
+          "label": "Johnson +4.6",
+          "margin": 4.6,
+          "votesRep": 34393,
+          "votesDem": 31371,
+          "votesTotal": 65923
+        },
+        "Kewaunee55": {
+          "color": "#BF1D29",
+          "label": "Johnson +33.9",
+          "margin": 33.88,
+          "votesRep": 6627,
+          "votesDem": 3273,
+          "votesTotal": 9920
+        },
+        "La Crosse55": {
+          "color": "#1C408C",
+          "label": "Barnes +11.4",
+          "margin": -11.4,
+          "votesRep": 24413,
+          "votesDem": 30695,
+          "votesTotal": 55223
+        },
+        "Lafayette55": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.1",
+          "margin": 15.11,
+          "votesRep": 3779,
+          "votesDem": 2787,
+          "votesTotal": 6566
+        },
+        "Langlade55": {
+          "color": "#BF1D29",
+          "label": "Johnson +37.4",
+          "margin": 37.43,
+          "votesRep": 6190,
+          "votesDem": 2818,
+          "votesTotal": 9008
+        },
+        "Lincoln55": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.9",
+          "margin": 26.9,
+          "votesRep": 8541,
+          "votesDem": 4920,
+          "votesTotal": 13490
+        },
+        "Manitowoc55": {
+          "color": "#BF1D29",
+          "label": "Johnson +25.9",
+          "margin": 25.87,
+          "votesRep": 22561,
+          "votesDem": 13288,
+          "votesTotal": 35918
+        },
+        "Marathon55": {
+          "color": "#BF1D29",
+          "label": "Johnson +22.2",
+          "margin": 22.16,
+          "votesRep": 37527,
+          "votesDem": 23912,
+          "votesTotal": 61542
+        },
+        "Marinette55": {
+          "color": "#BF1D29",
+          "label": "Johnson +37.1",
+          "margin": 37.1,
+          "votesRep": 12677,
+          "votesDem": 5816,
+          "votesTotal": 18535
+        },
+        "Marquette55": {
+          "color": "#BF1D29",
+          "label": "Johnson +29.5",
+          "margin": 29.47,
+          "votesRep": 4753,
+          "votesDem": 2589,
+          "votesTotal": 7353
+        },
+        "Menominee55": {
+          "color": "#1C408C",
+          "label": "Barnes +56.9",
+          "margin": -56.93,
+          "votesRep": 264,
+          "votesDem": 962,
+          "votesTotal": 1226
+        },
+        "Milwaukee55": {
+          "color": "#1C408C",
+          "label": "Barnes +40.3",
+          "margin": -40.3,
+          "votesRep": 103666,
+          "votesDem": 243638,
+          "votesTotal": 348059
+        },
+        "Monroe55": {
+          "color": "#BF1D29",
+          "label": "Johnson +25.1",
+          "margin": 25.14,
+          "votesRep": 10801,
+          "votesDem": 6461,
+          "votesTotal": 17311
+        },
+        "Oconto55": {
+          "color": "#BF1D29",
+          "label": "Johnson +43.3",
+          "margin": 43.28,
+          "votesRep": 13961,
+          "votesDem": 5527,
+          "votesTotal": 19535
+        },
+        "Oneida55": {
+          "color": "#BF1D29",
+          "label": "Johnson +17.8",
+          "margin": 17.81,
+          "votesRep": 11866,
+          "votesDem": 8279,
+          "votesTotal": 20186
+        },
+        "Outagamie55": {
+          "color": "#BF1D29",
+          "label": "Johnson +11.5",
+          "margin": 11.53,
+          "votesRep": 47805,
+          "votesDem": 37922,
+          "votesTotal": 85727
+        },
+        "Ozaukee55": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.8",
+          "margin": 15.83,
+          "votesRep": 30209,
+          "votesDem": 21954,
+          "votesTotal": 52293
+        },
+        "Pepin55": {
+          "color": "#BF1D29",
+          "label": "Johnson +28.6",
+          "margin": 28.65,
+          "votesRep": 2122,
+          "votesDem": 1177,
+          "votesTotal": 3300
+        },
+        "Pierce55": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.4",
+          "margin": 14.45,
+          "votesRep": 10313,
+          "votesDem": 7709,
+          "votesTotal": 18037
+        },
+        "Polk55": {
+          "color": "#BF1D29",
+          "label": "Johnson +28.5",
+          "margin": 28.46,
+          "votesRep": 13132,
+          "votesDem": 7313,
+          "votesTotal": 20447
+        },
+        "Portage55": {
+          "color": "#8AAFFF",
+          "label": "Barnes +2.5",
+          "margin": -2.53,
+          "votesRep": 16339,
+          "votesDem": 17186,
+          "votesTotal": 33575
+        },
+        "Price55": {
+          "color": "#BF1D29",
+          "label": "Johnson +30.2",
+          "margin": 30.17,
+          "votesRep": 4584,
+          "votesDem": 2459,
+          "votesTotal": 7047
+        },
+        "Racine55": {
+          "color": "#FF5865",
+          "label": "Johnson +8.6",
+          "margin": 8.55,
+          "votesRep": 44221,
+          "votesDem": 37252,
+          "votesTotal": 81691
+        },
+        "Richland55": {
+          "color": "#FF5865",
+          "label": "Johnson +9.3",
+          "margin": 9.34,
+          "votesRep": 3827,
+          "votesDem": 3173,
+          "votesTotal": 7012
+        },
+        "Rock55": {
+          "color": "#1C408C",
+          "label": "Barnes +11.2",
+          "margin": -11.22,
+          "votesRep": 28758,
+          "votesDem": 36024,
+          "votesTotal": 64942
+        },
+        "Rusk55": {
+          "color": "#BF1D29",
+          "label": "Johnson +35.6",
+          "margin": 35.57,
+          "votesRep": 4326,
+          "votesDem": 2056,
+          "votesTotal": 6384
+        },
+        "Sauk55": {
+          "color": "#8AAFFF",
+          "label": "Barnes +1.1",
+          "margin": -1.14,
+          "votesRep": 14289,
+          "votesDem": 14618,
+          "votesTotal": 28907
+        },
+        "Sawyer55": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.8",
+          "margin": 15.82,
+          "votesRep": 4949,
+          "votesDem": 3597,
+          "votesTotal": 8559
+        },
+        "Shawano55": {
+          "color": "#BF1D29",
+          "label": "Johnson +38.6",
+          "margin": 38.64,
+          "votesRep": 12415,
+          "votesDem": 5495,
+          "votesTotal": 17912
+        },
+        "Sheboygan55": {
+          "color": "#BF1D29",
+          "label": "Johnson +20.0",
+          "margin": 20.05,
+          "votesRep": 32058,
+          "votesDem": 21350,
+          "votesTotal": 53537
+        },
+        "St. Croix55": {
+          "color": "#BF1D29",
+          "label": "Johnson +18.9",
+          "margin": 18.91,
+          "votesRep": 26143,
+          "votesDem": 17827,
+          "votesTotal": 44022
+        },
+        "Taylor55": {
+          "color": "#BF1D29",
+          "label": "Johnson +50.8",
+          "margin": 50.79,
+          "votesRep": 6527,
+          "votesDem": 2130,
+          "votesTotal": 8657
+        },
+        "Trempealeau55": {
+          "color": "#BF1D29",
+          "label": "Johnson +19.6",
+          "margin": 19.62,
+          "votesRep": 7322,
+          "votesDem": 4920,
+          "votesTotal": 12255
+        },
+        "Vernon55": {
+          "color": "#FF5865",
+          "label": "Johnson +5.7",
+          "margin": 5.66,
+          "votesRep": 6950,
+          "votesDem": 6206,
+          "votesTotal": 13174
+        },
+        "Vilas55": {
+          "color": "#BF1D29",
+          "label": "Johnson +27.0",
+          "margin": 26.97,
+          "votesRep": 8350,
+          "votesDem": 4803,
+          "votesTotal": 13177
+        },
+        "Walworth55": {
+          "color": "#BF1D29",
+          "label": "Johnson +22.2",
+          "margin": 22.2,
+          "votesRep": 27995,
+          "votesDem": 17824,
+          "votesTotal": 45931
+        },
+        "Washburn55": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.4",
+          "margin": 26.38,
+          "votesRep": 5277,
+          "votesDem": 3074,
+          "votesTotal": 8355
+        },
+        "Washington55": {
+          "color": "#BF1D29",
+          "label": "Johnson +41.7",
+          "margin": 41.69,
+          "votesRep": 52401,
+          "votesDem": 21566,
+          "votesTotal": 73967
+        },
+        "Waukesha55": {
+          "color": "#BF1D29",
+          "label": "Johnson +25.4",
+          "margin": 25.38,
+          "votesRep": 140156,
+          "votesDem": 83408,
+          "votesTotal": 224073
+        },
+        "Waupaca55": {
+          "color": "#BF1D29",
+          "label": "Johnson +34.0",
+          "margin": 33.96,
+          "votesRep": 15525,
+          "votesDem": 7653,
+          "votesTotal": 23220
+        },
+        "Waushara55": {
+          "color": "#BF1D29",
+          "label": "Johnson +37.0",
+          "margin": 37.05,
+          "votesRep": 7765,
+          "votesDem": 3567,
+          "votesTotal": 11335
+        },
+        "Winnebago55": {
+          "color": "#FF5865",
+          "label": "Johnson +6.1",
+          "margin": 6.08,
+          "votesRep": 39372,
+          "votesDem": 34860,
+          "votesTotal": 74417
+        },
+        "Wood55": {
+          "color": "#BF1D29",
+          "label": "Johnson +21.5",
+          "margin": 21.5,
+          "votesRep": 20004,
+          "votesDem": 12925,
+          "votesTotal": 32993
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Scott Walker",
+      "candDem": "Tony Evers",
+      "shortRep": "Walker",
+      "shortDem": "Evers",
+      "partisan": true,
+      "margin": -1.12,
+      "votesRep": 1295080,
+      "votesDem": 1324307,
+      "votesTotal": 2672338,
+      "regions": {
+        "Adams55": {
+          "color": "#BF1D29",
+          "label": "Walker +14.5",
+          "margin": 14.47,
+          "votesRep": 5209,
+          "votesDem": 3892,
+          "votesTotal": 9289
+        },
+        "Ashland55": {
+          "color": "#1C408C",
+          "label": "Evers +23.5",
+          "margin": -23.46,
+          "votesRep": 2584,
+          "votesDem": 4168,
+          "votesTotal": 6916
+        },
+        "Barron55": {
+          "color": "#BF1D29",
+          "label": "Walker +16.6",
+          "margin": 16.59,
+          "votesRep": 10655,
+          "votesDem": 7623,
+          "votesTotal": 18567
+        },
+        "Bayfield55": {
+          "color": "#1C408C",
+          "label": "Evers +19.7",
+          "margin": -19.67,
+          "votesRep": 3458,
+          "votesDem": 5152,
+          "votesTotal": 8796
+        },
+        "Brown55": {
+          "color": "#FF5865",
+          "label": "Walker +8.6",
+          "margin": 8.57,
+          "votesRep": 61424,
+          "votesDem": 51724,
+          "votesTotal": 115622
+        },
+        "Buffalo55": {
+          "color": "#BF1D29",
+          "label": "Walker +18.4",
+          "margin": 18.43,
+          "votesRep": 3463,
+          "votesDem": 2385,
+          "votesTotal": 5975
+        },
+        "Burnett55": {
+          "color": "#BF1D29",
+          "label": "Walker +26.0",
+          "margin": 25.95,
+          "votesRep": 4664,
+          "votesDem": 2742,
+          "votesTotal": 7588
+        },
+        "Calumet55": {
+          "color": "#BF1D29",
+          "label": "Walker +22.8",
+          "margin": 22.83,
+          "votesRep": 14313,
+          "votesDem": 8992,
+          "votesTotal": 23703
+        },
+        "Chippewa55": {
+          "color": "#BF1D29",
+          "label": "Walker +13.8",
+          "margin": 13.8,
+          "votesRep": 15499,
+          "votesDem": 11739,
+          "votesTotal": 27774
+        },
+        "Clark55": {
+          "color": "#BF1D29",
+          "label": "Walker +30.1",
+          "margin": 30.08,
+          "votesRep": 7469,
+          "votesDem": 4015,
+          "votesTotal": 11714
+        },
+        "Columbia55": {
+          "color": "#577CCC",
+          "label": "Evers +6.6",
+          "margin": -6.65,
+          "votesRep": 12363,
+          "votesDem": 14124,
+          "votesTotal": 27024
+        },
+        "Crawford55": {
+          "color": "#8AAFFF",
+          "label": "Evers +3.7",
+          "margin": -3.66,
+          "votesRep": 3117,
+          "votesDem": 3354,
+          "votesTotal": 6604
+        },
+        "Dane55": {
+          "color": "#1C408C",
+          "label": "Evers +52.1",
+          "margin": -52.15,
+          "votesRep": 69206,
+          "votesDem": 220052,
+          "votesTotal": 294480
+        },
+        "Dodge55": {
+          "color": "#BF1D29",
+          "label": "Walker +26.9",
+          "margin": 26.88,
+          "votesRep": 23516,
+          "votesDem": 13552,
+          "votesTotal": 37810
+        },
+        "Door55": {
+          "color": "#FF8B98",
+          "label": "Walker +2.3",
+          "margin": 2.31,
+          "votesRep": 8536,
+          "votesDem": 8151,
+          "votesTotal": 16976
+        },
+        "Douglas55": {
+          "color": "#1C408C",
+          "label": "Evers +20.7",
+          "margin": -20.69,
+          "votesRep": 7251,
+          "votesDem": 11034,
+          "votesTotal": 18750
+        },
+        "Dunn55": {
+          "color": "#FF8B98",
+          "label": "Walker +3.3",
+          "margin": 3.28,
+          "votesRep": 9255,
+          "votesDem": 8667,
+          "votesTotal": 18457
+        },
+        "Eau Claire55": {
+          "color": "#1C408C",
+          "label": "Evers +12.4",
+          "margin": -12.42,
+          "votesRep": 20855,
+          "votesDem": 26768,
+          "votesTotal": 48807
+        },
+        "Florence55": {
+          "color": "#BF1D29",
+          "label": "Walker +40.1",
+          "margin": 40.07,
+          "votesRep": 1503,
+          "votesDem": 643,
+          "votesTotal": 2181
+        },
+        "Fond du Lac55": {
+          "color": "#BF1D29",
+          "label": "Walker +25.9",
+          "margin": 25.92,
+          "votesRep": 27941,
+          "votesDem": 16439,
+          "votesTotal": 45176
+        },
+        "Forest55": {
+          "color": "#BF1D29",
+          "label": "Walker +23.9",
+          "margin": 23.93,
+          "votesRep": 2421,
+          "votesDem": 1486,
+          "votesTotal": 3982
+        },
+        "Grant55": {
+          "color": "#949BB3",
+          "label": "Evers +0.9",
+          "margin": -0.85,
+          "votesRep": 9502,
+          "votesDem": 9665,
+          "votesTotal": 19592
+        },
+        "Green55": {
+          "color": "#1C408C",
+          "label": "Evers +12.2",
+          "margin": -12.24,
+          "votesRep": 7333,
+          "votesDem": 9378,
+          "votesTotal": 17084
+        },
+        "Green Lake55": {
+          "color": "#BF1D29",
+          "label": "Walker +34.5",
+          "margin": 34.54,
+          "votesRep": 5411,
+          "votesDem": 2633,
+          "votesTotal": 8182
+        },
+        "Iowa55": {
+          "color": "#1C408C",
+          "label": "Evers +21.8",
+          "margin": -21.75,
+          "votesRep": 4289,
+          "votesDem": 6674,
+          "votesTotal": 11172
+        },
+        "Iron55": {
+          "color": "#BF1D29",
+          "label": "Walker +17.1",
+          "margin": 17.09,
+          "votesRep": 1785,
+          "votesDem": 1264,
+          "votesTotal": 3092
+        },
+        "Jackson55": {
+          "color": "#FF5865",
+          "label": "Walker +5.3",
+          "margin": 5.3,
+          "votesRep": 4129,
+          "votesDem": 3713,
+          "votesTotal": 8016
+        },
+        "Jefferson55": {
+          "color": "#BF1D29",
+          "label": "Walker +14.6",
+          "margin": 14.55,
+          "votesRep": 21475,
+          "votesDem": 16018,
+          "votesTotal": 38144
+        },
+        "Juneau55": {
+          "color": "#BF1D29",
+          "label": "Walker +14.5",
+          "margin": 14.51,
+          "votesRep": 5689,
+          "votesDem": 4247,
+          "votesTotal": 10125
+        },
+        "Kenosha55": {
+          "color": "#8AAFFF",
+          "label": "Evers +4.5",
+          "margin": -4.5,
+          "votesRep": 31512,
+          "votesDem": 34481,
+          "votesTotal": 68022
+        },
+        "Kewaunee55": {
+          "color": "#BF1D29",
+          "label": "Walker +23.7",
+          "margin": 23.71,
+          "votesRep": 5792,
+          "votesDem": 3572,
+          "votesTotal": 9497
+        },
+        "La Crosse55": {
+          "color": "#1C408C",
+          "label": "Evers +15.4",
+          "margin": -15.4,
+          "votesRep": 23537,
+          "votesDem": 32103,
+          "votesTotal": 57081
+        },
+        "Lafayette55": {
+          "color": "#FF8B98",
+          "label": "Walker +2.9",
+          "margin": 2.93,
+          "votesRep": 3324,
+          "votesDem": 3135,
+          "votesTotal": 6563
+        },
+        "Langlade55": {
+          "color": "#BF1D29",
+          "label": "Walker +33.8",
+          "margin": 33.82,
+          "votesRep": 5712,
+          "votesDem": 2825,
+          "votesTotal": 9265
+        },
+        "Lincoln55": {
+          "color": "#BF1D29",
+          "label": "Walker +19.2",
+          "margin": 19.17,
+          "votesRep": 7865,
+          "votesDem": 5335,
+          "votesTotal": 13504
+        },
+        "Manitowoc55": {
+          "color": "#BF1D29",
+          "label": "Walker +22.5",
+          "margin": 22.5,
+          "votesRep": 21360,
+          "votesDem": 13513,
+          "votesTotal": 35548
+        },
+        "Marathon55": {
+          "color": "#BF1D29",
+          "label": "Walker +21.1",
+          "margin": 21.05,
+          "votesRep": 36886,
+          "votesDem": 24057,
+          "votesTotal": 62128
+        },
+        "Marinette55": {
+          "color": "#BF1D29",
+          "label": "Walker +27.6",
+          "margin": 27.61,
+          "votesRep": 10916,
+          "votesDem": 6193,
+          "votesTotal": 17405
+        },
+        "Marquette55": {
+          "color": "#BF1D29",
+          "label": "Walker +17.5",
+          "margin": 17.47,
+          "votesRep": 4143,
+          "votesDem": 2911,
+          "votesTotal": 7191
+        },
+        "Menominee55": {
+          "color": "#1C408C",
+          "label": "Evers +57.6",
+          "margin": -57.6,
+          "votesRep": 233,
+          "votesDem": 866,
+          "votesTotal": 1132
+        },
+        "Milwaukee55": {
+          "color": "#1C408C",
+          "label": "Evers +35.8",
+          "margin": -35.75,
+          "votesRep": 124055,
+          "votesDem": 262124,
+          "votesTotal": 393596
+        },
+        "Monroe55": {
+          "color": "#BF1D29",
+          "label": "Walker +15.2",
+          "margin": 15.18,
+          "votesRep": 9464,
+          "votesDem": 6969,
+          "votesTotal": 16794
+        },
+        "Oconto55": {
+          "color": "#BF1D29",
+          "label": "Walker +32.5",
+          "margin": 32.46,
+          "votesRep": 11490,
+          "votesDem": 5858,
+          "votesTotal": 17588
+        },
+        "Oneida55": {
+          "color": "#BF1D29",
+          "label": "Walker +17.8",
+          "margin": 17.79,
+          "votesRep": 11248,
+          "votesDem": 7850,
+          "votesTotal": 19598
+        },
+        "Outagamie55": {
+          "color": "#BF1D29",
+          "label": "Walker +11.1",
+          "margin": 11.11,
+          "votesRep": 45359,
+          "votesDem": 36290,
+          "votesTotal": 83413
+        },
+        "Ozaukee55": {
+          "color": "#BF1D29",
+          "label": "Walker +27.1",
+          "margin": 27.1,
+          "votesRep": 32069,
+          "votesDem": 18394,
+          "votesTotal": 51156
+        },
+        "Pepin55": {
+          "color": "#BF1D29",
+          "label": "Walker +13.4",
+          "margin": 13.39,
+          "votesRep": 1745,
+          "votesDem": 1333,
+          "votesTotal": 3135
+        },
+        "Pierce55": {
+          "color": "#FF8B98",
+          "label": "Walker +3.2",
+          "margin": 3.23,
+          "votesRep": 8740,
+          "votesDem": 8193,
+          "votesTotal": 17498
+        },
+        "Polk55": {
+          "color": "#BF1D29",
+          "label": "Walker +19.4",
+          "margin": 19.41,
+          "votesRep": 10866,
+          "votesDem": 7333,
+          "votesTotal": 18603
+        },
+        "Portage55": {
+          "color": "#577CCC",
+          "label": "Evers +6.0",
+          "margin": -6.03,
+          "votesRep": 15958,
+          "votesDem": 18007,
+          "votesTotal": 34856
+        },
+        "Price55": {
+          "color": "#BF1D29",
+          "label": "Walker +21.4",
+          "margin": 21.44,
+          "votesRep": 3996,
+          "votesDem": 2585,
+          "votesTotal": 6679
+        },
+        "Racine55": {
+          "color": "#FF5865",
+          "label": "Walker +5.0",
+          "margin": 5.01,
+          "votesRep": 44770,
+          "votesDem": 40498,
+          "votesTotal": 87141
+        },
+        "Richland55": {
+          "color": "#8AAFFF",
+          "label": "Evers +4.9",
+          "margin": -4.89,
+          "votesRep": 3285,
+          "votesDem": 3623,
+          "votesTotal": 7052
+        },
+        "Rock55": {
+          "color": "#1C408C",
+          "label": "Evers +19.2",
+          "margin": -19.19,
+          "votesRep": 26904,
+          "votesDem": 39680,
+          "votesTotal": 68339
+        },
+        "Rusk55": {
+          "color": "#BF1D29",
+          "label": "Walker +27.0",
+          "margin": 26.97,
+          "votesRep": 3797,
+          "votesDem": 2184,
+          "votesTotal": 6096
+        },
+        "Sauk55": {
+          "color": "#1C408C",
+          "label": "Evers +10.7",
+          "margin": -10.67,
+          "votesRep": 12615,
+          "votesDem": 15630,
+          "votesTotal": 28932
+        },
+        "Sawyer55": {
+          "color": "#BF1D29",
+          "label": "Walker +13.2",
+          "margin": 13.18,
+          "votesRep": 4542,
+          "votesDem": 3484,
+          "votesTotal": 8197
+        },
+        "Shawano55": {
+          "color": "#BF1D29",
+          "label": "Walker +30.4",
+          "margin": 30.44,
+          "votesRep": 11478,
+          "votesDem": 6121,
+          "votesTotal": 18000
+        },
+        "Sheboygan55": {
+          "color": "#BF1D29",
+          "label": "Walker +20.5",
+          "margin": 20.49,
+          "votesRep": 31520,
+          "votesDem": 20801,
+          "votesTotal": 53233
+        },
+        "St. Croix55": {
+          "color": "#BF1D29",
+          "label": "Walker +14.0",
+          "margin": 13.96,
+          "votesRep": 22108,
+          "votesDem": 16690,
+          "votesTotal": 40059
+        },
+        "Taylor55": {
+          "color": "#BF1D29",
+          "label": "Walker +43.0",
+          "margin": 42.98,
+          "votesRep": 5690,
+          "votesDem": 2269,
+          "votesTotal": 8088
+        },
+        "Trempealeau55": {
+          "color": "#BF1D29",
+          "label": "Walker +10.2",
+          "margin": 10.24,
+          "votesRep": 6623,
+          "votesDem": 5393,
+          "votesTotal": 12253
+        },
+        "Vernon55": {
+          "color": "#8AAFFF",
+          "label": "Evers +2.1",
+          "margin": -2.14,
+          "votesRep": 6276,
+          "votesDem": 6550,
+          "votesTotal": 13059
+        },
+        "Vilas55": {
+          "color": "#BF1D29",
+          "label": "Walker +26.8",
+          "margin": 26.81,
+          "votesRep": 7814,
+          "votesDem": 4510,
+          "votesTotal": 12517
+        },
+        "Walworth55": {
+          "color": "#BF1D29",
+          "label": "Walker +21.8",
+          "margin": 21.79,
+          "votesRep": 27088,
+          "votesDem": 17394,
+          "votesTotal": 45443
+        },
+        "Washburn55": {
+          "color": "#BF1D29",
+          "label": "Walker +15.1",
+          "margin": 15.08,
+          "votesRep": 4461,
+          "votesDem": 3292,
+          "votesTotal": 7916
+        },
+        "Washington55": {
+          "color": "#BF1D29",
+          "label": "Walker +46.3",
+          "margin": 46.3,
+          "votesRep": 50958,
+          "votesDem": 18703,
+          "votesTotal": 70545
+        },
+        "Waukesha55": {
+          "color": "#BF1D29",
+          "label": "Walker +34.1",
+          "margin": 34.08,
+          "votesRep": 146699,
+          "votesDem": 72131,
+          "votesTotal": 221727
+        },
+        "Waupaca55": {
+          "color": "#BF1D29",
+          "label": "Walker +26.1",
+          "margin": 26.15,
+          "votesRep": 13909,
+          "votesDem": 8143,
+          "votesTotal": 22466
+        },
+        "Waushara55": {
+          "color": "#BF1D29",
+          "label": "Walker +28.5",
+          "margin": 28.46,
+          "votesRep": 6719,
+          "votesDem": 3742,
+          "votesTotal": 10629
+        },
+        "Winnebago55": {
+          "color": "#FF8B98",
+          "label": "Walker +3.7",
+          "margin": 3.73,
+          "votesRep": 38368,
+          "votesDem": 35610,
+          "votesTotal": 75718
+        },
+        "Wood55": {
+          "color": "#BF1D29",
+          "label": "Walker +16.1",
+          "margin": 16.1,
+          "votesRep": 18871,
+          "votesDem": 13638,
+          "votesTotal": 33078
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Leah Vukmir",
+      "candDem": "Tammy Baldwin",
+      "shortRep": "Vukmir",
+      "shortDem": "Baldwin",
+      "partisan": true,
+      "margin": -10.84,
+      "votesRep": 1184885,
+      "votesDem": 1472914,
+      "votesTotal": 2657841,
+      "regions": {
+        "Adams55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +3.4",
+          "margin": 3.38,
+          "votesRep": 4854,
+          "votesDem": 4537,
+          "votesTotal": 9391
+        },
+        "Ashland55": {
+          "color": "#1C408C",
+          "label": "Baldwin +31.7",
+          "margin": -31.7,
+          "votesRep": 2351,
+          "votesDem": 4533,
+          "votesTotal": 6884
+        },
+        "Barron55": {
+          "color": "#FF5865",
+          "label": "Vukmir +7.3",
+          "margin": 7.25,
+          "votesRep": 9911,
+          "votesDem": 8571,
+          "votesTotal": 18483
+        },
+        "Bayfield55": {
+          "color": "#1C408C",
+          "label": "Baldwin +26.3",
+          "margin": -26.3,
+          "votesRep": 3233,
+          "votesDem": 5541,
+          "votesTotal": 8774
+        },
+        "Brown55": {
+          "color": "#8AAFFF",
+          "label": "Baldwin +2.9",
+          "margin": -2.94,
+          "votesRep": 55750,
+          "votesDem": 59132,
+          "votesTotal": 114882
+        },
+        "Buffalo55": {
+          "color": "#6b7280",
+          "label": "Vukmir +0.4",
+          "margin": 0.39,
+          "votesRep": 2968,
+          "votesDem": 2945,
+          "votesTotal": 5913
+        },
+        "Burnett55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +13.9",
+          "margin": 13.95,
+          "votesRep": 4289,
+          "votesDem": 3239,
+          "votesTotal": 7528
+        },
+        "Calumet55": {
+          "color": "#FF5865",
+          "label": "Vukmir +8.8",
+          "margin": 8.83,
+          "votesRep": 12822,
+          "votesDem": 10741,
+          "votesTotal": 23563
+        },
+        "Chippewa55": {
+          "color": "#6b7280",
+          "label": "Vukmir +0.1",
+          "margin": 0.12,
+          "votesRep": 13830,
+          "votesDem": 13798,
+          "votesTotal": 27629
+        },
+        "Clark55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +12.7",
+          "margin": 12.66,
+          "votesRep": 6558,
+          "votesDem": 5084,
+          "votesTotal": 11643
+        },
+        "Columbia55": {
+          "color": "#1C408C",
+          "label": "Baldwin +13.2",
+          "margin": -13.22,
+          "votesRep": 11674,
+          "votesDem": 15230,
+          "votesTotal": 26904
+        },
+        "Crawford55": {
+          "color": "#1C408C",
+          "label": "Baldwin +17.5",
+          "margin": -17.53,
+          "votesRep": 2703,
+          "votesDem": 3852,
+          "votesTotal": 6555
+        },
+        "Dane55": {
+          "color": "#1C408C",
+          "label": "Baldwin +55.4",
+          "margin": -55.37,
+          "votesRep": 65515,
+          "votesDem": 228050,
+          "votesTotal": 293571
+        },
+        "Dodge55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +14.6",
+          "margin": 14.6,
+          "votesRep": 21482,
+          "votesDem": 16007,
+          "votesTotal": 37490
+        },
+        "Door55": {
+          "color": "#1C408C",
+          "label": "Baldwin +11.5",
+          "margin": -11.5,
+          "votesRep": 7494,
+          "votesDem": 9442,
+          "votesTotal": 16936
+        },
+        "Douglas55": {
+          "color": "#1C408C",
+          "label": "Baldwin +25.6",
+          "margin": -25.59,
+          "votesRep": 6925,
+          "votesDem": 11689,
+          "votesTotal": 18614
+        },
+        "Dunn55": {
+          "color": "#577CCC",
+          "label": "Baldwin +6.1",
+          "margin": -6.1,
+          "votesRep": 8623,
+          "votesDem": 9743,
+          "votesTotal": 18367
+        },
+        "Eau Claire55": {
+          "color": "#1C408C",
+          "label": "Baldwin +21.9",
+          "margin": -21.94,
+          "votesRep": 18957,
+          "votesDem": 29614,
+          "votesTotal": 48575
+        },
+        "Florence55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +32.7",
+          "margin": 32.72,
+          "votesRep": 1438,
+          "votesDem": 729,
+          "votesTotal": 2167
+        },
+        "Fond du Lac55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +14.4",
+          "margin": 14.43,
+          "votesRep": 25496,
+          "votesDem": 19065,
+          "votesTotal": 44562
+        },
+        "Forest55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +4.6",
+          "margin": 4.64,
+          "votesRep": 2062,
+          "votesDem": 1879,
+          "votesTotal": 3941
+        },
+        "Grant55": {
+          "color": "#577CCC",
+          "label": "Baldwin +8.7",
+          "margin": -8.73,
+          "votesRep": 8860,
+          "votesDem": 10554,
+          "votesTotal": 19414
+        },
+        "Green55": {
+          "color": "#1C408C",
+          "label": "Baldwin +20.9",
+          "margin": -20.92,
+          "votesRep": 6732,
+          "votesDem": 10294,
+          "votesTotal": 17026
+        },
+        "Green Lake55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +20.6",
+          "margin": 20.59,
+          "votesRep": 4893,
+          "votesDem": 3222,
+          "votesTotal": 8115
+        },
+        "Iowa55": {
+          "color": "#1C408C",
+          "label": "Baldwin +30.9",
+          "margin": -30.93,
+          "votesRep": 3835,
+          "votesDem": 7270,
+          "votesTotal": 11105
+        },
+        "Iron55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +4.8",
+          "margin": 4.77,
+          "votesRep": 1605,
+          "votesDem": 1459,
+          "votesTotal": 3064
+        },
+        "Jackson55": {
+          "color": "#577CCC",
+          "label": "Baldwin +9.5",
+          "margin": -9.51,
+          "votesRep": 3611,
+          "votesDem": 4370,
+          "votesTotal": 7981
+        },
+        "Jefferson55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +4.6",
+          "margin": 4.63,
+          "votesRep": 19809,
+          "votesDem": 18055,
+          "votesTotal": 37864
+        },
+        "Juneau55": {
+          "color": "#FF5865",
+          "label": "Vukmir +7.6",
+          "margin": 7.64,
+          "votesRep": 5429,
+          "votesDem": 4658,
+          "votesTotal": 10087
+        },
+        "Kenosha55": {
+          "color": "#1C408C",
+          "label": "Baldwin +13.5",
+          "margin": -13.51,
+          "votesRep": 29181,
+          "votesDem": 38296,
+          "votesTotal": 67477
+        },
+        "Kewaunee55": {
+          "color": "#FF5865",
+          "label": "Vukmir +9.2",
+          "margin": 9.22,
+          "votesRep": 5158,
+          "votesDem": 4287,
+          "votesTotal": 9445
+        },
+        "La Crosse55": {
+          "color": "#1C408C",
+          "label": "Baldwin +25.6",
+          "margin": -25.61,
+          "votesRep": 21160,
+          "votesDem": 35731,
+          "votesTotal": 56891
+        },
+        "Lafayette55": {
+          "color": "#1C408C",
+          "label": "Baldwin +10.7",
+          "margin": -10.66,
+          "votesRep": 2900,
+          "votesDem": 3592,
+          "votesTotal": 6492
+        },
+        "Langlade55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +14.8",
+          "margin": 14.79,
+          "votesRep": 5239,
+          "votesDem": 3889,
+          "votesTotal": 9128
+        },
+        "Lincoln55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +3.3",
+          "margin": 3.28,
+          "votesRep": 6901,
+          "votesDem": 6463,
+          "votesTotal": 13364
+        },
+        "Manitowoc55": {
+          "color": "#FF5865",
+          "label": "Vukmir +6.4",
+          "margin": 6.38,
+          "votesRep": 18795,
+          "votesDem": 16541,
+          "votesTotal": 35336
+        },
+        "Marathon55": {
+          "color": "#FF5865",
+          "label": "Vukmir +5.8",
+          "margin": 5.79,
+          "votesRep": 32661,
+          "votesDem": 29084,
+          "votesTotal": 61746
+        },
+        "Marinette55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +12.8",
+          "margin": 12.82,
+          "votesRep": 9731,
+          "votesDem": 7520,
+          "votesTotal": 17252
+        },
+        "Marquette55": {
+          "color": "#FF5865",
+          "label": "Vukmir +6.4",
+          "margin": 6.37,
+          "votesRep": 3791,
+          "votesDem": 3337,
+          "votesTotal": 7128
+        },
+        "Menominee55": {
+          "color": "#1C408C",
+          "label": "Baldwin +60.6",
+          "margin": -60.57,
+          "votesRep": 220,
+          "votesDem": 896,
+          "votesTotal": 1116
+        },
+        "Milwaukee55": {
+          "color": "#1C408C",
+          "label": "Baldwin +43.0",
+          "margin": -43.03,
+          "votesRep": 111684,
+          "votesDem": 280426,
+          "votesTotal": 392115
+        },
+        "Monroe55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +2.4",
+          "margin": 2.44,
+          "votesRep": 8559,
+          "votesDem": 8151,
+          "votesTotal": 16711
+        },
+        "Oconto55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +19.2",
+          "margin": 19.22,
+          "votesRep": 10392,
+          "votesDem": 7042,
+          "votesTotal": 17434
+        },
+        "Oneida55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +4.0",
+          "margin": 3.98,
+          "votesRep": 10112,
+          "votesDem": 9338,
+          "votesTotal": 19451
+        },
+        "Outagamie55": {
+          "color": "#6b7280",
+          "label": "Baldwin +0.3",
+          "margin": -0.32,
+          "votesRep": 41354,
+          "votesDem": 41618,
+          "votesTotal": 82974
+        },
+        "Ozaukee55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +15.7",
+          "margin": 15.73,
+          "votesRep": 29480,
+          "votesDem": 21464,
+          "votesTotal": 50944
+        },
+        "Pepin55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +1.6",
+          "margin": 1.58,
+          "votesRep": 1578,
+          "votesDem": 1529,
+          "votesTotal": 3107
+        },
+        "Pierce55": {
+          "color": "#577CCC",
+          "label": "Baldwin +5.5",
+          "margin": -5.55,
+          "votesRep": 8247,
+          "votesDem": 9216,
+          "votesTotal": 17464
+        },
+        "Polk55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +10.5",
+          "margin": 10.49,
+          "votesRep": 10245,
+          "votesDem": 8299,
+          "votesTotal": 18544
+        },
+        "Portage55": {
+          "color": "#1C408C",
+          "label": "Baldwin +16.3",
+          "margin": -16.32,
+          "votesRep": 14510,
+          "votesDem": 20170,
+          "votesTotal": 34682
+        },
+        "Price55": {
+          "color": "#FF5865",
+          "label": "Vukmir +5.7",
+          "margin": 5.7,
+          "votesRep": 3515,
+          "votesDem": 3136,
+          "votesTotal": 6651
+        },
+        "Racine55": {
+          "color": "#8AAFFF",
+          "label": "Baldwin +4.8",
+          "margin": -4.83,
+          "votesRep": 41213,
+          "votesDem": 45397,
+          "votesTotal": 86611
+        },
+        "Richland55": {
+          "color": "#1C408C",
+          "label": "Baldwin +14.6",
+          "margin": -14.61,
+          "votesRep": 2980,
+          "votesDem": 4000,
+          "votesTotal": 6980
+        },
+        "Rock55": {
+          "color": "#1C408C",
+          "label": "Baldwin +25.5",
+          "margin": -25.46,
+          "votesRep": 25322,
+          "votesDem": 42616,
+          "votesTotal": 67938
+        },
+        "Rusk55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +12.0",
+          "margin": 12.05,
+          "votesRep": 3381,
+          "votesDem": 2654,
+          "votesTotal": 6038
+        },
+        "Sauk55": {
+          "color": "#1C408C",
+          "label": "Baldwin +17.7",
+          "margin": -17.67,
+          "votesRep": 11866,
+          "votesDem": 16960,
+          "votesTotal": 28826
+        },
+        "Sawyer55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +2.7",
+          "margin": 2.73,
+          "votesRep": 4159,
+          "votesDem": 3938,
+          "votesTotal": 8097
+        },
+        "Shawano55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +16.9",
+          "margin": 16.94,
+          "votesRep": 10438,
+          "votesDem": 7414,
+          "votesTotal": 17852
+        },
+        "Sheboygan55": {
+          "color": "#FF5865",
+          "label": "Vukmir +8.5",
+          "margin": 8.48,
+          "votesRep": 28667,
+          "votesDem": 24183,
+          "votesTotal": 52850
+        },
+        "St. Croix55": {
+          "color": "#FF5865",
+          "label": "Vukmir +5.8",
+          "margin": 5.78,
+          "votesRep": 21069,
+          "votesDem": 18765,
+          "votesTotal": 39835
+        },
+        "Taylor55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +24.6",
+          "margin": 24.61,
+          "votesRep": 5005,
+          "votesDem": 3028,
+          "votesTotal": 8033
+        },
+        "Trempealeau55": {
+          "color": "#577CCC",
+          "label": "Baldwin +7.3",
+          "margin": -7.34,
+          "votesRep": 5633,
+          "votesDem": 6526,
+          "votesTotal": 12159
+        },
+        "Vernon55": {
+          "color": "#1C408C",
+          "label": "Baldwin +15.7",
+          "margin": -15.72,
+          "votesRep": 5459,
+          "votesDem": 7495,
+          "votesTotal": 12956
+        },
+        "Vilas55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +14.9",
+          "margin": 14.89,
+          "votesRep": 7166,
+          "votesDem": 5308,
+          "votesTotal": 12475
+        },
+        "Walworth55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +10.1",
+          "margin": 10.07,
+          "votesRep": 24844,
+          "votesDem": 20299,
+          "votesTotal": 45143
+        },
+        "Washburn55": {
+          "color": "#FF5865",
+          "label": "Vukmir +6.7",
+          "margin": 6.7,
+          "votesRep": 4190,
+          "votesDem": 3664,
+          "votesTotal": 7855
+        },
+        "Washington55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +34.2",
+          "margin": 34.24,
+          "votesRep": 47102,
+          "votesDem": 23072,
+          "votesTotal": 70175
+        },
+        "Waukesha55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +23.6",
+          "margin": 23.62,
+          "votesRep": 136190,
+          "votesDem": 84147,
+          "votesTotal": 220338
+        },
+        "Waupaca55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +14.7",
+          "margin": 14.72,
+          "votesRep": 12792,
+          "votesDem": 9509,
+          "votesTotal": 22301
+        },
+        "Waushara55": {
+          "color": "#BF1D29",
+          "label": "Vukmir +15.9",
+          "margin": 15.86,
+          "votesRep": 6106,
+          "votesDem": 4434,
+          "votesTotal": 10540
+        },
+        "Winnebago55": {
+          "color": "#577CCC",
+          "label": "Baldwin +6.5",
+          "margin": -6.5,
+          "votesRep": 35282,
+          "votesDem": 40185,
+          "votesTotal": 75467
+        },
+        "Wood55": {
+          "color": "#FF8B98",
+          "label": "Vukmir +2.8",
+          "margin": 2.76,
+          "votesRep": 16899,
+          "votesDem": 15992,
+          "votesTotal": 32892
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Ron Johnson",
+      "candDem": "Russ Feingold",
+      "shortRep": "Johnson",
+      "shortDem": "Feingold",
+      "partisan": true,
+      "margin": 3.47,
+      "votesRep": 1479471,
+      "votesDem": 1380335,
+      "votesTotal": 2948741,
+      "regions": {
+        "Adams55": {
+          "color": "#BF1D29",
+          "label": "Johnson +14.2",
+          "margin": 14.18,
+          "votesRep": 5446,
+          "votesDem": 4093,
+          "votesTotal": 10032
+        },
+        "Ashland55": {
+          "color": "#1C408C",
+          "label": "Feingold +16.1",
+          "margin": -16.15,
+          "votesRep": 3214,
+          "votesDem": 4452,
+          "votesTotal": 7907
+        },
+        "Barron55": {
+          "color": "#BF1D29",
+          "label": "Johnson +19.4",
+          "margin": 19.42,
+          "votesRep": 12893,
+          "votesDem": 8699,
+          "votesTotal": 22350
+        },
+        "Bayfield55": {
+          "color": "#1C408C",
+          "label": "Feingold +12.4",
+          "margin": -12.44,
+          "votesRep": 4020,
+          "votesDem": 5162,
+          "votesTotal": 9445
+        },
+        "Brown55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.9",
+          "margin": 16.9,
+          "votesRep": 71760,
+          "votesDem": 51008,
+          "votesTotal": 127438
+        },
+        "Buffalo55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.8",
+          "margin": 16.75,
+          "votesRep": 3851,
+          "votesDem": 2746,
+          "votesTotal": 6883
+        },
+        "Burnett55": {
+          "color": "#BF1D29",
+          "label": "Johnson +24.6",
+          "margin": 24.64,
+          "votesRep": 5198,
+          "votesDem": 3143,
+          "votesTotal": 8599
+        },
+        "Calumet55": {
+          "color": "#BF1D29",
+          "label": "Johnson +28.4",
+          "margin": 28.38,
+          "votesRep": 16485,
+          "votesDem": 9197,
+          "votesTotal": 26619
+        },
+        "Chippewa55": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.6",
+          "margin": 15.59,
+          "votesRep": 17339,
+          "votesDem": 12661,
+          "votesTotal": 31324
+        },
+        "Clark55": {
+          "color": "#BF1D29",
+          "label": "Johnson +25.7",
+          "margin": 25.69,
+          "votesRep": 8084,
+          "votesDem": 4779,
+          "votesTotal": 13515
+        },
+        "Columbia55": {
+          "color": "#577CCC",
+          "label": "Feingold +5.2",
+          "margin": -5.24,
+          "votesRep": 13557,
+          "votesDem": 15057,
+          "votesTotal": 29467
+        },
+        "Crawford55": {
+          "color": "#949BB3",
+          "label": "Feingold +0.5",
+          "margin": -0.5,
+          "votesRep": 3671,
+          "votesDem": 3708,
+          "votesTotal": 7651
+        },
+        "Dane55": {
+          "color": "#1C408C",
+          "label": "Feingold +46.4",
+          "margin": -46.4,
+          "votesRep": 80670,
+          "votesDem": 220344,
+          "votesTotal": 306960
+        },
+        "Dodge55": {
+          "color": "#BF1D29",
+          "label": "Johnson +29.4",
+          "margin": 29.44,
+          "votesRep": 27078,
+          "votesDem": 14760,
+          "votesTotal": 43166
+        },
+        "Door55": {
+          "color": "#FF5865",
+          "label": "Johnson +9.6",
+          "margin": 9.57,
+          "votesRep": 9295,
+          "votesDem": 7671,
+          "votesTotal": 17558
+        },
+        "Douglas55": {
+          "color": "#1C408C",
+          "label": "Feingold +11.9",
+          "margin": -11.9,
+          "votesRep": 9364,
+          "votesDem": 11893,
+          "votesTotal": 22052
+        },
+        "Dunn55": {
+          "color": "#FF5865",
+          "label": "Johnson +9.2",
+          "margin": 9.25,
+          "votesRep": 11425,
+          "votesDem": 9491,
+          "votesTotal": 21812
+        },
+        "Eau Claire55": {
+          "color": "#577CCC",
+          "label": "Feingold +5.5",
+          "margin": -5.51,
+          "votesRep": 24650,
+          "votesDem": 27527,
+          "votesTotal": 54160
+        },
+        "Florence55": {
+          "color": "#BF1D29",
+          "label": "Johnson +40.0",
+          "margin": 39.98,
+          "votesRep": 1770,
+          "votesDem": 759,
+          "votesTotal": 2614
+        },
+        "Fond du Lac55": {
+          "color": "#BF1D29",
+          "label": "Johnson +30.9",
+          "margin": 30.92,
+          "votesRep": 32464,
+          "votesDem": 17131,
+          "votesTotal": 51329
+        },
+        "Forest55": {
+          "color": "#BF1D29",
+          "label": "Johnson +22.1",
+          "margin": 22.12,
+          "votesRep": 2589,
+          "votesDem": 1651,
+          "votesTotal": 4443
+        },
+        "Grant55": {
+          "color": "#FF5865",
+          "label": "Johnson +5.5",
+          "margin": 5.5,
+          "votesRep": 12197,
+          "votesDem": 10926,
+          "votesTotal": 23932
+        },
+        "Green55": {
+          "color": "#1C408C",
+          "label": "Feingold +11.5",
+          "margin": -11.47,
+          "votesRep": 8106,
+          "votesDem": 10207,
+          "votesTotal": 18852
+        },
+        "Green Lake55": {
+          "color": "#BF1D29",
+          "label": "Johnson +38.3",
+          "margin": 38.28,
+          "votesRep": 6215,
+          "votesDem": 2774,
+          "votesTotal": 9319
+        },
+        "Iowa55": {
+          "color": "#1C408C",
+          "label": "Feingold +21.4",
+          "margin": -21.39,
+          "votesRep": 4679,
+          "votesDem": 7226,
+          "votesTotal": 12206
+        },
+        "Iron55": {
+          "color": "#BF1D29",
+          "label": "Johnson +17.8",
+          "margin": 17.76,
+          "votesRep": 1949,
+          "votesDem": 1361,
+          "votesTotal": 3402
+        },
+        "Jackson55": {
+          "color": "#FF5865",
+          "label": "Johnson +6.0",
+          "margin": 5.96,
+          "votesRep": 4615,
+          "votesDem": 4096,
+          "votesTotal": 9155
+        },
+        "Jefferson55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.5",
+          "margin": 16.45,
+          "votesRep": 23902,
+          "votesDem": 17149,
+          "votesTotal": 42334
+        },
+        "Juneau55": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.7",
+          "margin": 15.66,
+          "votesRep": 6441,
+          "votesDem": 4697,
+          "votesTotal": 11549
+        },
+        "Kenosha55": {
+          "color": "#FF8B98",
+          "label": "Johnson +2.6",
+          "margin": 2.55,
+          "votesRep": 37540,
+          "votesDem": 35670,
+          "votesTotal": 75900
+        },
+        "Kewaunee55": {
+          "color": "#BF1D29",
+          "label": "Johnson +28.7",
+          "margin": 28.73,
+          "votesRep": 6678,
+          "votesDem": 3697,
+          "votesTotal": 10763
+        },
+        "La Crosse55": {
+          "color": "#577CCC",
+          "label": "Feingold +8.6",
+          "margin": -8.6,
+          "votesRep": 27694,
+          "votesDem": 32903,
+          "votesTotal": 62697
+        },
+        "Lafayette55": {
+          "color": "#8AAFFF",
+          "label": "Feingold +1.3",
+          "margin": -1.32,
+          "votesRep": 3659,
+          "votesDem": 3757,
+          "votesTotal": 7594
+        },
+        "Langlade55": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.8",
+          "margin": 26.84,
+          "votesRep": 6007,
+          "votesDem": 3465,
+          "votesTotal": 9889
+        },
+        "Lincoln55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.3",
+          "margin": 16.26,
+          "votesRep": 8031,
+          "votesDem": 5785,
+          "votesTotal": 14564
+        },
+        "Manitowoc55": {
+          "color": "#BF1D29",
+          "label": "Johnson +24.9",
+          "margin": 24.88,
+          "votesRep": 23769,
+          "votesDem": 14299,
+          "votesTotal": 39881
+        },
+        "Marathon55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.2",
+          "margin": 16.21,
+          "votesRep": 38570,
+          "votesDem": 27812,
+          "votesTotal": 68937
+        },
+        "Marinette55": {
+          "color": "#BF1D29",
+          "label": "Johnson +31.9",
+          "margin": 31.91,
+          "votesRep": 12597,
+          "votesDem": 6502,
+          "votesTotal": 19872
+        },
+        "Marquette55": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.5",
+          "margin": 15.46,
+          "votesRep": 4357,
+          "votesDem": 3190,
+          "votesTotal": 7804
+        },
+        "Menominee55": {
+          "color": "#1C408C",
+          "label": "Feingold +47.2",
+          "margin": -47.17,
+          "votesRep": 303,
+          "votesDem": 844,
+          "votesTotal": 1231
+        },
+        "Milwaukee55": {
+          "color": "#1C408C",
+          "label": "Feingold +30.3",
+          "margin": -30.3,
+          "votesRep": 147922,
+          "votesDem": 276556,
+          "votesTotal": 434714
+        },
+        "Monroe55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.9",
+          "margin": 16.91,
+          "votesRep": 10797,
+          "votesDem": 7673,
+          "votesTotal": 19426
+        },
+        "Oconto55": {
+          "color": "#BF1D29",
+          "label": "Johnson +36.4",
+          "margin": 36.42,
+          "votesRep": 13004,
+          "votesDem": 6061,
+          "votesTotal": 19810
+        },
+        "Oneida55": {
+          "color": "#BF1D29",
+          "label": "Johnson +18.5",
+          "margin": 18.46,
+          "votesRep": 12047,
+          "votesDem": 8293,
+          "votesTotal": 21273
+        },
+        "Outagamie55": {
+          "color": "#BF1D29",
+          "label": "Johnson +17.9",
+          "margin": 17.92,
+          "votesRep": 53252,
+          "votesDem": 37067,
+          "votesTotal": 93768
+        },
+        "Ozaukee55": {
+          "color": "#BF1D29",
+          "label": "Johnson +32.3",
+          "margin": 32.26,
+          "votesRep": 35456,
+          "votesDem": 18159,
+          "votesTotal": 54677
+        },
+        "Pepin55": {
+          "color": "#BF1D29",
+          "label": "Johnson +16.9",
+          "margin": 16.89,
+          "votesRep": 2097,
+          "votesDem": 1491,
+          "votesTotal": 3699
+        },
+        "Pierce55": {
+          "color": "#BF1D29",
+          "label": "Johnson +13.8",
+          "margin": 13.82,
+          "votesRep": 11418,
+          "votesDem": 8646,
+          "votesTotal": 20879
+        },
+        "Polk55": {
+          "color": "#BF1D29",
+          "label": "Johnson +25.2",
+          "margin": 25.16,
+          "votesRep": 13535,
+          "votesDem": 8094,
+          "votesTotal": 22379
+        },
+        "Portage55": {
+          "color": "#8AAFFF",
+          "label": "Feingold +3.9",
+          "margin": -3.94,
+          "votesRep": 17547,
+          "votesDem": 18985,
+          "votesTotal": 37952
+        },
+        "Price55": {
+          "color": "#BF1D29",
+          "label": "Johnson +18.3",
+          "margin": 18.34,
+          "votesRep": 4282,
+          "votesDem": 2955,
+          "votesTotal": 7551
+        },
+        "Racine55": {
+          "color": "#FF5865",
+          "label": "Johnson +8.8",
+          "margin": 8.85,
+          "votesRep": 49682,
+          "votesDem": 41606,
+          "votesTotal": 93773
+        },
+        "Richland55": {
+          "color": "#949BB3",
+          "label": "Feingold +0.9",
+          "margin": -0.88,
+          "votesRep": 3837,
+          "votesDem": 3905,
+          "votesTotal": 7981
+        },
+        "Rock55": {
+          "color": "#1C408C",
+          "label": "Feingold +16.4",
+          "margin": -16.39,
+          "votesRep": 30487,
+          "votesDem": 42437,
+          "votesTotal": 75353
+        },
+        "Rusk55": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.8",
+          "margin": 26.77,
+          "votesRep": 4229,
+          "votesDem": 2443,
+          "votesTotal": 6993
+        },
+        "Sauk55": {
+          "color": "#577CCC",
+          "label": "Feingold +7.2",
+          "margin": -7.21,
+          "votesRep": 14127,
+          "votesDem": 16323,
+          "votesTotal": 31387
+        },
+        "Sawyer55": {
+          "color": "#BF1D29",
+          "label": "Johnson +19.0",
+          "margin": 19.02,
+          "votesRep": 5154,
+          "votesDem": 3507,
+          "votesTotal": 8930
+        },
+        "Shawano55": {
+          "color": "#BF1D29",
+          "label": "Johnson +35.3",
+          "margin": 35.33,
+          "votesRep": 12794,
+          "votesDem": 6114,
+          "votesTotal": 19666
+        },
+        "Sheboygan55": {
+          "color": "#BF1D29",
+          "label": "Johnson +22.1",
+          "margin": 22.06,
+          "votesRep": 35146,
+          "votesDem": 22441,
+          "votesTotal": 59521
+        },
+        "St. Croix55": {
+          "color": "#BF1D29",
+          "label": "Johnson +21.5",
+          "margin": 21.48,
+          "votesRep": 27406,
+          "votesDem": 17713,
+          "votesTotal": 46700
+        },
+        "Taylor55": {
+          "color": "#BF1D29",
+          "label": "Johnson +37.2",
+          "margin": 37.19,
+          "votesRep": 6177,
+          "votesDem": 2828,
+          "votesTotal": 9390
+        },
+        "Trempealeau55": {
+          "color": "#FF5865",
+          "label": "Johnson +8.6",
+          "margin": 8.57,
+          "votesRep": 7081,
+          "votesDem": 5963,
+          "votesTotal": 13550
+        },
+        "Vernon55": {
+          "color": "#8AAFFF",
+          "label": "Feingold +1.3",
+          "margin": -1.29,
+          "votesRep": 6712,
+          "votesDem": 6887,
+          "votesTotal": 14121
+        },
+        "Vilas55": {
+          "color": "#BF1D29",
+          "label": "Johnson +26.2",
+          "margin": 26.23,
+          "votesRep": 8247,
+          "votesDem": 4820,
+          "votesTotal": 13492
+        },
+        "Walworth55": {
+          "color": "#BF1D29",
+          "label": "Johnson +25.3",
+          "margin": 25.29,
+          "votesRep": 30786,
+          "votesDem": 18358,
+          "votesTotal": 50855
+        },
+        "Washburn55": {
+          "color": "#BF1D29",
+          "label": "Johnson +19.9",
+          "margin": 19.89,
+          "votesRep": 5250,
+          "votesDem": 3508,
+          "votesTotal": 9024
+        },
+        "Washington55": {
+          "color": "#BF1D29",
+          "label": "Johnson +47.7",
+          "margin": 47.67,
+          "votesRep": 55961,
+          "votesDem": 19831,
+          "votesTotal": 77461
+        },
+        "Waukesha55": {
+          "color": "#BF1D29",
+          "label": "Johnson +38.4",
+          "margin": 38.42,
+          "votesRep": 161351,
+          "votesDem": 71779,
+          "votesTotal": 237651
+        },
+        "Waupaca55": {
+          "color": "#BF1D29",
+          "label": "Johnson +31.1",
+          "margin": 31.12,
+          "votesRep": 16208,
+          "votesDem": 8514,
+          "votesTotal": 25727
+        },
+        "Waushara55": {
+          "color": "#BF1D29",
+          "label": "Johnson +32.8",
+          "margin": 32.81,
+          "votesRep": 7579,
+          "votesDem": 3834,
+          "votesTotal": 11904
+        },
+        "Winnebago55": {
+          "color": "#BF1D29",
+          "label": "Johnson +13.0",
+          "margin": 12.98,
+          "votesRep": 46843,
+          "votesDem": 36077,
+          "votesTotal": 86286
+        },
+        "Wood55": {
+          "color": "#BF1D29",
+          "label": "Johnson +15.9",
+          "margin": 15.93,
+          "votesRep": 20925,
+          "votesDem": 15175,
+          "votesTotal": 37643
+        }
+      }
+    }
+  ]
+}

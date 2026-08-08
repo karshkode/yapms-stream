@@ -1,0 +1,5162 @@
+{
+  "stateFips": "13",
+  "stateName": "Georgia",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Brian Kemp",
+      "candDem": "Stacey Abrams",
+      "shortRep": "Kemp",
+      "shortDem": "Abrams",
+      "partisan": true,
+      "margin": 7.59,
+      "votesRep": 2111572,
+      "votesDem": 1813673,
+      "votesTotal": 3953408,
+      "regions": {
+        "Appling13": {
+          "color": "#BF1D29",
+          "label": "Kemp +66.2",
+          "margin": 66.15,
+          "votesRep": 5552,
+          "votesDem": 1131,
+          "votesTotal": 6703
+        },
+        "Atkinson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +58.2",
+          "margin": 58.19,
+          "votesRep": 1767,
+          "votesDem": 467,
+          "votesTotal": 2246
+        },
+        "Bacon13": {
+          "color": "#BF1D29",
+          "label": "Kemp +78.8",
+          "margin": 78.79,
+          "votesRep": 3312,
+          "votesDem": 393,
+          "votesTotal": 3721
+        },
+        "Baker13": {
+          "color": "#BF1D29",
+          "label": "Kemp +20.3",
+          "margin": 20.32,
+          "votesRep": 755,
+          "votesDem": 500,
+          "votesTotal": 1258
+        },
+        "Baldwin13": {
+          "color": "#FF5865",
+          "label": "Kemp +7.2",
+          "margin": 7.21,
+          "votesRep": 7987,
+          "votesDem": 6913,
+          "votesTotal": 15002
+        },
+        "Banks13": {
+          "color": "#BF1D29",
+          "label": "Kemp +83.3",
+          "margin": 83.27,
+          "votesRep": 6651,
+          "votesDem": 607,
+          "votesTotal": 7326
+        },
+        "Barrow13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.8",
+          "margin": 49.84,
+          "votesRep": 21833,
+          "votesDem": 7309,
+          "votesTotal": 29430
+        },
+        "Bartow13": {
+          "color": "#BF1D29",
+          "label": "Kemp +59.0",
+          "margin": 58.97,
+          "votesRep": 31528,
+          "votesDem": 8137,
+          "votesTotal": 39997
+        },
+        "Ben Hill13": {
+          "color": "#BF1D29",
+          "label": "Kemp +34.0",
+          "margin": 34.01,
+          "votesRep": 3412,
+          "votesDem": 1680,
+          "votesTotal": 5118
+        },
+        "Berrien13": {
+          "color": "#BF1D29",
+          "label": "Kemp +74.2",
+          "margin": 74.18,
+          "votesRep": 5209,
+          "votesDem": 772,
+          "votesTotal": 6019
+        },
+        "Bibb13": {
+          "color": "#1C408C",
+          "label": "Abrams +16.9",
+          "margin": -16.91,
+          "votesRep": 22396,
+          "votesDem": 31514,
+          "votesTotal": 54200
+        },
+        "Bleckley13": {
+          "color": "#BF1D29",
+          "label": "Kemp +63.0",
+          "margin": 62.97,
+          "votesRep": 3886,
+          "votesDem": 883,
+          "votesTotal": 4805
+        },
+        "Brantley13": {
+          "color": "#BF1D29",
+          "label": "Kemp +86.5",
+          "margin": 86.47,
+          "votesRep": 5416,
+          "votesDem": 393,
+          "votesTotal": 5859
+        },
+        "Brooks13": {
+          "color": "#BF1D29",
+          "label": "Kemp +30.1",
+          "margin": 30.07,
+          "votesRep": 3644,
+          "votesDem": 1959,
+          "votesTotal": 5642
+        },
+        "Bryan13": {
+          "color": "#BF1D29",
+          "label": "Kemp +44.5",
+          "margin": 44.54,
+          "votesRep": 12188,
+          "votesDem": 4676,
+          "votesTotal": 17006
+        },
+        "Bulloch13": {
+          "color": "#BF1D29",
+          "label": "Kemp +37.2",
+          "margin": 37.21,
+          "votesRep": 16067,
+          "votesDem": 7352,
+          "votesTotal": 23591
+        },
+        "Burke13": {
+          "color": "#BF1D29",
+          "label": "Kemp +11.5",
+          "margin": 11.48,
+          "votesRep": 4685,
+          "votesDem": 3720,
+          "votesTotal": 8467
+        },
+        "Butts13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.8",
+          "margin": 49.81,
+          "votesRep": 7223,
+          "votesDem": 2420,
+          "votesTotal": 9695
+        },
+        "Calhoun13": {
+          "color": "#577CCC",
+          "label": "Abrams +7.4",
+          "margin": -7.36,
+          "votesRep": 793,
+          "votesDem": 919,
+          "votesTotal": 1715
+        },
+        "Camden13": {
+          "color": "#BF1D29",
+          "label": "Kemp +40.7",
+          "margin": 40.71,
+          "votesRep": 12494,
+          "votesDem": 5264,
+          "votesTotal": 17945
+        },
+        "Candler13": {
+          "color": "#BF1D29",
+          "label": "Kemp +50.2",
+          "margin": 50.15,
+          "votesRep": 2666,
+          "votesDem": 885,
+          "votesTotal": 3562
+        },
+        "Carroll13": {
+          "color": "#BF1D29",
+          "label": "Kemp +48.1",
+          "margin": 48.06,
+          "votesRep": 32095,
+          "votesDem": 11258,
+          "votesTotal": 43727
+        },
+        "Catoosa13": {
+          "color": "#BF1D29",
+          "label": "Kemp +64.9",
+          "margin": 64.93,
+          "votesRep": 20009,
+          "votesDem": 4255,
+          "votesTotal": 24503
+        },
+        "Charlton13": {
+          "color": "#BF1D29",
+          "label": "Kemp +56.9",
+          "margin": 56.95,
+          "votesRep": 2654,
+          "votesDem": 728,
+          "votesTotal": 3405
+        },
+        "Chatham13": {
+          "color": "#1C408C",
+          "label": "Abrams +11.7",
+          "margin": -11.73,
+          "votesRep": 46593,
+          "votesDem": 58978,
+          "votesTotal": 106329
+        },
+        "Chattahoochee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +15.4",
+          "margin": 15.45,
+          "votesRep": 583,
+          "votesDem": 427,
+          "votesTotal": 1020
+        },
+        "Chattooga13": {
+          "color": "#BF1D29",
+          "label": "Kemp +68.9",
+          "margin": 68.89,
+          "votesRep": 6471,
+          "votesDem": 1192,
+          "votesTotal": 7712
+        },
+        "Cherokee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.9",
+          "margin": 49.85,
+          "votesRep": 89322,
+          "votesDem": 29893,
+          "votesTotal": 120374
+        },
+        "Clarke13": {
+          "color": "#1C408C",
+          "label": "Abrams +34.5",
+          "margin": -34.53,
+          "votesRep": 13091,
+          "votesDem": 26901,
+          "votesTotal": 40316
+        },
+        "Clay13": {
+          "color": "#FF8B98",
+          "label": "Kemp +1.5",
+          "margin": 1.51,
+          "votesRep": 570,
+          "votesDem": 553,
+          "votesTotal": 1126
+        },
+        "Clayton13": {
+          "color": "#1C408C",
+          "label": "Abrams +73.0",
+          "margin": -72.99,
+          "votesRep": 11306,
+          "votesDem": 72399,
+          "votesTotal": 84136
+        },
+        "Clinch13": {
+          "color": "#BF1D29",
+          "label": "Kemp +58.8",
+          "margin": 58.78,
+          "votesRep": 1668,
+          "votesDem": 433,
+          "votesTotal": 2114
+        },
+        "Cobb13": {
+          "color": "#8AAFFF",
+          "label": "Abrams +4.6",
+          "margin": -4.58,
+          "votesRep": 147698,
+          "votesDem": 161872,
+          "votesTotal": 312215
+        },
+        "Coffee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.0",
+          "margin": 48.97,
+          "votesRep": 8818,
+          "votesDem": 3021,
+          "votesTotal": 11905
+        },
+        "Colquitt13": {
+          "color": "#BF1D29",
+          "label": "Kemp +57.2",
+          "margin": 57.21,
+          "votesRep": 9860,
+          "votesDem": 2684,
+          "votesTotal": 12598
+        },
+        "Columbia13": {
+          "color": "#BF1D29",
+          "label": "Kemp +35.6",
+          "margin": 35.63,
+          "votesRep": 43437,
+          "votesDem": 20617,
+          "votesTotal": 64572
+        },
+        "Cook13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.8",
+          "margin": 49.79,
+          "votesRep": 4138,
+          "votesDem": 1387,
+          "votesTotal": 5557
+        },
+        "Coweta13": {
+          "color": "#BF1D29",
+          "label": "Kemp +43.5",
+          "margin": 43.54,
+          "votesRep": 45376,
+          "votesDem": 17847,
+          "votesTotal": 63726
+        },
+        "Crawford13": {
+          "color": "#BF1D29",
+          "label": "Kemp +51.2",
+          "margin": 51.25,
+          "votesRep": 3633,
+          "votesDem": 1171,
+          "votesTotal": 4835
+        },
+        "Crisp13": {
+          "color": "#BF1D29",
+          "label": "Kemp +36.2",
+          "margin": 36.19,
+          "votesRep": 4296,
+          "votesDem": 2013,
+          "votesTotal": 6322
+        },
+        "Dade13": {
+          "color": "#BF1D29",
+          "label": "Kemp +72.1",
+          "margin": 72.06,
+          "votesRep": 4969,
+          "votesDem": 807,
+          "votesTotal": 5844
+        },
+        "Dawson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +73.6",
+          "margin": 73.59,
+          "votesRep": 12010,
+          "votesDem": 1827,
+          "votesTotal": 13978
+        },
+        "Decatur13": {
+          "color": "#BF1D29",
+          "label": "Kemp +27.9",
+          "margin": 27.89,
+          "votesRep": 5659,
+          "votesDem": 3191,
+          "votesTotal": 8883
+        },
+        "DeKalb13": {
+          "color": "#1C408C",
+          "label": "Abrams +63.2",
+          "margin": -63.21,
+          "votesRep": 54522,
+          "votesDem": 241901,
+          "votesTotal": 298229
+        },
+        "Dodge13": {
+          "color": "#BF1D29",
+          "label": "Kemp +54.0",
+          "margin": 54.03,
+          "votesRep": 5087,
+          "votesDem": 1518,
+          "votesTotal": 6630
+        },
+        "Dooly13": {
+          "color": "#BF1D29",
+          "label": "Kemp +13.6",
+          "margin": 13.55,
+          "votesRep": 1860,
+          "votesDem": 1416,
+          "votesTotal": 3286
+        },
+        "Dougherty13": {
+          "color": "#1C408C",
+          "label": "Abrams +35.9",
+          "margin": -35.95,
+          "votesRep": 8524,
+          "votesDem": 18091,
+          "votesTotal": 26709
+        },
+        "Douglas13": {
+          "color": "#1C408C",
+          "label": "Abrams +25.0",
+          "margin": -24.99,
+          "votesRep": 19719,
+          "votesDem": 32858,
+          "votesTotal": 52930
+        },
+        "Early13": {
+          "color": "#BF1D29",
+          "label": "Kemp +19.1",
+          "margin": 19.12,
+          "votesRep": 2321,
+          "votesDem": 1576,
+          "votesTotal": 3908
+        },
+        "Echols13": {
+          "color": "#BF1D29",
+          "label": "Kemp +82.1",
+          "margin": 82.1,
+          "votesRep": 956,
+          "votesDem": 94,
+          "votesTotal": 1065
+        },
+        "Effingham13": {
+          "color": "#BF1D29",
+          "label": "Kemp +55.5",
+          "margin": 55.45,
+          "votesRep": 19553,
+          "votesDem": 5603,
+          "votesTotal": 25398
+        },
+        "Elbert13": {
+          "color": "#BF1D29",
+          "label": "Kemp +47.4",
+          "margin": 47.4,
+          "votesRep": 5369,
+          "votesDem": 1916,
+          "votesTotal": 7324
+        },
+        "Emanuel13": {
+          "color": "#BF1D29",
+          "label": "Kemp +46.2",
+          "margin": 46.23,
+          "votesRep": 5505,
+          "votesDem": 2024,
+          "votesTotal": 7562
+        },
+        "Evans13": {
+          "color": "#BF1D29",
+          "label": "Kemp +47.3",
+          "margin": 47.33,
+          "votesRep": 2467,
+          "votesDem": 882,
+          "votesTotal": 3361
+        },
+        "Fannin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +71.4",
+          "margin": 71.37,
+          "votesRep": 10752,
+          "votesDem": 1796,
+          "votesTotal": 12637
+        },
+        "Fayette13": {
+          "color": "#BF1D29",
+          "label": "Kemp +13.9",
+          "margin": 13.94,
+          "votesRep": 34116,
+          "votesDem": 25769,
+          "votesTotal": 60346
+        },
+        "Floyd13": {
+          "color": "#BF1D29",
+          "label": "Kemp +50.6",
+          "margin": 50.57,
+          "votesRep": 23930,
+          "votesDem": 7855,
+          "votesTotal": 32078
+        },
+        "Forsyth13": {
+          "color": "#BF1D29",
+          "label": "Kemp +46.0",
+          "margin": 45.97,
+          "votesRep": 74116,
+          "votesDem": 27434,
+          "votesTotal": 102446
+        },
+        "Franklin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +78.2",
+          "margin": 78.16,
+          "votesRep": 7734,
+          "votesDem": 948,
+          "votesTotal": 8739
+        },
+        "Fulton13": {
+          "color": "#1C408C",
+          "label": "Abrams +38.6",
+          "margin": -38.57,
+          "votesRep": 128167,
+          "votesDem": 289085,
+          "votesTotal": 419884
+        },
+        "Gilmer13": {
+          "color": "#BF1D29",
+          "label": "Kemp +71.2",
+          "margin": 71.21,
+          "votesRep": 11952,
+          "votesDem": 2010,
+          "votesTotal": 14086
+        },
+        "Glascock13": {
+          "color": "#BF1D29",
+          "label": "Kemp +86.3",
+          "margin": 86.31,
+          "votesRep": 1211,
+          "votesDem": 89,
+          "votesTotal": 1305
+        },
+        "Glynn13": {
+          "color": "#BF1D29",
+          "label": "Kemp +34.7",
+          "margin": 34.72,
+          "votesRep": 22245,
+          "votesDem": 10779,
+          "votesTotal": 33279
+        },
+        "Gordon13": {
+          "color": "#BF1D29",
+          "label": "Kemp +70.7",
+          "margin": 70.74,
+          "votesRep": 16003,
+          "votesDem": 2743,
+          "votesTotal": 18907
+        },
+        "Grady13": {
+          "color": "#BF1D29",
+          "label": "Kemp +41.7",
+          "margin": 41.68,
+          "votesRep": 5884,
+          "votesDem": 2422,
+          "votesTotal": 8341
+        },
+        "Greene13": {
+          "color": "#BF1D29",
+          "label": "Kemp +41.5",
+          "margin": 41.5,
+          "votesRep": 7402,
+          "votesDem": 3060,
+          "votesTotal": 10508
+        },
+        "Gwinnett13": {
+          "color": "#1C408C",
+          "label": "Abrams +10.4",
+          "margin": -10.42,
+          "votesRep": 133076,
+          "votesDem": 164051,
+          "votesTotal": 299482
+        },
+        "Habersham13": {
+          "color": "#BF1D29",
+          "label": "Kemp +72.4",
+          "margin": 72.41,
+          "votesRep": 14513,
+          "votesDem": 2322,
+          "votesTotal": 16990
+        },
+        "Hall13": {
+          "color": "#BF1D29",
+          "label": "Kemp +55.3",
+          "margin": 55.27,
+          "votesRep": 56573,
+          "votesDem": 16299,
+          "votesTotal": 73516
+        },
+        "Hancock13": {
+          "color": "#1C408C",
+          "label": "Abrams +36.6",
+          "margin": -36.62,
+          "votesRep": 1073,
+          "votesDem": 2313,
+          "votesTotal": 3402
+        },
+        "Haralson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +79.8",
+          "margin": 79.83,
+          "votesRep": 10398,
+          "votesDem": 1166,
+          "votesTotal": 11651
+        },
+        "Harris13": {
+          "color": "#BF1D29",
+          "label": "Kemp +52.7",
+          "margin": 52.66,
+          "votesRep": 12924,
+          "votesDem": 4008,
+          "votesTotal": 17039
+        },
+        "Hart13": {
+          "color": "#BF1D29",
+          "label": "Kemp +61.0",
+          "margin": 61.03,
+          "votesRep": 8426,
+          "votesDem": 2039,
+          "votesTotal": 10560
+        },
+        "Heard13": {
+          "color": "#BF1D29",
+          "label": "Kemp +74.3",
+          "margin": 74.33,
+          "votesRep": 3858,
+          "votesDem": 568,
+          "votesTotal": 4463
+        },
+        "Henry13": {
+          "color": "#1C408C",
+          "label": "Abrams +23.4",
+          "margin": -23.41,
+          "votesRep": 36392,
+          "votesDem": 58643,
+          "votesTotal": 95568
+        },
+        "Houston13": {
+          "color": "#BF1D29",
+          "label": "Kemp +18.6",
+          "margin": 18.57,
+          "votesRep": 34842,
+          "votesDem": 23928,
+          "votesTotal": 59210
+        },
+        "Irwin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +58.7",
+          "margin": 58.67,
+          "votesRep": 2695,
+          "votesDem": 702,
+          "votesTotal": 3418
+        },
+        "Jackson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +65.7",
+          "margin": 65.74,
+          "votesRep": 26223,
+          "votesDem": 5420,
+          "votesTotal": 31881
+        },
+        "Jasper13": {
+          "color": "#BF1D29",
+          "label": "Kemp +60.6",
+          "margin": 60.57,
+          "votesRep": 5237,
+          "votesDem": 1286,
+          "votesTotal": 6574
+        },
+        "Jeff Davis13": {
+          "color": "#BF1D29",
+          "label": "Kemp +71.4",
+          "margin": 71.36,
+          "votesRep": 3865,
+          "votesDem": 646,
+          "votesTotal": 4543
+        },
+        "Jefferson13": {
+          "color": "#FF8B98",
+          "label": "Kemp +1.2",
+          "margin": 1.17,
+          "votesRep": 3162,
+          "votesDem": 3089,
+          "votesTotal": 6278
+        },
+        "Jenkins13": {
+          "color": "#BF1D29",
+          "label": "Kemp +37.0",
+          "margin": 36.98,
+          "votesRep": 1893,
+          "votesDem": 871,
+          "votesTotal": 2774
+        },
+        "Johnson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +48.6",
+          "margin": 48.56,
+          "votesRep": 2504,
+          "votesDem": 867,
+          "votesTotal": 3383
+        },
+        "Jones13": {
+          "color": "#BF1D29",
+          "label": "Kemp +40.2",
+          "margin": 40.25,
+          "votesRep": 8583,
+          "votesDem": 3657,
+          "votesTotal": 12312
+        },
+        "Lamar13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.0",
+          "margin": 49.01,
+          "votesRep": 5736,
+          "votesDem": 1963,
+          "votesTotal": 7755
+        },
+        "Lanier13": {
+          "color": "#BF1D29",
+          "label": "Kemp +47.3",
+          "margin": 47.31,
+          "votesRep": 1932,
+          "votesDem": 691,
+          "votesTotal": 2638
+        },
+        "Laurens13": {
+          "color": "#BF1D29",
+          "label": "Kemp +35.4",
+          "margin": 35.36,
+          "votesRep": 12508,
+          "votesDem": 5973,
+          "votesTotal": 18550
+        },
+        "Lee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.5",
+          "margin": 49.46,
+          "votesRep": 10094,
+          "votesDem": 3413,
+          "votesTotal": 13587
+        },
+        "Liberty13": {
+          "color": "#1C408C",
+          "label": "Abrams +20.7",
+          "margin": -20.69,
+          "votesRep": 6069,
+          "votesDem": 9235,
+          "votesTotal": 15415
+        },
+        "Lincoln13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.9",
+          "margin": 49.87,
+          "votesRep": 2966,
+          "votesDem": 992,
+          "votesTotal": 3982
+        },
+        "Long13": {
+          "color": "#BF1D29",
+          "label": "Kemp +34.2",
+          "margin": 34.21,
+          "votesRep": 2944,
+          "votesDem": 1443,
+          "votesTotal": 4426
+        },
+        "Lowndes13": {
+          "color": "#BF1D29",
+          "label": "Kemp +23.1",
+          "margin": 23.11,
+          "votesRep": 21256,
+          "votesDem": 13275,
+          "votesTotal": 34760
+        },
+        "Lumpkin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +67.1",
+          "margin": 67.13,
+          "votesRep": 10525,
+          "votesDem": 2070,
+          "votesTotal": 12737
+        },
+        "Macon13": {
+          "color": "#1C408C",
+          "label": "Abrams +17.5",
+          "margin": -17.5,
+          "votesRep": 1551,
+          "votesDem": 2209,
+          "votesTotal": 3778
+        },
+        "Madison13": {
+          "color": "#BF1D29",
+          "label": "Kemp +59.9",
+          "margin": 59.86,
+          "votesRep": 9955,
+          "votesDem": 2500,
+          "votesTotal": 12554
+        },
+        "Marion13": {
+          "color": "#BF1D29",
+          "label": "Kemp +32.4",
+          "margin": 32.39,
+          "votesRep": 1868,
+          "votesDem": 954,
+          "votesTotal": 2846
+        },
+        "McDuffie13": {
+          "color": "#BF1D29",
+          "label": "Kemp +27.9",
+          "margin": 27.9,
+          "votesRep": 5283,
+          "votesDem": 2978,
+          "votesTotal": 8317
+        },
+        "McIntosh13": {
+          "color": "#BF1D29",
+          "label": "Kemp +30.0",
+          "margin": 29.98,
+          "votesRep": 3570,
+          "votesDem": 1923,
+          "votesTotal": 5517
+        },
+        "Meriwether13": {
+          "color": "#BF1D29",
+          "label": "Kemp +28.7",
+          "margin": 28.7,
+          "votesRep": 5704,
+          "votesDem": 3160,
+          "votesTotal": 8908
+        },
+        "Miller13": {
+          "color": "#BF1D29",
+          "label": "Kemp +57.0",
+          "margin": 57.04,
+          "votesRep": 1689,
+          "votesDem": 462,
+          "votesTotal": 2164
+        },
+        "Mitchell13": {
+          "color": "#BF1D29",
+          "label": "Kemp +19.5",
+          "margin": 19.47,
+          "votesRep": 4197,
+          "votesDem": 2829,
+          "votesTotal": 7052
+        },
+        "Monroe13": {
+          "color": "#BF1D29",
+          "label": "Kemp +51.4",
+          "margin": 51.35,
+          "votesRep": 10314,
+          "votesDem": 3315,
+          "votesTotal": 13718
+        },
+        "Montgomery13": {
+          "color": "#BF1D29",
+          "label": "Kemp +58.3",
+          "margin": 58.32,
+          "votesRep": 2545,
+          "votesDem": 670,
+          "votesTotal": 3226
+        },
+        "Morgan13": {
+          "color": "#BF1D29",
+          "label": "Kemp +51.7",
+          "margin": 51.69,
+          "votesRep": 7764,
+          "votesDem": 2473,
+          "votesTotal": 10326
+        },
+        "Murray13": {
+          "color": "#BF1D29",
+          "label": "Kemp +79.7",
+          "margin": 79.74,
+          "votesRep": 10290,
+          "votesDem": 1160,
+          "votesTotal": 11533
+        },
+        "Muscogee13": {
+          "color": "#1C408C",
+          "label": "Abrams +19.0",
+          "margin": -19,
+          "votesRep": 23925,
+          "votesDem": 35149,
+          "votesTotal": 59462
+        },
+        "Newton13": {
+          "color": "#1C408C",
+          "label": "Abrams +10.4",
+          "margin": -10.41,
+          "votesRep": 19094,
+          "votesDem": 23531,
+          "votesTotal": 42876
+        },
+        "Oconee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +48.2",
+          "margin": 48.22,
+          "votesRep": 16553,
+          "votesDem": 5783,
+          "votesTotal": 22478
+        },
+        "Oglethorpe13": {
+          "color": "#BF1D29",
+          "label": "Kemp +47.8",
+          "margin": 47.78,
+          "votesRep": 4998,
+          "votesDem": 1766,
+          "votesTotal": 6811
+        },
+        "Paulding13": {
+          "color": "#BF1D29",
+          "label": "Kemp +32.5",
+          "margin": 32.47,
+          "votesRep": 43992,
+          "votesDem": 22427,
+          "votesTotal": 67004
+        },
+        "Peach13": {
+          "color": "#BF1D29",
+          "label": "Kemp +11.1",
+          "margin": 11.14,
+          "votesRep": 5542,
+          "votesDem": 4431,
+          "votesTotal": 10039
+        },
+        "Pickens13": {
+          "color": "#BF1D29",
+          "label": "Kemp +72.7",
+          "margin": 72.75,
+          "votesRep": 12937,
+          "votesDem": 2041,
+          "votesTotal": 15086
+        },
+        "Pierce13": {
+          "color": "#BF1D29",
+          "label": "Kemp +81.1",
+          "margin": 81.11,
+          "votesRep": 6462,
+          "votesDem": 674,
+          "votesTotal": 7177
+        },
+        "Pike13": {
+          "color": "#BF1D29",
+          "label": "Kemp +77.1",
+          "margin": 77.07,
+          "votesRep": 8303,
+          "votesDem": 1075,
+          "votesTotal": 9431
+        },
+        "Polk13": {
+          "color": "#BF1D29",
+          "label": "Kemp +64.2",
+          "margin": 64.16,
+          "votesRep": 11117,
+          "votesDem": 2427,
+          "votesTotal": 13640
+        },
+        "Pulaski13": {
+          "color": "#BF1D29",
+          "label": "Kemp +46.1",
+          "margin": 46.08,
+          "votesRep": 2452,
+          "votesDem": 905,
+          "votesTotal": 3374
+        },
+        "Putnam13": {
+          "color": "#BF1D29",
+          "label": "Kemp +51.0",
+          "margin": 50.97,
+          "votesRep": 7689,
+          "votesDem": 2497,
+          "votesTotal": 10237
+        },
+        "Quitman13": {
+          "color": "#BF1D29",
+          "label": "Kemp +22.7",
+          "margin": 22.65,
+          "votesRep": 555,
+          "votesDem": 350,
+          "votesTotal": 906
+        },
+        "Rabun13": {
+          "color": "#BF1D29",
+          "label": "Kemp +65.4",
+          "margin": 65.41,
+          "votesRep": 6766,
+          "votesDem": 1415,
+          "votesTotal": 8262
+        },
+        "Randolph13": {
+          "color": "#8AAFFF",
+          "label": "Abrams +2.9",
+          "margin": -2.89,
+          "votesRep": 1243,
+          "votesDem": 1317,
+          "votesTotal": 2565
+        },
+        "Richmond13": {
+          "color": "#1C408C",
+          "label": "Abrams +32.2",
+          "margin": -32.21,
+          "votesRep": 21602,
+          "votesDem": 42130,
+          "votesTotal": 64156
+        },
+        "Rockdale13": {
+          "color": "#1C408C",
+          "label": "Abrams +42.7",
+          "margin": -42.71,
+          "votesRep": 9938,
+          "votesDem": 24756,
+          "votesTotal": 34908
+        },
+        "Schley13": {
+          "color": "#BF1D29",
+          "label": "Kemp +63.6",
+          "margin": 63.65,
+          "votesRep": 1526,
+          "votesDem": 339,
+          "votesTotal": 1876
+        },
+        "Screven13": {
+          "color": "#BF1D29",
+          "label": "Kemp +29.3",
+          "margin": 29.28,
+          "votesRep": 3422,
+          "votesDem": 1872,
+          "votesTotal": 5313
+        },
+        "Seminole13": {
+          "color": "#BF1D29",
+          "label": "Kemp +48.9",
+          "margin": 48.94,
+          "votesRep": 2255,
+          "votesDem": 773,
+          "votesTotal": 3045
+        },
+        "Spalding13": {
+          "color": "#BF1D29",
+          "label": "Kemp +24.5",
+          "margin": 24.53,
+          "votesRep": 15090,
+          "votesDem": 9146,
+          "votesTotal": 24395
+        },
+        "Stephens13": {
+          "color": "#BF1D29",
+          "label": "Kemp +67.8",
+          "margin": 67.79,
+          "votesRep": 7818,
+          "votesDem": 1501,
+          "votesTotal": 9400
+        },
+        "Stewart13": {
+          "color": "#1C408C",
+          "label": "Abrams +14.2",
+          "margin": -14.16,
+          "votesRep": 673,
+          "votesDem": 895,
+          "votesTotal": 1573
+        },
+        "Sumter13": {
+          "color": "#FF8B98",
+          "label": "Kemp +2.8",
+          "margin": 2.83,
+          "votesRep": 4921,
+          "votesDem": 4650,
+          "votesTotal": 9605
+        },
+        "Talbot13": {
+          "color": "#1C408C",
+          "label": "Abrams +14.6",
+          "margin": -14.57,
+          "votesRep": 1214,
+          "votesDem": 1628,
+          "votesTotal": 2864
+        },
+        "Taliaferro13": {
+          "color": "#1C408C",
+          "label": "Abrams +18.7",
+          "margin": -18.66,
+          "votesRep": 327,
+          "votesDem": 477,
+          "votesTotal": 807
+        },
+        "Tattnall13": {
+          "color": "#BF1D29",
+          "label": "Kemp +58.1",
+          "margin": 58.07,
+          "votesRep": 5123,
+          "votesDem": 1359,
+          "votesTotal": 6527
+        },
+        "Taylor13": {
+          "color": "#BF1D29",
+          "label": "Kemp +33.3",
+          "margin": 33.31,
+          "votesRep": 2137,
+          "votesDem": 1069,
+          "votesTotal": 3216
+        },
+        "Telfair13": {
+          "color": "#BF1D29",
+          "label": "Kemp +43.4",
+          "margin": 43.41,
+          "votesRep": 2433,
+          "votesDem": 960,
+          "votesTotal": 3413
+        },
+        "Terrell13": {
+          "color": "#8AAFFF",
+          "label": "Abrams +1.2",
+          "margin": -1.24,
+          "votesRep": 1795,
+          "votesDem": 1840,
+          "votesTotal": 3656
+        },
+        "Thomas13": {
+          "color": "#BF1D29",
+          "label": "Kemp +28.6",
+          "margin": 28.63,
+          "votesRep": 11062,
+          "votesDem": 6138,
+          "votesTotal": 17287
+        },
+        "Tift13": {
+          "color": "#BF1D29",
+          "label": "Kemp +45.3",
+          "margin": 45.29,
+          "votesRep": 9418,
+          "votesDem": 3546,
+          "votesTotal": 13044
+        },
+        "Toombs13": {
+          "color": "#BF1D29",
+          "label": "Kemp +54.5",
+          "margin": 54.51,
+          "votesRep": 6522,
+          "votesDem": 1920,
+          "votesTotal": 8486
+        },
+        "Towns13": {
+          "color": "#BF1D29",
+          "label": "Kemp +70.4",
+          "margin": 70.44,
+          "votesRep": 6066,
+          "votesDem": 1052,
+          "votesTotal": 7180
+        },
+        "Treutlen13": {
+          "color": "#BF1D29",
+          "label": "Kemp +44.5",
+          "margin": 44.53,
+          "votesRep": 1764,
+          "votesDem": 677,
+          "votesTotal": 2449
+        },
+        "Troup13": {
+          "color": "#BF1D29",
+          "label": "Kemp +28.5",
+          "margin": 28.55,
+          "votesRep": 14864,
+          "votesDem": 8262,
+          "votesTotal": 23256
+        },
+        "Turner13": {
+          "color": "#BF1D29",
+          "label": "Kemp +29.6",
+          "margin": 29.61,
+          "votesRep": 1994,
+          "votesDem": 1083,
+          "votesTotal": 3099
+        },
+        "Twiggs13": {
+          "color": "#BF1D29",
+          "label": "Kemp +12.4",
+          "margin": 12.44,
+          "votesRep": 1980,
+          "votesDem": 1542,
+          "votesTotal": 3540
+        },
+        "Union13": {
+          "color": "#BF1D29",
+          "label": "Kemp +70.8",
+          "margin": 70.83,
+          "votesRep": 12123,
+          "votesDem": 2070,
+          "votesTotal": 14312
+        },
+        "Upson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +41.0",
+          "margin": 41,
+          "votesRep": 7096,
+          "votesDem": 2969,
+          "votesTotal": 10135
+        },
+        "Walker13": {
+          "color": "#BF1D29",
+          "label": "Kemp +68.0",
+          "margin": 68.02,
+          "votesRep": 18414,
+          "votesDem": 3505,
+          "votesTotal": 22117
+        },
+        "Walton13": {
+          "color": "#BF1D29",
+          "label": "Kemp +54.6",
+          "margin": 54.57,
+          "votesRep": 32567,
+          "votesDem": 9573,
+          "votesTotal": 42452
+        },
+        "Ware13": {
+          "color": "#BF1D29",
+          "label": "Kemp +47.1",
+          "margin": 47.06,
+          "votesRep": 7855,
+          "votesDem": 2828,
+          "votesTotal": 10752
+        },
+        "Warren13": {
+          "color": "#949BB3",
+          "label": "Abrams +0.8",
+          "margin": -0.84,
+          "votesRep": 1063,
+          "votesDem": 1081,
+          "votesTotal": 2157
+        },
+        "Washington13": {
+          "color": "#FF5865",
+          "label": "Kemp +5.6",
+          "margin": 5.58,
+          "votesRep": 4098,
+          "votesDem": 3665,
+          "votesTotal": 7794
+        },
+        "Wayne13": {
+          "color": "#BF1D29",
+          "label": "Kemp +64.0",
+          "margin": 63.96,
+          "votesRep": 8170,
+          "votesDem": 1796,
+          "votesTotal": 10025
+        },
+        "Webster13": {
+          "color": "#BF1D29",
+          "label": "Kemp +25.0",
+          "margin": 24.98,
+          "votesRep": 708,
+          "votesDem": 425,
+          "votesTotal": 1136
+        },
+        "Wheeler13": {
+          "color": "#BF1D29",
+          "label": "Kemp +44.9",
+          "margin": 44.91,
+          "votesRep": 1318,
+          "votesDem": 501,
+          "votesTotal": 1826
+        },
+        "White13": {
+          "color": "#BF1D29",
+          "label": "Kemp +74.4",
+          "margin": 74.35,
+          "votesRep": 10999,
+          "votesDem": 1618,
+          "votesTotal": 12730
+        },
+        "Whitfield13": {
+          "color": "#BF1D29",
+          "label": "Kemp +56.2",
+          "margin": 56.15,
+          "votesRep": 20919,
+          "votesDem": 5874,
+          "votesTotal": 27014
+        },
+        "Wilcox13": {
+          "color": "#BF1D29",
+          "label": "Kemp +53.0",
+          "margin": 53.04,
+          "votesRep": 1998,
+          "votesDem": 613,
+          "votesTotal": 2621
+        },
+        "Wilkes13": {
+          "color": "#BF1D29",
+          "label": "Kemp +23.3",
+          "margin": 23.3,
+          "votesRep": 2545,
+          "votesDem": 1583,
+          "votesTotal": 4148
+        },
+        "Wilkinson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +17.2",
+          "margin": 17.16,
+          "votesRep": 2366,
+          "votesDem": 1673,
+          "votesTotal": 4056
+        },
+        "Worth13": {
+          "color": "#BF1D29",
+          "label": "Kemp +53.4",
+          "margin": 53.4,
+          "votesRep": 5649,
+          "votesDem": 1716,
+          "votesTotal": 7395
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Herschel Junior Walker",
+      "candDem": "Raphael Warnock",
+      "shortRep": "Walker",
+      "shortDem": "Warnock",
+      "partisan": true,
+      "margin": -0.98,
+      "votesRep": 1908442,
+      "votesDem": 1946117,
+      "votesTotal": 3935924,
+      "regions": {
+        "Appling13": {
+          "color": "#BF1D29",
+          "label": "Walker +61.8",
+          "margin": 61.84,
+          "votesRep": 5344,
+          "votesDem": 1260,
+          "votesTotal": 6669
+        },
+        "Atkinson13": {
+          "color": "#BF1D29",
+          "label": "Walker +54.6",
+          "margin": 54.59,
+          "votesRep": 1709,
+          "votesDem": 502,
+          "votesTotal": 2238
+        },
+        "Bacon13": {
+          "color": "#BF1D29",
+          "label": "Walker +75.0",
+          "margin": 74.99,
+          "votesRep": 3204,
+          "votesDem": 458,
+          "votesTotal": 3710
+        },
+        "Baker13": {
+          "color": "#BF1D29",
+          "label": "Walker +15.0",
+          "margin": 14.96,
+          "votesRep": 711,
+          "votesDem": 526,
+          "votesTotal": 1249
+        },
+        "Baldwin13": {
+          "color": "#CF8980",
+          "label": "Walker +0.6",
+          "margin": 0.6,
+          "votesRep": 7416,
+          "votesDem": 7327,
+          "votesTotal": 14957
+        },
+        "Banks13": {
+          "color": "#BF1D29",
+          "label": "Walker +78.4",
+          "margin": 78.36,
+          "votesRep": 6362,
+          "votesDem": 772,
+          "votesTotal": 7293
+        },
+        "Barrow13": {
+          "color": "#BF1D29",
+          "label": "Walker +41.9",
+          "margin": 41.9,
+          "votesRep": 20136,
+          "votesDem": 8244,
+          "votesTotal": 29273
+        },
+        "Bartow13": {
+          "color": "#BF1D29",
+          "label": "Walker +51.7",
+          "margin": 51.7,
+          "votesRep": 29361,
+          "votesDem": 9349,
+          "votesTotal": 39763
+        },
+        "Ben Hill13": {
+          "color": "#BF1D29",
+          "label": "Walker +29.3",
+          "margin": 29.35,
+          "votesRep": 3235,
+          "votesDem": 1767,
+          "votesTotal": 5075
+        },
+        "Berrien13": {
+          "color": "#BF1D29",
+          "label": "Walker +69.2",
+          "margin": 69.24,
+          "votesRep": 5002,
+          "votesDem": 909,
+          "votesTotal": 5990
+        },
+        "Bibb13": {
+          "color": "#1C408C",
+          "label": "Warnock +24.2",
+          "margin": -24.2,
+          "votesRep": 20203,
+          "votesDem": 33105,
+          "votesTotal": 54007
+        },
+        "Bleckley13": {
+          "color": "#BF1D29",
+          "label": "Walker +55.9",
+          "margin": 55.92,
+          "votesRep": 3675,
+          "votesDem": 1039,
+          "votesTotal": 4791
+        },
+        "Brantley13": {
+          "color": "#BF1D29",
+          "label": "Walker +83.4",
+          "margin": 83.41,
+          "votesRep": 5275,
+          "votesDem": 477,
+          "votesTotal": 5846
+        },
+        "Brooks13": {
+          "color": "#BF1D29",
+          "label": "Walker +27.7",
+          "margin": 27.66,
+          "votesRep": 3528,
+          "votesDem": 1999,
+          "votesTotal": 5604
+        },
+        "Bryan13": {
+          "color": "#BF1D29",
+          "label": "Walker +34.7",
+          "margin": 34.68,
+          "votesRep": 11143,
+          "votesDem": 5404,
+          "votesTotal": 16926
+        },
+        "Bulloch13": {
+          "color": "#BF1D29",
+          "label": "Walker +28.9",
+          "margin": 28.9,
+          "votesRep": 14858,
+          "votesDem": 8195,
+          "votesTotal": 23469
+        },
+        "Burke13": {
+          "color": "#FF5865",
+          "label": "Walker +6.9",
+          "margin": 6.91,
+          "votesRep": 4462,
+          "votesDem": 3885,
+          "votesTotal": 8449
+        },
+        "Butts13": {
+          "color": "#BF1D29",
+          "label": "Walker +43.6",
+          "margin": 43.58,
+          "votesRep": 6784,
+          "votesDem": 2666,
+          "votesTotal": 9632
+        },
+        "Calhoun13": {
+          "color": "#1C408C",
+          "label": "Warnock +14.2",
+          "margin": -14.17,
+          "votesRep": 724,
+          "votesDem": 963,
+          "votesTotal": 1698
+        },
+        "Camden13": {
+          "color": "#BF1D29",
+          "label": "Walker +34.0",
+          "margin": 34.03,
+          "votesRep": 11698,
+          "votesDem": 5758,
+          "votesTotal": 17873
+        },
+        "Candler13": {
+          "color": "#BF1D29",
+          "label": "Walker +45.7",
+          "margin": 45.75,
+          "votesRep": 2552,
+          "votesDem": 950,
+          "votesTotal": 3553
+        },
+        "Carroll13": {
+          "color": "#BF1D29",
+          "label": "Walker +40.7",
+          "margin": 40.68,
+          "votesRep": 29838,
+          "votesDem": 12582,
+          "votesTotal": 43507
+        },
+        "Catoosa13": {
+          "color": "#BF1D29",
+          "label": "Walker +55.7",
+          "margin": 55.7,
+          "votesRep": 18562,
+          "votesDem": 5282,
+          "votesTotal": 24402
+        },
+        "Charlton13": {
+          "color": "#BF1D29",
+          "label": "Walker +53.2",
+          "margin": 53.18,
+          "votesRep": 2552,
+          "votesDem": 780,
+          "votesTotal": 3387
+        },
+        "Chatham13": {
+          "color": "#1C408C",
+          "label": "Warnock +20.9",
+          "margin": -20.93,
+          "votesRep": 41189,
+          "votesDem": 62996,
+          "votesTotal": 106001
+        },
+        "Chattahoochee13": {
+          "color": "#FF5865",
+          "label": "Walker +8.6",
+          "margin": 8.58,
+          "votesRep": 538,
+          "votesDem": 453,
+          "votesTotal": 1015
+        },
+        "Chattooga13": {
+          "color": "#BF1D29",
+          "label": "Walker +59.6",
+          "margin": 59.58,
+          "votesRep": 5977,
+          "votesDem": 1514,
+          "votesTotal": 7663
+        },
+        "Cherokee13": {
+          "color": "#BF1D29",
+          "label": "Walker +39.6",
+          "margin": 39.57,
+          "votesRep": 80811,
+          "votesDem": 34987,
+          "votesTotal": 119631
+        },
+        "Clarke13": {
+          "color": "#1C408C",
+          "label": "Warnock +45.1",
+          "margin": -45.09,
+          "votesRep": 10810,
+          "votesDem": 28566,
+          "votesTotal": 40176
+        },
+        "Clay13": {
+          "color": "#8AAFFF",
+          "label": "Warnock +4.0",
+          "margin": -4,
+          "votesRep": 528,
+          "votesDem": 572,
+          "votesTotal": 1120
+        },
+        "Clayton13": {
+          "color": "#1C408C",
+          "label": "Warnock +77.2",
+          "margin": -77.19,
+          "votesRep": 9450,
+          "votesDem": 73412,
+          "votesTotal": 83952
+        },
+        "Clinch13": {
+          "color": "#BF1D29",
+          "label": "Walker +57.6",
+          "margin": 57.56,
+          "votesRep": 1630,
+          "votesDem": 439,
+          "votesTotal": 2104
+        },
+        "Cobb13": {
+          "color": "#1C408C",
+          "label": "Warnock +16.7",
+          "margin": -16.74,
+          "votesRep": 125795,
+          "votesDem": 176385,
+          "votesTotal": 310652
+        },
+        "Coffee13": {
+          "color": "#BF1D29",
+          "label": "Walker +44.9",
+          "margin": 44.85,
+          "votesRep": 8447,
+          "votesDem": 3216,
+          "votesTotal": 11852
+        },
+        "Colquitt13": {
+          "color": "#BF1D29",
+          "label": "Walker +52.0",
+          "margin": 51.99,
+          "votesRep": 9390,
+          "votesDem": 2966,
+          "votesTotal": 12548
+        },
+        "Columbia13": {
+          "color": "#BF1D29",
+          "label": "Walker +27.3",
+          "margin": 27.25,
+          "votesRep": 40172,
+          "votesDem": 22965,
+          "votesTotal": 64394
+        },
+        "Cook13": {
+          "color": "#BF1D29",
+          "label": "Walker +45.0",
+          "margin": 44.97,
+          "votesRep": 3944,
+          "votesDem": 1497,
+          "votesTotal": 5537
+        },
+        "Coweta13": {
+          "color": "#BF1D29",
+          "label": "Walker +34.6",
+          "margin": 34.6,
+          "votesRep": 41512,
+          "votesDem": 20169,
+          "votesTotal": 63355
+        },
+        "Crawford13": {
+          "color": "#BF1D29",
+          "label": "Walker +45.2",
+          "margin": 45.21,
+          "votesRep": 3440,
+          "votesDem": 1298,
+          "votesTotal": 4816
+        },
+        "Crisp13": {
+          "color": "#BF1D29",
+          "label": "Walker +30.4",
+          "margin": 30.44,
+          "votesRep": 4058,
+          "votesDem": 2164,
+          "votesTotal": 6306
+        },
+        "Dade13": {
+          "color": "#BF1D29",
+          "label": "Walker +65.0",
+          "margin": 65.02,
+          "votesRep": 4698,
+          "votesDem": 996,
+          "votesTotal": 5821
+        },
+        "Dawson13": {
+          "color": "#BF1D29",
+          "label": "Walker +66.2",
+          "margin": 66.17,
+          "votesRep": 11185,
+          "votesDem": 2277,
+          "votesTotal": 13870
+        },
+        "Decatur13": {
+          "color": "#BF1D29",
+          "label": "Walker +24.4",
+          "margin": 24.38,
+          "votesRep": 5433,
+          "votesDem": 3303,
+          "votesTotal": 8839
+        },
+        "DeKalb13": {
+          "color": "#1C408C",
+          "label": "Warnock +71.3",
+          "margin": -71.34,
+          "votesRep": 41951,
+          "votesDem": 250761,
+          "votesTotal": 297570
+        },
+        "Dodge13": {
+          "color": "#BF1D29",
+          "label": "Walker +49.8",
+          "margin": 49.81,
+          "votesRep": 4895,
+          "votesDem": 1640,
+          "votesTotal": 6608
+        },
+        "Dooly13": {
+          "color": "#FF5865",
+          "label": "Walker +10.0",
+          "margin": 9.95,
+          "votesRep": 1784,
+          "votesDem": 1461,
+          "votesTotal": 3277
+        },
+        "Dougherty13": {
+          "color": "#1C408C",
+          "label": "Warnock +41.2",
+          "margin": -41.16,
+          "votesRep": 7755,
+          "votesDem": 18603,
+          "votesTotal": 26614
+        },
+        "Douglas13": {
+          "color": "#1C408C",
+          "label": "Warnock +32.0",
+          "margin": -32.02,
+          "votesRep": 17589,
+          "votesDem": 34158,
+          "votesTotal": 52746
+        },
+        "Early13": {
+          "color": "#BF1D29",
+          "label": "Walker +14.5",
+          "margin": 14.49,
+          "votesRep": 2209,
+          "votesDem": 1650,
+          "votesTotal": 3887
+        },
+        "Echols13": {
+          "color": "#BF1D29",
+          "label": "Walker +80.7",
+          "margin": 80.71,
+          "votesRep": 937,
+          "votesDem": 100,
+          "votesTotal": 1060
+        },
+        "Effingham13": {
+          "color": "#BF1D29",
+          "label": "Walker +47.6",
+          "margin": 47.6,
+          "votesRep": 18231,
+          "votesDem": 6473,
+          "votesTotal": 25308
+        },
+        "Elbert13": {
+          "color": "#BF1D29",
+          "label": "Walker +42.4",
+          "margin": 42.4,
+          "votesRep": 5135,
+          "votesDem": 2077,
+          "votesTotal": 7302
+        },
+        "Emanuel13": {
+          "color": "#BF1D29",
+          "label": "Walker +42.4",
+          "margin": 42.37,
+          "votesRep": 5329,
+          "votesDem": 2157,
+          "votesTotal": 7544
+        },
+        "Evans13": {
+          "color": "#BF1D29",
+          "label": "Walker +41.0",
+          "margin": 41.01,
+          "votesRep": 2314,
+          "votesDem": 968,
+          "votesTotal": 3336
+        },
+        "Fannin13": {
+          "color": "#BF1D29",
+          "label": "Walker +63.6",
+          "margin": 63.64,
+          "votesRep": 10036,
+          "votesDem": 2230,
+          "votesTotal": 12556
+        },
+        "Fayette13": {
+          "color": "#FF8B98",
+          "label": "Walker +3.2",
+          "margin": 3.24,
+          "votesRep": 30178,
+          "votesDem": 28284,
+          "votesTotal": 59958
+        },
+        "Floyd13": {
+          "color": "#BF1D29",
+          "label": "Walker +41.1",
+          "margin": 41.06,
+          "votesRep": 21923,
+          "votesDem": 9160,
+          "votesTotal": 31896
+        },
+        "Forsyth13": {
+          "color": "#BF1D29",
+          "label": "Walker +33.5",
+          "margin": 33.54,
+          "votesRep": 66013,
+          "votesDem": 32852,
+          "votesTotal": 101853
+        },
+        "Franklin13": {
+          "color": "#BF1D29",
+          "label": "Walker +72.7",
+          "margin": 72.69,
+          "votesRep": 7374,
+          "votesDem": 1166,
+          "votesTotal": 8704
+        },
+        "Fulton13": {
+          "color": "#1C408C",
+          "label": "Warnock +49.9",
+          "margin": -49.91,
+          "votesRep": 102758,
+          "votesDem": 307560,
+          "votesTotal": 418172
+        },
+        "Gilmer13": {
+          "color": "#BF1D29",
+          "label": "Walker +63.1",
+          "margin": 63.12,
+          "votesRep": 11159,
+          "votesDem": 2523,
+          "votesTotal": 14007
+        },
+        "Glascock13": {
+          "color": "#BF1D29",
+          "label": "Walker +82.4",
+          "margin": 82.4,
+          "votesRep": 1171,
+          "votesDem": 113,
+          "votesTotal": 1295
+        },
+        "Glynn13": {
+          "color": "#BF1D29",
+          "label": "Walker +27.4",
+          "margin": 27.42,
+          "votesRep": 20735,
+          "votesDem": 11812,
+          "votesTotal": 33144
+        },
+        "Gordon13": {
+          "color": "#BF1D29",
+          "label": "Walker +63.3",
+          "margin": 63.34,
+          "votesRep": 14955,
+          "votesDem": 3357,
+          "votesTotal": 18787
+        },
+        "Grady13": {
+          "color": "#BF1D29",
+          "label": "Walker +37.3",
+          "margin": 37.33,
+          "votesRep": 5638,
+          "votesDem": 2573,
+          "votesTotal": 8311
+        },
+        "Greene13": {
+          "color": "#BF1D29",
+          "label": "Walker +31.3",
+          "margin": 31.3,
+          "votesRep": 6741,
+          "votesDem": 3527,
+          "votesTotal": 10424
+        },
+        "Gwinnett13": {
+          "color": "#1C408C",
+          "label": "Warnock +20.9",
+          "margin": -20.87,
+          "votesRep": 115024,
+          "votesDem": 175688,
+          "votesTotal": 298036
+        },
+        "Habersham13": {
+          "color": "#BF1D29",
+          "label": "Walker +64.8",
+          "margin": 64.78,
+          "votesRep": 13509,
+          "votesDem": 2887,
+          "votesTotal": 16874
+        },
+        "Hall13": {
+          "color": "#BF1D29",
+          "label": "Walker +45.8",
+          "margin": 45.8,
+          "votesRep": 51643,
+          "votesDem": 19196,
+          "votesTotal": 73005
+        },
+        "Hancock13": {
+          "color": "#1C408C",
+          "label": "Warnock +41.2",
+          "margin": -41.17,
+          "votesRep": 989,
+          "votesDem": 2373,
+          "votesTotal": 3392
+        },
+        "Haralson13": {
+          "color": "#BF1D29",
+          "label": "Walker +73.5",
+          "margin": 73.46,
+          "votesRep": 9789,
+          "votesDem": 1498,
+          "votesTotal": 11595
+        },
+        "Harris13": {
+          "color": "#BF1D29",
+          "label": "Walker +45.3",
+          "margin": 45.29,
+          "votesRep": 12072,
+          "votesDem": 4546,
+          "votesTotal": 16956
+        },
+        "Hart13": {
+          "color": "#BF1D29",
+          "label": "Walker +54.9",
+          "margin": 54.92,
+          "votesRep": 7979,
+          "votesDem": 2322,
+          "votesTotal": 10495
+        },
+        "Heard13": {
+          "color": "#BF1D29",
+          "label": "Walker +69.0",
+          "margin": 68.95,
+          "votesRep": 3673,
+          "votesDem": 675,
+          "votesTotal": 4441
+        },
+        "Henry13": {
+          "color": "#1C408C",
+          "label": "Warnock +29.9",
+          "margin": -29.86,
+          "votesRep": 32819,
+          "votesDem": 60756,
+          "votesTotal": 95229
+        },
+        "Houston13": {
+          "color": "#BF1D29",
+          "label": "Walker +11.4",
+          "margin": 11.37,
+          "votesRep": 32239,
+          "votesDem": 25657,
+          "votesTotal": 58991
+        },
+        "Irwin13": {
+          "color": "#BF1D29",
+          "label": "Walker +54.9",
+          "margin": 54.91,
+          "votesRep": 2601,
+          "votesDem": 757,
+          "votesTotal": 3404
+        },
+        "Jackson13": {
+          "color": "#BF1D29",
+          "label": "Walker +57.9",
+          "margin": 57.88,
+          "votesRep": 24379,
+          "votesDem": 6504,
+          "votesTotal": 31706
+        },
+        "Jasper13": {
+          "color": "#BF1D29",
+          "label": "Walker +54.4",
+          "margin": 54.36,
+          "votesRep": 4951,
+          "votesDem": 1464,
+          "votesTotal": 6535
+        },
+        "Jeff Davis13": {
+          "color": "#BF1D29",
+          "label": "Walker +67.0",
+          "margin": 67.02,
+          "votesRep": 3738,
+          "votesDem": 738,
+          "votesTotal": 4528
+        },
+        "Jefferson13": {
+          "color": "#8AAFFF",
+          "label": "Warnock +1.9",
+          "margin": -1.89,
+          "votesRep": 3041,
+          "votesDem": 3158,
+          "votesTotal": 6253
+        },
+        "Jenkins13": {
+          "color": "#BF1D29",
+          "label": "Walker +33.4",
+          "margin": 33.38,
+          "votesRep": 1826,
+          "votesDem": 912,
+          "votesTotal": 2763
+        },
+        "Johnson13": {
+          "color": "#BF1D29",
+          "label": "Walker +48.2",
+          "margin": 48.17,
+          "votesRep": 2484,
+          "votesDem": 869,
+          "votesTotal": 3370
+        },
+        "Jones13": {
+          "color": "#BF1D29",
+          "label": "Walker +33.9",
+          "margin": 33.93,
+          "votesRep": 8089,
+          "votesDem": 3990,
+          "votesTotal": 12270
+        },
+        "Lamar13": {
+          "color": "#BF1D29",
+          "label": "Walker +43.4",
+          "margin": 43.38,
+          "votesRep": 5416,
+          "votesDem": 2139,
+          "votesTotal": 7713
+        },
+        "Lanier13": {
+          "color": "#BF1D29",
+          "label": "Walker +43.9",
+          "margin": 43.91,
+          "votesRep": 1860,
+          "votesDem": 725,
+          "votesTotal": 2623
+        },
+        "Laurens13": {
+          "color": "#BF1D29",
+          "label": "Walker +31.5",
+          "margin": 31.53,
+          "votesRep": 12073,
+          "votesDem": 6285,
+          "votesTotal": 18513
+        },
+        "Lee13": {
+          "color": "#BF1D29",
+          "label": "Walker +43.2",
+          "margin": 43.23,
+          "votesRep": 9535,
+          "votesDem": 3779,
+          "votesTotal": 13535
+        },
+        "Liberty13": {
+          "color": "#1C408C",
+          "label": "Warnock +27.3",
+          "margin": -27.31,
+          "votesRep": 5490,
+          "votesDem": 9615,
+          "votesTotal": 15369
+        },
+        "Lincoln13": {
+          "color": "#BF1D29",
+          "label": "Walker +45.1",
+          "margin": 45.11,
+          "votesRep": 2847,
+          "votesDem": 1077,
+          "votesTotal": 3973
+        },
+        "Long13": {
+          "color": "#BF1D29",
+          "label": "Walker +28.1",
+          "margin": 28.12,
+          "votesRep": 2759,
+          "votesDem": 1548,
+          "votesTotal": 4402
+        },
+        "Lowndes13": {
+          "color": "#BF1D29",
+          "label": "Walker +18.7",
+          "margin": 18.68,
+          "votesRep": 20213,
+          "votesDem": 13849,
+          "votesTotal": 34612
+        },
+        "Lumpkin13": {
+          "color": "#BF1D29",
+          "label": "Walker +58.7",
+          "margin": 58.73,
+          "votesRep": 9765,
+          "votesDem": 2539,
+          "votesTotal": 12673
+        },
+        "Macon13": {
+          "color": "#1C408C",
+          "label": "Warnock +21.7",
+          "margin": -21.69,
+          "votesRep": 1460,
+          "votesDem": 2269,
+          "votesTotal": 3761
+        },
+        "Madison13": {
+          "color": "#BF1D29",
+          "label": "Walker +53.1",
+          "margin": 53.11,
+          "votesRep": 9353,
+          "votesDem": 2864,
+          "votesTotal": 12479
+        },
+        "Marion13": {
+          "color": "#BF1D29",
+          "label": "Walker +26.4",
+          "margin": 26.45,
+          "votesRep": 1750,
+          "votesDem": 1018,
+          "votesTotal": 2834
+        },
+        "McDuffie13": {
+          "color": "#BF1D29",
+          "label": "Walker +24.0",
+          "margin": 24.04,
+          "votesRep": 5067,
+          "votesDem": 3103,
+          "votesTotal": 8301
+        },
+        "McIntosh13": {
+          "color": "#BF1D29",
+          "label": "Walker +24.0",
+          "margin": 24.04,
+          "votesRep": 3344,
+          "votesDem": 2048,
+          "votesTotal": 5487
+        },
+        "Meriwether13": {
+          "color": "#BF1D29",
+          "label": "Walker +22.7",
+          "margin": 22.68,
+          "votesRep": 5336,
+          "votesDem": 3363,
+          "votesTotal": 8874
+        },
+        "Miller13": {
+          "color": "#BF1D29",
+          "label": "Walker +52.1",
+          "margin": 52.12,
+          "votesRep": 1617,
+          "votesDem": 509,
+          "votesTotal": 2148
+        },
+        "Mitchell13": {
+          "color": "#BF1D29",
+          "label": "Walker +14.9",
+          "margin": 14.89,
+          "votesRep": 3986,
+          "votesDem": 2953,
+          "votesTotal": 7020
+        },
+        "Monroe13": {
+          "color": "#BF1D29",
+          "label": "Walker +44.3",
+          "margin": 44.27,
+          "votesRep": 9673,
+          "votesDem": 3737,
+          "votesTotal": 13665
+        },
+        "Montgomery13": {
+          "color": "#BF1D29",
+          "label": "Walker +53.5",
+          "margin": 53.51,
+          "votesRep": 2450,
+          "votesDem": 742,
+          "votesTotal": 3226
+        },
+        "Morgan13": {
+          "color": "#BF1D29",
+          "label": "Walker +45.2",
+          "margin": 45.22,
+          "votesRep": 7322,
+          "votesDem": 2762,
+          "votesTotal": 10258
+        },
+        "Murray13": {
+          "color": "#BF1D29",
+          "label": "Walker +72.8",
+          "margin": 72.8,
+          "votesRep": 9737,
+          "votesDem": 1533,
+          "votesTotal": 11469
+        },
+        "Muscogee13": {
+          "color": "#1C408C",
+          "label": "Warnock +26.3",
+          "margin": -26.33,
+          "votesRep": 21496,
+          "votesDem": 36861,
+          "votesTotal": 59244
+        },
+        "Newton13": {
+          "color": "#1C408C",
+          "label": "Warnock +16.2",
+          "margin": -16.15,
+          "votesRep": 17577,
+          "votesDem": 24348,
+          "votesTotal": 42708
+        },
+        "Oconee13": {
+          "color": "#BF1D29",
+          "label": "Walker +35.5",
+          "margin": 35.51,
+          "votesRep": 14681,
+          "votesDem": 6987,
+          "votesTotal": 22283
+        },
+        "Oglethorpe13": {
+          "color": "#BF1D29",
+          "label": "Walker +39.8",
+          "margin": 39.83,
+          "votesRep": 4638,
+          "votesDem": 1996,
+          "votesTotal": 6786
+        },
+        "Paulding13": {
+          "color": "#BF1D29",
+          "label": "Walker +25.0",
+          "margin": 25.05,
+          "votesRep": 40689,
+          "votesDem": 24389,
+          "votesTotal": 66713
+        },
+        "Peach13": {
+          "color": "#FF8B98",
+          "label": "Walker +4.6",
+          "margin": 4.62,
+          "votesRep": 5156,
+          "votesDem": 4701,
+          "votesTotal": 10000
+        },
+        "Pickens13": {
+          "color": "#BF1D29",
+          "label": "Walker +64.6",
+          "margin": 64.63,
+          "votesRep": 12050,
+          "votesDem": 2589,
+          "votesTotal": 15003
+        },
+        "Pierce13": {
+          "color": "#BF1D29",
+          "label": "Walker +78.1",
+          "margin": 78.07,
+          "votesRep": 6325,
+          "votesDem": 779,
+          "votesTotal": 7167
+        },
+        "Pike13": {
+          "color": "#BF1D29",
+          "label": "Walker +72.7",
+          "margin": 72.69,
+          "votesRep": 7948,
+          "votesDem": 1257,
+          "votesTotal": 9396
+        },
+        "Polk13": {
+          "color": "#BF1D29",
+          "label": "Walker +57.7",
+          "margin": 57.73,
+          "votesRep": 10426,
+          "votesDem": 2794,
+          "votesTotal": 13563
+        },
+        "Pulaski13": {
+          "color": "#BF1D29",
+          "label": "Walker +39.7",
+          "margin": 39.66,
+          "votesRep": 2319,
+          "votesDem": 1002,
+          "votesTotal": 3366
+        },
+        "Putnam13": {
+          "color": "#BF1D29",
+          "label": "Walker +43.1",
+          "margin": 43.12,
+          "votesRep": 7164,
+          "votesDem": 2847,
+          "votesTotal": 10202
+        },
+        "Quitman13": {
+          "color": "#BF1D29",
+          "label": "Walker +15.0",
+          "margin": 14.96,
+          "votesRep": 511,
+          "votesDem": 378,
+          "votesTotal": 902
+        },
+        "Rabun13": {
+          "color": "#BF1D29",
+          "label": "Walker +54.8",
+          "margin": 54.81,
+          "votesRep": 6180,
+          "votesDem": 1804,
+          "votesTotal": 8207
+        },
+        "Randolph13": {
+          "color": "#577CCC",
+          "label": "Warnock +8.2",
+          "margin": -8.24,
+          "votesRep": 1158,
+          "votesDem": 1366,
+          "votesTotal": 2547
+        },
+        "Richmond13": {
+          "color": "#1C408C",
+          "label": "Warnock +38.2",
+          "margin": -38.18,
+          "votesRep": 19491,
+          "votesDem": 43567,
+          "votesTotal": 63938
+        },
+        "Rockdale13": {
+          "color": "#1C408C",
+          "label": "Warnock +49.0",
+          "margin": -48.99,
+          "votesRep": 8722,
+          "votesDem": 25478,
+          "votesTotal": 34774
+        },
+        "Schley13": {
+          "color": "#BF1D29",
+          "label": "Walker +58.5",
+          "margin": 58.51,
+          "votesRep": 1467,
+          "votesDem": 384,
+          "votesTotal": 1870
+        },
+        "Screven13": {
+          "color": "#BF1D29",
+          "label": "Walker +22.9",
+          "margin": 22.91,
+          "votesRep": 3203,
+          "votesDem": 2009,
+          "votesTotal": 5285
+        },
+        "Seminole13": {
+          "color": "#BF1D29",
+          "label": "Walker +44.5",
+          "margin": 44.48,
+          "votesRep": 2152,
+          "votesDem": 827,
+          "votesTotal": 3023
+        },
+        "Spalding13": {
+          "color": "#BF1D29",
+          "label": "Walker +17.7",
+          "margin": 17.72,
+          "votesRep": 13966,
+          "votesDem": 9761,
+          "votesTotal": 24262
+        },
+        "Stephens13": {
+          "color": "#BF1D29",
+          "label": "Walker +61.4",
+          "margin": 61.43,
+          "votesRep": 7374,
+          "votesDem": 1762,
+          "votesTotal": 9333
+        },
+        "Stewart13": {
+          "color": "#1C408C",
+          "label": "Warnock +17.9",
+          "margin": -17.89,
+          "votesRep": 638,
+          "votesDem": 916,
+          "votesTotal": 1567
+        },
+        "Sumter13": {
+          "color": "#8AAFFF",
+          "label": "Warnock +3.2",
+          "margin": -3.21,
+          "votesRep": 4590,
+          "votesDem": 4894,
+          "votesTotal": 9580
+        },
+        "Talbot13": {
+          "color": "#1C408C",
+          "label": "Warnock +20.3",
+          "margin": -20.31,
+          "votesRep": 1118,
+          "votesDem": 1688,
+          "votesTotal": 2849
+        },
+        "Taliaferro13": {
+          "color": "#1C408C",
+          "label": "Warnock +21.8",
+          "margin": -21.82,
+          "votesRep": 310,
+          "votesDem": 483,
+          "votesTotal": 797
+        },
+        "Tattnall13": {
+          "color": "#BF1D29",
+          "label": "Walker +52.3",
+          "margin": 52.28,
+          "votesRep": 4866,
+          "votesDem": 1525,
+          "votesTotal": 6500
+        },
+        "Taylor13": {
+          "color": "#BF1D29",
+          "label": "Walker +27.6",
+          "margin": 27.65,
+          "votesRep": 2020,
+          "votesDem": 1145,
+          "votesTotal": 3200
+        },
+        "Telfair13": {
+          "color": "#BF1D29",
+          "label": "Walker +38.8",
+          "margin": 38.79,
+          "votesRep": 2340,
+          "votesDem": 1032,
+          "votesTotal": 3400
+        },
+        "Terrell13": {
+          "color": "#577CCC",
+          "label": "Warnock +5.8",
+          "margin": -5.81,
+          "votesRep": 1695,
+          "votesDem": 1904,
+          "votesTotal": 3638
+        },
+        "Thomas13": {
+          "color": "#BF1D29",
+          "label": "Walker +23.9",
+          "margin": 23.91,
+          "votesRep": 10481,
+          "votesDem": 6436,
+          "votesTotal": 17180
+        },
+        "Tift13": {
+          "color": "#BF1D29",
+          "label": "Walker +39.4",
+          "margin": 39.4,
+          "votesRep": 8921,
+          "votesDem": 3878,
+          "votesTotal": 12975
+        },
+        "Toombs13": {
+          "color": "#BF1D29",
+          "label": "Walker +50.7",
+          "margin": 50.67,
+          "votesRep": 6298,
+          "votesDem": 2062,
+          "votesTotal": 8460
+        },
+        "Towns13": {
+          "color": "#BF1D29",
+          "label": "Walker +60.7",
+          "margin": 60.69,
+          "votesRep": 5568,
+          "votesDem": 1362,
+          "votesTotal": 7109
+        },
+        "Treutlen13": {
+          "color": "#BF1D29",
+          "label": "Walker +41.5",
+          "margin": 41.53,
+          "votesRep": 1721,
+          "votesDem": 711,
+          "votesTotal": 2444
+        },
+        "Troup13": {
+          "color": "#BF1D29",
+          "label": "Walker +22.6",
+          "margin": 22.56,
+          "votesRep": 13937,
+          "votesDem": 8806,
+          "votesTotal": 23169
+        },
+        "Turner13": {
+          "color": "#BF1D29",
+          "label": "Walker +24.3",
+          "margin": 24.31,
+          "votesRep": 1892,
+          "votesDem": 1152,
+          "votesTotal": 3086
+        },
+        "Twiggs13": {
+          "color": "#FF5865",
+          "label": "Walker +8.2",
+          "margin": 8.17,
+          "votesRep": 1886,
+          "votesDem": 1601,
+          "votesTotal": 3532
+        },
+        "Union13": {
+          "color": "#BF1D29",
+          "label": "Walker +62.0",
+          "margin": 62.03,
+          "votesRep": 11186,
+          "votesDem": 2621,
+          "votesTotal": 14185
+        },
+        "Upson13": {
+          "color": "#BF1D29",
+          "label": "Walker +35.6",
+          "margin": 35.63,
+          "votesRep": 6685,
+          "votesDem": 3173,
+          "votesTotal": 10064
+        },
+        "Walker13": {
+          "color": "#BF1D29",
+          "label": "Walker +59.2",
+          "margin": 59.17,
+          "votesRep": 17064,
+          "votesDem": 4377,
+          "votesTotal": 21972
+        },
+        "Walton13": {
+          "color": "#BF1D29",
+          "label": "Walker +48.1",
+          "margin": 48.12,
+          "votesRep": 30553,
+          "votesDem": 10702,
+          "votesTotal": 42259
+        },
+        "Ware13": {
+          "color": "#BF1D29",
+          "label": "Walker +43.5",
+          "margin": 43.55,
+          "votesRep": 7567,
+          "votesDem": 2976,
+          "votesTotal": 10704
+        },
+        "Warren13": {
+          "color": "#577CCC",
+          "label": "Warnock +5.2",
+          "margin": -5.18,
+          "votesRep": 1007,
+          "votesDem": 1117,
+          "votesTotal": 2149
+        },
+        "Washington13": {
+          "color": "#FF8B98",
+          "label": "Walker +1.4",
+          "margin": 1.44,
+          "votesRep": 3904,
+          "votesDem": 3793,
+          "votesTotal": 7763
+        },
+        "Wayne13": {
+          "color": "#BF1D29",
+          "label": "Walker +59.1",
+          "margin": 59.11,
+          "votesRep": 7838,
+          "votesDem": 2014,
+          "votesTotal": 9988
+        },
+        "Webster13": {
+          "color": "#BF1D29",
+          "label": "Walker +20.9",
+          "margin": 20.93,
+          "votesRep": 676,
+          "votesDem": 442,
+          "votesTotal": 1125
+        },
+        "Wheeler13": {
+          "color": "#BF1D29",
+          "label": "Walker +40.7",
+          "margin": 40.67,
+          "votesRep": 1266,
+          "votesDem": 534,
+          "votesTotal": 1817
+        },
+        "White13": {
+          "color": "#BF1D29",
+          "label": "Walker +66.5",
+          "margin": 66.49,
+          "votesRep": 10249,
+          "votesDem": 2063,
+          "votesTotal": 12660
+        },
+        "Whitfield13": {
+          "color": "#BF1D29",
+          "label": "Walker +47.5",
+          "margin": 47.48,
+          "votesRep": 19387,
+          "votesDem": 6904,
+          "votesTotal": 26888
+        },
+        "Wilcox13": {
+          "color": "#BF1D29",
+          "label": "Walker +50.3",
+          "margin": 50.29,
+          "votesRep": 1947,
+          "votesDem": 644,
+          "votesTotal": 2613
+        },
+        "Wilkes13": {
+          "color": "#BF1D29",
+          "label": "Walker +17.7",
+          "margin": 17.69,
+          "votesRep": 2402,
+          "votesDem": 1680,
+          "votesTotal": 4128
+        },
+        "Wilkinson13": {
+          "color": "#BF1D29",
+          "label": "Walker +13.6",
+          "margin": 13.6,
+          "votesRep": 2272,
+          "votesDem": 1728,
+          "votesTotal": 4043
+        },
+        "Worth13": {
+          "color": "#BF1D29",
+          "label": "Walker +49.2",
+          "margin": 49.24,
+          "votesRep": 5416,
+          "votesDem": 1842,
+          "votesTotal": 7358
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Brian Kemp",
+      "candDem": "Stacey Abrams",
+      "shortRep": "Kemp",
+      "shortDem": "Abrams",
+      "partisan": true,
+      "margin": 1.4,
+      "votesRep": 1978408,
+      "votesDem": 1923685,
+      "votesTotal": 3939328,
+      "regions": {
+        "Appling13": {
+          "color": "#BF1D29",
+          "label": "Kemp +60.0",
+          "margin": 59.98,
+          "votesRep": 5428,
+          "votesDem": 1358,
+          "votesTotal": 6809
+        },
+        "Atkinson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.3",
+          "margin": 49.3,
+          "votesRep": 1876,
+          "votesDem": 637,
+          "votesTotal": 2522
+        },
+        "Bacon13": {
+          "color": "#BF1D29",
+          "label": "Kemp +74.3",
+          "margin": 74.33,
+          "votesRep": 3321,
+          "votesDem": 489,
+          "votesTotal": 3830
+        },
+        "Baker13": {
+          "color": "#BF1D29",
+          "label": "Kemp +16.9",
+          "margin": 16.93,
+          "votesRep": 753,
+          "votesDem": 535,
+          "votesTotal": 1293
+        },
+        "Baldwin13": {
+          "color": "#6b7280",
+          "label": "Abrams +0.4",
+          "margin": -0.37,
+          "votesRep": 7735,
+          "votesDem": 7793,
+          "votesTotal": 15636
+        },
+        "Banks13": {
+          "color": "#BF1D29",
+          "label": "Kemp +81.0",
+          "margin": 81.02,
+          "votesRep": 6150,
+          "votesDem": 645,
+          "votesTotal": 6852
+        },
+        "Barrow13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.0",
+          "margin": 49.01,
+          "votesRep": 20162,
+          "votesDem": 6900,
+          "votesTotal": 27405
+        },
+        "Bartow13": {
+          "color": "#BF1D29",
+          "label": "Kemp +53.9",
+          "margin": 53.86,
+          "votesRep": 28425,
+          "votesDem": 8524,
+          "votesTotal": 37359
+        },
+        "Ben Hill13": {
+          "color": "#BF1D29",
+          "label": "Kemp +28.2",
+          "margin": 28.18,
+          "votesRep": 3539,
+          "votesDem": 1983,
+          "votesTotal": 5547
+        },
+        "Berrien13": {
+          "color": "#BF1D29",
+          "label": "Kemp +71.0",
+          "margin": 71.03,
+          "votesRep": 5314,
+          "votesDem": 900,
+          "votesTotal": 6252
+        },
+        "Bibb13": {
+          "color": "#1C408C",
+          "label": "Abrams +23.0",
+          "margin": -22.96,
+          "votesRep": 23225,
+          "votesDem": 37066,
+          "votesTotal": 60692
+        },
+        "Bleckley13": {
+          "color": "#BF1D29",
+          "label": "Kemp +58.4",
+          "margin": 58.41,
+          "votesRep": 3816,
+          "votesDem": 1002,
+          "votesTotal": 4860
+        },
+        "Brantley13": {
+          "color": "#BF1D29",
+          "label": "Kemp +83.7",
+          "margin": 83.71,
+          "votesRep": 5198,
+          "votesDem": 461,
+          "votesTotal": 5694
+        },
+        "Brooks13": {
+          "color": "#BF1D29",
+          "label": "Kemp +23.2",
+          "margin": 23.21,
+          "votesRep": 3511,
+          "votesDem": 2188,
+          "votesTotal": 5722
+        },
+        "Bryan13": {
+          "color": "#BF1D29",
+          "label": "Kemp +41.8",
+          "margin": 41.79,
+          "votesRep": 10507,
+          "votesDem": 4313,
+          "votesTotal": 14985
+        },
+        "Bulloch13": {
+          "color": "#BF1D29",
+          "label": "Kemp +26.5",
+          "margin": 26.48,
+          "votesRep": 14848,
+          "votesDem": 8630,
+          "votesTotal": 23683
+        },
+        "Burke13": {
+          "color": "#FF8B98",
+          "label": "Kemp +1.6",
+          "margin": 1.62,
+          "votesRep": 4410,
+          "votesDem": 4269,
+          "votesTotal": 8721
+        },
+        "Butts13": {
+          "color": "#BF1D29",
+          "label": "Kemp +44.4",
+          "margin": 44.35,
+          "votesRep": 6358,
+          "votesDem": 2451,
+          "votesTotal": 8863
+        },
+        "Calhoun13": {
+          "color": "#1C408C",
+          "label": "Abrams +14.5",
+          "margin": -14.47,
+          "votesRep": 810,
+          "votesDem": 1084,
+          "votesTotal": 1899
+        },
+        "Camden13": {
+          "color": "#BF1D29",
+          "label": "Kemp +32.1",
+          "margin": 32.09,
+          "votesRep": 11139,
+          "votesDem": 5727,
+          "votesTotal": 17061
+        },
+        "Candler13": {
+          "color": "#BF1D29",
+          "label": "Kemp +45.3",
+          "margin": 45.33,
+          "votesRep": 2560,
+          "votesDem": 963,
+          "votesTotal": 3539
+        },
+        "Carroll13": {
+          "color": "#BF1D29",
+          "label": "Kemp +41.1",
+          "margin": 41.14,
+          "votesRep": 29204,
+          "votesDem": 12180,
+          "votesTotal": 41843
+        },
+        "Catoosa13": {
+          "color": "#BF1D29",
+          "label": "Kemp +60.9",
+          "margin": 60.89,
+          "votesRep": 18881,
+          "votesDem": 4590,
+          "votesTotal": 23758
+        },
+        "Charlton13": {
+          "color": "#BF1D29",
+          "label": "Kemp +51.0",
+          "margin": 51.01,
+          "votesRep": 2534,
+          "votesDem": 822,
+          "votesTotal": 3375
+        },
+        "Chatham13": {
+          "color": "#1C408C",
+          "label": "Abrams +19.2",
+          "margin": -19.16,
+          "votesRep": 41425,
+          "votesDem": 61059,
+          "votesTotal": 103543
+        },
+        "Chattahoochee13": {
+          "color": "#FF5865",
+          "label": "Kemp +9.9",
+          "margin": 9.94,
+          "votesRep": 603,
+          "votesDem": 494,
+          "votesTotal": 1105
+        },
+        "Chattooga13": {
+          "color": "#BF1D29",
+          "label": "Kemp +60.8",
+          "margin": 60.85,
+          "votesRep": 5936,
+          "votesDem": 1445,
+          "votesTotal": 7434
+        },
+        "Cherokee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +46.4",
+          "margin": 46.45,
+          "votesRep": 76700,
+          "votesDem": 28047,
+          "votesTotal": 106411
+        },
+        "Clarke13": {
+          "color": "#1C408C",
+          "label": "Abrams +42.2",
+          "margin": -42.21,
+          "votesRep": 12365,
+          "votesDem": 30427,
+          "votesTotal": 43302
+        },
+        "Clay13": {
+          "color": "#577CCC",
+          "label": "Abrams +9.0",
+          "margin": -9,
+          "votesRep": 536,
+          "votesDem": 642,
+          "votesTotal": 1186
+        },
+        "Clayton13": {
+          "color": "#1C408C",
+          "label": "Abrams +76.3",
+          "margin": -76.33,
+          "votesRep": 10868,
+          "votesDem": 80971,
+          "votesTotal": 92212
+        },
+        "Clinch13": {
+          "color": "#BF1D29",
+          "label": "Kemp +52.6",
+          "margin": 52.55,
+          "votesRep": 1717,
+          "votesDem": 534,
+          "votesTotal": 2258
+        },
+        "Cobb13": {
+          "color": "#577CCC",
+          "label": "Abrams +9.7",
+          "margin": -9.72,
+          "votesRep": 138852,
+          "votesDem": 168767,
+          "votesTotal": 311814
+        },
+        "Coffee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +42.2",
+          "margin": 42.19,
+          "votesRep": 8929,
+          "votesDem": 3630,
+          "votesTotal": 12615
+        },
+        "Colquitt13": {
+          "color": "#BF1D29",
+          "label": "Kemp +52.6",
+          "margin": 52.59,
+          "votesRep": 9830,
+          "votesDem": 3054,
+          "votesTotal": 12963
+        },
+        "Columbia13": {
+          "color": "#BF1D29",
+          "label": "Kemp +34.3",
+          "margin": 34.32,
+          "votesRep": 40947,
+          "votesDem": 20023,
+          "votesTotal": 61634
+        },
+        "Cook13": {
+          "color": "#BF1D29",
+          "label": "Kemp +42.3",
+          "margin": 42.35,
+          "votesRep": 4116,
+          "votesDem": 1667,
+          "votesTotal": 5803
+        },
+        "Coweta13": {
+          "color": "#BF1D29",
+          "label": "Kemp +41.1",
+          "margin": 41.07,
+          "votesRep": 40471,
+          "votesDem": 16908,
+          "votesTotal": 58071
+        },
+        "Crawford13": {
+          "color": "#BF1D29",
+          "label": "Kemp +46.8",
+          "margin": 46.82,
+          "votesRep": 3595,
+          "votesDem": 1302,
+          "votesTotal": 4934
+        },
+        "Crisp13": {
+          "color": "#BF1D29",
+          "label": "Kemp +26.6",
+          "margin": 26.6,
+          "votesRep": 4445,
+          "votesDem": 2577,
+          "votesTotal": 7050
+        },
+        "Dade13": {
+          "color": "#BF1D29",
+          "label": "Kemp +67.2",
+          "margin": 67.21,
+          "votesRep": 4508,
+          "votesDem": 884,
+          "votesTotal": 5462
+        },
+        "Dawson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +73.5",
+          "margin": 73.52,
+          "votesRep": 9953,
+          "votesDem": 1519,
+          "votesTotal": 11581
+        },
+        "Decatur13": {
+          "color": "#BF1D29",
+          "label": "Kemp +20.6",
+          "margin": 20.61,
+          "votesRep": 5492,
+          "votesDem": 3615,
+          "votesTotal": 9146
+        },
+        "DeKalb13": {
+          "color": "#1C408C",
+          "label": "Abrams +68.4",
+          "margin": -68.43,
+          "votesRep": 48923,
+          "votesDem": 261042,
+          "votesTotal": 312741
+        },
+        "Dodge13": {
+          "color": "#BF1D29",
+          "label": "Kemp +48.4",
+          "margin": 48.36,
+          "votesRep": 5220,
+          "votesDem": 1817,
+          "votesTotal": 7061
+        },
+        "Dooly13": {
+          "color": "#FF5865",
+          "label": "Kemp +5.8",
+          "margin": 5.79,
+          "votesRep": 2001,
+          "votesDem": 1782,
+          "votesTotal": 3795
+        },
+        "Dougherty13": {
+          "color": "#1C408C",
+          "label": "Abrams +40.4",
+          "margin": -40.4,
+          "votesRep": 9330,
+          "votesDem": 21980,
+          "votesTotal": 31425
+        },
+        "Douglas13": {
+          "color": "#1C408C",
+          "label": "Abrams +20.6",
+          "margin": -20.64,
+          "votesRep": 21744,
+          "votesDem": 33053,
+          "votesTotal": 55255
+        },
+        "Early13": {
+          "color": "#BF1D29",
+          "label": "Kemp +10.8",
+          "margin": 10.79,
+          "votesRep": 2285,
+          "votesDem": 1840,
+          "votesTotal": 4135
+        },
+        "Echols13": {
+          "color": "#BF1D29",
+          "label": "Kemp +77.8",
+          "margin": 77.78,
+          "votesRep": 1008,
+          "votesDem": 126,
+          "votesTotal": 1143
+        },
+        "Effingham13": {
+          "color": "#BF1D29",
+          "label": "Kemp +55.5",
+          "margin": 55.48,
+          "votesRep": 17969,
+          "votesDem": 5145,
+          "votesTotal": 23371
+        },
+        "Elbert13": {
+          "color": "#BF1D29",
+          "label": "Kemp +40.3",
+          "margin": 40.27,
+          "votesRep": 5152,
+          "votesDem": 2194,
+          "votesTotal": 7388
+        },
+        "Emanuel13": {
+          "color": "#BF1D29",
+          "label": "Kemp +40.7",
+          "margin": 40.66,
+          "votesRep": 5400,
+          "votesDem": 2278,
+          "votesTotal": 7716
+        },
+        "Evans13": {
+          "color": "#BF1D29",
+          "label": "Kemp +39.4",
+          "margin": 39.39,
+          "votesRep": 2392,
+          "votesDem": 1040,
+          "votesTotal": 3447
+        },
+        "Fannin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +67.4",
+          "margin": 67.45,
+          "votesRep": 9306,
+          "votesDem": 1809,
+          "votesTotal": 11218
+        },
+        "Fayette13": {
+          "color": "#BF1D29",
+          "label": "Kemp +13.4",
+          "margin": 13.44,
+          "votesRep": 32497,
+          "votesDem": 24796,
+          "votesTotal": 57998
+        },
+        "Floyd13": {
+          "color": "#BF1D29",
+          "label": "Kemp +43.7",
+          "margin": 43.73,
+          "votesRep": 21569,
+          "votesDem": 8445,
+          "votesTotal": 30338
+        },
+        "Forsyth13": {
+          "color": "#BF1D29",
+          "label": "Kemp +43.2",
+          "margin": 43.24,
+          "votesRep": 65845,
+          "votesDem": 26092,
+          "votesTotal": 93298
+        },
+        "Franklin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +74.4",
+          "margin": 74.38,
+          "votesRep": 7051,
+          "votesDem": 1036,
+          "votesTotal": 8148
+        },
+        "Fulton13": {
+          "color": "#1C408C",
+          "label": "Abrams +46.1",
+          "margin": -46.14,
+          "votesRep": 112991,
+          "votesDem": 306589,
+          "votesTotal": 423788
+        },
+        "Gilmer13": {
+          "color": "#BF1D29",
+          "label": "Kemp +69.1",
+          "margin": 69.05,
+          "votesRep": 10471,
+          "votesDem": 1917,
+          "votesTotal": 12510
+        },
+        "Glascock13": {
+          "color": "#BF1D29",
+          "label": "Kemp +83.5",
+          "margin": 83.49,
+          "votesRep": 1189,
+          "votesDem": 107,
+          "votesTotal": 1301
+        },
+        "Glynn13": {
+          "color": "#BF1D29",
+          "label": "Kemp +28.1",
+          "margin": 28.13,
+          "votesRep": 20743,
+          "votesDem": 11636,
+          "votesTotal": 32648
+        },
+        "Gordon13": {
+          "color": "#BF1D29",
+          "label": "Kemp +65.4",
+          "margin": 65.45,
+          "votesRep": 14586,
+          "votesDem": 3046,
+          "votesTotal": 17804
+        },
+        "Grady13": {
+          "color": "#BF1D29",
+          "label": "Kemp +35.1",
+          "margin": 35.13,
+          "votesRep": 5633,
+          "votesDem": 2704,
+          "votesTotal": 8370
+        },
+        "Greene13": {
+          "color": "#BF1D29",
+          "label": "Kemp +30.9",
+          "margin": 30.87,
+          "votesRep": 5856,
+          "votesDem": 3093,
+          "votesTotal": 8995
+        },
+        "Gwinnett13": {
+          "color": "#1C408C",
+          "label": "Abrams +14.5",
+          "margin": -14.5,
+          "votesRep": 132998,
+          "votesDem": 178097,
+          "votesTotal": 314918
+        },
+        "Habersham13": {
+          "color": "#BF1D29",
+          "label": "Kemp +68.5",
+          "margin": 68.53,
+          "votesRep": 12944,
+          "votesDem": 2417,
+          "votesTotal": 15500
+        },
+        "Hall13": {
+          "color": "#BF1D29",
+          "label": "Kemp +48.4",
+          "margin": 48.41,
+          "votesRep": 49442,
+          "votesDem": 17187,
+          "votesTotal": 67406
+        },
+        "Hancock13": {
+          "color": "#1C408C",
+          "label": "Abrams +50.7",
+          "margin": -50.71,
+          "votesRep": 872,
+          "votesDem": 2666,
+          "votesTotal": 3548
+        },
+        "Haralson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +76.8",
+          "margin": 76.77,
+          "votesRep": 9278,
+          "votesDem": 1219,
+          "votesTotal": 10585
+        },
+        "Harris13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.3",
+          "margin": 49.28,
+          "votesRep": 11834,
+          "votesDem": 4021,
+          "votesTotal": 15986
+        },
+        "Hart13": {
+          "color": "#BF1D29",
+          "label": "Kemp +54.4",
+          "margin": 54.38,
+          "votesRep": 7370,
+          "votesDem": 2178,
+          "votesTotal": 9622
+        },
+        "Heard13": {
+          "color": "#BF1D29",
+          "label": "Kemp +67.5",
+          "margin": 67.53,
+          "votesRep": 3374,
+          "votesDem": 654,
+          "votesTotal": 4055
+        },
+        "Henry13": {
+          "color": "#1C408C",
+          "label": "Abrams +15.5",
+          "margin": -15.45,
+          "votesRep": 41364,
+          "votesDem": 56485,
+          "votesTotal": 98558
+        },
+        "Houston13": {
+          "color": "#BF1D29",
+          "label": "Kemp +17.0",
+          "margin": 16.97,
+          "votesRep": 34314,
+          "votesDem": 24358,
+          "votesTotal": 59232
+        },
+        "Irwin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +52.1",
+          "margin": 52.08,
+          "votesRep": 2701,
+          "votesDem": 851,
+          "votesTotal": 3562
+        },
+        "Jackson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +64.9",
+          "margin": 64.89,
+          "votesRep": 21950,
+          "votesDem": 4674,
+          "votesTotal": 26899
+        },
+        "Jasper13": {
+          "color": "#BF1D29",
+          "label": "Kemp +49.8",
+          "margin": 49.81,
+          "votesRep": 4430,
+          "votesDem": 1484,
+          "votesTotal": 5945
+        },
+        "Jeff Davis13": {
+          "color": "#BF1D29",
+          "label": "Kemp +66.0",
+          "margin": 66.03,
+          "votesRep": 3979,
+          "votesDem": 814,
+          "votesTotal": 4815
+        },
+        "Jefferson13": {
+          "color": "#577CCC",
+          "label": "Abrams +5.7",
+          "margin": -5.74,
+          "votesRep": 3177,
+          "votesDem": 3564,
+          "votesTotal": 6767
+        },
+        "Jenkins13": {
+          "color": "#BF1D29",
+          "label": "Kemp +29.8",
+          "margin": 29.81,
+          "votesRep": 1857,
+          "votesDem": 1004,
+          "votesTotal": 2872
+        },
+        "Johnson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +45.4",
+          "margin": 45.39,
+          "votesRep": 2524,
+          "votesDem": 948,
+          "votesTotal": 3483
+        },
+        "Jones13": {
+          "color": "#BF1D29",
+          "label": "Kemp +36.4",
+          "margin": 36.36,
+          "votesRep": 8438,
+          "votesDem": 3938,
+          "votesTotal": 12441
+        },
+        "Lamar13": {
+          "color": "#BF1D29",
+          "label": "Kemp +39.9",
+          "margin": 39.86,
+          "votesRep": 5105,
+          "votesDem": 2195,
+          "votesTotal": 7357
+        },
+        "Lanier13": {
+          "color": "#BF1D29",
+          "label": "Kemp +43.0",
+          "margin": 42.96,
+          "votesRep": 1910,
+          "votesDem": 762,
+          "votesTotal": 2681
+        },
+        "Laurens13": {
+          "color": "#BF1D29",
+          "label": "Kemp +32.4",
+          "margin": 32.39,
+          "votesRep": 12484,
+          "votesDem": 6375,
+          "votesTotal": 18952
+        },
+        "Lee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +50.2",
+          "margin": 50.19,
+          "votesRep": 10120,
+          "votesDem": 3356,
+          "votesTotal": 13555
+        },
+        "Liberty13": {
+          "color": "#1C408C",
+          "label": "Abrams +27.1",
+          "margin": -27.14,
+          "votesRep": 5557,
+          "votesDem": 9696,
+          "votesTotal": 15368
+        },
+        "Lincoln13": {
+          "color": "#BF1D29",
+          "label": "Kemp +39.8",
+          "margin": 39.76,
+          "votesRep": 2756,
+          "votesDem": 1188,
+          "votesTotal": 3969
+        },
+        "Long13": {
+          "color": "#BF1D29",
+          "label": "Kemp +30.8",
+          "margin": 30.79,
+          "votesRep": 2591,
+          "votesDem": 1371,
+          "votesTotal": 3998
+        },
+        "Lowndes13": {
+          "color": "#BF1D29",
+          "label": "Kemp +15.4",
+          "margin": 15.39,
+          "votesRep": 20488,
+          "votesDem": 15024,
+          "votesTotal": 35753
+        },
+        "Lumpkin13": {
+          "color": "#BF1D29",
+          "label": "Kemp +60.9",
+          "margin": 60.86,
+          "votesRep": 9157,
+          "votesDem": 2228,
+          "votesTotal": 11558
+        },
+        "Macon13": {
+          "color": "#1C408C",
+          "label": "Abrams +26.0",
+          "margin": -26.05,
+          "votesRep": 1556,
+          "votesDem": 2652,
+          "votesTotal": 4217
+        },
+        "Madison13": {
+          "color": "#BF1D29",
+          "label": "Kemp +58.3",
+          "margin": 58.31,
+          "votesRep": 9181,
+          "votesDem": 2418,
+          "votesTotal": 11699
+        },
+        "Marion13": {
+          "color": "#BF1D29",
+          "label": "Kemp +28.7",
+          "margin": 28.7,
+          "votesRep": 1872,
+          "votesDem": 1037,
+          "votesTotal": 2931
+        },
+        "McDuffie13": {
+          "color": "#BF1D29",
+          "label": "Kemp +21.7",
+          "margin": 21.67,
+          "votesRep": 5323,
+          "votesDem": 3427,
+          "votesTotal": 8792
+        },
+        "McIntosh13": {
+          "color": "#BF1D29",
+          "label": "Kemp +19.7",
+          "margin": 19.65,
+          "votesRep": 3218,
+          "votesDem": 2161,
+          "votesTotal": 5408
+        },
+        "Meriwether13": {
+          "color": "#BF1D29",
+          "label": "Kemp +18.5",
+          "margin": 18.52,
+          "votesRep": 5093,
+          "votesDem": 3501,
+          "votesTotal": 8650
+        },
+        "Miller13": {
+          "color": "#BF1D29",
+          "label": "Kemp +56.4",
+          "margin": 56.44,
+          "votesRep": 1803,
+          "votesDem": 502,
+          "votesTotal": 2315
+        },
+        "Mitchell13": {
+          "color": "#BF1D29",
+          "label": "Kemp +12.7",
+          "margin": 12.67,
+          "votesRep": 4187,
+          "votesDem": 3245,
+          "votesTotal": 7455
+        },
+        "Monroe13": {
+          "color": "#BF1D29",
+          "label": "Kemp +45.2",
+          "margin": 45.17,
+          "votesRep": 9308,
+          "votesDem": 3516,
+          "votesTotal": 12938
+        },
+        "Montgomery13": {
+          "color": "#BF1D29",
+          "label": "Kemp +53.2",
+          "margin": 53.18,
+          "votesRep": 2686,
+          "votesDem": 821,
+          "votesTotal": 3528
+        },
+        "Morgan13": {
+          "color": "#BF1D29",
+          "label": "Kemp +43.6",
+          "margin": 43.58,
+          "votesRep": 6807,
+          "votesDem": 2675,
+          "votesTotal": 9558
+        },
+        "Murray13": {
+          "color": "#BF1D29",
+          "label": "Kemp +72.9",
+          "margin": 72.93,
+          "votesRep": 9512,
+          "votesDem": 1489,
+          "votesTotal": 11091
+        },
+        "Muscogee13": {
+          "color": "#1C408C",
+          "label": "Abrams +22.5",
+          "margin": -22.47,
+          "votesRep": 24348,
+          "votesDem": 38462,
+          "votesTotal": 63272
+        },
+        "Newton13": {
+          "color": "#577CCC",
+          "label": "Abrams +9.2",
+          "margin": -9.25,
+          "votesRep": 19449,
+          "votesDem": 23412,
+          "votesTotal": 43141
+        },
+        "Oconee13": {
+          "color": "#BF1D29",
+          "label": "Kemp +41.3",
+          "margin": 41.3,
+          "votesRep": 14480,
+          "votesDem": 6015,
+          "votesTotal": 20744
+        },
+        "Oglethorpe13": {
+          "color": "#BF1D29",
+          "label": "Kemp +42.4",
+          "margin": 42.42,
+          "votesRep": 4568,
+          "votesDem": 1847,
+          "votesTotal": 6485
+        },
+        "Paulding13": {
+          "color": "#BF1D29",
+          "label": "Kemp +34.3",
+          "margin": 34.28,
+          "votesRep": 40784,
+          "votesDem": 19959,
+          "votesTotal": 61305
+        },
+        "Peach13": {
+          "color": "#FF8B98",
+          "label": "Kemp +4.5",
+          "margin": 4.48,
+          "votesRep": 5432,
+          "votesDem": 4966,
+          "votesTotal": 10445
+        },
+        "Pickens13": {
+          "color": "#BF1D29",
+          "label": "Kemp +71.3",
+          "margin": 71.27,
+          "votesRep": 11331,
+          "votesDem": 1901,
+          "votesTotal": 13362
+        },
+        "Pierce13": {
+          "color": "#BF1D29",
+          "label": "Kemp +78.5",
+          "margin": 78.49,
+          "votesRep": 6123,
+          "votesDem": 738,
+          "votesTotal": 6884
+        },
+        "Pike13": {
+          "color": "#BF1D29",
+          "label": "Kemp +72.6",
+          "margin": 72.57,
+          "votesRep": 7322,
+          "votesDem": 1164,
+          "votesTotal": 8543
+        },
+        "Polk13": {
+          "color": "#BF1D29",
+          "label": "Kemp +59.5",
+          "margin": 59.45,
+          "votesRep": 10177,
+          "votesDem": 2588,
+          "votesTotal": 12861
+        },
+        "Pulaski13": {
+          "color": "#BF1D29",
+          "label": "Kemp +40.2",
+          "margin": 40.16,
+          "votesRep": 2527,
+          "votesDem": 1079,
+          "votesTotal": 3622
+        },
+        "Putnam13": {
+          "color": "#BF1D29",
+          "label": "Kemp +44.4",
+          "margin": 44.44,
+          "votesRep": 6704,
+          "votesDem": 2579,
+          "votesTotal": 9335
+        },
+        "Quitman13": {
+          "color": "#BF1D29",
+          "label": "Kemp +12.0",
+          "margin": 12.02,
+          "votesRep": 522,
+          "votesDem": 410,
+          "votesTotal": 940
+        },
+        "Rabun13": {
+          "color": "#BF1D29",
+          "label": "Kemp +61.9",
+          "margin": 61.87,
+          "votesRep": 6063,
+          "votesDem": 1428,
+          "votesTotal": 7578
+        },
+        "Randolph13": {
+          "color": "#577CCC",
+          "label": "Abrams +9.4",
+          "margin": -9.41,
+          "votesRep": 1257,
+          "votesDem": 1518,
+          "votesTotal": 2789
+        },
+        "Richmond13": {
+          "color": "#1C408C",
+          "label": "Abrams +36.6",
+          "margin": -36.57,
+          "votesRep": 22076,
+          "votesDem": 47531,
+          "votesTotal": 70155
+        },
+        "Rockdale13": {
+          "color": "#1C408C",
+          "label": "Abrams +35.7",
+          "margin": -35.75,
+          "votesRep": 11703,
+          "votesDem": 24725,
+          "votesTotal": 36655
+        },
+        "Schley13": {
+          "color": "#BF1D29",
+          "label": "Kemp +63.2",
+          "margin": 63.19,
+          "votesRep": 1565,
+          "votesDem": 353,
+          "votesTotal": 1933
+        },
+        "Screven13": {
+          "color": "#BF1D29",
+          "label": "Kemp +21.1",
+          "margin": 21.06,
+          "votesRep": 3268,
+          "votesDem": 2131,
+          "votesTotal": 5414
+        },
+        "Seminole13": {
+          "color": "#BF1D29",
+          "label": "Kemp +33.9",
+          "margin": 33.89,
+          "votesRep": 2149,
+          "votesDem": 1061,
+          "votesTotal": 3227
+        },
+        "Spalding13": {
+          "color": "#BF1D29",
+          "label": "Kemp +23.5",
+          "margin": 23.47,
+          "votesRep": 14937,
+          "votesDem": 9258,
+          "votesTotal": 24417
+        },
+        "Stephens13": {
+          "color": "#BF1D29",
+          "label": "Kemp +62.5",
+          "margin": 62.48,
+          "votesRep": 7326,
+          "votesDem": 1692,
+          "votesTotal": 9087
+        },
+        "Stewart13": {
+          "color": "#1C408C",
+          "label": "Abrams +16.2",
+          "margin": -16.16,
+          "votesRep": 760,
+          "votesDem": 1053,
+          "votesTotal": 1819
+        },
+        "Sumter13": {
+          "color": "#8AAFFF",
+          "label": "Abrams +2.0",
+          "margin": -2.01,
+          "votesRep": 5149,
+          "votesDem": 5360,
+          "votesTotal": 10556
+        },
+        "Talbot13": {
+          "color": "#1C408C",
+          "label": "Abrams +20.4",
+          "margin": -20.4,
+          "votesRep": 1167,
+          "votesDem": 1765,
+          "votesTotal": 2954
+        },
+        "Taliaferro13": {
+          "color": "#1C408C",
+          "label": "Abrams +23.7",
+          "margin": -23.75,
+          "votesRep": 350,
+          "votesDem": 568,
+          "votesTotal": 921
+        },
+        "Tattnall13": {
+          "color": "#BF1D29",
+          "label": "Kemp +53.5",
+          "margin": 53.49,
+          "votesRep": 5073,
+          "votesDem": 1537,
+          "votesTotal": 6647
+        },
+        "Taylor13": {
+          "color": "#BF1D29",
+          "label": "Kemp +26.4",
+          "margin": 26.39,
+          "votesRep": 2069,
+          "votesDem": 1205,
+          "votesTotal": 3294
+        },
+        "Telfair13": {
+          "color": "#BF1D29",
+          "label": "Kemp +34.1",
+          "margin": 34.13,
+          "votesRep": 2425,
+          "votesDem": 1191,
+          "votesTotal": 3632
+        },
+        "Terrell13": {
+          "color": "#577CCC",
+          "label": "Abrams +8.3",
+          "margin": -8.28,
+          "votesRep": 1800,
+          "votesDem": 2125,
+          "votesTotal": 3939
+        },
+        "Thomas13": {
+          "color": "#BF1D29",
+          "label": "Kemp +23.0",
+          "margin": 23.05,
+          "votesRep": 10557,
+          "votesDem": 6602,
+          "votesTotal": 17244
+        },
+        "Tift13": {
+          "color": "#BF1D29",
+          "label": "Kemp +40.1",
+          "margin": 40.12,
+          "votesRep": 9523,
+          "votesDem": 4070,
+          "votesTotal": 13673
+        },
+        "Toombs13": {
+          "color": "#BF1D29",
+          "label": "Kemp +50.1",
+          "margin": 50.11,
+          "votesRep": 6623,
+          "votesDem": 2201,
+          "votesTotal": 8860
+        },
+        "Towns13": {
+          "color": "#BF1D29",
+          "label": "Kemp +64.9",
+          "margin": 64.93,
+          "votesRep": 5009,
+          "votesDem": 1065,
+          "votesTotal": 6132
+        },
+        "Treutlen13": {
+          "color": "#BF1D29",
+          "label": "Kemp +38.1",
+          "margin": 38.14,
+          "votesRep": 1800,
+          "votesDem": 806,
+          "votesTotal": 2614
+        },
+        "Troup13": {
+          "color": "#BF1D29",
+          "label": "Kemp +22.4",
+          "margin": 22.38,
+          "votesRep": 14533,
+          "votesDem": 9218,
+          "votesTotal": 23913
+        },
+        "Turner13": {
+          "color": "#BF1D29",
+          "label": "Kemp +26.4",
+          "margin": 26.43,
+          "votesRep": 2062,
+          "votesDem": 1200,
+          "votesTotal": 3274
+        },
+        "Twiggs13": {
+          "color": "#FF5865",
+          "label": "Kemp +5.9",
+          "margin": 5.91,
+          "votesRep": 1999,
+          "votesDem": 1776,
+          "votesTotal": 3792
+        },
+        "Union13": {
+          "color": "#BF1D29",
+          "label": "Kemp +68.5",
+          "margin": 68.48,
+          "votesRep": 9899,
+          "votesDem": 1852,
+          "votesTotal": 11865
+        },
+        "Upson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +34.5",
+          "margin": 34.46,
+          "votesRep": 7063,
+          "votesDem": 3443,
+          "votesTotal": 10568
+        },
+        "Walker13": {
+          "color": "#BF1D29",
+          "label": "Kemp +63.9",
+          "margin": 63.86,
+          "votesRep": 17400,
+          "votesDem": 3838,
+          "votesTotal": 21490
+        },
+        "Walton13": {
+          "color": "#BF1D29",
+          "label": "Kemp +54.8",
+          "margin": 54.82,
+          "votesRep": 29742,
+          "votesDem": 8679,
+          "votesTotal": 38686
+        },
+        "Ware13": {
+          "color": "#BF1D29",
+          "label": "Kemp +44.0",
+          "margin": 44.04,
+          "votesRep": 7894,
+          "votesDem": 3067,
+          "votesTotal": 11016
+        },
+        "Warren13": {
+          "color": "#577CCC",
+          "label": "Abrams +6.5",
+          "margin": -6.52,
+          "votesRep": 1053,
+          "votesDem": 1200,
+          "votesTotal": 2261
+        },
+        "Washington13": {
+          "color": "#FF8B98",
+          "label": "Kemp +1.4",
+          "margin": 1.43,
+          "votesRep": 4128,
+          "votesDem": 4012,
+          "votesTotal": 8169
+        },
+        "Wayne13": {
+          "color": "#BF1D29",
+          "label": "Kemp +61.4",
+          "margin": 61.43,
+          "votesRep": 8120,
+          "votesDem": 1940,
+          "votesTotal": 10131
+        },
+        "Webster13": {
+          "color": "#BF1D29",
+          "label": "Kemp +19.9",
+          "margin": 19.93,
+          "votesRep": 659,
+          "votesDem": 440,
+          "votesTotal": 1100
+        },
+        "Wheeler13": {
+          "color": "#BF1D29",
+          "label": "Kemp +42.4",
+          "margin": 42.4,
+          "votesRep": 1372,
+          "votesDem": 555,
+          "votesTotal": 1931
+        },
+        "White13": {
+          "color": "#BF1D29",
+          "label": "Kemp +70.9",
+          "margin": 70.89,
+          "votesRep": 9667,
+          "votesDem": 1647,
+          "votesTotal": 11439
+        },
+        "Whitfield13": {
+          "color": "#BF1D29",
+          "label": "Kemp +45.9",
+          "margin": 45.92,
+          "votesRep": 19758,
+          "votesDem": 7323,
+          "votesTotal": 27327
+        },
+        "Wilcox13": {
+          "color": "#BF1D29",
+          "label": "Kemp +47.0",
+          "margin": 46.96,
+          "votesRep": 2064,
+          "votesDem": 745,
+          "votesTotal": 2815
+        },
+        "Wilkes13": {
+          "color": "#BF1D29",
+          "label": "Kemp +18.5",
+          "margin": 18.47,
+          "votesRep": 2578,
+          "votesDem": 1774,
+          "votesTotal": 4377
+        },
+        "Wilkinson13": {
+          "color": "#BF1D29",
+          "label": "Kemp +11.7",
+          "margin": 11.67,
+          "votesRep": 2373,
+          "votesDem": 1877,
+          "votesTotal": 4265
+        },
+        "Worth13": {
+          "color": "#BF1D29",
+          "label": "Kemp +51.5",
+          "margin": 51.49,
+          "votesRep": 5915,
+          "votesDem": 1894,
+          "votesTotal": 7846
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Johnny Isakson",
+      "candDem": "Jim Barksdale",
+      "shortRep": "Isakson",
+      "shortDem": "Barksdale",
+      "partisan": true,
+      "margin": 14.35,
+      "votesRep": 2135806,
+      "votesDem": 1599726,
+      "votesTotal": 3898605,
+      "regions": {
+        "Appling13": {
+          "color": "#BF1D29",
+          "label": "Isakson +62.7",
+          "margin": 62.66,
+          "votesRep": 5170,
+          "votesDem": 1187,
+          "votesTotal": 6512
+        },
+        "Atkinson13": {
+          "color": "#BF1D29",
+          "label": "Isakson +47.6",
+          "margin": 47.58,
+          "votesRep": 1678,
+          "votesDem": 596,
+          "votesTotal": 2339
+        },
+        "Bacon13": {
+          "color": "#BF1D29",
+          "label": "Isakson +73.1",
+          "margin": 73.07,
+          "votesRep": 3046,
+          "votesDem": 474,
+          "votesTotal": 3615
+        },
+        "Baker13": {
+          "color": "#BF1D29",
+          "label": "Isakson +17.9",
+          "margin": 17.93,
+          "votesRep": 763,
+          "votesDem": 531,
+          "votesTotal": 1323
+        },
+        "Baldwin13": {
+          "color": "#FF5865",
+          "label": "Isakson +6.9",
+          "margin": 6.92,
+          "votesRep": 7796,
+          "votesDem": 6787,
+          "votesTotal": 15048
+        },
+        "Banks13": {
+          "color": "#BF1D29",
+          "label": "Isakson +78.9",
+          "margin": 78.9,
+          "votesRep": 5705,
+          "votesDem": 673,
+          "votesTotal": 6683
+        },
+        "Barrow13": {
+          "color": "#BF1D29",
+          "label": "Isakson +56.2",
+          "margin": 56.18,
+          "votesRep": 20281,
+          "votesDem": 5691,
+          "votesTotal": 27580
+        },
+        "Bartow13": {
+          "color": "#BF1D29",
+          "label": "Isakson +58.8",
+          "margin": 58.77,
+          "votesRep": 28073,
+          "votesDem": 7291,
+          "votesTotal": 37381
+        },
+        "Ben Hill13": {
+          "color": "#BF1D29",
+          "label": "Isakson +34.7",
+          "margin": 34.72,
+          "votesRep": 3589,
+          "votesDem": 1739,
+          "votesTotal": 5463
+        },
+        "Berrien13": {
+          "color": "#BF1D29",
+          "label": "Isakson +69.9",
+          "margin": 69.95,
+          "votesRep": 5061,
+          "votesDem": 895,
+          "votesTotal": 6182
+        },
+        "Bibb13": {
+          "color": "#1C408C",
+          "label": "Barksdale +10.4",
+          "margin": -10.38,
+          "votesRep": 25601,
+          "votesDem": 31533,
+          "votesTotal": 58836
+        },
+        "Bleckley13": {
+          "color": "#BF1D29",
+          "label": "Isakson +60.1",
+          "margin": 60.05,
+          "votesRep": 3698,
+          "votesDem": 923,
+          "votesTotal": 4768
+        },
+        "Brantley13": {
+          "color": "#BF1D29",
+          "label": "Isakson +77.6",
+          "margin": 77.6,
+          "votesRep": 4844,
+          "votesDem": 611,
+          "votesTotal": 5703
+        },
+        "Brooks13": {
+          "color": "#BF1D29",
+          "label": "Isakson +24.7",
+          "margin": 24.71,
+          "votesRep": 3465,
+          "votesDem": 2092,
+          "votesTotal": 5745
+        },
+        "Bryan13": {
+          "color": "#BF1D29",
+          "label": "Isakson +53.1",
+          "margin": 53.06,
+          "votesRep": 10488,
+          "votesDem": 3216,
+          "votesTotal": 14360
+        },
+        "Bulloch13": {
+          "color": "#BF1D29",
+          "label": "Isakson +33.5",
+          "margin": 33.49,
+          "votesRep": 15530,
+          "votesDem": 7738,
+          "votesTotal": 24287
+        },
+        "Burke13": {
+          "color": "#FF8B98",
+          "label": "Isakson +4.5",
+          "margin": 4.46,
+          "votesRep": 4448,
+          "votesDem": 4068,
+          "votesTotal": 8716
+        },
+        "Butts13": {
+          "color": "#BF1D29",
+          "label": "Isakson +48.9",
+          "margin": 48.93,
+          "votesRep": 6320,
+          "votesDem": 2167,
+          "votesTotal": 8835
+        },
+        "Calhoun13": {
+          "color": "#577CCC",
+          "label": "Barksdale +7.8",
+          "margin": -7.76,
+          "votesRep": 862,
+          "votesDem": 1007,
+          "votesTotal": 1899
+        },
+        "Camden13": {
+          "color": "#BF1D29",
+          "label": "Isakson +38.4",
+          "margin": 38.41,
+          "votesRep": 11454,
+          "votesDem": 5097,
+          "votesTotal": 17557
+        },
+        "Candler13": {
+          "color": "#BF1D29",
+          "label": "Isakson +50.3",
+          "margin": 50.33,
+          "votesRep": 2588,
+          "votesDem": 855,
+          "votesTotal": 3548
+        },
+        "Carroll13": {
+          "color": "#BF1D29",
+          "label": "Isakson +45.5",
+          "margin": 45.54,
+          "votesRep": 29043,
+          "votesDem": 10867,
+          "votesTotal": 41911
+        },
+        "Catoosa13": {
+          "color": "#BF1D29",
+          "label": "Isakson +64.2",
+          "margin": 64.18,
+          "votesRep": 18888,
+          "votesDem": 4121,
+          "votesTotal": 24296
+        },
+        "Charlton13": {
+          "color": "#BF1D29",
+          "label": "Isakson +48.1",
+          "margin": 48.07,
+          "votesRep": 2489,
+          "votesDem": 873,
+          "votesTotal": 3504
+        },
+        "Chatham13": {
+          "color": "#8AAFFF",
+          "label": "Barksdale +2.4",
+          "margin": -2.36,
+          "votesRep": 49740,
+          "votesDem": 52146,
+          "votesTotal": 105977
+        },
+        "Chattahoochee13": {
+          "color": "#BF1D29",
+          "label": "Isakson +15.9",
+          "margin": 15.89,
+          "votesRep": 700,
+          "votesDem": 508,
+          "votesTotal": 1270
+        },
+        "Chattooga13": {
+          "color": "#BF1D29",
+          "label": "Isakson +56.5",
+          "margin": 56.45,
+          "votesRep": 5827,
+          "votesDem": 1622,
+          "votesTotal": 7744
+        },
+        "Cherokee13": {
+          "color": "#BF1D29",
+          "label": "Isakson +58.9",
+          "margin": 58.93,
+          "votesRep": 80166,
+          "votesDem": 20717,
+          "votesTotal": 107347
+        },
+        "Clarke13": {
+          "color": "#1C408C",
+          "label": "Barksdale +24.3",
+          "margin": -24.25,
+          "votesRep": 15529,
+          "votesDem": 25474,
+          "votesTotal": 43223
+        },
+        "Clay13": {
+          "color": "#8AAFFF",
+          "label": "Barksdale +1.2",
+          "margin": -1.23,
+          "votesRep": 560,
+          "votesDem": 574,
+          "votesTotal": 1157
+        },
+        "Clayton13": {
+          "color": "#1C408C",
+          "label": "Barksdale +64.6",
+          "margin": -64.61,
+          "votesRep": 14918,
+          "votesDem": 69400,
+          "votesTotal": 86776
+        },
+        "Clinch13": {
+          "color": "#BF1D29",
+          "label": "Isakson +51.7",
+          "margin": 51.71,
+          "votesRep": 1549,
+          "votesDem": 493,
+          "votesTotal": 2118
+        },
+        "Cobb13": {
+          "color": "#BF1D29",
+          "label": "Isakson +11.7",
+          "margin": 11.68,
+          "votesRep": 169269,
+          "votesDem": 133871,
+          "votesTotal": 320184
+        },
+        "Coffee13": {
+          "color": "#BF1D29",
+          "label": "Isakson +43.5",
+          "margin": 43.54,
+          "votesRep": 8883,
+          "votesDem": 3494,
+          "votesTotal": 12738
+        },
+        "Colquitt13": {
+          "color": "#BF1D29",
+          "label": "Isakson +55.8",
+          "margin": 55.83,
+          "votesRep": 9618,
+          "votesDem": 2726,
+          "votesTotal": 12682
+        },
+        "Columbia13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.2",
+          "margin": 46.16,
+          "votesRep": 42891,
+          "votesDem": 15800,
+          "votesTotal": 61137
+        },
+        "Cook13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.9",
+          "margin": 46.9,
+          "votesRep": 4045,
+          "votesDem": 1462,
+          "votesTotal": 5694
+        },
+        "Coweta13": {
+          "color": "#BF1D29",
+          "label": "Isakson +49.7",
+          "margin": 49.74,
+          "votesRep": 41972,
+          "votesDem": 14088,
+          "votesTotal": 58885
+        },
+        "Crawford13": {
+          "color": "#BF1D29",
+          "label": "Isakson +49.1",
+          "margin": 49.09,
+          "votesRep": 3494,
+          "votesDem": 1193,
+          "votesTotal": 4849
+        },
+        "Crisp13": {
+          "color": "#BF1D29",
+          "label": "Isakson +33.9",
+          "margin": 33.88,
+          "votesRep": 4546,
+          "votesDem": 2245,
+          "votesTotal": 6962
+        },
+        "Dade13": {
+          "color": "#BF1D29",
+          "label": "Isakson +67.0",
+          "margin": 66.97,
+          "votesRep": 4448,
+          "votesDem": 880,
+          "votesTotal": 5675
+        },
+        "Dawson13": {
+          "color": "#BF1D29",
+          "label": "Isakson +76.6",
+          "margin": 76.62,
+          "votesRep": 9314,
+          "votesDem": 1233,
+          "votesTotal": 11208
+        },
+        "Decatur13": {
+          "color": "#BF1D29",
+          "label": "Isakson +22.6",
+          "margin": 22.63,
+          "votesRep": 5593,
+          "votesDem": 3529,
+          "votesTotal": 9412
+        },
+        "DeKalb13": {
+          "color": "#1C408C",
+          "label": "Barksdale +50.9",
+          "margin": -50.93,
+          "votesRep": 70994,
+          "votesDem": 218383,
+          "votesTotal": 301198
+        },
+        "Dodge13": {
+          "color": "#BF1D29",
+          "label": "Isakson +53.6",
+          "margin": 53.57,
+          "votesRep": 4766,
+          "votesDem": 1441,
+          "votesTotal": 6379
+        },
+        "Dooly13": {
+          "color": "#BF1D29",
+          "label": "Isakson +16.8",
+          "margin": 16.78,
+          "votesRep": 2022,
+          "votesDem": 1441,
+          "votesTotal": 3533
+        },
+        "Dougherty13": {
+          "color": "#1C408C",
+          "label": "Barksdale +29.6",
+          "margin": -29.64,
+          "votesRep": 11048,
+          "votesDem": 20354,
+          "votesTotal": 31969
+        },
+        "Douglas13": {
+          "color": "#577CCC",
+          "label": "Barksdale +5.8",
+          "margin": -5.75,
+          "votesRep": 25102,
+          "votesDem": 28166,
+          "votesTotal": 55364
+        },
+        "Early13": {
+          "color": "#BF1D29",
+          "label": "Isakson +14.5",
+          "margin": 14.53,
+          "votesRep": 2515,
+          "votesDem": 1877,
+          "votesTotal": 4504
+        },
+        "Echols13": {
+          "color": "#BF1D29",
+          "label": "Isakson +71.4",
+          "margin": 71.37,
+          "votesRep": 874,
+          "votesDem": 146,
+          "votesTotal": 1065
+        },
+        "Effingham13": {
+          "color": "#BF1D29",
+          "label": "Isakson +62.2",
+          "margin": 62.23,
+          "votesRep": 17389,
+          "votesDem": 4049,
+          "votesTotal": 22303
+        },
+        "Elbert13": {
+          "color": "#BF1D29",
+          "label": "Isakson +39.4",
+          "margin": 39.44,
+          "votesRep": 4960,
+          "votesDem": 2154,
+          "votesTotal": 7345
+        },
+        "Emanuel13": {
+          "color": "#BF1D29",
+          "label": "Isakson +43.9",
+          "margin": 43.89,
+          "votesRep": 5062,
+          "votesDem": 1974,
+          "votesTotal": 7222
+        },
+        "Evans13": {
+          "color": "#BF1D29",
+          "label": "Isakson +47.5",
+          "margin": 47.52,
+          "votesRep": 2395,
+          "votesDem": 852,
+          "votesTotal": 3327
+        },
+        "Fannin13": {
+          "color": "#BF1D29",
+          "label": "Isakson +66.5",
+          "margin": 66.51,
+          "votesRep": 8841,
+          "votesDem": 1778,
+          "votesTotal": 11084
+        },
+        "Fayette13": {
+          "color": "#BF1D29",
+          "label": "Isakson +29.9",
+          "margin": 29.94,
+          "votesRep": 36356,
+          "votesDem": 19602,
+          "votesTotal": 58517
+        },
+        "Floyd13": {
+          "color": "#BF1D29",
+          "label": "Isakson +50.1",
+          "margin": 50.07,
+          "votesRep": 23480,
+          "votesDem": 7812,
+          "votesTotal": 32616
+        },
+        "Forsyth13": {
+          "color": "#BF1D29",
+          "label": "Isakson +59.2",
+          "margin": 59.17,
+          "votesRep": 70833,
+          "votesDem": 18169,
+          "votesTotal": 94290
+        },
+        "Franklin13": {
+          "color": "#BF1D29",
+          "label": "Isakson +70.7",
+          "margin": 70.71,
+          "votesRep": 6488,
+          "votesDem": 1113,
+          "votesTotal": 7928
+        },
+        "Fulton13": {
+          "color": "#1C408C",
+          "label": "Barksdale +23.8",
+          "margin": -23.79,
+          "votesRep": 151689,
+          "votesDem": 246397,
+          "votesTotal": 415531
+        },
+        "Gilmer13": {
+          "color": "#BF1D29",
+          "label": "Isakson +68.2",
+          "margin": 68.24,
+          "votesRep": 9508,
+          "votesDem": 1795,
+          "votesTotal": 11921
+        },
+        "Glascock13": {
+          "color": "#BF1D29",
+          "label": "Isakson +77.2",
+          "margin": 77.15,
+          "votesRep": 1101,
+          "votesDem": 142,
+          "votesTotal": 1280
+        },
+        "Glynn13": {
+          "color": "#BF1D29",
+          "label": "Isakson +37.7",
+          "margin": 37.75,
+          "votesRep": 20887,
+          "votesDem": 9439,
+          "votesTotal": 31503
+        },
+        "Gordon13": {
+          "color": "#BF1D29",
+          "label": "Isakson +66.3",
+          "margin": 66.32,
+          "votesRep": 14092,
+          "votesDem": 2854,
+          "votesTotal": 17762
+        },
+        "Grady13": {
+          "color": "#BF1D29",
+          "label": "Isakson +34.9",
+          "margin": 34.89,
+          "votesRep": 5534,
+          "votesDem": 2671,
+          "votesTotal": 8466
+        },
+        "Greene13": {
+          "color": "#BF1D29",
+          "label": "Isakson +37.2",
+          "margin": 37.2,
+          "votesRep": 5735,
+          "votesDem": 2625,
+          "votesTotal": 8514
+        },
+        "Gwinnett13": {
+          "color": "#FF8B98",
+          "label": "Isakson +4.5",
+          "margin": 4.54,
+          "votesRep": 154572,
+          "votesDem": 141141,
+          "votesTotal": 311194
+        },
+        "Habersham13": {
+          "color": "#BF1D29",
+          "label": "Isakson +70.4",
+          "margin": 70.37,
+          "votesRep": 12493,
+          "votesDem": 2173,
+          "votesTotal": 15407
+        },
+        "Hall13": {
+          "color": "#BF1D29",
+          "label": "Isakson +57.3",
+          "margin": 57.31,
+          "votesRep": 50124,
+          "votesDem": 13602,
+          "votesTotal": 67297
+        },
+        "Hancock13": {
+          "color": "#1C408C",
+          "label": "Barksdale +41.6",
+          "margin": -41.62,
+          "votesRep": 946,
+          "votesDem": 2295,
+          "votesTotal": 3297
+        },
+        "Haralson13": {
+          "color": "#BF1D29",
+          "label": "Isakson +71.9",
+          "margin": 71.9,
+          "votesRep": 8833,
+          "votesDem": 1444,
+          "votesTotal": 10758
+        },
+        "Harris13": {
+          "color": "#BF1D29",
+          "label": "Isakson +54.7",
+          "margin": 54.74,
+          "votesRep": 11608,
+          "votesDem": 3395,
+          "votesTotal": 15588
+        },
+        "Hart13": {
+          "color": "#BF1D29",
+          "label": "Isakson +50.9",
+          "margin": 50.92,
+          "votesRep": 6703,
+          "votesDem": 2180,
+          "votesTotal": 9228
+        },
+        "Heard13": {
+          "color": "#BF1D29",
+          "label": "Isakson +64.1",
+          "margin": 64.06,
+          "votesRep": 3099,
+          "votesDem": 679,
+          "votesTotal": 3951
+        },
+        "Henry13": {
+          "color": "#FF8B98",
+          "label": "Isakson +1.3",
+          "margin": 1.26,
+          "votesRep": 45234,
+          "votesDem": 44108,
+          "votesTotal": 92810
+        },
+        "Houston13": {
+          "color": "#BF1D29",
+          "label": "Isakson +29.5",
+          "margin": 29.55,
+          "votesRep": 35289,
+          "votesDem": 19191,
+          "votesTotal": 56560
+        },
+        "Irwin13": {
+          "color": "#BF1D29",
+          "label": "Isakson +54.4",
+          "margin": 54.41,
+          "votesRep": 2581,
+          "votesDem": 762,
+          "votesTotal": 3431
+        },
+        "Jackson13": {
+          "color": "#BF1D29",
+          "label": "Isakson +68.6",
+          "margin": 68.59,
+          "votesRep": 20965,
+          "votesDem": 3906,
+          "votesTotal": 26095
+        },
+        "Jasper13": {
+          "color": "#BF1D29",
+          "label": "Isakson +50.8",
+          "margin": 50.85,
+          "votesRep": 4180,
+          "votesDem": 1362,
+          "votesTotal": 5772
+        },
+        "Jeff Davis13": {
+          "color": "#BF1D29",
+          "label": "Isakson +65.5",
+          "margin": 65.49,
+          "votesRep": 3716,
+          "votesDem": 775,
+          "votesTotal": 4635
+        },
+        "Jefferson13": {
+          "color": "#949BB3",
+          "label": "Barksdale +0.8",
+          "margin": -0.83,
+          "votesRep": 3040,
+          "votesDem": 3091,
+          "votesTotal": 6245
+        },
+        "Jenkins13": {
+          "color": "#BF1D29",
+          "label": "Isakson +32.3",
+          "margin": 32.32,
+          "votesRep": 1826,
+          "votesDem": 934,
+          "votesTotal": 2822
+        },
+        "Johnson13": {
+          "color": "#BF1D29",
+          "label": "Isakson +45.5",
+          "margin": 45.54,
+          "votesRep": 2373,
+          "votesDem": 888,
+          "votesTotal": 3338
+        },
+        "Jones13": {
+          "color": "#BF1D29",
+          "label": "Isakson +40.0",
+          "margin": 40,
+          "votesRep": 8125,
+          "votesDem": 3482,
+          "votesTotal": 11952
+        },
+        "Lamar13": {
+          "color": "#BF1D29",
+          "label": "Isakson +42.2",
+          "margin": 42.21,
+          "votesRep": 4929,
+          "votesDem": 2003,
+          "votesTotal": 7182
+        },
+        "Lanier13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.1",
+          "margin": 46.11,
+          "votesRep": 1792,
+          "votesDem": 661,
+          "votesTotal": 2574
+        },
+        "Laurens13": {
+          "color": "#BF1D29",
+          "label": "Isakson +38.2",
+          "margin": 38.23,
+          "votesRep": 12449,
+          "votesDem": 5563,
+          "votesTotal": 18442
+        },
+        "Lee13": {
+          "color": "#BF1D29",
+          "label": "Isakson +56.4",
+          "margin": 56.36,
+          "votesRep": 10305,
+          "votesDem": 2876,
+          "votesTotal": 13510
+        },
+        "Liberty13": {
+          "color": "#1C408C",
+          "label": "Barksdale +11.3",
+          "margin": -11.27,
+          "votesRep": 6497,
+          "votesDem": 8147,
+          "votesTotal": 15256
+        },
+        "Lincoln13": {
+          "color": "#BF1D29",
+          "label": "Isakson +41.7",
+          "margin": 41.74,
+          "votesRep": 2671,
+          "votesDem": 1098,
+          "votesTotal": 3864
+        },
+        "Long13": {
+          "color": "#BF1D29",
+          "label": "Isakson +37.3",
+          "margin": 37.32,
+          "votesRep": 2524,
+          "votesDem": 1152,
+          "votesTotal": 3845
+        },
+        "Lowndes13": {
+          "color": "#BF1D29",
+          "label": "Isakson +22.8",
+          "margin": 22.77,
+          "votesRep": 20802,
+          "votesDem": 13087,
+          "votesTotal": 35227
+        },
+        "Lumpkin13": {
+          "color": "#BF1D29",
+          "label": "Isakson +64.9",
+          "margin": 64.94,
+          "votesRep": 9197,
+          "votesDem": 1955,
+          "votesTotal": 11924
+        },
+        "Macon13": {
+          "color": "#1C408C",
+          "label": "Barksdale +11.8",
+          "margin": -11.85,
+          "votesRep": 1678,
+          "votesDem": 2129,
+          "votesTotal": 3885
+        },
+        "Madison13": {
+          "color": "#BF1D29",
+          "label": "Isakson +60.6",
+          "margin": 60.63,
+          "votesRep": 8828,
+          "votesDem": 2164,
+          "votesTotal": 11436
+        },
+        "Marion13": {
+          "color": "#BF1D29",
+          "label": "Isakson +28.2",
+          "margin": 28.21,
+          "votesRep": 1845,
+          "votesDem": 1033,
+          "votesTotal": 2955
+        },
+        "McDuffie13": {
+          "color": "#BF1D29",
+          "label": "Isakson +26.6",
+          "margin": 26.61,
+          "votesRep": 5253,
+          "votesDem": 3045,
+          "votesTotal": 8509
+        },
+        "McIntosh13": {
+          "color": "#BF1D29",
+          "label": "Isakson +28.5",
+          "margin": 28.45,
+          "votesRep": 3420,
+          "votesDem": 1905,
+          "votesTotal": 5514
+        },
+        "Meriwether13": {
+          "color": "#BF1D29",
+          "label": "Isakson +23.5",
+          "margin": 23.52,
+          "votesRep": 5158,
+          "votesDem": 3194,
+          "votesTotal": 8625
+        },
+        "Miller13": {
+          "color": "#BF1D29",
+          "label": "Isakson +54.5",
+          "margin": 54.52,
+          "votesRep": 1709,
+          "votesDem": 503,
+          "votesTotal": 2272
+        },
+        "Mitchell13": {
+          "color": "#BF1D29",
+          "label": "Isakson +17.5",
+          "margin": 17.53,
+          "votesRep": 4243,
+          "votesDem": 2977,
+          "votesTotal": 7347
+        },
+        "Monroe13": {
+          "color": "#BF1D29",
+          "label": "Isakson +49.2",
+          "margin": 49.25,
+          "votesRep": 8719,
+          "votesDem": 2965,
+          "votesTotal": 12069
+        },
+        "Montgomery13": {
+          "color": "#BF1D29",
+          "label": "Isakson +57.9",
+          "margin": 57.86,
+          "votesRep": 2532,
+          "votesDem": 676,
+          "votesTotal": 3303
+        },
+        "Morgan13": {
+          "color": "#BF1D29",
+          "label": "Isakson +49.3",
+          "margin": 49.34,
+          "votesRep": 6533,
+          "votesDem": 2216,
+          "votesTotal": 9069
+        },
+        "Murray13": {
+          "color": "#BF1D29",
+          "label": "Isakson +67.3",
+          "margin": 67.35,
+          "votesRep": 8922,
+          "votesDem": 1741,
+          "votesTotal": 11116
+        },
+        "Muscogee13": {
+          "color": "#577CCC",
+          "label": "Barksdale +9.2",
+          "margin": -9.23,
+          "votesRep": 27940,
+          "votesDem": 33620,
+          "votesTotal": 63814
+        },
+        "Newton13": {
+          "color": "#FF8B98",
+          "label": "Isakson +1.8",
+          "margin": 1.81,
+          "votesRep": 20584,
+          "votesDem": 19851,
+          "votesTotal": 41842
+        },
+        "Oconee13": {
+          "color": "#BF1D29",
+          "label": "Isakson +52.9",
+          "margin": 52.86,
+          "votesRep": 14344,
+          "votesDem": 4423,
+          "votesTotal": 19645
+        },
+        "Oglethorpe13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.9",
+          "margin": 46.86,
+          "votesRep": 4502,
+          "votesDem": 1629,
+          "votesTotal": 6390
+        },
+        "Paulding13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.4",
+          "margin": 46.4,
+          "votesRep": 42974,
+          "votesDem": 15732,
+          "votesTotal": 61862
+        },
+        "Peach13": {
+          "color": "#FF5865",
+          "label": "Isakson +9.8",
+          "margin": 9.77,
+          "votesRep": 5419,
+          "votesDem": 4454,
+          "votesTotal": 10196
+        },
+        "Pickens13": {
+          "color": "#BF1D29",
+          "label": "Isakson +72.7",
+          "margin": 72.7,
+          "votesRep": 11001,
+          "votesDem": 1739,
+          "votesTotal": 13419
+        },
+        "Pierce13": {
+          "color": "#BF1D29",
+          "label": "Isakson +77.1",
+          "margin": 77.13,
+          "votesRep": 5817,
+          "votesDem": 751,
+          "votesTotal": 6751
+        },
+        "Pike13": {
+          "color": "#BF1D29",
+          "label": "Isakson +72.5",
+          "margin": 72.52,
+          "votesRep": 6913,
+          "votesDem": 1101,
+          "votesTotal": 8327
+        },
+        "Polk13": {
+          "color": "#BF1D29",
+          "label": "Isakson +59.3",
+          "margin": 59.27,
+          "votesRep": 10219,
+          "votesDem": 2613,
+          "votesTotal": 13353
+        },
+        "Pulaski13": {
+          "color": "#BF1D29",
+          "label": "Isakson +47.0",
+          "margin": 46.99,
+          "votesRep": 2415,
+          "votesDem": 871,
+          "votesTotal": 3374
+        },
+        "Putnam13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.8",
+          "margin": 46.77,
+          "votesRep": 6435,
+          "votesDem": 2334,
+          "votesTotal": 9046
+        },
+        "Quitman13": {
+          "color": "#BF1D29",
+          "label": "Isakson +13.5",
+          "margin": 13.48,
+          "votesRep": 501,
+          "votesDem": 382,
+          "votesTotal": 912
+        },
+        "Rabun13": {
+          "color": "#BF1D29",
+          "label": "Isakson +65.3",
+          "margin": 65.27,
+          "votesRep": 5977,
+          "votesDem": 1256,
+          "votesTotal": 7564
+        },
+        "Randolph13": {
+          "color": "#CF8980",
+          "label": "Isakson +0.7",
+          "margin": 0.7,
+          "votesRep": 1293,
+          "votesDem": 1275,
+          "votesTotal": 2609
+        },
+        "Richmond13": {
+          "color": "#1C408C",
+          "label": "Barksdale +24.0",
+          "margin": -23.95,
+          "votesRep": 25908,
+          "votesDem": 42229,
+          "votesTotal": 70341
+        },
+        "Rockdale13": {
+          "color": "#1C408C",
+          "label": "Barksdale +20.9",
+          "margin": -20.87,
+          "votesRep": 13893,
+          "votesDem": 21223,
+          "votesTotal": 36294
+        },
+        "Schley13": {
+          "color": "#BF1D29",
+          "label": "Isakson +61.5",
+          "margin": 61.45,
+          "votesRep": 1445,
+          "votesDem": 345,
+          "votesTotal": 1828
+        },
+        "Screven13": {
+          "color": "#BF1D29",
+          "label": "Isakson +25.8",
+          "margin": 25.75,
+          "votesRep": 3289,
+          "votesDem": 1942,
+          "votesTotal": 5341
+        },
+        "Seminole13": {
+          "color": "#BF1D29",
+          "label": "Isakson +34.3",
+          "margin": 34.33,
+          "votesRep": 2070,
+          "votesDem": 1012,
+          "votesTotal": 3172
+        },
+        "Spalding13": {
+          "color": "#BF1D29",
+          "label": "Isakson +31.6",
+          "margin": 31.64,
+          "votesRep": 15172,
+          "votesDem": 7879,
+          "votesTotal": 23966
+        },
+        "Stephens13": {
+          "color": "#BF1D29",
+          "label": "Isakson +64.9",
+          "margin": 64.95,
+          "votesRep": 7284,
+          "votesDem": 1548,
+          "votesTotal": 9178
+        },
+        "Stewart13": {
+          "color": "#577CCC",
+          "label": "Barksdale +5.4",
+          "margin": -5.45,
+          "votesRep": 807,
+          "votesDem": 900,
+          "votesTotal": 1750
+        },
+        "Sumter13": {
+          "color": "#FF5865",
+          "label": "Isakson +5.3",
+          "margin": 5.27,
+          "votesRep": 5418,
+          "votesDem": 4876,
+          "votesTotal": 10491
+        },
+        "Talbot13": {
+          "color": "#1C408C",
+          "label": "Barksdale +14.3",
+          "margin": -14.34,
+          "votesRep": 1228,
+          "votesDem": 1639,
+          "votesTotal": 2965
+        },
+        "Taliaferro13": {
+          "color": "#1C408C",
+          "label": "Barksdale +13.0",
+          "margin": -13.01,
+          "votesRep": 341,
+          "votesDem": 443,
+          "votesTotal": 798
+        },
+        "Tattnall13": {
+          "color": "#BF1D29",
+          "label": "Isakson +57.1",
+          "margin": 57.11,
+          "votesRep": 4960,
+          "votesDem": 1354,
+          "votesTotal": 6461
+        },
+        "Taylor13": {
+          "color": "#BF1D29",
+          "label": "Isakson +28.8",
+          "margin": 28.81,
+          "votesRep": 1974,
+          "votesDem": 1091,
+          "votesTotal": 3146
+        },
+        "Telfair13": {
+          "color": "#BF1D29",
+          "label": "Isakson +35.0",
+          "margin": 35.02,
+          "votesRep": 2327,
+          "votesDem": 1120,
+          "votesTotal": 3506
+        },
+        "Terrell13": {
+          "color": "#FF8B98",
+          "label": "Isakson +3.6",
+          "margin": 3.63,
+          "votesRep": 1997,
+          "votesDem": 1857,
+          "votesTotal": 3932
+        },
+        "Thomas13": {
+          "color": "#BF1D29",
+          "label": "Isakson +28.7",
+          "margin": 28.65,
+          "votesRep": 10823,
+          "votesDem": 6002,
+          "votesTotal": 17365
+        },
+        "Tift13": {
+          "color": "#BF1D29",
+          "label": "Isakson +47.0",
+          "margin": 46.96,
+          "votesRep": 9510,
+          "votesDem": 3432,
+          "votesTotal": 13301
+        },
+        "Toombs13": {
+          "color": "#BF1D29",
+          "label": "Isakson +53.1",
+          "margin": 53.05,
+          "votesRep": 6367,
+          "votesDem": 1953,
+          "votesTotal": 8568
+        },
+        "Towns13": {
+          "color": "#BF1D29",
+          "label": "Isakson +62.0",
+          "margin": 62.01,
+          "votesRep": 4964,
+          "votesDem": 1164,
+          "votesTotal": 6354
+        },
+        "Treutlen13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.2",
+          "margin": 46.17,
+          "votesRep": 1700,
+          "votesDem": 626,
+          "votesTotal": 2390
+        },
+        "Troup13": {
+          "color": "#BF1D29",
+          "label": "Isakson +29.6",
+          "margin": 29.57,
+          "votesRep": 15293,
+          "votesDem": 8312,
+          "votesTotal": 24436
+        },
+        "Turner13": {
+          "color": "#BF1D29",
+          "label": "Isakson +32.8",
+          "margin": 32.83,
+          "votesRep": 2039,
+          "votesDem": 1031,
+          "votesTotal": 3145
+        },
+        "Twiggs13": {
+          "color": "#FF5865",
+          "label": "Isakson +8.8",
+          "margin": 8.82,
+          "votesRep": 1975,
+          "votesDem": 1655,
+          "votesTotal": 3725
+        },
+        "Union13": {
+          "color": "#BF1D29",
+          "label": "Isakson +66.9",
+          "margin": 66.91,
+          "votesRep": 9181,
+          "votesDem": 1820,
+          "votesTotal": 11434
+        },
+        "Upson13": {
+          "color": "#BF1D29",
+          "label": "Isakson +41.6",
+          "margin": 41.63,
+          "votesRep": 7063,
+          "votesDem": 2911,
+          "votesTotal": 10283
+        },
+        "Walker13": {
+          "color": "#BF1D29",
+          "label": "Isakson +64.0",
+          "margin": 64,
+          "votesRep": 17086,
+          "votesDem": 3750,
+          "votesTotal": 21952
+        },
+        "Walton13": {
+          "color": "#BF1D29",
+          "label": "Isakson +61.1",
+          "margin": 61.07,
+          "votesRep": 29723,
+          "votesDem": 7183,
+          "votesTotal": 38546
+        },
+        "Ware13": {
+          "color": "#BF1D29",
+          "label": "Isakson +46.6",
+          "margin": 46.55,
+          "votesRep": 7872,
+          "votesDem": 2871,
+          "votesTotal": 11140
+        },
+        "Warren13": {
+          "color": "#577CCC",
+          "label": "Barksdale +5.6",
+          "margin": -5.56,
+          "votesRep": 993,
+          "votesDem": 1110,
+          "votesTotal": 2148
+        },
+        "Washington13": {
+          "color": "#FF5865",
+          "label": "Isakson +6.3",
+          "margin": 6.29,
+          "votesRep": 4092,
+          "votesDem": 3608,
+          "votesTotal": 7811
+        },
+        "Wayne13": {
+          "color": "#BF1D29",
+          "label": "Isakson +63.7",
+          "margin": 63.69,
+          "votesRep": 7686,
+          "votesDem": 1705,
+          "votesTotal": 9683
+        },
+        "Webster13": {
+          "color": "#BF1D29",
+          "label": "Isakson +25.3",
+          "margin": 25.29,
+          "votesRep": 649,
+          "votesDem": 387,
+          "votesTotal": 1051
+        },
+        "Wheeler13": {
+          "color": "#BF1D29",
+          "label": "Isakson +41.0",
+          "margin": 41.05,
+          "votesRep": 1304,
+          "votesDem": 545,
+          "votesTotal": 1904
+        },
+        "White13": {
+          "color": "#BF1D29",
+          "label": "Isakson +71.3",
+          "margin": 71.34,
+          "votesRep": 9212,
+          "votesDem": 1541,
+          "votesTotal": 11339
+        },
+        "Whitfield13": {
+          "color": "#BF1D29",
+          "label": "Isakson +49.1",
+          "margin": 49.09,
+          "votesRep": 19808,
+          "votesDem": 6763,
+          "votesTotal": 27952
+        },
+        "Wilcox13": {
+          "color": "#BF1D29",
+          "label": "Isakson +50.5",
+          "margin": 50.54,
+          "votesRep": 2036,
+          "votesDem": 669,
+          "votesTotal": 2775
+        },
+        "Wilkes13": {
+          "color": "#BF1D29",
+          "label": "Isakson +24.4",
+          "margin": 24.36,
+          "votesRep": 2507,
+          "votesDem": 1525,
+          "votesTotal": 4131
+        },
+        "Wilkinson13": {
+          "color": "#BF1D29",
+          "label": "Isakson +16.7",
+          "margin": 16.74,
+          "votesRep": 2266,
+          "votesDem": 1616,
+          "votesTotal": 3961
+        },
+        "Worth13": {
+          "color": "#BF1D29",
+          "label": "Isakson +52.4",
+          "margin": 52.38,
+          "votesRep": 5884,
+          "votesDem": 1839,
+          "votesTotal": 7884
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1251 @@
+{
+  "stateFips": "49",
+  "stateName": "Utah",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Spencer Cox",
+      "candDem": "Brian Smith King",
+      "shortRep": "Cox",
+      "shortDem": "King",
+      "partisan": true,
+      "margin": 30.02,
+      "votesRep": 781114,
+      "votesDem": 420403,
+      "votesTotal": 1476997,
+      "regions": {
+        "Beaver49": {
+          "color": "#BF1D29",
+          "label": "Cox +78.8",
+          "margin": 78.83,
+          "votesRep": 2120,
+          "votesDem": 251,
+          "votesTotal": 3129
+        },
+        "Box Elder49": {
+          "color": "#BF1D29",
+          "label": "Cox +67.8",
+          "margin": 67.8,
+          "votesRep": 18423,
+          "votesDem": 3535,
+          "votesTotal": 28722
+        },
+        "Cache49": {
+          "color": "#BF1D29",
+          "label": "Cox +47.0",
+          "margin": 46.95,
+          "votesRep": 36147,
+          "votesDem": 13048,
+          "votesTotal": 59971
+        },
+        "Carbon49": {
+          "color": "#BF1D29",
+          "label": "Cox +46.3",
+          "margin": 46.34,
+          "votesRep": 5710,
+          "votesDem": 2094,
+          "votesTotal": 9313
+        },
+        "Daggett49": {
+          "color": "#BF1D29",
+          "label": "Cox +69.5",
+          "margin": 69.5,
+          "votesRep": 389,
+          "votesDem": 70,
+          "votesTotal": 533
+        },
+        "Davis49": {
+          "color": "#BF1D29",
+          "label": "Cox +40.8",
+          "margin": 40.84,
+          "votesRep": 95628,
+          "votesDem": 40167,
+          "votesTotal": 165936
+        },
+        "Duchesne49": {
+          "color": "#BF1D29",
+          "label": "Cox +77.5",
+          "margin": 77.5,
+          "votesRep": 5680,
+          "votesDem": 720,
+          "votesTotal": 8703
+        },
+        "Emery49": {
+          "color": "#BF1D29",
+          "label": "Cox +74.8",
+          "margin": 74.82,
+          "votesRep": 3256,
+          "votesDem": 469,
+          "votesTotal": 4930
+        },
+        "Garfield49": {
+          "color": "#BF1D29",
+          "label": "Cox +65.9",
+          "margin": 65.93,
+          "votesRep": 1914,
+          "votesDem": 393,
+          "votesTotal": 2755
+        },
+        "Grand49": {
+          "color": "#577CCC",
+          "label": "King +5.4",
+          "margin": -5.37,
+          "votesRep": 2185,
+          "votesDem": 2433,
+          "votesTotal": 5003
+        },
+        "Iron49": {
+          "color": "#BF1D29",
+          "label": "Cox +61.8",
+          "margin": 61.82,
+          "votesRep": 16814,
+          "votesDem": 3967,
+          "votesTotal": 27341
+        },
+        "Juab49": {
+          "color": "#BF1D29",
+          "label": "Cox +77.2",
+          "margin": 77.2,
+          "votesRep": 3816,
+          "votesDem": 491,
+          "votesTotal": 6387
+        },
+        "Kane49": {
+          "color": "#BF1D29",
+          "label": "Cox +50.7",
+          "margin": 50.73,
+          "votesRep": 2628,
+          "votesDem": 859,
+          "votesTotal": 4385
+        },
+        "Millard49": {
+          "color": "#BF1D29",
+          "label": "Cox +76.3",
+          "margin": 76.28,
+          "votesRep": 3708,
+          "votesDem": 499,
+          "votesTotal": 6306
+        },
+        "Morgan49": {
+          "color": "#BF1D29",
+          "label": "Cox +69.5",
+          "margin": 69.52,
+          "votesRep": 4293,
+          "votesDem": 772,
+          "votesTotal": 6803
+        },
+        "Piute49": {
+          "color": "#BF1D29",
+          "label": "Cox +86.3",
+          "margin": 86.25,
+          "votesRep": 718,
+          "votesDem": 53,
+          "votesTotal": 944
+        },
+        "Rich49": {
+          "color": "#BF1D29",
+          "label": "Cox +78.4",
+          "margin": 78.36,
+          "votesRep": 1088,
+          "votesDem": 132,
+          "votesTotal": 1427
+        },
+        "Salt Lake49": {
+          "color": "#6b7280",
+          "label": "Cox +0.5",
+          "margin": 0.5,
+          "votesRep": 222521,
+          "votesDem": 220323,
+          "votesTotal": 504917
+        },
+        "San Juan49": {
+          "color": "#FF5865",
+          "label": "Cox +5.8",
+          "margin": 5.83,
+          "votesRep": 2241,
+          "votesDem": 1994,
+          "votesTotal": 6235
+        },
+        "Sanpete49": {
+          "color": "#BF1D29",
+          "label": "Cox +73.3",
+          "margin": 73.31,
+          "votesRep": 8052,
+          "votesDem": 1240,
+          "votesTotal": 12821
+        },
+        "Sevier49": {
+          "color": "#BF1D29",
+          "label": "Cox +80.9",
+          "margin": 80.86,
+          "votesRep": 7341,
+          "votesDem": 777,
+          "votesTotal": 10786
+        },
+        "Summit49": {
+          "color": "#8AAFFF",
+          "label": "King +1.0",
+          "margin": -1.03,
+          "votesRep": 11195,
+          "votesDem": 11429,
+          "votesTotal": 25476
+        },
+        "Tooele49": {
+          "color": "#BF1D29",
+          "label": "Cox +47.2",
+          "margin": 47.22,
+          "votesRep": 19811,
+          "votesDem": 7102,
+          "votesTotal": 33486
+        },
+        "Uintah49": {
+          "color": "#BF1D29",
+          "label": "Cox +75.5",
+          "margin": 75.46,
+          "votesRep": 10208,
+          "votesDem": 1428,
+          "votesTotal": 15495
+        },
+        "Utah49": {
+          "color": "#BF1D29",
+          "label": "Cox +51.7",
+          "margin": 51.66,
+          "votesRep": 171053,
+          "votesDem": 54522,
+          "votesTotal": 298789
+        },
+        "Wasatch49": {
+          "color": "#BF1D29",
+          "label": "Cox +37.4",
+          "margin": 37.42,
+          "votesRep": 10039,
+          "votesDem": 4572,
+          "votesTotal": 18297
+        },
+        "Washington49": {
+          "color": "#BF1D29",
+          "label": "Cox +54.2",
+          "margin": 54.2,
+          "votesRep": 53785,
+          "votesDem": 15974,
+          "votesTotal": 95903
+        },
+        "Wayne49": {
+          "color": "#BF1D29",
+          "label": "Cox +52.6",
+          "margin": 52.64,
+          "votesRep": 925,
+          "votesDem": 287,
+          "votesTotal": 1619
+        },
+        "Weber49": {
+          "color": "#BF1D29",
+          "label": "Cox +31.7",
+          "margin": 31.72,
+          "votesRep": 59426,
+          "votesDem": 30802,
+          "votesTotal": 110585
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "John Curtis",
+      "candDem": "Caroline Gleich",
+      "shortRep": "Curtis",
+      "shortDem": "Gleich",
+      "partisan": true,
+      "margin": 32.64,
+      "votesRep": 914700,
+      "votesDem": 464515,
+      "votesTotal": 1463509,
+      "regions": {
+        "Beaver49": {
+          "color": "#BF1D29",
+          "label": "Curtis +77.7",
+          "margin": 77.69,
+          "votesRep": 2605,
+          "votesDem": 327,
+          "votesTotal": 3146
+        },
+        "Box Elder49": {
+          "color": "#BF1D29",
+          "label": "Curtis +69.8",
+          "margin": 69.84,
+          "votesRep": 22803,
+          "votesDem": 4050,
+          "votesTotal": 28651
+        },
+        "Cache49": {
+          "color": "#BF1D29",
+          "label": "Curtis +46.7",
+          "margin": 46.68,
+          "votesRep": 41451,
+          "votesDem": 15067,
+          "votesTotal": 59932
+        },
+        "Carbon49": {
+          "color": "#BF1D29",
+          "label": "Curtis +51.9",
+          "margin": 51.86,
+          "votesRep": 6751,
+          "votesDem": 2140,
+          "votesTotal": 9326
+        },
+        "Daggett49": {
+          "color": "#BF1D29",
+          "label": "Curtis +70.5",
+          "margin": 70.51,
+          "votesRep": 451,
+          "votesDem": 78,
+          "votesTotal": 542
+        },
+        "Davis49": {
+          "color": "#BF1D29",
+          "label": "Curtis +40.6",
+          "margin": 40.58,
+          "votesRep": 108083,
+          "votesDem": 45688,
+          "votesTotal": 165870
+        },
+        "Duchesne49": {
+          "color": "#BF1D29",
+          "label": "Curtis +80.8",
+          "margin": 80.83,
+          "votesRep": 7450,
+          "votesDem": 790,
+          "votesTotal": 8841
+        },
+        "Emery49": {
+          "color": "#BF1D29",
+          "label": "Curtis +79.7",
+          "margin": 79.72,
+          "votesRep": 4200,
+          "votesDem": 474,
+          "votesTotal": 4936
+        },
+        "Garfield49": {
+          "color": "#BF1D29",
+          "label": "Curtis +64.5",
+          "margin": 64.55,
+          "votesRep": 2149,
+          "votesDem": 463,
+          "votesTotal": 2757
+        },
+        "Grand49": {
+          "color": "#8AAFFF",
+          "label": "Gleich +2.8",
+          "margin": -2.85,
+          "votesRep": 2472,
+          "votesDem": 2617,
+          "votesTotal": 5247
+        },
+        "Iron49": {
+          "color": "#BF1D29",
+          "label": "Curtis +62.7",
+          "margin": 62.73,
+          "votesRep": 20772,
+          "votesDem": 4757,
+          "votesTotal": 27449
+        },
+        "Juab49": {
+          "color": "#BF1D29",
+          "label": "Curtis +79.6",
+          "margin": 79.57,
+          "votesRep": 5222,
+          "votesDem": 594,
+          "votesTotal": 6359
+        },
+        "Kane49": {
+          "color": "#BF1D29",
+          "label": "Curtis +51.6",
+          "margin": 51.62,
+          "votesRep": 3143,
+          "votesDem": 1003,
+          "votesTotal": 4386
+        },
+        "Millard49": {
+          "color": "#BF1D29",
+          "label": "Curtis +82.2",
+          "margin": 82.22,
+          "votesRep": 5309,
+          "votesDem": 518,
+          "votesTotal": 6315
+        },
+        "Morgan49": {
+          "color": "#BF1D29",
+          "label": "Curtis +71.6",
+          "margin": 71.61,
+          "votesRep": 5506,
+          "votesDem": 911,
+          "votesTotal": 6792
+        },
+        "Piute49": {
+          "color": "#BF1D29",
+          "label": "Curtis +83.1",
+          "margin": 83.05,
+          "votesRep": 821,
+          "votesDem": 76,
+          "votesTotal": 951
+        },
+        "Rich49": {
+          "color": "#BF1D29",
+          "label": "Curtis +76.7",
+          "margin": 76.71,
+          "votesRep": 1214,
+          "votesDem": 160,
+          "votesTotal": 1433
+        },
+        "Salt Lake49": {
+          "color": "#6b7280",
+          "label": "Curtis +0.3",
+          "margin": 0.27,
+          "votesRep": 238607,
+          "votesDem": 237322,
+          "votesTotal": 495452
+        },
+        "San Juan49": {
+          "color": "#BF1D29",
+          "label": "Curtis +26.6",
+          "margin": 26.62,
+          "votesRep": 3694,
+          "votesDem": 2141,
+          "votesTotal": 6184
+        },
+        "Sanpete49": {
+          "color": "#BF1D29",
+          "label": "Curtis +75.4",
+          "margin": 75.37,
+          "votesRep": 10173,
+          "votesDem": 1429,
+          "votesTotal": 12770
+        },
+        "Sevier49": {
+          "color": "#BF1D29",
+          "label": "Curtis +81.3",
+          "margin": 81.32,
+          "votesRep": 9103,
+          "votesDem": 938,
+          "votesTotal": 10780
+        },
+        "Summit49": {
+          "color": "#577CCC",
+          "label": "Gleich +7.6",
+          "margin": -7.63,
+          "votesRep": 11399,
+          "votesDem": 13282,
+          "votesTotal": 25423
+        },
+        "Tooele49": {
+          "color": "#BF1D29",
+          "label": "Curtis +47.7",
+          "margin": 47.69,
+          "votesRep": 22984,
+          "votesDem": 8140,
+          "votesTotal": 33466
+        },
+        "Uintah49": {
+          "color": "#BF1D29",
+          "label": "Curtis +78.6",
+          "margin": 78.62,
+          "votesRep": 13077,
+          "votesDem": 1565,
+          "votesTotal": 15573
+        },
+        "Utah49": {
+          "color": "#BF1D29",
+          "label": "Curtis +56.0",
+          "margin": 56.02,
+          "votesRep": 214605,
+          "votesDem": 60490,
+          "votesTotal": 296584
+        },
+        "Wasatch49": {
+          "color": "#BF1D29",
+          "label": "Curtis +38.9",
+          "margin": 38.94,
+          "votesRep": 12004,
+          "votesDem": 5276,
+          "votesTotal": 18323
+        },
+        "Washington49": {
+          "color": "#BF1D29",
+          "label": "Curtis +57.9",
+          "margin": 57.88,
+          "votesRep": 69743,
+          "votesDem": 18607,
+          "votesTotal": 95453
+        },
+        "Wayne49": {
+          "color": "#BF1D29",
+          "label": "Curtis +57.2",
+          "margin": 57.16,
+          "votesRep": 1196,
+          "votesDem": 326,
+          "votesTotal": 1619
+        },
+        "Weber49": {
+          "color": "#BF1D29",
+          "label": "Curtis +31.5",
+          "margin": 31.48,
+          "votesRep": 67713,
+          "votesDem": 35286,
+          "votesTotal": 108949
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Mike Lee",
+      "candDem": "Evan McMullin",
+      "shortRep": "Lee",
+      "shortDem": "McMullin",
+      "partisan": true,
+      "margin": 10.84,
+      "votesRep": 571830,
+      "votesDem": 459955,
+      "votesTotal": 1079463,
+      "regions": {
+        "Beaver49": {
+          "color": "#BF1D29",
+          "label": "Lee +64.9",
+          "margin": 64.94,
+          "votesRep": 1971,
+          "votesDem": 419,
+          "votesTotal": 2447
+        },
+        "Box Elder49": {
+          "color": "#BF1D29",
+          "label": "Lee +50.7",
+          "margin": 50.68,
+          "votesRep": 14434,
+          "votesDem": 4725,
+          "votesTotal": 19934
+        },
+        "Cache49": {
+          "color": "#BF1D29",
+          "label": "Lee +22.4",
+          "margin": 22.43,
+          "votesRep": 24588,
+          "votesDem": 15580,
+          "votesTotal": 42104
+        },
+        "Carbon49": {
+          "color": "#BF1D29",
+          "label": "Lee +33.7",
+          "margin": 33.72,
+          "votesRep": 4265,
+          "votesDem": 2114,
+          "votesTotal": 6744
+        },
+        "Daggett49": {
+          "color": "#BF1D29",
+          "label": "Lee +55.1",
+          "margin": 55.14,
+          "votesRep": 377,
+          "votesDem": 109,
+          "votesTotal": 498
+        },
+        "Davis49": {
+          "color": "#BF1D29",
+          "label": "Lee +11.4",
+          "margin": 11.39,
+          "votesRep": 66385,
+          "votesDem": 52806,
+          "votesTotal": 123778
+        },
+        "Duchesne49": {
+          "color": "#BF1D29",
+          "label": "Lee +70.0",
+          "margin": 70.01,
+          "votesRep": 5170,
+          "votesDem": 912,
+          "votesTotal": 6291
+        },
+        "Emery49": {
+          "color": "#BF1D29",
+          "label": "Lee +64.2",
+          "margin": 64.23,
+          "votesRep": 3269,
+          "votesDem": 712,
+          "votesTotal": 4107
+        },
+        "Garfield49": {
+          "color": "#BF1D29",
+          "label": "Lee +55.1",
+          "margin": 55.08,
+          "votesRep": 1795,
+          "votesDem": 520,
+          "votesTotal": 2385
+        },
+        "Grand49": {
+          "color": "#1C408C",
+          "label": "McMullin +12.1",
+          "margin": -12.05,
+          "votesRep": 1901,
+          "votesDem": 2422,
+          "votesTotal": 4645
+        },
+        "Iron49": {
+          "color": "#BF1D29",
+          "label": "Lee +55.0",
+          "margin": 54.97,
+          "votesRep": 12923,
+          "votesDem": 3755,
+          "votesTotal": 17348
+        },
+        "Juab49": {
+          "color": "#BF1D29",
+          "label": "Lee +69.0",
+          "margin": 68.96,
+          "votesRep": 3886,
+          "votesDem": 714,
+          "votesTotal": 4733
+        },
+        "Kane49": {
+          "color": "#BF1D29",
+          "label": "Lee +45.9",
+          "margin": 45.93,
+          "votesRep": 2553,
+          "votesDem": 946,
+          "votesTotal": 3659
+        },
+        "Millard49": {
+          "color": "#BF1D29",
+          "label": "Lee +71.8",
+          "margin": 71.85,
+          "votesRep": 4279,
+          "votesDem": 701,
+          "votesTotal": 5135
+        },
+        "Morgan49": {
+          "color": "#BF1D29",
+          "label": "Lee +45.9",
+          "margin": 45.93,
+          "votesRep": 3665,
+          "votesDem": 1358,
+          "votesTotal": 5163
+        },
+        "Piute49": {
+          "color": "#BF1D29",
+          "label": "Lee +78.8",
+          "margin": 78.81,
+          "votesRep": 692,
+          "votesDem": 82,
+          "votesTotal": 796
+        },
+        "Rich49": {
+          "color": "#BF1D29",
+          "label": "Lee +60.8",
+          "margin": 60.76,
+          "votesRep": 844,
+          "votesDem": 206,
+          "votesTotal": 1075
+        },
+        "Salt Lake49": {
+          "color": "#1C408C",
+          "label": "McMullin +20.2",
+          "margin": -20.24,
+          "votesRep": 144931,
+          "votesDem": 218495,
+          "votesTotal": 381195
+        },
+        "San Juan49": {
+          "color": "#BF1D29",
+          "label": "Lee +26.4",
+          "margin": 26.41,
+          "votesRep": 3118,
+          "votesDem": 1815,
+          "votesTotal": 5570
+        },
+        "Sanpete49": {
+          "color": "#BF1D29",
+          "label": "Lee +60.7",
+          "margin": 60.74,
+          "votesRep": 7829,
+          "votesDem": 1912,
+          "votesTotal": 10021
+        },
+        "Sevier49": {
+          "color": "#BF1D29",
+          "label": "Lee +69.5",
+          "margin": 69.54,
+          "votesRep": 6411,
+          "votesDem": 1152,
+          "votesTotal": 7791
+        },
+        "Summit49": {
+          "color": "#1C408C",
+          "label": "McMullin +25.6",
+          "margin": -25.57,
+          "votesRep": 7305,
+          "votesDem": 12325,
+          "votesTotal": 20387
+        },
+        "Tooele49": {
+          "color": "#BF1D29",
+          "label": "Lee +28.2",
+          "margin": 28.21,
+          "votesRep": 13371,
+          "votesDem": 7487,
+          "votesTotal": 22142
+        },
+        "Uintah49": {
+          "color": "#BF1D29",
+          "label": "Lee +70.2",
+          "margin": 70.2,
+          "votesRep": 8905,
+          "votesDem": 1559,
+          "votesTotal": 10845
+        },
+        "Utah49": {
+          "color": "#BF1D29",
+          "label": "Lee +27.5",
+          "margin": 27.52,
+          "votesRep": 127096,
+          "votesDem": 72238,
+          "votesTotal": 206045
+        },
+        "Wasatch49": {
+          "color": "#BF1D29",
+          "label": "Lee +15.3",
+          "margin": 15.29,
+          "votesRep": 7384,
+          "votesDem": 5425,
+          "votesTotal": 13335
+        },
+        "Washington49": {
+          "color": "#BF1D29",
+          "label": "Lee +47.1",
+          "margin": 47.07,
+          "votesRep": 49420,
+          "votesDem": 17786,
+          "votesTotal": 70668
+        },
+        "Wayne49": {
+          "color": "#BF1D29",
+          "label": "Lee +43.6",
+          "margin": 43.58,
+          "votesRep": 1056,
+          "votesDem": 415,
+          "votesTotal": 3055
+        },
+        "Weber49": {
+          "color": "#BF1D29",
+          "label": "Lee +14.7",
+          "margin": 14.66,
+          "votesRep": 42007,
+          "votesDem": 31265,
+          "votesTotal": 77567
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Mitt Romney",
+      "candDem": "Jenny Wilson",
+      "shortRep": "Romney",
+      "shortDem": "Wilson",
+      "partisan": true,
+      "margin": 33.87,
+      "votesRep": 665093,
+      "votesDem": 328537,
+      "votesTotal": 1064354,
+      "regions": {
+        "Beaver49": {
+          "color": "#BF1D29",
+          "label": "Romney +68.9",
+          "margin": 68.93,
+          "votesRep": 1620,
+          "votesDem": 298,
+          "votesTotal": 2140
+        },
+        "Box Elder49": {
+          "color": "#BF1D29",
+          "label": "Romney +70.1",
+          "margin": 70.09,
+          "votesRep": 14803,
+          "votesDem": 2603,
+          "votesTotal": 19004
+        },
+        "Cache49": {
+          "color": "#BF1D29",
+          "label": "Romney +52.4",
+          "margin": 52.4,
+          "votesRep": 28344,
+          "votesDem": 8854,
+          "votesTotal": 40015
+        },
+        "Carbon49": {
+          "color": "#BF1D29",
+          "label": "Romney +40.0",
+          "margin": 40.03,
+          "votesRep": 4387,
+          "votesDem": 1879,
+          "votesTotal": 6906
+        },
+        "Daggett49": {
+          "color": "#BF1D29",
+          "label": "Romney +61.4",
+          "margin": 61.45,
+          "votesRep": 335,
+          "votesDem": 80,
+          "votesTotal": 439
+        },
+        "Davis49": {
+          "color": "#BF1D29",
+          "label": "Romney +49.6",
+          "margin": 49.61,
+          "votesRep": 86840,
+          "votesDem": 29249,
+          "votesTotal": 124279
+        },
+        "Duchesne49": {
+          "color": "#BF1D29",
+          "label": "Romney +77.6",
+          "margin": 77.65,
+          "votesRep": 4522,
+          "votesDem": 569,
+          "votesTotal": 5779
+        },
+        "Emery49": {
+          "color": "#BF1D29",
+          "label": "Romney +71.3",
+          "margin": 71.26,
+          "votesRep": 3033,
+          "votesDem": 509,
+          "votesTotal": 3877
+        },
+        "Garfield49": {
+          "color": "#BF1D29",
+          "label": "Romney +61.5",
+          "margin": 61.47,
+          "votesRep": 1626,
+          "votesDem": 388,
+          "votesTotal": 2140
+        },
+        "Grand49": {
+          "color": "#8AAFFF",
+          "label": "Wilson +5.0",
+          "margin": -4.98,
+          "votesRep": 1935,
+          "votesDem": 2138,
+          "votesTotal": 4338
+        },
+        "Iron49": {
+          "color": "#BF1D29",
+          "label": "Romney +59.7",
+          "margin": 59.72,
+          "votesRep": 11286,
+          "votesDem": 2846,
+          "votesTotal": 15869
+        },
+        "Juab49": {
+          "color": "#BF1D29",
+          "label": "Romney +74.2",
+          "margin": 74.19,
+          "votesRep": 3320,
+          "votesDem": 492,
+          "votesTotal": 4154
+        },
+        "Kane49": {
+          "color": "#BF1D29",
+          "label": "Romney +48.2",
+          "margin": 48.21,
+          "votesRep": 2135,
+          "votesDem": 746,
+          "votesTotal": 3123
+        },
+        "Millard49": {
+          "color": "#BF1D29",
+          "label": "Romney +75.5",
+          "margin": 75.53,
+          "votesRep": 3672,
+          "votesDem": 512,
+          "votesTotal": 4632
+        },
+        "Morgan49": {
+          "color": "#BF1D29",
+          "label": "Romney +74.7",
+          "margin": 74.7,
+          "votesRep": 4144,
+          "votesDem": 600,
+          "votesTotal": 5113
+        },
+        "Piute49": {
+          "color": "#BF1D29",
+          "label": "Romney +74.4",
+          "margin": 74.38,
+          "votesRep": 524,
+          "votesDem": 77,
+          "votesTotal": 694
+        },
+        "Rich49": {
+          "color": "#BF1D29",
+          "label": "Romney +76.0",
+          "margin": 76.04,
+          "votesRep": 911,
+          "votesDem": 124,
+          "votesTotal": 1097
+        },
+        "Salt Lake49": {
+          "color": "#FF5865",
+          "label": "Romney +5.3",
+          "margin": 5.29,
+          "votesRep": 207719,
+          "votesDem": 186856,
+          "votesTotal": 416238
+        },
+        "San Juan49": {
+          "color": "#BF1D29",
+          "label": "Romney +16.7",
+          "margin": 16.66,
+          "votesRep": 2934,
+          "votesDem": 2096,
+          "votesTotal": 5405
+        },
+        "Sanpete49": {
+          "color": "#BF1D29",
+          "label": "Romney +73.2",
+          "margin": 73.22,
+          "votesRep": 7367,
+          "votesDem": 1139,
+          "votesTotal": 9278
+        },
+        "Sevier49": {
+          "color": "#BF1D29",
+          "label": "Romney +76.6",
+          "margin": 76.57,
+          "votesRep": 5810,
+          "votesDem": 771,
+          "votesTotal": 7325
+        },
+        "Summit49": {
+          "color": "#577CCC",
+          "label": "Wilson +5.5",
+          "margin": -5.46,
+          "votesRep": 9170,
+          "votesDem": 10229,
+          "votesTotal": 20236
+        },
+        "Tooele49": {
+          "color": "#BF1D29",
+          "label": "Romney +44.8",
+          "margin": 44.81,
+          "votesRep": 14407,
+          "votesDem": 5491,
+          "votesTotal": 21954
+        },
+        "Uintah49": {
+          "color": "#BF1D29",
+          "label": "Romney +75.0",
+          "margin": 75,
+          "votesRep": 7946,
+          "votesDem": 1135,
+          "votesTotal": 10318
+        },
+        "Utah49": {
+          "color": "#BF1D29",
+          "label": "Romney +64.8",
+          "margin": 64.83,
+          "votesRep": 135240,
+          "votesDem": 28856,
+          "votesTotal": 175568
+        },
+        "Wasatch49": {
+          "color": "#BF1D29",
+          "label": "Romney +40.2",
+          "margin": 40.19,
+          "votesRep": 8126,
+          "votesDem": 3467,
+          "votesTotal": 12227
+        },
+        "Washington49": {
+          "color": "#BF1D29",
+          "label": "Romney +56.7",
+          "margin": 56.74,
+          "votesRep": 42602,
+          "votesDem": 11757,
+          "votesTotal": 60507
+        },
+        "Wayne49": {
+          "color": "#BF1D29",
+          "label": "Romney +57.8",
+          "margin": 57.79,
+          "votesRep": 998,
+          "votesDem": 267,
+          "votesTotal": 1363
+        },
+        "Weber49": {
+          "color": "#BF1D29",
+          "label": "Romney +33.6",
+          "margin": 33.62,
+          "votesRep": 49337,
+          "votesDem": 24509,
+          "votesTotal": 80336
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Mike Lee",
+      "candDem": "Misty Snow",
+      "shortRep": "Lee",
+      "shortDem": "Snow",
+      "partisan": true,
+      "margin": 43.11,
+      "votesRep": 760493,
+      "votesDem": 302336,
+      "votesTotal": 1119261,
+      "regions": {
+        "Beaver49": {
+          "color": "#BF1D29",
+          "label": "Lee +75.1",
+          "margin": 75.11,
+          "votesRep": 2075,
+          "votesDem": 295,
+          "votesTotal": 2442
+        },
+        "Box Elder49": {
+          "color": "#BF1D29",
+          "label": "Lee +74.9",
+          "margin": 74.92,
+          "votesRep": 16240,
+          "votesDem": 2328,
+          "votesTotal": 19494
+        },
+        "Cache49": {
+          "color": "#BF1D29",
+          "label": "Lee +60.2",
+          "margin": 60.24,
+          "votesRep": 35393,
+          "votesDem": 8782,
+          "votesTotal": 46218
+        },
+        "Carbon49": {
+          "color": "#BF1D29",
+          "label": "Lee +49.7",
+          "margin": 49.73,
+          "votesRep": 5606,
+          "votesDem": 1882,
+          "votesTotal": 7834
+        },
+        "Daggett49": {
+          "color": "#BF1D29",
+          "label": "Lee +56.3",
+          "margin": 56.32,
+          "votesRep": 340,
+          "votesDem": 95,
+          "votesTotal": 461
+        },
+        "Davis49": {
+          "color": "#BF1D29",
+          "label": "Lee +56.7",
+          "margin": 56.66,
+          "votesRep": 102865,
+          "votesDem": 28459,
+          "votesTotal": 138148
+        },
+        "Duchesne49": {
+          "color": "#BF1D29",
+          "label": "Lee +81.4",
+          "margin": 81.37,
+          "votesRep": 6047,
+          "votesDem": 621,
+          "votesTotal": 6886
+        },
+        "Emery49": {
+          "color": "#BF1D29",
+          "label": "Lee +77.6",
+          "margin": 77.64,
+          "votesRep": 3630,
+          "votesDem": 457,
+          "votesTotal": 4221
+        },
+        "Garfield49": {
+          "color": "#BF1D29",
+          "label": "Lee +68.1",
+          "margin": 68.11,
+          "votesRep": 1903,
+          "votesDem": 361,
+          "votesTotal": 2336
+        },
+        "Grand49": {
+          "color": "#FF5865",
+          "label": "Lee +5.3",
+          "margin": 5.27,
+          "votesRep": 2258,
+          "votesDem": 2032,
+          "votesTotal": 4549
+        },
+        "Iron49": {
+          "color": "#BF1D29",
+          "label": "Lee +69.5",
+          "margin": 69.45,
+          "votesRep": 14239,
+          "votesDem": 2567,
+          "votesTotal": 17481
+        },
+        "Juab49": {
+          "color": "#BF1D29",
+          "label": "Lee +77.7",
+          "margin": 77.73,
+          "votesRep": 3576,
+          "votesDem": 448,
+          "votesTotal": 4165
+        },
+        "Kane49": {
+          "color": "#BF1D29",
+          "label": "Lee +54.7",
+          "margin": 54.7,
+          "votesRep": 2568,
+          "votesDem": 752,
+          "votesTotal": 3466
+        },
+        "Millard49": {
+          "color": "#BF1D29",
+          "label": "Lee +81.4",
+          "margin": 81.4,
+          "votesRep": 4575,
+          "votesDem": 469,
+          "votesTotal": 5186
+        },
+        "Morgan49": {
+          "color": "#BF1D29",
+          "label": "Lee +76.1",
+          "margin": 76.07,
+          "votesRep": 4378,
+          "votesDem": 595,
+          "votesTotal": 5163
+        },
+        "Piute49": {
+          "color": "#BF1D29",
+          "label": "Lee +84.4",
+          "margin": 84.44,
+          "votesRep": 640,
+          "votesDem": 54,
+          "votesTotal": 712
+        },
+        "Rich49": {
+          "color": "#BF1D29",
+          "label": "Lee +79.6",
+          "margin": 79.63,
+          "votesRep": 970,
+          "votesDem": 110,
+          "votesTotal": 1107
+        },
+        "Salt Lake49": {
+          "color": "#BF1D29",
+          "label": "Lee +13.4",
+          "margin": 13.43,
+          "votesRep": 220652,
+          "votesDem": 168403,
+          "votesTotal": 411338
+        },
+        "San Juan49": {
+          "color": "#BF1D29",
+          "label": "Lee +25.0",
+          "margin": 24.97,
+          "votesRep": 3243,
+          "votesDem": 1947,
+          "votesTotal": 5418
+        },
+        "Sanpete49": {
+          "color": "#BF1D29",
+          "label": "Lee +76.8",
+          "margin": 76.77,
+          "votesRep": 8583,
+          "votesDem": 1128,
+          "votesTotal": 10069
+        },
+        "Sevier49": {
+          "color": "#BF1D29",
+          "label": "Lee +79.8",
+          "margin": 79.79,
+          "votesRep": 7438,
+          "votesDem": 836,
+          "votesTotal": 8564
+        },
+        "Summit49": {
+          "color": "#8AAFFF",
+          "label": "Snow +1.1",
+          "margin": -1.06,
+          "votesRep": 9409,
+          "votesDem": 9610,
+          "votesTotal": 20189
+        },
+        "Tooele49": {
+          "color": "#BF1D29",
+          "label": "Lee +51.1",
+          "margin": 51.1,
+          "votesRep": 15325,
+          "votesDem": 4959,
+          "votesTotal": 21482
+        },
+        "Uintah49": {
+          "color": "#BF1D29",
+          "label": "Lee +79.8",
+          "margin": 79.84,
+          "votesRep": 10989,
+          "votesDem": 1232,
+          "votesTotal": 12702
+        },
+        "Utah49": {
+          "color": "#BF1D29",
+          "label": "Lee +72.3",
+          "margin": 72.34,
+          "votesRep": 163557,
+          "votesDem": 26246,
+          "votesTotal": 200812
+        },
+        "Wasatch49": {
+          "color": "#BF1D29",
+          "label": "Lee +49.0",
+          "margin": 48.99,
+          "votesRep": 8464,
+          "votesDem": 2898,
+          "votesTotal": 11880
+        },
+        "Washington49": {
+          "color": "#BF1D29",
+          "label": "Lee +65.2",
+          "margin": 65.22,
+          "votesRep": 48544,
+          "votesDem": 10220,
+          "votesTotal": 61156
+        },
+        "Wayne49": {
+          "color": "#BF1D29",
+          "label": "Lee +67.1",
+          "margin": 67.12,
+          "votesRep": 1708,
+          "votesDem": 336,
+          "votesTotal": 2118
+        },
+        "Weber49": {
+          "color": "#BF1D29",
+          "label": "Lee +39.1",
+          "margin": 39.08,
+          "votesRep": 55278,
+          "votesDem": 24214,
+          "votesTotal": 83664
+        }
+      }
+    }
+  ]
+}

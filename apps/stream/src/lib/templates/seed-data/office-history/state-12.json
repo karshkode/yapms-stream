@@ -1,0 +1,3324 @@
+{
+  "stateFips": "12",
+  "stateName": "Florida",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Rick Scott",
+      "candDem": "Debbie Mucarsel-Powell",
+      "shortRep": "Scott",
+      "shortDem": "Mucarsel-Powell",
+      "partisan": true,
+      "margin": 12.99,
+      "votesRep": 5977706,
+      "votesDem": 4603077,
+      "votesTotal": 10757428,
+      "regions": {
+        "Alachua12": {
+          "color": "#1C408C",
+          "label": "Mucarsel-Powell +18.0",
+          "margin": -17.97,
+          "votesRep": 54458,
+          "votesDem": 78314,
+          "votesTotal": 135208
+        },
+        "Baker12": {
+          "color": "#BF1D29",
+          "label": "Scott +70.3",
+          "margin": 70.35,
+          "votesRep": 12415,
+          "votesDem": 2161,
+          "votesTotal": 14797
+        },
+        "Bay12": {
+          "color": "#BF1D29",
+          "label": "Scott +51.6",
+          "margin": 51.62,
+          "votesRep": 72045,
+          "votesDem": 22988,
+          "votesTotal": 97065
+        },
+        "Bradford12": {
+          "color": "#BF1D29",
+          "label": "Scott +55.0",
+          "margin": 55.04,
+          "votesRep": 10363,
+          "votesDem": 3005,
+          "votesTotal": 13617
+        },
+        "Brevard12": {
+          "color": "#BF1D29",
+          "label": "Scott +19.7",
+          "margin": 19.68,
+          "votesRep": 209204,
+          "votesDem": 140412,
+          "votesTotal": 357638
+        },
+        "Broward12": {
+          "color": "#1C408C",
+          "label": "Mucarsel-Powell +20.4",
+          "margin": -20.38,
+          "votesRep": 338969,
+          "votesDem": 512458,
+          "votesTotal": 862675
+        },
+        "Calhoun12": {
+          "color": "#BF1D29",
+          "label": "Scott +68.8",
+          "margin": 68.8,
+          "votesRep": 5280,
+          "votesDem": 976,
+          "votesTotal": 6369
+        },
+        "Charlotte12": {
+          "color": "#BF1D29",
+          "label": "Scott +36.7",
+          "margin": 36.69,
+          "votesRep": 82377,
+          "votesDem": 38154,
+          "votesTotal": 122211
+        },
+        "Citrus12": {
+          "color": "#BF1D29",
+          "label": "Scott +41.0",
+          "margin": 40.99,
+          "votesRep": 66837,
+          "votesDem": 27975,
+          "votesTotal": 96877
+        },
+        "Clay12": {
+          "color": "#BF1D29",
+          "label": "Scott +40.0",
+          "margin": 40.01,
+          "votesRep": 86368,
+          "votesDem": 37009,
+          "votesTotal": 125776
+        },
+        "Collier12": {
+          "color": "#BF1D29",
+          "label": "Scott +40.2",
+          "margin": 40.2,
+          "votesRep": 150015,
+          "votesDem": 63988,
+          "votesTotal": 215583
+        },
+        "Columbia12": {
+          "color": "#BF1D29",
+          "label": "Scott +49.3",
+          "margin": 49.31,
+          "votesRep": 24400,
+          "votesDem": 8283,
+          "votesTotal": 33219
+        },
+        "DeSoto12": {
+          "color": "#BF1D29",
+          "label": "Scott +44.1",
+          "margin": 44.1,
+          "votesRep": 8708,
+          "votesDem": 3378,
+          "votesTotal": 12311
+        },
+        "Dixie12": {
+          "color": "#BF1D29",
+          "label": "Scott +70.2",
+          "margin": 70.19,
+          "votesRep": 6673,
+          "votesDem": 1169,
+          "votesTotal": 8002
+        },
+        "Duval12": {
+          "color": "#FF8B98",
+          "label": "Scott +2.0",
+          "margin": 1.97,
+          "votesRep": 232168,
+          "votesDem": 223191,
+          "votesTotal": 463683
+        },
+        "Escambia12": {
+          "color": "#BF1D29",
+          "label": "Scott +24.2",
+          "margin": 24.2,
+          "votesRep": 98502,
+          "votesDem": 60111,
+          "votesTotal": 161721
+        },
+        "Flagler12": {
+          "color": "#BF1D29",
+          "label": "Scott +27.8",
+          "margin": 27.83,
+          "votesRep": 49683,
+          "votesDem": 28051,
+          "votesTotal": 78913
+        },
+        "Franklin12": {
+          "color": "#BF1D29",
+          "label": "Scott +45.7",
+          "margin": 45.68,
+          "votesRep": 4814,
+          "votesDem": 1795,
+          "votesTotal": 6724
+        },
+        "Gadsden12": {
+          "color": "#1C408C",
+          "label": "Mucarsel-Powell +23.2",
+          "margin": -23.21,
+          "votesRep": 8221,
+          "votesDem": 13192,
+          "votesTotal": 21746
+        },
+        "Gilchrist12": {
+          "color": "#BF1D29",
+          "label": "Scott +68.8",
+          "margin": 68.77,
+          "votesRep": 8740,
+          "votesDem": 1617,
+          "votesTotal": 10564
+        },
+        "Glades12": {
+          "color": "#BF1D29",
+          "label": "Scott +54.9",
+          "margin": 54.9,
+          "votesRep": 3987,
+          "votesDem": 1161,
+          "votesTotal": 5242
+        },
+        "Gulf12": {
+          "color": "#BF1D29",
+          "label": "Scott +58.7",
+          "margin": 58.67,
+          "votesRep": 6745,
+          "votesDem": 1757,
+          "votesTotal": 8648
+        },
+        "Hamilton12": {
+          "color": "#BF1D29",
+          "label": "Scott +42.2",
+          "margin": 42.24,
+          "votesRep": 3945,
+          "votesDem": 1602,
+          "votesTotal": 5660
+        },
+        "Hardee12": {
+          "color": "#BF1D29",
+          "label": "Scott +52.4",
+          "margin": 52.4,
+          "votesRep": 6016,
+          "votesDem": 1879,
+          "votesTotal": 8058
+        },
+        "Hendry12": {
+          "color": "#BF1D29",
+          "label": "Scott +41.2",
+          "margin": 41.2,
+          "votesRep": 9215,
+          "votesDem": 3837,
+          "votesTotal": 13256
+        },
+        "Hernando12": {
+          "color": "#BF1D29",
+          "label": "Scott +31.5",
+          "margin": 31.51,
+          "votesRep": 70178,
+          "votesDem": 36545,
+          "votesTotal": 109030
+        },
+        "Highlands12": {
+          "color": "#BF1D29",
+          "label": "Scott +37.9",
+          "margin": 37.93,
+          "votesRep": 34858,
+          "votesDem": 15688,
+          "votesTotal": 51259
+        },
+        "Hillsborough12": {
+          "color": "#FF8B98",
+          "label": "Scott +3.1",
+          "margin": 3.08,
+          "votesRep": 336341,
+          "votesDem": 316262,
+          "votesTotal": 665323
+        },
+        "Holmes12": {
+          "color": "#BF1D29",
+          "label": "Scott +80.6",
+          "margin": 80.6,
+          "votesRep": 8063,
+          "votesDem": 866,
+          "votesTotal": 9061
+        },
+        "Indian River12": {
+          "color": "#BF1D29",
+          "label": "Scott +26.7",
+          "margin": 26.75,
+          "votesRep": 61075,
+          "votesDem": 35299,
+          "votesTotal": 97781
+        },
+        "Jackson12": {
+          "color": "#BF1D29",
+          "label": "Scott +48.8",
+          "margin": 48.81,
+          "votesRep": 16033,
+          "votesDem": 5515,
+          "votesTotal": 21963
+        },
+        "Jefferson12": {
+          "color": "#BF1D29",
+          "label": "Scott +22.6",
+          "margin": 22.62,
+          "votesRep": 5118,
+          "votesDem": 3230,
+          "votesTotal": 8455
+        },
+        "Lafayette12": {
+          "color": "#BF1D29",
+          "label": "Scott +75.0",
+          "margin": 75.03,
+          "votesRep": 3183,
+          "votesDem": 454,
+          "votesTotal": 3724
+        },
+        "Lake12": {
+          "color": "#BF1D29",
+          "label": "Scott +24.1",
+          "margin": 24.14,
+          "votesRep": 136284,
+          "votesDem": 83276,
+          "votesTotal": 223857
+        },
+        "Lee12": {
+          "color": "#BF1D29",
+          "label": "Scott +34.1",
+          "margin": 34.08,
+          "votesRep": 255340,
+          "votesDem": 125524,
+          "votesTotal": 385311
+        },
+        "Leon12": {
+          "color": "#1C408C",
+          "label": "Mucarsel-Powell +16.6",
+          "margin": -16.61,
+          "votesRep": 63554,
+          "votesDem": 88881,
+          "votesTotal": 155081
+        },
+        "Levy12": {
+          "color": "#BF1D29",
+          "label": "Scott +51.3",
+          "margin": 51.28,
+          "votesRep": 17894,
+          "votesDem": 5763,
+          "votesTotal": 24111
+        },
+        "Liberty12": {
+          "color": "#BF1D29",
+          "label": "Scott +68.3",
+          "margin": 68.28,
+          "votesRep": 2859,
+          "votesDem": 539,
+          "votesTotal": 3452
+        },
+        "Madison12": {
+          "color": "#BF1D29",
+          "label": "Scott +33.7",
+          "margin": 33.72,
+          "votesRep": 5984,
+          "votesDem": 2966,
+          "votesTotal": 9079
+        },
+        "Manatee12": {
+          "color": "#BF1D29",
+          "label": "Scott +23.5",
+          "margin": 23.49,
+          "votesRep": 137928,
+          "votesDem": 85462,
+          "votesTotal": 226668
+        },
+        "Marion12": {
+          "color": "#BF1D29",
+          "label": "Scott +30.0",
+          "margin": 30.01,
+          "votesRep": 135179,
+          "votesDem": 72779,
+          "votesTotal": 211416
+        },
+        "Martin12": {
+          "color": "#BF1D29",
+          "label": "Scott +29.1",
+          "margin": 29.11,
+          "votesRep": 61948,
+          "votesDem": 34015,
+          "votesTotal": 97207
+        },
+        "Miami-Dade12": {
+          "color": "#BF1D29",
+          "label": "Scott +10.1",
+          "margin": 10.15,
+          "votesRep": 585445,
+          "votesDem": 477598,
+          "votesTotal": 1076114
+        },
+        "Monroe12": {
+          "color": "#BF1D29",
+          "label": "Scott +15.8",
+          "margin": 15.8,
+          "votesRep": 25069,
+          "votesDem": 18227,
+          "votesTotal": 43771
+        },
+        "Nassau12": {
+          "color": "#BF1D29",
+          "label": "Scott +47.9",
+          "margin": 47.87,
+          "votesRep": 47668,
+          "votesDem": 16804,
+          "votesTotal": 65317
+        },
+        "Okaloosa12": {
+          "color": "#BF1D29",
+          "label": "Scott +47.6",
+          "margin": 47.57,
+          "votesRep": 81192,
+          "votesDem": 28850,
+          "votesTotal": 112603
+        },
+        "Okeechobee12": {
+          "color": "#BF1D29",
+          "label": "Scott +48.5",
+          "margin": 48.51,
+          "votesRep": 11544,
+          "votesDem": 4002,
+          "votesTotal": 15790
+        },
+        "Orange12": {
+          "color": "#1C408C",
+          "label": "Mucarsel-Powell +12.5",
+          "margin": -12.54,
+          "votesRep": 256770,
+          "votesDem": 330386,
+          "votesTotal": 600565
+        },
+        "Osceola12": {
+          "color": "#FF8B98",
+          "label": "Scott +2.1",
+          "margin": 2.1,
+          "votesRep": 85085,
+          "votesDem": 81586,
+          "votesTotal": 170324
+        },
+        "Palm Beach12": {
+          "color": "#8AAFFF",
+          "label": "Mucarsel-Powell +1.7",
+          "margin": -1.69,
+          "votesRep": 356386,
+          "votesDem": 368640,
+          "votesTotal": 734239
+        },
+        "Pasco12": {
+          "color": "#BF1D29",
+          "label": "Scott +22.0",
+          "margin": 21.99,
+          "votesRep": 186620,
+          "votesDem": 119344,
+          "votesTotal": 313646
+        },
+        "Pinellas12": {
+          "color": "#FF8B98",
+          "label": "Scott +3.8",
+          "margin": 3.75,
+          "votesRep": 260571,
+          "votesDem": 241729,
+          "votesTotal": 511505
+        },
+        "Polk12": {
+          "color": "#BF1D29",
+          "label": "Scott +19.6",
+          "margin": 19.65,
+          "votesRep": 201722,
+          "votesDem": 135475,
+          "votesTotal": 343311
+        },
+        "Putnam12": {
+          "color": "#BF1D29",
+          "label": "Scott +45.9",
+          "margin": 45.86,
+          "votesRep": 25621,
+          "votesDem": 9511,
+          "votesTotal": 35828
+        },
+        "Santa Rosa12": {
+          "color": "#BF1D29",
+          "label": "Scott +55.1",
+          "margin": 55.1,
+          "votesRep": 84815,
+          "votesDem": 24555,
+          "votesTotal": 111532
+        },
+        "Sarasota12": {
+          "color": "#BF1D29",
+          "label": "Scott +17.8",
+          "margin": 17.85,
+          "votesRep": 160328,
+          "votesDem": 111763,
+          "votesTotal": 275417
+        },
+        "Seminole12": {
+          "color": "#FF8B98",
+          "label": "Scott +3.7",
+          "margin": 3.66,
+          "votesRep": 127316,
+          "votesDem": 118325,
+          "votesTotal": 250527
+        },
+        "St. Johns12": {
+          "color": "#BF1D29",
+          "label": "Scott +33.1",
+          "margin": 33.14,
+          "votesRep": 128463,
+          "votesDem": 64516,
+          "votesTotal": 195631
+        },
+        "St. Lucie12": {
+          "color": "#FF5865",
+          "label": "Scott +6.1",
+          "margin": 6.1,
+          "votesRep": 95644,
+          "votesDem": 84650,
+          "votesTotal": 182716
+        },
+        "Sumter12": {
+          "color": "#BF1D29",
+          "label": "Scott +39.6",
+          "margin": 39.64,
+          "votesRep": 72344,
+          "votesDem": 31273,
+          "votesTotal": 104583
+        },
+        "Suwannee12": {
+          "color": "#BF1D29",
+          "label": "Scott +61.6",
+          "margin": 61.57,
+          "votesRep": 17123,
+          "votesDem": 4073,
+          "votesTotal": 21657
+        },
+        "Taylor12": {
+          "color": "#BF1D29",
+          "label": "Scott +62.7",
+          "margin": 62.67,
+          "votesRep": 7914,
+          "votesDem": 1816,
+          "votesTotal": 9893
+        },
+        "Union12": {
+          "color": "#BF1D29",
+          "label": "Scott +65.0",
+          "margin": 65.02,
+          "votesRep": 4967,
+          "votesDem": 1053,
+          "votesTotal": 6151
+        },
+        "Volusia12": {
+          "color": "#BF1D29",
+          "label": "Scott +19.8",
+          "margin": 19.8,
+          "votesRep": 179997,
+          "votesDem": 120503,
+          "votesTotal": 306603
+        },
+        "Wakulla12": {
+          "color": "#BF1D29",
+          "label": "Scott +45.4",
+          "margin": 45.38,
+          "votesRep": 14013,
+          "votesDem": 5265,
+          "votesTotal": 19650
+        },
+        "Walton12": {
+          "color": "#BF1D29",
+          "label": "Scott +60.3",
+          "margin": 60.29,
+          "votesRep": 38828,
+          "votesDem": 9618,
+          "votesTotal": 49199
+        },
+        "Washington12": {
+          "color": "#BF1D29",
+          "label": "Scott +67.6",
+          "margin": 67.63,
+          "votesRep": 10294,
+          "votesDem": 1988,
+          "votesTotal": 12515
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Ron DeSantis",
+      "candDem": "Charlie Crist",
+      "shortRep": "DeSantis",
+      "shortDem": "Crist",
+      "partisan": true,
+      "margin": 19.53,
+      "votesRep": 4614209,
+      "votesDem": 3106313,
+      "votesTotal": 7771398,
+      "regions": {
+        "Alachua12": {
+          "color": "#1C408C",
+          "label": "Crist +15.2",
+          "margin": -15.22,
+          "votesRep": 40321,
+          "votesDem": 54796,
+          "votesTotal": 95901
+        },
+        "Baker12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +79.6",
+          "margin": 79.56,
+          "votesRep": 9594,
+          "votesDem": 1092,
+          "votesTotal": 10725
+        },
+        "Bay12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +57.7",
+          "margin": 57.74,
+          "votesRep": 52590,
+          "votesDem": 14091,
+          "votesTotal": 67093
+        },
+        "Bradford12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +63.7",
+          "margin": 63.68,
+          "votesRep": 8346,
+          "votesDem": 1852,
+          "votesTotal": 10267
+        },
+        "Brevard12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +28.4",
+          "margin": 28.39,
+          "votesRep": 170562,
+          "votesDem": 95131,
+          "votesTotal": 267453
+        },
+        "Broward12": {
+          "color": "#1C408C",
+          "label": "Crist +15.5",
+          "margin": -15.48,
+          "votesRep": 251238,
+          "votesDem": 343286,
+          "votesTotal": 598607
+        },
+        "Calhoun12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +72.8",
+          "margin": 72.83,
+          "votesRep": 4180,
+          "votesDem": 657,
+          "votesTotal": 4858
+        },
+        "Charlotte12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +41.5",
+          "margin": 41.52,
+          "votesRep": 65357,
+          "votesDem": 27005,
+          "votesTotal": 92706
+        },
+        "Citrus12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +49.3",
+          "margin": 49.33,
+          "votesRep": 56283,
+          "votesDem": 19100,
+          "votesTotal": 75826
+        },
+        "Clay12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +50.4",
+          "margin": 50.41,
+          "votesRep": 67292,
+          "votesDem": 22187,
+          "votesTotal": 90119
+        },
+        "Collier12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +43.9",
+          "margin": 43.89,
+          "votesRep": 117477,
+          "votesDem": 45815,
+          "votesTotal": 163759
+        },
+        "Columbia12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +59.4",
+          "margin": 59.38,
+          "votesRep": 18790,
+          "votesDem": 4789,
+          "votesTotal": 23727
+        },
+        "DeSoto12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +53.3",
+          "margin": 53.28,
+          "votesRep": 6637,
+          "votesDem": 2023,
+          "votesTotal": 8701
+        },
+        "Dixie12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +76.0",
+          "margin": 76.02,
+          "votesRep": 5394,
+          "votesDem": 735,
+          "votesTotal": 6179
+        },
+        "Duval12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +11.9",
+          "margin": 11.87,
+          "votesRep": 182569,
+          "votesDem": 143837,
+          "votesTotal": 329319
+        },
+        "Escambia12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +30.1",
+          "margin": 30.11,
+          "votesRep": 74608,
+          "votesDem": 40076,
+          "votesTotal": 115737
+        },
+        "Flagler12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +34.3",
+          "margin": 34.28,
+          "votesRep": 39183,
+          "votesDem": 19177,
+          "votesTotal": 58696
+        },
+        "Franklin12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +48.0",
+          "margin": 48.01,
+          "votesRep": 4003,
+          "votesDem": 1406,
+          "votesTotal": 5442
+        },
+        "Gadsden12": {
+          "color": "#1C408C",
+          "label": "Crist +24.8",
+          "margin": -24.8,
+          "votesRep": 6511,
+          "votesDem": 10805,
+          "votesTotal": 17426
+        },
+        "Gilchrist12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +74.0",
+          "margin": 74,
+          "votesRep": 6806,
+          "votesDem": 1017,
+          "votesTotal": 7868
+        },
+        "Glades12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +62.2",
+          "margin": 62.17,
+          "votesRep": 3091,
+          "votesDem": 721,
+          "votesTotal": 3829
+        },
+        "Gulf12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +61.0",
+          "margin": 61.01,
+          "votesRep": 5150,
+          "votesDem": 1247,
+          "votesTotal": 6425
+        },
+        "Hamilton12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +47.5",
+          "margin": 47.48,
+          "votesRep": 3145,
+          "votesDem": 1120,
+          "votesTotal": 4293
+        },
+        "Hardee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +65.5",
+          "margin": 65.53,
+          "votesRep": 4558,
+          "votesDem": 949,
+          "votesTotal": 5536
+        },
+        "Hendry12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +49.9",
+          "margin": 49.87,
+          "votesRep": 6134,
+          "votesDem": 2052,
+          "votesTotal": 8261
+        },
+        "Hernando12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +40.7",
+          "margin": 40.71,
+          "votesRep": 56247,
+          "votesDem": 23700,
+          "votesTotal": 80415
+        },
+        "Highlands12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +49.4",
+          "margin": 49.41,
+          "votesRep": 29518,
+          "votesDem": 9994,
+          "votesTotal": 39825
+        },
+        "Hillsborough12": {
+          "color": "#FF5865",
+          "label": "DeSantis +9.3",
+          "margin": 9.3,
+          "votesRep": 261936,
+          "votesDem": 217349,
+          "votesTotal": 483514
+        },
+        "Holmes12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +84.2",
+          "margin": 84.2,
+          "votesRep": 6214,
+          "votesDem": 533,
+          "votesTotal": 6782
+        },
+        "Indian River12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +35.7",
+          "margin": 35.74,
+          "votesRep": 52269,
+          "votesDem": 24744,
+          "votesTotal": 77400
+        },
+        "Jackson12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +52.8",
+          "margin": 52.79,
+          "votesRep": 12412,
+          "votesDem": 3835,
+          "votesTotal": 16326
+        },
+        "Jefferson12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +21.6",
+          "margin": 21.65,
+          "votesRep": 4310,
+          "votesDem": 2776,
+          "votesTotal": 7127
+        },
+        "Lafayette12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +79.8",
+          "margin": 79.8,
+          "votesRep": 2617,
+          "votesDem": 294,
+          "votesTotal": 2918
+        },
+        "Lake12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +33.9",
+          "margin": 33.93,
+          "votesRep": 106578,
+          "votesDem": 52579,
+          "votesTotal": 160160
+        },
+        "Lee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +38.2",
+          "margin": 38.16,
+          "votesRep": 189335,
+          "votesDem": 84739,
+          "votesTotal": 275239
+        },
+        "Leon12": {
+          "color": "#1C408C",
+          "label": "Crist +15.7",
+          "margin": -15.66,
+          "votesRep": 49244,
+          "votesDem": 67535,
+          "votesTotal": 117751
+        },
+        "Levy12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +57.8",
+          "margin": 57.79,
+          "votesRep": 14049,
+          "votesDem": 3758,
+          "votesTotal": 17914
+        },
+        "Liberty12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +71.5",
+          "margin": 71.52,
+          "votesRep": 2234,
+          "votesDem": 371,
+          "votesTotal": 2617
+        },
+        "Madison12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +34.1",
+          "margin": 34.05,
+          "votesRep": 4661,
+          "votesDem": 2293,
+          "votesTotal": 6981
+        },
+        "Manatee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +30.0",
+          "margin": 30.02,
+          "votesRep": 111109,
+          "votesDem": 59801,
+          "votesTotal": 171730
+        },
+        "Marion12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +39.2",
+          "margin": 39.25,
+          "votesRep": 108027,
+          "votesDem": 47129,
+          "votesTotal": 156050
+        },
+        "Martin12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +38.6",
+          "margin": 38.59,
+          "votesRep": 53595,
+          "votesDem": 23748,
+          "votesTotal": 77667
+        },
+        "Miami-Dade12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +11.4",
+          "margin": 11.4,
+          "votesRep": 393532,
+          "votesDem": 312972,
+          "votesTotal": 711851
+        },
+        "Monroe12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +21.2",
+          "margin": 21.2,
+          "votesRep": 20479,
+          "votesDem": 13314,
+          "votesTotal": 34004
+        },
+        "Nassau12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +53.8",
+          "margin": 53.82,
+          "votesRep": 36551,
+          "votesDem": 10973,
+          "votesTotal": 47764
+        },
+        "Okaloosa12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +53.7",
+          "margin": 53.74,
+          "votesRep": 61715,
+          "votesDem": 18569,
+          "votesTotal": 81008
+        },
+        "Okeechobee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +61.6",
+          "margin": 61.59,
+          "votesRep": 8746,
+          "votesDem": 2079,
+          "votesTotal": 10886
+        },
+        "Orange12": {
+          "color": "#577CCC",
+          "label": "Crist +7.1",
+          "margin": -7.07,
+          "votesRep": 187653,
+          "votesDem": 216221,
+          "votesTotal": 407230
+        },
+        "Osceola12": {
+          "color": "#FF5865",
+          "label": "DeSantis +6.8",
+          "margin": 6.83,
+          "votesRep": 54330,
+          "votesDem": 47387,
+          "votesTotal": 102825
+        },
+        "Palm Beach12": {
+          "color": "#FF8B98",
+          "label": "DeSantis +2.9",
+          "margin": 2.92,
+          "votesRep": 278454,
+          "votesDem": 262655,
+          "votesTotal": 543788
+        },
+        "Pasco12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +32.6",
+          "margin": 32.56,
+          "votesRep": 148083,
+          "votesDem": 75342,
+          "votesTotal": 224980
+        },
+        "Pinellas12": {
+          "color": "#FF5865",
+          "label": "DeSantis +9.9",
+          "margin": 9.91,
+          "votesRep": 231284,
+          "votesDem": 189563,
+          "votesTotal": 423494
+        },
+        "Polk12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +29.8",
+          "margin": 29.8,
+          "votesRep": 148254,
+          "votesDem": 80172,
+          "votesTotal": 230017
+        },
+        "Putnam12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +53.1",
+          "margin": 53.08,
+          "votesRep": 20217,
+          "votesDem": 6196,
+          "votesTotal": 26593
+        },
+        "Santa Rosa12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +59.8",
+          "margin": 59.84,
+          "votesRep": 60091,
+          "votesDem": 15096,
+          "votesTotal": 75698
+        },
+        "Sarasota12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +22.4",
+          "margin": 22.36,
+          "votesRep": 133354,
+          "votesDem": 84614,
+          "votesTotal": 218897
+        },
+        "Seminole12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +12.4",
+          "margin": 12.39,
+          "votesRep": 102190,
+          "votesDem": 79664,
+          "votesTotal": 183200
+        },
+        "St. Johns12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +40.4",
+          "margin": 40.43,
+          "votesRep": 101066,
+          "votesDem": 42873,
+          "votesTotal": 144654
+        },
+        "St. Lucie12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +19.2",
+          "margin": 19.24,
+          "votesRep": 72354,
+          "votesDem": 49009,
+          "votesTotal": 121993
+        },
+        "Sumter12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +46.8",
+          "margin": 46.83,
+          "votesRep": 65496,
+          "votesDem": 23718,
+          "votesTotal": 89464
+        },
+        "Suwannee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +67.5",
+          "margin": 67.48,
+          "votesRep": 13649,
+          "votesDem": 2650,
+          "votesTotal": 16367
+        },
+        "Taylor12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +66.4",
+          "margin": 66.35,
+          "votesRep": 6308,
+          "votesDem": 1276,
+          "votesTotal": 7622
+        },
+        "Union12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +76.0",
+          "margin": 76.03,
+          "votesRep": 3995,
+          "votesDem": 544,
+          "votesTotal": 4558
+        },
+        "Volusia12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +28.8",
+          "margin": 28.84,
+          "votesRep": 144768,
+          "votesDem": 79965,
+          "votesTotal": 226246
+        },
+        "Wakulla12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +47.6",
+          "margin": 47.57,
+          "votesRep": 11033,
+          "votesDem": 3920,
+          "votesTotal": 15063
+        },
+        "Walton12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +64.8",
+          "margin": 64.83,
+          "votesRep": 28647,
+          "votesDem": 6112,
+          "votesTotal": 34901
+        },
+        "Washington12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +71.7",
+          "margin": 71.67,
+          "votesRep": 7786,
+          "votesDem": 1285,
+          "votesTotal": 9126
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Marco Rubio",
+      "candDem": "Val Demings",
+      "shortRep": "Rubio",
+      "shortDem": "Demings",
+      "partisan": true,
+      "margin": 16.59,
+      "votesRep": 4474846,
+      "votesDem": 3201522,
+      "votesTotal": 7761093,
+      "regions": {
+        "Alachua12": {
+          "color": "#1C408C",
+          "label": "Demings +17.1",
+          "margin": -17.13,
+          "votesRep": 39220,
+          "votesDem": 55439,
+          "votesTotal": 95768
+        },
+        "Baker12": {
+          "color": "#BF1D29",
+          "label": "Rubio +77.7",
+          "margin": 77.74,
+          "votesRep": 9431,
+          "votesDem": 1181,
+          "votesTotal": 10697
+        },
+        "Bay12": {
+          "color": "#BF1D29",
+          "label": "Rubio +56.1",
+          "margin": 56.05,
+          "votesRep": 51657,
+          "votesDem": 14547,
+          "votesTotal": 67009
+        },
+        "Bradford12": {
+          "color": "#BF1D29",
+          "label": "Rubio +61.5",
+          "margin": 61.54,
+          "votesRep": 8156,
+          "votesDem": 1942,
+          "votesTotal": 10213
+        },
+        "Brevard12": {
+          "color": "#BF1D29",
+          "label": "Rubio +25.1",
+          "margin": 25.08,
+          "votesRep": 165233,
+          "votesDem": 98978,
+          "votesTotal": 267279
+        },
+        "Broward12": {
+          "color": "#1C408C",
+          "label": "Demings +19.3",
+          "margin": -19.34,
+          "votesRep": 238962,
+          "votesDem": 353575,
+          "votesTotal": 598167
+        },
+        "Calhoun12": {
+          "color": "#BF1D29",
+          "label": "Rubio +70.6",
+          "margin": 70.63,
+          "votesRep": 4067,
+          "votesDem": 700,
+          "votesTotal": 4835
+        },
+        "Charlotte12": {
+          "color": "#BF1D29",
+          "label": "Rubio +39.4",
+          "margin": 39.4,
+          "votesRep": 63845,
+          "votesDem": 27757,
+          "votesTotal": 92482
+        },
+        "Citrus12": {
+          "color": "#BF1D29",
+          "label": "Rubio +47.4",
+          "margin": 47.45,
+          "votesRep": 55087,
+          "votesDem": 19634,
+          "votesTotal": 75696
+        },
+        "Clay12": {
+          "color": "#BF1D29",
+          "label": "Rubio +48.2",
+          "margin": 48.21,
+          "votesRep": 65972,
+          "votesDem": 23054,
+          "votesTotal": 90083
+        },
+        "Collier12": {
+          "color": "#BF1D29",
+          "label": "Rubio +42.8",
+          "margin": 42.75,
+          "votesRep": 116050,
+          "votesDem": 46537,
+          "votesTotal": 163546
+        },
+        "Columbia12": {
+          "color": "#BF1D29",
+          "label": "Rubio +56.7",
+          "margin": 56.69,
+          "votesRep": 18344,
+          "votesDem": 5070,
+          "votesTotal": 23665
+        },
+        "DeSoto12": {
+          "color": "#BF1D29",
+          "label": "Rubio +51.0",
+          "margin": 51.04,
+          "votesRep": 6469,
+          "votesDem": 2097,
+          "votesTotal": 8662
+        },
+        "Dixie12": {
+          "color": "#BF1D29",
+          "label": "Rubio +72.7",
+          "margin": 72.7,
+          "votesRep": 5225,
+          "votesDem": 826,
+          "votesTotal": 6144
+        },
+        "Duval12": {
+          "color": "#FF5865",
+          "label": "Rubio +9.2",
+          "margin": 9.15,
+          "votesRep": 177401,
+          "votesDem": 147646,
+          "votesTotal": 329009
+        },
+        "Escambia12": {
+          "color": "#BF1D29",
+          "label": "Rubio +28.4",
+          "margin": 28.45,
+          "votesRep": 73225,
+          "votesDem": 40790,
+          "votesTotal": 115552
+        },
+        "Flagler12": {
+          "color": "#BF1D29",
+          "label": "Rubio +30.5",
+          "margin": 30.5,
+          "votesRep": 37934,
+          "votesDem": 20204,
+          "votesTotal": 58637
+        },
+        "Franklin12": {
+          "color": "#BF1D29",
+          "label": "Rubio +45.1",
+          "margin": 45.07,
+          "votesRep": 3885,
+          "votesDem": 1471,
+          "votesTotal": 5419
+        },
+        "Gadsden12": {
+          "color": "#1C408C",
+          "label": "Demings +29.2",
+          "margin": -29.23,
+          "votesRep": 6086,
+          "votesDem": 11113,
+          "votesTotal": 17384
+        },
+        "Gilchrist12": {
+          "color": "#BF1D29",
+          "label": "Rubio +71.9",
+          "margin": 71.93,
+          "votesRep": 6657,
+          "votesDem": 1087,
+          "votesTotal": 7851
+        },
+        "Glades12": {
+          "color": "#BF1D29",
+          "label": "Rubio +59.7",
+          "margin": 59.68,
+          "votesRep": 3026,
+          "votesDem": 764,
+          "votesTotal": 3820
+        },
+        "Gulf12": {
+          "color": "#BF1D29",
+          "label": "Rubio +59.3",
+          "margin": 59.3,
+          "votesRep": 5069,
+          "votesDem": 1295,
+          "votesTotal": 6420
+        },
+        "Hamilton12": {
+          "color": "#BF1D29",
+          "label": "Rubio +42.8",
+          "margin": 42.76,
+          "votesRep": 3030,
+          "votesDem": 1215,
+          "votesTotal": 4283
+        },
+        "Hardee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +64.1",
+          "margin": 64.07,
+          "votesRep": 4480,
+          "votesDem": 981,
+          "votesTotal": 5523
+        },
+        "Hendry12": {
+          "color": "#BF1D29",
+          "label": "Rubio +47.8",
+          "margin": 47.82,
+          "votesRep": 6008,
+          "votesDem": 2121,
+          "votesTotal": 8235
+        },
+        "Hernando12": {
+          "color": "#BF1D29",
+          "label": "Rubio +38.6",
+          "margin": 38.58,
+          "votesRep": 54822,
+          "votesDem": 24298,
+          "votesTotal": 80202
+        },
+        "Highlands12": {
+          "color": "#BF1D29",
+          "label": "Rubio +46.6",
+          "margin": 46.61,
+          "votesRep": 28777,
+          "votesDem": 10480,
+          "votesTotal": 39741
+        },
+        "Hillsborough12": {
+          "color": "#FF5865",
+          "label": "Rubio +6.5",
+          "margin": 6.54,
+          "votesRep": 253495,
+          "votesDem": 222378,
+          "votesTotal": 482587
+        },
+        "Holmes12": {
+          "color": "#BF1D29",
+          "label": "Rubio +83.4",
+          "margin": 83.42,
+          "votesRep": 6151,
+          "votesDem": 556,
+          "votesTotal": 6772
+        },
+        "Indian River12": {
+          "color": "#BF1D29",
+          "label": "Rubio +33.0",
+          "margin": 33.03,
+          "votesRep": 50878,
+          "votesDem": 25613,
+          "votesTotal": 77215
+        },
+        "Jackson12": {
+          "color": "#BF1D29",
+          "label": "Rubio +51.0",
+          "margin": 50.99,
+          "votesRep": 12188,
+          "votesDem": 3956,
+          "votesTotal": 16287
+        },
+        "Jefferson12": {
+          "color": "#BF1D29",
+          "label": "Rubio +17.1",
+          "margin": 17.1,
+          "votesRep": 4137,
+          "votesDem": 2929,
+          "votesTotal": 7127
+        },
+        "Lafayette12": {
+          "color": "#BF1D29",
+          "label": "Rubio +75.7",
+          "margin": 75.74,
+          "votesRep": 2521,
+          "votesDem": 348,
+          "votesTotal": 2908
+        },
+        "Lake12": {
+          "color": "#BF1D29",
+          "label": "Rubio +30.1",
+          "margin": 30.11,
+          "votesRep": 103103,
+          "votesDem": 55377,
+          "votesTotal": 160013
+        },
+        "Lee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +36.0",
+          "margin": 36,
+          "votesRep": 185123,
+          "votesDem": 87108,
+          "votesTotal": 274612
+        },
+        "Leon12": {
+          "color": "#1C408C",
+          "label": "Demings +19.9",
+          "margin": -19.94,
+          "votesRep": 46511,
+          "votesDem": 69677,
+          "votesTotal": 117572
+        },
+        "Levy12": {
+          "color": "#BF1D29",
+          "label": "Rubio +55.3",
+          "margin": 55.27,
+          "votesRep": 13690,
+          "votesDem": 3944,
+          "votesTotal": 17874
+        },
+        "Liberty12": {
+          "color": "#BF1D29",
+          "label": "Rubio +68.5",
+          "margin": 68.47,
+          "votesRep": 2164,
+          "votesDem": 405,
+          "votesTotal": 2602
+        },
+        "Madison12": {
+          "color": "#BF1D29",
+          "label": "Rubio +29.4",
+          "margin": 29.4,
+          "votesRep": 4476,
+          "votesDem": 2442,
+          "votesTotal": 6977
+        },
+        "Manatee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +27.6",
+          "margin": 27.59,
+          "votesRep": 108234,
+          "votesDem": 61423,
+          "votesTotal": 171469
+        },
+        "Marion12": {
+          "color": "#BF1D29",
+          "label": "Rubio +35.6",
+          "margin": 35.6,
+          "votesRep": 104655,
+          "votesDem": 49698,
+          "votesTotal": 155834
+        },
+        "Martin12": {
+          "color": "#BF1D29",
+          "label": "Rubio +36.0",
+          "margin": 35.96,
+          "votesRep": 52312,
+          "votesDem": 24639,
+          "votesTotal": 77593
+        },
+        "Miami-Dade12": {
+          "color": "#FF5865",
+          "label": "Rubio +9.5",
+          "margin": 9.54,
+          "votesRep": 386251,
+          "votesDem": 318978,
+          "votesTotal": 712005
+        },
+        "Monroe12": {
+          "color": "#BF1D29",
+          "label": "Rubio +18.2",
+          "margin": 18.25,
+          "votesRep": 19897,
+          "votesDem": 13756,
+          "votesTotal": 33988
+        },
+        "Nassau12": {
+          "color": "#BF1D29",
+          "label": "Rubio +52.0",
+          "margin": 52.04,
+          "votesRep": 35944,
+          "votesDem": 11337,
+          "votesTotal": 47734
+        },
+        "Okaloosa12": {
+          "color": "#BF1D29",
+          "label": "Rubio +52.7",
+          "margin": 52.67,
+          "votesRep": 60808,
+          "votesDem": 18851,
+          "votesTotal": 80822
+        },
+        "Okeechobee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +58.7",
+          "margin": 58.73,
+          "votesRep": 8532,
+          "votesDem": 2218,
+          "votesTotal": 10867
+        },
+        "Orange12": {
+          "color": "#1C408C",
+          "label": "Demings +12.0",
+          "margin": -12.04,
+          "votesRep": 177105,
+          "votesDem": 225569,
+          "votesTotal": 407225
+        },
+        "Osceola12": {
+          "color": "#FF8B98",
+          "label": "Rubio +1.5",
+          "margin": 1.5,
+          "votesRep": 51422,
+          "votesDem": 49907,
+          "votesTotal": 102746
+        },
+        "Palm Beach12": {
+          "color": "#6b7280",
+          "label": "Demings +0.4",
+          "margin": -0.4,
+          "votesRep": 267715,
+          "votesDem": 269839,
+          "votesTotal": 542852
+        },
+        "Pasco12": {
+          "color": "#BF1D29",
+          "label": "Rubio +29.9",
+          "margin": 29.85,
+          "votesRep": 143760,
+          "votesDem": 77664,
+          "votesTotal": 224552
+        },
+        "Pinellas12": {
+          "color": "#FF5865",
+          "label": "Rubio +7.6",
+          "margin": 7.62,
+          "votesRep": 223747,
+          "votesDem": 192058,
+          "votesTotal": 422260
+        },
+        "Polk12": {
+          "color": "#BF1D29",
+          "label": "Rubio +27.5",
+          "margin": 27.46,
+          "votesRep": 144548,
+          "votesDem": 82261,
+          "votesTotal": 229594
+        },
+        "Putnam12": {
+          "color": "#BF1D29",
+          "label": "Rubio +50.9",
+          "margin": 50.88,
+          "votesRep": 19812,
+          "votesDem": 6450,
+          "votesTotal": 26554
+        },
+        "Santa Rosa12": {
+          "color": "#BF1D29",
+          "label": "Rubio +58.3",
+          "margin": 58.34,
+          "votesRep": 59111,
+          "votesDem": 15554,
+          "votesTotal": 75597
+        },
+        "Sarasota12": {
+          "color": "#BF1D29",
+          "label": "Rubio +20.0",
+          "margin": 19.98,
+          "votesRep": 129865,
+          "votesDem": 86618,
+          "votesTotal": 218481
+        },
+        "Seminole12": {
+          "color": "#FF5865",
+          "label": "Rubio +8.0",
+          "margin": 8,
+          "votesRep": 97760,
+          "votesDem": 83285,
+          "votesTotal": 183091
+        },
+        "St. Johns12": {
+          "color": "#BF1D29",
+          "label": "Rubio +37.9",
+          "margin": 37.91,
+          "votesRep": 98564,
+          "votesDem": 44371,
+          "votesTotal": 144406
+        },
+        "St. Lucie12": {
+          "color": "#BF1D29",
+          "label": "Rubio +15.8",
+          "margin": 15.79,
+          "votesRep": 69924,
+          "votesDem": 50851,
+          "votesTotal": 121888
+        },
+        "Sumter12": {
+          "color": "#BF1D29",
+          "label": "Rubio +43.7",
+          "margin": 43.68,
+          "votesRep": 63806,
+          "votesDem": 25010,
+          "votesTotal": 89328
+        },
+        "Suwannee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +62.6",
+          "margin": 62.61,
+          "votesRep": 13125,
+          "votesDem": 3018,
+          "votesTotal": 16315
+        },
+        "Taylor12": {
+          "color": "#BF1D29",
+          "label": "Rubio +60.4",
+          "margin": 60.44,
+          "votesRep": 6063,
+          "votesDem": 1495,
+          "votesTotal": 7617
+        },
+        "Union12": {
+          "color": "#BF1D29",
+          "label": "Rubio +74.2",
+          "margin": 74.21,
+          "votesRep": 3917,
+          "votesDem": 580,
+          "votesTotal": 4541
+        },
+        "Volusia12": {
+          "color": "#BF1D29",
+          "label": "Rubio +24.4",
+          "margin": 24.39,
+          "votesRep": 139085,
+          "votesDem": 84543,
+          "votesTotal": 225932
+        },
+        "Wakulla12": {
+          "color": "#BF1D29",
+          "label": "Rubio +41.4",
+          "margin": 41.42,
+          "votesRep": 10485,
+          "votesDem": 4343,
+          "votesTotal": 15003
+        },
+        "Walton12": {
+          "color": "#BF1D29",
+          "label": "Rubio +63.4",
+          "margin": 63.36,
+          "votesRep": 28203,
+          "votesDem": 6326,
+          "votesTotal": 34832
+        },
+        "Washington12": {
+          "color": "#BF1D29",
+          "label": "Rubio +70.1",
+          "margin": 70.06,
+          "votesRep": 7641,
+          "votesDem": 1345,
+          "votesTotal": 9099
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Ron DeSantis",
+      "candDem": "Andrew Gillum",
+      "shortRep": "DeSantis",
+      "shortDem": "Gillum",
+      "partisan": true,
+      "margin": 0.4,
+      "votesRep": 4076521,
+      "votesDem": 4044092,
+      "votesTotal": 8228238,
+      "regions": {
+        "Alachua12": {
+          "color": "#1C408C",
+          "label": "Gillum +27.6",
+          "margin": -27.56,
+          "votesRep": 41285,
+          "votesDem": 72701,
+          "votesTotal": 115319
+        },
+        "Baker12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +66.3",
+          "margin": 66.31,
+          "votesRep": 8688,
+          "votesDem": 1760,
+          "votesTotal": 10546
+        },
+        "Bay12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +46.3",
+          "margin": 46.35,
+          "votesRep": 45709,
+          "votesDem": 16757,
+          "votesTotal": 63401
+        },
+        "Bradford12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +48.5",
+          "margin": 48.48,
+          "votesRep": 7698,
+          "votesDem": 2671,
+          "votesTotal": 10513
+        },
+        "Brevard12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +17.1",
+          "margin": 17.06,
+          "votesRep": 162213,
+          "votesDem": 114921,
+          "votesTotal": 281914
+        },
+        "Broward12": {
+          "color": "#1C408C",
+          "label": "Gillum +36.9",
+          "margin": -36.94,
+          "votesRep": 222012,
+          "votesDem": 482152,
+          "votesTotal": 709576
+        },
+        "Calhoun12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +59.0",
+          "margin": 58.97,
+          "votesRep": 3576,
+          "votesDem": 923,
+          "votesTotal": 4611
+        },
+        "Charlotte12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +26.8",
+          "margin": 26.78,
+          "votesRep": 54102,
+          "votesDem": 31248,
+          "votesTotal": 86896
+        },
+        "Citrus12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +38.5",
+          "margin": 38.49,
+          "votesRep": 47729,
+          "votesDem": 21197,
+          "votesTotal": 70955
+        },
+        "Clay12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +39.2",
+          "margin": 39.17,
+          "votesRep": 64404,
+          "votesDem": 28151,
+          "votesTotal": 93553
+        },
+        "Collier12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +30.4",
+          "margin": 30.35,
+          "votesRep": 100303,
+          "votesDem": 53594,
+          "votesTotal": 155537
+        },
+        "Columbia12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +42.1",
+          "margin": 42.05,
+          "votesRep": 17425,
+          "votesDem": 7108,
+          "votesTotal": 24871
+        },
+        "DeSoto12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +29.9",
+          "margin": 29.87,
+          "votesRep": 5663,
+          "votesDem": 3058,
+          "votesTotal": 8914
+        },
+        "Dixie12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +64.5",
+          "margin": 64.47,
+          "votesRep": 4662,
+          "votesDem": 1007,
+          "votesTotal": 5804
+        },
+        "Duval12": {
+          "color": "#8AAFFF",
+          "label": "Gillum +4.4",
+          "margin": -4.44,
+          "votesRep": 179902,
+          "votesDem": 196612,
+          "votesTotal": 380187
+        },
+        "Escambia12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +17.2",
+          "margin": 17.16,
+          "votesRep": 74718,
+          "votesDem": 52835,
+          "votesTotal": 129452
+        },
+        "Flagler12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +18.7",
+          "margin": 18.74,
+          "votesRep": 30951,
+          "votesDem": 21183,
+          "votesTotal": 52863
+        },
+        "Franklin12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +32.4",
+          "margin": 32.43,
+          "votesRep": 3516,
+          "votesDem": 1794,
+          "votesTotal": 5441
+        },
+        "Gadsden12": {
+          "color": "#1C408C",
+          "label": "Gillum +37.7",
+          "margin": -37.72,
+          "votesRep": 6204,
+          "votesDem": 13718,
+          "votesTotal": 20068
+        },
+        "Gilchrist12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +64.7",
+          "margin": 64.67,
+          "votesRep": 5975,
+          "votesDem": 1282,
+          "votesTotal": 7371
+        },
+        "Glades12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +41.5",
+          "margin": 41.48,
+          "votesRep": 2647,
+          "votesDem": 1095,
+          "votesTotal": 3838
+        },
+        "Gulf12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +47.7",
+          "margin": 47.68,
+          "votesRep": 4265,
+          "votesDem": 1511,
+          "votesTotal": 5900
+        },
+        "Hamilton12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +29.3",
+          "margin": 29.27,
+          "votesRep": 2908,
+          "votesDem": 1591,
+          "votesTotal": 4556
+        },
+        "Hardee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +42.7",
+          "margin": 42.68,
+          "votesRep": 4485,
+          "votesDem": 1802,
+          "votesTotal": 6404
+        },
+        "Hendry12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +19.1",
+          "margin": 19.11,
+          "votesRep": 5177,
+          "votesDem": 3516,
+          "votesTotal": 8882
+        },
+        "Hernando12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +25.6",
+          "margin": 25.59,
+          "votesRep": 49674,
+          "votesDem": 29431,
+          "votesTotal": 80736
+        },
+        "Highlands12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +34.6",
+          "margin": 34.56,
+          "votesRep": 26285,
+          "votesDem": 12783,
+          "votesTotal": 39809
+        },
+        "Hillsborough12": {
+          "color": "#577CCC",
+          "label": "Gillum +9.1",
+          "margin": -9.05,
+          "votesRep": 234835,
+          "votesDem": 281598,
+          "votesTotal": 523470
+        },
+        "Holmes12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +77.9",
+          "margin": 77.92,
+          "votesRep": 5940,
+          "votesDem": 737,
+          "votesTotal": 6781
+        },
+        "Indian River12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +22.4",
+          "margin": 22.44,
+          "votesRep": 44924,
+          "votesDem": 28460,
+          "votesTotal": 74301
+        },
+        "Jackson12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +36.4",
+          "margin": 36.43,
+          "votesRep": 10771,
+          "votesDem": 5019,
+          "votesTotal": 15988
+        },
+        "Jefferson12": {
+          "color": "#FF5865",
+          "label": "DeSantis +6.9",
+          "margin": 6.91,
+          "votesRep": 3877,
+          "votesDem": 3376,
+          "votesTotal": 7368
+        },
+        "Lafayette12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +69.9",
+          "margin": 69.88,
+          "votesRep": 2363,
+          "votesDem": 419,
+          "votesTotal": 2826
+        },
+        "Lake12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +21.2",
+          "margin": 21.15,
+          "votesRep": 92633,
+          "votesDem": 60289,
+          "votesTotal": 155138
+        },
+        "Lee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +22.0",
+          "margin": 22.04,
+          "votesRep": 174078,
+          "votesDem": 111198,
+          "votesTotal": 289787
+        },
+        "Leon12": {
+          "color": "#1C408C",
+          "label": "Gillum +28.0",
+          "margin": -27.99,
+          "votesRep": 49947,
+          "votesDem": 88770,
+          "votesTotal": 140332
+        },
+        "Levy12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +43.8",
+          "margin": 43.84,
+          "votesRep": 12084,
+          "votesDem": 4718,
+          "votesTotal": 17103
+        },
+        "Liberty12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +59.3",
+          "margin": 59.3,
+          "votesRep": 2059,
+          "votesDem": 526,
+          "votesTotal": 2682
+        },
+        "Madison12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +14.6",
+          "margin": 14.64,
+          "votesRep": 4347,
+          "votesDem": 3237,
+          "votesTotal": 7632
+        },
+        "Manatee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +15.9",
+          "margin": 15.93,
+          "votesRep": 93235,
+          "votesDem": 67615,
+          "votesTotal": 163481
+        },
+        "Marion12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +24.6",
+          "margin": 24.63,
+          "votesRep": 94897,
+          "votesDem": 57388,
+          "votesTotal": 154998
+        },
+        "Martin12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +24.3",
+          "margin": 24.29,
+          "votesRep": 47849,
+          "votesDem": 29148,
+          "votesTotal": 77818
+        },
+        "Miami-Dade12": {
+          "color": "#1C408C",
+          "label": "Gillum +21.2",
+          "margin": -21.16,
+          "votesRep": 311792,
+          "votesDem": 479197,
+          "votesTotal": 799975
+        },
+        "Monroe12": {
+          "color": "#FF8B98",
+          "label": "DeSantis +3.7",
+          "margin": 3.73,
+          "votesRep": 18508,
+          "votesDem": 17176,
+          "votesTotal": 36152
+        },
+        "Nassau12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +46.9",
+          "margin": 46.86,
+          "votesRep": 31703,
+          "votesDem": 11472,
+          "votesTotal": 43589
+        },
+        "Okaloosa12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +45.6",
+          "margin": 45.58,
+          "votesRep": 59940,
+          "votesDem": 22408,
+          "votesTotal": 83959
+        },
+        "Okeechobee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +40.1",
+          "margin": 40.09,
+          "votesRep": 7730,
+          "votesDem": 3306,
+          "votesTotal": 11254
+        },
+        "Orange12": {
+          "color": "#1C408C",
+          "label": "Gillum +25.9",
+          "margin": -25.94,
+          "votesRep": 174253,
+          "votesDem": 296297,
+          "votesTotal": 476185
+        },
+        "Osceola12": {
+          "color": "#1C408C",
+          "label": "Gillum +21.2",
+          "margin": -21.25,
+          "votesRep": 44634,
+          "votesDem": 68721,
+          "votesTotal": 115128
+        },
+        "Palm Beach12": {
+          "color": "#1C408C",
+          "label": "Gillum +17.2",
+          "margin": -17.24,
+          "votesRep": 241016,
+          "votesDem": 341409,
+          "votesTotal": 587019
+        },
+        "Pasco12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +16.6",
+          "margin": 16.59,
+          "votesRep": 120754,
+          "votesDem": 86382,
+          "votesTotal": 211210
+        },
+        "Pinellas12": {
+          "color": "#8AAFFF",
+          "label": "Gillum +3.1",
+          "margin": -3.07,
+          "votesRep": 207667,
+          "votesDem": 220826,
+          "votesTotal": 435802
+        },
+        "Polk12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +13.6",
+          "margin": 13.57,
+          "votesRep": 136717,
+          "votesDem": 104045,
+          "votesTotal": 244867
+        },
+        "Putnam12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +35.0",
+          "margin": 35.01,
+          "votesRep": 18721,
+          "votesDem": 9011,
+          "votesTotal": 28147
+        },
+        "Santa Rosa12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +51.0",
+          "margin": 51.03,
+          "votesRep": 56148,
+          "votesDem": 18207,
+          "votesTotal": 75640
+        },
+        "Sarasota12": {
+          "color": "#FF5865",
+          "label": "DeSantis +8.8",
+          "margin": 8.76,
+          "votesRep": 113261,
+          "votesDem": 95014,
+          "votesTotal": 211202
+        },
+        "Seminole12": {
+          "color": "#8AAFFF",
+          "label": "Gillum +1.8",
+          "margin": -1.81,
+          "votesRep": 96630,
+          "votesDem": 100201,
+          "votesTotal": 199422
+        },
+        "St. Johns12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +28.8",
+          "margin": 28.84,
+          "votesRep": 83664,
+          "votesDem": 46208,
+          "votesTotal": 131085
+        },
+        "St. Lucie12": {
+          "color": "#8AAFFF",
+          "label": "Gillum +3.8",
+          "margin": -3.76,
+          "votesRep": 58994,
+          "votesDem": 63606,
+          "votesTotal": 124139
+        },
+        "Sumter12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +40.7",
+          "margin": 40.68,
+          "votesRep": 51801,
+          "votesDem": 21843,
+          "votesTotal": 74447
+        },
+        "Suwannee12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +56.0",
+          "margin": 56.01,
+          "votesRep": 12234,
+          "votesDem": 3450,
+          "votesTotal": 15915
+        },
+        "Taylor12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +52.0",
+          "margin": 51.99,
+          "votesRep": 5942,
+          "votesDem": 1877,
+          "votesTotal": 7950
+        },
+        "Union12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +59.6",
+          "margin": 59.58,
+          "votesRep": 3842,
+          "votesDem": 973,
+          "votesTotal": 4874
+        },
+        "Volusia12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +10.8",
+          "margin": 10.8,
+          "votesRep": 124811,
+          "votesDem": 100486,
+          "votesTotal": 229000
+        },
+        "Wakulla12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +40.1",
+          "margin": 40.07,
+          "votesRep": 9802,
+          "votesDem": 4194,
+          "votesTotal": 14241
+        },
+        "Walton12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +53.1",
+          "margin": 53.12,
+          "votesRep": 22925,
+          "votesDem": 7019,
+          "votesTotal": 30354
+        },
+        "Washington12": {
+          "color": "#BF1D29",
+          "label": "DeSantis +58.0",
+          "margin": 58,
+          "votesRep": 7017,
+          "votesDem": 1865,
+          "votesTotal": 9060
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Rick Scott",
+      "candDem": "Bill Nelson",
+      "shortRep": "Scott",
+      "shortDem": "Nelson",
+      "partisan": true,
+      "margin": 0.13,
+      "votesRep": 4099038,
+      "votesDem": 4088007,
+      "votesTotal": 8211517,
+      "regions": {
+        "Alachua12": {
+          "color": "#1C408C",
+          "label": "Nelson +29.4",
+          "margin": -29.42,
+          "votesRep": 40595,
+          "votesDem": 74442,
+          "votesTotal": 115371
+        },
+        "Baker12": {
+          "color": "#BF1D29",
+          "label": "Scott +63.1",
+          "margin": 63.07,
+          "votesRep": 8580,
+          "votesDem": 1943,
+          "votesTotal": 10550
+        },
+        "Bay12": {
+          "color": "#BF1D29",
+          "label": "Scott +47.2",
+          "margin": 47.25,
+          "votesRep": 46681,
+          "votesDem": 16723,
+          "votesTotal": 63581
+        },
+        "Bradford12": {
+          "color": "#BF1D29",
+          "label": "Scott +44.9",
+          "margin": 44.93,
+          "votesRep": 7576,
+          "votesDem": 2879,
+          "votesTotal": 10494
+        },
+        "Brevard12": {
+          "color": "#BF1D29",
+          "label": "Scott +13.9",
+          "margin": 13.93,
+          "votesRep": 160305,
+          "votesDem": 121112,
+          "votesTotal": 282486
+        },
+        "Broward12": {
+          "color": "#1C408C",
+          "label": "Nelson +38.1",
+          "margin": -38.15,
+          "votesRep": 211261,
+          "votesDem": 471829,
+          "votesTotal": 684601
+        },
+        "Calhoun12": {
+          "color": "#BF1D29",
+          "label": "Scott +55.3",
+          "margin": 55.27,
+          "votesRep": 3586,
+          "votesDem": 1033,
+          "votesTotal": 4631
+        },
+        "Charlotte12": {
+          "color": "#BF1D29",
+          "label": "Scott +22.4",
+          "margin": 22.43,
+          "votesRep": 52916,
+          "votesDem": 33525,
+          "votesTotal": 86457
+        },
+        "Citrus12": {
+          "color": "#BF1D29",
+          "label": "Scott +35.9",
+          "margin": 35.87,
+          "votesRep": 48008,
+          "votesDem": 22660,
+          "votesTotal": 70950
+        },
+        "Clay12": {
+          "color": "#BF1D29",
+          "label": "Scott +40.6",
+          "margin": 40.63,
+          "votesRep": 65627,
+          "votesDem": 27706,
+          "votesTotal": 93607
+        },
+        "Collier12": {
+          "color": "#BF1D29",
+          "label": "Scott +30.1",
+          "margin": 30.12,
+          "votesRep": 101266,
+          "votesDem": 54390,
+          "votesTotal": 155942
+        },
+        "Columbia12": {
+          "color": "#BF1D29",
+          "label": "Scott +39.3",
+          "margin": 39.33,
+          "votesRep": 17230,
+          "votesDem": 7503,
+          "votesTotal": 24848
+        },
+        "DeSoto12": {
+          "color": "#BF1D29",
+          "label": "Scott +24.6",
+          "margin": 24.65,
+          "votesRep": 5502,
+          "votesDem": 3326,
+          "votesTotal": 8882
+        },
+        "Dixie12": {
+          "color": "#BF1D29",
+          "label": "Scott +54.2",
+          "margin": 54.23,
+          "votesRep": 4441,
+          "votesDem": 1318,
+          "votesTotal": 5785
+        },
+        "Duval12": {
+          "color": "#8AAFFF",
+          "label": "Nelson +1.7",
+          "margin": -1.71,
+          "votesRep": 185904,
+          "votesDem": 192381,
+          "votesTotal": 379485
+        },
+        "Escambia12": {
+          "color": "#BF1D29",
+          "label": "Scott +17.9",
+          "margin": 17.9,
+          "votesRep": 75931,
+          "votesDem": 52874,
+          "votesTotal": 129270
+        },
+        "Flagler12": {
+          "color": "#BF1D29",
+          "label": "Scott +19.0",
+          "margin": 19,
+          "votesRep": 31467,
+          "votesDem": 21419,
+          "votesTotal": 53025
+        },
+        "Franklin12": {
+          "color": "#BF1D29",
+          "label": "Scott +25.7",
+          "margin": 25.72,
+          "votesRep": 3404,
+          "votesDem": 2011,
+          "votesTotal": 5434
+        },
+        "Gadsden12": {
+          "color": "#1C408C",
+          "label": "Nelson +39.5",
+          "margin": -39.45,
+          "votesRep": 6053,
+          "votesDem": 13942,
+          "votesTotal": 19996
+        },
+        "Gilchrist12": {
+          "color": "#BF1D29",
+          "label": "Scott +55.5",
+          "margin": 55.48,
+          "votesRep": 5703,
+          "votesDem": 1633,
+          "votesTotal": 7367
+        },
+        "Glades12": {
+          "color": "#BF1D29",
+          "label": "Scott +39.5",
+          "margin": 39.51,
+          "votesRep": 2666,
+          "votesDem": 1156,
+          "votesTotal": 3841
+        },
+        "Gulf12": {
+          "color": "#BF1D29",
+          "label": "Scott +46.4",
+          "margin": 46.45,
+          "votesRep": 4321,
+          "votesDem": 1580,
+          "votesTotal": 5914
+        },
+        "Hamilton12": {
+          "color": "#BF1D29",
+          "label": "Scott +26.2",
+          "margin": 26.18,
+          "votesRep": 2856,
+          "votesDem": 1671,
+          "votesTotal": 4541
+        },
+        "Hardee12": {
+          "color": "#BF1D29",
+          "label": "Scott +39.9",
+          "margin": 39.86,
+          "votesRep": 4454,
+          "votesDem": 1915,
+          "votesTotal": 6414
+        },
+        "Hendry12": {
+          "color": "#BF1D29",
+          "label": "Scott +19.9",
+          "margin": 19.92,
+          "votesRep": 5304,
+          "votesDem": 3542,
+          "votesTotal": 8878
+        },
+        "Hernando12": {
+          "color": "#BF1D29",
+          "label": "Scott +23.3",
+          "margin": 23.29,
+          "votesRep": 49494,
+          "votesDem": 30796,
+          "votesTotal": 80699
+        },
+        "Highlands12": {
+          "color": "#BF1D29",
+          "label": "Scott +32.5",
+          "margin": 32.47,
+          "votesRep": 26282,
+          "votesDem": 13398,
+          "votesTotal": 39800
+        },
+        "Hillsborough12": {
+          "color": "#577CCC",
+          "label": "Nelson +8.0",
+          "margin": -8.05,
+          "votesRep": 239622,
+          "votesDem": 281567,
+          "votesTotal": 522941
+        },
+        "Holmes12": {
+          "color": "#BF1D29",
+          "label": "Scott +74.7",
+          "margin": 74.73,
+          "votesRep": 5919,
+          "votesDem": 856,
+          "votesTotal": 6794
+        },
+        "Indian River12": {
+          "color": "#BF1D29",
+          "label": "Scott +21.1",
+          "margin": 21.11,
+          "votesRep": 44784,
+          "votesDem": 29173,
+          "votesTotal": 74225
+        },
+        "Jackson12": {
+          "color": "#BF1D29",
+          "label": "Scott +35.1",
+          "margin": 35.12,
+          "votesRep": 10791,
+          "votesDem": 5182,
+          "votesTotal": 16009
+        },
+        "Jefferson12": {
+          "color": "#FF8B98",
+          "label": "Scott +1.0",
+          "margin": 1.02,
+          "votesRep": 3699,
+          "votesDem": 3624,
+          "votesTotal": 7346
+        },
+        "Lafayette12": {
+          "color": "#BF1D29",
+          "label": "Scott +55.9",
+          "margin": 55.88,
+          "votesRep": 2194,
+          "votesDem": 621,
+          "votesTotal": 2825
+        },
+        "Lake12": {
+          "color": "#BF1D29",
+          "label": "Scott +20.7",
+          "margin": 20.74,
+          "votesRep": 93537,
+          "votesDem": 61402,
+          "votesTotal": 154954
+        },
+        "Lee12": {
+          "color": "#BF1D29",
+          "label": "Scott +20.6",
+          "margin": 20.57,
+          "votesRep": 174276,
+          "votesDem": 114815,
+          "votesTotal": 290199
+        },
+        "Leon12": {
+          "color": "#1C408C",
+          "label": "Nelson +30.3",
+          "margin": -30.26,
+          "votesRep": 48760,
+          "votesDem": 91077,
+          "votesTotal": 140177
+        },
+        "Levy12": {
+          "color": "#BF1D29",
+          "label": "Scott +37.4",
+          "margin": 37.35,
+          "votesRep": 11657,
+          "votesDem": 5317,
+          "votesTotal": 17074
+        },
+        "Liberty12": {
+          "color": "#BF1D29",
+          "label": "Scott +53.4",
+          "margin": 53.36,
+          "votesRep": 2075,
+          "votesDem": 631,
+          "votesTotal": 2713
+        },
+        "Madison12": {
+          "color": "#FF5865",
+          "label": "Scott +10.0",
+          "margin": 9.99,
+          "votesRep": 4183,
+          "votesDem": 3423,
+          "votesTotal": 7622
+        },
+        "Manatee12": {
+          "color": "#BF1D29",
+          "label": "Scott +15.6",
+          "margin": 15.63,
+          "votesRep": 94358,
+          "votesDem": 68842,
+          "votesTotal": 163720
+        },
+        "Marion12": {
+          "color": "#BF1D29",
+          "label": "Scott +23.7",
+          "margin": 23.66,
+          "votesRep": 95553,
+          "votesDem": 58989,
+          "votesTotal": 155043
+        },
+        "Martin12": {
+          "color": "#BF1D29",
+          "label": "Scott +20.7",
+          "margin": 20.72,
+          "votesRep": 46734,
+          "votesDem": 30690,
+          "votesTotal": 77727
+        },
+        "Miami-Dade12": {
+          "color": "#1C408C",
+          "label": "Nelson +21.1",
+          "margin": -21.13,
+          "votesRep": 316056,
+          "votesDem": 485418,
+          "votesTotal": 803252
+        },
+        "Monroe12": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": -0.05,
+          "votesRep": 18032,
+          "votesDem": 18050,
+          "votesTotal": 36191
+        },
+        "Nassau12": {
+          "color": "#BF1D29",
+          "label": "Scott +46.2",
+          "margin": 46.21,
+          "votesRep": 31791,
+          "votesDem": 11695,
+          "votesTotal": 43582
+        },
+        "Okaloosa12": {
+          "color": "#BF1D29",
+          "label": "Scott +45.4",
+          "margin": 45.36,
+          "votesRep": 60924,
+          "votesDem": 22902,
+          "votesTotal": 84163
+        },
+        "Okeechobee12": {
+          "color": "#BF1D29",
+          "label": "Scott +37.7",
+          "margin": 37.72,
+          "votesRep": 7727,
+          "votesDem": 3494,
+          "votesTotal": 11267
+        },
+        "Orange12": {
+          "color": "#1C408C",
+          "label": "Nelson +23.9",
+          "margin": -23.87,
+          "votesRep": 180740,
+          "votesDem": 294076,
+          "votesTotal": 476113
+        },
+        "Osceola12": {
+          "color": "#1C408C",
+          "label": "Nelson +16.7",
+          "margin": -16.7,
+          "votesRep": 47886,
+          "votesDem": 67085,
+          "votesTotal": 115337
+        },
+        "Palm Beach12": {
+          "color": "#1C408C",
+          "label": "Nelson +16.8",
+          "margin": -16.84,
+          "votesRep": 244850,
+          "votesDem": 344008,
+          "votesTotal": 590166
+        },
+        "Pasco12": {
+          "color": "#BF1D29",
+          "label": "Scott +15.1",
+          "margin": 15.08,
+          "votesRep": 121191,
+          "votesDem": 89425,
+          "votesTotal": 211644
+        },
+        "Pinellas12": {
+          "color": "#577CCC",
+          "label": "Nelson +5.2",
+          "margin": -5.23,
+          "votesRep": 205905,
+          "votesDem": 228625,
+          "votesTotal": 436270
+        },
+        "Polk12": {
+          "color": "#BF1D29",
+          "label": "Scott +13.5",
+          "margin": 13.52,
+          "votesRep": 138710,
+          "votesDem": 105664,
+          "votesTotal": 245309
+        },
+        "Putnam12": {
+          "color": "#BF1D29",
+          "label": "Scott +33.3",
+          "margin": 33.35,
+          "votesRep": 18689,
+          "votesDem": 9342,
+          "votesTotal": 28163
+        },
+        "Santa Rosa12": {
+          "color": "#BF1D29",
+          "label": "Scott +49.5",
+          "margin": 49.49,
+          "votesRep": 56374,
+          "votesDem": 19047,
+          "votesTotal": 75691
+        },
+        "Sarasota12": {
+          "color": "#FF5865",
+          "label": "Scott +7.9",
+          "margin": 7.91,
+          "votesRep": 113612,
+          "votesDem": 96961,
+          "votesTotal": 211331
+        },
+        "Seminole12": {
+          "color": "#8AAFFF",
+          "label": "Nelson +2.0",
+          "margin": -2.02,
+          "votesRep": 97447,
+          "votesDem": 101471,
+          "votesTotal": 199497
+        },
+        "St. Johns12": {
+          "color": "#BF1D29",
+          "label": "Scott +30.2",
+          "margin": 30.18,
+          "votesRep": 85032,
+          "votesDem": 45610,
+          "votesTotal": 130958
+        },
+        "St. Lucie12": {
+          "color": "#8AAFFF",
+          "label": "Nelson +3.5",
+          "margin": -3.52,
+          "votesRep": 59608,
+          "votesDem": 63962,
+          "votesTotal": 124095
+        },
+        "Sumter12": {
+          "color": "#BF1D29",
+          "label": "Scott +41.9",
+          "margin": 41.86,
+          "votesRep": 52857,
+          "votesDem": 21664,
+          "votesTotal": 74624
+        },
+        "Suwannee12": {
+          "color": "#BF1D29",
+          "label": "Scott +49.1",
+          "margin": 49.09,
+          "votesRep": 11842,
+          "votesDem": 4044,
+          "votesTotal": 15937
+        },
+        "Taylor12": {
+          "color": "#BF1D29",
+          "label": "Scott +42.7",
+          "margin": 42.73,
+          "votesRep": 5642,
+          "votesDem": 2264,
+          "votesTotal": 7943
+        },
+        "Union12": {
+          "color": "#BF1D29",
+          "label": "Scott +50.6",
+          "margin": 50.61,
+          "votesRep": 3650,
+          "votesDem": 1197,
+          "votesTotal": 4863
+        },
+        "Volusia12": {
+          "color": "#BF1D29",
+          "label": "Scott +10.0",
+          "margin": 10.04,
+          "votesRep": 125719,
+          "votesDem": 102775,
+          "votesTotal": 229231
+        },
+        "Wakulla12": {
+          "color": "#BF1D29",
+          "label": "Scott +31.4",
+          "margin": 31.39,
+          "votesRep": 9322,
+          "votesDem": 4868,
+          "votesTotal": 14230
+        },
+        "Walton12": {
+          "color": "#BF1D29",
+          "label": "Scott +50.5",
+          "margin": 50.53,
+          "votesRep": 22776,
+          "votesDem": 7485,
+          "votesTotal": 30353
+        },
+        "Washington12": {
+          "color": "#BF1D29",
+          "label": "Scott +56.8",
+          "margin": 56.75,
+          "votesRep": 7101,
+          "votesDem": 1959,
+          "votesTotal": 9089
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Marco Rubio",
+      "candDem": "Patrick Murphy",
+      "shortRep": "Rubio",
+      "shortDem": "Murphy",
+      "partisan": true,
+      "margin": 7.96,
+      "votesRep": 4835185,
+      "votesDem": 4122074,
+      "votesTotal": 9302531,
+      "regions": {
+        "Alachua12": {
+          "color": "#1C408C",
+          "label": "Murphy +12.3",
+          "margin": -12.29,
+          "votesRep": 54203,
+          "votesDem": 69399,
+          "votesTotal": 127329
+        },
+        "Baker12": {
+          "color": "#BF1D29",
+          "label": "Rubio +64.5",
+          "margin": 64.52,
+          "votesRep": 9901,
+          "votesDem": 2135,
+          "votesTotal": 12458
+        },
+        "Bay12": {
+          "color": "#BF1D29",
+          "label": "Rubio +51.8",
+          "margin": 51.81,
+          "votesRep": 62906,
+          "votesDem": 19971,
+          "votesTotal": 86708
+        },
+        "Bradford12": {
+          "color": "#BF1D29",
+          "label": "Rubio +52.8",
+          "margin": 52.79,
+          "votesRep": 8720,
+          "votesDem": 2694,
+          "votesTotal": 11867
+        },
+        "Brevard12": {
+          "color": "#BF1D29",
+          "label": "Rubio +23.3",
+          "margin": 23.29,
+          "votesRep": 181496,
+          "votesDem": 112914,
+          "votesTotal": 311391
+        },
+        "Broward12": {
+          "color": "#1C408C",
+          "label": "Murphy +30.5",
+          "margin": -30.46,
+          "votesRep": 278766,
+          "votesDem": 522932,
+          "votesTotal": 819079
+        },
+        "Calhoun12": {
+          "color": "#BF1D29",
+          "label": "Rubio +54.5",
+          "margin": 54.51,
+          "votesRep": 4331,
+          "votesDem": 1275,
+          "votesTotal": 6005
+        },
+        "Charlotte12": {
+          "color": "#BF1D29",
+          "label": "Rubio +33.2",
+          "margin": 33.17,
+          "votesRep": 60194,
+          "votesDem": 30207,
+          "votesTotal": 95073
+        },
+        "Citrus12": {
+          "color": "#BF1D29",
+          "label": "Rubio +34.0",
+          "margin": 33.99,
+          "votesRep": 48798,
+          "votesDem": 24038,
+          "votesTotal": 78261
+        },
+        "Clay12": {
+          "color": "#BF1D29",
+          "label": "Rubio +54.1",
+          "margin": 54.06,
+          "votesRep": 77965,
+          "votesDem": 23251,
+          "votesTotal": 105312
+        },
+        "Collier12": {
+          "color": "#BF1D29",
+          "label": "Rubio +40.1",
+          "margin": 40.1,
+          "votesRep": 115719,
+          "votesDem": 49470,
+          "votesTotal": 169363
+        },
+        "Columbia12": {
+          "color": "#BF1D29",
+          "label": "Rubio +46.0",
+          "margin": 46.04,
+          "votesRep": 19924,
+          "votesDem": 7361,
+          "votesTotal": 28301
+        },
+        "DeSoto12": {
+          "color": "#BF1D29",
+          "label": "Rubio +34.3",
+          "margin": 34.33,
+          "votesRep": 6844,
+          "votesDem": 3346,
+          "votesTotal": 10639
+        },
+        "Dixie12": {
+          "color": "#BF1D29",
+          "label": "Rubio +52.2",
+          "margin": 52.22,
+          "votesRep": 5040,
+          "votesDem": 1582,
+          "votesTotal": 6979
+        },
+        "Duval12": {
+          "color": "#BF1D29",
+          "label": "Rubio +16.8",
+          "margin": 16.82,
+          "votesRep": 241000,
+          "votesDem": 171598,
+          "votesTotal": 427809
+        },
+        "Escambia12": {
+          "color": "#BF1D29",
+          "label": "Rubio +29.5",
+          "margin": 29.47,
+          "votesRep": 94200,
+          "votesDem": 51316,
+          "votesTotal": 151409
+        },
+        "Flagler12": {
+          "color": "#BF1D29",
+          "label": "Rubio +21.5",
+          "margin": 21.51,
+          "votesRep": 32914,
+          "votesDem": 21260,
+          "votesTotal": 56621
+        },
+        "Franklin12": {
+          "color": "#BF1D29",
+          "label": "Rubio +35.8",
+          "margin": 35.78,
+          "votesRep": 3861,
+          "votesDem": 1826,
+          "votesTotal": 5908
+        },
+        "Gadsden12": {
+          "color": "#1C408C",
+          "label": "Murphy +35.8",
+          "margin": -35.82,
+          "votesRep": 6887,
+          "votesDem": 14573,
+          "votesTotal": 21953
+        },
+        "Gilchrist12": {
+          "color": "#BF1D29",
+          "label": "Rubio +58.0",
+          "margin": 58.01,
+          "votesRep": 6303,
+          "votesDem": 1675,
+          "votesTotal": 8324
+        },
+        "Glades12": {
+          "color": "#BF1D29",
+          "label": "Rubio +42.0",
+          "margin": 41.98,
+          "votesRep": 2927,
+          "votesDem": 1196,
+          "votesTotal": 4295
+        },
+        "Gulf12": {
+          "color": "#BF1D29",
+          "label": "Rubio +49.6",
+          "margin": 49.57,
+          "votesRep": 5191,
+          "votesDem": 1750,
+          "votesTotal": 7206
+        },
+        "Hamilton12": {
+          "color": "#BF1D29",
+          "label": "Rubio +18.3",
+          "margin": 18.31,
+          "votesRep": 3050,
+          "votesDem": 2106,
+          "votesTotal": 5358
+        },
+        "Hardee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +43.6",
+          "margin": 43.56,
+          "votesRep": 5151,
+          "votesDem": 2025,
+          "votesTotal": 7494
+        },
+        "Hendry12": {
+          "color": "#BF1D29",
+          "label": "Rubio +26.4",
+          "margin": 26.39,
+          "votesRep": 6683,
+          "votesDem": 3892,
+          "votesTotal": 10926
+        },
+        "Hernando12": {
+          "color": "#BF1D29",
+          "label": "Rubio +24.2",
+          "margin": 24.22,
+          "votesRep": 53708,
+          "votesDem": 32766,
+          "votesTotal": 92303
+        },
+        "Highlands12": {
+          "color": "#BF1D29",
+          "label": "Rubio +32.0",
+          "margin": 31.97,
+          "votesRep": 28123,
+          "votesDem": 14498,
+          "votesTotal": 44973
+        },
+        "Hillsborough12": {
+          "color": "#6b7280",
+          "label": "Rubio +0.5",
+          "margin": 0.49,
+          "votesRep": 283871,
+          "votesDem": 281122,
+          "votesTotal": 590542
+        },
+        "Holmes12": {
+          "color": "#BF1D29",
+          "label": "Rubio +75.6",
+          "margin": 75.65,
+          "votesRep": 7039,
+          "votesDem": 976,
+          "votesTotal": 8414
+        },
+        "Indian River12": {
+          "color": "#BF1D29",
+          "label": "Rubio +26.0",
+          "margin": 26.01,
+          "votesRep": 48181,
+          "votesDem": 28288,
+          "votesTotal": 78988
+        },
+        "Jackson12": {
+          "color": "#BF1D29",
+          "label": "Rubio +37.0",
+          "margin": 36.95,
+          "votesRep": 13820,
+          "votesDem": 6362,
+          "votesTotal": 20862
+        },
+        "Jefferson12": {
+          "color": "#FF8B98",
+          "label": "Rubio +1.7",
+          "margin": 1.74,
+          "votesRep": 3751,
+          "votesDem": 3623,
+          "votesTotal": 7596
+        },
+        "Lafayette12": {
+          "color": "#BF1D29",
+          "label": "Rubio +58.7",
+          "margin": 58.72,
+          "votesRep": 2572,
+          "votesDem": 669,
+          "votesTotal": 3361
+        },
+        "Lake12": {
+          "color": "#BF1D29",
+          "label": "Rubio +26.0",
+          "margin": 25.98,
+          "votesRep": 100664,
+          "votesDem": 59151,
+          "votesTotal": 167960
+        },
+        "Lee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +32.4",
+          "margin": 32.38,
+          "votesRep": 204778,
+          "votesDem": 104591,
+          "votesTotal": 321835
+        },
+        "Leon12": {
+          "color": "#1C408C",
+          "label": "Murphy +18.2",
+          "margin": -18.2,
+          "votesRep": 59958,
+          "votesDem": 86641,
+          "votesTotal": 151062
+        },
+        "Levy12": {
+          "color": "#BF1D29",
+          "label": "Rubio +41.8",
+          "margin": 41.85,
+          "votesRep": 12914,
+          "votesDem": 5294,
+          "votesTotal": 19067
+        },
+        "Liberty12": {
+          "color": "#BF1D29",
+          "label": "Rubio +50.8",
+          "margin": 50.76,
+          "votesRep": 2290,
+          "votesDem": 748,
+          "votesTotal": 3209
+        },
+        "Madison12": {
+          "color": "#BF1D29",
+          "label": "Rubio +12.5",
+          "margin": 12.52,
+          "votesRep": 4584,
+          "votesDem": 3564,
+          "votesTotal": 8401
+        },
+        "Manatee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +21.4",
+          "margin": 21.37,
+          "votesRep": 102717,
+          "votesDem": 66545,
+          "votesTotal": 177195
+        },
+        "Marion12": {
+          "color": "#BF1D29",
+          "label": "Rubio +27.4",
+          "margin": 27.37,
+          "votesRep": 104400,
+          "votesDem": 59537,
+          "votesTotal": 172319
+        },
+        "Martin12": {
+          "color": "#BF1D29",
+          "label": "Rubio +19.3",
+          "margin": 19.31,
+          "votesRep": 49806,
+          "votesDem": 33685,
+          "votesTotal": 85518
+        },
+        "Miami-Dade12": {
+          "color": "#1C408C",
+          "label": "Murphy +11.5",
+          "margin": -11.52,
+          "votesRep": 420063,
+          "votesDem": 529445,
+          "votesTotal": 969995
+        },
+        "Monroe12": {
+          "color": "#FF5865",
+          "label": "Rubio +7.2",
+          "margin": 7.16,
+          "votesRep": 21629,
+          "votesDem": 18738,
+          "votesTotal": 41813
+        },
+        "Nassau12": {
+          "color": "#BF1D29",
+          "label": "Rubio +57.1",
+          "margin": 57.12,
+          "votesRep": 34974,
+          "votesDem": 9544,
+          "votesTotal": 46110
+        },
+        "Okaloosa12": {
+          "color": "#BF1D29",
+          "label": "Rubio +56.4",
+          "margin": 56.44,
+          "votesRep": 74749,
+          "votesDem": 20813,
+          "votesTotal": 99986
+        },
+        "Okeechobee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +33.7",
+          "margin": 33.71,
+          "votesRep": 8647,
+          "votesDem": 4287,
+          "votesTotal": 13488
+        },
+        "Orange12": {
+          "color": "#1C408C",
+          "label": "Murphy +13.3",
+          "margin": -13.28,
+          "votesRep": 224853,
+          "votesDem": 293696,
+          "votesTotal": 539802
+        },
+        "Osceola12": {
+          "color": "#1C408C",
+          "label": "Murphy +14.0",
+          "margin": -13.97,
+          "votesRep": 57103,
+          "votesDem": 75646,
+          "votesTotal": 138522
+        },
+        "Palm Beach12": {
+          "color": "#577CCC",
+          "label": "Murphy +9.8",
+          "margin": -9.82,
+          "votesRep": 287899,
+          "votesDem": 350625,
+          "votesTotal": 652807
+        },
+        "Pasco12": {
+          "color": "#BF1D29",
+          "label": "Rubio +20.6",
+          "margin": 20.64,
+          "votesRep": 134779,
+          "votesDem": 88665,
+          "votesTotal": 237602
+        },
+        "Pinellas12": {
+          "color": "#FF8B98",
+          "label": "Rubio +2.9",
+          "margin": 2.94,
+          "votesRep": 236421,
+          "votesDem": 222928,
+          "votesTotal": 484297
+        },
+        "Polk12": {
+          "color": "#BF1D29",
+          "label": "Rubio +17.2",
+          "margin": 17.19,
+          "votesRep": 156196,
+          "votesDem": 110363,
+          "votesTotal": 280806
+        },
+        "Putnam12": {
+          "color": "#BF1D29",
+          "label": "Rubio +36.8",
+          "margin": 36.85,
+          "votesRep": 21474,
+          "votesDem": 9910,
+          "votesTotal": 32701
+        },
+        "Santa Rosa12": {
+          "color": "#BF1D29",
+          "label": "Rubio +60.9",
+          "margin": 60.86,
+          "votesRep": 66921,
+          "votesDem": 16284,
+          "votesTotal": 87022
+        },
+        "Sarasota12": {
+          "color": "#BF1D29",
+          "label": "Rubio +14.7",
+          "margin": 14.7,
+          "votesRep": 124163,
+          "votesDem": 92332,
+          "votesTotal": 225544
+        },
+        "Seminole12": {
+          "color": "#BF1D29",
+          "label": "Rubio +11.0",
+          "margin": 10.98,
+          "votesRep": 117728,
+          "votesDem": 94435,
+          "votesTotal": 221760
+        },
+        "St. Johns12": {
+          "color": "#BF1D29",
+          "label": "Rubio +45.8",
+          "margin": 45.82,
+          "votesRep": 95753,
+          "votesDem": 35580,
+          "votesTotal": 135585
+        },
+        "St. Lucie12": {
+          "color": "#8AAFFF",
+          "label": "Murphy +2.5",
+          "margin": -2.48,
+          "votesRep": 66222,
+          "votesDem": 69590,
+          "votesTotal": 139574
+        },
+        "Sumter12": {
+          "color": "#BF1D29",
+          "label": "Rubio +42.0",
+          "margin": 41.98,
+          "votesRep": 51846,
+          "votesDem": 21187,
+          "votesTotal": 75894
+        },
+        "Suwannee12": {
+          "color": "#BF1D29",
+          "label": "Rubio +49.7",
+          "margin": 49.68,
+          "votesRep": 13335,
+          "votesDem": 4483,
+          "votesTotal": 18503
+        },
+        "Taylor12": {
+          "color": "#BF1D29",
+          "label": "Rubio +40.1",
+          "margin": 40.09,
+          "votesRep": 6216,
+          "votesDem": 2658,
+          "votesTotal": 9232
+        },
+        "Union12": {
+          "color": "#BF1D29",
+          "label": "Rubio +60.4",
+          "margin": 60.42,
+          "votesRep": 4313,
+          "votesDem": 1064,
+          "votesTotal": 5575
+        },
+        "Volusia12": {
+          "color": "#BF1D29",
+          "label": "Rubio +14.5",
+          "margin": 14.48,
+          "votesRep": 139933,
+          "votesDem": 104531,
+          "votesTotal": 256674
+        },
+        "Wakulla12": {
+          "color": "#BF1D29",
+          "label": "Rubio +33.6",
+          "margin": 33.65,
+          "votesRep": 9773,
+          "votesDem": 4852,
+          "votesTotal": 15198
+        },
+        "Walton12": {
+          "color": "#BF1D29",
+          "label": "Rubio +60.5",
+          "margin": 60.48,
+          "votesRep": 25722,
+          "votesDem": 6334,
+          "votesTotal": 33338
+        },
+        "Washington12": {
+          "color": "#BF1D29",
+          "label": "Rubio +57.7",
+          "margin": 57.71,
+          "votesRep": 8323,
+          "votesDem": 2232,
+          "votesTotal": 11030
+        }
+      }
+    }
+  ]
+}

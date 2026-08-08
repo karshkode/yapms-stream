@@ -1,0 +1,2178 @@
+{
+  "stateFips": "46",
+  "stateName": "South Dakota",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Kristi Noem",
+      "candDem": "Jamie Smith",
+      "shortRep": "Noem",
+      "shortDem": "Smith",
+      "partisan": true,
+      "margin": 27.6,
+      "votesRep": 217035,
+      "votesDem": 123148,
+      "votesTotal": 350166,
+      "regions": {
+        "Aurora46": {
+          "color": "#BF1D29",
+          "label": "Noem +51.8",
+          "margin": 51.78,
+          "votesRep": 894,
+          "votesDem": 284,
+          "votesTotal": 1214
+        },
+        "Beadle46": {
+          "color": "#BF1D29",
+          "label": "Noem +38.9",
+          "margin": 38.9,
+          "votesRep": 3901,
+          "votesDem": 1716,
+          "votesTotal": 5836
+        },
+        "Bennett46": {
+          "color": "#BF1D29",
+          "label": "Noem +25.4",
+          "margin": 25.43,
+          "votesRep": 619,
+          "votesDem": 368,
+          "votesTotal": 1025
+        },
+        "Bon Homme46": {
+          "color": "#BF1D29",
+          "label": "Noem +48.2",
+          "margin": 48.17,
+          "votesRep": 1858,
+          "votesDem": 650,
+          "votesTotal": 2562
+        },
+        "Brookings46": {
+          "color": "#BF1D29",
+          "label": "Noem +15.6",
+          "margin": 15.56,
+          "votesRep": 6974,
+          "votesDem": 5096,
+          "votesTotal": 12427
+        },
+        "Brown46": {
+          "color": "#BF1D29",
+          "label": "Noem +24.1",
+          "margin": 24.14,
+          "votesRep": 8456,
+          "votesDem": 5167,
+          "votesTotal": 13964
+        },
+        "Brule46": {
+          "color": "#BF1D29",
+          "label": "Noem +42.6",
+          "margin": 42.59,
+          "votesRep": 1463,
+          "votesDem": 589,
+          "votesTotal": 2109
+        },
+        "Buffalo46": {
+          "color": "#1C408C",
+          "label": "Smith +23.8",
+          "margin": -23.81,
+          "votesRep": 144,
+          "votesDem": 234,
+          "votesTotal": 397
+        },
+        "Butte46": {
+          "color": "#BF1D29",
+          "label": "Noem +59.2",
+          "margin": 59.2,
+          "votesRep": 3211,
+          "votesDem": 823,
+          "votesTotal": 4186
+        },
+        "Campbell46": {
+          "color": "#BF1D29",
+          "label": "Noem +71.6",
+          "margin": 71.56,
+          "votesRep": 561,
+          "votesDem": 93,
+          "votesTotal": 667
+        },
+        "Charles Mix46": {
+          "color": "#BF1D29",
+          "label": "Noem +44.1",
+          "margin": 44.07,
+          "votesRep": 2187,
+          "votesDem": 849,
+          "votesTotal": 3091
+        },
+        "Clark46": {
+          "color": "#BF1D29",
+          "label": "Noem +56.4",
+          "margin": 56.39,
+          "votesRep": 1223,
+          "votesDem": 341,
+          "votesTotal": 1600
+        },
+        "Clay46": {
+          "color": "#1C408C",
+          "label": "Smith +11.4",
+          "margin": -11.37,
+          "votesRep": 2054,
+          "votesDem": 2581,
+          "votesTotal": 4745
+        },
+        "Codington46": {
+          "color": "#BF1D29",
+          "label": "Noem +39.6",
+          "margin": 39.61,
+          "votesRep": 7520,
+          "votesDem": 3253,
+          "votesTotal": 11080
+        },
+        "Corson46": {
+          "color": "#BF1D29",
+          "label": "Noem +15.9",
+          "margin": 15.87,
+          "votesRep": 522,
+          "votesDem": 379,
+          "votesTotal": 928
+        },
+        "Custer46": {
+          "color": "#BF1D29",
+          "label": "Noem +47.5",
+          "margin": 47.5,
+          "votesRep": 3633,
+          "votesDem": 1293,
+          "votesTotal": 5077
+        },
+        "Davison46": {
+          "color": "#BF1D29",
+          "label": "Noem +38.3",
+          "margin": 38.32,
+          "votesRep": 4887,
+          "votesDem": 2179,
+          "votesTotal": 7239
+        },
+        "Day46": {
+          "color": "#BF1D29",
+          "label": "Noem +29.2",
+          "margin": 29.21,
+          "votesRep": 1599,
+          "votesDem": 876,
+          "votesTotal": 2521
+        },
+        "Deuel46": {
+          "color": "#BF1D29",
+          "label": "Noem +52.7",
+          "margin": 52.71,
+          "votesRep": 1479,
+          "votesDem": 458,
+          "votesTotal": 1991
+        },
+        "Dewey46": {
+          "color": "#1C408C",
+          "label": "Smith +13.1",
+          "margin": -13.12,
+          "votesRep": 662,
+          "votesDem": 862,
+          "votesTotal": 1574
+        },
+        "Douglas46": {
+          "color": "#BF1D29",
+          "label": "Noem +74.2",
+          "margin": 74.25,
+          "votesRep": 1272,
+          "votesDem": 188,
+          "votesTotal": 1484
+        },
+        "Edmunds46": {
+          "color": "#BF1D29",
+          "label": "Noem +58.5",
+          "margin": 58.49,
+          "votesRep": 1321,
+          "votesDem": 346,
+          "votesTotal": 1701
+        },
+        "Fall River46": {
+          "color": "#BF1D29",
+          "label": "Noem +51.4",
+          "margin": 51.44,
+          "votesRep": 2679,
+          "votesDem": 859,
+          "votesTotal": 3668
+        },
+        "Faulk46": {
+          "color": "#BF1D29",
+          "label": "Noem +64.4",
+          "margin": 64.39,
+          "votesRep": 771,
+          "votesDem": 167,
+          "votesTotal": 955
+        },
+        "Grant46": {
+          "color": "#BF1D29",
+          "label": "Noem +47.4",
+          "margin": 47.44,
+          "votesRep": 2328,
+          "votesDem": 830,
+          "votesTotal": 3215
+        },
+        "Gregory46": {
+          "color": "#BF1D29",
+          "label": "Noem +60.9",
+          "margin": 60.91,
+          "votesRep": 1618,
+          "votesDem": 393,
+          "votesTotal": 2054
+        },
+        "Haakon46": {
+          "color": "#BF1D29",
+          "label": "Noem +83.2",
+          "margin": 83.16,
+          "votesRep": 892,
+          "votesDem": 82,
+          "votesTotal": 987
+        },
+        "Hamlin46": {
+          "color": "#BF1D29",
+          "label": "Noem +58.9",
+          "margin": 58.89,
+          "votesRep": 2118,
+          "votesDem": 548,
+          "votesTotal": 2730
+        },
+        "Hand46": {
+          "color": "#BF1D29",
+          "label": "Noem +60.5",
+          "margin": 60.46,
+          "votesRep": 1177,
+          "votesDem": 290,
+          "votesTotal": 1502
+        },
+        "Hanson46": {
+          "color": "#BF1D29",
+          "label": "Noem +58.1",
+          "margin": 58.08,
+          "votesRep": 1267,
+          "votesDem": 336,
+          "votesTotal": 1632
+        },
+        "Harding46": {
+          "color": "#BF1D29",
+          "label": "Noem +90.1",
+          "margin": 90.08,
+          "votesRep": 632,
+          "votesDem": 33,
+          "votesTotal": 677
+        },
+        "Hughes46": {
+          "color": "#BF1D29",
+          "label": "Noem +26.6",
+          "margin": 26.57,
+          "votesRep": 4571,
+          "votesDem": 2652,
+          "votesTotal": 7447
+        },
+        "Hutchinson46": {
+          "color": "#BF1D29",
+          "label": "Noem +61.2",
+          "margin": 61.17,
+          "votesRep": 2507,
+          "votesDem": 604,
+          "votesTotal": 3174
+        },
+        "Hyde46": {
+          "color": "#BF1D29",
+          "label": "Noem +62.5",
+          "margin": 62.54,
+          "votesRep": 460,
+          "votesDem": 106,
+          "votesTotal": 575
+        },
+        "Jackson46": {
+          "color": "#BF1D29",
+          "label": "Noem +38.0",
+          "margin": 37.98,
+          "votesRep": 623,
+          "votesDem": 280,
+          "votesTotal": 919
+        },
+        "Jerauld46": {
+          "color": "#BF1D29",
+          "label": "Noem +43.5",
+          "margin": 43.47,
+          "votesRep": 604,
+          "votesDem": 238,
+          "votesTotal": 866
+        },
+        "Jones46": {
+          "color": "#BF1D29",
+          "label": "Noem +72.1",
+          "margin": 72.11,
+          "votesRep": 395,
+          "votesDem": 64,
+          "votesTotal": 472
+        },
+        "Kingsbury46": {
+          "color": "#BF1D29",
+          "label": "Noem +44.3",
+          "margin": 44.28,
+          "votesRep": 1792,
+          "votesDem": 692,
+          "votesTotal": 2551
+        },
+        "Lake46": {
+          "color": "#BF1D29",
+          "label": "Noem +29.1",
+          "margin": 29.09,
+          "votesRep": 3131,
+          "votesDem": 1720,
+          "votesTotal": 4966
+        },
+        "Lawrence46": {
+          "color": "#BF1D29",
+          "label": "Noem +31.5",
+          "margin": 31.45,
+          "votesRep": 7749,
+          "votesDem": 4041,
+          "votesTotal": 12246
+        },
+        "Lincoln46": {
+          "color": "#BF1D29",
+          "label": "Noem +22.1",
+          "margin": 22.14,
+          "votesRep": 16828,
+          "votesDem": 10727,
+          "votesTotal": 28161
+        },
+        "Lyman46": {
+          "color": "#BF1D29",
+          "label": "Noem +36.9",
+          "margin": 36.92,
+          "votesRep": 879,
+          "votesDem": 405,
+          "votesTotal": 1318
+        },
+        "Marshall46": {
+          "color": "#BF1D29",
+          "label": "Noem +20.8",
+          "margin": 20.75,
+          "votesRep": 1123,
+          "votesDem": 737,
+          "votesTotal": 1890
+        },
+        "McCook46": {
+          "color": "#BF1D29",
+          "label": "Noem +49.5",
+          "margin": 49.52,
+          "votesRep": 1851,
+          "votesDem": 625,
+          "votesTotal": 2547
+        },
+        "McPherson46": {
+          "color": "#BF1D29",
+          "label": "Noem +69.0",
+          "margin": 69.02,
+          "votesRep": 911,
+          "votesDem": 167,
+          "votesTotal": 1100
+        },
+        "Meade46": {
+          "color": "#BF1D29",
+          "label": "Noem +49.2",
+          "margin": 49.21,
+          "votesRep": 8482,
+          "votesDem": 2887,
+          "votesTotal": 11870
+        },
+        "Mellette46": {
+          "color": "#BF1D29",
+          "label": "Noem +28.7",
+          "margin": 28.67,
+          "votesRep": 386,
+          "votesDem": 214,
+          "votesTotal": 630
+        },
+        "Miner46": {
+          "color": "#BF1D29",
+          "label": "Noem +49.4",
+          "margin": 49.39,
+          "votesRep": 732,
+          "votesDem": 248,
+          "votesTotal": 1007
+        },
+        "Minnehaha46": {
+          "color": "#FF5865",
+          "label": "Noem +8.1",
+          "margin": 8.07,
+          "votesRep": 39234,
+          "votesDem": 33376,
+          "votesTotal": 74682
+        },
+        "Moody46": {
+          "color": "#BF1D29",
+          "label": "Noem +29.4",
+          "margin": 29.4,
+          "votesRep": 1668,
+          "votesDem": 910,
+          "votesTotal": 2649
+        },
+        "Oglala Lakota46": {
+          "color": "#1C408C",
+          "label": "Smith +81.5",
+          "margin": -81.53,
+          "votesRep": 221,
+          "votesDem": 2172,
+          "votesTotal": 2480
+        },
+        "Pennington46": {
+          "color": "#BF1D29",
+          "label": "Noem +26.0",
+          "margin": 25.96,
+          "votesRep": 27586,
+          "votesDem": 16215,
+          "votesTotal": 45388
+        },
+        "Perkins46": {
+          "color": "#BF1D29",
+          "label": "Noem +73.2",
+          "margin": 73.16,
+          "votesRep": 1142,
+          "votesDem": 177,
+          "votesTotal": 1372
+        },
+        "Potter46": {
+          "color": "#BF1D29",
+          "label": "Noem +65.3",
+          "margin": 65.34,
+          "votesRep": 892,
+          "votesDem": 187,
+          "votesTotal": 1099
+        },
+        "Roberts46": {
+          "color": "#BF1D29",
+          "label": "Noem +24.4",
+          "margin": 24.4,
+          "votesRep": 2164,
+          "votesDem": 1315,
+          "votesTotal": 3565
+        },
+        "Sanborn46": {
+          "color": "#BF1D29",
+          "label": "Noem +54.0",
+          "margin": 54.02,
+          "votesRep": 757,
+          "votesDem": 226,
+          "votesTotal": 1004
+        },
+        "Spink46": {
+          "color": "#BF1D29",
+          "label": "Noem +41.1",
+          "margin": 41.09,
+          "votesRep": 1832,
+          "votesDem": 765,
+          "votesTotal": 2670
+        },
+        "Stanley46": {
+          "color": "#BF1D29",
+          "label": "Noem +42.1",
+          "margin": 42.11,
+          "votesRep": 999,
+          "votesDem": 407,
+          "votesTotal": 1447
+        },
+        "Sully46": {
+          "color": "#BF1D29",
+          "label": "Noem +55.9",
+          "margin": 55.87,
+          "votesRep": 597,
+          "votesDem": 169,
+          "votesTotal": 788
+        },
+        "Todd46": {
+          "color": "#1C408C",
+          "label": "Smith +56.4",
+          "margin": -56.45,
+          "votesRep": 402,
+          "votesDem": 1444,
+          "votesTotal": 1926
+        },
+        "Tripp46": {
+          "color": "#BF1D29",
+          "label": "Noem +67.5",
+          "margin": 67.46,
+          "votesRep": 1873,
+          "votesDem": 364,
+          "votesTotal": 2268
+        },
+        "Turner46": {
+          "color": "#BF1D29",
+          "label": "Noem +51.0",
+          "margin": 51.03,
+          "votesRep": 2834,
+          "votesDem": 919,
+          "votesTotal": 3865
+        },
+        "Union46": {
+          "color": "#BF1D29",
+          "label": "Noem +43.8",
+          "margin": 43.75,
+          "votesRep": 4723,
+          "votesDem": 1848,
+          "votesTotal": 6740
+        },
+        "Walworth46": {
+          "color": "#BF1D29",
+          "label": "Noem +57.1",
+          "margin": 57.06,
+          "votesRep": 1573,
+          "votesDem": 430,
+          "votesTotal": 2053
+        },
+        "Yankton46": {
+          "color": "#BF1D29",
+          "label": "Noem +22.1",
+          "margin": 22.07,
+          "votesRep": 5247,
+          "votesDem": 3350,
+          "votesTotal": 8910
+        },
+        "Ziebach46": {
+          "color": "#FF5865",
+          "label": "Noem +6.3",
+          "margin": 6.32,
+          "votesRep": 345,
+          "votesDem": 304,
+          "votesTotal": 683
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "John Thune",
+      "candDem": "Brian Bengs",
+      "shortRep": "Thune",
+      "shortDem": "Bengs",
+      "partisan": true,
+      "margin": 45.39,
+      "votesRep": 242316,
+      "votesDem": 91007,
+      "votesTotal": 348020,
+      "regions": {
+        "Aurora46": {
+          "color": "#BF1D29",
+          "label": "Thune +70.4",
+          "margin": 70.38,
+          "votesRep": 978,
+          "votesDem": 170,
+          "votesTotal": 1214
+        },
+        "Beadle46": {
+          "color": "#BF1D29",
+          "label": "Thune +57.1",
+          "margin": 57.06,
+          "votesRep": 4441,
+          "votesDem": 1214,
+          "votesTotal": 5837
+        },
+        "Bennett46": {
+          "color": "#BF1D29",
+          "label": "Thune +39.7",
+          "margin": 39.73,
+          "votesRep": 684,
+          "votesDem": 295,
+          "votesTotal": 1020
+        },
+        "Bon Homme46": {
+          "color": "#BF1D29",
+          "label": "Thune +63.2",
+          "margin": 63.22,
+          "votesRep": 2010,
+          "votesDem": 453,
+          "votesTotal": 2554
+        },
+        "Brookings46": {
+          "color": "#BF1D29",
+          "label": "Thune +35.4",
+          "margin": 35.35,
+          "votesRep": 7990,
+          "votesDem": 3816,
+          "votesTotal": 12351
+        },
+        "Brown46": {
+          "color": "#BF1D29",
+          "label": "Thune +42.2",
+          "margin": 42.2,
+          "votesRep": 9577,
+          "votesDem": 3893,
+          "votesTotal": 13921
+        },
+        "Brule46": {
+          "color": "#BF1D29",
+          "label": "Thune +57.2",
+          "margin": 57.22,
+          "votesRep": 1573,
+          "votesDem": 428,
+          "votesTotal": 2098
+        },
+        "Buffalo46": {
+          "color": "#577CCC",
+          "label": "Bengs +7.7",
+          "margin": -7.73,
+          "votesRep": 173,
+          "votesDem": 202,
+          "votesTotal": 390
+        },
+        "Butte46": {
+          "color": "#BF1D29",
+          "label": "Thune +69.1",
+          "margin": 69.12,
+          "votesRep": 3269,
+          "votesDem": 597,
+          "votesTotal": 4158
+        },
+        "Campbell46": {
+          "color": "#BF1D29",
+          "label": "Thune +79.3",
+          "margin": 79.28,
+          "votesRep": 571,
+          "votesDem": 66,
+          "votesTotal": 663
+        },
+        "Charles Mix46": {
+          "color": "#BF1D29",
+          "label": "Thune +55.4",
+          "margin": 55.44,
+          "votesRep": 2323,
+          "votesDem": 666,
+          "votesTotal": 3089
+        },
+        "Clark46": {
+          "color": "#BF1D29",
+          "label": "Thune +70.1",
+          "margin": 70.07,
+          "votesRep": 1307,
+          "votesDem": 230,
+          "votesTotal": 1593
+        },
+        "Clay46": {
+          "color": "#BF1D29",
+          "label": "Thune +10.5",
+          "margin": 10.52,
+          "votesRep": 2522,
+          "votesDem": 2042,
+          "votesTotal": 4713
+        },
+        "Codington46": {
+          "color": "#BF1D29",
+          "label": "Thune +57.0",
+          "margin": 57.04,
+          "votesRep": 8279,
+          "votesDem": 2265,
+          "votesTotal": 11004
+        },
+        "Corson46": {
+          "color": "#BF1D29",
+          "label": "Thune +23.0",
+          "margin": 23.04,
+          "votesRep": 534,
+          "votesDem": 334,
+          "votesTotal": 925
+        },
+        "Custer46": {
+          "color": "#BF1D29",
+          "label": "Thune +57.4",
+          "margin": 57.39,
+          "votesRep": 3756,
+          "votesDem": 1017,
+          "votesTotal": 5040
+        },
+        "Davison46": {
+          "color": "#BF1D29",
+          "label": "Thune +56.1",
+          "margin": 56.11,
+          "votesRep": 5420,
+          "votesDem": 1524,
+          "votesTotal": 7210
+        },
+        "Day46": {
+          "color": "#BF1D29",
+          "label": "Thune +49.8",
+          "margin": 49.79,
+          "votesRep": 1796,
+          "votesDem": 602,
+          "votesTotal": 2514
+        },
+        "Deuel46": {
+          "color": "#BF1D29",
+          "label": "Thune +63.5",
+          "margin": 63.46,
+          "votesRep": 1548,
+          "votesDem": 346,
+          "votesTotal": 1986
+        },
+        "Dewey46": {
+          "color": "#FF8B98",
+          "label": "Thune +3.4",
+          "margin": 3.36,
+          "votesRep": 770,
+          "votesDem": 720,
+          "votesTotal": 1560
+        },
+        "Douglas46": {
+          "color": "#BF1D29",
+          "label": "Thune +83.6",
+          "margin": 83.58,
+          "votesRep": 1308,
+          "votesDem": 117,
+          "votesTotal": 1467
+        },
+        "Edmunds46": {
+          "color": "#BF1D29",
+          "label": "Thune +69.1",
+          "margin": 69.11,
+          "votesRep": 1385,
+          "votesDem": 253,
+          "votesTotal": 1687
+        },
+        "Fall River46": {
+          "color": "#BF1D29",
+          "label": "Thune +61.1",
+          "margin": 61.1,
+          "votesRep": 2754,
+          "votesDem": 665,
+          "votesTotal": 3641
+        },
+        "Faulk46": {
+          "color": "#BF1D29",
+          "label": "Thune +73.3",
+          "margin": 73.33,
+          "votesRep": 780,
+          "votesDem": 120,
+          "votesTotal": 947
+        },
+        "Grant46": {
+          "color": "#BF1D29",
+          "label": "Thune +61.1",
+          "margin": 61.14,
+          "votesRep": 2492,
+          "votesDem": 601,
+          "votesTotal": 3198
+        },
+        "Gregory46": {
+          "color": "#BF1D29",
+          "label": "Thune +71.3",
+          "margin": 71.27,
+          "votesRep": 1663,
+          "votesDem": 279,
+          "votesTotal": 2024
+        },
+        "Haakon46": {
+          "color": "#BF1D29",
+          "label": "Thune +87.8",
+          "margin": 87.83,
+          "votesRep": 864,
+          "votesDem": 56,
+          "votesTotal": 970
+        },
+        "Hamlin46": {
+          "color": "#BF1D29",
+          "label": "Thune +71.6",
+          "margin": 71.63,
+          "votesRep": 2214,
+          "votesDem": 366,
+          "votesTotal": 2703
+        },
+        "Hand46": {
+          "color": "#BF1D29",
+          "label": "Thune +72.5",
+          "margin": 72.5,
+          "votesRep": 1242,
+          "votesDem": 198,
+          "votesTotal": 1510
+        },
+        "Hanson46": {
+          "color": "#BF1D29",
+          "label": "Thune +67.8",
+          "margin": 67.79,
+          "votesRep": 1323,
+          "votesDem": 254,
+          "votesTotal": 1629
+        },
+        "Harding46": {
+          "color": "#BF1D29",
+          "label": "Thune +93.0",
+          "margin": 92.98,
+          "votesRep": 605,
+          "votesDem": 22,
+          "votesTotal": 668
+        },
+        "Hughes46": {
+          "color": "#BF1D29",
+          "label": "Thune +52.9",
+          "margin": 52.92,
+          "votesRep": 5467,
+          "votesDem": 1683,
+          "votesTotal": 7451
+        },
+        "Hutchinson46": {
+          "color": "#BF1D29",
+          "label": "Thune +72.5",
+          "margin": 72.53,
+          "votesRep": 2619,
+          "votesDem": 417,
+          "votesTotal": 3142
+        },
+        "Hyde46": {
+          "color": "#BF1D29",
+          "label": "Thune +72.2",
+          "margin": 72.24,
+          "votesRep": 484,
+          "votesDem": 78,
+          "votesTotal": 580
+        },
+        "Jackson46": {
+          "color": "#BF1D29",
+          "label": "Thune +48.3",
+          "margin": 48.32,
+          "votesRep": 617,
+          "votesDem": 215,
+          "votesTotal": 899
+        },
+        "Jerauld46": {
+          "color": "#BF1D29",
+          "label": "Thune +62.9",
+          "margin": 62.89,
+          "votesRep": 676,
+          "votesDem": 154,
+          "votesTotal": 864
+        },
+        "Jones46": {
+          "color": "#BF1D29",
+          "label": "Thune +78.6",
+          "margin": 78.55,
+          "votesRep": 383,
+          "votesDem": 46,
+          "votesTotal": 465
+        },
+        "Kingsbury46": {
+          "color": "#BF1D29",
+          "label": "Thune +63.9",
+          "margin": 63.87,
+          "votesRep": 2000,
+          "votesDem": 441,
+          "votesTotal": 2530
+        },
+        "Lake46": {
+          "color": "#BF1D29",
+          "label": "Thune +52.1",
+          "margin": 52.08,
+          "votesRep": 3615,
+          "votesDem": 1139,
+          "votesTotal": 4918
+        },
+        "Lawrence46": {
+          "color": "#BF1D29",
+          "label": "Thune +46.8",
+          "margin": 46.77,
+          "votesRep": 8439,
+          "votesDem": 3061,
+          "votesTotal": 12146
+        },
+        "Lincoln46": {
+          "color": "#BF1D29",
+          "label": "Thune +45.6",
+          "margin": 45.58,
+          "votesRep": 19703,
+          "votesDem": 7365,
+          "votesTotal": 27980
+        },
+        "Lyman46": {
+          "color": "#BF1D29",
+          "label": "Thune +53.0",
+          "margin": 53,
+          "votesRep": 944,
+          "votesDem": 290,
+          "votesTotal": 1299
+        },
+        "Marshall46": {
+          "color": "#BF1D29",
+          "label": "Thune +40.0",
+          "margin": 40.01,
+          "votesRep": 1272,
+          "votesDem": 545,
+          "votesTotal": 1879
+        },
+        "McCook46": {
+          "color": "#BF1D29",
+          "label": "Thune +66.6",
+          "margin": 66.57,
+          "votesRep": 2033,
+          "votesDem": 408,
+          "votesTotal": 2533
+        },
+        "McPherson46": {
+          "color": "#BF1D29",
+          "label": "Thune +79.7",
+          "margin": 79.66,
+          "votesRep": 954,
+          "votesDem": 108,
+          "votesTotal": 1102
+        },
+        "Meade46": {
+          "color": "#BF1D29",
+          "label": "Thune +61.4",
+          "margin": 61.44,
+          "votesRep": 8934,
+          "votesDem": 2134,
+          "votesTotal": 11770
+        },
+        "Mellette46": {
+          "color": "#BF1D29",
+          "label": "Thune +43.1",
+          "margin": 43.1,
+          "votesRep": 415,
+          "votesDem": 165,
+          "votesTotal": 624
+        },
+        "Miner46": {
+          "color": "#BF1D29",
+          "label": "Thune +66.9",
+          "margin": 66.94,
+          "votesRep": 813,
+          "votesDem": 161,
+          "votesTotal": 1004
+        },
+        "Minnehaha46": {
+          "color": "#BF1D29",
+          "label": "Thune +30.5",
+          "margin": 30.54,
+          "votesRep": 46551,
+          "votesDem": 24772,
+          "votesTotal": 74144
+        },
+        "Moody46": {
+          "color": "#BF1D29",
+          "label": "Thune +45.2",
+          "margin": 45.2,
+          "votesRep": 1839,
+          "votesDem": 694,
+          "votesTotal": 2642
+        },
+        "Oglala Lakota46": {
+          "color": "#1C408C",
+          "label": "Bengs +63.5",
+          "margin": -63.48,
+          "votesRep": 422,
+          "votesDem": 1889,
+          "votesTotal": 2440
+        },
+        "Pennington46": {
+          "color": "#BF1D29",
+          "label": "Thune +41.9",
+          "margin": 41.92,
+          "votesRep": 30398,
+          "votesDem": 12441,
+          "votesTotal": 45153
+        },
+        "Perkins46": {
+          "color": "#BF1D29",
+          "label": "Thune +79.1",
+          "margin": 79.12,
+          "votesRep": 1141,
+          "votesDem": 133,
+          "votesTotal": 1369
+        },
+        "Potter46": {
+          "color": "#BF1D29",
+          "label": "Thune +76.8",
+          "margin": 76.79,
+          "votesRep": 937,
+          "votesDem": 123,
+          "votesTotal": 1093
+        },
+        "Roberts46": {
+          "color": "#BF1D29",
+          "label": "Thune +40.9",
+          "margin": 40.9,
+          "votesRep": 2384,
+          "votesDem": 1000,
+          "votesTotal": 3531
+        },
+        "Sanborn46": {
+          "color": "#BF1D29",
+          "label": "Thune +68.4",
+          "margin": 68.41,
+          "votesRep": 821,
+          "votesDem": 154,
+          "votesTotal": 1002
+        },
+        "Spink46": {
+          "color": "#BF1D29",
+          "label": "Thune +57.6",
+          "margin": 57.56,
+          "votesRep": 2027,
+          "votesDem": 546,
+          "votesTotal": 2664
+        },
+        "Stanley46": {
+          "color": "#BF1D29",
+          "label": "Thune +64.6",
+          "margin": 64.57,
+          "votesRep": 1138,
+          "votesDem": 245,
+          "votesTotal": 1447
+        },
+        "Sully46": {
+          "color": "#BF1D29",
+          "label": "Thune +69.0",
+          "margin": 69.02,
+          "votesRep": 622,
+          "votesDem": 114,
+          "votesTotal": 783
+        },
+        "Todd46": {
+          "color": "#1C408C",
+          "label": "Bengs +44.5",
+          "margin": -44.53,
+          "votesRep": 502,
+          "votesDem": 1308,
+          "votesTotal": 1911
+        },
+        "Tripp46": {
+          "color": "#BF1D29",
+          "label": "Thune +75.2",
+          "margin": 75.24,
+          "votesRep": 1861,
+          "votesDem": 263,
+          "votesTotal": 2237
+        },
+        "Turner46": {
+          "color": "#BF1D29",
+          "label": "Thune +67.3",
+          "margin": 67.28,
+          "votesRep": 3078,
+          "votesDem": 602,
+          "votesTotal": 3848
+        },
+        "Union46": {
+          "color": "#BF1D29",
+          "label": "Thune +53.9",
+          "margin": 53.85,
+          "votesRep": 4991,
+          "votesDem": 1497,
+          "votesTotal": 6717
+        },
+        "Walworth46": {
+          "color": "#BF1D29",
+          "label": "Thune +69.1",
+          "margin": 69.06,
+          "votesRep": 1645,
+          "votesDem": 301,
+          "votesTotal": 2038
+        },
+        "Yankton46": {
+          "color": "#BF1D29",
+          "label": "Thune +42.2",
+          "margin": 42.16,
+          "votesRep": 6051,
+          "votesDem": 2462,
+          "votesTotal": 8853
+        },
+        "Ziebach46": {
+          "color": "#BF1D29",
+          "label": "Thune +23.3",
+          "margin": 23.3,
+          "votesRep": 389,
+          "votesDem": 242,
+          "votesTotal": 678
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Kristi Noem",
+      "candDem": "Billie Sutton",
+      "shortRep": "Noem",
+      "shortDem": "Sutton",
+      "partisan": true,
+      "margin": 3.45,
+      "votesRep": 172706,
+      "votesDem": 161171,
+      "votesTotal": 338715,
+      "regions": {
+        "Aurora46": {
+          "color": "#FF8B98",
+          "label": "Noem +3.0",
+          "margin": 2.96,
+          "votesRep": 644,
+          "votesDem": 607,
+          "votesTotal": 1280
+        },
+        "Beadle46": {
+          "color": "#FF5865",
+          "label": "Noem +5.8",
+          "margin": 5.82,
+          "votesRep": 3182,
+          "votesDem": 2832,
+          "votesTotal": 6108
+        },
+        "Bennett46": {
+          "color": "#FF8B98",
+          "label": "Noem +2.8",
+          "margin": 2.79,
+          "votesRep": 553,
+          "votesDem": 523,
+          "votesTotal": 1102
+        },
+        "Bon Homme46": {
+          "color": "#8AAFFF",
+          "label": "Sutton +3.9",
+          "margin": -3.87,
+          "votesRep": 1303,
+          "votesDem": 1408,
+          "votesTotal": 2747
+        },
+        "Brookings46": {
+          "color": "#577CCC",
+          "label": "Sutton +9.9",
+          "margin": -9.89,
+          "votesRep": 5225,
+          "votesDem": 6372,
+          "votesTotal": 11780
+        },
+        "Brown46": {
+          "color": "#8AAFFF",
+          "label": "Sutton +3.7",
+          "margin": -3.65,
+          "votesRep": 6821,
+          "votesDem": 7338,
+          "votesTotal": 14365
+        },
+        "Brule46": {
+          "color": "#FF5865",
+          "label": "Noem +5.3",
+          "margin": 5.35,
+          "votesRep": 1103,
+          "votesDem": 991,
+          "votesTotal": 2130
+        },
+        "Buffalo46": {
+          "color": "#1C408C",
+          "label": "Sutton +49.0",
+          "margin": -48.98,
+          "votesRep": 138,
+          "votesDem": 403,
+          "votesTotal": 548
+        },
+        "Butte46": {
+          "color": "#BF1D29",
+          "label": "Noem +34.0",
+          "margin": 33.99,
+          "votesRep": 2505,
+          "votesDem": 1234,
+          "votesTotal": 3808
+        },
+        "Campbell46": {
+          "color": "#BF1D29",
+          "label": "Noem +52.1",
+          "margin": 52.14,
+          "votesRep": 550,
+          "votesDem": 173,
+          "votesTotal": 732
+        },
+        "Charles Mix46": {
+          "color": "#577CCC",
+          "label": "Sutton +5.5",
+          "margin": -5.46,
+          "votesRep": 1661,
+          "votesDem": 1853,
+          "votesTotal": 3552
+        },
+        "Clark46": {
+          "color": "#FF5865",
+          "label": "Noem +6.7",
+          "margin": 6.74,
+          "votesRep": 879,
+          "votesDem": 768,
+          "votesTotal": 1664
+        },
+        "Clay46": {
+          "color": "#1C408C",
+          "label": "Sutton +32.4",
+          "margin": -32.39,
+          "votesRep": 1552,
+          "votesDem": 3039,
+          "votesTotal": 4644
+        },
+        "Codington46": {
+          "color": "#BF1D29",
+          "label": "Noem +11.1",
+          "margin": 11.06,
+          "votesRep": 5865,
+          "votesDem": 4697,
+          "votesTotal": 10693
+        },
+        "Corson46": {
+          "color": "#1C408C",
+          "label": "Sutton +22.0",
+          "margin": -22.05,
+          "votesRep": 426,
+          "votesDem": 667,
+          "votesTotal": 1110
+        },
+        "Custer46": {
+          "color": "#BF1D29",
+          "label": "Noem +28.6",
+          "margin": 28.64,
+          "votesRep": 2789,
+          "votesDem": 1547,
+          "votesTotal": 4409
+        },
+        "Davison46": {
+          "color": "#FF5865",
+          "label": "Noem +5.3",
+          "margin": 5.31,
+          "votesRep": 3779,
+          "votesDem": 3398,
+          "votesTotal": 7274
+        },
+        "Day46": {
+          "color": "#1C408C",
+          "label": "Sutton +11.8",
+          "margin": -11.83,
+          "votesRep": 1207,
+          "votesDem": 1531,
+          "votesTotal": 2777
+        },
+        "Deuel46": {
+          "color": "#FF5865",
+          "label": "Noem +8.2",
+          "margin": 8.22,
+          "votesRep": 1053,
+          "votesDem": 893,
+          "votesTotal": 1989
+        },
+        "Dewey46": {
+          "color": "#1C408C",
+          "label": "Sutton +56.9",
+          "margin": -56.88,
+          "votesRep": 393,
+          "votesDem": 1430,
+          "votesTotal": 1841
+        },
+        "Douglas46": {
+          "color": "#BF1D29",
+          "label": "Noem +51.0",
+          "margin": 51.05,
+          "votesRep": 1120,
+          "votesDem": 363,
+          "votesTotal": 1496
+        },
+        "Edmunds46": {
+          "color": "#BF1D29",
+          "label": "Noem +20.5",
+          "margin": 20.54,
+          "votesRep": 1018,
+          "votesDem": 671,
+          "votesTotal": 1708
+        },
+        "Fall River46": {
+          "color": "#BF1D29",
+          "label": "Noem +31.8",
+          "margin": 31.82,
+          "votesRep": 2059,
+          "votesDem": 1065,
+          "votesTotal": 3192
+        },
+        "Faulk46": {
+          "color": "#BF1D29",
+          "label": "Noem +26.9",
+          "margin": 26.93,
+          "votesRep": 674,
+          "votesDem": 388,
+          "votesTotal": 1075
+        },
+        "Grant46": {
+          "color": "#BF1D29",
+          "label": "Noem +12.4",
+          "margin": 12.37,
+          "votesRep": 1780,
+          "votesDem": 1388,
+          "votesTotal": 3220
+        },
+        "Gregory46": {
+          "color": "#FF8B98",
+          "label": "Noem +3.7",
+          "margin": 3.65,
+          "votesRep": 1107,
+          "votesDem": 1029,
+          "votesTotal": 2153
+        },
+        "Haakon46": {
+          "color": "#BF1D29",
+          "label": "Noem +57.8",
+          "margin": 57.85,
+          "votesRep": 734,
+          "votesDem": 196,
+          "votesTotal": 945
+        },
+        "Hamlin46": {
+          "color": "#BF1D29",
+          "label": "Noem +31.3",
+          "margin": 31.3,
+          "votesRep": 1764,
+          "votesDem": 923,
+          "votesTotal": 2716
+        },
+        "Hand46": {
+          "color": "#BF1D29",
+          "label": "Noem +16.4",
+          "margin": 16.35,
+          "votesRep": 950,
+          "votesDem": 683,
+          "votesTotal": 1662
+        },
+        "Hanson46": {
+          "color": "#BF1D29",
+          "label": "Noem +18.7",
+          "margin": 18.72,
+          "votesRep": 945,
+          "votesDem": 647,
+          "votesTotal": 1610
+        },
+        "Harding46": {
+          "color": "#BF1D29",
+          "label": "Noem +48.7",
+          "margin": 48.75,
+          "votesRep": 505,
+          "votesDem": 174,
+          "votesTotal": 686
+        },
+        "Hughes46": {
+          "color": "#577CCC",
+          "label": "Sutton +5.0",
+          "margin": -5,
+          "votesRep": 3749,
+          "votesDem": 4144,
+          "votesTotal": 8007
+        },
+        "Hutchinson46": {
+          "color": "#BF1D29",
+          "label": "Noem +27.7",
+          "margin": 27.65,
+          "votesRep": 2082,
+          "votesDem": 1180,
+          "votesTotal": 3290
+        },
+        "Hyde46": {
+          "color": "#BF1D29",
+          "label": "Noem +24.3",
+          "margin": 24.27,
+          "votesRep": 407,
+          "votesDem": 248,
+          "votesTotal": 660
+        },
+        "Jackson46": {
+          "color": "#FF5865",
+          "label": "Noem +6.1",
+          "margin": 6.1,
+          "votesRep": 513,
+          "votesDem": 454,
+          "votesTotal": 987
+        },
+        "Jerauld46": {
+          "color": "#FF8B98",
+          "label": "Noem +4.9",
+          "margin": 4.94,
+          "votesRep": 478,
+          "votesDem": 433,
+          "votesTotal": 923
+        },
+        "Jones46": {
+          "color": "#BF1D29",
+          "label": "Noem +35.2",
+          "margin": 35.21,
+          "votesRep": 361,
+          "votesDem": 173,
+          "votesTotal": 546
+        },
+        "Kingsbury46": {
+          "color": "#FF5865",
+          "label": "Noem +8.0",
+          "margin": 7.95,
+          "votesRep": 1303,
+          "votesDem": 1111,
+          "votesTotal": 2455
+        },
+        "Lake46": {
+          "color": "#8AAFFF",
+          "label": "Sutton +3.6",
+          "margin": -3.61,
+          "votesRep": 2483,
+          "votesDem": 2669,
+          "votesTotal": 5207
+        },
+        "Lawrence46": {
+          "color": "#BF1D29",
+          "label": "Noem +12.3",
+          "margin": 12.28,
+          "votesRep": 5984,
+          "votesDem": 4675,
+          "votesTotal": 10898
+        },
+        "Lincoln46": {
+          "color": "#FF5865",
+          "label": "Noem +7.4",
+          "margin": 7.44,
+          "votesRep": 12894,
+          "votesDem": 11109,
+          "votesTotal": 24206
+        },
+        "Lyman46": {
+          "color": "#CF8980",
+          "label": "Noem +0.7",
+          "margin": 0.66,
+          "votesRep": 691,
+          "votesDem": 682,
+          "votesTotal": 1400
+        },
+        "Marshall46": {
+          "color": "#1C408C",
+          "label": "Sutton +12.3",
+          "margin": -12.33,
+          "votesRep": 853,
+          "votesDem": 1093,
+          "votesTotal": 1977
+        },
+        "McCook46": {
+          "color": "#BF1D29",
+          "label": "Noem +11.9",
+          "margin": 11.88,
+          "votesRep": 1375,
+          "votesDem": 1083,
+          "votesTotal": 2497
+        },
+        "McPherson46": {
+          "color": "#BF1D29",
+          "label": "Noem +40.5",
+          "margin": 40.46,
+          "votesRep": 729,
+          "votesDem": 309,
+          "votesTotal": 1054
+        },
+        "Meade46": {
+          "color": "#BF1D29",
+          "label": "Noem +28.6",
+          "margin": 28.62,
+          "votesRep": 6413,
+          "votesDem": 3559,
+          "votesTotal": 10228
+        },
+        "Mellette46": {
+          "color": "#1C408C",
+          "label": "Sutton +13.8",
+          "margin": -13.83,
+          "votesRep": 299,
+          "votesDem": 395,
+          "votesTotal": 711
+        },
+        "Miner46": {
+          "color": "#8AAFFF",
+          "label": "Sutton +4.3",
+          "margin": -4.3,
+          "votesRep": 523,
+          "votesDem": 570,
+          "votesTotal": 1105
+        },
+        "Minnehaha46": {
+          "color": "#577CCC",
+          "label": "Sutton +7.2",
+          "margin": -7.24,
+          "votesRep": 32149,
+          "votesDem": 37167,
+          "votesTotal": 70182
+        },
+        "Moody46": {
+          "color": "#8AAFFF",
+          "label": "Sutton +4.6",
+          "margin": -4.59,
+          "votesRep": 1340,
+          "votesDem": 1469,
+          "votesTotal": 2853
+        },
+        "Oglala Lakota46": {
+          "color": "#1C408C",
+          "label": "Sutton +85.7",
+          "margin": -85.7,
+          "votesRep": 214,
+          "votesDem": 2778,
+          "votesTotal": 3036
+        },
+        "Pennington46": {
+          "color": "#BF1D29",
+          "label": "Noem +12.1",
+          "margin": 12.11,
+          "votesRep": 22944,
+          "votesDem": 17988,
+          "votesTotal": 41670
+        },
+        "Perkins46": {
+          "color": "#BF1D29",
+          "label": "Noem +44.3",
+          "margin": 44.28,
+          "votesRep": 953,
+          "votesDem": 368,
+          "votesTotal": 1344
+        },
+        "Potter46": {
+          "color": "#BF1D29",
+          "label": "Noem +37.5",
+          "margin": 37.52,
+          "votesRep": 821,
+          "votesDem": 373,
+          "votesTotal": 1209
+        },
+        "Roberts46": {
+          "color": "#1C408C",
+          "label": "Sutton +11.3",
+          "margin": -11.31,
+          "votesRep": 1643,
+          "votesDem": 2062,
+          "votesTotal": 3745
+        },
+        "Sanborn46": {
+          "color": "#BF1D29",
+          "label": "Noem +17.2",
+          "margin": 17.19,
+          "votesRep": 593,
+          "votesDem": 419,
+          "votesTotal": 1028
+        },
+        "Spink46": {
+          "color": "#949BB3",
+          "label": "Sutton +0.6",
+          "margin": -0.65,
+          "votesRep": 1376,
+          "votesDem": 1394,
+          "votesTotal": 2807
+        },
+        "Stanley46": {
+          "color": "#FF8B98",
+          "label": "Noem +4.0",
+          "margin": 3.96,
+          "votesRep": 762,
+          "votesDem": 704,
+          "votesTotal": 1487
+        },
+        "Sully46": {
+          "color": "#BF1D29",
+          "label": "Noem +25.6",
+          "margin": 25.63,
+          "votesRep": 500,
+          "votesDem": 296,
+          "votesTotal": 812
+        },
+        "Todd46": {
+          "color": "#1C408C",
+          "label": "Sutton +64.9",
+          "margin": -64.88,
+          "votesRep": 390,
+          "votesDem": 1831,
+          "votesTotal": 2241
+        },
+        "Tripp46": {
+          "color": "#BF1D29",
+          "label": "Noem +16.6",
+          "margin": 16.59,
+          "votesRep": 1430,
+          "votesDem": 1023,
+          "votesTotal": 2489
+        },
+        "Turner46": {
+          "color": "#BF1D29",
+          "label": "Noem +18.7",
+          "margin": 18.7,
+          "votesRep": 2272,
+          "votesDem": 1556,
+          "votesTotal": 3867
+        },
+        "Union46": {
+          "color": "#BF1D29",
+          "label": "Noem +23.0",
+          "margin": 23.05,
+          "votesRep": 4068,
+          "votesDem": 2544,
+          "votesTotal": 6685
+        },
+        "Walworth46": {
+          "color": "#BF1D29",
+          "label": "Noem +32.3",
+          "margin": 32.25,
+          "votesRep": 1468,
+          "votesDem": 752,
+          "votesTotal": 2259
+        },
+        "Yankton46": {
+          "color": "#577CCC",
+          "label": "Sutton +7.2",
+          "margin": -7.16,
+          "votesRep": 4121,
+          "votesDem": 4757,
+          "votesTotal": 9012
+        },
+        "Ziebach46": {
+          "color": "#1C408C",
+          "label": "Sutton +40.7",
+          "margin": -40.71,
+          "votesRep": 241,
+          "votesDem": 572,
+          "votesTotal": 822
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "John Thune",
+      "candDem": "Jay Williams",
+      "shortRep": "Thune",
+      "shortDem": "Williams",
+      "partisan": true,
+      "margin": 44.42,
+      "votesRep": 264841,
+      "votesDem": 101915,
+      "votesTotal": 366756,
+      "regions": {
+        "Aurora46": {
+          "color": "#BF1D29",
+          "label": "Thune +51.6",
+          "margin": 51.55,
+          "votesRep": 1073,
+          "votesDem": 343,
+          "votesTotal": 1416
+        },
+        "Beadle46": {
+          "color": "#BF1D29",
+          "label": "Thune +47.2",
+          "margin": 47.24,
+          "votesRep": 5049,
+          "votesDem": 1809,
+          "votesTotal": 6858
+        },
+        "Bennett46": {
+          "color": "#BF1D29",
+          "label": "Thune +33.0",
+          "margin": 32.98,
+          "votesRep": 758,
+          "votesDem": 382,
+          "votesTotal": 1140
+        },
+        "Bon Homme46": {
+          "color": "#BF1D29",
+          "label": "Thune +49.1",
+          "margin": 49.06,
+          "votesRep": 2253,
+          "votesDem": 770,
+          "votesTotal": 3023
+        },
+        "Brookings46": {
+          "color": "#BF1D29",
+          "label": "Thune +38.2",
+          "margin": 38.15,
+          "votesRep": 8817,
+          "votesDem": 3947,
+          "votesTotal": 12764
+        },
+        "Brown46": {
+          "color": "#BF1D29",
+          "label": "Thune +40.7",
+          "margin": 40.7,
+          "votesRep": 11371,
+          "votesDem": 4793,
+          "votesTotal": 16164
+        },
+        "Brule46": {
+          "color": "#BF1D29",
+          "label": "Thune +51.8",
+          "margin": 51.83,
+          "votesRep": 1746,
+          "votesDem": 554,
+          "votesTotal": 2300
+        },
+        "Buffalo46": {
+          "color": "#577CCC",
+          "label": "Williams +5.1",
+          "margin": -5.11,
+          "votesRep": 232,
+          "votesDem": 257,
+          "votesTotal": 489
+        },
+        "Butte46": {
+          "color": "#BF1D29",
+          "label": "Thune +64.9",
+          "margin": 64.88,
+          "votesRep": 3545,
+          "votesDem": 755,
+          "votesTotal": 4300
+        },
+        "Campbell46": {
+          "color": "#BF1D29",
+          "label": "Thune +79.0",
+          "margin": 78.96,
+          "votesRep": 740,
+          "votesDem": 87,
+          "votesTotal": 827
+        },
+        "Charles Mix46": {
+          "color": "#BF1D29",
+          "label": "Thune +45.1",
+          "margin": 45.05,
+          "votesRep": 2484,
+          "votesDem": 941,
+          "votesTotal": 3425
+        },
+        "Clark46": {
+          "color": "#BF1D29",
+          "label": "Thune +51.3",
+          "margin": 51.34,
+          "votesRep": 1269,
+          "votesDem": 408,
+          "votesTotal": 1677
+        },
+        "Clay46": {
+          "color": "#BF1D29",
+          "label": "Thune +15.0",
+          "margin": 14.99,
+          "votesRep": 2923,
+          "votesDem": 2161,
+          "votesTotal": 5084
+        },
+        "Codington46": {
+          "color": "#BF1D29",
+          "label": "Thune +48.9",
+          "margin": 48.85,
+          "votesRep": 8740,
+          "votesDem": 3003,
+          "votesTotal": 11743
+        },
+        "Corson46": {
+          "color": "#BF1D29",
+          "label": "Thune +17.9",
+          "margin": 17.85,
+          "votesRep": 680,
+          "votesDem": 474,
+          "votesTotal": 1154
+        },
+        "Custer46": {
+          "color": "#BF1D29",
+          "label": "Thune +50.0",
+          "margin": 49.97,
+          "votesRep": 3528,
+          "votesDem": 1177,
+          "votesTotal": 4705
+        },
+        "Davison46": {
+          "color": "#BF1D29",
+          "label": "Thune +50.3",
+          "margin": 50.29,
+          "votesRep": 6017,
+          "votesDem": 1990,
+          "votesTotal": 8007
+        },
+        "Day46": {
+          "color": "#BF1D29",
+          "label": "Thune +30.7",
+          "margin": 30.72,
+          "votesRep": 1815,
+          "votesDem": 962,
+          "votesTotal": 2777
+        },
+        "Deuel46": {
+          "color": "#BF1D29",
+          "label": "Thune +49.1",
+          "margin": 49.07,
+          "votesRep": 1563,
+          "votesDem": 534,
+          "votesTotal": 2097
+        },
+        "Dewey46": {
+          "color": "#FF8B98",
+          "label": "Thune +1.8",
+          "margin": 1.77,
+          "votesRep": 862,
+          "votesDem": 832,
+          "votesTotal": 1694
+        },
+        "Douglas46": {
+          "color": "#BF1D29",
+          "label": "Thune +71.6",
+          "margin": 71.59,
+          "votesRep": 1377,
+          "votesDem": 228,
+          "votesTotal": 1605
+        },
+        "Edmunds46": {
+          "color": "#BF1D29",
+          "label": "Thune +58.6",
+          "margin": 58.6,
+          "votesRep": 1517,
+          "votesDem": 396,
+          "votesTotal": 1913
+        },
+        "Fall River46": {
+          "color": "#BF1D29",
+          "label": "Thune +50.9",
+          "margin": 50.95,
+          "votesRep": 2671,
+          "votesDem": 868,
+          "votesTotal": 3539
+        },
+        "Faulk46": {
+          "color": "#BF1D29",
+          "label": "Thune +63.6",
+          "margin": 63.57,
+          "votesRep": 925,
+          "votesDem": 206,
+          "votesTotal": 1131
+        },
+        "Grant46": {
+          "color": "#BF1D29",
+          "label": "Thune +50.5",
+          "margin": 50.46,
+          "votesRep": 2703,
+          "votesDem": 890,
+          "votesTotal": 3593
+        },
+        "Gregory46": {
+          "color": "#BF1D29",
+          "label": "Thune +59.4",
+          "margin": 59.37,
+          "votesRep": 1671,
+          "votesDem": 426,
+          "votesTotal": 2097
+        },
+        "Haakon46": {
+          "color": "#BF1D29",
+          "label": "Thune +83.8",
+          "margin": 83.85,
+          "votesRep": 956,
+          "votesDem": 84,
+          "votesTotal": 1040
+        },
+        "Hamlin46": {
+          "color": "#BF1D29",
+          "label": "Thune +61.6",
+          "margin": 61.56,
+          "votesRep": 2253,
+          "votesDem": 536,
+          "votesTotal": 2789
+        },
+        "Hand46": {
+          "color": "#BF1D29",
+          "label": "Thune +63.8",
+          "margin": 63.82,
+          "votesRep": 1517,
+          "votesDem": 335,
+          "votesTotal": 1852
+        },
+        "Hanson46": {
+          "color": "#BF1D29",
+          "label": "Thune +54.0",
+          "margin": 54.05,
+          "votesRep": 1512,
+          "votesDem": 451,
+          "votesTotal": 1963
+        },
+        "Harding46": {
+          "color": "#BF1D29",
+          "label": "Thune +80.4",
+          "margin": 80.45,
+          "votesRep": 683,
+          "votesDem": 74,
+          "votesTotal": 757
+        },
+        "Hughes46": {
+          "color": "#BF1D29",
+          "label": "Thune +54.1",
+          "margin": 54.06,
+          "votesRep": 6338,
+          "votesDem": 1890,
+          "votesTotal": 8228
+        },
+        "Hutchinson46": {
+          "color": "#BF1D29",
+          "label": "Thune +64.0",
+          "margin": 64.05,
+          "votesRep": 2779,
+          "votesDem": 609,
+          "votesTotal": 3388
+        },
+        "Hyde46": {
+          "color": "#BF1D29",
+          "label": "Thune +64.1",
+          "margin": 64.11,
+          "votesRep": 567,
+          "votesDem": 124,
+          "votesTotal": 691
+        },
+        "Jackson46": {
+          "color": "#BF1D29",
+          "label": "Thune +42.8",
+          "margin": 42.78,
+          "votesRep": 771,
+          "votesDem": 309,
+          "votesTotal": 1080
+        },
+        "Jerauld46": {
+          "color": "#BF1D29",
+          "label": "Thune +46.8",
+          "margin": 46.79,
+          "votesRep": 720,
+          "votesDem": 261,
+          "votesTotal": 981
+        },
+        "Jones46": {
+          "color": "#BF1D29",
+          "label": "Thune +76.1",
+          "margin": 76.11,
+          "votesRep": 494,
+          "votesDem": 67,
+          "votesTotal": 561
+        },
+        "Kingsbury46": {
+          "color": "#BF1D29",
+          "label": "Thune +47.6",
+          "margin": 47.61,
+          "votesRep": 1899,
+          "votesDem": 674,
+          "votesTotal": 2573
+        },
+        "Lake46": {
+          "color": "#BF1D29",
+          "label": "Thune +39.4",
+          "margin": 39.45,
+          "votesRep": 4677,
+          "votesDem": 2031,
+          "votesTotal": 6708
+        },
+        "Lawrence46": {
+          "color": "#BF1D29",
+          "label": "Thune +44.8",
+          "margin": 44.78,
+          "votesRep": 8566,
+          "votesDem": 3267,
+          "votesTotal": 11833
+        },
+        "Lincoln46": {
+          "color": "#BF1D29",
+          "label": "Thune +52.2",
+          "margin": 52.24,
+          "votesRep": 19264,
+          "votesDem": 6043,
+          "votesTotal": 25307
+        },
+        "Lyman46": {
+          "color": "#BF1D29",
+          "label": "Thune +47.1",
+          "margin": 47.1,
+          "votesRep": 1051,
+          "votesDem": 378,
+          "votesTotal": 1429
+        },
+        "Marshall46": {
+          "color": "#BF1D29",
+          "label": "Thune +36.1",
+          "margin": 36.14,
+          "votesRep": 1341,
+          "votesDem": 629,
+          "votesTotal": 1970
+        },
+        "McCook46": {
+          "color": "#BF1D29",
+          "label": "Thune +54.3",
+          "margin": 54.27,
+          "votesRep": 2021,
+          "votesDem": 599,
+          "votesTotal": 2620
+        },
+        "McPherson46": {
+          "color": "#BF1D29",
+          "label": "Thune +71.9",
+          "margin": 71.89,
+          "votesRep": 1009,
+          "votesDem": 165,
+          "votesTotal": 1174
+        },
+        "Meade46": {
+          "color": "#BF1D29",
+          "label": "Thune +59.3",
+          "margin": 59.33,
+          "votesRep": 9198,
+          "votesDem": 2348,
+          "votesTotal": 11546
+        },
+        "Mellette46": {
+          "color": "#BF1D29",
+          "label": "Thune +34.9",
+          "margin": 34.88,
+          "votesRep": 464,
+          "votesDem": 224,
+          "votesTotal": 688
+        },
+        "Miner46": {
+          "color": "#BF1D29",
+          "label": "Thune +47.9",
+          "margin": 47.94,
+          "votesRep": 807,
+          "votesDem": 284,
+          "votesTotal": 1091
+        },
+        "Minnehaha46": {
+          "color": "#BF1D29",
+          "label": "Thune +34.9",
+          "margin": 34.85,
+          "votesRep": 52494,
+          "votesDem": 25359,
+          "votesTotal": 77853
+        },
+        "Moody46": {
+          "color": "#BF1D29",
+          "label": "Thune +34.3",
+          "margin": 34.26,
+          "votesRep": 1981,
+          "votesDem": 970,
+          "votesTotal": 2951
+        },
+        "Pennington46": {
+          "color": "#BF1D29",
+          "label": "Thune +44.0",
+          "margin": 44.01,
+          "votesRep": 33966,
+          "votesDem": 13206,
+          "votesTotal": 47172
+        },
+        "Perkins46": {
+          "color": "#BF1D29",
+          "label": "Thune +71.2",
+          "margin": 71.21,
+          "votesRep": 1374,
+          "votesDem": 231,
+          "votesTotal": 1605
+        },
+        "Potter46": {
+          "color": "#BF1D29",
+          "label": "Thune +62.2",
+          "margin": 62.24,
+          "votesRep": 1087,
+          "votesDem": 253,
+          "votesTotal": 1340
+        },
+        "Roberts46": {
+          "color": "#BF1D29",
+          "label": "Thune +29.8",
+          "margin": 29.85,
+          "votesRep": 2547,
+          "votesDem": 1376,
+          "votesTotal": 3923
+        },
+        "Sanborn46": {
+          "color": "#BF1D29",
+          "label": "Thune +56.9",
+          "margin": 56.93,
+          "votesRep": 889,
+          "votesDem": 244,
+          "votesTotal": 1133
+        },
+        "Spink46": {
+          "color": "#BF1D29",
+          "label": "Thune +45.5",
+          "margin": 45.47,
+          "votesRep": 2177,
+          "votesDem": 816,
+          "votesTotal": 2993
+        },
+        "Stanley46": {
+          "color": "#BF1D29",
+          "label": "Thune +61.1",
+          "margin": 61.08,
+          "votesRep": 1254,
+          "votesDem": 303,
+          "votesTotal": 1557
+        },
+        "Sully46": {
+          "color": "#BF1D29",
+          "label": "Thune +68.1",
+          "margin": 68.15,
+          "votesRep": 718,
+          "votesDem": 136,
+          "votesTotal": 854
+        },
+        "Todd46": {
+          "color": "#1C408C",
+          "label": "Williams +31.0",
+          "margin": -31.05,
+          "votesRep": 724,
+          "votesDem": 1376,
+          "votesTotal": 2100
+        },
+        "Tripp46": {
+          "color": "#BF1D29",
+          "label": "Thune +62.5",
+          "margin": 62.53,
+          "votesRep": 2134,
+          "votesDem": 492,
+          "votesTotal": 2626
+        },
+        "Turner46": {
+          "color": "#BF1D29",
+          "label": "Thune +58.1",
+          "margin": 58.13,
+          "votesRep": 3289,
+          "votesDem": 871,
+          "votesTotal": 4160
+        },
+        "Union46": {
+          "color": "#BF1D29",
+          "label": "Thune +54.3",
+          "margin": 54.33,
+          "votesRep": 6059,
+          "votesDem": 1793,
+          "votesTotal": 7852
+        },
+        "Walworth46": {
+          "color": "#BF1D29",
+          "label": "Thune +60.8",
+          "margin": 60.77,
+          "votesRep": 1975,
+          "votesDem": 482,
+          "votesTotal": 2457
+        },
+        "Yankton46": {
+          "color": "#BF1D29",
+          "label": "Thune +35.8",
+          "margin": 35.83,
+          "votesRep": 6536,
+          "votesDem": 3088,
+          "votesTotal": 9624
+        },
+        "Ziebach46": {
+          "color": "#BF1D29",
+          "label": "Thune +10.1",
+          "margin": 10.07,
+          "votesRep": 421,
+          "votesDem": 344,
+          "votesTotal": 765
+        }
+      }
+    }
+  ]
+}

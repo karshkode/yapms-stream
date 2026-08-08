@@ -1,0 +1,3242 @@
+{
+  "stateFips": "19",
+  "stateName": "Iowa",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Kim Reynolds",
+      "candDem": "Deidre DeJear",
+      "shortRep": "Reynolds",
+      "shortDem": "DeJear",
+      "partisan": true,
+      "margin": 18.98,
+      "votesRep": 709198,
+      "votesDem": 482950,
+      "votesTotal": 1221864,
+      "regions": {
+        "Adair19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +50.8",
+          "margin": 50.81,
+          "votesRep": 2333,
+          "votesDem": 761,
+          "votesTotal": 3174
+        },
+        "Adams19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +53.0",
+          "margin": 53.02,
+          "votesRep": 1241,
+          "votesDem": 381,
+          "votesTotal": 1673
+        },
+        "Allamakee19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +44.4",
+          "margin": 44.39,
+          "votesRep": 4100,
+          "votesDem": 1579,
+          "votesTotal": 5794
+        },
+        "Appanoose19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +50.3",
+          "margin": 50.33,
+          "votesRep": 3432,
+          "votesDem": 1134,
+          "votesTotal": 4700
+        },
+        "Audubon19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +45.3",
+          "margin": 45.33,
+          "votesRep": 1757,
+          "votesDem": 661,
+          "votesTotal": 2451
+        },
+        "Benton19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +40.3",
+          "margin": 40.35,
+          "votesRep": 7745,
+          "votesDem": 3292,
+          "votesTotal": 11346
+        },
+        "Black Hawk19": {
+          "color": "#FF5865",
+          "label": "Reynolds +5.8",
+          "margin": 5.79,
+          "votesRep": 24236,
+          "votesDem": 21585,
+          "votesTotal": 47140
+        },
+        "Boone19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +25.3",
+          "margin": 25.26,
+          "votesRep": 6813,
+          "votesDem": 4065,
+          "votesTotal": 11204
+        },
+        "Bremer19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +29.3",
+          "margin": 29.32,
+          "votesRep": 6989,
+          "votesDem": 3820,
+          "votesTotal": 11090
+        },
+        "Buchanan19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +33.8",
+          "margin": 33.8,
+          "votesRep": 5356,
+          "votesDem": 2650,
+          "votesTotal": 8217
+        },
+        "Buena Vista19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +48.5",
+          "margin": 48.49,
+          "votesRep": 3745,
+          "votesDem": 1299,
+          "votesTotal": 5145
+        },
+        "Butler19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +51.8",
+          "margin": 51.8,
+          "votesRep": 4501,
+          "votesDem": 1429,
+          "votesTotal": 6066
+        },
+        "Calhoun19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +55.3",
+          "margin": 55.28,
+          "votesRep": 3021,
+          "votesDem": 870,
+          "votesTotal": 3980
+        },
+        "Carroll19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +54.3",
+          "margin": 54.31,
+          "votesRep": 6261,
+          "votesDem": 1854,
+          "votesTotal": 8252
+        },
+        "Cass19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +49.7",
+          "margin": 49.68,
+          "votesRep": 3864,
+          "votesDem": 1299,
+          "votesTotal": 5272
+        },
+        "Cedar19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +29.3",
+          "margin": 29.26,
+          "votesRep": 4996,
+          "votesDem": 2734,
+          "votesTotal": 7938
+        },
+        "Cerro Gordo19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +15.0",
+          "margin": 15.03,
+          "votesRep": 9607,
+          "votesDem": 7096,
+          "votesTotal": 17097
+        },
+        "Cherokee19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +59.4",
+          "margin": 59.42,
+          "votesRep": 3579,
+          "votesDem": 911,
+          "votesTotal": 4577
+        },
+        "Chickasaw19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +46.9",
+          "margin": 46.85,
+          "votesRep": 3570,
+          "votesDem": 1292,
+          "votesTotal": 4939
+        },
+        "Clarke19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +50.3",
+          "margin": 50.33,
+          "votesRep": 2494,
+          "votesDem": 824,
+          "votesTotal": 3392
+        },
+        "Clay19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +51.6",
+          "margin": 51.55,
+          "votesRep": 4805,
+          "votesDem": 1536,
+          "votesTotal": 6474
+        },
+        "Clayton19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +41.6",
+          "margin": 41.65,
+          "votesRep": 5110,
+          "votesDem": 2105,
+          "votesTotal": 7372
+        },
+        "Clinton19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +22.7",
+          "margin": 22.72,
+          "votesRep": 10173,
+          "votesDem": 6406,
+          "votesTotal": 16894
+        },
+        "Crawford19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +60.0",
+          "margin": 60,
+          "votesRep": 3504,
+          "votesDem": 876,
+          "votesTotal": 4466
+        },
+        "Dallas19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +11.7",
+          "margin": 11.75,
+          "votesRep": 24403,
+          "votesDem": 19272,
+          "votesTotal": 44609
+        },
+        "Davis19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +57.8",
+          "margin": 57.76,
+          "votesRep": 2338,
+          "votesDem": 626,
+          "votesTotal": 3029
+        },
+        "Decatur19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +52.3",
+          "margin": 52.34,
+          "votesRep": 2081,
+          "votesDem": 651,
+          "votesTotal": 2793
+        },
+        "Delaware19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +50.1",
+          "margin": 50.13,
+          "votesRep": 5632,
+          "votesDem": 1871,
+          "votesTotal": 7647
+        },
+        "Des Moines19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +20.9",
+          "margin": 20.93,
+          "votesRep": 7929,
+          "votesDem": 5184,
+          "votesTotal": 13488
+        },
+        "Dickinson19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +48.9",
+          "margin": 48.94,
+          "votesRep": 6062,
+          "votesDem": 2078,
+          "votesTotal": 8284
+        },
+        "Dubuque19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +16.6",
+          "margin": 16.56,
+          "votesRep": 22035,
+          "votesDem": 15774,
+          "votesTotal": 38821
+        },
+        "Emmet19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +51.7",
+          "margin": 51.74,
+          "votesRep": 2525,
+          "votesDem": 803,
+          "votesTotal": 3397
+        },
+        "Fayette19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +36.7",
+          "margin": 36.74,
+          "votesRep": 5032,
+          "votesDem": 2328,
+          "votesTotal": 7538
+        },
+        "Floyd19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +30.4",
+          "margin": 30.37,
+          "votesRep": 3657,
+          "votesDem": 1953,
+          "votesTotal": 5757
+        },
+        "Franklin19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +50.5",
+          "margin": 50.46,
+          "votesRep": 2676,
+          "votesDem": 881,
+          "votesTotal": 3622
+        },
+        "Fremont19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +53.6",
+          "margin": 53.61,
+          "votesRep": 1987,
+          "votesDem": 600,
+          "votesTotal": 2635
+        },
+        "Greene19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +39.3",
+          "margin": 39.28,
+          "votesRep": 2473,
+          "votesDem": 1078,
+          "votesTotal": 3632
+        },
+        "Grundy19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +53.3",
+          "margin": 53.29,
+          "votesRep": 4033,
+          "votesDem": 1229,
+          "votesTotal": 5378
+        },
+        "Guthrie19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +47.9",
+          "margin": 47.9,
+          "votesRep": 3619,
+          "votesDem": 1275,
+          "votesTotal": 5037
+        },
+        "Hamilton19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +39.3",
+          "margin": 39.34,
+          "votesRep": 3914,
+          "votesDem": 1704,
+          "votesTotal": 5743
+        },
+        "Hancock19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +53.2",
+          "margin": 53.19,
+          "votesRep": 3302,
+          "votesDem": 1009,
+          "votesTotal": 4388
+        },
+        "Hardin19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +44.3",
+          "margin": 44.3,
+          "votesRep": 4645,
+          "votesDem": 1793,
+          "votesTotal": 6598
+        },
+        "Harrison19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +50.9",
+          "margin": 50.87,
+          "votesRep": 4069,
+          "votesDem": 1325,
+          "votesTotal": 5532
+        },
+        "Henry19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +41.8",
+          "margin": 41.76,
+          "votesRep": 4837,
+          "votesDem": 1987,
+          "votesTotal": 6963
+        },
+        "Howard19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +39.2",
+          "margin": 39.16,
+          "votesRep": 2310,
+          "votesDem": 1010,
+          "votesTotal": 3388
+        },
+        "Humboldt19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +58.2",
+          "margin": 58.24,
+          "votesRep": 3016,
+          "votesDem": 796,
+          "votesTotal": 3876
+        },
+        "Ida19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +65.4",
+          "margin": 65.42,
+          "votesRep": 2239,
+          "votesDem": 468,
+          "votesTotal": 2753
+        },
+        "Iowa19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +37.0",
+          "margin": 37.01,
+          "votesRep": 5001,
+          "votesDem": 2299,
+          "votesTotal": 7479
+        },
+        "Jackson19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +39.6",
+          "margin": 39.56,
+          "votesRep": 5260,
+          "votesDem": 2278,
+          "votesTotal": 7783
+        },
+        "Jasper19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +31.1",
+          "margin": 31.11,
+          "votesRep": 9552,
+          "votesDem": 5019,
+          "votesTotal": 15013
+        },
+        "Jefferson19": {
+          "color": "#FF5865",
+          "label": "Reynolds +5.6",
+          "margin": 5.55,
+          "votesRep": 3449,
+          "votesDem": 3086,
+          "votesTotal": 6660
+        },
+        "Johnson19": {
+          "color": "#1C408C",
+          "label": "DeJear +40.7",
+          "margin": -40.7,
+          "votesRep": 18413,
+          "votesDem": 43686,
+          "votesTotal": 63638
+        },
+        "Jones19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +32.7",
+          "margin": 32.74,
+          "votesRep": 5285,
+          "votesDem": 2678,
+          "votesTotal": 8176
+        },
+        "Keokuk19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +55.8",
+          "margin": 55.83,
+          "votesRep": 2953,
+          "votesDem": 837,
+          "votesTotal": 3841
+        },
+        "Kossuth19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +51.9",
+          "margin": 51.92,
+          "votesRep": 5030,
+          "votesDem": 1592,
+          "votesTotal": 6736
+        },
+        "Lee19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +28.1",
+          "margin": 28.09,
+          "votesRep": 7182,
+          "votesDem": 4032,
+          "votesTotal": 11465
+        },
+        "Linn19": {
+          "color": "#577CCC",
+          "label": "DeJear +5.1",
+          "margin": -5.14,
+          "votesRep": 42887,
+          "votesDem": 47539,
+          "votesTotal": 93499
+        },
+        "Louisa19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +49.8",
+          "margin": 49.8,
+          "votesRep": 2578,
+          "votesDem": 864,
+          "votesTotal": 3523
+        },
+        "Lucas19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +53.7",
+          "margin": 53.74,
+          "votesRep": 2599,
+          "votesDem": 782,
+          "votesTotal": 3453
+        },
+        "Lyon19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +78.5",
+          "margin": 78.52,
+          "votesRep": 4438,
+          "votesDem": 534,
+          "votesTotal": 4999
+        },
+        "Madison19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +43.7",
+          "margin": 43.74,
+          "votesRep": 5307,
+          "votesDem": 2077,
+          "votesTotal": 7559
+        },
+        "Mahaska19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +58.1",
+          "margin": 58.15,
+          "votesRep": 6299,
+          "votesDem": 1667,
+          "votesTotal": 8129
+        },
+        "Marion19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +45.8",
+          "margin": 45.77,
+          "votesRep": 10237,
+          "votesDem": 3808,
+          "votesTotal": 14364
+        },
+        "Marshall19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +24.4",
+          "margin": 24.41,
+          "votesRep": 7544,
+          "votesDem": 4584,
+          "votesTotal": 12390
+        },
+        "Mills19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +46.1",
+          "margin": 46.13,
+          "votesRep": 4034,
+          "votesDem": 1487,
+          "votesTotal": 5649
+        },
+        "Mitchell19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +39.3",
+          "margin": 39.31,
+          "votesRep": 2899,
+          "votesDem": 1263,
+          "votesTotal": 4252
+        },
+        "Monona19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +56.1",
+          "margin": 56.13,
+          "votesRep": 2555,
+          "votesDem": 718,
+          "votesTotal": 3335
+        },
+        "Monroe19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +56.2",
+          "margin": 56.22,
+          "votesRep": 2266,
+          "votesDem": 635,
+          "votesTotal": 2966
+        },
+        "Montgomery19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +49.8",
+          "margin": 49.84,
+          "votesRep": 2602,
+          "votesDem": 871,
+          "votesTotal": 3554
+        },
+        "Muscatine19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +23.0",
+          "margin": 22.97,
+          "votesRep": 7902,
+          "votesDem": 4950,
+          "votesTotal": 13231
+        },
+        "O'Brien19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +70.8",
+          "margin": 70.81,
+          "votesRep": 4541,
+          "votesDem": 776,
+          "votesTotal": 5396
+        },
+        "Osceola19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +78.3",
+          "margin": 78.35,
+          "votesRep": 2018,
+          "votesDem": 245,
+          "votesTotal": 2305
+        },
+        "Page19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +52.2",
+          "margin": 52.21,
+          "votesRep": 3796,
+          "votesDem": 1192,
+          "votesTotal": 5103
+        },
+        "Palo Alto19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +53.1",
+          "margin": 53.1,
+          "votesRep": 2706,
+          "votesDem": 829,
+          "votesTotal": 3602
+        },
+        "Plymouth19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +66.0",
+          "margin": 66.02,
+          "votesRep": 8027,
+          "votesDem": 1643,
+          "votesTotal": 9823
+        },
+        "Pocahontas19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +62.0",
+          "margin": 62.01,
+          "votesRep": 2269,
+          "votesDem": 532,
+          "votesTotal": 2860
+        },
+        "Polk19": {
+          "color": "#577CCC",
+          "label": "DeJear +7.9",
+          "margin": -7.95,
+          "votesRep": 85542,
+          "votesDem": 100312,
+          "votesTotal": 190999
+        },
+        "Pottawattamie19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +27.5",
+          "margin": 27.52,
+          "votesRep": 18152,
+          "votesDem": 10318,
+          "votesTotal": 29080
+        },
+        "Poweshiek19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +20.6",
+          "margin": 20.6,
+          "votesRep": 4491,
+          "votesDem": 2957,
+          "votesTotal": 7628
+        },
+        "Ringgold19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +55.1",
+          "margin": 55.07,
+          "votesRep": 1574,
+          "votesDem": 456,
+          "votesTotal": 2080
+        },
+        "Sac19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +61.2",
+          "margin": 61.22,
+          "votesRep": 3135,
+          "votesDem": 754,
+          "votesTotal": 3960
+        },
+        "Scott19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +11.4",
+          "margin": 11.39,
+          "votesRep": 34604,
+          "votesDem": 27530,
+          "votesTotal": 63742
+        },
+        "Shelby19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +55.5",
+          "margin": 55.45,
+          "votesRep": 3570,
+          "votesDem": 1023,
+          "votesTotal": 4697
+        },
+        "Sioux19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +81.8",
+          "margin": 81.81,
+          "votesRep": 12790,
+          "votesDem": 1280,
+          "votesTotal": 14190
+        },
+        "Story19": {
+          "color": "#1C408C",
+          "label": "DeJear +10.1",
+          "margin": -10.15,
+          "votesRep": 16214,
+          "votesDem": 19876,
+          "votesTotal": 36972
+        },
+        "Tama19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +36.3",
+          "margin": 36.26,
+          "votesRep": 4389,
+          "votesDem": 2053,
+          "votesTotal": 6634
+        },
+        "Taylor19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +64.1",
+          "margin": 64.08,
+          "votesRep": 1850,
+          "votesDem": 405,
+          "votesTotal": 2298
+        },
+        "Union19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +42.7",
+          "margin": 42.66,
+          "votesRep": 3180,
+          "votesDem": 1278,
+          "votesTotal": 4581
+        },
+        "Van Buren19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +58.8",
+          "margin": 58.8,
+          "votesRep": 2189,
+          "votesDem": 568,
+          "votesTotal": 2801
+        },
+        "Wapello19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +33.5",
+          "margin": 33.52,
+          "votesRep": 6822,
+          "votesDem": 3397,
+          "votesTotal": 10510
+        },
+        "Warren19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +26.3",
+          "margin": 26.34,
+          "votesRep": 14631,
+          "votesDem": 8531,
+          "votesTotal": 23837
+        },
+        "Washington19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +31.9",
+          "margin": 31.93,
+          "votesRep": 5692,
+          "votesDem": 2937,
+          "votesTotal": 8805
+        },
+        "Wayne19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +65.4",
+          "margin": 65.37,
+          "votesRep": 1939,
+          "votesDem": 406,
+          "votesTotal": 2383
+        },
+        "Webster19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +36.0",
+          "margin": 36.04,
+          "votesRep": 8028,
+          "votesDem": 3774,
+          "votesTotal": 12051
+        },
+        "Winnebago19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +39.4",
+          "margin": 39.38,
+          "votesRep": 2991,
+          "votesDem": 1301,
+          "votesTotal": 4399
+        },
+        "Winneshiek19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +16.4",
+          "margin": 16.37,
+          "votesRep": 5530,
+          "votesDem": 3974,
+          "votesTotal": 9677
+        },
+        "Woodbury19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +35.4",
+          "margin": 35.42,
+          "votesRep": 18982,
+          "votesDem": 9053,
+          "votesTotal": 28656
+        },
+        "Worth19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +34.3",
+          "margin": 34.28,
+          "votesRep": 2123,
+          "votesDem": 1039,
+          "votesTotal": 3253
+        },
+        "Wright19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +48.7",
+          "margin": 48.71,
+          "votesRep": 3105,
+          "votesDem": 1071,
+          "votesTotal": 4287
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Chuck Grassley",
+      "candDem": "Michael Franken",
+      "shortRep": "Grassley",
+      "shortDem": "Franken",
+      "partisan": true,
+      "margin": 12.2,
+      "votesRep": 681501,
+      "votesDem": 533330,
+      "votesTotal": 1216646,
+      "regions": {
+        "Adair19": {
+          "color": "#BF1D29",
+          "label": "Grassley +44.0",
+          "margin": 43.97,
+          "votesRep": 2279,
+          "votesDem": 887,
+          "votesTotal": 3169
+        },
+        "Adams19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.8",
+          "margin": 42.84,
+          "votesRep": 1167,
+          "votesDem": 467,
+          "votesTotal": 1637
+        },
+        "Allamakee19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.6",
+          "margin": 32.61,
+          "votesRep": 3806,
+          "votesDem": 1934,
+          "votesTotal": 5742
+        },
+        "Appanoose19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.7",
+          "margin": 42.67,
+          "votesRep": 3357,
+          "votesDem": 1349,
+          "votesTotal": 4711
+        },
+        "Audubon19": {
+          "color": "#BF1D29",
+          "label": "Grassley +37.2",
+          "margin": 37.22,
+          "votesRep": 1661,
+          "votesDem": 760,
+          "votesTotal": 2425
+        },
+        "Benton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.5",
+          "margin": 32.49,
+          "votesRep": 7502,
+          "votesDem": 3823,
+          "votesTotal": 11346
+        },
+        "Black Hawk19": {
+          "color": "#8AAFFF",
+          "label": "Franken +1.9",
+          "margin": -1.91,
+          "votesRep": 23133,
+          "votesDem": 24036,
+          "votesTotal": 47223
+        },
+        "Boone19": {
+          "color": "#BF1D29",
+          "label": "Grassley +16.6",
+          "margin": 16.6,
+          "votesRep": 6456,
+          "votesDem": 4618,
+          "votesTotal": 11094
+        },
+        "Bremer19": {
+          "color": "#BF1D29",
+          "label": "Grassley +20.9",
+          "margin": 20.9,
+          "votesRep": 6641,
+          "votesDem": 4345,
+          "votesTotal": 10992
+        },
+        "Buchanan19": {
+          "color": "#BF1D29",
+          "label": "Grassley +24.7",
+          "margin": 24.69,
+          "votesRep": 5085,
+          "votesDem": 3071,
+          "votesTotal": 8166
+        },
+        "Buena Vista19": {
+          "color": "#BF1D29",
+          "label": "Grassley +39.9",
+          "margin": 39.86,
+          "votesRep": 3530,
+          "votesDem": 1518,
+          "votesTotal": 5053
+        },
+        "Butler19": {
+          "color": "#BF1D29",
+          "label": "Grassley +44.4",
+          "margin": 44.39,
+          "votesRep": 4334,
+          "votesDem": 1669,
+          "votesTotal": 6009
+        },
+        "Calhoun19": {
+          "color": "#BF1D29",
+          "label": "Grassley +47.1",
+          "margin": 47.06,
+          "votesRep": 2853,
+          "votesDem": 1027,
+          "votesTotal": 3886
+        },
+        "Carroll19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.5",
+          "margin": 42.54,
+          "votesRep": 5773,
+          "votesDem": 2327,
+          "votesTotal": 8110
+        },
+        "Cass19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.2",
+          "margin": 42.23,
+          "votesRep": 3698,
+          "votesDem": 1502,
+          "votesTotal": 5209
+        },
+        "Cedar19": {
+          "color": "#BF1D29",
+          "label": "Grassley +21.5",
+          "margin": 21.49,
+          "votesRep": 4806,
+          "votesDem": 3106,
+          "votesTotal": 7917
+        },
+        "Cerro Gordo19": {
+          "color": "#FF5865",
+          "label": "Grassley +9.6",
+          "margin": 9.56,
+          "votesRep": 9260,
+          "votesDem": 7644,
+          "votesTotal": 16927
+        },
+        "Cherokee19": {
+          "color": "#BF1D29",
+          "label": "Grassley +48.5",
+          "margin": 48.45,
+          "votesRep": 3338,
+          "votesDem": 1159,
+          "votesTotal": 4500
+        },
+        "Chickasaw19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.6",
+          "margin": 32.6,
+          "votesRep": 3276,
+          "votesDem": 1665,
+          "votesTotal": 4945
+        },
+        "Clarke19": {
+          "color": "#BF1D29",
+          "label": "Grassley +39.8",
+          "margin": 39.77,
+          "votesRep": 2332,
+          "votesDem": 1005,
+          "votesTotal": 3343
+        },
+        "Clay19": {
+          "color": "#BF1D29",
+          "label": "Grassley +43.7",
+          "margin": 43.67,
+          "votesRep": 4578,
+          "votesDem": 1795,
+          "votesTotal": 6383
+        },
+        "Clayton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +31.7",
+          "margin": 31.66,
+          "votesRep": 4839,
+          "votesDem": 2512,
+          "votesTotal": 7360
+        },
+        "Clinton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +14.2",
+          "margin": 14.17,
+          "votesRep": 9595,
+          "votesDem": 7213,
+          "votesTotal": 16823
+        },
+        "Crawford19": {
+          "color": "#BF1D29",
+          "label": "Grassley +49.8",
+          "margin": 49.84,
+          "votesRep": 3289,
+          "votesDem": 1101,
+          "votesTotal": 4394
+        },
+        "Dallas19": {
+          "color": "#FF5865",
+          "label": "Grassley +5.7",
+          "margin": 5.74,
+          "votesRep": 23286,
+          "votesDem": 20757,
+          "votesTotal": 44103
+        },
+        "Davis19": {
+          "color": "#BF1D29",
+          "label": "Grassley +48.6",
+          "margin": 48.55,
+          "votesRep": 2206,
+          "votesDem": 764,
+          "votesTotal": 2973
+        },
+        "Decatur19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.0",
+          "margin": 42,
+          "votesRep": 1944,
+          "votesDem": 794,
+          "votesTotal": 2745
+        },
+        "Delaware19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.1",
+          "margin": 42.09,
+          "votesRep": 5423,
+          "votesDem": 2210,
+          "votesTotal": 7639
+        },
+        "Des Moines19": {
+          "color": "#BF1D29",
+          "label": "Grassley +11.5",
+          "margin": 11.5,
+          "votesRep": 7353,
+          "votesDem": 5836,
+          "votesTotal": 13206
+        },
+        "Dickinson19": {
+          "color": "#BF1D29",
+          "label": "Grassley +40.6",
+          "margin": 40.6,
+          "votesRep": 5821,
+          "votesDem": 2459,
+          "votesTotal": 8286
+        },
+        "Dubuque19": {
+          "color": "#FF5865",
+          "label": "Grassley +7.1",
+          "margin": 7.07,
+          "votesRep": 20762,
+          "votesDem": 18020,
+          "votesTotal": 38823
+        },
+        "Emmet19": {
+          "color": "#BF1D29",
+          "label": "Grassley +43.8",
+          "margin": 43.78,
+          "votesRep": 2391,
+          "votesDem": 935,
+          "votesTotal": 3328
+        },
+        "Fayette19": {
+          "color": "#BF1D29",
+          "label": "Grassley +27.1",
+          "margin": 27.1,
+          "votesRep": 4784,
+          "votesDem": 2744,
+          "votesTotal": 7536
+        },
+        "Floyd19": {
+          "color": "#BF1D29",
+          "label": "Grassley +21.3",
+          "margin": 21.32,
+          "votesRep": 3465,
+          "votesDem": 2247,
+          "votesTotal": 5717
+        },
+        "Franklin19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.8",
+          "margin": 42.79,
+          "votesRep": 2558,
+          "votesDem": 1025,
+          "votesTotal": 3588
+        },
+        "Fremont19": {
+          "color": "#BF1D29",
+          "label": "Grassley +43.4",
+          "margin": 43.37,
+          "votesRep": 1861,
+          "votesDem": 735,
+          "votesTotal": 2600
+        },
+        "Greene19": {
+          "color": "#BF1D29",
+          "label": "Grassley +31.5",
+          "margin": 31.53,
+          "votesRep": 2340,
+          "votesDem": 1218,
+          "votesTotal": 3569
+        },
+        "Grundy19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.6",
+          "margin": 45.56,
+          "votesRep": 3909,
+          "votesDem": 1462,
+          "votesTotal": 5378
+        },
+        "Guthrie19": {
+          "color": "#BF1D29",
+          "label": "Grassley +38.0",
+          "margin": 38,
+          "votesRep": 3448,
+          "votesDem": 1549,
+          "votesTotal": 5013
+        },
+        "Hamilton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +31.8",
+          "margin": 31.78,
+          "votesRep": 3757,
+          "votesDem": 1945,
+          "votesTotal": 5707
+        },
+        "Hancock19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.0",
+          "margin": 45,
+          "votesRep": 3148,
+          "votesDem": 1194,
+          "votesTotal": 4350
+        },
+        "Hardin19": {
+          "color": "#BF1D29",
+          "label": "Grassley +37.9",
+          "margin": 37.9,
+          "votesRep": 4539,
+          "votesDem": 2044,
+          "votesTotal": 6591
+        },
+        "Harrison19": {
+          "color": "#BF1D29",
+          "label": "Grassley +43.1",
+          "margin": 43.06,
+          "votesRep": 3889,
+          "votesDem": 1548,
+          "votesTotal": 5463
+        },
+        "Henry19": {
+          "color": "#BF1D29",
+          "label": "Grassley +34.1",
+          "margin": 34.11,
+          "votesRep": 4602,
+          "votesDem": 2261,
+          "votesTotal": 6870
+        },
+        "Howard19": {
+          "color": "#BF1D29",
+          "label": "Grassley +27.0",
+          "margin": 27.04,
+          "votesRep": 2126,
+          "votesDem": 1221,
+          "votesTotal": 3353
+        },
+        "Humboldt19": {
+          "color": "#BF1D29",
+          "label": "Grassley +51.3",
+          "margin": 51.35,
+          "votesRep": 2896,
+          "votesDem": 931,
+          "votesTotal": 3830
+        },
+        "Ida19": {
+          "color": "#BF1D29",
+          "label": "Grassley +56.7",
+          "margin": 56.73,
+          "votesRep": 2130,
+          "votesDem": 588,
+          "votesTotal": 2726
+        },
+        "Iowa19": {
+          "color": "#BF1D29",
+          "label": "Grassley +30.8",
+          "margin": 30.84,
+          "votesRep": 4803,
+          "votesDem": 2539,
+          "votesTotal": 7357
+        },
+        "Jackson19": {
+          "color": "#BF1D29",
+          "label": "Grassley +26.2",
+          "margin": 26.21,
+          "votesRep": 4816,
+          "votesDem": 2816,
+          "votesTotal": 7639
+        },
+        "Jasper19": {
+          "color": "#BF1D29",
+          "label": "Grassley +24.3",
+          "margin": 24.34,
+          "votesRep": 9298,
+          "votesDem": 5658,
+          "votesTotal": 14979
+        },
+        "Jefferson19": {
+          "color": "#CF8980",
+          "label": "Grassley +0.8",
+          "margin": 0.76,
+          "votesRep": 3263,
+          "votesDem": 3214,
+          "votesTotal": 6489
+        },
+        "Johnson19": {
+          "color": "#1C408C",
+          "label": "Franken +42.7",
+          "margin": -42.68,
+          "votesRep": 18245,
+          "votesDem": 45416,
+          "votesTotal": 63723
+        },
+        "Jones19": {
+          "color": "#BF1D29",
+          "label": "Grassley +25.5",
+          "margin": 25.46,
+          "votesRep": 5118,
+          "votesDem": 3041,
+          "votesTotal": 8173
+        },
+        "Keokuk19": {
+          "color": "#BF1D29",
+          "label": "Grassley +49.5",
+          "margin": 49.52,
+          "votesRep": 2811,
+          "votesDem": 949,
+          "votesTotal": 3766
+        },
+        "Kossuth19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.6",
+          "margin": 42.59,
+          "votesRep": 4781,
+          "votesDem": 1925,
+          "votesTotal": 6715
+        },
+        "Lee19": {
+          "color": "#BF1D29",
+          "label": "Grassley +21.7",
+          "margin": 21.75,
+          "votesRep": 6964,
+          "votesDem": 4476,
+          "votesTotal": 11453
+        },
+        "Linn19": {
+          "color": "#577CCC",
+          "label": "Franken +9.0",
+          "margin": -9.04,
+          "votesRep": 42551,
+          "votesDem": 51008,
+          "votesTotal": 93682
+        },
+        "Louisa19": {
+          "color": "#BF1D29",
+          "label": "Grassley +40.3",
+          "margin": 40.33,
+          "votesRep": 2441,
+          "votesDem": 1038,
+          "votesTotal": 3482
+        },
+        "Lucas19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.7",
+          "margin": 45.68,
+          "votesRep": 2513,
+          "votesDem": 937,
+          "votesTotal": 3460
+        },
+        "Lyon19": {
+          "color": "#BF1D29",
+          "label": "Grassley +73.2",
+          "margin": 73.19,
+          "votesRep": 4277,
+          "votesDem": 662,
+          "votesTotal": 4940
+        },
+        "Madison19": {
+          "color": "#BF1D29",
+          "label": "Grassley +35.6",
+          "margin": 35.6,
+          "votesRep": 5064,
+          "votesDem": 2405,
+          "votesTotal": 7485
+        },
+        "Mahaska19": {
+          "color": "#BF1D29",
+          "label": "Grassley +51.5",
+          "margin": 51.51,
+          "votesRep": 6049,
+          "votesDem": 1936,
+          "votesTotal": 7993
+        },
+        "Marion19": {
+          "color": "#BF1D29",
+          "label": "Grassley +38.6",
+          "margin": 38.6,
+          "votesRep": 9799,
+          "votesDem": 4341,
+          "votesTotal": 14160
+        },
+        "Marshall19": {
+          "color": "#BF1D29",
+          "label": "Grassley +18.2",
+          "margin": 18.17,
+          "votesRep": 7307,
+          "votesDem": 5060,
+          "votesTotal": 12383
+        },
+        "Mills19": {
+          "color": "#BF1D29",
+          "label": "Grassley +40.8",
+          "margin": 40.83,
+          "votesRep": 3937,
+          "votesDem": 1654,
+          "votesTotal": 5602
+        },
+        "Mitchell19": {
+          "color": "#BF1D29",
+          "label": "Grassley +30.2",
+          "margin": 30.24,
+          "votesRep": 2761,
+          "votesDem": 1479,
+          "votesTotal": 4246
+        },
+        "Monona19": {
+          "color": "#BF1D29",
+          "label": "Grassley +46.0",
+          "margin": 45.99,
+          "votesRep": 2376,
+          "votesDem": 879,
+          "votesTotal": 3264
+        },
+        "Monroe19": {
+          "color": "#BF1D29",
+          "label": "Grassley +47.4",
+          "margin": 47.39,
+          "votesRep": 2135,
+          "votesDem": 762,
+          "votesTotal": 2903
+        },
+        "Montgomery19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.8",
+          "margin": 42.84,
+          "votesRep": 2509,
+          "votesDem": 1004,
+          "votesTotal": 3518
+        },
+        "Muscatine19": {
+          "color": "#BF1D29",
+          "label": "Grassley +15.7",
+          "margin": 15.74,
+          "votesRep": 7623,
+          "votesDem": 5550,
+          "votesTotal": 13193
+        },
+        "O'Brien19": {
+          "color": "#BF1D29",
+          "label": "Grassley +63.5",
+          "margin": 63.55,
+          "votesRep": 4361,
+          "votesDem": 972,
+          "votesTotal": 5336
+        },
+        "Osceola19": {
+          "color": "#BF1D29",
+          "label": "Grassley +69.5",
+          "margin": 69.5,
+          "votesRep": 1923,
+          "votesDem": 346,
+          "votesTotal": 2272
+        },
+        "Page19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.6",
+          "margin": 45.6,
+          "votesRep": 3707,
+          "votesDem": 1385,
+          "votesTotal": 5104
+        },
+        "Palo Alto19": {
+          "color": "#BF1D29",
+          "label": "Grassley +44.5",
+          "margin": 44.47,
+          "votesRep": 2586,
+          "votesDem": 994,
+          "votesTotal": 3586
+        },
+        "Plymouth19": {
+          "color": "#BF1D29",
+          "label": "Grassley +57.7",
+          "margin": 57.68,
+          "votesRep": 7650,
+          "votesDem": 2053,
+          "votesTotal": 9716
+        },
+        "Pocahontas19": {
+          "color": "#BF1D29",
+          "label": "Grassley +53.3",
+          "margin": 53.27,
+          "votesRep": 2158,
+          "votesDem": 658,
+          "votesTotal": 2820
+        },
+        "Polk19": {
+          "color": "#1C408C",
+          "label": "Franken +12.7",
+          "margin": -12.69,
+          "votesRep": 83279,
+          "votesDem": 107478,
+          "votesTotal": 191134
+        },
+        "Pottawattamie19": {
+          "color": "#BF1D29",
+          "label": "Grassley +22.8",
+          "margin": 22.83,
+          "votesRep": 17785,
+          "votesDem": 11173,
+          "votesTotal": 29008
+        },
+        "Poweshiek19": {
+          "color": "#BF1D29",
+          "label": "Grassley +15.3",
+          "margin": 15.35,
+          "votesRep": 4325,
+          "votesDem": 3174,
+          "votesTotal": 7511
+        },
+        "Ringgold19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.5",
+          "margin": 45.49,
+          "votesRep": 1484,
+          "votesDem": 556,
+          "votesTotal": 2043
+        },
+        "Sac19": {
+          "color": "#BF1D29",
+          "label": "Grassley +53.3",
+          "margin": 53.28,
+          "votesRep": 2999,
+          "votesDem": 914,
+          "votesTotal": 3921
+        },
+        "Scott19": {
+          "color": "#FF8B98",
+          "label": "Grassley +3.6",
+          "margin": 3.62,
+          "votesRep": 32955,
+          "votesDem": 30655,
+          "votesTotal": 63706
+        },
+        "Shelby19": {
+          "color": "#BF1D29",
+          "label": "Grassley +47.4",
+          "margin": 47.42,
+          "votesRep": 3401,
+          "votesDem": 1213,
+          "votesTotal": 4620
+        },
+        "Sioux19": {
+          "color": "#BF1D29",
+          "label": "Grassley +76.0",
+          "margin": 75.96,
+          "votesRep": 12398,
+          "votesDem": 1694,
+          "votesTotal": 14107
+        },
+        "Story19": {
+          "color": "#1C408C",
+          "label": "Franken +14.0",
+          "margin": -13.97,
+          "votesRep": 15870,
+          "votesDem": 21022,
+          "votesTotal": 36958
+        },
+        "Tama19": {
+          "color": "#BF1D29",
+          "label": "Grassley +28.2",
+          "margin": 28.24,
+          "votesRep": 4241,
+          "votesDem": 2373,
+          "votesTotal": 6624
+        },
+        "Taylor19": {
+          "color": "#BF1D29",
+          "label": "Grassley +56.7",
+          "margin": 56.73,
+          "votesRep": 1764,
+          "votesDem": 487,
+          "votesTotal": 2255
+        },
+        "Union19": {
+          "color": "#BF1D29",
+          "label": "Grassley +34.9",
+          "margin": 34.92,
+          "votesRep": 3035,
+          "votesDem": 1464,
+          "votesTotal": 4506
+        },
+        "Van Buren19": {
+          "color": "#BF1D29",
+          "label": "Grassley +51.5",
+          "margin": 51.52,
+          "votesRep": 2097,
+          "votesDem": 671,
+          "votesTotal": 2774
+        },
+        "Wapello19": {
+          "color": "#BF1D29",
+          "label": "Grassley +26.5",
+          "margin": 26.48,
+          "votesRep": 6601,
+          "votesDem": 3837,
+          "votesTotal": 10448
+        },
+        "Warren19": {
+          "color": "#BF1D29",
+          "label": "Grassley +18.7",
+          "margin": 18.65,
+          "votesRep": 14052,
+          "votesDem": 9634,
+          "votesTotal": 23738
+        },
+        "Washington19": {
+          "color": "#BF1D29",
+          "label": "Grassley +25.5",
+          "margin": 25.5,
+          "votesRep": 5450,
+          "votesDem": 3235,
+          "votesTotal": 8691
+        },
+        "Wayne19": {
+          "color": "#BF1D29",
+          "label": "Grassley +56.7",
+          "margin": 56.7,
+          "votesRep": 1860,
+          "votesDem": 514,
+          "votesTotal": 2378
+        },
+        "Webster19": {
+          "color": "#BF1D29",
+          "label": "Grassley +29.0",
+          "margin": 28.96,
+          "votesRep": 7704,
+          "votesDem": 4244,
+          "votesTotal": 11965
+        },
+        "Winnebago19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.2",
+          "margin": 32.19,
+          "votesRep": 2881,
+          "votesDem": 1478,
+          "votesTotal": 4362
+        },
+        "Winneshiek19": {
+          "color": "#FF5865",
+          "label": "Grassley +6.4",
+          "margin": 6.45,
+          "votesRep": 5094,
+          "votesDem": 4477,
+          "votesTotal": 9586
+        },
+        "Woodbury19": {
+          "color": "#BF1D29",
+          "label": "Grassley +27.1",
+          "margin": 27.13,
+          "votesRep": 18161,
+          "votesDem": 10409,
+          "votesTotal": 28636
+        },
+        "Worth19": {
+          "color": "#BF1D29",
+          "label": "Grassley +26.4",
+          "margin": 26.38,
+          "votesRep": 2031,
+          "votesDem": 1183,
+          "votesTotal": 3219
+        },
+        "Wright19": {
+          "color": "#BF1D29",
+          "label": "Grassley +40.3",
+          "margin": 40.33,
+          "votesRep": 2982,
+          "votesDem": 1268,
+          "votesTotal": 4259
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Kim Reynolds",
+      "candDem": "Fred Hubbell",
+      "shortRep": "Reynolds",
+      "shortDem": "Hubbell",
+      "partisan": true,
+      "margin": 2.8,
+      "votesRep": 667275,
+      "votesDem": 630986,
+      "votesTotal": 1327638,
+      "regions": {
+        "Adair19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +30.9",
+          "margin": 30.95,
+          "votesRep": 2213,
+          "votesDem": 1167,
+          "votesTotal": 3444
+        },
+        "Adams19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +35.8",
+          "margin": 35.75,
+          "votesRep": 1160,
+          "votesDem": 549,
+          "votesTotal": 1747
+        },
+        "Allamakee19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +21.1",
+          "margin": 21.14,
+          "votesRep": 3326,
+          "votesDem": 2165,
+          "votesTotal": 5680
+        },
+        "Appanoose19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +25.7",
+          "margin": 25.67,
+          "votesRep": 3101,
+          "votesDem": 1834,
+          "votesTotal": 5049
+        },
+        "Audubon19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +25.2",
+          "margin": 25.23,
+          "votesRep": 1658,
+          "votesDem": 990,
+          "votesTotal": 2694
+        },
+        "Benton19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +20.9",
+          "margin": 20.86,
+          "votesRep": 6845,
+          "votesDem": 4482,
+          "votesTotal": 11629
+        },
+        "Black Hawk19": {
+          "color": "#1C408C",
+          "label": "Hubbell +12.4",
+          "margin": -12.44,
+          "votesRep": 22786,
+          "votesDem": 29259,
+          "votesTotal": 53258
+        },
+        "Boone19": {
+          "color": "#FF8B98",
+          "label": "Reynolds +2.5",
+          "margin": 2.49,
+          "votesRep": 6107,
+          "votesDem": 5810,
+          "votesTotal": 12201
+        },
+        "Bremer19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +10.9",
+          "margin": 10.88,
+          "votesRep": 6220,
+          "votesDem": 4999,
+          "votesTotal": 11450
+        },
+        "Buchanan19": {
+          "color": "#FF5865",
+          "label": "Reynolds +6.5",
+          "margin": 6.47,
+          "votesRep": 4400,
+          "votesDem": 3865,
+          "votesTotal": 8493
+        },
+        "Buena Vista19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +17.5",
+          "margin": 17.48,
+          "votesRep": 3771,
+          "votesDem": 2649,
+          "votesTotal": 6565
+        },
+        "Butler19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +31.4",
+          "margin": 31.38,
+          "votesRep": 3952,
+          "votesDem": 2064,
+          "votesTotal": 6156
+        },
+        "Calhoun19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +29.9",
+          "margin": 29.85,
+          "votesRep": 2710,
+          "votesDem": 1464,
+          "votesTotal": 4310
+        },
+        "Carroll19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +28.1",
+          "margin": 28.1,
+          "votesRep": 5676,
+          "votesDem": 3186,
+          "votesTotal": 9027
+        },
+        "Cass19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +33.8",
+          "margin": 33.81,
+          "votesRep": 3813,
+          "votesDem": 1886,
+          "votesTotal": 5815
+        },
+        "Cedar19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +11.2",
+          "margin": 11.24,
+          "votesRep": 4409,
+          "votesDem": 3518,
+          "votesTotal": 8118
+        },
+        "Cerro Gordo19": {
+          "color": "#FF8B98",
+          "label": "Reynolds +3.4",
+          "margin": 3.43,
+          "votesRep": 9651,
+          "votesDem": 9011,
+          "votesTotal": 19040
+        },
+        "Cherokee19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +32.0",
+          "margin": 31.97,
+          "votesRep": 3327,
+          "votesDem": 1715,
+          "votesTotal": 5156
+        },
+        "Chickasaw19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +17.9",
+          "margin": 17.92,
+          "votesRep": 3021,
+          "votesDem": 2103,
+          "votesTotal": 5249
+        },
+        "Clarke19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +29.3",
+          "margin": 29.3,
+          "votesRep": 2341,
+          "votesDem": 1280,
+          "votesTotal": 3706
+        },
+        "Clay19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +28.7",
+          "margin": 28.71,
+          "votesRep": 4364,
+          "votesDem": 2417,
+          "votesTotal": 6915
+        },
+        "Clayton19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +20.5",
+          "margin": 20.48,
+          "votesRep": 4512,
+          "votesDem": 2978,
+          "votesTotal": 7922
+        },
+        "Clinton19": {
+          "color": "#8AAFFF",
+          "label": "Hubbell +1.1",
+          "margin": -1.12,
+          "votesRep": 8847,
+          "votesDem": 9047,
+          "votesTotal": 18224
+        },
+        "Crawford19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +34.7",
+          "margin": 34.7,
+          "votesRep": 3579,
+          "votesDem": 1735,
+          "votesTotal": 5422
+        },
+        "Dallas19": {
+          "color": "#FF8B98",
+          "label": "Reynolds +3.4",
+          "margin": 3.38,
+          "votesRep": 21189,
+          "votesDem": 19804,
+          "votesTotal": 41744
+        },
+        "Davis19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +34.8",
+          "margin": 34.77,
+          "votesRep": 2070,
+          "votesDem": 1002,
+          "votesTotal": 3141
+        },
+        "Decatur19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +30.0",
+          "margin": 30,
+          "votesRep": 1872,
+          "votesDem": 1008,
+          "votesTotal": 2956
+        },
+        "Delaware19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +28.4",
+          "margin": 28.36,
+          "votesRep": 4779,
+          "votesDem": 2667,
+          "votesTotal": 7673
+        },
+        "Des Moines19": {
+          "color": "#577CCC",
+          "label": "Hubbell +8.1",
+          "margin": -8.15,
+          "votesRep": 6827,
+          "votesDem": 8038,
+          "votesTotal": 15152
+        },
+        "Dickinson19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +27.9",
+          "margin": 27.94,
+          "votesRep": 5564,
+          "votesDem": 3134,
+          "votesTotal": 8843
+        },
+        "Dubuque19": {
+          "color": "#8AAFFF",
+          "label": "Hubbell +1.4",
+          "margin": -1.38,
+          "votesRep": 20532,
+          "votesDem": 21108,
+          "votesTotal": 42760
+        },
+        "Emmet19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +24.9",
+          "margin": 24.86,
+          "votesRep": 2298,
+          "votesDem": 1383,
+          "votesTotal": 3769
+        },
+        "Fayette19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +13.6",
+          "margin": 13.57,
+          "votesRep": 4528,
+          "votesDem": 3446,
+          "votesTotal": 8231
+        },
+        "Floyd19": {
+          "color": "#FF5865",
+          "label": "Reynolds +9.0",
+          "margin": 8.97,
+          "votesRep": 3366,
+          "votesDem": 2812,
+          "votesTotal": 6318
+        },
+        "Franklin19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +31.5",
+          "margin": 31.5,
+          "votesRep": 2647,
+          "votesDem": 1379,
+          "votesTotal": 4109
+        },
+        "Fremont19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +32.7",
+          "margin": 32.7,
+          "votesRep": 1956,
+          "votesDem": 992,
+          "votesTotal": 3012
+        },
+        "Greene19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +16.3",
+          "margin": 16.27,
+          "votesRep": 2326,
+          "votesDem": 1675,
+          "votesTotal": 4098
+        },
+        "Grundy19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +33.7",
+          "margin": 33.75,
+          "votesRep": 3785,
+          "votesDem": 1875,
+          "votesTotal": 5764
+        },
+        "Guthrie19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +29.2",
+          "margin": 29.16,
+          "votesRep": 3169,
+          "votesDem": 1738,
+          "votesTotal": 5037
+        },
+        "Hamilton19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +18.3",
+          "margin": 18.25,
+          "votesRep": 3703,
+          "votesDem": 2560,
+          "votesTotal": 6386
+        },
+        "Hancock19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +38.0",
+          "margin": 37.98,
+          "votesRep": 3257,
+          "votesDem": 1464,
+          "votesTotal": 4823
+        },
+        "Hardin19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +24.2",
+          "margin": 24.21,
+          "votesRep": 4407,
+          "votesDem": 2689,
+          "votesTotal": 7250
+        },
+        "Harrison19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +34.6",
+          "margin": 34.55,
+          "votesRep": 3931,
+          "votesDem": 1912,
+          "votesTotal": 6000
+        },
+        "Henry19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +17.7",
+          "margin": 17.69,
+          "votesRep": 4284,
+          "votesDem": 2996,
+          "votesTotal": 7446
+        },
+        "Howard19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +18.1",
+          "margin": 18.09,
+          "votesRep": 2050,
+          "votesDem": 1422,
+          "votesTotal": 3622
+        },
+        "Humboldt19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +40.0",
+          "margin": 39.95,
+          "votesRep": 2797,
+          "votesDem": 1200,
+          "votesTotal": 4086
+        },
+        "Ida19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +51.0",
+          "margin": 50.98,
+          "votesRep": 2196,
+          "votesDem": 713,
+          "votesTotal": 2948
+        },
+        "Iowa19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +20.5",
+          "margin": 20.54,
+          "votesRep": 4499,
+          "votesDem": 2966,
+          "votesTotal": 7648
+        },
+        "Jackson19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +14.0",
+          "margin": 13.96,
+          "votesRep": 4744,
+          "votesDem": 3582,
+          "votesTotal": 8589
+        },
+        "Jasper19": {
+          "color": "#FF5865",
+          "label": "Reynolds +7.3",
+          "margin": 7.32,
+          "votesRep": 8377,
+          "votesDem": 7234,
+          "votesTotal": 15935
+        },
+        "Jefferson19": {
+          "color": "#577CCC",
+          "label": "Hubbell +8.8",
+          "margin": -8.76,
+          "votesRep": 3146,
+          "votesDem": 3750,
+          "votesTotal": 7076
+        },
+        "Johnson19": {
+          "color": "#1C408C",
+          "label": "Hubbell +45.8",
+          "margin": -45.81,
+          "votesRep": 18119,
+          "votesDem": 48758,
+          "votesTotal": 68107
+        },
+        "Jones19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +13.1",
+          "margin": 13.12,
+          "votesRep": 4752,
+          "votesDem": 3650,
+          "votesTotal": 8603
+        },
+        "Keokuk19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +35.5",
+          "margin": 35.46,
+          "votesRep": 2716,
+          "votesDem": 1294,
+          "votesTotal": 4085
+        },
+        "Kossuth19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +28.4",
+          "margin": 28.41,
+          "votesRep": 4642,
+          "votesDem": 2588,
+          "votesTotal": 7365
+        },
+        "Lee19": {
+          "color": "#8AAFFF",
+          "label": "Hubbell +3.3",
+          "margin": -3.35,
+          "votesRep": 5973,
+          "votesDem": 6387,
+          "votesTotal": 12638
+        },
+        "Linn19": {
+          "color": "#1C408C",
+          "label": "Hubbell +14.4",
+          "margin": -14.43,
+          "votesRep": 42449,
+          "votesDem": 56767,
+          "votesTotal": 102102
+        },
+        "Louisa19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +21.8",
+          "margin": 21.8,
+          "votesRep": 2288,
+          "votesDem": 1469,
+          "votesTotal": 3828
+        },
+        "Lucas19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +33.2",
+          "margin": 33.16,
+          "votesRep": 2335,
+          "votesDem": 1172,
+          "votesTotal": 3582
+        },
+        "Lyon19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +66.8",
+          "margin": 66.77,
+          "votesRep": 4281,
+          "votesDem": 853,
+          "votesTotal": 5187
+        },
+        "Madison19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +26.9",
+          "margin": 26.89,
+          "votesRep": 4754,
+          "votesDem": 2739,
+          "votesTotal": 7658
+        },
+        "Mahaska19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +42.8",
+          "margin": 42.75,
+          "votesRep": 6007,
+          "votesDem": 2409,
+          "votesTotal": 8596
+        },
+        "Marion19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +28.7",
+          "margin": 28.72,
+          "votesRep": 9479,
+          "votesDem": 5249,
+          "votesTotal": 15051
+        },
+        "Marshall19": {
+          "color": "#FF8B98",
+          "label": "Reynolds +1.0",
+          "margin": 1.03,
+          "votesRep": 7243,
+          "votesDem": 7095,
+          "votesTotal": 14652
+        },
+        "Mills19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +28.6",
+          "margin": 28.59,
+          "votesRep": 3945,
+          "votesDem": 2191,
+          "votesTotal": 6325
+        },
+        "Mitchell19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +22.8",
+          "margin": 22.81,
+          "votesRep": 2711,
+          "votesDem": 1704,
+          "votesTotal": 4527
+        },
+        "Monona19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +37.2",
+          "margin": 37.16,
+          "votesRep": 2556,
+          "votesDem": 1171,
+          "votesTotal": 3797
+        },
+        "Monroe19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +31.9",
+          "margin": 31.86,
+          "votesRep": 2053,
+          "votesDem": 1061,
+          "votesTotal": 3161
+        },
+        "Montgomery19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +36.9",
+          "margin": 36.92,
+          "votesRep": 2648,
+          "votesDem": 1220,
+          "votesTotal": 3966
+        },
+        "Muscatine19": {
+          "color": "#FF8B98",
+          "label": "Reynolds +3.1",
+          "margin": 3.11,
+          "votesRep": 7535,
+          "votesDem": 7081,
+          "votesTotal": 14981
+        },
+        "O'Brien19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +55.1",
+          "margin": 55.06,
+          "votesRep": 4472,
+          "votesDem": 1296,
+          "votesTotal": 5851
+        },
+        "Osceola19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +60.0",
+          "margin": 59.97,
+          "votesRep": 1922,
+          "votesDem": 481,
+          "votesTotal": 2431
+        },
+        "Page19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +33.6",
+          "margin": 33.62,
+          "votesRep": 3702,
+          "votesDem": 1839,
+          "votesTotal": 5635
+        },
+        "Palo Alto19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +24.8",
+          "margin": 24.8,
+          "votesRep": 2320,
+          "votesDem": 1398,
+          "votesTotal": 3788
+        },
+        "Plymouth19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +49.0",
+          "margin": 49.01,
+          "votesRep": 7941,
+          "votesDem": 2717,
+          "votesTotal": 10829
+        },
+        "Pocahontas19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +37.0",
+          "margin": 36.98,
+          "votesRep": 2091,
+          "votesDem": 962,
+          "votesTotal": 3125
+        },
+        "Polk19": {
+          "color": "#1C408C",
+          "label": "Hubbell +18.6",
+          "margin": -18.64,
+          "votesRep": 82473,
+          "votesDem": 120257,
+          "votesTotal": 206881
+        },
+        "Pottawattamie19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +14.4",
+          "margin": 14.43,
+          "votesRep": 19036,
+          "votesDem": 14234,
+          "votesTotal": 34129
+        },
+        "Poweshiek19": {
+          "color": "#FF8B98",
+          "label": "Reynolds +2.0",
+          "margin": 1.99,
+          "votesRep": 4160,
+          "votesDem": 3998,
+          "votesTotal": 8315
+        },
+        "Ringgold19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +29.5",
+          "margin": 29.47,
+          "votesRep": 1476,
+          "votesDem": 804,
+          "votesTotal": 2316
+        },
+        "Sac19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +40.6",
+          "margin": 40.59,
+          "votesRep": 2965,
+          "votesDem": 1253,
+          "votesTotal": 4310
+        },
+        "Scott19": {
+          "color": "#8AAFFF",
+          "label": "Hubbell +3.5",
+          "margin": -3.53,
+          "votesRep": 32750,
+          "votesDem": 35147,
+          "votesTotal": 69255
+        },
+        "Shelby19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +41.8",
+          "margin": 41.85,
+          "votesRep": 3537,
+          "votesDem": 1450,
+          "votesTotal": 5069
+        },
+        "Sioux19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +73.6",
+          "margin": 73.57,
+          "votesRep": 12840,
+          "votesDem": 1955,
+          "votesTotal": 14942
+        },
+        "Story19": {
+          "color": "#1C408C",
+          "label": "Hubbell +20.7",
+          "margin": -20.68,
+          "votesRep": 16535,
+          "votesDem": 25155,
+          "votesTotal": 42824
+        },
+        "Tama19": {
+          "color": "#FF5865",
+          "label": "Reynolds +9.7",
+          "margin": 9.67,
+          "votesRep": 3931,
+          "votesDem": 3238,
+          "votesTotal": 7328
+        },
+        "Taylor19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +36.5",
+          "margin": 36.51,
+          "votesRep": 1632,
+          "votesDem": 759,
+          "votesTotal": 2445
+        },
+        "Union19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +23.3",
+          "margin": 23.29,
+          "votesRep": 2949,
+          "votesDem": 1835,
+          "votesTotal": 4896
+        },
+        "Van Buren19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +41.4",
+          "margin": 41.43,
+          "votesRep": 2026,
+          "votesDem": 839,
+          "votesTotal": 2922
+        },
+        "Wapello19": {
+          "color": "#FF5865",
+          "label": "Reynolds +7.1",
+          "margin": 7.06,
+          "votesRep": 6313,
+          "votesDem": 5480,
+          "votesTotal": 12058
+        },
+        "Warren19": {
+          "color": "#FF5865",
+          "label": "Reynolds +7.8",
+          "margin": 7.83,
+          "votesRep": 12801,
+          "votesDem": 10942,
+          "votesTotal": 24261
+        },
+        "Washington19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +16.1",
+          "margin": 16.15,
+          "votesRep": 5189,
+          "votesDem": 3746,
+          "votesTotal": 9162
+        },
+        "Wayne19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +38.4",
+          "margin": 38.45,
+          "votesRep": 1624,
+          "votesDem": 722,
+          "votesTotal": 2405
+        },
+        "Webster19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +11.5",
+          "margin": 11.51,
+          "votesRep": 7727,
+          "votesDem": 6132,
+          "votesTotal": 14149
+        },
+        "Winnebago19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +20.8",
+          "margin": 20.78,
+          "votesRep": 2726,
+          "votesDem": 1788,
+          "votesTotal": 4632
+        },
+        "Winneshiek19": {
+          "color": "#CF8980",
+          "label": "Reynolds +0.6",
+          "margin": 0.58,
+          "votesRep": 4841,
+          "votesDem": 4785,
+          "votesTotal": 9873
+        },
+        "Woodbury19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +13.3",
+          "margin": 13.29,
+          "votesRep": 19630,
+          "votesDem": 15024,
+          "votesTotal": 35430
+        },
+        "Worth19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +19.3",
+          "margin": 19.3,
+          "votesRep": 2043,
+          "votesDem": 1382,
+          "votesTotal": 3533
+        },
+        "Wright19": {
+          "color": "#BF1D29",
+          "label": "Reynolds +26.1",
+          "margin": 26.07,
+          "votesRep": 3049,
+          "votesDem": 1788,
+          "votesTotal": 4947
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Charles Grassley",
+      "candDem": "Patty Judge",
+      "shortRep": "Grassley",
+      "shortDem": "Judge",
+      "partisan": true,
+      "margin": 25.52,
+      "votesRep": 926007,
+      "votesDem": 549460,
+      "votesTotal": 1541036,
+      "regions": {
+        "Adair19": {
+          "color": "#BF1D29",
+          "label": "Grassley +50.4",
+          "margin": 50.36,
+          "votesRep": 2708,
+          "votesDem": 894,
+          "votesTotal": 3772
+        },
+        "Adams19": {
+          "color": "#BF1D29",
+          "label": "Grassley +53.9",
+          "margin": 53.89,
+          "votesRep": 1515,
+          "votesDem": 454,
+          "votesTotal": 2062
+        },
+        "Allamakee19": {
+          "color": "#BF1D29",
+          "label": "Grassley +36.1",
+          "margin": 36.12,
+          "votesRep": 4473,
+          "votesDem": 2099,
+          "votesTotal": 6827
+        },
+        "Appanoose19": {
+          "color": "#BF1D29",
+          "label": "Grassley +41.8",
+          "margin": 41.84,
+          "votesRep": 4122,
+          "votesDem": 1690,
+          "votesTotal": 6013
+        },
+        "Audubon19": {
+          "color": "#BF1D29",
+          "label": "Grassley +46.6",
+          "margin": 46.56,
+          "votesRep": 2323,
+          "votesDem": 847,
+          "votesTotal": 3282
+        },
+        "Benton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.1",
+          "margin": 42.09,
+          "votesRep": 9351,
+          "votesDem": 3811,
+          "votesTotal": 13685
+        },
+        "Black Hawk19": {
+          "color": "#BF1D29",
+          "label": "Grassley +10.9",
+          "margin": 10.86,
+          "votesRep": 33884,
+          "votesDem": 27245,
+          "votesTotal": 63527
+        },
+        "Boone19": {
+          "color": "#BF1D29",
+          "label": "Grassley +28.1",
+          "margin": 28.13,
+          "votesRep": 8593,
+          "votesDem": 4820,
+          "votesTotal": 14056
+        },
+        "Bremer19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.7",
+          "margin": 32.66,
+          "votesRep": 8583,
+          "votesDem": 4357,
+          "votesTotal": 13415
+        },
+        "Buchanan19": {
+          "color": "#BF1D29",
+          "label": "Grassley +31.7",
+          "margin": 31.66,
+          "votesRep": 6382,
+          "votesDem": 3313,
+          "votesTotal": 10149
+        },
+        "Buena Vista19": {
+          "color": "#BF1D29",
+          "label": "Grassley +38.5",
+          "margin": 38.54,
+          "votesRep": 5369,
+          "votesDem": 2382,
+          "votesTotal": 8050
+        },
+        "Butler19": {
+          "color": "#BF1D29",
+          "label": "Grassley +50.6",
+          "margin": 50.6,
+          "votesRep": 5433,
+          "votesDem": 1782,
+          "votesTotal": 7464
+        },
+        "Calhoun19": {
+          "color": "#BF1D29",
+          "label": "Grassley +53.4",
+          "margin": 53.39,
+          "votesRep": 3798,
+          "votesDem": 1154,
+          "votesTotal": 5118
+        },
+        "Carroll19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.6",
+          "margin": 45.57,
+          "votesRep": 7259,
+          "votesDem": 2714,
+          "votesTotal": 10344
+        },
+        "Cass19": {
+          "color": "#BF1D29",
+          "label": "Grassley +53.1",
+          "margin": 53.07,
+          "votesRep": 5081,
+          "votesDem": 1558,
+          "votesTotal": 6929
+        },
+        "Cedar19": {
+          "color": "#BF1D29",
+          "label": "Grassley +35.5",
+          "margin": 35.46,
+          "votesRep": 6103,
+          "votesDem": 2908,
+          "votesTotal": 9410
+        },
+        "Cerro Gordo19": {
+          "color": "#BF1D29",
+          "label": "Grassley +24.3",
+          "margin": 24.29,
+          "votesRep": 13417,
+          "votesDem": 8173,
+          "votesTotal": 22633
+        },
+        "Cherokee19": {
+          "color": "#BF1D29",
+          "label": "Grassley +55.6",
+          "margin": 55.64,
+          "votesRep": 4670,
+          "votesDem": 1331,
+          "votesTotal": 6193
+        },
+        "Chickasaw19": {
+          "color": "#BF1D29",
+          "label": "Grassley +36.2",
+          "margin": 36.21,
+          "votesRep": 4177,
+          "votesDem": 1956,
+          "votesTotal": 6382
+        },
+        "Clarke19": {
+          "color": "#BF1D29",
+          "label": "Grassley +39.0",
+          "margin": 39.03,
+          "votesRep": 2903,
+          "votesDem": 1273,
+          "votesTotal": 4385
+        },
+        "Clay19": {
+          "color": "#BF1D29",
+          "label": "Grassley +53.5",
+          "margin": 53.54,
+          "votesRep": 6260,
+          "votesDem": 1894,
+          "votesTotal": 8472
+        },
+        "Clayton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +35.6",
+          "margin": 35.6,
+          "votesRep": 5851,
+          "votesDem": 2779,
+          "votesTotal": 9012
+        },
+        "Clinton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +18.3",
+          "margin": 18.31,
+          "votesRep": 12821,
+          "votesDem": 8852,
+          "votesTotal": 22754
+        },
+        "Crawford19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.0",
+          "margin": 45.04,
+          "votesRep": 4674,
+          "votesDem": 1771,
+          "votesTotal": 6721
+        },
+        "Dallas19": {
+          "color": "#BF1D29",
+          "label": "Grassley +34.5",
+          "margin": 34.48,
+          "votesRep": 24374,
+          "votesDem": 11876,
+          "votesTotal": 37775
+        },
+        "Davis19": {
+          "color": "#BF1D29",
+          "label": "Grassley +47.8",
+          "margin": 47.77,
+          "votesRep": 2750,
+          "votesDem": 972,
+          "votesTotal": 3843
+        },
+        "Decatur19": {
+          "color": "#BF1D29",
+          "label": "Grassley +41.2",
+          "margin": 41.16,
+          "votesRep": 2488,
+          "votesDem": 1037,
+          "votesTotal": 3681
+        },
+        "Delaware19": {
+          "color": "#BF1D29",
+          "label": "Grassley +46.2",
+          "margin": 46.24,
+          "votesRep": 6445,
+          "votesDem": 2369,
+          "votesTotal": 9180
+        },
+        "Des Moines19": {
+          "color": "#BF1D29",
+          "label": "Grassley +15.4",
+          "margin": 15.41,
+          "votesRep": 10353,
+          "votesDem": 7589,
+          "votesTotal": 18669
+        },
+        "Dickinson19": {
+          "color": "#BF1D29",
+          "label": "Grassley +51.1",
+          "margin": 51.14,
+          "votesRep": 7489,
+          "votesDem": 2421,
+          "votesTotal": 10235
+        },
+        "Dubuque19": {
+          "color": "#BF1D29",
+          "label": "Grassley +17.3",
+          "margin": 17.28,
+          "votesRep": 27348,
+          "votesDem": 19291,
+          "votesTotal": 48500
+        },
+        "Emmet19": {
+          "color": "#BF1D29",
+          "label": "Grassley +48.1",
+          "margin": 48.09,
+          "votesRep": 3341,
+          "votesDem": 1171,
+          "votesTotal": 4711
+        },
+        "Fayette19": {
+          "color": "#BF1D29",
+          "label": "Grassley +35.3",
+          "margin": 35.26,
+          "votesRep": 6412,
+          "votesDem": 3069,
+          "votesTotal": 9947
+        },
+        "Floyd19": {
+          "color": "#BF1D29",
+          "label": "Grassley +29.0",
+          "margin": 28.96,
+          "votesRep": 4947,
+          "votesDem": 2725,
+          "votesTotal": 7978
+        },
+        "Franklin19": {
+          "color": "#BF1D29",
+          "label": "Grassley +50.4",
+          "margin": 50.36,
+          "votesRep": 3550,
+          "votesDem": 1172,
+          "votesTotal": 4940
+        },
+        "Fremont19": {
+          "color": "#BF1D29",
+          "label": "Grassley +55.7",
+          "margin": 55.68,
+          "votesRep": 2582,
+          "votesDem": 735,
+          "votesTotal": 3505
+        },
+        "Greene19": {
+          "color": "#BF1D29",
+          "label": "Grassley +40.8",
+          "margin": 40.81,
+          "votesRep": 3197,
+          "votesDem": 1344,
+          "votesTotal": 4743
+        },
+        "Grundy19": {
+          "color": "#BF1D29",
+          "label": "Grassley +58.7",
+          "margin": 58.68,
+          "votesRep": 5261,
+          "votesDem": 1370,
+          "votesTotal": 6868
+        },
+        "Guthrie19": {
+          "color": "#BF1D29",
+          "label": "Grassley +47.8",
+          "margin": 47.83,
+          "votesRep": 4004,
+          "votesDem": 1413,
+          "votesTotal": 5724
+        },
+        "Hamilton19": {
+          "color": "#BF1D29",
+          "label": "Grassley +40.6",
+          "margin": 40.65,
+          "votesRep": 5142,
+          "votesDem": 2170,
+          "votesTotal": 7619
+        },
+        "Hancock19": {
+          "color": "#BF1D29",
+          "label": "Grassley +52.3",
+          "margin": 52.34,
+          "votesRep": 4232,
+          "votesDem": 1324,
+          "votesTotal": 5819
+        },
+        "Hardin19": {
+          "color": "#BF1D29",
+          "label": "Grassley +43.8",
+          "margin": 43.78,
+          "votesRep": 5841,
+          "votesDem": 2284,
+          "votesTotal": 8464
+        },
+        "Harrison19": {
+          "color": "#BF1D29",
+          "label": "Grassley +48.1",
+          "margin": 48.14,
+          "votesRep": 5108,
+          "votesDem": 1788,
+          "votesTotal": 7298
+        },
+        "Henry19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.6",
+          "margin": 42.58,
+          "votesRep": 6294,
+          "votesDem": 2535,
+          "votesTotal": 9225
+        },
+        "Howard19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.4",
+          "margin": 32.42,
+          "votesRep": 2859,
+          "votesDem": 1459,
+          "votesTotal": 4510
+        },
+        "Humboldt19": {
+          "color": "#BF1D29",
+          "label": "Grassley +58.9",
+          "margin": 58.88,
+          "votesRep": 3860,
+          "votesDem": 999,
+          "votesTotal": 5039
+        },
+        "Ida19": {
+          "color": "#BF1D29",
+          "label": "Grassley +65.9",
+          "margin": 65.88,
+          "votesRep": 2868,
+          "votesDem": 590,
+          "votesTotal": 3571
+        },
+        "Iowa19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.6",
+          "margin": 42.55,
+          "votesRep": 6062,
+          "votesDem": 2443,
+          "votesTotal": 8824
+        },
+        "Jackson19": {
+          "color": "#BF1D29",
+          "label": "Grassley +29.1",
+          "margin": 29.11,
+          "votesRep": 6283,
+          "votesDem": 3450,
+          "votesTotal": 10057
+        },
+        "Jasper19": {
+          "color": "#BF1D29",
+          "label": "Grassley +30.9",
+          "margin": 30.9,
+          "votesRep": 11688,
+          "votesDem": 6170,
+          "votesTotal": 18855
+        },
+        "Jefferson19": {
+          "color": "#FF5865",
+          "label": "Grassley +8.6",
+          "margin": 8.58,
+          "votesRep": 4094,
+          "votesDem": 3447,
+          "votesTotal": 7936
+        },
+        "Johnson19": {
+          "color": "#1C408C",
+          "label": "Judge +19.2",
+          "margin": -19.25,
+          "votesRep": 28914,
+          "votesDem": 42699,
+          "votesTotal": 74833
+        },
+        "Jones19": {
+          "color": "#BF1D29",
+          "label": "Grassley +36.3",
+          "margin": 36.28,
+          "votesRep": 6551,
+          "votesDem": 3063,
+          "votesTotal": 10071
+        },
+        "Keokuk19": {
+          "color": "#BF1D29",
+          "label": "Grassley +55.9",
+          "margin": 55.93,
+          "votesRep": 3697,
+          "votesDem": 1045,
+          "votesTotal": 4915
+        },
+        "Kossuth19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.7",
+          "margin": 45.69,
+          "votesRep": 6027,
+          "votesDem": 2247,
+          "votesTotal": 8574
+        },
+        "Lee19": {
+          "color": "#BF1D29",
+          "label": "Grassley +13.9",
+          "margin": 13.89,
+          "votesRep": 8441,
+          "votesDem": 6382,
+          "votesTotal": 15846
+        },
+        "Linn19": {
+          "color": "#BF1D29",
+          "label": "Grassley +13.7",
+          "margin": 13.68,
+          "votesRep": 62737,
+          "votesDem": 47635,
+          "votesTotal": 115614
+        },
+        "Louisa19": {
+          "color": "#BF1D29",
+          "label": "Grassley +39.6",
+          "margin": 39.6,
+          "votesRep": 3303,
+          "votesDem": 1429,
+          "votesTotal": 4939
+        },
+        "Lucas19": {
+          "color": "#BF1D29",
+          "label": "Grassley +48.3",
+          "margin": 48.31,
+          "votesRep": 3064,
+          "votesDem": 1068,
+          "votesTotal": 4277
+        },
+        "Lyon19": {
+          "color": "#BF1D29",
+          "label": "Grassley +75.0",
+          "margin": 75,
+          "votesRep": 5328,
+          "votesDem": 761,
+          "votesTotal": 6254
+        },
+        "Madison19": {
+          "color": "#BF1D29",
+          "label": "Grassley +45.7",
+          "margin": 45.73,
+          "votesRep": 5921,
+          "votesDem": 2205,
+          "votesTotal": 8520
+        },
+        "Mahaska19": {
+          "color": "#BF1D29",
+          "label": "Grassley +54.5",
+          "margin": 54.48,
+          "votesRep": 7812,
+          "votesDem": 2302,
+          "votesTotal": 10482
+        },
+        "Marion19": {
+          "color": "#BF1D29",
+          "label": "Grassley +46.2",
+          "margin": 46.23,
+          "votesRep": 12407,
+          "votesDem": 4562,
+          "votesTotal": 17621
+        },
+        "Marshall19": {
+          "color": "#BF1D29",
+          "label": "Grassley +22.6",
+          "margin": 22.61,
+          "votesRep": 10432,
+          "votesDem": 6585,
+          "votesTotal": 17739
+        },
+        "Mills19": {
+          "color": "#BF1D29",
+          "label": "Grassley +50.5",
+          "margin": 50.5,
+          "votesRep": 5290,
+          "votesDem": 1740,
+          "votesTotal": 7422
+        },
+        "Mitchell19": {
+          "color": "#BF1D29",
+          "label": "Grassley +41.1",
+          "margin": 41.1,
+          "votesRep": 3680,
+          "votesDem": 1536,
+          "votesTotal": 5379
+        },
+        "Monona19": {
+          "color": "#BF1D29",
+          "label": "Grassley +51.9",
+          "margin": 51.92,
+          "votesRep": 3315,
+          "votesDem": 1049,
+          "votesTotal": 4530
+        },
+        "Monroe19": {
+          "color": "#BF1D29",
+          "label": "Grassley +31.5",
+          "margin": 31.51,
+          "votesRep": 2458,
+          "votesDem": 1280,
+          "votesTotal": 3837
+        },
+        "Montgomery19": {
+          "color": "#BF1D29",
+          "label": "Grassley +54.7",
+          "margin": 54.72,
+          "votesRep": 3646,
+          "votesDem": 1067,
+          "votesTotal": 4949
+        },
+        "Muscatine19": {
+          "color": "#BF1D29",
+          "label": "Grassley +23.1",
+          "margin": 23.15,
+          "votesRep": 11157,
+          "votesDem": 6963,
+          "votesTotal": 19095
+        },
+        "O'Brien19": {
+          "color": "#BF1D29",
+          "label": "Grassley +70.3",
+          "margin": 70.29,
+          "votesRep": 6076,
+          "votesDem": 1060,
+          "votesTotal": 7304
+        },
+        "Osceola19": {
+          "color": "#BF1D29",
+          "label": "Grassley +70.2",
+          "margin": 70.22,
+          "votesRep": 2601,
+          "votesDem": 455,
+          "votesTotal": 3143
+        },
+        "Page19": {
+          "color": "#BF1D29",
+          "label": "Grassley +56.2",
+          "margin": 56.19,
+          "votesRep": 5208,
+          "votesDem": 1461,
+          "votesTotal": 6921
+        },
+        "Palo Alto19": {
+          "color": "#BF1D29",
+          "label": "Grassley +50.6",
+          "margin": 50.56,
+          "votesRep": 3377,
+          "votesDem": 1109,
+          "votesTotal": 4653
+        },
+        "Plymouth19": {
+          "color": "#BF1D29",
+          "label": "Grassley +63.6",
+          "margin": 63.6,
+          "votesRep": 10338,
+          "votesDem": 2300,
+          "votesTotal": 12970
+        },
+        "Pocahontas19": {
+          "color": "#BF1D29",
+          "label": "Grassley +57.3",
+          "margin": 57.33,
+          "votesRep": 2891,
+          "votesDem": 784,
+          "votesTotal": 3824
+        },
+        "Polk19": {
+          "color": "#FF5865",
+          "label": "Grassley +8.2",
+          "margin": 8.17,
+          "votesRep": 118164,
+          "votesDem": 100317,
+          "votesTotal": 228391
+        },
+        "Pottawattamie19": {
+          "color": "#BF1D29",
+          "label": "Grassley +33.0",
+          "margin": 33.05,
+          "votesRep": 25721,
+          "votesDem": 12943,
+          "votesTotal": 41466
+        },
+        "Poweshiek19": {
+          "color": "#BF1D29",
+          "label": "Grassley +20.0",
+          "margin": 19.96,
+          "votesRep": 5617,
+          "votesDem": 3748,
+          "votesTotal": 9731
+        },
+        "Ringgold19": {
+          "color": "#BF1D29",
+          "label": "Grassley +52.6",
+          "margin": 52.65,
+          "votesRep": 1989,
+          "votesDem": 617,
+          "votesTotal": 2686
+        },
+        "Sac19": {
+          "color": "#BF1D29",
+          "label": "Grassley +59.2",
+          "margin": 59.24,
+          "votesRep": 3965,
+          "votesDem": 1015,
+          "votesTotal": 5131
+        },
+        "Scott19": {
+          "color": "#BF1D29",
+          "label": "Grassley +14.7",
+          "margin": 14.72,
+          "votesRep": 46415,
+          "votesDem": 34503,
+          "votesTotal": 84692
+        },
+        "Shelby19": {
+          "color": "#BF1D29",
+          "label": "Grassley +52.1",
+          "margin": 52.15,
+          "votesRep": 4480,
+          "votesDem": 1409,
+          "votesTotal": 6110
+        },
+        "Sioux19": {
+          "color": "#BF1D29",
+          "label": "Grassley +80.6",
+          "margin": 80.59,
+          "votesRep": 15902,
+          "votesDem": 1709,
+          "votesTotal": 17932
+        },
+        "Story19": {
+          "color": "#FF5865",
+          "label": "Grassley +8.5",
+          "margin": 8.53,
+          "votesRep": 25475,
+          "votesDem": 21472,
+          "votesTotal": 49316
+        },
+        "Tama19": {
+          "color": "#BF1D29",
+          "label": "Grassley +33.3",
+          "margin": 33.32,
+          "votesRep": 5536,
+          "votesDem": 2769,
+          "votesTotal": 8722
+        },
+        "Taylor19": {
+          "color": "#BF1D29",
+          "label": "Grassley +56.7",
+          "margin": 56.72,
+          "votesRep": 2220,
+          "votesDem": 613,
+          "votesTotal": 2941
+        },
+        "Union19": {
+          "color": "#BF1D29",
+          "label": "Grassley +41.3",
+          "margin": 41.31,
+          "votesRep": 3913,
+          "votesDem": 1625,
+          "votesTotal": 5775
+        },
+        "Van Buren19": {
+          "color": "#BF1D29",
+          "label": "Grassley +54.8",
+          "margin": 54.82,
+          "votesRep": 2618,
+          "votesDem": 764,
+          "votesTotal": 3531
+        },
+        "Wapello19": {
+          "color": "#BF1D29",
+          "label": "Grassley +23.7",
+          "margin": 23.67,
+          "votesRep": 8692,
+          "votesDem": 5365,
+          "votesTotal": 14790
+        },
+        "Warren19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.5",
+          "margin": 32.51,
+          "votesRep": 17081,
+          "votesDem": 8700,
+          "votesTotal": 26879
+        },
+        "Washington19": {
+          "color": "#BF1D29",
+          "label": "Grassley +40.6",
+          "margin": 40.62,
+          "votesRep": 7251,
+          "votesDem": 3062,
+          "votesTotal": 10777
+        },
+        "Wayne19": {
+          "color": "#BF1D29",
+          "label": "Grassley +54.6",
+          "margin": 54.58,
+          "votesRep": 2195,
+          "votesDem": 645,
+          "votesTotal": 2929
+        },
+        "Webster19": {
+          "color": "#BF1D29",
+          "label": "Grassley +34.4",
+          "margin": 34.36,
+          "votesRep": 11045,
+          "votesDem": 5396,
+          "votesTotal": 17159
+        },
+        "Winnebago19": {
+          "color": "#BF1D29",
+          "label": "Grassley +42.5",
+          "margin": 42.47,
+          "votesRep": 3938,
+          "votesDem": 1590,
+          "votesTotal": 5761
+        },
+        "Winneshiek19": {
+          "color": "#BF1D29",
+          "label": "Grassley +17.7",
+          "margin": 17.74,
+          "votesRep": 6349,
+          "votesDem": 4436,
+          "votesTotal": 11219
+        },
+        "Woodbury19": {
+          "color": "#BF1D29",
+          "label": "Grassley +32.3",
+          "margin": 32.28,
+          "votesRep": 27166,
+          "votesDem": 13909,
+          "votesTotal": 43012
+        },
+        "Worth19": {
+          "color": "#BF1D29",
+          "label": "Grassley +38.0",
+          "margin": 38.01,
+          "votesRep": 2774,
+          "votesDem": 1246,
+          "votesTotal": 4222
+        },
+        "Wright19": {
+          "color": "#BF1D29",
+          "label": "Grassley +46.2",
+          "margin": 46.16,
+          "votesRep": 4208,
+          "votesDem": 1550,
+          "votesTotal": 5981
+        }
+      }
+    }
+  ]
+}

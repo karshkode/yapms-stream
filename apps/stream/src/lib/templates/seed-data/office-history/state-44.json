@@ -1,0 +1,234 @@
+{
+  "stateFips": "44",
+  "stateName": "Rhode Island",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Patricia Morgan",
+      "candDem": "Sheldon Whitehouse",
+      "shortRep": "Morgan",
+      "shortDem": "Whitehouse",
+      "partisan": true,
+      "margin": -20.1,
+      "votesRep": 196039,
+      "votesDem": 294665,
+      "votesTotal": 491948,
+      "regions": {
+        "Bristol44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +27.9",
+          "margin": -27.93,
+          "votesRep": 9888,
+          "votesDem": 17552,
+          "votesTotal": 27489
+        },
+        "Kent44": {
+          "color": "#577CCC",
+          "label": "Whitehouse +8.4",
+          "margin": -8.42,
+          "votesRep": 41403,
+          "votesDem": 49019,
+          "votesTotal": 90629
+        },
+        "Newport44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +26.6",
+          "margin": -26.58,
+          "votesRep": 15830,
+          "votesDem": 27289,
+          "votesTotal": 43183
+        },
+        "Providence44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +22.9",
+          "margin": -22.9,
+          "votesRep": 98145,
+          "votesDem": 156457,
+          "votesTotal": 255395
+        },
+        "Washington44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +16.7",
+          "margin": -16.74,
+          "votesRep": 30661,
+          "votesDem": 42992,
+          "votesTotal": 73779
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Ashley Marie Kalus",
+      "candDem": "Daniel McKee",
+      "shortRep": "Kalus",
+      "shortDem": "McKee",
+      "partisan": true,
+      "margin": -19.69,
+      "votesRep": 139001,
+      "votesDem": 207166,
+      "votesTotal": 357670,
+      "regions": {
+        "Bristol44": {
+          "color": "#1C408C",
+          "label": "McKee +28.1",
+          "margin": -28.15,
+          "votesRep": 7134,
+          "votesDem": 12724,
+          "votesTotal": 20575
+        },
+        "Kent44": {
+          "color": "#577CCC",
+          "label": "McKee +8.9",
+          "margin": -8.92,
+          "votesRep": 30204,
+          "votesDem": 36122,
+          "votesTotal": 68445
+        },
+        "Newport44": {
+          "color": "#1C408C",
+          "label": "McKee +27.3",
+          "margin": -27.32,
+          "votesRep": 11397,
+          "votesDem": 19964,
+          "votesTotal": 32398
+        },
+        "Providence44": {
+          "color": "#1C408C",
+          "label": "McKee +21.4",
+          "margin": -21.42,
+          "votesRep": 67439,
+          "votesDem": 104196,
+          "votesTotal": 177306
+        },
+        "Washington44": {
+          "color": "#1C408C",
+          "label": "McKee +19.9",
+          "margin": -19.89,
+          "votesRep": 22827,
+          "votesDem": 34160,
+          "votesTotal": 58946
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Allan Fung",
+      "candDem": "Gina Raimondo",
+      "shortRep": "Fung",
+      "shortDem": "Raimondo",
+      "partisan": true,
+      "margin": -17.21,
+      "votesRep": 139932,
+      "votesDem": 198122,
+      "votesTotal": 376401,
+      "regions": {
+        "Bristol44": {
+          "color": "#1C408C",
+          "label": "Raimondo +29.0",
+          "margin": -29.04,
+          "votesRep": 6772,
+          "votesDem": 12316,
+          "votesTotal": 21179
+        },
+        "Kent44": {
+          "color": "#6b7280",
+          "label": "Fung +0.4",
+          "margin": 0.42,
+          "votesRep": 29921,
+          "votesDem": 29673,
+          "votesTotal": 67429
+        },
+        "Newport44": {
+          "color": "#1C408C",
+          "label": "Raimondo +31.8",
+          "margin": -31.84,
+          "votesRep": 10346,
+          "votesDem": 20014,
+          "votesTotal": 33571
+        },
+        "Providence44": {
+          "color": "#1C408C",
+          "label": "Raimondo +19.2",
+          "margin": -19.25,
+          "votesRep": 72247,
+          "votesDem": 106688,
+          "votesTotal": 198124
+        },
+        "Washington44": {
+          "color": "#1C408C",
+          "label": "Raimondo +17.5",
+          "margin": -17.54,
+          "votesRep": 20646,
+          "votesDem": 29431,
+          "votesTotal": 56098
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Robert Flanders JR",
+      "candDem": "Sheldon Whitehouse",
+      "shortRep": "Flanders",
+      "shortDem": "Whitehouse",
+      "partisan": true,
+      "margin": -23.13,
+      "votesRep": 144418,
+      "votesDem": 231338,
+      "votesTotal": 376596,
+      "regions": {
+        "Bristol44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +26.8",
+          "margin": -26.81,
+          "votesRep": 7757,
+          "votesDem": 13441,
+          "votesTotal": 21246
+        },
+        "Kent44": {
+          "color": "#577CCC",
+          "label": "Whitehouse +8.8",
+          "margin": -8.83,
+          "votesRep": 30749,
+          "votesDem": 36704,
+          "votesTotal": 67598
+        },
+        "Newport44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +27.4",
+          "margin": -27.39,
+          "votesRep": 12228,
+          "votesDem": 21453,
+          "votesTotal": 33742
+        },
+        "Providence44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +28.5",
+          "margin": -28.49,
+          "votesRep": 70495,
+          "votesDem": 126669,
+          "votesTotal": 197640
+        },
+        "Washington44": {
+          "color": "#1C408C",
+          "label": "Whitehouse +17.6",
+          "margin": -17.56,
+          "votesRep": 23189,
+          "votesDem": 33071,
+          "votesTotal": 56370
+        }
+      }
+    }
+  ]
+}

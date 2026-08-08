@@ -1,0 +1,1466 @@
+{
+  "stateFips": "16",
+  "stateName": "Idaho",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Brad Little",
+      "candDem": "Stephen Heidt",
+      "shortRep": "Little",
+      "shortDem": "Heidt",
+      "partisan": true,
+      "margin": 49.75,
+      "votesRep": 714374,
+      "votesDem": 239726,
+      "votesTotal": 1181304,
+      "regions": {
+        "Ada16": {
+          "color": "#BF1D29",
+          "label": "Little +32.4",
+          "margin": 32.45,
+          "votesRep": 210552,
+          "votesDem": 107386,
+          "votesTotal": 370458
+        },
+        "Adams16": {
+          "color": "#BF1D29",
+          "label": "Little +68.7",
+          "margin": 68.68,
+          "votesRep": 2574,
+          "votesDem": 478,
+          "votesTotal": 4040
+        },
+        "Bannock16": {
+          "color": "#BF1D29",
+          "label": "Little +36.2",
+          "margin": 36.17,
+          "votesRep": 29890,
+          "votesDem": 14012,
+          "votesTotal": 51002
+        },
+        "Bear Lake16": {
+          "color": "#BF1D29",
+          "label": "Little +82.0",
+          "margin": 81.96,
+          "votesRep": 2824,
+          "votesDem": 280,
+          "votesTotal": 4532
+        },
+        "Benewah16": {
+          "color": "#BF1D29",
+          "label": "Little +68.2",
+          "margin": 68.16,
+          "votesRep": 4194,
+          "votesDem": 794,
+          "votesTotal": 6908
+        },
+        "Bingham16": {
+          "color": "#BF1D29",
+          "label": "Little +74.5",
+          "margin": 74.53,
+          "votesRep": 17500,
+          "votesDem": 2554,
+          "votesTotal": 24768
+        },
+        "Blaine16": {
+          "color": "#1C408C",
+          "label": "Heidt +12.3",
+          "margin": -12.29,
+          "votesRep": 8044,
+          "votesDem": 10298,
+          "votesTotal": 19440
+        },
+        "Boise16": {
+          "color": "#BF1D29",
+          "label": "Little +62.0",
+          "margin": 62.01,
+          "votesRep": 3864,
+          "votesDem": 906,
+          "votesTotal": 6888
+        },
+        "Bonner16": {
+          "color": "#BF1D29",
+          "label": "Little +59.1",
+          "margin": 59.09,
+          "votesRep": 24272,
+          "votesDem": 6242,
+          "votesTotal": 41588
+        },
+        "Bonneville16": {
+          "color": "#BF1D29",
+          "label": "Little +64.4",
+          "margin": 64.4,
+          "votesRep": 49050,
+          "votesDem": 10620,
+          "votesTotal": 70974
+        },
+        "Boundary16": {
+          "color": "#BF1D29",
+          "label": "Little +75.2",
+          "margin": 75.18,
+          "votesRep": 6168,
+          "votesDem": 874,
+          "votesTotal": 10478
+        },
+        "Butte16": {
+          "color": "#BF1D29",
+          "label": "Little +79.1",
+          "margin": 79.13,
+          "votesRep": 1270,
+          "votesDem": 148,
+          "votesTotal": 2018
+        },
+        "Camas16": {
+          "color": "#BF1D29",
+          "label": "Little +69.3",
+          "margin": 69.35,
+          "votesRep": 674,
+          "votesDem": 122,
+          "votesTotal": 1034
+        },
+        "Canyon16": {
+          "color": "#BF1D29",
+          "label": "Little +57.6",
+          "margin": 57.59,
+          "votesRep": 68632,
+          "votesDem": 18472,
+          "votesTotal": 116658
+        },
+        "Caribou16": {
+          "color": "#BF1D29",
+          "label": "Little +82.7",
+          "margin": 82.65,
+          "votesRep": 2990,
+          "votesDem": 284,
+          "votesTotal": 4240
+        },
+        "Cassia16": {
+          "color": "#BF1D29",
+          "label": "Little +83.3",
+          "margin": 83.31,
+          "votesRep": 8148,
+          "votesDem": 742,
+          "votesTotal": 11604
+        },
+        "Clark16": {
+          "color": "#BF1D29",
+          "label": "Little +84.7",
+          "margin": 84.71,
+          "votesRep": 290,
+          "votesDem": 24,
+          "votesTotal": 416
+        },
+        "Clearwater16": {
+          "color": "#BF1D29",
+          "label": "Little +71.6",
+          "margin": 71.56,
+          "votesRep": 4440,
+          "votesDem": 736,
+          "votesTotal": 6242
+        },
+        "Custer16": {
+          "color": "#BF1D29",
+          "label": "Little +68.2",
+          "margin": 68.22,
+          "votesRep": 2456,
+          "votesDem": 464,
+          "votesTotal": 4072
+        },
+        "Elmore16": {
+          "color": "#BF1D29",
+          "label": "Little +61.3",
+          "margin": 61.27,
+          "votesRep": 8520,
+          "votesDem": 2046,
+          "votesTotal": 13260
+        },
+        "Franklin16": {
+          "color": "#BF1D29",
+          "label": "Little +85.6",
+          "margin": 85.59,
+          "votesRep": 5488,
+          "votesDem": 426,
+          "votesTotal": 8674
+        },
+        "Fremont16": {
+          "color": "#BF1D29",
+          "label": "Little +79.7",
+          "margin": 79.71,
+          "votesRep": 6146,
+          "votesDem": 694,
+          "votesTotal": 8524
+        },
+        "Gem16": {
+          "color": "#BF1D29",
+          "label": "Little +76.9",
+          "margin": 76.88,
+          "votesRep": 9164,
+          "votesDem": 1198,
+          "votesTotal": 15262
+        },
+        "Gooding16": {
+          "color": "#BF1D29",
+          "label": "Little +70.2",
+          "margin": 70.22,
+          "votesRep": 4916,
+          "votesDem": 860,
+          "votesTotal": 8102
+        },
+        "Idaho16": {
+          "color": "#BF1D29",
+          "label": "Little +76.7",
+          "margin": 76.71,
+          "votesRep": 9680,
+          "votesDem": 1276,
+          "votesTotal": 14940
+        },
+        "Jefferson16": {
+          "color": "#BF1D29",
+          "label": "Little +83.8",
+          "margin": 83.82,
+          "votesRep": 13182,
+          "votesDem": 1160,
+          "votesTotal": 18178
+        },
+        "Jerome16": {
+          "color": "#BF1D29",
+          "label": "Little +70.8",
+          "margin": 70.82,
+          "votesRep": 6322,
+          "votesDem": 1080,
+          "votesTotal": 9716
+        },
+        "Kootenai16": {
+          "color": "#BF1D29",
+          "label": "Little +60.9",
+          "margin": 60.92,
+          "votesRep": 76592,
+          "votesDem": 18598,
+          "votesTotal": 124592
+        },
+        "Latah16": {
+          "color": "#BF1D29",
+          "label": "Little +24.2",
+          "margin": 24.16,
+          "votesRep": 16512,
+          "votesDem": 10086,
+          "votesTotal": 29946
+        },
+        "Lemhi16": {
+          "color": "#BF1D29",
+          "label": "Little +70.8",
+          "margin": 70.82,
+          "votesRep": 4930,
+          "votesDem": 842,
+          "votesTotal": 7320
+        },
+        "Lewis16": {
+          "color": "#BF1D29",
+          "label": "Little +78.3",
+          "margin": 78.35,
+          "votesRep": 2026,
+          "votesDem": 246,
+          "votesTotal": 2722
+        },
+        "Lincoln16": {
+          "color": "#BF1D29",
+          "label": "Little +69.4",
+          "margin": 69.39,
+          "votesRep": 1682,
+          "votesDem": 304,
+          "votesTotal": 2642
+        },
+        "Madison16": {
+          "color": "#BF1D29",
+          "label": "Little +79.4",
+          "margin": 79.38,
+          "votesRep": 12074,
+          "votesDem": 1388,
+          "votesTotal": 16672
+        },
+        "Minidoka16": {
+          "color": "#BF1D29",
+          "label": "Little +78.0",
+          "margin": 77.96,
+          "votesRep": 6444,
+          "votesDem": 798,
+          "votesTotal": 9442
+        },
+        "Nez Perce16": {
+          "color": "#BF1D29",
+          "label": "Little +55.4",
+          "margin": 55.35,
+          "votesRep": 18504,
+          "votesDem": 5318,
+          "votesTotal": 26962
+        },
+        "Oneida16": {
+          "color": "#BF1D29",
+          "label": "Little +87.3",
+          "margin": 87.28,
+          "votesRep": 2062,
+          "votesDem": 140,
+          "votesTotal": 3254
+        },
+        "Owyhee16": {
+          "color": "#BF1D29",
+          "label": "Little +72.5",
+          "margin": 72.49,
+          "votesRep": 3762,
+          "votesDem": 600,
+          "votesTotal": 6580
+        },
+        "Payette16": {
+          "color": "#BF1D29",
+          "label": "Little +74.2",
+          "margin": 74.16,
+          "votesRep": 9748,
+          "votesDem": 1446,
+          "votesTotal": 15218
+        },
+        "Shoshone16": {
+          "color": "#BF1D29",
+          "label": "Little +54.6",
+          "margin": 54.63,
+          "votesRep": 5228,
+          "votesDem": 1534,
+          "votesTotal": 8256
+        },
+        "Teton16": {
+          "color": "#FF8B98",
+          "label": "Little +4.3",
+          "margin": 4.33,
+          "votesRep": 4338,
+          "votesDem": 3978,
+          "votesTotal": 9384
+        },
+        "Twin Falls16": {
+          "color": "#BF1D29",
+          "label": "Little +60.4",
+          "margin": 60.4,
+          "votesRep": 27768,
+          "votesDem": 6856,
+          "votesTotal": 45986
+        },
+        "Valley16": {
+          "color": "#BF1D29",
+          "label": "Little +41.0",
+          "margin": 40.99,
+          "votesRep": 6422,
+          "votesDem": 2688,
+          "votesTotal": 10464
+        },
+        "Washington16": {
+          "color": "#BF1D29",
+          "label": "Little +74.7",
+          "margin": 74.72,
+          "votesRep": 5032,
+          "votesDem": 728,
+          "votesTotal": 7848
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Mike Crapo",
+      "candDem": "David Roth",
+      "shortRep": "Crapo",
+      "shortDem": "Roth",
+      "partisan": true,
+      "margin": 35.65,
+      "votesRep": 714222,
+      "votesDem": 338776,
+      "votesTotal": 1177836,
+      "regions": {
+        "Ada16": {
+          "color": "#FF5865",
+          "label": "Crapo +6.7",
+          "margin": 6.65,
+          "votesRep": 175158,
+          "votesDem": 153312,
+          "votesTotal": 369042
+        },
+        "Adams16": {
+          "color": "#BF1D29",
+          "label": "Crapo +59.0",
+          "margin": 59.04,
+          "votesRep": 2850,
+          "votesDem": 734,
+          "votesTotal": 4022
+        },
+        "Bannock16": {
+          "color": "#BF1D29",
+          "label": "Crapo +23.1",
+          "margin": 23.06,
+          "votesRep": 28960,
+          "votesDem": 18108,
+          "votesTotal": 50886
+        },
+        "Bear Lake16": {
+          "color": "#BF1D29",
+          "label": "Crapo +81.0",
+          "margin": 81.04,
+          "votesRep": 3742,
+          "votesDem": 392,
+          "votesTotal": 4488
+        },
+        "Benewah16": {
+          "color": "#BF1D29",
+          "label": "Crapo +68.2",
+          "margin": 68.21,
+          "votesRep": 5324,
+          "votesDem": 1006,
+          "votesTotal": 6928
+        },
+        "Bingham16": {
+          "color": "#BF1D29",
+          "label": "Crapo +68.9",
+          "margin": 68.86,
+          "votesRep": 18982,
+          "votesDem": 3500,
+          "votesTotal": 24620
+        },
+        "Blaine16": {
+          "color": "#1C408C",
+          "label": "Roth +31.6",
+          "margin": -31.61,
+          "votesRep": 6242,
+          "votesDem": 12012,
+          "votesTotal": 19378
+        },
+        "Boise16": {
+          "color": "#BF1D29",
+          "label": "Crapo +52.7",
+          "margin": 52.69,
+          "votesRep": 4344,
+          "votesDem": 1346,
+          "votesTotal": 6874
+        },
+        "Bonner16": {
+          "color": "#BF1D29",
+          "label": "Crapo +41.9",
+          "margin": 41.89,
+          "votesRep": 26696,
+          "votesDem": 10934,
+          "votesTotal": 41522
+        },
+        "Bonneville16": {
+          "color": "#BF1D29",
+          "label": "Crapo +51.5",
+          "margin": 51.51,
+          "votesRep": 49158,
+          "votesDem": 15732,
+          "votesTotal": 70878
+        },
+        "Boundary16": {
+          "color": "#BF1D29",
+          "label": "Crapo +68.7",
+          "margin": 68.66,
+          "votesRep": 7878,
+          "votesDem": 1464,
+          "votesTotal": 10400
+        },
+        "Butte16": {
+          "color": "#BF1D29",
+          "label": "Crapo +74.6",
+          "margin": 74.58,
+          "votesRep": 1566,
+          "votesDem": 228,
+          "votesTotal": 1986
+        },
+        "Camas16": {
+          "color": "#BF1D29",
+          "label": "Crapo +58.9",
+          "margin": 58.87,
+          "votesRep": 734,
+          "votesDem": 190,
+          "votesTotal": 1032
+        },
+        "Canyon16": {
+          "color": "#BF1D29",
+          "label": "Crapo +47.7",
+          "margin": 47.65,
+          "votesRep": 73116,
+          "votesDem": 25922,
+          "votesTotal": 116458
+        },
+        "Caribou16": {
+          "color": "#BF1D29",
+          "label": "Crapo +78.9",
+          "margin": 78.87,
+          "votesRep": 3470,
+          "votesDem": 410,
+          "votesTotal": 4232
+        },
+        "Cassia16": {
+          "color": "#BF1D29",
+          "label": "Crapo +77.6",
+          "margin": 77.55,
+          "votesRep": 9238,
+          "votesDem": 1168,
+          "votesTotal": 11592
+        },
+        "Clark16": {
+          "color": "#BF1D29",
+          "label": "Crapo +78.9",
+          "margin": 78.89,
+          "votesRep": 322,
+          "votesDem": 38,
+          "votesTotal": 412
+        },
+        "Clearwater16": {
+          "color": "#BF1D29",
+          "label": "Crapo +63.9",
+          "margin": 63.91,
+          "votesRep": 4778,
+          "votesDem": 1052,
+          "votesTotal": 6240
+        },
+        "Custer16": {
+          "color": "#BF1D29",
+          "label": "Crapo +60.2",
+          "margin": 60.24,
+          "votesRep": 2894,
+          "votesDem": 718,
+          "votesTotal": 4018
+        },
+        "Elmore16": {
+          "color": "#BF1D29",
+          "label": "Crapo +53.3",
+          "margin": 53.31,
+          "votesRep": 8760,
+          "votesDem": 2668,
+          "votesTotal": 13210
+        },
+        "Franklin16": {
+          "color": "#BF1D29",
+          "label": "Crapo +84.5",
+          "margin": 84.47,
+          "votesRep": 7176,
+          "votesDem": 604,
+          "votesTotal": 8610
+        },
+        "Fremont16": {
+          "color": "#BF1D29",
+          "label": "Crapo +75.3",
+          "margin": 75.25,
+          "votesRep": 6798,
+          "votesDem": 960,
+          "votesTotal": 8480
+        },
+        "Gem16": {
+          "color": "#BF1D29",
+          "label": "Crapo +65.3",
+          "margin": 65.26,
+          "votesRep": 10236,
+          "votesDem": 2152,
+          "votesTotal": 15142
+        },
+        "Gooding16": {
+          "color": "#BF1D29",
+          "label": "Crapo +65.7",
+          "margin": 65.69,
+          "votesRep": 5882,
+          "votesDem": 1218,
+          "votesTotal": 8094
+        },
+        "Idaho16": {
+          "color": "#BF1D29",
+          "label": "Crapo +71.3",
+          "margin": 71.3,
+          "votesRep": 11482,
+          "votesDem": 1924,
+          "votesTotal": 14930
+        },
+        "Jefferson16": {
+          "color": "#BF1D29",
+          "label": "Crapo +79.7",
+          "margin": 79.69,
+          "votesRep": 14792,
+          "votesDem": 1672,
+          "votesTotal": 18188
+        },
+        "Jerome16": {
+          "color": "#BF1D29",
+          "label": "Crapo +62.7",
+          "margin": 62.73,
+          "votesRep": 7012,
+          "votesDem": 1606,
+          "votesTotal": 9730
+        },
+        "Kootenai16": {
+          "color": "#BF1D29",
+          "label": "Crapo +51.7",
+          "margin": 51.71,
+          "votesRep": 84230,
+          "votesDem": 26808,
+          "votesTotal": 124478
+        },
+        "Latah16": {
+          "color": "#FF8B98",
+          "label": "Crapo +4.2",
+          "margin": 4.2,
+          "votesRep": 14968,
+          "votesDem": 13762,
+          "votesTotal": 29968
+        },
+        "Lemhi16": {
+          "color": "#BF1D29",
+          "label": "Crapo +59.9",
+          "margin": 59.93,
+          "votesRep": 5380,
+          "votesDem": 1348,
+          "votesTotal": 7308
+        },
+        "Lewis16": {
+          "color": "#BF1D29",
+          "label": "Crapo +72.3",
+          "margin": 72.35,
+          "votesRep": 2194,
+          "votesDem": 352,
+          "votesTotal": 2718
+        },
+        "Lincoln16": {
+          "color": "#BF1D29",
+          "label": "Crapo +63.1",
+          "margin": 63.14,
+          "votesRep": 1956,
+          "votesDem": 442,
+          "votesTotal": 2628
+        },
+        "Madison16": {
+          "color": "#BF1D29",
+          "label": "Crapo +74.1",
+          "margin": 74.1,
+          "votesRep": 13066,
+          "votesDem": 1944,
+          "votesTotal": 16552
+        },
+        "Minidoka16": {
+          "color": "#BF1D29",
+          "label": "Crapo +71.9",
+          "margin": 71.91,
+          "votesRep": 7246,
+          "votesDem": 1184,
+          "votesTotal": 9424
+        },
+        "Nez Perce16": {
+          "color": "#BF1D29",
+          "label": "Crapo +42.5",
+          "margin": 42.48,
+          "votesRep": 17972,
+          "votesDem": 7256,
+          "votesTotal": 26892
+        },
+        "Oneida16": {
+          "color": "#BF1D29",
+          "label": "Crapo +83.8",
+          "margin": 83.83,
+          "votesRep": 2660,
+          "votesDem": 234,
+          "votesTotal": 3202
+        },
+        "Owyhee16": {
+          "color": "#BF1D29",
+          "label": "Crapo +70.5",
+          "margin": 70.51,
+          "votesRep": 4752,
+          "votesDem": 822,
+          "votesTotal": 6550
+        },
+        "Payette16": {
+          "color": "#BF1D29",
+          "label": "Crapo +67.2",
+          "margin": 67.24,
+          "votesRep": 11018,
+          "votesDem": 2158,
+          "votesTotal": 15174
+        },
+        "Shoshone16": {
+          "color": "#BF1D29",
+          "label": "Crapo +48.0",
+          "margin": 47.97,
+          "votesRep": 5716,
+          "votesDem": 2010,
+          "votesTotal": 8218
+        },
+        "Teton16": {
+          "color": "#577CCC",
+          "label": "Roth +6.1",
+          "margin": -6.15,
+          "votesRep": 4200,
+          "votesDem": 4750,
+          "votesTotal": 9372
+        },
+        "Twin Falls16": {
+          "color": "#BF1D29",
+          "label": "Crapo +51.5",
+          "margin": 51.46,
+          "votesRep": 29828,
+          "votesDem": 9560,
+          "votesTotal": 45726
+        },
+        "Valley16": {
+          "color": "#BF1D29",
+          "label": "Crapo +17.8",
+          "margin": 17.8,
+          "votesRep": 5658,
+          "votesDem": 3948,
+          "votesTotal": 10440
+        },
+        "Washington16": {
+          "color": "#BF1D29",
+          "label": "Crapo +67.4",
+          "margin": 67.38,
+          "votesRep": 5788,
+          "votesDem": 1128,
+          "votesTotal": 7794
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Brad Little",
+      "candDem": "Paulette Jordan",
+      "shortRep": "Little",
+      "shortDem": "Jordan",
+      "partisan": true,
+      "margin": 22.03,
+      "votesRep": 361661,
+      "votesDem": 231081,
+      "votesTotal": 605131,
+      "regions": {
+        "Ada16": {
+          "color": "#8AAFFF",
+          "label": "Jordan +1.1",
+          "margin": -1.11,
+          "votesRep": 92684,
+          "votesDem": 94772,
+          "votesTotal": 190502
+        },
+        "Adams16": {
+          "color": "#BF1D29",
+          "label": "Little +38.0",
+          "margin": 37.98,
+          "votesRep": 1288,
+          "votesDem": 579,
+          "votesTotal": 1906
+        },
+        "Bannock16": {
+          "color": "#FF5865",
+          "label": "Little +5.6",
+          "margin": 5.6,
+          "votesRep": 14975,
+          "votesDem": 13386,
+          "votesTotal": 29086
+        },
+        "Bear Lake16": {
+          "color": "#BF1D29",
+          "label": "Little +70.6",
+          "margin": 70.58,
+          "votesRep": 1780,
+          "votesDem": 307,
+          "votesTotal": 2151
+        },
+        "Benewah16": {
+          "color": "#BF1D29",
+          "label": "Little +45.4",
+          "margin": 45.38,
+          "votesRep": 2672,
+          "votesDem": 1004,
+          "votesTotal": 3763
+        },
+        "Bingham16": {
+          "color": "#BF1D29",
+          "label": "Little +45.3",
+          "margin": 45.3,
+          "votesRep": 9337,
+          "votesDem": 3515,
+          "votesTotal": 13250
+        },
+        "Blaine16": {
+          "color": "#1C408C",
+          "label": "Jordan +40.7",
+          "margin": -40.7,
+          "votesRep": 3063,
+          "votesDem": 7267,
+          "votesTotal": 10487
+        },
+        "Boise16": {
+          "color": "#BF1D29",
+          "label": "Little +38.6",
+          "margin": 38.63,
+          "votesRep": 2374,
+          "votesDem": 1051,
+          "votesTotal": 3510
+        },
+        "Bonner16": {
+          "color": "#BF1D29",
+          "label": "Little +25.9",
+          "margin": 25.94,
+          "votesRep": 11477,
+          "votesDem": 6749,
+          "votesTotal": 18590
+        },
+        "Bonneville16": {
+          "color": "#BF1D29",
+          "label": "Little +37.4",
+          "margin": 37.43,
+          "votesRep": 23497,
+          "votesDem": 10699,
+          "votesTotal": 35261
+        },
+        "Boundary16": {
+          "color": "#BF1D29",
+          "label": "Little +48.5",
+          "margin": 48.52,
+          "votesRep": 3101,
+          "votesDem": 1075,
+          "votesTotal": 4271
+        },
+        "Butte16": {
+          "color": "#BF1D29",
+          "label": "Little +57.3",
+          "margin": 57.29,
+          "votesRep": 788,
+          "votesDem": 214,
+          "votesTotal": 1031
+        },
+        "Camas16": {
+          "color": "#BF1D29",
+          "label": "Little +40.5",
+          "margin": 40.53,
+          "votesRep": 371,
+          "votesDem": 157,
+          "votesTotal": 538
+        },
+        "Canyon16": {
+          "color": "#BF1D29",
+          "label": "Little +30.1",
+          "margin": 30.09,
+          "votesRep": 40636,
+          "votesDem": 21839,
+          "votesTotal": 63593
+        },
+        "Caribou16": {
+          "color": "#BF1D29",
+          "label": "Little +66.2",
+          "margin": 66.2,
+          "votesRep": 1824,
+          "votesDem": 371,
+          "votesTotal": 2267
+        },
+        "Cassia16": {
+          "color": "#BF1D29",
+          "label": "Little +63.0",
+          "margin": 62.96,
+          "votesRep": 4888,
+          "votesDem": 1111,
+          "votesTotal": 6180
+        },
+        "Clark16": {
+          "color": "#BF1D29",
+          "label": "Little +61.2",
+          "margin": 61.16,
+          "votesRep": 195,
+          "votesDem": 47,
+          "votesTotal": 253
+        },
+        "Clearwater16": {
+          "color": "#BF1D29",
+          "label": "Little +49.6",
+          "margin": 49.56,
+          "votesRep": 2310,
+          "votesDem": 779,
+          "votesTotal": 3156
+        },
+        "Custer16": {
+          "color": "#BF1D29",
+          "label": "Little +47.2",
+          "margin": 47.16,
+          "votesRep": 1518,
+          "votesDem": 545,
+          "votesTotal": 2124
+        },
+        "Elmore16": {
+          "color": "#BF1D29",
+          "label": "Little +34.1",
+          "margin": 34.07,
+          "votesRep": 4582,
+          "votesDem": 2253,
+          "votesTotal": 7031
+        },
+        "Franklin16": {
+          "color": "#BF1D29",
+          "label": "Little +77.2",
+          "margin": 77.17,
+          "votesRep": 3228,
+          "votesDem": 416,
+          "votesTotal": 3833
+        },
+        "Fremont16": {
+          "color": "#BF1D29",
+          "label": "Little +63.7",
+          "margin": 63.74,
+          "votesRep": 3798,
+          "votesDem": 841,
+          "votesTotal": 4784
+        },
+        "Gem16": {
+          "color": "#BF1D29",
+          "label": "Little +55.1",
+          "margin": 55.15,
+          "votesRep": 5438,
+          "votesDem": 1572,
+          "votesTotal": 7141
+        },
+        "Gooding16": {
+          "color": "#BF1D29",
+          "label": "Little +48.6",
+          "margin": 48.6,
+          "votesRep": 3209,
+          "votesDem": 1110,
+          "votesTotal": 4422
+        },
+        "Idaho16": {
+          "color": "#BF1D29",
+          "label": "Little +59.9",
+          "margin": 59.94,
+          "votesRep": 5478,
+          "votesDem": 1372,
+          "votesTotal": 7027
+        },
+        "Jefferson16": {
+          "color": "#BF1D29",
+          "label": "Little +69.0",
+          "margin": 69,
+          "votesRep": 7125,
+          "votesDem": 1307,
+          "votesTotal": 8709
+        },
+        "Jerome16": {
+          "color": "#BF1D29",
+          "label": "Little +45.1",
+          "margin": 45.12,
+          "votesRep": 3808,
+          "votesDem": 1440,
+          "votesTotal": 5384
+        },
+        "Kootenai16": {
+          "color": "#BF1D29",
+          "label": "Little +36.8",
+          "margin": 36.84,
+          "votesRep": 38173,
+          "votesDem": 17620,
+          "votesTotal": 56746
+        },
+        "Latah16": {
+          "color": "#1C408C",
+          "label": "Jordan +13.8",
+          "margin": -13.8,
+          "votesRep": 6803,
+          "votesDem": 8981,
+          "votesTotal": 15997
+        },
+        "Lemhi16": {
+          "color": "#BF1D29",
+          "label": "Little +47.3",
+          "margin": 47.33,
+          "votesRep": 2470,
+          "votesDem": 883,
+          "votesTotal": 3435
+        },
+        "Lewis16": {
+          "color": "#BF1D29",
+          "label": "Little +52.7",
+          "margin": 52.65,
+          "votesRep": 1051,
+          "votesDem": 326,
+          "votesTotal": 1397
+        },
+        "Lincoln16": {
+          "color": "#BF1D29",
+          "label": "Little +41.8",
+          "margin": 41.85,
+          "votesRep": 1022,
+          "votesDem": 419,
+          "votesTotal": 1488
+        },
+        "Madison16": {
+          "color": "#BF1D29",
+          "label": "Little +63.8",
+          "margin": 63.84,
+          "votesRep": 6887,
+          "votesDem": 1520,
+          "votesTotal": 8773
+        },
+        "Minidoka16": {
+          "color": "#BF1D29",
+          "label": "Little +53.1",
+          "margin": 53.1,
+          "votesRep": 3849,
+          "votesDem": 1179,
+          "votesTotal": 5155
+        },
+        "Nez Perce16": {
+          "color": "#BF1D29",
+          "label": "Little +24.3",
+          "margin": 24.31,
+          "votesRep": 8845,
+          "votesDem": 5385,
+          "votesTotal": 14450
+        },
+        "Oneida16": {
+          "color": "#BF1D29",
+          "label": "Little +72.4",
+          "margin": 72.39,
+          "votesRep": 1249,
+          "votesDem": 200,
+          "votesTotal": 1516
+        },
+        "Owyhee16": {
+          "color": "#BF1D29",
+          "label": "Little +54.4",
+          "margin": 54.39,
+          "votesRep": 2613,
+          "votesDem": 772,
+          "votesTotal": 3467
+        },
+        "Payette16": {
+          "color": "#BF1D29",
+          "label": "Little +49.2",
+          "margin": 49.21,
+          "votesRep": 5553,
+          "votesDem": 1890,
+          "votesTotal": 7595
+        },
+        "Power16": {
+          "color": "#BF1D29",
+          "label": "Little +36.3",
+          "margin": 36.27,
+          "votesRep": 1456,
+          "votesDem": 681,
+          "votesTotal": 2194
+        },
+        "Shoshone16": {
+          "color": "#BF1D29",
+          "label": "Little +22.5",
+          "margin": 22.47,
+          "votesRep": 2564,
+          "votesDem": 1623,
+          "votesTotal": 4263
+        },
+        "Teton16": {
+          "color": "#1C408C",
+          "label": "Jordan +12.4",
+          "margin": -12.39,
+          "votesRep": 2055,
+          "votesDem": 2636,
+          "votesTotal": 4800
+        },
+        "Twin Falls16": {
+          "color": "#BF1D29",
+          "label": "Little +35.1",
+          "margin": 35.06,
+          "votesRep": 16102,
+          "votesDem": 7742,
+          "votesTotal": 24492
+        },
+        "Valley16": {
+          "color": "#FF8B98",
+          "label": "Little +4.6",
+          "margin": 4.57,
+          "votesRep": 2676,
+          "votesDem": 2442,
+          "votesTotal": 5199
+        },
+        "Washington16": {
+          "color": "#BF1D29",
+          "label": "Little +47.9",
+          "margin": 47.88,
+          "votesRep": 2849,
+          "votesDem": 1004,
+          "votesTotal": 3914
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Mike Crapo",
+      "candDem": "Jerry Sturgill",
+      "shortRep": "Crapo",
+      "shortDem": "Sturgill",
+      "partisan": true,
+      "margin": 40.92,
+      "votesRep": 449017,
+      "votesDem": 188249,
+      "votesTotal": 678891,
+      "regions": {
+        "Ada16": {
+          "color": "#BF1D29",
+          "label": "Crapo +17.9",
+          "margin": 17.92,
+          "votesRep": 104650,
+          "votesDem": 72847,
+          "votesTotal": 187143
+        },
+        "Adams16": {
+          "color": "#BF1D29",
+          "label": "Crapo +52.2",
+          "margin": 52.24,
+          "votesRep": 1463,
+          "votesDem": 459,
+          "votesTotal": 2124
+        },
+        "Bannock16": {
+          "color": "#BF1D29",
+          "label": "Crapo +26.4",
+          "margin": 26.37,
+          "votesRep": 19883,
+          "votesDem": 11585,
+          "votesTotal": 33649
+        },
+        "Bear Lake16": {
+          "color": "#BF1D29",
+          "label": "Crapo +78.5",
+          "margin": 78.49,
+          "votesRep": 2415,
+          "votesDem": 291,
+          "votesTotal": 2914
+        },
+        "Benewah16": {
+          "color": "#BF1D29",
+          "label": "Crapo +61.2",
+          "margin": 61.24,
+          "votesRep": 3103,
+          "votesDem": 746,
+          "votesTotal": 4142
+        },
+        "Bingham16": {
+          "color": "#BF1D29",
+          "label": "Crapo +60.3",
+          "margin": 60.33,
+          "votesRep": 12114,
+          "votesDem": 2997,
+          "votesTotal": 16512
+        },
+        "Blaine16": {
+          "color": "#1C408C",
+          "label": "Sturgill +13.3",
+          "margin": -13.29,
+          "votesRep": 4562,
+          "votesDem": 5961,
+          "votesTotal": 10749
+        },
+        "Boise16": {
+          "color": "#BF1D29",
+          "label": "Crapo +48.8",
+          "margin": 48.76,
+          "votesRep": 2497,
+          "votesDem": 860,
+          "votesTotal": 3748
+        },
+        "Bonner16": {
+          "color": "#BF1D29",
+          "label": "Crapo +41.4",
+          "margin": 41.38,
+          "votesRep": 13908,
+          "votesDem": 5767,
+          "votesTotal": 20704
+        },
+        "Bonneville16": {
+          "color": "#BF1D29",
+          "label": "Crapo +54.5",
+          "margin": 54.5,
+          "votesRep": 31093,
+          "votesDem": 9158,
+          "votesTotal": 43428
+        },
+        "Boundary16": {
+          "color": "#BF1D29",
+          "label": "Crapo +62.3",
+          "margin": 62.3,
+          "votesRep": 3961,
+          "votesDem": 920,
+          "votesTotal": 5155
+        },
+        "Butte16": {
+          "color": "#BF1D29",
+          "label": "Crapo +67.3",
+          "margin": 67.34,
+          "votesRep": 948,
+          "votesDem": 185,
+          "votesTotal": 1233
+        },
+        "Camas16": {
+          "color": "#BF1D29",
+          "label": "Crapo +53.3",
+          "margin": 53.33,
+          "votesRep": 414,
+          "votesDem": 126,
+          "votesTotal": 576
+        },
+        "Canyon16": {
+          "color": "#BF1D29",
+          "label": "Crapo +49.2",
+          "margin": 49.24,
+          "votesRep": 50006,
+          "votesDem": 17007,
+          "votesTotal": 72255
+        },
+        "Caribou16": {
+          "color": "#BF1D29",
+          "label": "Crapo +75.0",
+          "margin": 75,
+          "votesRep": 2450,
+          "votesDem": 350,
+          "votesTotal": 3034
+        },
+        "Cassia16": {
+          "color": "#BF1D29",
+          "label": "Crapo +72.8",
+          "margin": 72.78,
+          "votesRep": 6418,
+          "votesDem": 1011,
+          "votesTotal": 8150
+        },
+        "Clark16": {
+          "color": "#BF1D29",
+          "label": "Crapo +75.1",
+          "margin": 75.1,
+          "votesRep": 225,
+          "votesDem": 32,
+          "votesTotal": 280
+        },
+        "Clearwater16": {
+          "color": "#BF1D29",
+          "label": "Crapo +60.2",
+          "margin": 60.23,
+          "votesRep": 2865,
+          "votesDem": 711,
+          "votesTotal": 3734
+        },
+        "Custer16": {
+          "color": "#BF1D29",
+          "label": "Crapo +59.6",
+          "margin": 59.57,
+          "votesRep": 1693,
+          "votesDem": 429,
+          "votesTotal": 2375
+        },
+        "Elmore16": {
+          "color": "#BF1D29",
+          "label": "Crapo +55.1",
+          "margin": 55.14,
+          "votesRep": 6059,
+          "votesDem": 1752,
+          "votesTotal": 8421
+        },
+        "Franklin16": {
+          "color": "#BF1D29",
+          "label": "Crapo +82.8",
+          "margin": 82.78,
+          "votesRep": 4682,
+          "votesDem": 441,
+          "votesTotal": 5488
+        },
+        "Fremont16": {
+          "color": "#BF1D29",
+          "label": "Crapo +73.5",
+          "margin": 73.45,
+          "votesRep": 4521,
+          "votesDem": 692,
+          "votesTotal": 5711
+        },
+        "Gem16": {
+          "color": "#BF1D29",
+          "label": "Crapo +61.5",
+          "margin": 61.49,
+          "votesRep": 5779,
+          "votesDem": 1378,
+          "votesTotal": 7851
+        },
+        "Gooding16": {
+          "color": "#BF1D29",
+          "label": "Crapo +60.0",
+          "margin": 60.02,
+          "votesRep": 3834,
+          "votesDem": 958,
+          "votesTotal": 5191
+        },
+        "Idaho16": {
+          "color": "#BF1D29",
+          "label": "Crapo +66.8",
+          "margin": 66.83,
+          "votesRep": 6272,
+          "votesDem": 1247,
+          "votesTotal": 8113
+        },
+        "Jefferson16": {
+          "color": "#BF1D29",
+          "label": "Crapo +76.8",
+          "margin": 76.81,
+          "votesRep": 9120,
+          "votesDem": 1196,
+          "votesTotal": 11383
+        },
+        "Jerome16": {
+          "color": "#BF1D29",
+          "label": "Crapo +59.5",
+          "margin": 59.48,
+          "votesRep": 4931,
+          "votesDem": 1253,
+          "votesTotal": 6758
+        },
+        "Kootenai16": {
+          "color": "#BF1D29",
+          "label": "Crapo +51.2",
+          "margin": 51.22,
+          "votesRep": 47636,
+          "votesDem": 15365,
+          "votesTotal": 65946
+        },
+        "Latah16": {
+          "color": "#FF5865",
+          "label": "Crapo +8.9",
+          "margin": 8.92,
+          "votesRep": 9626,
+          "votesDem": 8050,
+          "votesTotal": 18321
+        },
+        "Lemhi16": {
+          "color": "#BF1D29",
+          "label": "Crapo +61.3",
+          "margin": 61.3,
+          "votesRep": 3013,
+          "votesDem": 723,
+          "votesTotal": 4045
+        },
+        "Lewis16": {
+          "color": "#BF1D29",
+          "label": "Crapo +65.6",
+          "margin": 65.64,
+          "votesRep": 1239,
+          "votesDem": 257,
+          "votesTotal": 1598
+        },
+        "Lincoln16": {
+          "color": "#BF1D29",
+          "label": "Crapo +56.2",
+          "margin": 56.22,
+          "votesRep": 1263,
+          "votesDem": 354,
+          "votesTotal": 1740
+        },
+        "Madison16": {
+          "color": "#BF1D29",
+          "label": "Crapo +79.4",
+          "margin": 79.4,
+          "votesRep": 12826,
+          "votesDem": 1473,
+          "votesTotal": 15416
+        },
+        "Minidoka16": {
+          "color": "#BF1D29",
+          "label": "Crapo +64.1",
+          "margin": 64.11,
+          "votesRep": 5067,
+          "votesDem": 1108,
+          "votesTotal": 6766
+        },
+        "Nez Perce16": {
+          "color": "#BF1D29",
+          "label": "Crapo +45.0",
+          "margin": 45.02,
+          "votesRep": 12188,
+          "votesDem": 4621,
+          "votesTotal": 17369
+        },
+        "Oneida16": {
+          "color": "#BF1D29",
+          "label": "Crapo +78.6",
+          "margin": 78.6,
+          "votesRep": 1719,
+          "votesDem": 206,
+          "votesTotal": 2058
+        },
+        "Owyhee16": {
+          "color": "#BF1D29",
+          "label": "Crapo +66.7",
+          "margin": 66.7,
+          "votesRep": 2909,
+          "votesDem": 581,
+          "votesTotal": 3834
+        },
+        "Payette16": {
+          "color": "#BF1D29",
+          "label": "Crapo +61.4",
+          "margin": 61.41,
+          "votesRep": 6480,
+          "votesDem": 1549,
+          "votesTotal": 8629
+        },
+        "Power16": {
+          "color": "#BF1D29",
+          "label": "Crapo +47.8",
+          "margin": 47.79,
+          "votesRep": 1942,
+          "votesDem": 686,
+          "votesTotal": 2790
+        },
+        "Shoshone16": {
+          "color": "#BF1D29",
+          "label": "Crapo +40.2",
+          "margin": 40.2,
+          "votesRep": 3463,
+          "votesDem": 1477,
+          "votesTotal": 5145
+        },
+        "Teton16": {
+          "color": "#BF1D29",
+          "label": "Crapo +10.4",
+          "margin": 10.45,
+          "votesRep": 2659,
+          "votesDem": 2156,
+          "votesTotal": 4985
+        },
+        "Twin Falls16": {
+          "color": "#BF1D29",
+          "label": "Crapo +51.9",
+          "margin": 51.88,
+          "votesRep": 20701,
+          "votesDem": 6559,
+          "votesTotal": 29712
+        },
+        "Valley16": {
+          "color": "#BF1D29",
+          "label": "Crapo +25.9",
+          "margin": 25.94,
+          "votesRep": 3202,
+          "votesDem": 1883,
+          "votesTotal": 5325
+        },
+        "Washington16": {
+          "color": "#BF1D29",
+          "label": "Crapo +58.5",
+          "margin": 58.52,
+          "votesRep": 3218,
+          "votesDem": 842,
+          "votesTotal": 4391
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3050 @@
+{
+  "stateFips": "31",
+  "stateName": "Nebraska",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Deb Fischer",
+      "candDem": "Dan Osborn",
+      "shortRep": "Fischer",
+      "shortDem": "Osborn",
+      "partisan": true,
+      "margin": 6.69,
+      "votesRep": 499124,
+      "votesDem": 436493,
+      "votesTotal": 938336,
+      "regions": {
+        "Adams31": {
+          "color": "#BF1D29",
+          "label": "Fischer +24.9",
+          "margin": 24.87,
+          "votesRep": 8869,
+          "votesDem": 5336,
+          "votesTotal": 14247
+        },
+        "Antelope31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.4",
+          "margin": 51.36,
+          "votesRep": 2580,
+          "votesDem": 829,
+          "votesTotal": 3410
+        },
+        "Arthur31": {
+          "color": "#BF1D29",
+          "label": "Fischer +67.1",
+          "margin": 67.14,
+          "votesRep": 234,
+          "votesDem": 46,
+          "votesTotal": 280
+        },
+        "Banner31": {
+          "color": "#BF1D29",
+          "label": "Fischer +61.5",
+          "margin": 61.46,
+          "votesRep": 310,
+          "votesDem": 74,
+          "votesTotal": 384
+        },
+        "Blaine31": {
+          "color": "#BF1D29",
+          "label": "Fischer +56.0",
+          "margin": 56.01,
+          "votesRep": 227,
+          "votesDem": 64,
+          "votesTotal": 292
+        },
+        "Boone31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.5",
+          "margin": 51.55,
+          "votesRep": 2274,
+          "votesDem": 727,
+          "votesTotal": 3005
+        },
+        "Box Butte31": {
+          "color": "#BF1D29",
+          "label": "Fischer +32.1",
+          "margin": 32.15,
+          "votesRep": 3198,
+          "votesDem": 1642,
+          "votesTotal": 4861
+        },
+        "Boyd31": {
+          "color": "#BF1D29",
+          "label": "Fischer +78.7",
+          "margin": 78.7,
+          "votesRep": 948,
+          "votesDem": 113,
+          "votesTotal": 1061
+        },
+        "Brown31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.0",
+          "margin": 52.98,
+          "votesRep": 1243,
+          "votesDem": 382,
+          "votesTotal": 1629
+        },
+        "Buffalo31": {
+          "color": "#BF1D29",
+          "label": "Fischer +28.5",
+          "margin": 28.53,
+          "votesRep": 15147,
+          "votesDem": 8423,
+          "votesTotal": 23631
+        },
+        "Burt31": {
+          "color": "#BF1D29",
+          "label": "Fischer +21.6",
+          "margin": 21.56,
+          "votesRep": 2185,
+          "votesDem": 1410,
+          "votesTotal": 3599
+        },
+        "Butler31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.6",
+          "margin": 42.6,
+          "votesRep": 3222,
+          "votesDem": 1297,
+          "votesTotal": 4537
+        },
+        "Cass31": {
+          "color": "#BF1D29",
+          "label": "Fischer +16.7",
+          "margin": 16.73,
+          "votesRep": 9051,
+          "votesDem": 6457,
+          "votesTotal": 15538
+        },
+        "Cedar31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.6",
+          "margin": 51.6,
+          "votesRep": 3693,
+          "votesDem": 1179,
+          "votesTotal": 4882
+        },
+        "Chase31": {
+          "color": "#BF1D29",
+          "label": "Fischer +60.6",
+          "margin": 60.63,
+          "votesRep": 1485,
+          "votesDem": 364,
+          "votesTotal": 1849
+        },
+        "Cherry31": {
+          "color": "#BF1D29",
+          "label": "Fischer +56.9",
+          "margin": 56.94,
+          "votesRep": 2336,
+          "votesDem": 641,
+          "votesTotal": 2991
+        },
+        "Cheyenne31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.5",
+          "margin": 42.55,
+          "votesRep": 3176,
+          "votesDem": 1280,
+          "votesTotal": 4467
+        },
+        "Clay31": {
+          "color": "#BF1D29",
+          "label": "Fischer +46.7",
+          "margin": 46.74,
+          "votesRep": 2397,
+          "votesDem": 870,
+          "votesTotal": 3275
+        },
+        "Colfax31": {
+          "color": "#BF1D29",
+          "label": "Fischer +32.8",
+          "margin": 32.83,
+          "votesRep": 2296,
+          "votesDem": 1161,
+          "votesTotal": 3468
+        },
+        "Cuming31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.9",
+          "margin": 42.86,
+          "votesRep": 3145,
+          "votesDem": 1258,
+          "votesTotal": 4410
+        },
+        "Custer31": {
+          "color": "#BF1D29",
+          "label": "Fischer +50.6",
+          "margin": 50.58,
+          "votesRep": 4409,
+          "votesDem": 1447,
+          "votesTotal": 5865
+        },
+        "Dakota31": {
+          "color": "#FF8B98",
+          "label": "Fischer +3.5",
+          "margin": 3.53,
+          "votesRep": 3082,
+          "votesDem": 2872,
+          "votesTotal": 5977
+        },
+        "Dawes31": {
+          "color": "#BF1D29",
+          "label": "Fischer +30.5",
+          "margin": 30.46,
+          "votesRep": 2501,
+          "votesDem": 1333,
+          "votesTotal": 3838
+        },
+        "Dawson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +32.0",
+          "margin": 32.05,
+          "votesRep": 5556,
+          "votesDem": 2859,
+          "votesTotal": 8434
+        },
+        "Deuel31": {
+          "color": "#BF1D29",
+          "label": "Fischer +44.8",
+          "margin": 44.8,
+          "votesRep": 724,
+          "votesDem": 276,
+          "votesTotal": 1002
+        },
+        "Dixon31": {
+          "color": "#BF1D29",
+          "label": "Fischer +38.7",
+          "margin": 38.7,
+          "votesRep": 1973,
+          "votesDem": 872,
+          "votesTotal": 2849
+        },
+        "Dodge31": {
+          "color": "#BF1D29",
+          "label": "Fischer +12.1",
+          "margin": 12.13,
+          "votesRep": 9108,
+          "votesDem": 7137,
+          "votesTotal": 16294
+        },
+        "Douglas31": {
+          "color": "#1C408C",
+          "label": "Osborn +17.2",
+          "margin": -17.17,
+          "votesRep": 111211,
+          "votesDem": 157317,
+          "votesTotal": 269610
+        },
+        "Dundy31": {
+          "color": "#BF1D29",
+          "label": "Fischer +58.0",
+          "margin": 57.99,
+          "votesRep": 722,
+          "votesDem": 192,
+          "votesTotal": 914
+        },
+        "Fillmore31": {
+          "color": "#BF1D29",
+          "label": "Fischer +34.4",
+          "margin": 34.38,
+          "votesRep": 2017,
+          "votesDem": 985,
+          "votesTotal": 3004
+        },
+        "Franklin31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.9",
+          "margin": 51.92,
+          "votesRep": 1204,
+          "votesDem": 381,
+          "votesTotal": 1590
+        },
+        "Frontier31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.7",
+          "margin": 51.69,
+          "votesRep": 1055,
+          "votesDem": 336,
+          "votesTotal": 1394
+        },
+        "Furnas31": {
+          "color": "#BF1D29",
+          "label": "Fischer +48.5",
+          "margin": 48.48,
+          "votesRep": 1784,
+          "votesDem": 619,
+          "votesTotal": 2408
+        },
+        "Gage31": {
+          "color": "#BF1D29",
+          "label": "Fischer +15.3",
+          "margin": 15.29,
+          "votesRep": 6262,
+          "votesDem": 4601,
+          "votesTotal": 10893
+        },
+        "Garden31": {
+          "color": "#BF1D29",
+          "label": "Fischer +50.5",
+          "margin": 50.54,
+          "votesRep": 831,
+          "votesDem": 273,
+          "votesTotal": 1107
+        },
+        "Garfield31": {
+          "color": "#BF1D29",
+          "label": "Fischer +59.0",
+          "margin": 58.99,
+          "votesRep": 791,
+          "votesDem": 204,
+          "votesTotal": 999
+        },
+        "Gosper31": {
+          "color": "#BF1D29",
+          "label": "Fischer +52.0",
+          "margin": 51.96,
+          "votesRep": 854,
+          "votesDem": 270,
+          "votesTotal": 1125
+        },
+        "Grant31": {
+          "color": "#BF1D29",
+          "label": "Fischer +79.4",
+          "margin": 79.39,
+          "votesRep": 322,
+          "votesDem": 37,
+          "votesTotal": 360
+        },
+        "Greeley31": {
+          "color": "#BF1D29",
+          "label": "Fischer +49.1",
+          "margin": 49.14,
+          "votesRep": 909,
+          "votesDem": 310,
+          "votesTotal": 1222
+        },
+        "Hall31": {
+          "color": "#BF1D29",
+          "label": "Fischer +18.2",
+          "margin": 18.22,
+          "votesRep": 13335,
+          "votesDem": 9225,
+          "votesTotal": 22621
+        },
+        "Hamilton31": {
+          "color": "#BF1D29",
+          "label": "Fischer +45.4",
+          "margin": 45.36,
+          "votesRep": 4004,
+          "votesDem": 1505,
+          "votesTotal": 5522
+        },
+        "Harlan31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.0",
+          "margin": 53.02,
+          "votesRep": 1368,
+          "votesDem": 420,
+          "votesTotal": 1794
+        },
+        "Hayes31": {
+          "color": "#BF1D29",
+          "label": "Fischer +76.8",
+          "margin": 76.78,
+          "votesRep": 434,
+          "votesDem": 57,
+          "votesTotal": 491
+        },
+        "Hitchcock31": {
+          "color": "#BF1D29",
+          "label": "Fischer +50.6",
+          "margin": 50.56,
+          "votesRep": 1069,
+          "votesDem": 351,
+          "votesTotal": 1422
+        },
+        "Holt31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.4",
+          "margin": 51.45,
+          "votesRep": 4074,
+          "votesDem": 1306,
+          "votesTotal": 5397
+        },
+        "Hooker31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.1",
+          "margin": 53.08,
+          "votesRep": 323,
+          "votesDem": 99,
+          "votesTotal": 423
+        },
+        "Howard31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.0",
+          "margin": 42.03,
+          "votesRep": 2489,
+          "votesDem": 1016,
+          "votesTotal": 3512
+        },
+        "Jefferson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +24.5",
+          "margin": 24.52,
+          "votesRep": 2252,
+          "votesDem": 1365,
+          "votesTotal": 3619
+        },
+        "Johnson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +14.4",
+          "margin": 14.41,
+          "votesRep": 1219,
+          "votesDem": 912,
+          "votesTotal": 2135
+        },
+        "Kearney31": {
+          "color": "#BF1D29",
+          "label": "Fischer +44.2",
+          "margin": 44.21,
+          "votesRep": 2595,
+          "votesDem": 1004,
+          "votesTotal": 3613
+        },
+        "Keith31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.9",
+          "margin": 42.86,
+          "votesRep": 2963,
+          "votesDem": 1185,
+          "votesTotal": 4155
+        },
+        "Keya Paha31": {
+          "color": "#BF1D29",
+          "label": "Fischer +68.2",
+          "margin": 68.22,
+          "votesRep": 450,
+          "votesDem": 85,
+          "votesTotal": 540
+        },
+        "Kimball31": {
+          "color": "#BF1D29",
+          "label": "Fischer +43.4",
+          "margin": 43.4,
+          "votesRep": 1206,
+          "votesDem": 476,
+          "votesTotal": 1687
+        },
+        "Knox31": {
+          "color": "#BF1D29",
+          "label": "Fischer +47.1",
+          "margin": 47.09,
+          "votesRep": 3225,
+          "votesDem": 1160,
+          "votesTotal": 4393
+        },
+        "Lancaster31": {
+          "color": "#1C408C",
+          "label": "Osborn +16.6",
+          "margin": -16.64,
+          "votesRep": 65295,
+          "votesDem": 91356,
+          "votesTotal": 157068
+        },
+        "Lincoln31": {
+          "color": "#BF1D29",
+          "label": "Fischer +30.6",
+          "margin": 30.59,
+          "votesRep": 10646,
+          "votesDem": 5658,
+          "votesTotal": 16357
+        },
+        "Logan31": {
+          "color": "#BF1D29",
+          "label": "Fischer +62.6",
+          "margin": 62.64,
+          "votesRep": 357,
+          "votesDem": 82,
+          "votesTotal": 441
+        },
+        "Loup31": {
+          "color": "#BF1D29",
+          "label": "Fischer +57.3",
+          "margin": 57.31,
+          "votesRep": 339,
+          "votesDem": 92,
+          "votesTotal": 431
+        },
+        "Madison31": {
+          "color": "#BF1D29",
+          "label": "Fischer +35.6",
+          "margin": 35.61,
+          "votesRep": 10523,
+          "votesDem": 4997,
+          "votesTotal": 15540
+        },
+        "McPherson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +69.9",
+          "margin": 69.89,
+          "votesRep": 237,
+          "votesDem": 42,
+          "votesTotal": 279
+        },
+        "Merrick31": {
+          "color": "#BF1D29",
+          "label": "Fischer +49.5",
+          "margin": 49.49,
+          "votesRep": 3226,
+          "votesDem": 1090,
+          "votesTotal": 4336
+        },
+        "Morrill31": {
+          "color": "#BF1D29",
+          "label": "Fischer +46.0",
+          "margin": 45.99,
+          "votesRep": 1730,
+          "votesDem": 640,
+          "votesTotal": 2375
+        },
+        "Nance31": {
+          "color": "#BF1D29",
+          "label": "Fischer +36.8",
+          "margin": 36.78,
+          "votesRep": 1244,
+          "votesDem": 575,
+          "votesTotal": 1820
+        },
+        "Nemaha31": {
+          "color": "#BF1D29",
+          "label": "Fischer +19.3",
+          "margin": 19.35,
+          "votesRep": 2014,
+          "votesDem": 1361,
+          "votesTotal": 3382
+        },
+        "Nuckolls31": {
+          "color": "#BF1D29",
+          "label": "Fischer +41.3",
+          "margin": 41.27,
+          "votesRep": 1566,
+          "votesDem": 651,
+          "votesTotal": 2225
+        },
+        "Otoe31": {
+          "color": "#BF1D29",
+          "label": "Fischer +16.3",
+          "margin": 16.28,
+          "votesRep": 4720,
+          "votesDem": 3398,
+          "votesTotal": 8131
+        },
+        "Pawnee31": {
+          "color": "#BF1D29",
+          "label": "Fischer +31.0",
+          "margin": 30.99,
+          "votesRep": 896,
+          "votesDem": 472,
+          "votesTotal": 1369
+        },
+        "Perkins31": {
+          "color": "#BF1D29",
+          "label": "Fischer +52.6",
+          "margin": 52.59,
+          "votesRep": 1088,
+          "votesDem": 338,
+          "votesTotal": 1427
+        },
+        "Phelps31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.4",
+          "margin": 53.35,
+          "votesRep": 3787,
+          "votesDem": 1152,
+          "votesTotal": 4960
+        },
+        "Pierce31": {
+          "color": "#BF1D29",
+          "label": "Fischer +50.7",
+          "margin": 50.75,
+          "votesRep": 2917,
+          "votesDem": 953,
+          "votesTotal": 3882
+        },
+        "Platte31": {
+          "color": "#BF1D29",
+          "label": "Fischer +41.0",
+          "margin": 40.99,
+          "votesRep": 10994,
+          "votesDem": 4601,
+          "votesTotal": 15625
+        },
+        "Polk31": {
+          "color": "#BF1D29",
+          "label": "Fischer +44.9",
+          "margin": 44.89,
+          "votesRep": 2048,
+          "votesDem": 779,
+          "votesTotal": 2833
+        },
+        "Red Willow31": {
+          "color": "#BF1D29",
+          "label": "Fischer +72.4",
+          "margin": 72.38,
+          "votesRep": 4537,
+          "votesDem": 727,
+          "votesTotal": 5270
+        },
+        "Richardson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +21.3",
+          "margin": 21.29,
+          "votesRep": 2336,
+          "votesDem": 1516,
+          "votesTotal": 3865
+        },
+        "Rock31": {
+          "color": "#BF1D29",
+          "label": "Fischer +62.2",
+          "margin": 62.18,
+          "votesRep": 669,
+          "votesDem": 156,
+          "votesTotal": 825
+        },
+        "Saline31": {
+          "color": "#FF5865",
+          "label": "Fischer +7.6",
+          "margin": 7.61,
+          "votesRep": 3020,
+          "votesDem": 2593,
+          "votesTotal": 5629
+        },
+        "Sarpy31": {
+          "color": "#6b7280",
+          "label": "Osborn +0.4",
+          "margin": -0.37,
+          "votesRep": 49448,
+          "votesDem": 49817,
+          "votesTotal": 99506
+        },
+        "Saunders31": {
+          "color": "#BF1D29",
+          "label": "Fischer +26.5",
+          "margin": 26.47,
+          "votesRep": 8499,
+          "votesDem": 4941,
+          "votesTotal": 13464
+        },
+        "Scotts Bluff31": {
+          "color": "#BF1D29",
+          "label": "Fischer +26.0",
+          "margin": 25.97,
+          "votesRep": 9407,
+          "votesDem": 5528,
+          "votesTotal": 14976
+        },
+        "Seward31": {
+          "color": "#BF1D29",
+          "label": "Fischer +27.8",
+          "margin": 27.77,
+          "votesRep": 5855,
+          "votesDem": 3310,
+          "votesTotal": 9186
+        },
+        "Sheridan31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.8",
+          "margin": 53.83,
+          "votesRep": 1889,
+          "votesDem": 567,
+          "votesTotal": 2462
+        },
+        "Sherman31": {
+          "color": "#BF1D29",
+          "label": "Fischer +36.6",
+          "margin": 36.63,
+          "votesRep": 1134,
+          "votesDem": 526,
+          "votesTotal": 1667
+        },
+        "Sioux31": {
+          "color": "#BF1D29",
+          "label": "Fischer +58.0",
+          "margin": 58.04,
+          "votesRep": 531,
+          "votesDem": 141,
+          "votesTotal": 672
+        },
+        "Stanton31": {
+          "color": "#BF1D29",
+          "label": "Fischer +47.8",
+          "margin": 47.82,
+          "votesRep": 2235,
+          "votesDem": 789,
+          "votesTotal": 3027
+        },
+        "Thayer31": {
+          "color": "#BF1D29",
+          "label": "Fischer +41.2",
+          "margin": 41.16,
+          "votesRep": 2013,
+          "votesDem": 839,
+          "votesTotal": 2858
+        },
+        "Thomas31": {
+          "color": "#BF1D29",
+          "label": "Fischer +57.5",
+          "margin": 57.48,
+          "votesRep": 300,
+          "votesDem": 81,
+          "votesTotal": 385
+        },
+        "Thurston31": {
+          "color": "#577CCC",
+          "label": "Osborn +6.9",
+          "margin": -6.9,
+          "votesRep": 951,
+          "votesDem": 1092,
+          "votesTotal": 2043
+        },
+        "Valley31": {
+          "color": "#BF1D29",
+          "label": "Fischer +45.5",
+          "margin": 45.54,
+          "votesRep": 1657,
+          "votesDem": 620,
+          "votesTotal": 2283
+        },
+        "Washington31": {
+          "color": "#BF1D29",
+          "label": "Fischer +25.7",
+          "margin": 25.68,
+          "votesRep": 7815,
+          "votesDem": 4621,
+          "votesTotal": 12463
+        },
+        "Wayne31": {
+          "color": "#BF1D29",
+          "label": "Fischer +27.6",
+          "margin": 27.58,
+          "votesRep": 2588,
+          "votesDem": 1469,
+          "votesTotal": 4067
+        },
+        "Webster31": {
+          "color": "#BF1D29",
+          "label": "Fischer +48.3",
+          "margin": 48.27,
+          "votesRep": 1284,
+          "votesDem": 448,
+          "votesTotal": 1738
+        },
+        "Wheeler31": {
+          "color": "#BF1D29",
+          "label": "Fischer +59.5",
+          "margin": 59.49,
+          "votesRep": 378,
+          "votesDem": 96,
+          "votesTotal": 474
+        },
+        "York31": {
+          "color": "#BF1D29",
+          "label": "Fischer +32.7",
+          "margin": 32.72,
+          "votesRep": 4614,
+          "votesDem": 2339,
+          "votesTotal": 6970
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Jim Pillen",
+      "candDem": "Carol Blood",
+      "shortRep": "Pillen",
+      "shortDem": "Blood",
+      "partisan": true,
+      "margin": 24.41,
+      "votesRep": 398334,
+      "votesDem": 242006,
+      "votesTotal": 666795,
+      "regions": {
+        "Adams31": {
+          "color": "#BF1D29",
+          "label": "Pillen +42.4",
+          "margin": 42.39,
+          "votesRep": 6973,
+          "votesDem": 2821,
+          "votesTotal": 10254
+        },
+        "Antelope31": {
+          "color": "#BF1D29",
+          "label": "Pillen +78.7",
+          "margin": 78.74,
+          "votesRep": 2026,
+          "votesDem": 241,
+          "votesTotal": 2347
+        },
+        "Arthur31": {
+          "color": "#BF1D29",
+          "label": "Pillen +88.8",
+          "margin": 88.84,
+          "votesRep": 220,
+          "votesDem": 13,
+          "votesTotal": 244
+        },
+        "Banner31": {
+          "color": "#BF1D29",
+          "label": "Pillen +83.2",
+          "margin": 83.19,
+          "votesRep": 316,
+          "votesDem": 29,
+          "votesTotal": 365
+        },
+        "Blaine31": {
+          "color": "#BF1D29",
+          "label": "Pillen +76.0",
+          "margin": 76.04,
+          "votesRep": 169,
+          "votesDem": 23,
+          "votesTotal": 204
+        },
+        "Boone31": {
+          "color": "#BF1D29",
+          "label": "Pillen +67.5",
+          "margin": 67.51,
+          "votesRep": 2026,
+          "votesDem": 393,
+          "votesTotal": 2576
+        },
+        "Box Butte31": {
+          "color": "#BF1D29",
+          "label": "Pillen +52.8",
+          "margin": 52.78,
+          "votesRep": 2462,
+          "votesDem": 761,
+          "votesTotal": 3345
+        },
+        "Boyd31": {
+          "color": "#BF1D29",
+          "label": "Pillen +76.4",
+          "margin": 76.37,
+          "votesRep": 739,
+          "votesDem": 99,
+          "votesTotal": 878
+        },
+        "Brown31": {
+          "color": "#BF1D29",
+          "label": "Pillen +71.0",
+          "margin": 71.01,
+          "votesRep": 938,
+          "votesDem": 159,
+          "votesTotal": 1154
+        },
+        "Buffalo31": {
+          "color": "#BF1D29",
+          "label": "Pillen +48.0",
+          "margin": 48.01,
+          "votesRep": 11233,
+          "votesDem": 3946,
+          "votesTotal": 15897
+        },
+        "Burt31": {
+          "color": "#BF1D29",
+          "label": "Pillen +52.2",
+          "margin": 52.17,
+          "votesRep": 2030,
+          "votesDem": 638,
+          "votesTotal": 2790
+        },
+        "Butler31": {
+          "color": "#BF1D29",
+          "label": "Pillen +65.2",
+          "margin": 65.16,
+          "votesRep": 2773,
+          "votesDem": 585,
+          "votesTotal": 3492
+        },
+        "Cass31": {
+          "color": "#BF1D29",
+          "label": "Pillen +38.5",
+          "margin": 38.45,
+          "votesRep": 7462,
+          "votesDem": 3317,
+          "votesTotal": 11336
+        },
+        "Cedar31": {
+          "color": "#BF1D29",
+          "label": "Pillen +73.9",
+          "margin": 73.92,
+          "votesRep": 3107,
+          "votesDem": 466,
+          "votesTotal": 3738
+        },
+        "Chase31": {
+          "color": "#BF1D29",
+          "label": "Pillen +76.1",
+          "margin": 76.09,
+          "votesRep": 1296,
+          "votesDem": 176,
+          "votesTotal": 1525
+        },
+        "Cherry31": {
+          "color": "#BF1D29",
+          "label": "Pillen +78.4",
+          "margin": 78.42,
+          "votesRep": 1984,
+          "votesDem": 240,
+          "votesTotal": 2369
+        },
+        "Cheyenne31": {
+          "color": "#BF1D29",
+          "label": "Pillen +71.0",
+          "margin": 70.99,
+          "votesRep": 2688,
+          "votesDem": 456,
+          "votesTotal": 3313
+        },
+        "Clay31": {
+          "color": "#BF1D29",
+          "label": "Pillen +68.6",
+          "margin": 68.6,
+          "votesRep": 2175,
+          "votesDem": 405,
+          "votesTotal": 2714
+        },
+        "Colfax31": {
+          "color": "#BF1D29",
+          "label": "Pillen +61.9",
+          "margin": 61.92,
+          "votesRep": 1892,
+          "votesDem": 445,
+          "votesTotal": 2413
+        },
+        "Cuming31": {
+          "color": "#BF1D29",
+          "label": "Pillen +67.1",
+          "margin": 67.14,
+          "votesRep": 2589,
+          "votesDem": 509,
+          "votesTotal": 3194
+        },
+        "Custer31": {
+          "color": "#BF1D29",
+          "label": "Pillen +72.8",
+          "margin": 72.79,
+          "votesRep": 3562,
+          "votesDem": 561,
+          "votesTotal": 4326
+        },
+        "Dakota31": {
+          "color": "#BF1D29",
+          "label": "Pillen +46.1",
+          "margin": 46.12,
+          "votesRep": 2525,
+          "votesDem": 931,
+          "votesTotal": 3603
+        },
+        "Dawes31": {
+          "color": "#BF1D29",
+          "label": "Pillen +44.9",
+          "margin": 44.88,
+          "votesRep": 2158,
+          "votesDem": 821,
+          "votesTotal": 3099
+        },
+        "Dawson31": {
+          "color": "#BF1D29",
+          "label": "Pillen +61.2",
+          "margin": 61.22,
+          "votesRep": 4303,
+          "votesDem": 1035,
+          "votesTotal": 5618
+        },
+        "Deuel31": {
+          "color": "#BF1D29",
+          "label": "Pillen +77.9",
+          "margin": 77.91,
+          "votesRep": 612,
+          "votesDem": 76,
+          "votesTotal": 731
+        },
+        "Dixon31": {
+          "color": "#BF1D29",
+          "label": "Pillen +61.6",
+          "margin": 61.63,
+          "votesRep": 1710,
+          "votesDem": 406,
+          "votesTotal": 2209
+        },
+        "Dodge31": {
+          "color": "#BF1D29",
+          "label": "Pillen +39.9",
+          "margin": 39.88,
+          "votesRep": 7682,
+          "votesDem": 3302,
+          "votesTotal": 11515
+        },
+        "Douglas31": {
+          "color": "#577CCC",
+          "label": "Blood +5.2",
+          "margin": -5.17,
+          "votesRep": 87136,
+          "votesDem": 96628,
+          "votesTotal": 190746
+        },
+        "Dundy31": {
+          "color": "#BF1D29",
+          "label": "Pillen +79.3",
+          "margin": 79.31,
+          "votesRep": 650,
+          "votesDem": 75,
+          "votesTotal": 753
+        },
+        "Fillmore31": {
+          "color": "#BF1D29",
+          "label": "Pillen +58.2",
+          "margin": 58.21,
+          "votesRep": 1859,
+          "votesDem": 491,
+          "votesTotal": 2428
+        },
+        "Franklin31": {
+          "color": "#BF1D29",
+          "label": "Pillen +72.0",
+          "margin": 71.98,
+          "votesRep": 976,
+          "votesDem": 159,
+          "votesTotal": 1186
+        },
+        "Frontier31": {
+          "color": "#BF1D29",
+          "label": "Pillen +72.6",
+          "margin": 72.61,
+          "votesRep": 895,
+          "votesDem": 142,
+          "votesTotal": 1077
+        },
+        "Furnas31": {
+          "color": "#BF1D29",
+          "label": "Pillen +72.7",
+          "margin": 72.69,
+          "votesRep": 1524,
+          "votesDem": 241,
+          "votesTotal": 1859
+        },
+        "Gage31": {
+          "color": "#BF1D29",
+          "label": "Pillen +38.6",
+          "margin": 38.57,
+          "votesRep": 5317,
+          "votesDem": 2357,
+          "votesTotal": 7991
+        },
+        "Garden31": {
+          "color": "#BF1D29",
+          "label": "Pillen +74.2",
+          "margin": 74.2,
+          "votesRep": 736,
+          "votesDem": 109,
+          "votesTotal": 881
+        },
+        "Garfield31": {
+          "color": "#BF1D29",
+          "label": "Pillen +77.4",
+          "margin": 77.4,
+          "votesRep": 628,
+          "votesDem": 80,
+          "votesTotal": 726
+        },
+        "Gosper31": {
+          "color": "#BF1D29",
+          "label": "Pillen +68.4",
+          "margin": 68.37,
+          "votesRep": 676,
+          "votesDem": 127,
+          "votesTotal": 834
+        },
+        "Grant31": {
+          "color": "#BF1D29",
+          "label": "Pillen +86.7",
+          "margin": 86.72,
+          "votesRep": 253,
+          "votesDem": 18,
+          "votesTotal": 279
+        },
+        "Greeley31": {
+          "color": "#BF1D29",
+          "label": "Pillen +59.6",
+          "margin": 59.58,
+          "votesRep": 766,
+          "votesDem": 194,
+          "votesTotal": 1011
+        },
+        "Hall31": {
+          "color": "#BF1D29",
+          "label": "Pillen +42.3",
+          "margin": 42.3,
+          "votesRep": 10223,
+          "votesDem": 4145,
+          "votesTotal": 15167
+        },
+        "Hamilton31": {
+          "color": "#BF1D29",
+          "label": "Pillen +61.0",
+          "margin": 61.03,
+          "votesRep": 3128,
+          "votesDem": 757,
+          "votesTotal": 4068
+        },
+        "Harlan31": {
+          "color": "#BF1D29",
+          "label": "Pillen +65.2",
+          "margin": 65.15,
+          "votesRep": 1109,
+          "votesDem": 234,
+          "votesTotal": 1417
+        },
+        "Hayes31": {
+          "color": "#BF1D29",
+          "label": "Pillen +87.4",
+          "margin": 87.36,
+          "votesRep": 341,
+          "votesDem": 23,
+          "votesTotal": 387
+        },
+        "Hitchcock31": {
+          "color": "#BF1D29",
+          "label": "Pillen +75.1",
+          "margin": 75.1,
+          "votesRep": 844,
+          "votesDem": 120,
+          "votesTotal": 1014
+        },
+        "Holt31": {
+          "color": "#BF1D29",
+          "label": "Pillen +75.8",
+          "margin": 75.76,
+          "votesRep": 3125,
+          "votesDem": 431,
+          "votesTotal": 3750
+        },
+        "Hooker31": {
+          "color": "#BF1D29",
+          "label": "Pillen +65.7",
+          "margin": 65.75,
+          "votesRep": 300,
+          "votesDem": 62,
+          "votesTotal": 373
+        },
+        "Howard31": {
+          "color": "#BF1D29",
+          "label": "Pillen +61.5",
+          "margin": 61.48,
+          "votesRep": 1853,
+          "votesDem": 442,
+          "votesTotal": 2422
+        },
+        "Jefferson31": {
+          "color": "#BF1D29",
+          "label": "Pillen +50.3",
+          "margin": 50.27,
+          "votesRep": 1916,
+          "votesDem": 634,
+          "votesTotal": 2665
+        },
+        "Johnson31": {
+          "color": "#BF1D29",
+          "label": "Pillen +38.9",
+          "margin": 38.87,
+          "votesRep": 1061,
+          "votesDem": 467,
+          "votesTotal": 1615
+        },
+        "Kearney31": {
+          "color": "#BF1D29",
+          "label": "Pillen +63.1",
+          "margin": 63.11,
+          "votesRep": 1981,
+          "votesDem": 448,
+          "votesTotal": 2536
+        },
+        "Keith31": {
+          "color": "#BF1D29",
+          "label": "Pillen +67.3",
+          "margin": 67.35,
+          "votesRep": 2337,
+          "votesDem": 456,
+          "votesTotal": 2891
+        },
+        "Keya Paha31": {
+          "color": "#BF1D29",
+          "label": "Pillen +79.2",
+          "margin": 79.15,
+          "votesRep": 318,
+          "votesDem": 37,
+          "votesTotal": 378
+        },
+        "Kimball31": {
+          "color": "#BF1D29",
+          "label": "Pillen +75.2",
+          "margin": 75.18,
+          "votesRep": 1115,
+          "votesDem": 158,
+          "votesTotal": 1333
+        },
+        "Knox31": {
+          "color": "#BF1D29",
+          "label": "Pillen +66.6",
+          "margin": 66.59,
+          "votesRep": 2922,
+          "votesDem": 586,
+          "votesTotal": 3648
+        },
+        "Lancaster31": {
+          "color": "#8AAFFF",
+          "label": "Blood +4.2",
+          "margin": -4.22,
+          "votesRep": 52769,
+          "votesDem": 57424,
+          "votesTotal": 114001
+        },
+        "Lincoln31": {
+          "color": "#BF1D29",
+          "label": "Pillen +56.9",
+          "margin": 56.89,
+          "votesRep": 9029,
+          "votesDem": 2481,
+          "votesTotal": 12052
+        },
+        "Logan31": {
+          "color": "#BF1D29",
+          "label": "Pillen +85.9",
+          "margin": 85.9,
+          "votesRep": 290,
+          "votesDem": 22,
+          "votesTotal": 324
+        },
+        "Loup31": {
+          "color": "#BF1D29",
+          "label": "Pillen +68.3",
+          "margin": 68.32,
+          "votesRep": 255,
+          "votesDem": 48,
+          "votesTotal": 324
+        },
+        "Madison31": {
+          "color": "#BF1D29",
+          "label": "Pillen +63.5",
+          "margin": 63.47,
+          "votesRep": 9108,
+          "votesDem": 2035,
+          "votesTotal": 11617
+        },
+        "McPherson31": {
+          "color": "#BF1D29",
+          "label": "Pillen +77.4",
+          "margin": 77.36,
+          "votesRep": 188,
+          "votesDem": 24,
+          "votesTotal": 221
+        },
+        "Merrick31": {
+          "color": "#BF1D29",
+          "label": "Pillen +67.2",
+          "margin": 67.19,
+          "votesRep": 2629,
+          "votesDem": 516,
+          "votesTotal": 3302
+        },
+        "Morrill31": {
+          "color": "#BF1D29",
+          "label": "Pillen +71.6",
+          "margin": 71.64,
+          "votesRep": 1543,
+          "votesDem": 255,
+          "votesTotal": 1923
+        },
+        "Nance31": {
+          "color": "#BF1D29",
+          "label": "Pillen +56.0",
+          "margin": 56.04,
+          "votesRep": 923,
+          "votesDem": 260,
+          "votesTotal": 1251
+        },
+        "Nemaha31": {
+          "color": "#BF1D29",
+          "label": "Pillen +48.7",
+          "margin": 48.7,
+          "votesRep": 1655,
+          "votesDem": 571,
+          "votesTotal": 2335
+        },
+        "Nuckolls31": {
+          "color": "#BF1D29",
+          "label": "Pillen +69.0",
+          "margin": 69.01,
+          "votesRep": 1276,
+          "votesDem": 234,
+          "votesTotal": 1558
+        },
+        "Otoe31": {
+          "color": "#BF1D29",
+          "label": "Pillen +42.2",
+          "margin": 42.21,
+          "votesRep": 3920,
+          "votesDem": 1593,
+          "votesTotal": 5751
+        },
+        "Pawnee31": {
+          "color": "#BF1D29",
+          "label": "Pillen +57.0",
+          "margin": 56.96,
+          "votesRep": 817,
+          "votesDem": 224,
+          "votesTotal": 1081
+        },
+        "Perkins31": {
+          "color": "#BF1D29",
+          "label": "Pillen +74.4",
+          "margin": 74.36,
+          "votesRep": 918,
+          "votesDem": 135,
+          "votesTotal": 1098
+        },
+        "Phelps31": {
+          "color": "#BF1D29",
+          "label": "Pillen +71.1",
+          "margin": 71.09,
+          "votesRep": 3012,
+          "votesDem": 509,
+          "votesTotal": 3675
+        },
+        "Pierce31": {
+          "color": "#BF1D29",
+          "label": "Pillen +79.1",
+          "margin": 79.06,
+          "votesRep": 2463,
+          "votesDem": 288,
+          "votesTotal": 2851
+        },
+        "Platte31": {
+          "color": "#BF1D29",
+          "label": "Pillen +68.6",
+          "margin": 68.61,
+          "votesRep": 9103,
+          "votesDem": 1695,
+          "votesTotal": 11106
+        },
+        "Polk31": {
+          "color": "#BF1D29",
+          "label": "Pillen +67.6",
+          "margin": 67.56,
+          "votesRep": 1658,
+          "votesDem": 321,
+          "votesTotal": 2052
+        },
+        "Red Willow31": {
+          "color": "#BF1D29",
+          "label": "Pillen +67.8",
+          "margin": 67.85,
+          "votesRep": 3174,
+          "votesDem": 608,
+          "votesTotal": 3986
+        },
+        "Richardson31": {
+          "color": "#BF1D29",
+          "label": "Pillen +44.4",
+          "margin": 44.35,
+          "votesRep": 1987,
+          "votesDem": 766,
+          "votesTotal": 2918
+        },
+        "Rock31": {
+          "color": "#BF1D29",
+          "label": "Pillen +77.8",
+          "margin": 77.78,
+          "votesRep": 504,
+          "votesDem": 63,
+          "votesTotal": 585
+        },
+        "Saline31": {
+          "color": "#BF1D29",
+          "label": "Pillen +33.6",
+          "margin": 33.56,
+          "votesRep": 2388,
+          "votesDem": 1188,
+          "votesTotal": 3755
+        },
+        "Sarpy31": {
+          "color": "#BF1D29",
+          "label": "Pillen +15.8",
+          "margin": 15.81,
+          "votesRep": 35821,
+          "votesDem": 26039,
+          "votesTotal": 64436
+        },
+        "Saunders31": {
+          "color": "#BF1D29",
+          "label": "Pillen +49.4",
+          "margin": 49.42,
+          "votesRep": 6842,
+          "votesDem": 2316,
+          "votesTotal": 9606
+        },
+        "Scotts Bluff31": {
+          "color": "#BF1D29",
+          "label": "Pillen +51.9",
+          "margin": 51.85,
+          "votesRep": 7125,
+          "votesDem": 2259,
+          "votesTotal": 9816
+        },
+        "Seward31": {
+          "color": "#BF1D29",
+          "label": "Pillen +52.0",
+          "margin": 51.95,
+          "votesRep": 4921,
+          "votesDem": 1556,
+          "votesTotal": 6721
+        },
+        "Sheridan31": {
+          "color": "#BF1D29",
+          "label": "Pillen +71.3",
+          "margin": 71.3,
+          "votesRep": 1349,
+          "votesDem": 226,
+          "votesTotal": 1678
+        },
+        "Sherman31": {
+          "color": "#BF1D29",
+          "label": "Pillen +56.9",
+          "margin": 56.92,
+          "votesRep": 896,
+          "votesDem": 246,
+          "votesTotal": 1220
+        },
+        "Sioux31": {
+          "color": "#BF1D29",
+          "label": "Pillen +76.8",
+          "margin": 76.81,
+          "votesRep": 427,
+          "votesDem": 56,
+          "votesTotal": 501
+        },
+        "Stanton31": {
+          "color": "#BF1D29",
+          "label": "Pillen +70.5",
+          "margin": 70.52,
+          "votesRep": 1967,
+          "votesDem": 340,
+          "votesTotal": 2441
+        },
+        "Thayer31": {
+          "color": "#BF1D29",
+          "label": "Pillen +64.1",
+          "margin": 64.13,
+          "votesRep": 1707,
+          "votesDem": 373,
+          "votesTotal": 2160
+        },
+        "Thomas31": {
+          "color": "#BF1D29",
+          "label": "Pillen +80.3",
+          "margin": 80.27,
+          "votesRep": 265,
+          "votesDem": 29,
+          "votesTotal": 306
+        },
+        "Thurston31": {
+          "color": "#BF1D29",
+          "label": "Pillen +32.1",
+          "margin": 32.05,
+          "votesRep": 824,
+          "votesDem": 424,
+          "votesTotal": 1290
+        },
+        "Valley31": {
+          "color": "#BF1D29",
+          "label": "Pillen +67.1",
+          "margin": 67.14,
+          "votesRep": 1414,
+          "votesDem": 278,
+          "votesTotal": 1770
+        },
+        "Washington31": {
+          "color": "#BF1D29",
+          "label": "Pillen +47.4",
+          "margin": 47.42,
+          "votesRep": 6244,
+          "votesDem": 2227,
+          "votesTotal": 8803
+        },
+        "Wayne31": {
+          "color": "#BF1D29",
+          "label": "Pillen +52.8",
+          "margin": 52.76,
+          "votesRep": 2215,
+          "votesDem": 685,
+          "votesTotal": 3023
+        },
+        "Webster31": {
+          "color": "#BF1D29",
+          "label": "Pillen +66.3",
+          "margin": 66.29,
+          "votesRep": 1021,
+          "votesDem": 207,
+          "votesTotal": 1283
+        },
+        "Wheeler31": {
+          "color": "#BF1D29",
+          "label": "Pillen +70.7",
+          "margin": 70.68,
+          "votesRep": 227,
+          "votesDem": 39,
+          "votesTotal": 280
+        },
+        "York31": {
+          "color": "#BF1D29",
+          "label": "Pillen +59.5",
+          "margin": 59.47,
+          "votesRep": 3821,
+          "votesDem": 971,
+          "votesTotal": 5011
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Pete Ricketts",
+      "candDem": "Bob Krist",
+      "shortRep": "Ricketts",
+      "shortDem": "Krist",
+      "partisan": true,
+      "margin": 18,
+      "votesRep": 411812,
+      "votesDem": 286169,
+      "votesTotal": 697981,
+      "regions": {
+        "Adams31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +38.3",
+          "margin": 38.31,
+          "votesRep": 7067,
+          "votesDem": 3152,
+          "votesTotal": 10219
+        },
+        "Antelope31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +65.4",
+          "margin": 65.4,
+          "votesRep": 2103,
+          "votesDem": 440,
+          "votesTotal": 2543
+        },
+        "Arthur31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +72.7",
+          "margin": 72.69,
+          "votesRep": 196,
+          "votesDem": 31,
+          "votesTotal": 227
+        },
+        "Banner31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +60.8",
+          "margin": 60.76,
+          "votesRep": 254,
+          "votesDem": 62,
+          "votesTotal": 316
+        },
+        "Blaine31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +62.9",
+          "margin": 62.88,
+          "votesRep": 215,
+          "votesDem": 49,
+          "votesTotal": 264
+        },
+        "Boone31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +61.9",
+          "margin": 61.94,
+          "votesRep": 1872,
+          "votesDem": 440,
+          "votesTotal": 2312
+        },
+        "Box Butte31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +39.5",
+          "margin": 39.46,
+          "votesRep": 2525,
+          "votesDem": 1096,
+          "votesTotal": 3621
+        },
+        "Boyd31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +68.4",
+          "margin": 68.37,
+          "votesRep": 809,
+          "votesDem": 152,
+          "votesTotal": 961
+        },
+        "Brown31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +68.6",
+          "margin": 68.64,
+          "votesRep": 1151,
+          "votesDem": 214,
+          "votesTotal": 1365
+        },
+        "Buffalo31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +36.8",
+          "margin": 36.85,
+          "votesRep": 11168,
+          "votesDem": 5154,
+          "votesTotal": 16322
+        },
+        "Burt31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +33.8",
+          "margin": 33.81,
+          "votesRep": 1973,
+          "votesDem": 976,
+          "votesTotal": 2949
+        },
+        "Butler31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +50.3",
+          "margin": 50.31,
+          "votesRep": 2632,
+          "votesDem": 870,
+          "votesTotal": 3502
+        },
+        "Cass31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +30.2",
+          "margin": 30.23,
+          "votesRep": 6923,
+          "votesDem": 3709,
+          "votesTotal": 10632
+        },
+        "Cedar31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +57.2",
+          "margin": 57.22,
+          "votesRep": 2775,
+          "votesDem": 755,
+          "votesTotal": 3530
+        },
+        "Chase31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +73.7",
+          "margin": 73.7,
+          "votesRep": 1354,
+          "votesDem": 205,
+          "votesTotal": 1559
+        },
+        "Cherry31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +64.6",
+          "margin": 64.57,
+          "votesRep": 1979,
+          "votesDem": 426,
+          "votesTotal": 2405
+        },
+        "Cheyenne31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +56.0",
+          "margin": 55.99,
+          "votesRep": 2534,
+          "votesDem": 715,
+          "votesTotal": 3249
+        },
+        "Clay31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +58.0",
+          "margin": 58,
+          "votesRep": 2122,
+          "votesDem": 564,
+          "votesTotal": 2686
+        },
+        "Colfax31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +41.0",
+          "margin": 41.03,
+          "votesRep": 1765,
+          "votesDem": 738,
+          "votesTotal": 2503
+        },
+        "Cuming31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +58.7",
+          "margin": 58.75,
+          "votesRep": 2682,
+          "votesDem": 697,
+          "votesTotal": 3379
+        },
+        "Custer31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +66.5",
+          "margin": 66.46,
+          "votesRep": 3861,
+          "votesDem": 778,
+          "votesTotal": 4639
+        },
+        "Dakota31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +18.9",
+          "margin": 18.93,
+          "votesRep": 2701,
+          "votesDem": 1841,
+          "votesTotal": 4542
+        },
+        "Dawes31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +29.4",
+          "margin": 29.43,
+          "votesRep": 2179,
+          "votesDem": 1188,
+          "votesTotal": 3367
+        },
+        "Dawson31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +45.5",
+          "margin": 45.53,
+          "votesRep": 4558,
+          "votesDem": 1706,
+          "votesTotal": 6264
+        },
+        "Deuel31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +64.3",
+          "margin": 64.33,
+          "votesRep": 585,
+          "votesDem": 127,
+          "votesTotal": 712
+        },
+        "Dixon31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +48.3",
+          "margin": 48.29,
+          "votesRep": 1666,
+          "votesDem": 581,
+          "votesTotal": 2247
+        },
+        "Dodge31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +23.4",
+          "margin": 23.36,
+          "votesRep": 7457,
+          "votesDem": 4633,
+          "votesTotal": 12090
+        },
+        "Douglas31": {
+          "color": "#577CCC",
+          "label": "Krist +5.9",
+          "margin": -5.93,
+          "votesRep": 96120,
+          "votesDem": 108235,
+          "votesTotal": 204355
+        },
+        "Dundy31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +69.2",
+          "margin": 69.21,
+          "votesRep": 654,
+          "votesDem": 119,
+          "votesTotal": 773
+        },
+        "Fillmore31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +40.8",
+          "margin": 40.83,
+          "votesRep": 1790,
+          "votesDem": 752,
+          "votesTotal": 2542
+        },
+        "Franklin31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +62.7",
+          "margin": 62.73,
+          "votesRep": 1109,
+          "votesDem": 254,
+          "votesTotal": 1363
+        },
+        "Frontier31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +63.5",
+          "margin": 63.55,
+          "votesRep": 857,
+          "votesDem": 191,
+          "votesTotal": 1048
+        },
+        "Furnas31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +65.3",
+          "margin": 65.29,
+          "votesRep": 1767,
+          "votesDem": 371,
+          "votesTotal": 2138
+        },
+        "Gage31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +25.9",
+          "margin": 25.87,
+          "votesRep": 5250,
+          "votesDem": 3092,
+          "votesTotal": 8342
+        },
+        "Garden31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +62.9",
+          "margin": 62.95,
+          "votesRep": 818,
+          "votesDem": 186,
+          "votesTotal": 1004
+        },
+        "Garfield31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +67.1",
+          "margin": 67.13,
+          "votesRep": 666,
+          "votesDem": 131,
+          "votesTotal": 797
+        },
+        "Gosper31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +64.1",
+          "margin": 64.07,
+          "votesRep": 685,
+          "votesDem": 150,
+          "votesTotal": 835
+        },
+        "Grant31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +72.2",
+          "margin": 72.19,
+          "votesRep": 260,
+          "votesDem": 42,
+          "votesTotal": 302
+        },
+        "Greeley31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +50.0",
+          "margin": 49.95,
+          "votesRep": 752,
+          "votesDem": 251,
+          "votesTotal": 1003
+        },
+        "Hall31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +32.3",
+          "margin": 32.33,
+          "votesRep": 11069,
+          "votesDem": 5661,
+          "votesTotal": 16730
+        },
+        "Hamilton31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +56.1",
+          "margin": 56.1,
+          "votesRep": 3214,
+          "votesDem": 904,
+          "votesTotal": 4118
+        },
+        "Harlan31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +63.7",
+          "margin": 63.7,
+          "votesRep": 1231,
+          "votesDem": 273,
+          "votesTotal": 1504
+        },
+        "Hayes31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +78.7",
+          "margin": 78.73,
+          "votesRep": 353,
+          "votesDem": 42,
+          "votesTotal": 395
+        },
+        "Hitchcock31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +64.5",
+          "margin": 64.53,
+          "votesRep": 886,
+          "votesDem": 191,
+          "votesTotal": 1077
+        },
+        "Holt31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +60.5",
+          "margin": 60.45,
+          "votesRep": 3339,
+          "votesDem": 823,
+          "votesTotal": 4162
+        },
+        "Hooker31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +63.4",
+          "margin": 63.41,
+          "votesRep": 259,
+          "votesDem": 58,
+          "votesTotal": 317
+        },
+        "Howard31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +47.8",
+          "margin": 47.82,
+          "votesRep": 1793,
+          "votesDem": 633,
+          "votesTotal": 2426
+        },
+        "Jefferson31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +36.8",
+          "margin": 36.77,
+          "votesRep": 2042,
+          "votesDem": 944,
+          "votesTotal": 2986
+        },
+        "Johnson31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +25.2",
+          "margin": 25.17,
+          "votesRep": 1124,
+          "votesDem": 672,
+          "votesTotal": 1796
+        },
+        "Kearney31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +53.9",
+          "margin": 53.9,
+          "votesRep": 2020,
+          "votesDem": 605,
+          "votesTotal": 2625
+        },
+        "Keith31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +57.3",
+          "margin": 57.25,
+          "votesRep": 2516,
+          "votesDem": 684,
+          "votesTotal": 3200
+        },
+        "Keya Paha31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +77.9",
+          "margin": 77.95,
+          "votesRep": 347,
+          "votesDem": 43,
+          "votesTotal": 390
+        },
+        "Kimball31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +61.9",
+          "margin": 61.88,
+          "votesRep": 1117,
+          "votesDem": 263,
+          "votesTotal": 1380
+        },
+        "Knox31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +54.5",
+          "margin": 54.54,
+          "votesRep": 2781,
+          "votesDem": 818,
+          "votesTotal": 3599
+        },
+        "Lancaster31": {
+          "color": "#1C408C",
+          "label": "Krist +11.5",
+          "margin": -11.49,
+          "votesRep": 51560,
+          "votesDem": 64946,
+          "votesTotal": 116506
+        },
+        "Lincoln31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +49.3",
+          "margin": 49.29,
+          "votesRep": 9345,
+          "votesDem": 3174,
+          "votesTotal": 12519
+        },
+        "Logan31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +83.3",
+          "margin": 83.28,
+          "votesRep": 307,
+          "votesDem": 28,
+          "votesTotal": 335
+        },
+        "Loup31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +62.9",
+          "margin": 62.87,
+          "votesRep": 250,
+          "votesDem": 57,
+          "votesTotal": 307
+        },
+        "Madison31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +51.1",
+          "margin": 51.09,
+          "votesRep": 7906,
+          "votesDem": 2559,
+          "votesTotal": 10465
+        },
+        "McPherson31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +64.8",
+          "margin": 64.84,
+          "votesRep": 211,
+          "votesDem": 45,
+          "votesTotal": 256
+        },
+        "Merrick31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +59.6",
+          "margin": 59.61,
+          "votesRep": 2695,
+          "votesDem": 682,
+          "votesTotal": 3377
+        },
+        "Morrill31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +55.2",
+          "margin": 55.18,
+          "votesRep": 1641,
+          "votesDem": 474,
+          "votesTotal": 2115
+        },
+        "Nance31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +49.0",
+          "margin": 48.96,
+          "votesRep": 928,
+          "votesDem": 318,
+          "votesTotal": 1246
+        },
+        "Nemaha31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +39.5",
+          "margin": 39.53,
+          "votesRep": 1825,
+          "votesDem": 791,
+          "votesTotal": 2616
+        },
+        "Nuckolls31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +61.5",
+          "margin": 61.47,
+          "votesRep": 1425,
+          "votesDem": 340,
+          "votesTotal": 1765
+        },
+        "Otoe31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +33.9",
+          "margin": 33.86,
+          "votesRep": 4264,
+          "votesDem": 2107,
+          "votesTotal": 6371
+        },
+        "Pawnee31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +39.3",
+          "margin": 39.34,
+          "votesRep": 804,
+          "votesDem": 350,
+          "votesTotal": 1154
+        },
+        "Perkins31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +68.1",
+          "margin": 68.14,
+          "votesRep": 1029,
+          "votesDem": 195,
+          "votesTotal": 1224
+        },
+        "Phelps31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +64.0",
+          "margin": 64.05,
+          "votesRep": 3162,
+          "votesDem": 693,
+          "votesTotal": 3855
+        },
+        "Pierce31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +71.3",
+          "margin": 71.32,
+          "votesRep": 2377,
+          "votesDem": 398,
+          "votesTotal": 2775
+        },
+        "Platte31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +55.2",
+          "margin": 55.21,
+          "votesRep": 8570,
+          "votesDem": 2473,
+          "votesTotal": 11043
+        },
+        "Polk31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +58.0",
+          "margin": 58.05,
+          "votesRep": 1650,
+          "votesDem": 438,
+          "votesTotal": 2088
+        },
+        "Red Willow31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +62.6",
+          "margin": 62.56,
+          "votesRep": 3161,
+          "votesDem": 728,
+          "votesTotal": 3889
+        },
+        "Richardson31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +46.4",
+          "margin": 46.36,
+          "votesRep": 2262,
+          "votesDem": 829,
+          "votesTotal": 3091
+        },
+        "Rock31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +71.8",
+          "margin": 71.81,
+          "votesRep": 573,
+          "votesDem": 94,
+          "votesTotal": 667
+        },
+        "Saline31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +14.0",
+          "margin": 14,
+          "votesRep": 2406,
+          "votesDem": 1815,
+          "votesTotal": 4221
+        },
+        "Sarpy31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +18.2",
+          "margin": 18.2,
+          "votesRep": 39928,
+          "votesDem": 27632,
+          "votesTotal": 67560
+        },
+        "Saunders31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +36.7",
+          "margin": 36.67,
+          "votesRep": 6508,
+          "votesDem": 3016,
+          "votesTotal": 9524
+        },
+        "Scotts Bluff31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +35.6",
+          "margin": 35.6,
+          "votesRep": 7241,
+          "votesDem": 3439,
+          "votesTotal": 10680
+        },
+        "Seward31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +36.3",
+          "margin": 36.34,
+          "votesRep": 4812,
+          "votesDem": 2247,
+          "votesTotal": 7059
+        },
+        "Sheridan31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +50.5",
+          "margin": 50.47,
+          "votesRep": 1513,
+          "votesDem": 498,
+          "votesTotal": 2011
+        },
+        "Sherman31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +46.5",
+          "margin": 46.52,
+          "votesRep": 948,
+          "votesDem": 346,
+          "votesTotal": 1294
+        },
+        "Sioux31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +64.2",
+          "margin": 64.25,
+          "votesRep": 441,
+          "votesDem": 96,
+          "votesTotal": 537
+        },
+        "Stanton31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +61.6",
+          "margin": 61.57,
+          "votesRep": 1829,
+          "votesDem": 435,
+          "votesTotal": 2264
+        },
+        "Thayer31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +52.0",
+          "margin": 52.04,
+          "votesRep": 1715,
+          "votesDem": 541,
+          "votesTotal": 2256
+        },
+        "Thomas31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +74.4",
+          "margin": 74.42,
+          "votesRep": 300,
+          "votesDem": 44,
+          "votesTotal": 344
+        },
+        "Thurston31": {
+          "color": "#FF8B98",
+          "label": "Ricketts +4.7",
+          "margin": 4.73,
+          "votesRep": 963,
+          "votesDem": 876,
+          "votesTotal": 1839
+        },
+        "Valley31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +60.5",
+          "margin": 60.53,
+          "votesRep": 1444,
+          "votesDem": 355,
+          "votesTotal": 1799
+        },
+        "Washington31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +40.2",
+          "margin": 40.23,
+          "votesRep": 6457,
+          "votesDem": 2752,
+          "votesTotal": 9209
+        },
+        "Wayne31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +42.7",
+          "margin": 42.7,
+          "votesRep": 2296,
+          "votesDem": 922,
+          "votesTotal": 3218
+        },
+        "Webster31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +57.5",
+          "margin": 57.52,
+          "votesRep": 1079,
+          "votesDem": 291,
+          "votesTotal": 1370
+        },
+        "Wheeler31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +59.9",
+          "margin": 59.9,
+          "votesRep": 319,
+          "votesDem": 80,
+          "votesTotal": 399
+        },
+        "York31": {
+          "color": "#BF1D29",
+          "label": "Ricketts +46.2",
+          "margin": 46.18,
+          "votesRep": 3743,
+          "votesDem": 1378,
+          "votesTotal": 5121
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Deb Fischer",
+      "candDem": "Jane Raybould",
+      "shortRep": "Fischer",
+      "shortDem": "Raybould",
+      "partisan": true,
+      "margin": 19.8,
+      "votesRep": 403151,
+      "votesDem": 269917,
+      "votesTotal": 698417,
+      "regions": {
+        "Adams31": {
+          "color": "#BF1D29",
+          "label": "Fischer +32.1",
+          "margin": 32.1,
+          "votesRep": 6487,
+          "votesDem": 3334,
+          "votesTotal": 10223
+        },
+        "Antelope31": {
+          "color": "#BF1D29",
+          "label": "Fischer +67.8",
+          "margin": 67.77,
+          "votesRep": 2061,
+          "votesDem": 396,
+          "votesTotal": 2524
+        },
+        "Arthur31": {
+          "color": "#BF1D29",
+          "label": "Fischer +78.8",
+          "margin": 78.76,
+          "votesRep": 202,
+          "votesDem": 24,
+          "votesTotal": 232
+        },
+        "Banner31": {
+          "color": "#BF1D29",
+          "label": "Fischer +74.2",
+          "margin": 74.17,
+          "votesRep": 263,
+          "votesDem": 39,
+          "votesTotal": 314
+        },
+        "Blaine31": {
+          "color": "#BF1D29",
+          "label": "Fischer +73.5",
+          "margin": 73.54,
+          "votesRep": 223,
+          "votesDem": 34,
+          "votesTotal": 263
+        },
+        "Boone31": {
+          "color": "#BF1D29",
+          "label": "Fischer +58.7",
+          "margin": 58.72,
+          "votesRep": 1757,
+          "votesDem": 457,
+          "votesTotal": 2288
+        },
+        "Box Butte31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.8",
+          "margin": 51.83,
+          "votesRep": 2632,
+          "votesDem": 835,
+          "votesTotal": 3627
+        },
+        "Boyd31": {
+          "color": "#BF1D29",
+          "label": "Fischer +72.3",
+          "margin": 72.32,
+          "votesRep": 797,
+          "votesDem": 128,
+          "votesTotal": 959
+        },
+        "Brown31": {
+          "color": "#BF1D29",
+          "label": "Fischer +71.7",
+          "margin": 71.71,
+          "votesRep": 1153,
+          "votesDem": 190,
+          "votesTotal": 1385
+        },
+        "Buffalo31": {
+          "color": "#BF1D29",
+          "label": "Fischer +39.3",
+          "margin": 39.31,
+          "votesRep": 10939,
+          "votesDem": 4765,
+          "votesTotal": 16354
+        },
+        "Burt31": {
+          "color": "#BF1D29",
+          "label": "Fischer +40.9",
+          "margin": 40.94,
+          "votesRep": 1995,
+          "votesDem": 836,
+          "votesTotal": 2935
+        },
+        "Butler31": {
+          "color": "#BF1D29",
+          "label": "Fischer +47.9",
+          "margin": 47.86,
+          "votesRep": 2470,
+          "votesDem": 871,
+          "votesTotal": 3478
+        },
+        "Cass31": {
+          "color": "#BF1D29",
+          "label": "Fischer +33.3",
+          "margin": 33.34,
+          "votesRep": 6787,
+          "votesDem": 3393,
+          "votesTotal": 10603
+        },
+        "Cedar31": {
+          "color": "#BF1D29",
+          "label": "Fischer +68.4",
+          "margin": 68.44,
+          "votesRep": 2866,
+          "votesDem": 537,
+          "votesTotal": 3514
+        },
+        "Chase31": {
+          "color": "#BF1D29",
+          "label": "Fischer +75.9",
+          "margin": 75.85,
+          "votesRep": 1340,
+          "votesDem": 184,
+          "votesTotal": 1562
+        },
+        "Cherry31": {
+          "color": "#BF1D29",
+          "label": "Fischer +71.8",
+          "margin": 71.8,
+          "votesRep": 1913,
+          "votesDem": 314,
+          "votesTotal": 2372
+        },
+        "Cheyenne31": {
+          "color": "#BF1D29",
+          "label": "Fischer +63.2",
+          "margin": 63.18,
+          "votesRep": 2566,
+          "votesDem": 579,
+          "votesTotal": 3256
+        },
+        "Clay31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.9",
+          "margin": 53.95,
+          "votesRep": 1979,
+          "votesDem": 592,
+          "votesTotal": 2679
+        },
+        "Colfax31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.8",
+          "margin": 42.82,
+          "votesRep": 1731,
+          "votesDem": 693,
+          "votesTotal": 2499
+        },
+        "Cuming31": {
+          "color": "#BF1D29",
+          "label": "Fischer +63.1",
+          "margin": 63.13,
+          "votesRep": 2672,
+          "votesDem": 604,
+          "votesTotal": 3362
+        },
+        "Custer31": {
+          "color": "#BF1D29",
+          "label": "Fischer +69.4",
+          "margin": 69.36,
+          "votesRep": 3797,
+          "votesDem": 687,
+          "votesTotal": 4642
+        },
+        "Dakota31": {
+          "color": "#BF1D29",
+          "label": "Fischer +22.6",
+          "margin": 22.57,
+          "votesRep": 2677,
+          "votesDem": 1691,
+          "votesTotal": 4532
+        },
+        "Dawes31": {
+          "color": "#BF1D29",
+          "label": "Fischer +43.7",
+          "margin": 43.72,
+          "votesRep": 2334,
+          "votesDem": 914,
+          "votesTotal": 3390
+        },
+        "Dawson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +45.0",
+          "margin": 44.95,
+          "votesRep": 4363,
+          "votesDem": 1657,
+          "votesTotal": 6247
+        },
+        "Deuel31": {
+          "color": "#BF1D29",
+          "label": "Fischer +68.3",
+          "margin": 68.27,
+          "votesRep": 578,
+          "votesDem": 109,
+          "votesTotal": 717
+        },
+        "Dixon31": {
+          "color": "#BF1D29",
+          "label": "Fischer +54.5",
+          "margin": 54.46,
+          "votesRep": 1655,
+          "votesDem": 488,
+          "votesTotal": 2224
+        },
+        "Dodge31": {
+          "color": "#BF1D29",
+          "label": "Fischer +34.4",
+          "margin": 34.36,
+          "votesRep": 7827,
+          "votesDem": 3824,
+          "votesTotal": 12056
+        },
+        "Douglas31": {
+          "color": "#8AAFFF",
+          "label": "Raybould +4.2",
+          "margin": -4.19,
+          "votesRep": 94777,
+          "votesDem": 103070,
+          "votesTotal": 204574
+        },
+        "Dundy31": {
+          "color": "#BF1D29",
+          "label": "Fischer +73.5",
+          "margin": 73.53,
+          "votesRep": 649,
+          "votesDem": 99,
+          "votesTotal": 771
+        },
+        "Fillmore31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.7",
+          "margin": 42.69,
+          "votesRep": 1718,
+          "votesDem": 690,
+          "votesTotal": 2526
+        },
+        "Franklin31": {
+          "color": "#BF1D29",
+          "label": "Fischer +60.7",
+          "margin": 60.74,
+          "votesRep": 1044,
+          "votesDem": 255,
+          "votesTotal": 1349
+        },
+        "Frontier31": {
+          "color": "#BF1D29",
+          "label": "Fischer +65.5",
+          "margin": 65.54,
+          "votesRep": 831,
+          "votesDem": 173,
+          "votesTotal": 1040
+        },
+        "Furnas31": {
+          "color": "#BF1D29",
+          "label": "Fischer +67.5",
+          "margin": 67.46,
+          "votesRep": 1719,
+          "votesDem": 334,
+          "votesTotal": 2139
+        },
+        "Gage31": {
+          "color": "#BF1D29",
+          "label": "Fischer +23.6",
+          "margin": 23.64,
+          "votesRep": 4896,
+          "votesDem": 3024,
+          "votesTotal": 8329
+        },
+        "Garden31": {
+          "color": "#BF1D29",
+          "label": "Fischer +70.9",
+          "margin": 70.89,
+          "votesRep": 816,
+          "votesDem": 139,
+          "votesTotal": 999
+        },
+        "Garfield31": {
+          "color": "#BF1D29",
+          "label": "Fischer +71.0",
+          "margin": 71.03,
+          "votesRep": 667,
+          "votesDem": 113,
+          "votesTotal": 798
+        },
+        "Gosper31": {
+          "color": "#BF1D29",
+          "label": "Fischer +63.9",
+          "margin": 63.88,
+          "votesRep": 667,
+          "votesDem": 147,
+          "votesTotal": 837
+        },
+        "Grant31": {
+          "color": "#BF1D29",
+          "label": "Fischer +90.5",
+          "margin": 90.54,
+          "votesRep": 282,
+          "votesDem": 14,
+          "votesTotal": 301
+        },
+        "Greeley31": {
+          "color": "#BF1D29",
+          "label": "Fischer +50.9",
+          "margin": 50.93,
+          "votesRep": 732,
+          "votesDem": 238,
+          "votesTotal": 995
+        },
+        "Hall31": {
+          "color": "#BF1D29",
+          "label": "Fischer +30.2",
+          "margin": 30.17,
+          "votesRep": 10483,
+          "votesDem": 5624,
+          "votesTotal": 16772
+        },
+        "Hamilton31": {
+          "color": "#BF1D29",
+          "label": "Fischer +54.9",
+          "margin": 54.88,
+          "votesRep": 3076,
+          "votesDem": 896,
+          "votesTotal": 4105
+        },
+        "Harlan31": {
+          "color": "#BF1D29",
+          "label": "Fischer +60.0",
+          "margin": 60.03,
+          "votesRep": 1149,
+          "votesDem": 287,
+          "votesTotal": 1488
+        },
+        "Hayes31": {
+          "color": "#BF1D29",
+          "label": "Fischer +83.2",
+          "margin": 83.25,
+          "votesRep": 350,
+          "votesDem": 32,
+          "votesTotal": 392
+        },
+        "Hitchcock31": {
+          "color": "#BF1D29",
+          "label": "Fischer +70.5",
+          "margin": 70.5,
+          "votesRep": 890,
+          "votesDem": 154,
+          "votesTotal": 1079
+        },
+        "Holt31": {
+          "color": "#BF1D29",
+          "label": "Fischer +63.3",
+          "margin": 63.3,
+          "votesRep": 3226,
+          "votesDem": 725,
+          "votesTotal": 4142
+        },
+        "Hooker31": {
+          "color": "#BF1D29",
+          "label": "Fischer +68.1",
+          "margin": 68.08,
+          "votesRep": 258,
+          "votesDem": 49,
+          "votesTotal": 310
+        },
+        "Howard31": {
+          "color": "#BF1D29",
+          "label": "Fischer +47.1",
+          "margin": 47.09,
+          "votesRep": 1696,
+          "votesDem": 610,
+          "votesTotal": 2415
+        },
+        "Jefferson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +34.9",
+          "margin": 34.86,
+          "votesRep": 1913,
+          "votesDem": 924,
+          "votesTotal": 2975
+        },
+        "Johnson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +30.9",
+          "margin": 30.92,
+          "votesRep": 1101,
+          "votesDem": 581,
+          "votesTotal": 1772
+        },
+        "Kearney31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.5",
+          "margin": 53.46,
+          "votesRep": 1952,
+          "votesDem": 592,
+          "votesTotal": 2629
+        },
+        "Keith31": {
+          "color": "#BF1D29",
+          "label": "Fischer +63.5",
+          "margin": 63.53,
+          "votesRep": 2542,
+          "votesDem": 567,
+          "votesTotal": 3209
+        },
+        "Keya Paha31": {
+          "color": "#BF1D29",
+          "label": "Fischer +77.8",
+          "margin": 77.78,
+          "votesRep": 336,
+          "votesDem": 42,
+          "votesTotal": 386
+        },
+        "Kimball31": {
+          "color": "#BF1D29",
+          "label": "Fischer +69.5",
+          "margin": 69.49,
+          "votesRep": 1122,
+          "votesDem": 202,
+          "votesTotal": 1379
+        },
+        "Knox31": {
+          "color": "#BF1D29",
+          "label": "Fischer +61.6",
+          "margin": 61.56,
+          "votesRep": 2812,
+          "votesDem": 669,
+          "votesTotal": 3588
+        },
+        "Lancaster31": {
+          "color": "#1C408C",
+          "label": "Raybould +12.2",
+          "margin": -12.19,
+          "votesRep": 49449,
+          "votesDem": 63175,
+          "votesTotal": 117036
+        },
+        "Lincoln31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.4",
+          "margin": 51.43,
+          "votesRep": 8999,
+          "votesDem": 2886,
+          "votesTotal": 12491
+        },
+        "Logan31": {
+          "color": "#BF1D29",
+          "label": "Fischer +86.0",
+          "margin": 86.02,
+          "votesRep": 306,
+          "votesDem": 23,
+          "votesTotal": 337
+        },
+        "Loup31": {
+          "color": "#BF1D29",
+          "label": "Fischer +65.8",
+          "margin": 65.77,
+          "votesRep": 247,
+          "votesDem": 51,
+          "votesTotal": 307
+        },
+        "Madison31": {
+          "color": "#BF1D29",
+          "label": "Fischer +56.1",
+          "margin": 56.09,
+          "votesRep": 7949,
+          "votesDem": 2236,
+          "votesTotal": 10508
+        },
+        "McPherson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +82.4",
+          "margin": 82.4,
+          "votesRep": 228,
+          "votesDem": 22,
+          "votesTotal": 262
+        },
+        "Merrick31": {
+          "color": "#BF1D29",
+          "label": "Fischer +59.7",
+          "margin": 59.69,
+          "votesRep": 2563,
+          "votesDem": 647,
+          "votesTotal": 3362
+        },
+        "Morrill31": {
+          "color": "#BF1D29",
+          "label": "Fischer +69.3",
+          "margin": 69.31,
+          "votesRep": 1699,
+          "votesDem": 308,
+          "votesTotal": 2114
+        },
+        "Nance31": {
+          "color": "#BF1D29",
+          "label": "Fischer +47.5",
+          "margin": 47.5,
+          "votesRep": 885,
+          "votesDem": 315,
+          "votesTotal": 1237
+        },
+        "Nemaha31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.2",
+          "margin": 42.19,
+          "votesRep": 1788,
+          "votesDem": 727,
+          "votesTotal": 2611
+        },
+        "Nuckolls31": {
+          "color": "#BF1D29",
+          "label": "Fischer +56.7",
+          "margin": 56.7,
+          "votesRep": 1321,
+          "votesDem": 365,
+          "votesTotal": 1752
+        },
+        "Otoe31": {
+          "color": "#BF1D29",
+          "label": "Fischer +34.9",
+          "margin": 34.91,
+          "votesRep": 4098,
+          "votesDem": 1977,
+          "votesTotal": 6335
+        },
+        "Pawnee31": {
+          "color": "#BF1D29",
+          "label": "Fischer +40.0",
+          "margin": 39.96,
+          "votesRep": 774,
+          "votesDem": 332,
+          "votesTotal": 1153
+        },
+        "Perkins31": {
+          "color": "#BF1D29",
+          "label": "Fischer +69.8",
+          "margin": 69.77,
+          "votesRep": 1011,
+          "votesDem": 180,
+          "votesTotal": 1224
+        },
+        "Phelps31": {
+          "color": "#BF1D29",
+          "label": "Fischer +64.1",
+          "margin": 64.11,
+          "votesRep": 3068,
+          "votesDem": 671,
+          "votesTotal": 3855
+        },
+        "Pierce31": {
+          "color": "#BF1D29",
+          "label": "Fischer +74.6",
+          "margin": 74.55,
+          "votesRep": 2339,
+          "votesDem": 341,
+          "votesTotal": 2764
+        },
+        "Platte31": {
+          "color": "#BF1D29",
+          "label": "Fischer +56.3",
+          "margin": 56.27,
+          "votesRep": 8372,
+          "votesDem": 2343,
+          "votesTotal": 11032
+        },
+        "Polk31": {
+          "color": "#BF1D29",
+          "label": "Fischer +55.7",
+          "margin": 55.69,
+          "votesRep": 1574,
+          "votesDem": 448,
+          "votesTotal": 2093
+        },
+        "Red Willow31": {
+          "color": "#BF1D29",
+          "label": "Fischer +62.9",
+          "margin": 62.85,
+          "votesRep": 3051,
+          "votesDem": 696,
+          "votesTotal": 3887
+        },
+        "Richardson31": {
+          "color": "#BF1D29",
+          "label": "Fischer +42.7",
+          "margin": 42.7,
+          "votesRep": 2137,
+          "votesDem": 858,
+          "votesTotal": 3082
+        },
+        "Rock31": {
+          "color": "#BF1D29",
+          "label": "Fischer +75.6",
+          "margin": 75.62,
+          "votesRep": 569,
+          "votesDem": 79,
+          "votesTotal": 665
+        },
+        "Saline31": {
+          "color": "#BF1D29",
+          "label": "Fischer +13.1",
+          "margin": 13.12,
+          "votesRep": 2255,
+          "votesDem": 1732,
+          "votesTotal": 4216
+        },
+        "Sarpy31": {
+          "color": "#BF1D29",
+          "label": "Fischer +20.9",
+          "margin": 20.92,
+          "votesRep": 39306,
+          "votesDem": 25706,
+          "votesTotal": 67622
+        },
+        "Saunders31": {
+          "color": "#BF1D29",
+          "label": "Fischer +41.7",
+          "margin": 41.73,
+          "votesRep": 6479,
+          "votesDem": 2664,
+          "votesTotal": 9514
+        },
+        "Scotts Bluff31": {
+          "color": "#BF1D29",
+          "label": "Fischer +43.9",
+          "margin": 43.86,
+          "votesRep": 7398,
+          "votesDem": 2887,
+          "votesTotal": 10735
+        },
+        "Seward31": {
+          "color": "#BF1D29",
+          "label": "Fischer +35.9",
+          "margin": 35.88,
+          "votesRep": 4607,
+          "votesDem": 2174,
+          "votesTotal": 7063
+        },
+        "Sheridan31": {
+          "color": "#BF1D29",
+          "label": "Fischer +71.7",
+          "margin": 71.72,
+          "votesRep": 1670,
+          "votesDem": 275,
+          "votesTotal": 2036
+        },
+        "Sherman31": {
+          "color": "#BF1D29",
+          "label": "Fischer +40.5",
+          "margin": 40.47,
+          "votesRep": 873,
+          "votesDem": 370,
+          "votesTotal": 1289
+        },
+        "Sioux31": {
+          "color": "#BF1D29",
+          "label": "Fischer +73.3",
+          "margin": 73.26,
+          "votesRep": 447,
+          "votesDem": 69,
+          "votesTotal": 537
+        },
+        "Stanton31": {
+          "color": "#BF1D29",
+          "label": "Fischer +66.7",
+          "margin": 66.7,
+          "votesRep": 1817,
+          "votesDem": 363,
+          "votesTotal": 2261
+        },
+        "Thayer31": {
+          "color": "#BF1D29",
+          "label": "Fischer +49.7",
+          "margin": 49.74,
+          "votesRep": 1606,
+          "votesDem": 539,
+          "votesTotal": 2234
+        },
+        "Thomas31": {
+          "color": "#BF1D29",
+          "label": "Fischer +78.0",
+          "margin": 77.98,
+          "votesRep": 291,
+          "votesDem": 36,
+          "votesTotal": 338
+        },
+        "Thurston31": {
+          "color": "#FF5865",
+          "label": "Fischer +8.6",
+          "margin": 8.56,
+          "votesRep": 970,
+          "votesDem": 817,
+          "votesTotal": 1826
+        },
+        "Valley31": {
+          "color": "#BF1D29",
+          "label": "Fischer +58.9",
+          "margin": 58.9,
+          "votesRep": 1388,
+          "votesDem": 359,
+          "votesTotal": 1797
+        },
+        "Washington31": {
+          "color": "#BF1D29",
+          "label": "Fischer +45.2",
+          "margin": 45.21,
+          "votesRep": 6462,
+          "votesDem": 2438,
+          "votesTotal": 9191
+        },
+        "Wayne31": {
+          "color": "#BF1D29",
+          "label": "Fischer +53.5",
+          "margin": 53.47,
+          "votesRep": 2388,
+          "votesDem": 724,
+          "votesTotal": 3217
+        },
+        "Webster31": {
+          "color": "#BF1D29",
+          "label": "Fischer +51.6",
+          "margin": 51.63,
+          "votesRep": 997,
+          "votesDem": 318,
+          "votesTotal": 1364
+        },
+        "Wheeler31": {
+          "color": "#BF1D29",
+          "label": "Fischer +70.2",
+          "margin": 70.22,
+          "votesRep": 343,
+          "votesDem": 60,
+          "votesTotal": 414
+        },
+        "York31": {
+          "color": "#BF1D29",
+          "label": "Fischer +48.1",
+          "margin": 48.14,
+          "votesRep": 3659,
+          "votesDem": 1281,
+          "votesTotal": 5120
+        }
+      }
+    }
+  ]
+}

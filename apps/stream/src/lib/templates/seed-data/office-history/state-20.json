@@ -1,0 +1,3434 @@
+{
+  "stateFips": "20",
+  "stateName": "Kansas",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Derek Schmidt",
+      "candDem": "Laura Kelly",
+      "shortRep": "Schmidt",
+      "shortDem": "Kelly",
+      "partisan": true,
+      "margin": -2.28,
+      "votesRep": 477586,
+      "votesDem": 499845,
+      "votesTotal": 1008989,
+      "regions": {
+        "Allen20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +21.1",
+          "margin": 21.11,
+          "votesRep": 2424,
+          "votesDem": 1579,
+          "votesTotal": 4138
+        },
+        "Anderson20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +38.9",
+          "margin": 38.92,
+          "votesRep": 1899,
+          "votesDem": 835,
+          "votesTotal": 2908
+        },
+        "Atchison20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +14.5",
+          "margin": 14.55,
+          "votesRep": 2929,
+          "votesDem": 2185,
+          "votesTotal": 5480
+        },
+        "Barber20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +51.6",
+          "margin": 51.56,
+          "votesRep": 1261,
+          "votesDem": 403,
+          "votesTotal": 1745
+        },
+        "Barton20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +31.0",
+          "margin": 31.04,
+          "votesRep": 5026,
+          "votesDem": 2645,
+          "votesTotal": 8095
+        },
+        "Bourbon20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +36.3",
+          "margin": 36.31,
+          "votesRep": 3155,
+          "votesDem": 1474,
+          "votesTotal": 4839
+        },
+        "Brown20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +21.8",
+          "margin": 21.78,
+          "votesRep": 1837,
+          "votesDem": 1180,
+          "votesTotal": 3367
+        },
+        "Butler20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +21.1",
+          "margin": 21.06,
+          "votesRep": 13867,
+          "votesDem": 9042,
+          "votesTotal": 23756
+        },
+        "Chase20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +19.8",
+          "margin": 19.83,
+          "votesRep": 692,
+          "votesDem": 463,
+          "votesTotal": 1185
+        },
+        "Chautauqua20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +65.5",
+          "margin": 65.52,
+          "votesRep": 960,
+          "votesDem": 200,
+          "votesTotal": 1182
+        },
+        "Cherokee20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +41.0",
+          "margin": 40.98,
+          "votesRep": 4378,
+          "votesDem": 1833,
+          "votesTotal": 6433
+        },
+        "Cheyenne20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +58.3",
+          "margin": 58.27,
+          "votesRep": 785,
+          "votesDem": 207,
+          "votesTotal": 1018
+        },
+        "Clark20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +43.9",
+          "margin": 43.95,
+          "votesRep": 565,
+          "votesDem": 220,
+          "votesTotal": 852
+        },
+        "Clay20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +30.0",
+          "margin": 29.97,
+          "votesRep": 2051,
+          "votesDem": 1105,
+          "votesTotal": 3301
+        },
+        "Cloud20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +34.9",
+          "margin": 34.94,
+          "votesRep": 2103,
+          "votesDem": 1014,
+          "votesTotal": 3205
+        },
+        "Coffey20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +36.4",
+          "margin": 36.42,
+          "votesRep": 2251,
+          "votesDem": 1049,
+          "votesTotal": 3443
+        },
+        "Comanche20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +46.4",
+          "margin": 46.44,
+          "votesRep": 514,
+          "votesDem": 188,
+          "votesTotal": 744
+        },
+        "Cowley20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +15.4",
+          "margin": 15.36,
+          "votesRep": 5898,
+          "votesDem": 4327,
+          "votesTotal": 10671
+        },
+        "Crawford20": {
+          "color": "#FF5865",
+          "label": "Schmidt +5.2",
+          "margin": 5.24,
+          "votesRep": 6033,
+          "votesDem": 5432,
+          "votesTotal": 11834
+        },
+        "Decatur20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +47.9",
+          "margin": 47.88,
+          "votesRep": 803,
+          "votesDem": 283,
+          "votesTotal": 1132
+        },
+        "Dickinson20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +27.6",
+          "margin": 27.58,
+          "votesRep": 4253,
+          "votesDem": 2414,
+          "votesTotal": 6943
+        },
+        "Doniphan20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +46.5",
+          "margin": 46.47,
+          "votesRep": 1773,
+          "votesDem": 648,
+          "votesTotal": 2644
+        },
+        "Douglas20": {
+          "color": "#1C408C",
+          "label": "Kelly +54.2",
+          "margin": -54.19,
+          "votesRep": 10634,
+          "votesDem": 35796,
+          "votesTotal": 47396
+        },
+        "Edwards20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +37.1",
+          "margin": 37.05,
+          "votesRep": 725,
+          "votesDem": 333,
+          "votesTotal": 1093
+        },
+        "Elk20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +45.2",
+          "margin": 45.21,
+          "votesRep": 750,
+          "votesDem": 283,
+          "votesTotal": 1076
+        },
+        "Ellis20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +16.8",
+          "margin": 16.84,
+          "votesRep": 5968,
+          "votesDem": 4248,
+          "votesTotal": 10552
+        },
+        "Ellsworth20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +18.9",
+          "margin": 18.88,
+          "votesRep": 1269,
+          "votesDem": 866,
+          "votesTotal": 2238
+        },
+        "Finney20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +15.8",
+          "margin": 15.8,
+          "votesRep": 4021,
+          "votesDem": 2924,
+          "votesTotal": 7191
+        },
+        "Ford20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +18.4",
+          "margin": 18.44,
+          "votesRep": 3410,
+          "votesDem": 2348,
+          "votesTotal": 5994
+        },
+        "Franklin20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +16.9",
+          "margin": 16.86,
+          "votesRep": 5374,
+          "votesDem": 3823,
+          "votesTotal": 9535
+        },
+        "Geary20": {
+          "color": "#577CCC",
+          "label": "Kelly +5.7",
+          "margin": -5.74,
+          "votesRep": 2758,
+          "votesDem": 3094,
+          "votesTotal": 6075
+        },
+        "Gove20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +55.5",
+          "margin": 55.48,
+          "votesRep": 866,
+          "votesDem": 248,
+          "votesTotal": 1161
+        },
+        "Graham20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +43.4",
+          "margin": 43.38,
+          "votesRep": 709,
+          "votesDem": 280,
+          "votesTotal": 1033
+        },
+        "Grant20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +36.7",
+          "margin": 36.66,
+          "votesRep": 1055,
+          "votesDem": 489,
+          "votesTotal": 1613
+        },
+        "Gray20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +48.1",
+          "margin": 48.12,
+          "votesRep": 1222,
+          "votesDem": 428,
+          "votesTotal": 1718
+        },
+        "Greeley20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +46.5",
+          "margin": 46.48,
+          "votesRep": 312,
+          "votesDem": 114,
+          "votesTotal": 453
+        },
+        "Greenwood20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +32.6",
+          "margin": 32.65,
+          "votesRep": 1483,
+          "votesDem": 753,
+          "votesTotal": 2320
+        },
+        "Hamilton20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +39.2",
+          "margin": 39.24,
+          "votesRep": 401,
+          "votesDem": 175,
+          "votesTotal": 605
+        },
+        "Harper20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +39.0",
+          "margin": 38.97,
+          "votesRep": 1314,
+          "votesDem": 577,
+          "votesTotal": 1979
+        },
+        "Harvey20": {
+          "color": "#CF8980",
+          "label": "Schmidt +0.6",
+          "margin": 0.58,
+          "votesRep": 6279,
+          "votesDem": 6206,
+          "votesTotal": 12917
+        },
+        "Haskell20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +48.2",
+          "margin": 48.19,
+          "votesRep": 715,
+          "votesDem": 250,
+          "votesTotal": 994
+        },
+        "Hodgeman20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +53.3",
+          "margin": 53.29,
+          "votesRep": 594,
+          "votesDem": 181,
+          "votesTotal": 807
+        },
+        "Jackson20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +12.4",
+          "margin": 12.4,
+          "votesRep": 2670,
+          "votesDem": 2081,
+          "votesTotal": 5089
+        },
+        "Jefferson20": {
+          "color": "#FF5865",
+          "label": "Schmidt +7.6",
+          "margin": 7.64,
+          "votesRep": 3939,
+          "votesDem": 3380,
+          "votesTotal": 7622
+        },
+        "Jewell20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +52.5",
+          "margin": 52.52,
+          "votesRep": 861,
+          "votesDem": 268,
+          "votesTotal": 1208
+        },
+        "Johnson20": {
+          "color": "#1C408C",
+          "label": "Kelly +20.6",
+          "margin": -20.58,
+          "votesRep": 102162,
+          "votesDem": 155104,
+          "votesTotal": 262697
+        },
+        "Kearny20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +51.9",
+          "margin": 51.86,
+          "votesRep": 694,
+          "votesDem": 220,
+          "votesTotal": 957
+        },
+        "Kingman20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +34.6",
+          "margin": 34.57,
+          "votesRep": 1997,
+          "votesDem": 971,
+          "votesTotal": 3100
+        },
+        "Kiowa20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +47.8",
+          "margin": 47.77,
+          "votesRep": 662,
+          "votesDem": 234,
+          "votesTotal": 944
+        },
+        "Labette20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +20.5",
+          "margin": 20.55,
+          "votesRep": 3470,
+          "votesDem": 2287,
+          "votesTotal": 5927
+        },
+        "Lane20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +49.6",
+          "margin": 49.62,
+          "votesRep": 487,
+          "votesDem": 164,
+          "votesTotal": 681
+        },
+        "Leavenworth20": {
+          "color": "#FF8B98",
+          "label": "Schmidt +3.6",
+          "margin": 3.63,
+          "votesRep": 13419,
+          "votesDem": 12480,
+          "votesTotal": 26893
+        },
+        "Lincoln20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +40.0",
+          "margin": 40.02,
+          "votesRep": 803,
+          "votesDem": 344,
+          "votesTotal": 1204
+        },
+        "Linn20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +44.9",
+          "margin": 44.92,
+          "votesRep": 2576,
+          "votesDem": 979,
+          "votesTotal": 3723
+        },
+        "Logan20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +55.1",
+          "margin": 55.07,
+          "votesRep": 818,
+          "votesDem": 237,
+          "votesTotal": 1105
+        },
+        "Lyon20": {
+          "color": "#577CCC",
+          "label": "Kelly +9.9",
+          "margin": -9.9,
+          "votesRep": 4411,
+          "votesDem": 5380,
+          "votesTotal": 10128
+        },
+        "Marion20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +26.4",
+          "margin": 26.4,
+          "votesRep": 2935,
+          "votesDem": 1709,
+          "votesTotal": 4815
+        },
+        "Marshall20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +17.2",
+          "margin": 17.23,
+          "votesRep": 2157,
+          "votesDem": 1523,
+          "votesTotal": 3899
+        },
+        "McPherson20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +22.0",
+          "margin": 22.04,
+          "votesRep": 6509,
+          "votesDem": 4158,
+          "votesTotal": 11044
+        },
+        "Meade20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +51.0",
+          "margin": 50.95,
+          "votesRep": 951,
+          "votesDem": 309,
+          "votesTotal": 1312
+        },
+        "Miami20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +22.6",
+          "margin": 22.56,
+          "votesRep": 7993,
+          "votesDem": 5050,
+          "votesTotal": 13494
+        },
+        "Mitchell20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +37.4",
+          "margin": 37.43,
+          "votesRep": 1577,
+          "votesDem": 718,
+          "votesTotal": 2375
+        },
+        "Montgomery20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +41.0",
+          "margin": 41.03,
+          "votesRep": 6567,
+          "votesDem": 2746,
+          "votesTotal": 9611
+        },
+        "Morris20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +13.1",
+          "margin": 13.14,
+          "votesRep": 1227,
+          "votesDem": 942,
+          "votesTotal": 2244
+        },
+        "Morton20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +56.8",
+          "margin": 56.79,
+          "votesRep": 606,
+          "votesDem": 167,
+          "votesTotal": 808
+        },
+        "Nemaha20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +39.7",
+          "margin": 39.71,
+          "votesRep": 2957,
+          "votesDem": 1276,
+          "votesTotal": 4609
+        },
+        "Neosho20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +24.4",
+          "margin": 24.43,
+          "votesRep": 3053,
+          "votesDem": 1854,
+          "votesTotal": 5106
+        },
+        "Ness20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +62.5",
+          "margin": 62.45,
+          "votesRep": 900,
+          "votesDem": 208,
+          "votesTotal": 1157
+        },
+        "Norton20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +44.9",
+          "margin": 44.9,
+          "votesRep": 1244,
+          "votesDem": 473,
+          "votesTotal": 1799
+        },
+        "Osage20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +18.8",
+          "margin": 18.79,
+          "votesRep": 3582,
+          "votesDem": 2449,
+          "votesTotal": 6285
+        },
+        "Osborne20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +40.8",
+          "margin": 40.8,
+          "votesRep": 937,
+          "votesDem": 394,
+          "votesTotal": 1440
+        },
+        "Ottawa20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +39.2",
+          "margin": 39.22,
+          "votesRep": 1592,
+          "votesDem": 695,
+          "votesTotal": 2388
+        },
+        "Pawnee20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +18.7",
+          "margin": 18.68,
+          "votesRep": 1207,
+          "votesDem": 827,
+          "votesTotal": 2155
+        },
+        "Phillips20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +56.0",
+          "margin": 55.97,
+          "votesRep": 1647,
+          "votesDem": 465,
+          "votesTotal": 2187
+        },
+        "Pottawatomie20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +24.5",
+          "margin": 24.48,
+          "votesRep": 6245,
+          "votesDem": 3789,
+          "votesTotal": 10503
+        },
+        "Pratt20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +22.4",
+          "margin": 22.37,
+          "votesRep": 1841,
+          "votesDem": 1168,
+          "votesTotal": 3128
+        },
+        "Rawlins20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +44.8",
+          "margin": 44.8,
+          "votesRep": 808,
+          "votesDem": 308,
+          "votesTotal": 1148
+        },
+        "Reno20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +11.4",
+          "margin": 11.41,
+          "votesRep": 11083,
+          "votesDem": 8813,
+          "votesTotal": 20776
+        },
+        "Republic20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +47.7",
+          "margin": 47.72,
+          "votesRep": 1396,
+          "votesDem": 494,
+          "votesTotal": 1970
+        },
+        "Rice20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +30.7",
+          "margin": 30.71,
+          "votesRep": 1858,
+          "votesDem": 985,
+          "votesTotal": 3112
+        },
+        "Riley20": {
+          "color": "#1C408C",
+          "label": "Kelly +22.6",
+          "margin": -22.6,
+          "votesRep": 6849,
+          "votesDem": 10849,
+          "votesTotal": 18195
+        },
+        "Rooks20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +46.7",
+          "margin": 46.67,
+          "votesRep": 1488,
+          "votesDem": 541,
+          "votesTotal": 2104
+        },
+        "Rush20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +37.2",
+          "margin": 37.2,
+          "votesRep": 852,
+          "votesDem": 390,
+          "votesTotal": 1328
+        },
+        "Russell20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +31.4",
+          "margin": 31.42,
+          "votesRep": 1698,
+          "votesDem": 886,
+          "votesTotal": 2717
+        },
+        "Saline20": {
+          "color": "#FF5865",
+          "label": "Schmidt +6.3",
+          "margin": 6.34,
+          "votesRep": 9124,
+          "votesDem": 8036,
+          "votesTotal": 17731
+        },
+        "Scott20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +57.4",
+          "margin": 57.42,
+          "votesRep": 1279,
+          "votesDem": 346,
+          "votesTotal": 1699
+        },
+        "Sedgwick20": {
+          "color": "#8AAFFF",
+          "label": "Kelly +3.2",
+          "margin": -3.22,
+          "votesRep": 72884,
+          "votesDem": 77727,
+          "votesTotal": 155206
+        },
+        "Seward20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +22.0",
+          "margin": 21.98,
+          "votesRep": 1726,
+          "votesDem": 1104,
+          "votesTotal": 2944
+        },
+        "Shawnee20": {
+          "color": "#1C408C",
+          "label": "Kelly +22.5",
+          "margin": -22.48,
+          "votesRep": 24882,
+          "votesDem": 39312,
+          "votesTotal": 65914
+        },
+        "Sheridan20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +62.8",
+          "margin": 62.83,
+          "votesRep": 863,
+          "votesDem": 197,
+          "votesTotal": 1112
+        },
+        "Sherman20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +50.8",
+          "margin": 50.84,
+          "votesRep": 1485,
+          "votesDem": 484,
+          "votesTotal": 2052
+        },
+        "Smith20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +48.5",
+          "margin": 48.53,
+          "votesRep": 1163,
+          "votesDem": 403,
+          "votesTotal": 1645
+        },
+        "Stafford20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +38.8",
+          "margin": 38.81,
+          "votesRep": 1039,
+          "votesDem": 458,
+          "votesTotal": 1571
+        },
+        "Stanton20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +50.1",
+          "margin": 50.1,
+          "votesRep": 373,
+          "votesDem": 124,
+          "votesTotal": 517
+        },
+        "Stevens20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +54.9",
+          "margin": 54.89,
+          "votesRep": 1037,
+          "votesDem": 302,
+          "votesTotal": 1401
+        },
+        "Sumner20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +22.2",
+          "margin": 22.16,
+          "votesRep": 4592,
+          "votesDem": 2926,
+          "votesTotal": 7890
+        },
+        "Thomas20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +43.7",
+          "margin": 43.68,
+          "votesRep": 1995,
+          "votesDem": 782,
+          "votesTotal": 2888
+        },
+        "Trego20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +42.9",
+          "margin": 42.9,
+          "votesRep": 856,
+          "votesDem": 342,
+          "votesTotal": 1263
+        },
+        "Wabaunsee20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +22.3",
+          "margin": 22.26,
+          "votesRep": 1977,
+          "votesDem": 1257,
+          "votesTotal": 3353
+        },
+        "Wallace20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +75.5",
+          "margin": 75.55,
+          "votesRep": 560,
+          "votesDem": 78,
+          "votesTotal": 672
+        },
+        "Washington20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +53.3",
+          "margin": 53.29,
+          "votesRep": 1677,
+          "votesDem": 511,
+          "votesTotal": 2257
+        },
+        "Wichita20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +59.8",
+          "margin": 59.77,
+          "votesRep": 548,
+          "votesDem": 138,
+          "votesTotal": 712
+        },
+        "Wilson20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +51.5",
+          "margin": 51.54,
+          "votesRep": 2405,
+          "votesDem": 769,
+          "votesTotal": 3290
+        },
+        "Woodson20": {
+          "color": "#BF1D29",
+          "label": "Schmidt +44.0",
+          "margin": 43.99,
+          "votesRep": 833,
+          "votesDem": 324,
+          "votesTotal": 1185
+        },
+        "Wyandotte20": {
+          "color": "#1C408C",
+          "label": "Kelly +39.8",
+          "margin": -39.76,
+          "votesRep": 10244,
+          "votesDem": 23768,
+          "votesTotal": 35035
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Jerry Moran",
+      "candDem": "Mark Holland",
+      "shortRep": "Moran",
+      "shortDem": "Holland",
+      "partisan": true,
+      "margin": 23.66,
+      "votesRep": 602971,
+      "votesDem": 372211,
+      "votesTotal": 1004948,
+      "regions": {
+        "Allen20": {
+          "color": "#BF1D29",
+          "label": "Moran +50.8",
+          "margin": 50.78,
+          "votesRep": 3014,
+          "votesDem": 984,
+          "votesTotal": 4122
+        },
+        "Anderson20": {
+          "color": "#BF1D29",
+          "label": "Moran +63.9",
+          "margin": 63.88,
+          "votesRep": 2291,
+          "votesDem": 505,
+          "votesTotal": 2901
+        },
+        "Atchison20": {
+          "color": "#BF1D29",
+          "label": "Moran +47.2",
+          "margin": 47.17,
+          "votesRep": 3936,
+          "votesDem": 1413,
+          "votesTotal": 5486
+        },
+        "Barber20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.0",
+          "margin": 80,
+          "votesRep": 1521,
+          "votesDem": 169,
+          "votesTotal": 1737
+        },
+        "Barton20": {
+          "color": "#BF1D29",
+          "label": "Moran +68.6",
+          "margin": 68.64,
+          "votesRep": 6626,
+          "votesDem": 1232,
+          "votesTotal": 8072
+        },
+        "Bourbon20": {
+          "color": "#BF1D29",
+          "label": "Moran +54.5",
+          "margin": 54.46,
+          "votesRep": 3561,
+          "votesDem": 1050,
+          "votesTotal": 4787
+        },
+        "Brown20": {
+          "color": "#BF1D29",
+          "label": "Moran +60.0",
+          "margin": 60.05,
+          "votesRep": 2588,
+          "votesDem": 646,
+          "votesTotal": 3353
+        },
+        "Butler20": {
+          "color": "#BF1D29",
+          "label": "Moran +47.8",
+          "margin": 47.82,
+          "votesRep": 16962,
+          "votesDem": 5987,
+          "votesTotal": 23675
+        },
+        "Chase20": {
+          "color": "#BF1D29",
+          "label": "Moran +57.1",
+          "margin": 57.13,
+          "votesRep": 898,
+          "votesDem": 245,
+          "votesTotal": 1177
+        },
+        "Chautauqua20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.6",
+          "margin": 73.56,
+          "votesRep": 991,
+          "votesDem": 151,
+          "votesTotal": 1173
+        },
+        "Cherokee20": {
+          "color": "#BF1D29",
+          "label": "Moran +51.9",
+          "margin": 51.93,
+          "votesRep": 4716,
+          "votesDem": 1492,
+          "votesTotal": 6407
+        },
+        "Cheyenne20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.9",
+          "margin": 77.93,
+          "votesRep": 903,
+          "votesDem": 112,
+          "votesTotal": 1039
+        },
+        "Clark20": {
+          "color": "#BF1D29",
+          "label": "Moran +76.8",
+          "margin": 76.83,
+          "votesRep": 725,
+          "votesDem": 95,
+          "votesTotal": 854
+        },
+        "Clay20": {
+          "color": "#BF1D29",
+          "label": "Moran +70.0",
+          "margin": 69.97,
+          "votesRep": 2711,
+          "votesDem": 479,
+          "votesTotal": 3297
+        },
+        "Cloud20": {
+          "color": "#BF1D29",
+          "label": "Moran +65.9",
+          "margin": 65.86,
+          "votesRep": 2575,
+          "votesDem": 530,
+          "votesTotal": 3209
+        },
+        "Coffey20": {
+          "color": "#BF1D29",
+          "label": "Moran +65.3",
+          "margin": 65.29,
+          "votesRep": 2733,
+          "votesDem": 574,
+          "votesTotal": 3437
+        },
+        "Comanche20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.4",
+          "margin": 81.36,
+          "votesRep": 652,
+          "votesDem": 67,
+          "votesTotal": 744
+        },
+        "Cowley20": {
+          "color": "#BF1D29",
+          "label": "Moran +43.9",
+          "margin": 43.94,
+          "votesRep": 7362,
+          "votesDem": 2867,
+          "votesTotal": 10611
+        },
+        "Crawford20": {
+          "color": "#BF1D29",
+          "label": "Moran +25.2",
+          "margin": 25.18,
+          "votesRep": 7154,
+          "votesDem": 4276,
+          "votesTotal": 11797
+        },
+        "Decatur20": {
+          "color": "#BF1D29",
+          "label": "Moran +79.3",
+          "margin": 79.27,
+          "votesRep": 986,
+          "votesDem": 114,
+          "votesTotal": 1129
+        },
+        "Dickinson20": {
+          "color": "#BF1D29",
+          "label": "Moran +62.9",
+          "margin": 62.93,
+          "votesRep": 5446,
+          "votesDem": 1239,
+          "votesTotal": 6912
+        },
+        "Doniphan20": {
+          "color": "#BF1D29",
+          "label": "Moran +68.4",
+          "margin": 68.41,
+          "votesRep": 2159,
+          "votesDem": 405,
+          "votesTotal": 2638
+        },
+        "Douglas20": {
+          "color": "#1C408C",
+          "label": "Holland +36.8",
+          "margin": -36.84,
+          "votesRep": 14501,
+          "votesDem": 31415,
+          "votesTotal": 47161
+        },
+        "Edwards20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.8",
+          "margin": 73.82,
+          "votesRep": 923,
+          "votesDem": 139,
+          "votesTotal": 1089
+        },
+        "Elk20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.2",
+          "margin": 74.19,
+          "votesRep": 891,
+          "votesDem": 132,
+          "votesTotal": 1062
+        },
+        "Ellis20": {
+          "color": "#BF1D29",
+          "label": "Moran +56.0",
+          "margin": 55.97,
+          "votesRep": 7920,
+          "votesDem": 2236,
+          "votesTotal": 10518
+        },
+        "Ellsworth20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.1",
+          "margin": 67.06,
+          "votesRep": 1821,
+          "votesDem": 359,
+          "votesTotal": 2244
+        },
+        "Finney20": {
+          "color": "#BF1D29",
+          "label": "Moran +48.4",
+          "margin": 48.44,
+          "votesRep": 5162,
+          "votesDem": 1793,
+          "votesTotal": 7160
+        },
+        "Ford20": {
+          "color": "#BF1D29",
+          "label": "Moran +49.9",
+          "margin": 49.95,
+          "votesRep": 4350,
+          "votesDem": 1452,
+          "votesTotal": 5966
+        },
+        "Franklin20": {
+          "color": "#BF1D29",
+          "label": "Moran +45.4",
+          "margin": 45.44,
+          "votesRep": 6678,
+          "votesDem": 2505,
+          "votesTotal": 9512
+        },
+        "Geary20": {
+          "color": "#BF1D29",
+          "label": "Moran +30.2",
+          "margin": 30.17,
+          "votesRep": 3799,
+          "votesDem": 2038,
+          "votesTotal": 6051
+        },
+        "Gove20": {
+          "color": "#BF1D29",
+          "label": "Moran +84.8",
+          "margin": 84.85,
+          "votesRep": 1049,
+          "votesDem": 86,
+          "votesTotal": 1156
+        },
+        "Graham20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.1",
+          "margin": 77.15,
+          "votesRep": 845,
+          "votesDem": 109,
+          "votesTotal": 1002
+        },
+        "Grant20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.7",
+          "margin": 73.72,
+          "votesRep": 1362,
+          "votesDem": 206,
+          "votesTotal": 1606
+        },
+        "Gray20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.4",
+          "margin": 78.37,
+          "votesRep": 1476,
+          "votesDem": 179,
+          "votesTotal": 1702
+        },
+        "Greeley20": {
+          "color": "#BF1D29",
+          "label": "Moran +82.7",
+          "margin": 82.73,
+          "votesRep": 402,
+          "votesDem": 38,
+          "votesTotal": 453
+        },
+        "Greenwood20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.8",
+          "margin": 66.79,
+          "votesRep": 1863,
+          "votesDem": 371,
+          "votesTotal": 2312
+        },
+        "Hamilton20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.7",
+          "margin": 78.72,
+          "votesRep": 529,
+          "votesDem": 63,
+          "votesTotal": 599
+        },
+        "Harper20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.1",
+          "margin": 74.07,
+          "votesRep": 1665,
+          "votesDem": 248,
+          "votesTotal": 1973
+        },
+        "Harvey20": {
+          "color": "#BF1D29",
+          "label": "Moran +30.5",
+          "margin": 30.53,
+          "votesRep": 8127,
+          "votesDem": 4325,
+          "votesTotal": 12809
+        },
+        "Haskell20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.7",
+          "margin": 78.65,
+          "votesRep": 862,
+          "votesDem": 103,
+          "votesTotal": 986
+        },
+        "Hodgeman20": {
+          "color": "#BF1D29",
+          "label": "Moran +79.9",
+          "margin": 79.95,
+          "votesRep": 700,
+          "votesDem": 78,
+          "votesTotal": 794
+        },
+        "Jackson20": {
+          "color": "#BF1D29",
+          "label": "Moran +54.3",
+          "margin": 54.33,
+          "votesRep": 3791,
+          "votesDem": 1122,
+          "votesTotal": 5105
+        },
+        "Jefferson20": {
+          "color": "#BF1D29",
+          "label": "Moran +41.4",
+          "margin": 41.37,
+          "votesRep": 5208,
+          "votesDem": 2160,
+          "votesTotal": 7594
+        },
+        "Jewell20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.0",
+          "margin": 80.03,
+          "votesRep": 1055,
+          "votesDem": 117,
+          "votesTotal": 1205
+        },
+        "Johnson20": {
+          "color": "#8AAFFF",
+          "label": "Holland +1.4",
+          "margin": -1.37,
+          "votesRep": 125715,
+          "votesDem": 129199,
+          "votesTotal": 262051
+        },
+        "Kearny20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.8",
+          "margin": 81.76,
+          "votesRep": 847,
+          "votesDem": 85,
+          "votesTotal": 951
+        },
+        "Kingman20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.0",
+          "margin": 66.96,
+          "votesRep": 2527,
+          "votesDem": 500,
+          "votesTotal": 3094
+        },
+        "Kiowa20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.9",
+          "margin": 81.92,
+          "votesRep": 825,
+          "votesDem": 82,
+          "votesTotal": 936
+        },
+        "Labette20": {
+          "color": "#BF1D29",
+          "label": "Moran +40.0",
+          "margin": 39.96,
+          "votesRep": 4021,
+          "votesDem": 1725,
+          "votesTotal": 5932
+        },
+        "Lane20": {
+          "color": "#BF1D29",
+          "label": "Moran +82.5",
+          "margin": 82.54,
+          "votesRep": 596,
+          "votesDem": 57,
+          "votesTotal": 672
+        },
+        "Leavenworth20": {
+          "color": "#BF1D29",
+          "label": "Moran +27.4",
+          "margin": 27.39,
+          "votesRep": 16570,
+          "votesDem": 9444,
+          "votesTotal": 26857
+        },
+        "Lincoln20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.7",
+          "margin": 77.7,
+          "votesRep": 1020,
+          "votesDem": 128,
+          "votesTotal": 1198
+        },
+        "Linn20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.1",
+          "margin": 67.15,
+          "votesRep": 3017,
+          "votesDem": 593,
+          "votesTotal": 3715
+        },
+        "Logan20": {
+          "color": "#BF1D29",
+          "label": "Moran +84.5",
+          "margin": 84.54,
+          "votesRep": 979,
+          "votesDem": 82,
+          "votesTotal": 1086
+        },
+        "Lyon20": {
+          "color": "#BF1D29",
+          "label": "Moran +27.2",
+          "margin": 27.21,
+          "votesRep": 6203,
+          "votesDem": 3549,
+          "votesTotal": 10052
+        },
+        "Marion20": {
+          "color": "#BF1D29",
+          "label": "Moran +61.7",
+          "margin": 61.68,
+          "votesRep": 3801,
+          "votesDem": 901,
+          "votesTotal": 4813
+        },
+        "Marshall20": {
+          "color": "#BF1D29",
+          "label": "Moran +60.2",
+          "margin": 60.24,
+          "votesRep": 3043,
+          "votesDem": 755,
+          "votesTotal": 3885
+        },
+        "McPherson20": {
+          "color": "#BF1D29",
+          "label": "Moran +52.3",
+          "margin": 52.25,
+          "votesRep": 8268,
+          "votesDem": 2593,
+          "votesTotal": 11154
+        },
+        "Meade20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.7",
+          "margin": 80.74,
+          "votesRep": 1154,
+          "votesDem": 123,
+          "votesTotal": 1311
+        },
+        "Miami20": {
+          "color": "#BF1D29",
+          "label": "Moran +45.2",
+          "margin": 45.22,
+          "votesRep": 9475,
+          "votesDem": 3574,
+          "votesTotal": 13453
+        },
+        "Mitchell20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.8",
+          "margin": 74.85,
+          "votesRep": 2023,
+          "votesDem": 291,
+          "votesTotal": 2372
+        },
+        "Montgomery20": {
+          "color": "#BF1D29",
+          "label": "Moran +54.3",
+          "margin": 54.35,
+          "votesRep": 7117,
+          "votesDem": 2105,
+          "votesTotal": 9516
+        },
+        "Morris20": {
+          "color": "#BF1D29",
+          "label": "Moran +59.6",
+          "margin": 59.63,
+          "votesRep": 1724,
+          "votesDem": 436,
+          "votesTotal": 2229
+        },
+        "Morton20": {
+          "color": "#BF1D29",
+          "label": "Moran +83.6",
+          "margin": 83.64,
+          "votesRep": 696,
+          "votesDem": 62,
+          "votesTotal": 792
+        },
+        "Nemaha20": {
+          "color": "#BF1D29",
+          "label": "Moran +75.7",
+          "margin": 75.73,
+          "votesRep": 3931,
+          "votesDem": 543,
+          "votesTotal": 4579
+        },
+        "Neosho20": {
+          "color": "#BF1D29",
+          "label": "Moran +51.7",
+          "margin": 51.71,
+          "votesRep": 3751,
+          "votesDem": 1194,
+          "votesTotal": 5100
+        },
+        "Ness20": {
+          "color": "#BF1D29",
+          "label": "Moran +88.6",
+          "margin": 88.58,
+          "votesRep": 1057,
+          "votesDem": 64,
+          "votesTotal": 1152
+        },
+        "Norton20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.2",
+          "margin": 77.16,
+          "votesRep": 1551,
+          "votesDem": 200,
+          "votesTotal": 1792
+        },
+        "Osage20": {
+          "color": "#BF1D29",
+          "label": "Moran +56.3",
+          "margin": 56.26,
+          "votesRep": 4716,
+          "votesDem": 1320,
+          "votesTotal": 6250
+        },
+        "Osborne20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.7",
+          "margin": 80.7,
+          "votesRep": 1245,
+          "votesDem": 133,
+          "votesTotal": 1439
+        },
+        "Ottawa20": {
+          "color": "#BF1D29",
+          "label": "Moran +75.3",
+          "margin": 75.29,
+          "votesRep": 1986,
+          "votesDem": 280,
+          "votesTotal": 2375
+        },
+        "Pawnee20": {
+          "color": "#BF1D29",
+          "label": "Moran +63.6",
+          "margin": 63.62,
+          "votesRep": 1691,
+          "votesDem": 376,
+          "votesTotal": 2145
+        },
+        "Phillips20": {
+          "color": "#BF1D29",
+          "label": "Moran +85.4",
+          "margin": 85.45,
+          "votesRep": 1988,
+          "votesDem": 156,
+          "votesTotal": 2199
+        },
+        "Pottawatomie20": {
+          "color": "#BF1D29",
+          "label": "Moran +59.3",
+          "margin": 59.3,
+          "votesRep": 8113,
+          "votesDem": 2073,
+          "votesTotal": 10452
+        },
+        "Pratt20": {
+          "color": "#BF1D29",
+          "label": "Moran +60.7",
+          "margin": 60.73,
+          "votesRep": 2419,
+          "votesDem": 591,
+          "votesTotal": 3109
+        },
+        "Rawlins20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.5",
+          "margin": 80.52,
+          "votesRep": 1010,
+          "votesDem": 109,
+          "votesTotal": 1155
+        },
+        "Reno20": {
+          "color": "#BF1D29",
+          "label": "Moran +45.1",
+          "margin": 45.13,
+          "votesRep": 14459,
+          "votesDem": 5467,
+          "votesTotal": 20643
+        },
+        "Republic20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.2",
+          "margin": 74.19,
+          "votesRep": 1647,
+          "votesDem": 244,
+          "votesTotal": 1966
+        },
+        "Rice20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.1",
+          "margin": 67.11,
+          "votesRep": 2510,
+          "votesDem": 494,
+          "votesTotal": 3096
+        },
+        "Riley20": {
+          "color": "#BF1D29",
+          "label": "Moran +10.2",
+          "margin": 10.23,
+          "votesRep": 9761,
+          "votesDem": 7950,
+          "votesTotal": 18150
+        },
+        "Rooks20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.3",
+          "margin": 81.31,
+          "votesRep": 1775,
+          "votesDem": 183,
+          "votesTotal": 2085
+        },
+        "Rush20": {
+          "color": "#BF1D29",
+          "label": "Moran +79.8",
+          "margin": 79.8,
+          "votesRep": 1157,
+          "votesDem": 130,
+          "votesTotal": 1334
+        },
+        "Russell20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.7",
+          "margin": 74.75,
+          "votesRep": 2263,
+          "votesDem": 327,
+          "votesTotal": 2691
+        },
+        "Saline20": {
+          "color": "#BF1D29",
+          "label": "Moran +43.6",
+          "margin": 43.61,
+          "votesRep": 12174,
+          "votesDem": 4780,
+          "votesTotal": 17620
+        },
+        "Scott20": {
+          "color": "#BF1D29",
+          "label": "Moran +84.1",
+          "margin": 84.1,
+          "votesRep": 1517,
+          "votesDem": 131,
+          "votesTotal": 1703
+        },
+        "Sedgwick20": {
+          "color": "#BF1D29",
+          "label": "Moran +21.4",
+          "margin": 21.41,
+          "votesRep": 90856,
+          "votesDem": 58815,
+          "votesTotal": 154117
+        },
+        "Seward20": {
+          "color": "#BF1D29",
+          "label": "Moran +49.3",
+          "margin": 49.32,
+          "votesRep": 2127,
+          "votesDem": 722,
+          "votesTotal": 2941
+        },
+        "Shawnee20": {
+          "color": "#BF1D29",
+          "label": "Moran +11.7",
+          "margin": 11.74,
+          "votesRep": 35517,
+          "votesDem": 28051,
+          "votesTotal": 65636
+        },
+        "Sheridan20": {
+          "color": "#BF1D29",
+          "label": "Moran +87.2",
+          "margin": 87.24,
+          "votesRep": 954,
+          "votesDem": 65,
+          "votesTotal": 1049
+        },
+        "Sherman20": {
+          "color": "#BF1D29",
+          "label": "Moran +76.8",
+          "margin": 76.75,
+          "votesRep": 1726,
+          "votesDem": 227,
+          "votesTotal": 2045
+        },
+        "Smith20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.4",
+          "margin": 78.37,
+          "votesRep": 1410,
+          "votesDem": 171,
+          "votesTotal": 1641
+        },
+        "Stafford20": {
+          "color": "#BF1D29",
+          "label": "Moran +75.0",
+          "margin": 74.95,
+          "votesRep": 1320,
+          "votesDem": 189,
+          "votesTotal": 1570
+        },
+        "Stanton20": {
+          "color": "#BF1D29",
+          "label": "Moran +83.4",
+          "margin": 83.4,
+          "votesRep": 453,
+          "votesDem": 41,
+          "votesTotal": 509
+        },
+        "Stevens20": {
+          "color": "#BF1D29",
+          "label": "Moran +83.2",
+          "margin": 83.22,
+          "votesRep": 1256,
+          "votesDem": 115,
+          "votesTotal": 1397
+        },
+        "Sumner20": {
+          "color": "#BF1D29",
+          "label": "Moran +55.4",
+          "margin": 55.4,
+          "votesRep": 5896,
+          "votesDem": 1692,
+          "votesTotal": 7869
+        },
+        "Thomas20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.8",
+          "margin": 74.75,
+          "votesRep": 2457,
+          "votesDem": 355,
+          "votesTotal": 2886
+        },
+        "Trego20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.0",
+          "margin": 79.97,
+          "votesRep": 1105,
+          "votesDem": 123,
+          "votesTotal": 1262
+        },
+        "Wabaunsee20": {
+          "color": "#BF1D29",
+          "label": "Moran +63.0",
+          "margin": 62.99,
+          "votesRep": 2625,
+          "votesDem": 596,
+          "votesTotal": 3342
+        },
+        "Wallace20": {
+          "color": "#BF1D29",
+          "label": "Moran +90.7",
+          "margin": 90.74,
+          "votesRep": 618,
+          "votesDem": 30,
+          "votesTotal": 672
+        },
+        "Washington20": {
+          "color": "#BF1D29",
+          "label": "Moran +82.8",
+          "margin": 82.76,
+          "votesRep": 2014,
+          "votesDem": 190,
+          "votesTotal": 2240
+        },
+        "Wichita20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.5",
+          "margin": 81.48,
+          "votesRep": 627,
+          "votesDem": 64,
+          "votesTotal": 713
+        },
+        "Wilson20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.0",
+          "margin": 66.98,
+          "votesRep": 2705,
+          "votesDem": 535,
+          "votesTotal": 3322
+        },
+        "Woodson20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.8",
+          "margin": 66.76,
+          "votesRep": 938,
+          "votesDem": 187,
+          "votesTotal": 1180
+        },
+        "Wyandotte20": {
+          "color": "#1C408C",
+          "label": "Holland +25.5",
+          "margin": -25.48,
+          "votesRep": 12536,
+          "votesDem": 21108,
+          "votesTotal": 34837
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Kris Kobach",
+      "candDem": "Laura Kelly",
+      "shortRep": "Kobach",
+      "shortDem": "Kelly",
+      "partisan": true,
+      "margin": -5.57,
+      "votesRep": 453030,
+      "votesDem": 506509,
+      "votesTotal": 1055026,
+      "regions": {
+        "Allen20": {
+          "color": "#BF1D29",
+          "label": "Kobach +12.2",
+          "margin": 12.16,
+          "votesRep": 2292,
+          "votesDem": 1795,
+          "votesTotal": 4436
+        },
+        "Anderson20": {
+          "color": "#BF1D29",
+          "label": "Kobach +25.0",
+          "margin": 25.03,
+          "votesRep": 1596,
+          "votesDem": 957,
+          "votesTotal": 2765
+        },
+        "Atchison20": {
+          "color": "#FF8B98",
+          "label": "Kobach +2.2",
+          "margin": 2.22,
+          "votesRep": 2558,
+          "votesDem": 2447,
+          "votesTotal": 5472
+        },
+        "Barber20": {
+          "color": "#BF1D29",
+          "label": "Kobach +48.9",
+          "margin": 48.94,
+          "votesRep": 1155,
+          "votesDem": 396,
+          "votesTotal": 1757
+        },
+        "Barton20": {
+          "color": "#BF1D29",
+          "label": "Kobach +29.3",
+          "margin": 29.33,
+          "votesRep": 4841,
+          "votesDem": 2645,
+          "votesTotal": 8587
+        },
+        "Bourbon20": {
+          "color": "#BF1D29",
+          "label": "Kobach +30.7",
+          "margin": 30.66,
+          "votesRep": 2970,
+          "votesDem": 1576,
+          "votesTotal": 4933
+        },
+        "Brown20": {
+          "color": "#BF1D29",
+          "label": "Kobach +23.7",
+          "margin": 23.68,
+          "votesRep": 1836,
+          "votesDem": 1133,
+          "votesTotal": 3388
+        },
+        "Butler20": {
+          "color": "#BF1D29",
+          "label": "Kobach +19.4",
+          "margin": 19.42,
+          "votesRep": 12822,
+          "votesDem": 8651,
+          "votesTotal": 23967
+        },
+        "Chase20": {
+          "color": "#BF1D29",
+          "label": "Kobach +19.5",
+          "margin": 19.49,
+          "votesRep": 653,
+          "votesDem": 440,
+          "votesTotal": 1218
+        },
+        "Chautauqua20": {
+          "color": "#BF1D29",
+          "label": "Kobach +52.5",
+          "margin": 52.45,
+          "votesRep": 808,
+          "votesDem": 252,
+          "votesTotal": 1135
+        },
+        "Cherokee20": {
+          "color": "#BF1D29",
+          "label": "Kobach +29.9",
+          "margin": 29.86,
+          "votesRep": 4284,
+          "votesDem": 2314,
+          "votesTotal": 6991
+        },
+        "Cheyenne20": {
+          "color": "#BF1D29",
+          "label": "Kobach +49.4",
+          "margin": 49.44,
+          "votesRep": 733,
+          "votesDem": 248,
+          "votesTotal": 1087
+        },
+        "Clark20": {
+          "color": "#BF1D29",
+          "label": "Kobach +48.4",
+          "margin": 48.43,
+          "votesRep": 521,
+          "votesDem": 181,
+          "votesTotal": 849
+        },
+        "Clay20": {
+          "color": "#BF1D29",
+          "label": "Kobach +25.3",
+          "margin": 25.26,
+          "votesRep": 1743,
+          "votesDem": 1040,
+          "votesTotal": 3176
+        },
+        "Cloud20": {
+          "color": "#BF1D29",
+          "label": "Kobach +23.0",
+          "margin": 22.99,
+          "votesRep": 1744,
+          "votesDem": 1092,
+          "votesTotal": 3243
+        },
+        "Coffey20": {
+          "color": "#BF1D29",
+          "label": "Kobach +28.1",
+          "margin": 28.06,
+          "votesRep": 1926,
+          "votesDem": 1082,
+          "votesTotal": 3475
+        },
+        "Comanche20": {
+          "color": "#BF1D29",
+          "label": "Kobach +45.4",
+          "margin": 45.43,
+          "votesRep": 453,
+          "votesDem": 170,
+          "votesTotal": 715
+        },
+        "Cowley20": {
+          "color": "#BF1D29",
+          "label": "Kobach +10.1",
+          "margin": 10.06,
+          "votesRep": 5165,
+          "votesDem": 4221,
+          "votesTotal": 10529
+        },
+        "Crawford20": {
+          "color": "#577CCC",
+          "label": "Kelly +5.3",
+          "margin": -5.29,
+          "votesRep": 5662,
+          "votesDem": 6294,
+          "votesTotal": 12878
+        },
+        "Decatur20": {
+          "color": "#BF1D29",
+          "label": "Kobach +43.9",
+          "margin": 43.89,
+          "votesRep": 736,
+          "votesDem": 287,
+          "votesTotal": 1129
+        },
+        "Dickinson20": {
+          "color": "#BF1D29",
+          "label": "Kobach +25.2",
+          "margin": 25.19,
+          "votesRep": 3790,
+          "votesDem": 2265,
+          "votesTotal": 6762
+        },
+        "Doniphan20": {
+          "color": "#BF1D29",
+          "label": "Kobach +38.8",
+          "margin": 38.81,
+          "votesRep": 1699,
+          "votesDem": 749,
+          "votesTotal": 2599
+        },
+        "Douglas20": {
+          "color": "#1C408C",
+          "label": "Kelly +56.6",
+          "margin": -56.64,
+          "votesRep": 10154,
+          "votesDem": 36678,
+          "votesTotal": 49518
+        },
+        "Edwards20": {
+          "color": "#BF1D29",
+          "label": "Kobach +38.5",
+          "margin": 38.54,
+          "votesRep": 692,
+          "votesDem": 307,
+          "votesTotal": 1142
+        },
+        "Elk20": {
+          "color": "#BF1D29",
+          "label": "Kobach +41.4",
+          "margin": 41.44,
+          "votesRep": 669,
+          "votesDem": 277,
+          "votesTotal": 1057
+        },
+        "Ellis20": {
+          "color": "#FF5865",
+          "label": "Kobach +9.5",
+          "margin": 9.54,
+          "votesRep": 5138,
+          "votesDem": 4243,
+          "votesTotal": 10447
+        },
+        "Ellsworth20": {
+          "color": "#BF1D29",
+          "label": "Kobach +16.3",
+          "margin": 16.33,
+          "votesRep": 1168,
+          "votesDem": 840,
+          "votesTotal": 2301
+        },
+        "Finney20": {
+          "color": "#FF5865",
+          "label": "Kobach +9.9",
+          "margin": 9.87,
+          "votesRep": 3891,
+          "votesDem": 3192,
+          "votesTotal": 8680
+        },
+        "Ford20": {
+          "color": "#BF1D29",
+          "label": "Kobach +16.1",
+          "margin": 16.11,
+          "votesRep": 3574,
+          "votesDem": 2582,
+          "votesTotal": 7115
+        },
+        "Franklin20": {
+          "color": "#BF1D29",
+          "label": "Kobach +10.9",
+          "margin": 10.95,
+          "votesRep": 4742,
+          "votesDem": 3806,
+          "votesTotal": 9376
+        },
+        "Geary20": {
+          "color": "#FF8B98",
+          "label": "Kobach +1.2",
+          "margin": 1.21,
+          "votesRep": 2769,
+          "votesDem": 2703,
+          "votesTotal": 6169
+        },
+        "Gove20": {
+          "color": "#BF1D29",
+          "label": "Kobach +47.5",
+          "margin": 47.54,
+          "votesRep": 720,
+          "votesDem": 256,
+          "votesTotal": 1096
+        },
+        "Graham20": {
+          "color": "#BF1D29",
+          "label": "Kobach +40.5",
+          "margin": 40.52,
+          "votesRep": 671,
+          "votesDem": 284,
+          "votesTotal": 1080
+        },
+        "Grant20": {
+          "color": "#BF1D29",
+          "label": "Kobach +41.7",
+          "margin": 41.69,
+          "votesRep": 1096,
+          "votesDem": 451,
+          "votesTotal": 1835
+        },
+        "Gray20": {
+          "color": "#BF1D29",
+          "label": "Kobach +53.3",
+          "margin": 53.27,
+          "votesRep": 1138,
+          "votesDem": 347,
+          "votesTotal": 1791
+        },
+        "Greeley20": {
+          "color": "#BF1D29",
+          "label": "Kobach +45.2",
+          "margin": 45.24,
+          "votesRep": 313,
+          "votesDem": 118,
+          "votesTotal": 498
+        },
+        "Greenwood20": {
+          "color": "#BF1D29",
+          "label": "Kobach +30.0",
+          "margin": 30.05,
+          "votesRep": 1214,
+          "votesDem": 653,
+          "votesTotal": 2135
+        },
+        "Hamilton20": {
+          "color": "#BF1D29",
+          "label": "Kobach +38.4",
+          "margin": 38.4,
+          "votesRep": 373,
+          "votesDem": 166,
+          "votesTotal": 630
+        },
+        "Harper20": {
+          "color": "#BF1D29",
+          "label": "Kobach +37.1",
+          "margin": 37.12,
+          "votesRep": 1243,
+          "votesDem": 570,
+          "votesTotal": 2046
+        },
+        "Harvey20": {
+          "color": "#8AAFFF",
+          "label": "Kelly +4.7",
+          "margin": -4.69,
+          "votesRep": 5872,
+          "votesDem": 6450,
+          "votesTotal": 13722
+        },
+        "Haskell20": {
+          "color": "#BF1D29",
+          "label": "Kobach +40.7",
+          "margin": 40.7,
+          "votesRep": 681,
+          "votesDem": 287,
+          "votesTotal": 1134
+        },
+        "Hodgeman20": {
+          "color": "#BF1D29",
+          "label": "Kobach +56.3",
+          "margin": 56.28,
+          "votesRep": 597,
+          "votesDem": 167,
+          "votesTotal": 883
+        },
+        "Jackson20": {
+          "color": "#BF1D29",
+          "label": "Kobach +10.3",
+          "margin": 10.25,
+          "votesRep": 2565,
+          "votesDem": 2088,
+          "votesTotal": 5309
+        },
+        "Jefferson20": {
+          "color": "#FF8B98",
+          "label": "Kobach +2.6",
+          "margin": 2.64,
+          "votesRep": 3485,
+          "votesDem": 3306,
+          "votesTotal": 7562
+        },
+        "Jewell20": {
+          "color": "#BF1D29",
+          "label": "Kobach +44.5",
+          "margin": 44.48,
+          "votesRep": 765,
+          "votesDem": 294,
+          "votesTotal": 1183
+        },
+        "Johnson20": {
+          "color": "#1C408C",
+          "label": "Kelly +18.0",
+          "margin": -18.04,
+          "votesRep": 102813,
+          "votesDem": 148082,
+          "votesTotal": 271017
+        },
+        "Kearny20": {
+          "color": "#BF1D29",
+          "label": "Kobach +41.2",
+          "margin": 41.21,
+          "votesRep": 687,
+          "votesDem": 286,
+          "votesTotal": 1095
+        },
+        "Kingman20": {
+          "color": "#BF1D29",
+          "label": "Kobach +32.9",
+          "margin": 32.88,
+          "votesRep": 1764,
+          "votesDem": 891,
+          "votesTotal": 2993
+        },
+        "Kiowa20": {
+          "color": "#BF1D29",
+          "label": "Kobach +47.7",
+          "margin": 47.66,
+          "votesRep": 615,
+          "votesDem": 218,
+          "votesTotal": 944
+        },
+        "Labette20": {
+          "color": "#BF1D29",
+          "label": "Kobach +10.6",
+          "margin": 10.59,
+          "votesRep": 3273,
+          "votesDem": 2646,
+          "votesTotal": 6341
+        },
+        "Lane20": {
+          "color": "#BF1D29",
+          "label": "Kobach +43.0",
+          "margin": 43.04,
+          "votesRep": 437,
+          "votesDem": 174,
+          "votesTotal": 719
+        },
+        "Leavenworth20": {
+          "color": "#FF8B98",
+          "label": "Kobach +2.4",
+          "margin": 2.39,
+          "votesRep": 12379,
+          "votesDem": 11802,
+          "votesTotal": 26340
+        },
+        "Lincoln20": {
+          "color": "#BF1D29",
+          "label": "Kobach +33.5",
+          "margin": 33.51,
+          "votesRep": 769,
+          "votesDem": 383,
+          "votesTotal": 1252
+        },
+        "Linn20": {
+          "color": "#BF1D29",
+          "label": "Kobach +37.5",
+          "margin": 37.51,
+          "votesRep": 2401,
+          "votesDem": 1091,
+          "votesTotal": 3767
+        },
+        "Logan20": {
+          "color": "#BF1D29",
+          "label": "Kobach +51.0",
+          "margin": 50.96,
+          "votesRep": 785,
+          "votesDem": 255,
+          "votesTotal": 1162
+        },
+        "Lyon20": {
+          "color": "#1C408C",
+          "label": "Kelly +18.3",
+          "margin": -18.32,
+          "votesRep": 3920,
+          "votesDem": 5679,
+          "votesTotal": 10899
+        },
+        "Marion20": {
+          "color": "#BF1D29",
+          "label": "Kobach +17.9",
+          "margin": 17.91,
+          "votesRep": 2564,
+          "votesDem": 1785,
+          "votesTotal": 4862
+        },
+        "Marshall20": {
+          "color": "#FF8B98",
+          "label": "Kobach +4.4",
+          "margin": 4.36,
+          "votesRep": 1581,
+          "votesDem": 1449,
+          "votesTotal": 3488
+        },
+        "McPherson20": {
+          "color": "#BF1D29",
+          "label": "Kobach +13.6",
+          "margin": 13.55,
+          "votesRep": 5832,
+          "votesDem": 4440,
+          "votesTotal": 11349
+        },
+        "Meade20": {
+          "color": "#BF1D29",
+          "label": "Kobach +49.2",
+          "margin": 49.22,
+          "votesRep": 914,
+          "votesDem": 311,
+          "votesTotal": 1394
+        },
+        "Miami20": {
+          "color": "#BF1D29",
+          "label": "Kobach +19.3",
+          "margin": 19.31,
+          "votesRep": 7160,
+          "votesDem": 4842,
+          "votesTotal": 13100
+        },
+        "Mitchell20": {
+          "color": "#BF1D29",
+          "label": "Kobach +22.2",
+          "margin": 22.17,
+          "votesRep": 1375,
+          "votesDem": 876,
+          "votesTotal": 2499
+        },
+        "Montgomery20": {
+          "color": "#BF1D29",
+          "label": "Kobach +35.3",
+          "margin": 35.33,
+          "votesRep": 6133,
+          "votesDem": 2931,
+          "votesTotal": 9786
+        },
+        "Morris20": {
+          "color": "#BF1D29",
+          "label": "Kobach +10.4",
+          "margin": 10.38,
+          "votesRep": 1106,
+          "votesDem": 898,
+          "votesTotal": 2250
+        },
+        "Morton20": {
+          "color": "#BF1D29",
+          "label": "Kobach +54.6",
+          "margin": 54.57,
+          "votesRep": 626,
+          "votesDem": 184,
+          "votesTotal": 907
+        },
+        "Nemaha20": {
+          "color": "#BF1D29",
+          "label": "Kobach +29.6",
+          "margin": 29.6,
+          "votesRep": 2605,
+          "votesDem": 1415,
+          "votesTotal": 4580
+        },
+        "Neosho20": {
+          "color": "#BF1D29",
+          "label": "Kobach +17.2",
+          "margin": 17.22,
+          "votesRep": 2930,
+          "votesDem": 2069,
+          "votesTotal": 5440
+        },
+        "Ness20": {
+          "color": "#BF1D29",
+          "label": "Kobach +52.7",
+          "margin": 52.74,
+          "votesRep": 808,
+          "votesDem": 250,
+          "votesTotal": 1178
+        },
+        "Norton20": {
+          "color": "#BF1D29",
+          "label": "Kobach +39.8",
+          "margin": 39.81,
+          "votesRep": 1187,
+          "votesDem": 511,
+          "votesTotal": 1891
+        },
+        "Osage20": {
+          "color": "#FF5865",
+          "label": "Kobach +8.0",
+          "margin": 8,
+          "votesRep": 2964,
+          "votesDem": 2525,
+          "votesTotal": 6306
+        },
+        "Osborne20": {
+          "color": "#BF1D29",
+          "label": "Kobach +37.4",
+          "margin": 37.42,
+          "votesRep": 907,
+          "votesDem": 413,
+          "votesTotal": 1498
+        },
+        "Ottawa20": {
+          "color": "#BF1D29",
+          "label": "Kobach +38.2",
+          "margin": 38.23,
+          "votesRep": 1497,
+          "votesDem": 669,
+          "votesTotal": 2438
+        },
+        "Pawnee20": {
+          "color": "#BF1D29",
+          "label": "Kobach +15.5",
+          "margin": 15.54,
+          "votesRep": 1145,
+          "votesDem": 837,
+          "votesTotal": 2242
+        },
+        "Phillips20": {
+          "color": "#BF1D29",
+          "label": "Kobach +46.5",
+          "margin": 46.52,
+          "votesRep": 1419,
+          "votesDem": 518,
+          "votesTotal": 2170
+        },
+        "Pottawatomie20": {
+          "color": "#BF1D29",
+          "label": "Kobach +23.4",
+          "margin": 23.37,
+          "votesRep": 5384,
+          "votesDem": 3344,
+          "votesTotal": 9821
+        },
+        "Pratt20": {
+          "color": "#BF1D29",
+          "label": "Kobach +16.4",
+          "margin": 16.43,
+          "votesRep": 1701,
+          "votesDem": 1221,
+          "votesTotal": 3269
+        },
+        "Rawlins20": {
+          "color": "#BF1D29",
+          "label": "Kobach +39.7",
+          "margin": 39.67,
+          "votesRep": 771,
+          "votesDem": 333,
+          "votesTotal": 1216
+        },
+        "Reno20": {
+          "color": "#FF5865",
+          "label": "Kobach +5.8",
+          "margin": 5.85,
+          "votesRep": 9892,
+          "votesDem": 8799,
+          "votesTotal": 21022
+        },
+        "Republic20": {
+          "color": "#BF1D29",
+          "label": "Kobach +35.5",
+          "margin": 35.55,
+          "votesRep": 1245,
+          "votesDem": 592,
+          "votesTotal": 2025
+        },
+        "Rice20": {
+          "color": "#BF1D29",
+          "label": "Kobach +28.5",
+          "margin": 28.45,
+          "votesRep": 1729,
+          "votesDem": 963,
+          "votesTotal": 3088
+        },
+        "Riley20": {
+          "color": "#1C408C",
+          "label": "Kelly +26.8",
+          "margin": -26.78,
+          "votesRep": 6514,
+          "votesDem": 11280,
+          "votesTotal": 19862
+        },
+        "Rooks20": {
+          "color": "#BF1D29",
+          "label": "Kobach +47.2",
+          "margin": 47.15,
+          "votesRep": 1409,
+          "votesDem": 506,
+          "votesTotal": 2151
+        },
+        "Rush20": {
+          "color": "#BF1D29",
+          "label": "Kobach +30.3",
+          "margin": 30.34,
+          "votesRep": 754,
+          "votesDem": 403,
+          "votesTotal": 1304
+        },
+        "Russell20": {
+          "color": "#BF1D29",
+          "label": "Kobach +33.3",
+          "margin": 33.28,
+          "votesRep": 1564,
+          "votesDem": 783,
+          "votesTotal": 2687
+        },
+        "Saline20": {
+          "color": "#FF8B98",
+          "label": "Kobach +1.2",
+          "margin": 1.23,
+          "votesRep": 8384,
+          "votesDem": 8181,
+          "votesTotal": 18379
+        },
+        "Scott20": {
+          "color": "#BF1D29",
+          "label": "Kobach +58.7",
+          "margin": 58.67,
+          "votesRep": 1244,
+          "votesDem": 324,
+          "votesTotal": 1864
+        },
+        "Sedgwick20": {
+          "color": "#577CCC",
+          "label": "Kelly +6.7",
+          "margin": -6.67,
+          "votesRep": 70879,
+          "votesDem": 81011,
+          "votesTotal": 168074
+        },
+        "Seward20": {
+          "color": "#BF1D29",
+          "label": "Kobach +18.1",
+          "margin": 18.07,
+          "votesRep": 2009,
+          "votesDem": 1394,
+          "votesTotal": 3815
+        },
+        "Shawnee20": {
+          "color": "#1C408C",
+          "label": "Kelly +26.2",
+          "margin": -26.21,
+          "votesRep": 23933,
+          "votesDem": 40936,
+          "votesTotal": 70741
+        },
+        "Sheridan20": {
+          "color": "#BF1D29",
+          "label": "Kobach +56.8",
+          "margin": 56.8,
+          "votesRep": 795,
+          "votesDem": 219,
+          "votesTotal": 1138
+        },
+        "Sherman20": {
+          "color": "#BF1D29",
+          "label": "Kobach +45.9",
+          "margin": 45.92,
+          "votesRep": 1376,
+          "votesDem": 510,
+          "votesTotal": 2103
+        },
+        "Smith20": {
+          "color": "#BF1D29",
+          "label": "Kobach +44.0",
+          "margin": 43.97,
+          "votesRep": 1074,
+          "votesDem": 418,
+          "votesTotal": 1614
+        },
+        "Stafford20": {
+          "color": "#BF1D29",
+          "label": "Kobach +34.9",
+          "margin": 34.94,
+          "votesRep": 950,
+          "votesDem": 458,
+          "votesTotal": 1620
+        },
+        "Stanton20": {
+          "color": "#BF1D29",
+          "label": "Kobach +43.5",
+          "margin": 43.51,
+          "votesRep": 376,
+          "votesDem": 148,
+          "votesTotal": 598
+        },
+        "Stevens20": {
+          "color": "#BF1D29",
+          "label": "Kobach +58.4",
+          "margin": 58.36,
+          "votesRep": 1042,
+          "votesDem": 274,
+          "votesTotal": 1517
+        },
+        "Sumner20": {
+          "color": "#BF1D29",
+          "label": "Kobach +19.6",
+          "margin": 19.57,
+          "votesRep": 4203,
+          "votesDem": 2827,
+          "votesTotal": 7994
+        },
+        "Thomas20": {
+          "color": "#BF1D29",
+          "label": "Kobach +39.1",
+          "margin": 39.08,
+          "votesRep": 1856,
+          "votesDem": 813,
+          "votesTotal": 3027
+        },
+        "Trego20": {
+          "color": "#BF1D29",
+          "label": "Kobach +36.9",
+          "margin": 36.9,
+          "votesRep": 755,
+          "votesDem": 348,
+          "votesTotal": 1269
+        },
+        "Wabaunsee20": {
+          "color": "#BF1D29",
+          "label": "Kobach +12.4",
+          "margin": 12.4,
+          "votesRep": 1582,
+          "votesDem": 1233,
+          "votesTotal": 3148
+        },
+        "Wallace20": {
+          "color": "#BF1D29",
+          "label": "Kobach +65.4",
+          "margin": 65.36,
+          "votesRep": 506,
+          "votesDem": 106,
+          "votesTotal": 661
+        },
+        "Washington20": {
+          "color": "#BF1D29",
+          "label": "Kobach +36.4",
+          "margin": 36.38,
+          "votesRep": 1342,
+          "votesDem": 626,
+          "votesTotal": 2267
+        },
+        "Wichita20": {
+          "color": "#BF1D29",
+          "label": "Kobach +62.6",
+          "margin": 62.55,
+          "votesRep": 560,
+          "votesDem": 129,
+          "votesTotal": 758
+        },
+        "Wilson20": {
+          "color": "#BF1D29",
+          "label": "Kobach +34.0",
+          "margin": 33.98,
+          "votesRep": 1869,
+          "votesDem": 921,
+          "votesTotal": 2981
+        },
+        "Woodson20": {
+          "color": "#BF1D29",
+          "label": "Kobach +27.5",
+          "margin": 27.51,
+          "votesRep": 693,
+          "votesDem": 394,
+          "votesTotal": 1180
+        },
+        "Wyandotte20": {
+          "color": "#1C408C",
+          "label": "Kelly +45.8",
+          "margin": -45.76,
+          "votesRep": 10526,
+          "votesDem": 28285,
+          "votesTotal": 42126
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Jerry Moran",
+      "candDem": "Patrick Wiesner",
+      "shortRep": "Moran",
+      "shortDem": "Wiesner",
+      "partisan": true,
+      "margin": 31.71,
+      "votesRep": 732378,
+      "votesDem": 379744,
+      "votesTotal": 1178501,
+      "regions": {
+        "Allen20": {
+          "color": "#BF1D29",
+          "label": "Moran +53.1",
+          "margin": 53.08,
+          "votesRep": 3889,
+          "votesDem": 1192,
+          "votesTotal": 5402
+        },
+        "Anderson20": {
+          "color": "#BF1D29",
+          "label": "Moran +54.4",
+          "margin": 54.37,
+          "votesRep": 2426,
+          "votesDem": 717,
+          "votesTotal": 3304
+        },
+        "Atchison20": {
+          "color": "#BF1D29",
+          "label": "Moran +38.3",
+          "margin": 38.28,
+          "votesRep": 4295,
+          "votesDem": 1917,
+          "votesTotal": 6513
+        },
+        "Barber20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.9",
+          "margin": 73.95,
+          "votesRep": 1836,
+          "votesDem": 275,
+          "votesTotal": 2225
+        },
+        "Barton20": {
+          "color": "#BF1D29",
+          "label": "Moran +72.8",
+          "margin": 72.83,
+          "votesRep": 8321,
+          "votesDem": 1308,
+          "votesTotal": 10172
+        },
+        "Bourbon20": {
+          "color": "#BF1D29",
+          "label": "Moran +54.4",
+          "margin": 54.39,
+          "votesRep": 4427,
+          "votesDem": 1308,
+          "votesTotal": 6082
+        },
+        "Brown20": {
+          "color": "#BF1D29",
+          "label": "Moran +61.0",
+          "margin": 61.05,
+          "votesRep": 3105,
+          "votesDem": 751,
+          "votesTotal": 4047
+        },
+        "Butler20": {
+          "color": "#BF1D29",
+          "label": "Moran +53.8",
+          "margin": 53.83,
+          "votesRep": 19705,
+          "votesDem": 5915,
+          "votesTotal": 27528
+        },
+        "Chase20": {
+          "color": "#BF1D29",
+          "label": "Moran +58.0",
+          "margin": 58.05,
+          "votesRep": 1021,
+          "votesDem": 271,
+          "votesTotal": 1375
+        },
+        "Chautauqua20": {
+          "color": "#BF1D29",
+          "label": "Moran +71.4",
+          "margin": 71.39,
+          "votesRep": 1186,
+          "votesDem": 198,
+          "votesTotal": 1463
+        },
+        "Cherokee20": {
+          "color": "#BF1D29",
+          "label": "Moran +46.6",
+          "margin": 46.56,
+          "votesRep": 5938,
+          "votesDem": 2165,
+          "votesTotal": 8552
+        },
+        "Cheyenne20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.5",
+          "margin": 81.51,
+          "votesRep": 1227,
+          "votesDem": 125,
+          "votesTotal": 1400
+        },
+        "Clark20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.2",
+          "margin": 78.15,
+          "votesRep": 840,
+          "votesDem": 103,
+          "votesTotal": 994
+        },
+        "Clay20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.2",
+          "margin": 77.16,
+          "votesRep": 3250,
+          "votesDem": 419,
+          "votesTotal": 3831
+        },
+        "Cloud20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.6",
+          "margin": 67.61,
+          "votesRep": 3089,
+          "votesDem": 597,
+          "votesTotal": 3905
+        },
+        "Coffey20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.8",
+          "margin": 67.79,
+          "votesRep": 3146,
+          "votesDem": 604,
+          "votesTotal": 4025
+        },
+        "Comanche20": {
+          "color": "#BF1D29",
+          "label": "Moran +76.4",
+          "margin": 76.39,
+          "votesRep": 732,
+          "votesDem": 98,
+          "votesTotal": 866
+        },
+        "Cowley20": {
+          "color": "#BF1D29",
+          "label": "Moran +44.4",
+          "margin": 44.38,
+          "votesRep": 8530,
+          "votesDem": 3286,
+          "votesTotal": 12571
+        },
+        "Crawford20": {
+          "color": "#BF1D29",
+          "label": "Moran +27.8",
+          "margin": 27.76,
+          "votesRep": 8957,
+          "votesDem": 5065,
+          "votesTotal": 14802
+        },
+        "Decatur20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.4",
+          "margin": 81.38,
+          "votesRep": 1237,
+          "votesDem": 127,
+          "votesTotal": 1418
+        },
+        "Dickinson20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.7",
+          "margin": 66.68,
+          "votesRep": 6368,
+          "votesDem": 1273,
+          "votesTotal": 8173
+        },
+        "Doniphan20": {
+          "color": "#BF1D29",
+          "label": "Moran +61.7",
+          "margin": 61.66,
+          "votesRep": 2538,
+          "votesDem": 602,
+          "votesTotal": 3296
+        },
+        "Douglas20": {
+          "color": "#1C408C",
+          "label": "Wiesner +26.8",
+          "margin": -26.82,
+          "votesRep": 17563,
+          "votesDem": 30436,
+          "votesTotal": 50329
+        },
+        "Edwards20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.3",
+          "margin": 73.31,
+          "votesRep": 1078,
+          "votesDem": 166,
+          "votesTotal": 1322
+        },
+        "Elk20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.6",
+          "margin": 73.58,
+          "votesRep": 1012,
+          "votesDem": 154,
+          "votesTotal": 1249
+        },
+        "Ellis20": {
+          "color": "#BF1D29",
+          "label": "Moran +61.6",
+          "margin": 61.65,
+          "votesRep": 9319,
+          "votesDem": 2211,
+          "votesTotal": 11988
+        },
+        "Ellsworth20": {
+          "color": "#BF1D29",
+          "label": "Moran +70.3",
+          "margin": 70.27,
+          "votesRep": 2199,
+          "votesDem": 384,
+          "votesTotal": 2695
+        },
+        "Finney20": {
+          "color": "#BF1D29",
+          "label": "Moran +50.6",
+          "margin": 50.64,
+          "votesRep": 7165,
+          "votesDem": 2348,
+          "votesTotal": 10053
+        },
+        "Ford20": {
+          "color": "#BF1D29",
+          "label": "Moran +53.9",
+          "margin": 53.93,
+          "votesRep": 5530,
+          "votesDem": 1655,
+          "votesTotal": 7590
+        },
+        "Franklin20": {
+          "color": "#BF1D29",
+          "label": "Moran +46.0",
+          "margin": 46,
+          "votesRep": 7394,
+          "votesDem": 2735,
+          "votesTotal": 10863
+        },
+        "Geary20": {
+          "color": "#BF1D29",
+          "label": "Moran +38.4",
+          "margin": 38.44,
+          "votesRep": 4918,
+          "votesDem": 2187,
+          "votesTotal": 7443
+        },
+        "Gove20": {
+          "color": "#BF1D29",
+          "label": "Moran +82.2",
+          "margin": 82.23,
+          "votesRep": 1200,
+          "votesDem": 117,
+          "votesTotal": 1356
+        },
+        "Graham20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.0",
+          "margin": 78.05,
+          "votesRep": 1095,
+          "votesDem": 135,
+          "votesTotal": 1284
+        },
+        "Grant20": {
+          "color": "#BF1D29",
+          "label": "Moran +71.4",
+          "margin": 71.44,
+          "votesRep": 1897,
+          "votesDem": 316,
+          "votesTotal": 2344
+        },
+        "Gray20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.6",
+          "margin": 77.55,
+          "votesRep": 1756,
+          "votesDem": 222,
+          "votesTotal": 2060
+        },
+        "Greeley20": {
+          "color": "#BF1D29",
+          "label": "Moran +84.5",
+          "margin": 84.47,
+          "votesRep": 570,
+          "votesDem": 48,
+          "votesTotal": 641
+        },
+        "Greenwood20": {
+          "color": "#BF1D29",
+          "label": "Moran +64.9",
+          "margin": 64.94,
+          "votesRep": 2164,
+          "votesDem": 460,
+          "votesTotal": 2802
+        },
+        "Hamilton20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.7",
+          "margin": 78.68,
+          "votesRep": 729,
+          "votesDem": 87,
+          "votesTotal": 863
+        },
+        "Harper20": {
+          "color": "#BF1D29",
+          "label": "Moran +69.0",
+          "margin": 68.98,
+          "votesRep": 2021,
+          "votesDem": 371,
+          "votesTotal": 2518
+        },
+        "Harvey20": {
+          "color": "#BF1D29",
+          "label": "Moran +39.7",
+          "margin": 39.7,
+          "votesRep": 9815,
+          "votesDem": 4237,
+          "votesTotal": 14877
+        },
+        "Haskell20": {
+          "color": "#BF1D29",
+          "label": "Moran +75.6",
+          "margin": 75.6,
+          "votesRep": 1137,
+          "votesDem": 158,
+          "votesTotal": 1344
+        },
+        "Hodgeman20": {
+          "color": "#BF1D29",
+          "label": "Moran +82.9",
+          "margin": 82.92,
+          "votesRep": 889,
+          "votesDem": 83,
+          "votesTotal": 1012
+        },
+        "Jackson20": {
+          "color": "#BF1D29",
+          "label": "Moran +48.6",
+          "margin": 48.56,
+          "votesRep": 4115,
+          "votesDem": 1425,
+          "votesTotal": 5831
+        },
+        "Jefferson20": {
+          "color": "#BF1D29",
+          "label": "Moran +37.1",
+          "margin": 37.09,
+          "votesRep": 5456,
+          "votesDem": 2504,
+          "votesTotal": 8364
+        },
+        "Jewell20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.7",
+          "margin": 81.73,
+          "votesRep": 1263,
+          "votesDem": 127,
+          "votesTotal": 1467
+        },
+        "Johnson20": {
+          "color": "#BF1D29",
+          "label": "Moran +17.5",
+          "margin": 17.55,
+          "votesRep": 160074,
+          "votesDem": 112283,
+          "votesTotal": 288899
+        },
+        "Kearny20": {
+          "color": "#BF1D29",
+          "label": "Moran +75.1",
+          "margin": 75.1,
+          "votesRep": 1132,
+          "votesDem": 161,
+          "votesTotal": 1344
+        },
+        "Kingman20": {
+          "color": "#BF1D29",
+          "label": "Moran +68.9",
+          "margin": 68.9,
+          "votesRep": 2661,
+          "votesDem": 490,
+          "votesTotal": 3337
+        },
+        "Kiowa20": {
+          "color": "#BF1D29",
+          "label": "Moran +83.9",
+          "margin": 83.93,
+          "votesRep": 950,
+          "votesDem": 83,
+          "votesTotal": 1080
+        },
+        "Labette20": {
+          "color": "#BF1D29",
+          "label": "Moran +38.4",
+          "margin": 38.41,
+          "votesRep": 5212,
+          "votesDem": 2319,
+          "votesTotal": 8039
+        },
+        "Lane20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.2",
+          "margin": 81.24,
+          "votesRep": 763,
+          "votesDem": 79,
+          "votesTotal": 881
+        },
+        "Leavenworth20": {
+          "color": "#BF1D29",
+          "label": "Moran +28.5",
+          "margin": 28.52,
+          "votesRep": 18287,
+          "votesDem": 10171,
+          "votesTotal": 30267
+        },
+        "Lincoln20": {
+          "color": "#BF1D29",
+          "label": "Moran +76.2",
+          "margin": 76.16,
+          "votesRep": 1234,
+          "votesDem": 167,
+          "votesTotal": 1470
+        },
+        "Linn20": {
+          "color": "#BF1D29",
+          "label": "Moran +60.8",
+          "margin": 60.76,
+          "votesRep": 3261,
+          "votesDem": 796,
+          "votesTotal": 4341
+        },
+        "Logan20": {
+          "color": "#BF1D29",
+          "label": "Moran +83.7",
+          "margin": 83.73,
+          "votesRep": 1197,
+          "votesDem": 106,
+          "votesTotal": 1346
+        },
+        "Lyon20": {
+          "color": "#BF1D29",
+          "label": "Moran +35.6",
+          "margin": 35.64,
+          "votesRep": 7925,
+          "votesDem": 3760,
+          "votesTotal": 12303
+        },
+        "Marion20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.2",
+          "margin": 66.2,
+          "votesRep": 4490,
+          "votesDem": 913,
+          "votesTotal": 5652
+        },
+        "Marshall20": {
+          "color": "#BF1D29",
+          "label": "Moran +61.1",
+          "margin": 61.1,
+          "votesRep": 3591,
+          "votesDem": 867,
+          "votesTotal": 4649
+        },
+        "McPherson20": {
+          "color": "#BF1D29",
+          "label": "Moran +58.5",
+          "margin": 58.45,
+          "votesRep": 9637,
+          "votesDem": 2527,
+          "votesTotal": 12777
+        },
+        "Meade20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.8",
+          "margin": 80.84,
+          "votesRep": 1491,
+          "votesDem": 158,
+          "votesTotal": 1712
+        },
+        "Miami20": {
+          "color": "#BF1D29",
+          "label": "Moran +46.9",
+          "margin": 46.94,
+          "votesRep": 10448,
+          "votesDem": 3773,
+          "votesTotal": 14937
+        },
+        "Mitchell20": {
+          "color": "#BF1D29",
+          "label": "Moran +76.0",
+          "margin": 75.99,
+          "votesRep": 2463,
+          "votesDem": 336,
+          "votesTotal": 2913
+        },
+        "Montgomery20": {
+          "color": "#BF1D29",
+          "label": "Moran +50.6",
+          "margin": 50.58,
+          "votesRep": 8232,
+          "votesDem": 2702,
+          "votesTotal": 11853
+        },
+        "Morris20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.5",
+          "margin": 66.49,
+          "votesRep": 2087,
+          "votesDem": 420,
+          "votesTotal": 2636
+        },
+        "Morton20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.7",
+          "margin": 80.68,
+          "votesRep": 1010,
+          "votesDem": 108,
+          "votesTotal": 1186
+        },
+        "Nemaha20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.1",
+          "margin": 73.11,
+          "votesRep": 4294,
+          "votesDem": 667,
+          "votesTotal": 5126
+        },
+        "Neosho20": {
+          "color": "#BF1D29",
+          "label": "Moran +50.8",
+          "margin": 50.84,
+          "votesRep": 4378,
+          "votesDem": 1427,
+          "votesTotal": 6251
+        },
+        "Ness20": {
+          "color": "#BF1D29",
+          "label": "Moran +84.4",
+          "margin": 84.42,
+          "votesRep": 1290,
+          "votesDem": 109,
+          "votesTotal": 1442
+        },
+        "Norton20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.7",
+          "margin": 77.68,
+          "votesRep": 1895,
+          "votesDem": 238,
+          "votesTotal": 2243
+        },
+        "Osage20": {
+          "color": "#BF1D29",
+          "label": "Moran +50.5",
+          "margin": 50.52,
+          "votesRep": 4977,
+          "votesDem": 1636,
+          "votesTotal": 7107
+        },
+        "Osborne20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.0",
+          "margin": 78,
+          "votesRep": 1521,
+          "votesDem": 188,
+          "votesTotal": 1794
+        },
+        "Ottawa20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.5",
+          "margin": 73.48,
+          "votesRep": 2316,
+          "votesDem": 354,
+          "votesTotal": 2887
+        },
+        "Pawnee20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.0",
+          "margin": 65.98,
+          "votesRep": 2108,
+          "votesDem": 432,
+          "votesTotal": 2677
+        },
+        "Phillips20": {
+          "color": "#BF1D29",
+          "label": "Moran +83.3",
+          "margin": 83.3,
+          "votesRep": 2316,
+          "votesDem": 211,
+          "votesTotal": 2641
+        },
+        "Pottawatomie20": {
+          "color": "#BF1D29",
+          "label": "Moran +64.3",
+          "margin": 64.26,
+          "votesRep": 8407,
+          "votesDem": 1829,
+          "votesTotal": 10726
+        },
+        "Pratt20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.7",
+          "margin": 66.75,
+          "votesRep": 3019,
+          "votesDem": 602,
+          "votesTotal": 3837
+        },
+        "Rawlins20": {
+          "color": "#BF1D29",
+          "label": "Moran +81.9",
+          "margin": 81.86,
+          "votesRep": 1263,
+          "votesDem": 126,
+          "votesTotal": 1470
+        },
+        "Reno20": {
+          "color": "#BF1D29",
+          "label": "Moran +51.4",
+          "margin": 51.37,
+          "votesRep": 17218,
+          "votesDem": 5532,
+          "votesTotal": 24297
+        },
+        "Republic20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.1",
+          "margin": 77.08,
+          "votesRep": 2117,
+          "votesDem": 274,
+          "votesTotal": 2501
+        },
+        "Rice20": {
+          "color": "#BF1D29",
+          "label": "Moran +66.0",
+          "margin": 65.96,
+          "votesRep": 2979,
+          "votesDem": 611,
+          "votesTotal": 3820
+        },
+        "Riley20": {
+          "color": "#BF1D29",
+          "label": "Moran +30.4",
+          "margin": 30.42,
+          "votesRep": 13438,
+          "votesDem": 7170,
+          "votesTotal": 21635
+        },
+        "Rooks20": {
+          "color": "#BF1D29",
+          "label": "Moran +83.3",
+          "margin": 83.28,
+          "votesRep": 2104,
+          "votesDem": 192,
+          "votesTotal": 2410
+        },
+        "Rush20": {
+          "color": "#BF1D29",
+          "label": "Moran +76.7",
+          "margin": 76.69,
+          "votesRep": 1281,
+          "votesDem": 169,
+          "votesTotal": 1509
+        },
+        "Russell20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.8",
+          "margin": 74.79,
+          "votesRep": 2635,
+          "votesDem": 380,
+          "votesTotal": 3174
+        },
+        "Saline20": {
+          "color": "#BF1D29",
+          "label": "Moran +49.4",
+          "margin": 49.44,
+          "votesRep": 15123,
+          "votesDem": 5117,
+          "votesTotal": 21915
+        },
+        "Scott20": {
+          "color": "#BF1D29",
+          "label": "Moran +82.1",
+          "margin": 82.1,
+          "votesRep": 1902,
+          "votesDem": 187,
+          "votesTotal": 2183
+        },
+        "Sedgwick20": {
+          "color": "#BF1D29",
+          "label": "Moran +28.3",
+          "margin": 28.32,
+          "votesRep": 112455,
+          "votesDem": 62816,
+          "votesTotal": 187023
+        },
+        "Seward20": {
+          "color": "#BF1D29",
+          "label": "Moran +44.6",
+          "margin": 44.62,
+          "votesRep": 3168,
+          "votesDem": 1213,
+          "votesTotal": 4716
+        },
+        "Shawnee20": {
+          "color": "#BF1D29",
+          "label": "Moran +14.8",
+          "margin": 14.82,
+          "votesRep": 41689,
+          "votesDem": 30925,
+          "votesTotal": 76112
+        },
+        "Sheridan20": {
+          "color": "#BF1D29",
+          "label": "Moran +82.0",
+          "margin": 81.97,
+          "votesRep": 1201,
+          "votesDem": 119,
+          "votesTotal": 1358
+        },
+        "Sherman20": {
+          "color": "#BF1D29",
+          "label": "Moran +75.9",
+          "margin": 75.88,
+          "votesRep": 2158,
+          "votesDem": 296,
+          "votesTotal": 2577
+        },
+        "Smith20": {
+          "color": "#BF1D29",
+          "label": "Moran +77.7",
+          "margin": 77.69,
+          "votesRep": 1744,
+          "votesDem": 219,
+          "votesTotal": 2049
+        },
+        "Stafford20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.3",
+          "margin": 74.34,
+          "votesRep": 1563,
+          "votesDem": 230,
+          "votesTotal": 1873
+        },
+        "Stanton20": {
+          "color": "#BF1D29",
+          "label": "Moran +73.3",
+          "margin": 73.29,
+          "votesRep": 506,
+          "votesDem": 78,
+          "votesTotal": 620
+        },
+        "Stevens20": {
+          "color": "#BF1D29",
+          "label": "Moran +80.9",
+          "margin": 80.89,
+          "votesRep": 1600,
+          "votesDem": 169,
+          "votesTotal": 1844
+        },
+        "Sumner20": {
+          "color": "#BF1D29",
+          "label": "Moran +52.5",
+          "margin": 52.47,
+          "votesRep": 6827,
+          "votesDem": 2128,
+          "votesTotal": 9625
+        },
+        "Thomas20": {
+          "color": "#BF1D29",
+          "label": "Moran +75.7",
+          "margin": 75.68,
+          "votesRep": 3012,
+          "votesDem": 417,
+          "votesTotal": 3576
+        },
+        "Trego20": {
+          "color": "#BF1D29",
+          "label": "Moran +71.1",
+          "margin": 71.1,
+          "votesRep": 1202,
+          "votesDem": 203,
+          "votesTotal": 1467
+        },
+        "Wabaunsee20": {
+          "color": "#BF1D29",
+          "label": "Moran +61.3",
+          "margin": 61.3,
+          "votesRep": 2580,
+          "votesDem": 619,
+          "votesTotal": 3398
+        },
+        "Wallace20": {
+          "color": "#BF1D29",
+          "label": "Moran +90.9",
+          "margin": 90.89,
+          "votesRep": 733,
+          "votesDem": 35,
+          "votesTotal": 794
+        },
+        "Washington20": {
+          "color": "#BF1D29",
+          "label": "Moran +78.3",
+          "margin": 78.29,
+          "votesRep": 2341,
+          "votesDem": 285,
+          "votesTotal": 2736
+        },
+        "Wichita20": {
+          "color": "#BF1D29",
+          "label": "Moran +74.9",
+          "margin": 74.86,
+          "votesRep": 793,
+          "votesDem": 114,
+          "votesTotal": 947
+        },
+        "Wilson20": {
+          "color": "#BF1D29",
+          "label": "Moran +67.5",
+          "margin": 67.52,
+          "votesRep": 2806,
+          "votesDem": 544,
+          "votesTotal": 3562
+        },
+        "Woodson20": {
+          "color": "#BF1D29",
+          "label": "Moran +61.1",
+          "margin": 61.06,
+          "votesRep": 1063,
+          "votesDem": 257,
+          "votesTotal": 1412
+        },
+        "Wyandotte20": {
+          "color": "#1C408C",
+          "label": "Wiesner +28.5",
+          "margin": -28.53,
+          "votesRep": 15863,
+          "votesDem": 28525,
+          "votesTotal": 47306
+        }
+      }
+    }
+  ]
+}

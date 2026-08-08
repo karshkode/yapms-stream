@@ -1,0 +1,129 @@
+{
+  "stateFips": "10",
+  "stateName": "Delaware",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Mike Ramone",
+      "candDem": "Matt Meyer",
+      "shortRep": "Ramone",
+      "shortDem": "Meyer",
+      "partisan": true,
+      "margin": -12.14,
+      "votesRep": 219050,
+      "votesDem": 279585,
+      "votesTotal": 498635,
+      "regions": {
+        "Kent10": {
+          "color": "#6b7280",
+          "label": "Meyer +0.5",
+          "margin": -0.5,
+          "votesRep": 42750,
+          "votesDem": 43179,
+          "votesTotal": 85929
+        },
+        "New Castle10": {
+          "color": "#1C408C",
+          "label": "Meyer +28.6",
+          "margin": -28.59,
+          "votesRep": 95746,
+          "votesDem": 172412,
+          "votesTotal": 268158
+        },
+        "Sussex10": {
+          "color": "#BF1D29",
+          "label": "Ramone +11.5",
+          "margin": 11.46,
+          "votesRep": 80554,
+          "votesDem": 63994,
+          "votesTotal": 144548
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Eric Hansen",
+      "candDem": "Lisa Blunt Rochester",
+      "shortRep": "Hansen",
+      "shortDem": "Rochester",
+      "partisan": true,
+      "margin": -17.78,
+      "votesRep": 197753,
+      "votesDem": 283298,
+      "votesTotal": 500606,
+      "regions": {
+        "Kent10": {
+          "color": "#577CCC",
+          "label": "Rochester +6.0",
+          "margin": -6.01,
+          "votesRep": 39158,
+          "votesDem": 44169,
+          "votesTotal": 86268
+        },
+        "New Castle10": {
+          "color": "#1C408C",
+          "label": "Rochester +36.2",
+          "margin": -36.23,
+          "votesRep": 82475,
+          "votesDem": 176195,
+          "votesTotal": 270005
+        },
+        "Sussex10": {
+          "color": "#FF5865",
+          "label": "Hansen +9.5",
+          "margin": 9.48,
+          "votesRep": 76120,
+          "votesDem": 62934,
+          "votesTotal": 144333
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Robert Arlett",
+      "candDem": "Thomas Carper",
+      "shortRep": "Arlett",
+      "shortDem": "Carper",
+      "partisan": true,
+      "margin": -22.64,
+      "votesRep": 137127,
+      "votesDem": 217385,
+      "votesTotal": 362606,
+      "regions": {
+        "Kent10": {
+          "color": "#577CCC",
+          "label": "Carper +7.0",
+          "margin": -6.96,
+          "votesRep": 27210,
+          "votesDem": 31282,
+          "votesTotal": 59753
+        },
+        "New Castle10": {
+          "color": "#1C408C",
+          "label": "Carper +41.9",
+          "margin": -41.91,
+          "votesRep": 59526,
+          "votesDem": 145428,
+          "votesTotal": 210323
+        },
+        "Sussex10": {
+          "color": "#BF1D29",
+          "label": "Arlett +10.7",
+          "margin": 10.67,
+          "votesRep": 50391,
+          "votesDem": 40675,
+          "votesTotal": 92530
+        }
+      }
+    }
+  ]
+}

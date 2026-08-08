@@ -1,0 +1,2538 @@
+{
+  "stateFips": "40",
+  "stateName": "Oklahoma",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Kevin Stitt",
+      "candDem": "Joy Hofmeister",
+      "shortRep": "Stitt",
+      "shortDem": "Hofmeister",
+      "partisan": true,
+      "margin": 14.05,
+      "votesRep": 639484,
+      "votesDem": 481904,
+      "votesTotal": 1153284,
+      "regions": {
+        "Adair40": {
+          "color": "#BF1D29",
+          "label": "Stitt +24.6",
+          "margin": 24.63,
+          "votesRep": 3135,
+          "votesDem": 1896,
+          "votesTotal": 5222
+        },
+        "Alfalfa40": {
+          "color": "#BF1D29",
+          "label": "Stitt +53.9",
+          "margin": 53.95,
+          "votesRep": 1287,
+          "votesDem": 385,
+          "votesTotal": 1735
+        },
+        "Atoka40": {
+          "color": "#BF1D29",
+          "label": "Stitt +46.8",
+          "margin": 46.8,
+          "votesRep": 2790,
+          "votesDem": 1011,
+          "votesTotal": 3921
+        },
+        "Beaver40": {
+          "color": "#BF1D29",
+          "label": "Stitt +69.5",
+          "margin": 69.47,
+          "votesRep": 1382,
+          "votesDem": 249,
+          "votesTotal": 1698
+        },
+        "Beckham40": {
+          "color": "#BF1D29",
+          "label": "Stitt +53.7",
+          "margin": 53.69,
+          "votesRep": 4115,
+          "votesDem": 1240,
+          "votesTotal": 5480
+        },
+        "Blaine40": {
+          "color": "#BF1D29",
+          "label": "Stitt +38.3",
+          "margin": 38.28,
+          "votesRep": 1985,
+          "votesDem": 886,
+          "votesTotal": 2980
+        },
+        "Bryan40": {
+          "color": "#BF1D29",
+          "label": "Stitt +28.9",
+          "margin": 28.89,
+          "votesRep": 7144,
+          "votesDem": 3941,
+          "votesTotal": 11467
+        },
+        "Caddo40": {
+          "color": "#BF1D29",
+          "label": "Stitt +21.9",
+          "margin": 21.92,
+          "votesRep": 4166,
+          "votesDem": 2668,
+          "votesTotal": 7062
+        },
+        "Canadian40": {
+          "color": "#BF1D29",
+          "label": "Stitt +20.8",
+          "margin": 20.84,
+          "votesRep": 29474,
+          "votesDem": 19306,
+          "votesTotal": 50214
+        },
+        "Carter40": {
+          "color": "#BF1D29",
+          "label": "Stitt +33.1",
+          "margin": 33.11,
+          "votesRep": 8621,
+          "votesDem": 4332,
+          "votesTotal": 13408
+        },
+        "Cherokee40": {
+          "color": "#FF8B98",
+          "label": "Stitt +1.4",
+          "margin": 1.36,
+          "votesRep": 6660,
+          "votesDem": 6481,
+          "votesTotal": 13545
+        },
+        "Choctaw40": {
+          "color": "#BF1D29",
+          "label": "Stitt +44.2",
+          "margin": 44.15,
+          "votesRep": 2798,
+          "votesDem": 1084,
+          "votesTotal": 4050
+        },
+        "Cimarron40": {
+          "color": "#BF1D29",
+          "label": "Stitt +82.3",
+          "margin": 82.34,
+          "votesRep": 640,
+          "votesDem": 62,
+          "votesTotal": 733
+        },
+        "Cleveland40": {
+          "color": "#577CCC",
+          "label": "Hofmeister +6.7",
+          "margin": -6.74,
+          "votesRep": 41379,
+          "votesDem": 47356,
+          "votesTotal": 91279
+        },
+        "Coal40": {
+          "color": "#BF1D29",
+          "label": "Stitt +40.2",
+          "margin": 40.23,
+          "votesRep": 1288,
+          "votesDem": 549,
+          "votesTotal": 1908
+        },
+        "Comanche40": {
+          "color": "#FF5865",
+          "label": "Stitt +8.6",
+          "margin": 8.56,
+          "votesRep": 12219,
+          "votesDem": 10293,
+          "votesTotal": 23580
+        },
+        "Cotton40": {
+          "color": "#BF1D29",
+          "label": "Stitt +37.1",
+          "margin": 37.07,
+          "votesRep": 1187,
+          "votesDem": 545,
+          "votesTotal": 1843
+        },
+        "Craig40": {
+          "color": "#BF1D29",
+          "label": "Stitt +31.7",
+          "margin": 31.75,
+          "votesRep": 2880,
+          "votesDem": 1492,
+          "votesTotal": 4485
+        },
+        "Creek40": {
+          "color": "#BF1D29",
+          "label": "Stitt +37.6",
+          "margin": 37.56,
+          "votesRep": 15015,
+          "votesDem": 6816,
+          "votesTotal": 22350
+        },
+        "Custer40": {
+          "color": "#BF1D29",
+          "label": "Stitt +32.7",
+          "margin": 32.7,
+          "votesRep": 4853,
+          "votesDem": 2461,
+          "votesTotal": 7492
+        },
+        "Delaware40": {
+          "color": "#BF1D29",
+          "label": "Stitt +38.4",
+          "margin": 38.35,
+          "votesRep": 8858,
+          "votesDem": 3947,
+          "votesTotal": 13218
+        },
+        "Dewey40": {
+          "color": "#BF1D29",
+          "label": "Stitt +62.7",
+          "margin": 62.7,
+          "votesRep": 1400,
+          "votesDem": 321,
+          "votesTotal": 1767
+        },
+        "Ellis40": {
+          "color": "#BF1D29",
+          "label": "Stitt +61.2",
+          "margin": 61.19,
+          "votesRep": 1167,
+          "votesDem": 281,
+          "votesTotal": 1486
+        },
+        "Garfield40": {
+          "color": "#BF1D29",
+          "label": "Stitt +37.1",
+          "margin": 37.06,
+          "votesRep": 10800,
+          "votesDem": 4960,
+          "votesTotal": 16214
+        },
+        "Garvin40": {
+          "color": "#BF1D29",
+          "label": "Stitt +41.8",
+          "margin": 41.76,
+          "votesRep": 5589,
+          "votesDem": 2296,
+          "votesTotal": 8122
+        },
+        "Grady40": {
+          "color": "#BF1D29",
+          "label": "Stitt +40.4",
+          "margin": 40.41,
+          "votesRep": 12165,
+          "votesDem": 5163,
+          "votesTotal": 17825
+        },
+        "Grant40": {
+          "color": "#BF1D29",
+          "label": "Stitt +51.8",
+          "margin": 51.8,
+          "votesRep": 1181,
+          "votesDem": 375,
+          "votesTotal": 1599
+        },
+        "Greer40": {
+          "color": "#BF1D29",
+          "label": "Stitt +39.2",
+          "margin": 39.2,
+          "votesRep": 902,
+          "votesDem": 394,
+          "votesTotal": 1342
+        },
+        "Harmon40": {
+          "color": "#BF1D29",
+          "label": "Stitt +43.8",
+          "margin": 43.8,
+          "votesRep": 458,
+          "votesDem": 179,
+          "votesTotal": 650
+        },
+        "Harper40": {
+          "color": "#BF1D29",
+          "label": "Stitt +43.7",
+          "margin": 43.69,
+          "votesRep": 809,
+          "votesDem": 317,
+          "votesTotal": 1168
+        },
+        "Haskell40": {
+          "color": "#BF1D29",
+          "label": "Stitt +40.7",
+          "margin": 40.7,
+          "votesRep": 2337,
+          "votesDem": 985,
+          "votesTotal": 3392
+        },
+        "Hughes40": {
+          "color": "#BF1D29",
+          "label": "Stitt +36.5",
+          "margin": 36.55,
+          "votesRep": 2352,
+          "votesDem": 1093,
+          "votesTotal": 3545
+        },
+        "Jackson40": {
+          "color": "#BF1D29",
+          "label": "Stitt +45.4",
+          "margin": 45.36,
+          "votesRep": 3857,
+          "votesDem": 1450,
+          "votesTotal": 5502
+        },
+        "Jefferson40": {
+          "color": "#BF1D29",
+          "label": "Stitt +42.4",
+          "margin": 42.41,
+          "votesRep": 1098,
+          "votesDem": 444,
+          "votesTotal": 1613
+        },
+        "Johnston40": {
+          "color": "#BF1D29",
+          "label": "Stitt +39.2",
+          "margin": 39.22,
+          "votesRep": 1986,
+          "votesDem": 867,
+          "votesTotal": 2963
+        },
+        "Kay40": {
+          "color": "#BF1D29",
+          "label": "Stitt +30.7",
+          "margin": 30.69,
+          "votesRep": 7927,
+          "votesDem": 4204,
+          "votesTotal": 12532
+        },
+        "Kingfisher40": {
+          "color": "#BF1D29",
+          "label": "Stitt +53.0",
+          "margin": 52.98,
+          "votesRep": 3647,
+          "votesDem": 1121,
+          "votesTotal": 4883
+        },
+        "Kiowa40": {
+          "color": "#BF1D29",
+          "label": "Stitt +36.7",
+          "margin": 36.65,
+          "votesRep": 1648,
+          "votesDem": 764,
+          "votesTotal": 2461
+        },
+        "Latimer40": {
+          "color": "#BF1D29",
+          "label": "Stitt +34.8",
+          "margin": 34.8,
+          "votesRep": 1985,
+          "votesDem": 960,
+          "votesTotal": 3064
+        },
+        "Le Flore40": {
+          "color": "#BF1D29",
+          "label": "Stitt +42.0",
+          "margin": 41.99,
+          "votesRep": 8266,
+          "votesDem": 3377,
+          "votesTotal": 12141
+        },
+        "Lincoln40": {
+          "color": "#BF1D29",
+          "label": "Stitt +41.6",
+          "margin": 41.57,
+          "votesRep": 7587,
+          "votesDem": 3131,
+          "votesTotal": 11098
+        },
+        "Logan40": {
+          "color": "#BF1D29",
+          "label": "Stitt +33.5",
+          "margin": 33.54,
+          "votesRep": 11086,
+          "votesDem": 5517,
+          "votesTotal": 17019
+        },
+        "Love40": {
+          "color": "#BF1D29",
+          "label": "Stitt +47.0",
+          "margin": 47.02,
+          "votesRep": 1951,
+          "votesDem": 703,
+          "votesTotal": 2742
+        },
+        "Major40": {
+          "color": "#BF1D29",
+          "label": "Stitt +64.1",
+          "margin": 64.14,
+          "votesRep": 2151,
+          "votesDem": 470,
+          "votesTotal": 2691
+        },
+        "Marshall40": {
+          "color": "#BF1D29",
+          "label": "Stitt +38.5",
+          "margin": 38.55,
+          "votesRep": 2958,
+          "votesDem": 1312,
+          "votesTotal": 4391
+        },
+        "Mayes40": {
+          "color": "#BF1D29",
+          "label": "Stitt +31.3",
+          "margin": 31.27,
+          "votesRep": 8031,
+          "votesDem": 4205,
+          "votesTotal": 12650
+        },
+        "McClain40": {
+          "color": "#BF1D29",
+          "label": "Stitt +39.0",
+          "margin": 39.01,
+          "votesRep": 10160,
+          "votesDem": 4458,
+          "votesTotal": 15046
+        },
+        "McCurtain40": {
+          "color": "#BF1D29",
+          "label": "Stitt +41.3",
+          "margin": 41.32,
+          "votesRep": 5566,
+          "votesDem": 2311,
+          "votesTotal": 8248
+        },
+        "McIntosh40": {
+          "color": "#BF1D29",
+          "label": "Stitt +27.3",
+          "margin": 27.31,
+          "votesRep": 4028,
+          "votesDem": 2300,
+          "votesTotal": 6476
+        },
+        "Murray40": {
+          "color": "#BF1D29",
+          "label": "Stitt +32.1",
+          "margin": 32.07,
+          "votesRep": 2718,
+          "votesDem": 1398,
+          "votesTotal": 4251
+        },
+        "Muskogee40": {
+          "color": "#BF1D29",
+          "label": "Stitt +13.4",
+          "margin": 13.36,
+          "votesRep": 9835,
+          "votesDem": 7517,
+          "votesTotal": 17796
+        },
+        "Noble40": {
+          "color": "#BF1D29",
+          "label": "Stitt +33.0",
+          "margin": 32.99,
+          "votesRep": 2461,
+          "votesDem": 1240,
+          "votesTotal": 3814
+        },
+        "Nowata40": {
+          "color": "#BF1D29",
+          "label": "Stitt +43.1",
+          "margin": 43.07,
+          "votesRep": 2302,
+          "votesDem": 916,
+          "votesTotal": 3323
+        },
+        "Okfuskee40": {
+          "color": "#BF1D29",
+          "label": "Stitt +25.2",
+          "margin": 25.18,
+          "votesRep": 1785,
+          "votesDem": 1067,
+          "votesTotal": 2945
+        },
+        "Oklahoma40": {
+          "color": "#1C408C",
+          "label": "Hofmeister +13.6",
+          "margin": -13.64,
+          "votesRep": 93466,
+          "votesDem": 122996,
+          "votesTotal": 222554
+        },
+        "Okmulgee40": {
+          "color": "#BF1D29",
+          "label": "Stitt +19.3",
+          "margin": 19.29,
+          "votesRep": 6187,
+          "votesDem": 4186,
+          "votesTotal": 10635
+        },
+        "Osage40": {
+          "color": "#BF1D29",
+          "label": "Stitt +23.1",
+          "margin": 23.09,
+          "votesRep": 9053,
+          "votesDem": 5656,
+          "votesTotal": 15105
+        },
+        "Ottawa40": {
+          "color": "#BF1D29",
+          "label": "Stitt +28.1",
+          "margin": 28.08,
+          "votesRep": 4718,
+          "votesDem": 2649,
+          "votesTotal": 7688
+        },
+        "Pawnee40": {
+          "color": "#BF1D29",
+          "label": "Stitt +36.7",
+          "margin": 36.67,
+          "votesRep": 3354,
+          "votesDem": 1554,
+          "votesTotal": 5047
+        },
+        "Payne40": {
+          "color": "#FF8B98",
+          "label": "Stitt +2.2",
+          "margin": 2.17,
+          "votesRep": 11029,
+          "votesDem": 10561,
+          "votesTotal": 22138
+        },
+        "Pittsburg40": {
+          "color": "#BF1D29",
+          "label": "Stitt +35.4",
+          "margin": 35.37,
+          "votesRep": 8322,
+          "votesDem": 3973,
+          "votesTotal": 12691
+        },
+        "Pontotoc40": {
+          "color": "#FF5865",
+          "label": "Stitt +6.3",
+          "margin": 6.29,
+          "votesRep": 5748,
+          "votesDem": 5068,
+          "votesTotal": 11205
+        },
+        "Pottawatomie40": {
+          "color": "#BF1D29",
+          "label": "Stitt +23.7",
+          "margin": 23.74,
+          "votesRep": 12415,
+          "votesDem": 7651,
+          "votesTotal": 20713
+        },
+        "Pushmataha40": {
+          "color": "#BF1D29",
+          "label": "Stitt +45.3",
+          "margin": 45.27,
+          "votesRep": 2309,
+          "votesDem": 870,
+          "votesTotal": 3297
+        },
+        "Roger Mills40": {
+          "color": "#BF1D29",
+          "label": "Stitt +70.2",
+          "margin": 70.23,
+          "votesRep": 1092,
+          "votesDem": 191,
+          "votesTotal": 1320
+        },
+        "Rogers40": {
+          "color": "#BF1D29",
+          "label": "Stitt +36.4",
+          "margin": 36.41,
+          "votesRep": 22581,
+          "votesDem": 10527,
+          "votesTotal": 33933
+        },
+        "Seminole40": {
+          "color": "#BF1D29",
+          "label": "Stitt +28.0",
+          "margin": 27.97,
+          "votesRep": 3642,
+          "votesDem": 2050,
+          "votesTotal": 5861
+        },
+        "Sequoyah40": {
+          "color": "#BF1D29",
+          "label": "Stitt +32.4",
+          "margin": 32.37,
+          "votesRep": 6516,
+          "votesDem": 3329,
+          "votesTotal": 10274
+        },
+        "Stephens40": {
+          "color": "#BF1D29",
+          "label": "Stitt +42.9",
+          "margin": 42.89,
+          "votesRep": 8957,
+          "votesDem": 3580,
+          "votesTotal": 13116
+        },
+        "Texas40": {
+          "color": "#BF1D29",
+          "label": "Stitt +59.5",
+          "margin": 59.52,
+          "votesRep": 2806,
+          "votesDem": 712,
+          "votesTotal": 3658
+        },
+        "Tillman40": {
+          "color": "#BF1D29",
+          "label": "Stitt +36.1",
+          "margin": 36.09,
+          "votesRep": 1203,
+          "votesDem": 565,
+          "votesTotal": 1850
+        },
+        "Tulsa40": {
+          "color": "#6b7280",
+          "label": "Hofmeister +0.2",
+          "margin": -0.22,
+          "votesRep": 94981,
+          "votesDem": 95396,
+          "votesTotal": 194095
+        },
+        "Wagoner40": {
+          "color": "#BF1D29",
+          "label": "Stitt +32.7",
+          "margin": 32.68,
+          "votesRep": 17434,
+          "votesDem": 8846,
+          "votesTotal": 26870
+        },
+        "Washington40": {
+          "color": "#BF1D29",
+          "label": "Stitt +33.3",
+          "margin": 33.32,
+          "votesRep": 11152,
+          "votesDem": 5578,
+          "votesTotal": 17151
+        },
+        "Washita40": {
+          "color": "#BF1D29",
+          "label": "Stitt +51.6",
+          "margin": 51.58,
+          "votesRep": 2633,
+          "votesDem": 841,
+          "votesTotal": 3575
+        },
+        "Woods40": {
+          "color": "#BF1D29",
+          "label": "Stitt +38.6",
+          "margin": 38.63,
+          "votesRep": 1816,
+          "votesDem": 804,
+          "votesTotal": 2702
+        },
+        "Woodward40": {
+          "color": "#BF1D29",
+          "label": "Stitt +53.1",
+          "margin": 53.12,
+          "votesRep": 4001,
+          "votesDem": 1225,
+          "votesTotal": 5377
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "James Lankford",
+      "candDem": "Madison Horn",
+      "shortRep": "Lankford",
+      "shortDem": "Horn",
+      "partisan": true,
+      "margin": 33.41,
+      "votesRep": 739960,
+      "votesDem": 369370,
+      "votesTotal": 1150732,
+      "regions": {
+        "Adair40": {
+          "color": "#BF1D29",
+          "label": "Lankford +45.3",
+          "margin": 45.27,
+          "votesRep": 3652,
+          "votesDem": 1376,
+          "votesTotal": 5195
+        },
+        "Alfalfa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +79.2",
+          "margin": 79.19,
+          "votesRep": 1490,
+          "votesDem": 173,
+          "votesTotal": 1735
+        },
+        "Atoka40": {
+          "color": "#BF1D29",
+          "label": "Lankford +68.2",
+          "margin": 68.23,
+          "votesRep": 3204,
+          "votesDem": 605,
+          "votesTotal": 3909
+        },
+        "Beaver40": {
+          "color": "#BF1D29",
+          "label": "Lankford +83.1",
+          "margin": 83.15,
+          "votesRep": 1467,
+          "votesDem": 135,
+          "votesTotal": 1681
+        },
+        "Beckham40": {
+          "color": "#BF1D29",
+          "label": "Lankford +69.6",
+          "margin": 69.63,
+          "votesRep": 4508,
+          "votesDem": 807,
+          "votesTotal": 5468
+        },
+        "Blaine40": {
+          "color": "#BF1D29",
+          "label": "Lankford +62.1",
+          "margin": 62.13,
+          "votesRep": 2303,
+          "votesDem": 538,
+          "votesTotal": 2969
+        },
+        "Bryan40": {
+          "color": "#BF1D29",
+          "label": "Lankford +57.9",
+          "margin": 57.92,
+          "votesRep": 8743,
+          "votesDem": 2330,
+          "votesTotal": 11451
+        },
+        "Caddo40": {
+          "color": "#BF1D29",
+          "label": "Lankford +47.4",
+          "margin": 47.4,
+          "votesRep": 5022,
+          "votesDem": 1792,
+          "votesTotal": 7052
+        },
+        "Canadian40": {
+          "color": "#BF1D29",
+          "label": "Lankford +42.3",
+          "margin": 42.31,
+          "votesRep": 34207,
+          "votesDem": 13867,
+          "votesTotal": 50097
+        },
+        "Carter40": {
+          "color": "#BF1D29",
+          "label": "Lankford +52.3",
+          "margin": 52.33,
+          "votesRep": 9829,
+          "votesDem": 3076,
+          "votesTotal": 13381
+        },
+        "Cherokee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +24.6",
+          "margin": 24.6,
+          "votesRep": 8106,
+          "votesDem": 4905,
+          "votesTotal": 13511
+        },
+        "Choctaw40": {
+          "color": "#BF1D29",
+          "label": "Lankford +65.9",
+          "margin": 65.88,
+          "votesRep": 3238,
+          "votesDem": 666,
+          "votesTotal": 4036
+        },
+        "Cimarron40": {
+          "color": "#BF1D29",
+          "label": "Lankford +89.0",
+          "margin": 88.97,
+          "votesRep": 651,
+          "votesDem": 38,
+          "votesTotal": 729
+        },
+        "Cleveland40": {
+          "color": "#BF1D29",
+          "label": "Lankford +12.8",
+          "margin": 12.85,
+          "votesRep": 49400,
+          "votesDem": 38150,
+          "votesTotal": 91085
+        },
+        "Coal40": {
+          "color": "#BF1D29",
+          "label": "Lankford +63.6",
+          "margin": 63.61,
+          "votesRep": 1497,
+          "votesDem": 333,
+          "votesTotal": 1885
+        },
+        "Comanche40": {
+          "color": "#BF1D29",
+          "label": "Lankford +28.9",
+          "margin": 28.9,
+          "votesRep": 14473,
+          "votesDem": 7983,
+          "votesTotal": 23550
+        },
+        "Cotton40": {
+          "color": "#BF1D29",
+          "label": "Lankford +71.2",
+          "margin": 71.2,
+          "votesRep": 1498,
+          "votesDem": 252,
+          "votesTotal": 1843
+        },
+        "Craig40": {
+          "color": "#BF1D29",
+          "label": "Lankford +54.8",
+          "margin": 54.79,
+          "votesRep": 3338,
+          "votesDem": 975,
+          "votesTotal": 4472
+        },
+        "Creek40": {
+          "color": "#BF1D29",
+          "label": "Lankford +53.9",
+          "margin": 53.86,
+          "votesRep": 16482,
+          "votesDem": 4942,
+          "votesTotal": 22303
+        },
+        "Custer40": {
+          "color": "#BF1D29",
+          "label": "Lankford +56.9",
+          "margin": 56.86,
+          "votesRep": 5698,
+          "votesDem": 1567,
+          "votesTotal": 7493
+        },
+        "Delaware40": {
+          "color": "#BF1D29",
+          "label": "Lankford +57.5",
+          "margin": 57.52,
+          "votesRep": 10101,
+          "votesDem": 2724,
+          "votesTotal": 13191
+        },
+        "Dewey40": {
+          "color": "#BF1D29",
+          "label": "Lankford +81.1",
+          "margin": 81.11,
+          "votesRep": 1534,
+          "votesDem": 160,
+          "votesTotal": 1764
+        },
+        "Ellis40": {
+          "color": "#BF1D29",
+          "label": "Lankford +79.0",
+          "margin": 79.02,
+          "votesRep": 1297,
+          "votesDem": 152,
+          "votesTotal": 1486
+        },
+        "Garfield40": {
+          "color": "#BF1D29",
+          "label": "Lankford +57.5",
+          "margin": 57.49,
+          "votesRep": 12215,
+          "votesDem": 3297,
+          "votesTotal": 16186
+        },
+        "Garvin40": {
+          "color": "#BF1D29",
+          "label": "Lankford +61.2",
+          "margin": 61.22,
+          "votesRep": 6314,
+          "votesDem": 1519,
+          "votesTotal": 8108
+        },
+        "Grady40": {
+          "color": "#BF1D29",
+          "label": "Lankford +60.9",
+          "margin": 60.92,
+          "votesRep": 13847,
+          "votesDem": 3363,
+          "votesTotal": 17798
+        },
+        "Grant40": {
+          "color": "#BF1D29",
+          "label": "Lankford +72.9",
+          "margin": 72.91,
+          "votesRep": 1321,
+          "votesDem": 207,
+          "votesTotal": 1596
+        },
+        "Greer40": {
+          "color": "#BF1D29",
+          "label": "Lankford +62.6",
+          "margin": 62.64,
+          "votesRep": 1049,
+          "votesDem": 241,
+          "votesTotal": 1342
+        },
+        "Harmon40": {
+          "color": "#BF1D29",
+          "label": "Lankford +64.5",
+          "margin": 64.47,
+          "votesRep": 523,
+          "votesDem": 113,
+          "votesTotal": 647
+        },
+        "Harper40": {
+          "color": "#BF1D29",
+          "label": "Lankford +80.0",
+          "margin": 79.98,
+          "votesRep": 998,
+          "votesDem": 111,
+          "votesTotal": 1166
+        },
+        "Haskell40": {
+          "color": "#BF1D29",
+          "label": "Lankford +61.7",
+          "margin": 61.73,
+          "votesRep": 2675,
+          "votesDem": 633,
+          "votesTotal": 3385
+        },
+        "Hughes40": {
+          "color": "#BF1D29",
+          "label": "Lankford +57.4",
+          "margin": 57.38,
+          "votesRep": 2666,
+          "votesDem": 722,
+          "votesTotal": 3538
+        },
+        "Jackson40": {
+          "color": "#BF1D29",
+          "label": "Lankford +65.5",
+          "margin": 65.48,
+          "votesRep": 4372,
+          "votesDem": 912,
+          "votesTotal": 5497
+        },
+        "Jefferson40": {
+          "color": "#BF1D29",
+          "label": "Lankford +67.0",
+          "margin": 67.01,
+          "votesRep": 1281,
+          "votesDem": 253,
+          "votesTotal": 1608
+        },
+        "Johnston40": {
+          "color": "#BF1D29",
+          "label": "Lankford +65.8",
+          "margin": 65.77,
+          "votesRep": 2373,
+          "votesDem": 490,
+          "votesTotal": 2958
+        },
+        "Kay40": {
+          "color": "#BF1D29",
+          "label": "Lankford +49.5",
+          "margin": 49.48,
+          "votesRep": 8993,
+          "votesDem": 3039,
+          "votesTotal": 12506
+        },
+        "Kingfisher40": {
+          "color": "#BF1D29",
+          "label": "Lankford +73.3",
+          "margin": 73.26,
+          "votesRep": 4062,
+          "votesDem": 627,
+          "votesTotal": 4875
+        },
+        "Kiowa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +58.9",
+          "margin": 58.87,
+          "votesRep": 1916,
+          "votesDem": 496,
+          "votesTotal": 2458
+        },
+        "Latimer40": {
+          "color": "#BF1D29",
+          "label": "Lankford +59.0",
+          "margin": 59.02,
+          "votesRep": 2332,
+          "votesDem": 601,
+          "votesTotal": 3057
+        },
+        "Le Flore40": {
+          "color": "#BF1D29",
+          "label": "Lankford +61.8",
+          "margin": 61.85,
+          "votesRep": 9469,
+          "votesDem": 2232,
+          "votesTotal": 12105
+        },
+        "Lincoln40": {
+          "color": "#BF1D29",
+          "label": "Lankford +62.7",
+          "margin": 62.74,
+          "votesRep": 8648,
+          "votesDem": 1980,
+          "votesTotal": 11084
+        },
+        "Logan40": {
+          "color": "#BF1D29",
+          "label": "Lankford +51.1",
+          "margin": 51.09,
+          "votesRep": 12310,
+          "votesDem": 3985,
+          "votesTotal": 16979
+        },
+        "Love40": {
+          "color": "#BF1D29",
+          "label": "Lankford +64.3",
+          "margin": 64.26,
+          "votesRep": 2174,
+          "votesDem": 473,
+          "votesTotal": 2735
+        },
+        "Major40": {
+          "color": "#BF1D29",
+          "label": "Lankford +81.4",
+          "margin": 81.45,
+          "votesRep": 2328,
+          "votesDem": 238,
+          "votesTotal": 2690
+        },
+        "Marshall40": {
+          "color": "#BF1D29",
+          "label": "Lankford +63.1",
+          "margin": 63.11,
+          "votesRep": 3484,
+          "votesDem": 788,
+          "votesTotal": 4388
+        },
+        "Mayes40": {
+          "color": "#BF1D29",
+          "label": "Lankford +52.9",
+          "margin": 52.91,
+          "votesRep": 9259,
+          "votesDem": 2851,
+          "votesTotal": 12627
+        },
+        "McClain40": {
+          "color": "#BF1D29",
+          "label": "Lankford +58.8",
+          "margin": 58.81,
+          "votesRep": 11520,
+          "votesDem": 2988,
+          "votesTotal": 15028
+        },
+        "McCurtain40": {
+          "color": "#BF1D29",
+          "label": "Lankford +66.7",
+          "margin": 66.73,
+          "votesRep": 6644,
+          "votesDem": 1326,
+          "votesTotal": 8230
+        },
+        "McIntosh40": {
+          "color": "#BF1D29",
+          "label": "Lankford +46.5",
+          "margin": 46.48,
+          "votesRep": 4587,
+          "votesDem": 1676,
+          "votesTotal": 6444
+        },
+        "Murray40": {
+          "color": "#BF1D29",
+          "label": "Lankford +59.1",
+          "margin": 59.12,
+          "votesRep": 3242,
+          "votesDem": 833,
+          "votesTotal": 4242
+        },
+        "Muskogee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +34.2",
+          "margin": 34.2,
+          "votesRep": 11504,
+          "votesDem": 5641,
+          "votesTotal": 17764
+        },
+        "Noble40": {
+          "color": "#BF1D29",
+          "label": "Lankford +57.0",
+          "margin": 57.02,
+          "votesRep": 2864,
+          "votesDem": 784,
+          "votesTotal": 3811
+        },
+        "Nowata40": {
+          "color": "#BF1D29",
+          "label": "Lankford +63.8",
+          "margin": 63.8,
+          "votesRep": 2611,
+          "votesDem": 577,
+          "votesTotal": 3312
+        },
+        "Okfuskee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +48.3",
+          "margin": 48.29,
+          "votesRep": 2085,
+          "votesDem": 727,
+          "votesTotal": 2937
+        },
+        "Oklahoma40": {
+          "color": "#FF8B98",
+          "label": "Lankford +4.5",
+          "margin": 4.51,
+          "votesRep": 112093,
+          "votesDem": 102417,
+          "votesTotal": 221996
+        },
+        "Okmulgee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +36.5",
+          "margin": 36.5,
+          "votesRep": 6977,
+          "votesDem": 3246,
+          "votesTotal": 10619
+        },
+        "Osage40": {
+          "color": "#BF1D29",
+          "label": "Lankford +37.6",
+          "margin": 37.58,
+          "votesRep": 9987,
+          "votesDem": 4531,
+          "votesTotal": 15078
+        },
+        "Ottawa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +50.1",
+          "margin": 50.05,
+          "votesRep": 5534,
+          "votesDem": 1842,
+          "votesTotal": 7670
+        },
+        "Pawnee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +55.1",
+          "margin": 55.07,
+          "votesRep": 3752,
+          "votesDem": 1087,
+          "votesTotal": 5049
+        },
+        "Payne40": {
+          "color": "#BF1D29",
+          "label": "Lankford +23.3",
+          "margin": 23.27,
+          "votesRep": 13121,
+          "votesDem": 8167,
+          "votesTotal": 22098
+        },
+        "Pittsburg40": {
+          "color": "#BF1D29",
+          "label": "Lankford +53.8",
+          "margin": 53.8,
+          "votesRep": 9450,
+          "votesDem": 2839,
+          "votesTotal": 12671
+        },
+        "Pontotoc40": {
+          "color": "#BF1D29",
+          "label": "Lankford +39.9",
+          "margin": 39.9,
+          "votesRep": 7539,
+          "votesDem": 3239,
+          "votesTotal": 11191
+        },
+        "Pottawatomie40": {
+          "color": "#BF1D29",
+          "label": "Lankford +45.8",
+          "margin": 45.81,
+          "votesRep": 14484,
+          "votesDem": 5383,
+          "votesTotal": 20684
+        },
+        "Pushmataha40": {
+          "color": "#BF1D29",
+          "label": "Lankford +66.6",
+          "margin": 66.62,
+          "votesRep": 2656,
+          "votesDem": 532,
+          "votesTotal": 3282
+        },
+        "Roger Mills40": {
+          "color": "#BF1D29",
+          "label": "Lankford +81.1",
+          "margin": 81.08,
+          "votesRep": 1139,
+          "votesDem": 119,
+          "votesTotal": 1314
+        },
+        "Rogers40": {
+          "color": "#BF1D29",
+          "label": "Lankford +53.8",
+          "margin": 53.82,
+          "votesRep": 25065,
+          "votesDem": 7525,
+          "votesTotal": 33876
+        },
+        "Seminole40": {
+          "color": "#BF1D29",
+          "label": "Lankford +47.7",
+          "margin": 47.66,
+          "votesRep": 4184,
+          "votesDem": 1483,
+          "votesTotal": 5858
+        },
+        "Sequoyah40": {
+          "color": "#BF1D29",
+          "label": "Lankford +55.0",
+          "margin": 55.04,
+          "votesRep": 7669,
+          "votesDem": 2224,
+          "votesTotal": 10244
+        },
+        "Stephens40": {
+          "color": "#BF1D29",
+          "label": "Lankford +64.0",
+          "margin": 63.99,
+          "votesRep": 10292,
+          "votesDem": 2260,
+          "votesTotal": 13107
+        },
+        "Texas40": {
+          "color": "#BF1D29",
+          "label": "Lankford +73.9",
+          "margin": 73.9,
+          "votesRep": 3018,
+          "votesDem": 453,
+          "votesTotal": 3652
+        },
+        "Tillman40": {
+          "color": "#BF1D29",
+          "label": "Lankford +62.8",
+          "margin": 62.8,
+          "votesRep": 1444,
+          "votesDem": 330,
+          "votesTotal": 1844
+        },
+        "Tulsa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +16.3",
+          "margin": 16.33,
+          "votesRep": 108757,
+          "votesDem": 78231,
+          "votesTotal": 193538
+        },
+        "Wagoner40": {
+          "color": "#BF1D29",
+          "label": "Lankford +49.6",
+          "margin": 49.61,
+          "votesRep": 19333,
+          "votesDem": 6511,
+          "votesTotal": 26823
+        },
+        "Washington40": {
+          "color": "#BF1D29",
+          "label": "Lankford +51.3",
+          "margin": 51.33,
+          "votesRep": 12470,
+          "votesDem": 4010,
+          "votesTotal": 17098
+        },
+        "Washita40": {
+          "color": "#BF1D29",
+          "label": "Lankford +73.1",
+          "margin": 73.12,
+          "votesRep": 2995,
+          "votesDem": 465,
+          "votesTotal": 3571
+        },
+        "Woods40": {
+          "color": "#BF1D29",
+          "label": "Lankford +64.2",
+          "margin": 64.23,
+          "votesRep": 2149,
+          "votesDem": 468,
+          "votesTotal": 2699
+        },
+        "Woodward40": {
+          "color": "#BF1D29",
+          "label": "Lankford +71.5",
+          "margin": 71.51,
+          "votesRep": 4448,
+          "votesDem": 739,
+          "votesTotal": 5383
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Kevin Stitt",
+      "candDem": "Drew Edmondson",
+      "shortRep": "Stitt",
+      "shortDem": "Edmondson",
+      "partisan": true,
+      "margin": 12.54,
+      "votesRep": 644579,
+      "votesDem": 500973,
+      "votesTotal": 1186385,
+      "regions": {
+        "Adair40": {
+          "color": "#BF1D29",
+          "label": "Stitt +29.2",
+          "margin": 29.24,
+          "votesRep": 3187,
+          "votesDem": 1745,
+          "votesTotal": 5173
+        },
+        "Alfalfa40": {
+          "color": "#BF1D29",
+          "label": "Stitt +54.6",
+          "margin": 54.64,
+          "votesRep": 1333,
+          "votesDem": 391,
+          "votesTotal": 1801
+        },
+        "Atoka40": {
+          "color": "#BF1D29",
+          "label": "Stitt +41.4",
+          "margin": 41.43,
+          "votesRep": 2789,
+          "votesDem": 1155,
+          "votesTotal": 4039
+        },
+        "Beaver40": {
+          "color": "#BF1D29",
+          "label": "Stitt +68.5",
+          "margin": 68.48,
+          "votesRep": 1454,
+          "votesDem": 272,
+          "votesTotal": 1799
+        },
+        "Beckham40": {
+          "color": "#BF1D29",
+          "label": "Stitt +48.8",
+          "margin": 48.84,
+          "votesRep": 4061,
+          "votesDem": 1396,
+          "votesTotal": 5705
+        },
+        "Blaine40": {
+          "color": "#BF1D29",
+          "label": "Stitt +37.2",
+          "margin": 37.17,
+          "votesRep": 1941,
+          "votesDem": 889,
+          "votesTotal": 2953
+        },
+        "Bryan40": {
+          "color": "#BF1D29",
+          "label": "Stitt +32.2",
+          "margin": 32.18,
+          "votesRep": 7301,
+          "votesDem": 3746,
+          "votesTotal": 11349
+        },
+        "Caddo40": {
+          "color": "#BF1D29",
+          "label": "Stitt +14.2",
+          "margin": 14.16,
+          "votesRep": 4047,
+          "votesDem": 3043,
+          "votesTotal": 7362
+        },
+        "Canadian40": {
+          "color": "#BF1D29",
+          "label": "Stitt +24.2",
+          "margin": 24.16,
+          "votesRep": 27410,
+          "votesDem": 16744,
+          "votesTotal": 45951
+        },
+        "Carter40": {
+          "color": "#BF1D29",
+          "label": "Stitt +34.3",
+          "margin": 34.32,
+          "votesRep": 9090,
+          "votesDem": 4445,
+          "votesTotal": 14004
+        },
+        "Cherokee40": {
+          "color": "#8AAFFF",
+          "label": "Edmondson +4.8",
+          "margin": -4.76,
+          "votesRep": 6336,
+          "votesDem": 6970,
+          "votesTotal": 13901
+        },
+        "Choctaw40": {
+          "color": "#BF1D29",
+          "label": "Stitt +34.4",
+          "margin": 34.39,
+          "votesRep": 2634,
+          "votesDem": 1286,
+          "votesTotal": 4035
+        },
+        "Cimarron40": {
+          "color": "#BF1D29",
+          "label": "Stitt +74.9",
+          "margin": 74.87,
+          "votesRep": 682,
+          "votesDem": 98,
+          "votesTotal": 799
+        },
+        "Cleveland40": {
+          "color": "#8AAFFF",
+          "label": "Edmondson +4.9",
+          "margin": -4.93,
+          "votesRep": 42268,
+          "votesDem": 46648,
+          "votesTotal": 92147
+        },
+        "Coal40": {
+          "color": "#BF1D29",
+          "label": "Stitt +26.2",
+          "margin": 26.2,
+          "votesRep": 1127,
+          "votesDem": 659,
+          "votesTotal": 1846
+        },
+        "Comanche40": {
+          "color": "#FF8B98",
+          "label": "Stitt +3.3",
+          "margin": 3.31,
+          "votesRep": 13180,
+          "votesDem": 12336,
+          "votesTotal": 26543
+        },
+        "Cotton40": {
+          "color": "#BF1D29",
+          "label": "Stitt +37.4",
+          "margin": 37.38,
+          "votesRep": 1312,
+          "votesDem": 598,
+          "votesTotal": 2005
+        },
+        "Craig40": {
+          "color": "#BF1D29",
+          "label": "Stitt +25.1",
+          "margin": 25.13,
+          "votesRep": 2863,
+          "votesDem": 1713,
+          "votesTotal": 4740
+        },
+        "Creek40": {
+          "color": "#BF1D29",
+          "label": "Stitt +35.7",
+          "margin": 35.69,
+          "votesRep": 14870,
+          "votesDem": 7048,
+          "votesTotal": 22693
+        },
+        "Custer40": {
+          "color": "#BF1D29",
+          "label": "Stitt +31.7",
+          "margin": 31.73,
+          "votesRep": 5239,
+          "votesDem": 2715,
+          "votesTotal": 8288
+        },
+        "Delaware40": {
+          "color": "#BF1D29",
+          "label": "Stitt +35.0",
+          "margin": 34.99,
+          "votesRep": 8543,
+          "votesDem": 4114,
+          "votesTotal": 13101
+        },
+        "Dewey40": {
+          "color": "#BF1D29",
+          "label": "Stitt +63.4",
+          "margin": 63.35,
+          "votesRep": 1404,
+          "votesDem": 315,
+          "votesTotal": 1768
+        },
+        "Ellis40": {
+          "color": "#BF1D29",
+          "label": "Stitt +66.8",
+          "margin": 66.81,
+          "votesRep": 1186,
+          "votesDem": 236,
+          "votesTotal": 1477
+        },
+        "Garfield40": {
+          "color": "#BF1D29",
+          "label": "Stitt +32.5",
+          "margin": 32.46,
+          "votesRep": 11008,
+          "votesDem": 5613,
+          "votesTotal": 17375
+        },
+        "Garvin40": {
+          "color": "#BF1D29",
+          "label": "Stitt +34.4",
+          "margin": 34.38,
+          "votesRep": 5140,
+          "votesDem": 2510,
+          "votesTotal": 7919
+        },
+        "Grady40": {
+          "color": "#BF1D29",
+          "label": "Stitt +35.8",
+          "margin": 35.81,
+          "votesRep": 11173,
+          "votesDem": 5281,
+          "votesTotal": 17148
+        },
+        "Grant40": {
+          "color": "#BF1D29",
+          "label": "Stitt +53.6",
+          "margin": 53.56,
+          "votesRep": 1250,
+          "votesDem": 378,
+          "votesTotal": 1704
+        },
+        "Greer40": {
+          "color": "#BF1D29",
+          "label": "Stitt +33.7",
+          "margin": 33.71,
+          "votesRep": 946,
+          "votesDem": 469,
+          "votesTotal": 1473
+        },
+        "Harmon40": {
+          "color": "#BF1D29",
+          "label": "Stitt +23.1",
+          "margin": 23.06,
+          "votesRep": 443,
+          "votesDem": 277,
+          "votesTotal": 746
+        },
+        "Harper40": {
+          "color": "#BF1D29",
+          "label": "Stitt +63.2",
+          "margin": 63.17,
+          "votesRep": 948,
+          "votesDem": 214,
+          "votesTotal": 1210
+        },
+        "Haskell40": {
+          "color": "#BF1D29",
+          "label": "Stitt +30.7",
+          "margin": 30.66,
+          "votesRep": 2348,
+          "votesDem": 1246,
+          "votesTotal": 3701
+        },
+        "Hughes40": {
+          "color": "#BF1D29",
+          "label": "Stitt +27.0",
+          "margin": 26.97,
+          "votesRep": 2323,
+          "votesDem": 1336,
+          "votesTotal": 3825
+        },
+        "Jackson40": {
+          "color": "#BF1D29",
+          "label": "Stitt +36.8",
+          "margin": 36.76,
+          "votesRep": 4301,
+          "votesDem": 1989,
+          "votesTotal": 6486
+        },
+        "Jefferson40": {
+          "color": "#BF1D29",
+          "label": "Stitt +44.3",
+          "margin": 44.32,
+          "votesRep": 1099,
+          "votesDem": 424,
+          "votesTotal": 1569
+        },
+        "Johnston40": {
+          "color": "#BF1D29",
+          "label": "Stitt +34.5",
+          "margin": 34.51,
+          "votesRep": 1976,
+          "votesDem": 962,
+          "votesTotal": 3019
+        },
+        "Kay40": {
+          "color": "#BF1D29",
+          "label": "Stitt +26.3",
+          "margin": 26.34,
+          "votesRep": 7859,
+          "votesDem": 4582,
+          "votesTotal": 12989
+        },
+        "Kingfisher40": {
+          "color": "#BF1D29",
+          "label": "Stitt +56.7",
+          "margin": 56.66,
+          "votesRep": 3846,
+          "votesDem": 1064,
+          "votesTotal": 5112
+        },
+        "Kiowa40": {
+          "color": "#BF1D29",
+          "label": "Stitt +25.7",
+          "margin": 25.72,
+          "votesRep": 1645,
+          "votesDem": 972,
+          "votesTotal": 2714
+        },
+        "Latimer40": {
+          "color": "#BF1D29",
+          "label": "Stitt +22.4",
+          "margin": 22.39,
+          "votesRep": 1774,
+          "votesDem": 1125,
+          "votesTotal": 3017
+        },
+        "Le Flore40": {
+          "color": "#BF1D29",
+          "label": "Stitt +28.4",
+          "margin": 28.39,
+          "votesRep": 8009,
+          "votesDem": 4467,
+          "votesTotal": 12803
+        },
+        "Lincoln40": {
+          "color": "#BF1D29",
+          "label": "Stitt +36.4",
+          "margin": 36.36,
+          "votesRep": 7323,
+          "votesDem": 3418,
+          "votesTotal": 11276
+        },
+        "Logan40": {
+          "color": "#BF1D29",
+          "label": "Stitt +29.4",
+          "margin": 29.41,
+          "votesRep": 9847,
+          "votesDem": 5371,
+          "votesTotal": 15859
+        },
+        "Love40": {
+          "color": "#BF1D29",
+          "label": "Stitt +40.4",
+          "margin": 40.37,
+          "votesRep": 1902,
+          "votesDem": 808,
+          "votesTotal": 2769
+        },
+        "Major40": {
+          "color": "#BF1D29",
+          "label": "Stitt +64.5",
+          "margin": 64.49,
+          "votesRep": 2177,
+          "votesDem": 470,
+          "votesTotal": 2746
+        },
+        "Marshall40": {
+          "color": "#BF1D29",
+          "label": "Stitt +37.1",
+          "margin": 37.07,
+          "votesRep": 2943,
+          "votesDem": 1351,
+          "votesTotal": 4415
+        },
+        "Mayes40": {
+          "color": "#BF1D29",
+          "label": "Stitt +26.0",
+          "margin": 25.99,
+          "votesRep": 7837,
+          "votesDem": 4604,
+          "votesTotal": 12927
+        },
+        "McClain40": {
+          "color": "#BF1D29",
+          "label": "Stitt +35.6",
+          "margin": 35.58,
+          "votesRep": 9021,
+          "votesDem": 4286,
+          "votesTotal": 13804
+        },
+        "McCurtain40": {
+          "color": "#BF1D29",
+          "label": "Stitt +40.2",
+          "margin": 40.15,
+          "votesRep": 5178,
+          "votesDem": 2211,
+          "votesTotal": 7567
+        },
+        "McIntosh40": {
+          "color": "#BF1D29",
+          "label": "Stitt +12.9",
+          "margin": 12.93,
+          "votesRep": 3612,
+          "votesDem": 2785,
+          "votesTotal": 6620
+        },
+        "Murray40": {
+          "color": "#BF1D29",
+          "label": "Stitt +31.2",
+          "margin": 31.19,
+          "votesRep": 2751,
+          "votesDem": 1443,
+          "votesTotal": 4369
+        },
+        "Muskogee40": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": -0.01,
+          "votesRep": 9515,
+          "votesDem": 9516,
+          "votesTotal": 19699
+        },
+        "Noble40": {
+          "color": "#BF1D29",
+          "label": "Stitt +34.0",
+          "margin": 34.02,
+          "votesRep": 2543,
+          "votesDem": 1252,
+          "votesTotal": 3984
+        },
+        "Nowata40": {
+          "color": "#BF1D29",
+          "label": "Stitt +39.1",
+          "margin": 39.07,
+          "votesRep": 2319,
+          "votesDem": 1016,
+          "votesTotal": 3506
+        },
+        "Okfuskee40": {
+          "color": "#BF1D29",
+          "label": "Stitt +17.1",
+          "margin": 17.07,
+          "votesRep": 1752,
+          "votesDem": 1241,
+          "votesTotal": 3104
+        },
+        "Oklahoma40": {
+          "color": "#1C408C",
+          "label": "Edmondson +12.3",
+          "margin": -12.26,
+          "votesRep": 98994,
+          "votesDem": 126667,
+          "votesTotal": 233599
+        },
+        "Okmulgee40": {
+          "color": "#FF5865",
+          "label": "Stitt +9.3",
+          "margin": 9.32,
+          "votesRep": 5846,
+          "votesDem": 4849,
+          "votesTotal": 11038
+        },
+        "Osage40": {
+          "color": "#BF1D29",
+          "label": "Stitt +16.4",
+          "margin": 16.36,
+          "votesRep": 8629,
+          "votesDem": 6202,
+          "votesTotal": 15355
+        },
+        "Ottawa40": {
+          "color": "#BF1D29",
+          "label": "Stitt +15.1",
+          "margin": 15.14,
+          "votesRep": 4752,
+          "votesDem": 3502,
+          "votesTotal": 8525
+        },
+        "Pawnee40": {
+          "color": "#BF1D29",
+          "label": "Stitt +30.3",
+          "margin": 30.31,
+          "votesRep": 3076,
+          "votesDem": 1645,
+          "votesTotal": 4928
+        },
+        "Payne40": {
+          "color": "#FF8B98",
+          "label": "Stitt +2.5",
+          "margin": 2.49,
+          "votesRep": 11193,
+          "votesDem": 10650,
+          "votesTotal": 22757
+        },
+        "Pittsburg40": {
+          "color": "#BF1D29",
+          "label": "Stitt +24.5",
+          "margin": 24.51,
+          "votesRep": 7986,
+          "votesDem": 4842,
+          "votesTotal": 13385
+        },
+        "Pontotoc40": {
+          "color": "#FF5865",
+          "label": "Stitt +8.2",
+          "margin": 8.16,
+          "votesRep": 6233,
+          "votesDem": 5293,
+          "votesTotal": 11889
+        },
+        "Pottawatomie40": {
+          "color": "#BF1D29",
+          "label": "Stitt +19.4",
+          "margin": 19.43,
+          "votesRep": 11996,
+          "votesDem": 8093,
+          "votesTotal": 21022
+        },
+        "Pushmataha40": {
+          "color": "#BF1D29",
+          "label": "Stitt +31.0",
+          "margin": 31.05,
+          "votesRep": 2102,
+          "votesDem": 1106,
+          "votesTotal": 3333
+        },
+        "Roger Mills40": {
+          "color": "#BF1D29",
+          "label": "Stitt +60.7",
+          "margin": 60.69,
+          "votesRep": 1157,
+          "votesDem": 283,
+          "votesTotal": 1500
+        },
+        "Rogers40": {
+          "color": "#BF1D29",
+          "label": "Stitt +33.8",
+          "margin": 33.83,
+          "votesRep": 21450,
+          "votesDem": 10605,
+          "votesTotal": 33124
+        },
+        "Seminole40": {
+          "color": "#BF1D29",
+          "label": "Stitt +17.1",
+          "margin": 17.08,
+          "votesRep": 3681,
+          "votesDem": 2607,
+          "votesTotal": 6574
+        },
+        "Sequoyah40": {
+          "color": "#BF1D29",
+          "label": "Stitt +19.8",
+          "margin": 19.82,
+          "votesRep": 6695,
+          "votesDem": 4480,
+          "votesTotal": 11482
+        },
+        "Stephens40": {
+          "color": "#BF1D29",
+          "label": "Stitt +39.1",
+          "margin": 39.07,
+          "votesRep": 9314,
+          "votesDem": 4081,
+          "votesTotal": 13802
+        },
+        "Texas40": {
+          "color": "#BF1D29",
+          "label": "Stitt +55.2",
+          "margin": 55.2,
+          "votesRep": 3097,
+          "votesDem": 894,
+          "votesTotal": 4138
+        },
+        "Tillman40": {
+          "color": "#BF1D29",
+          "label": "Stitt +29.5",
+          "margin": 29.49,
+          "votesRep": 1315,
+          "votesDem": 716,
+          "votesTotal": 2091
+        },
+        "Tulsa40": {
+          "color": "#FF8B98",
+          "label": "Stitt +3.1",
+          "margin": 3.13,
+          "votesRep": 101518,
+          "votesDem": 95350,
+          "votesTotal": 202584
+        },
+        "Wagoner40": {
+          "color": "#BF1D29",
+          "label": "Stitt +30.5",
+          "margin": 30.53,
+          "votesRep": 16346,
+          "votesDem": 8700,
+          "votesTotal": 25947
+        },
+        "Washington40": {
+          "color": "#BF1D29",
+          "label": "Stitt +30.2",
+          "margin": 30.21,
+          "votesRep": 11226,
+          "votesDem": 6017,
+          "votesTotal": 17831
+        },
+        "Washita40": {
+          "color": "#BF1D29",
+          "label": "Stitt +46.7",
+          "margin": 46.74,
+          "votesRep": 2653,
+          "votesDem": 963,
+          "votesTotal": 3805
+        },
+        "Woods40": {
+          "color": "#BF1D29",
+          "label": "Stitt +41.5",
+          "margin": 41.53,
+          "votesRep": 1929,
+          "votesDem": 797,
+          "votesTotal": 2844
+        },
+        "Woodward40": {
+          "color": "#BF1D29",
+          "label": "Stitt +51.4",
+          "margin": 51.42,
+          "votesRep": 4326,
+          "votesDem": 1388,
+          "votesTotal": 5898
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "James Lankford",
+      "candDem": "Mike Workman",
+      "shortRep": "Lankford",
+      "shortDem": "Workman",
+      "partisan": true,
+      "margin": 46.75,
+      "votesRep": 980892,
+      "votesDem": 355911,
+      "votesTotal": 1448047,
+      "regions": {
+        "Adair40": {
+          "color": "#BF1D29",
+          "label": "Lankford +49.3",
+          "margin": 49.35,
+          "votesRep": 4576,
+          "votesDem": 1552,
+          "votesTotal": 6466
+        },
+        "Alfalfa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +84.3",
+          "margin": 84.29,
+          "votesRep": 1982,
+          "votesDem": 169,
+          "votesTotal": 2262
+        },
+        "Atoka40": {
+          "color": "#BF1D29",
+          "label": "Lankford +48.8",
+          "margin": 48.77,
+          "votesRep": 3441,
+          "votesDem": 1185,
+          "votesTotal": 4922
+        },
+        "Beaver40": {
+          "color": "#BF1D29",
+          "label": "Lankford +84.0",
+          "margin": 83.97,
+          "votesRep": 1940,
+          "votesDem": 169,
+          "votesTotal": 2222
+        },
+        "Beckham40": {
+          "color": "#BF1D29",
+          "label": "Lankford +75.7",
+          "margin": 75.75,
+          "votesRep": 6305,
+          "votesDem": 870,
+          "votesTotal": 7540
+        },
+        "Blaine40": {
+          "color": "#BF1D29",
+          "label": "Lankford +69.3",
+          "margin": 69.32,
+          "votesRep": 3041,
+          "votesDem": 551,
+          "votesTotal": 3797
+        },
+        "Bryan40": {
+          "color": "#BF1D29",
+          "label": "Lankford +52.7",
+          "margin": 52.68,
+          "votesRep": 9566,
+          "votesDem": 2965,
+          "votesTotal": 13584
+        },
+        "Caddo40": {
+          "color": "#BF1D29",
+          "label": "Lankford +55.5",
+          "margin": 55.53,
+          "votesRep": 6894,
+          "votesDem": 1971,
+          "votesTotal": 9343
+        },
+        "Canadian40": {
+          "color": "#BF1D29",
+          "label": "Lankford +64.8",
+          "margin": 64.84,
+          "votesRep": 42127,
+          "votesDem": 8987,
+          "votesTotal": 55275
+        },
+        "Carter40": {
+          "color": "#BF1D29",
+          "label": "Lankford +52.5",
+          "margin": 52.49,
+          "votesRep": 12935,
+          "votesDem": 4030,
+          "votesTotal": 18378
+        },
+        "Cherokee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +30.5",
+          "margin": 30.54,
+          "votesRep": 9898,
+          "votesDem": 5267,
+          "votesTotal": 16436
+        },
+        "Choctaw40": {
+          "color": "#BF1D29",
+          "label": "Lankford +48.6",
+          "margin": 48.56,
+          "votesRep": 3694,
+          "votesDem": 1279,
+          "votesTotal": 5315
+        },
+        "Cimarron40": {
+          "color": "#BF1D29",
+          "label": "Lankford +84.3",
+          "margin": 84.29,
+          "votesRep": 903,
+          "votesDem": 77,
+          "votesTotal": 1063
+        },
+        "Cleveland40": {
+          "color": "#BF1D29",
+          "label": "Lankford +39.9",
+          "margin": 39.93,
+          "votesRep": 67796,
+          "votesDem": 29105,
+          "votesTotal": 109612
+        },
+        "Coal40": {
+          "color": "#BF1D29",
+          "label": "Lankford +42.7",
+          "margin": 42.66,
+          "votesRep": 1525,
+          "votesDem": 613,
+          "votesTotal": 2307
+        },
+        "Comanche40": {
+          "color": "#BF1D29",
+          "label": "Lankford +34.9",
+          "margin": 34.94,
+          "votesRep": 20022,
+          "votesDem": 9653,
+          "votesTotal": 32444
+        },
+        "Cotton40": {
+          "color": "#BF1D29",
+          "label": "Lankford +67.7",
+          "margin": 67.72,
+          "votesRep": 2011,
+          "votesDem": 387,
+          "votesTotal": 2575
+        },
+        "Craig40": {
+          "color": "#BF1D29",
+          "label": "Lankford +54.8",
+          "margin": 54.77,
+          "votesRep": 4195,
+          "votesDem": 1226,
+          "votesTotal": 5725
+        },
+        "Creek40": {
+          "color": "#BF1D29",
+          "label": "Lankford +60.9",
+          "margin": 60.88,
+          "votesRep": 21506,
+          "votesDem": 5229,
+          "votesTotal": 28603
+        },
+        "Custer40": {
+          "color": "#BF1D29",
+          "label": "Lankford +67.3",
+          "margin": 67.26,
+          "votesRep": 8317,
+          "votesDem": 1628,
+          "votesTotal": 10544
+        },
+        "Delaware40": {
+          "color": "#BF1D29",
+          "label": "Lankford +55.0",
+          "margin": 55.04,
+          "votesRep": 11382,
+          "votesDem": 3301,
+          "votesTotal": 15577
+        },
+        "Dewey40": {
+          "color": "#BF1D29",
+          "label": "Lankford +82.9",
+          "margin": 82.9,
+          "votesRep": 1979,
+          "votesDem": 185,
+          "votesTotal": 2240
+        },
+        "Ellis40": {
+          "color": "#BF1D29",
+          "label": "Lankford +84.6",
+          "margin": 84.57,
+          "votesRep": 1615,
+          "votesDem": 135,
+          "votesTotal": 1827
+        },
+        "Garfield40": {
+          "color": "#BF1D29",
+          "label": "Lankford +66.3",
+          "margin": 66.29,
+          "votesRep": 16776,
+          "votesDem": 3401,
+          "votesTotal": 21690
+        },
+        "Garvin40": {
+          "color": "#BF1D29",
+          "label": "Lankford +65.8",
+          "margin": 65.82,
+          "votesRep": 8170,
+          "votesDem": 1684,
+          "votesTotal": 10500
+        },
+        "Grady40": {
+          "color": "#BF1D29",
+          "label": "Lankford +69.2",
+          "margin": 69.18,
+          "votesRep": 17667,
+          "votesDem": 3218,
+          "votesTotal": 22248
+        },
+        "Grant40": {
+          "color": "#BF1D29",
+          "label": "Lankford +80.2",
+          "margin": 80.17,
+          "votesRep": 1863,
+          "votesDem": 205,
+          "votesTotal": 2187
+        },
+        "Greer40": {
+          "color": "#BF1D29",
+          "label": "Lankford +64.4",
+          "margin": 64.44,
+          "votesRep": 1466,
+          "votesDem": 317,
+          "votesTotal": 1880
+        },
+        "Harmon40": {
+          "color": "#BF1D29",
+          "label": "Lankford +59.7",
+          "margin": 59.65,
+          "votesRep": 736,
+          "votesDem": 186,
+          "votesTotal": 958
+        },
+        "Harper40": {
+          "color": "#BF1D29",
+          "label": "Lankford +86.6",
+          "margin": 86.63,
+          "votesRep": 1354,
+          "votesDem": 97,
+          "votesTotal": 1509
+        },
+        "Haskell40": {
+          "color": "#BF1D29",
+          "label": "Lankford +51.0",
+          "margin": 50.96,
+          "votesRep": 3368,
+          "votesDem": 1094,
+          "votesTotal": 4669
+        },
+        "Hughes40": {
+          "color": "#BF1D29",
+          "label": "Lankford +58.3",
+          "margin": 58.34,
+          "votesRep": 3379,
+          "votesDem": 889,
+          "votesTotal": 4501
+        },
+        "Jackson40": {
+          "color": "#BF1D29",
+          "label": "Lankford +66.3",
+          "margin": 66.3,
+          "votesRep": 6064,
+          "votesDem": 1229,
+          "votesTotal": 7756
+        },
+        "Jefferson40": {
+          "color": "#BF1D29",
+          "label": "Lankford +59.5",
+          "margin": 59.53,
+          "votesRep": 1711,
+          "votesDem": 434,
+          "votesTotal": 2291
+        },
+        "Johnston40": {
+          "color": "#BF1D29",
+          "label": "Lankford +45.0",
+          "margin": 45.03,
+          "votesRep": 2636,
+          "votesDem": 999,
+          "votesTotal": 3917
+        },
+        "Kay40": {
+          "color": "#BF1D29",
+          "label": "Lankford +59.3",
+          "margin": 59.3,
+          "votesRep": 12310,
+          "votesDem": 3145,
+          "votesTotal": 16719
+        },
+        "Kingfisher40": {
+          "color": "#BF1D29",
+          "label": "Lankford +82.1",
+          "margin": 82.08,
+          "votesRep": 5323,
+          "votesDem": 524,
+          "votesTotal": 6123
+        },
+        "Kiowa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +62.1",
+          "margin": 62.11,
+          "votesRep": 2717,
+          "votesDem": 635,
+          "votesTotal": 3483
+        },
+        "Latimer40": {
+          "color": "#BF1D29",
+          "label": "Lankford +48.7",
+          "margin": 48.74,
+          "votesRep": 2803,
+          "votesDem": 966,
+          "votesTotal": 3997
+        },
+        "Le Flore40": {
+          "color": "#BF1D29",
+          "label": "Lankford +48.3",
+          "margin": 48.29,
+          "votesRep": 11611,
+          "votesDem": 4049,
+          "votesTotal": 16865
+        },
+        "Lincoln40": {
+          "color": "#BF1D29",
+          "label": "Lankford +69.6",
+          "margin": 69.64,
+          "votesRep": 11215,
+          "votesDem": 2007,
+          "votesTotal": 14063
+        },
+        "Logan40": {
+          "color": "#BF1D29",
+          "label": "Lankford +62.2",
+          "margin": 62.18,
+          "votesRep": 14234,
+          "votesDem": 3319,
+          "votesTotal": 18995
+        },
+        "Love40": {
+          "color": "#BF1D29",
+          "label": "Lankford +50.5",
+          "margin": 50.51,
+          "votesRep": 2600,
+          "votesDem": 855,
+          "votesTotal": 3719
+        },
+        "Major40": {
+          "color": "#BF1D29",
+          "label": "Lankford +86.1",
+          "margin": 86.13,
+          "votesRep": 3032,
+          "votesDem": 226,
+          "votesTotal": 3405
+        },
+        "Marshall40": {
+          "color": "#BF1D29",
+          "label": "Lankford +52.3",
+          "margin": 52.32,
+          "votesRep": 3824,
+          "votesDem": 1197,
+          "votesTotal": 5427
+        },
+        "Mayes40": {
+          "color": "#BF1D29",
+          "label": "Lankford +53.7",
+          "margin": 53.67,
+          "votesRep": 11306,
+          "votesDem": 3409,
+          "votesTotal": 15641
+        },
+        "McClain40": {
+          "color": "#BF1D29",
+          "label": "Lankford +69.8",
+          "margin": 69.81,
+          "votesRep": 13434,
+          "votesDem": 2388,
+          "votesTotal": 16862
+        },
+        "McCurtain40": {
+          "color": "#BF1D29",
+          "label": "Lankford +51.9",
+          "margin": 51.9,
+          "votesRep": 7330,
+          "votesDem": 2321,
+          "votesTotal": 10375
+        },
+        "McIntosh40": {
+          "color": "#BF1D29",
+          "label": "Lankford +42.0",
+          "margin": 42.03,
+          "votesRep": 5299,
+          "votesDem": 2163,
+          "votesTotal": 7904
+        },
+        "Murray40": {
+          "color": "#BF1D29",
+          "label": "Lankford +61.3",
+          "margin": 61.29,
+          "votesRep": 4162,
+          "votesDem": 999,
+          "votesTotal": 5495
+        },
+        "Muskogee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +33.9",
+          "margin": 33.92,
+          "votesRep": 15144,
+          "votesDem": 7472,
+          "votesTotal": 24074
+        },
+        "Noble40": {
+          "color": "#BF1D29",
+          "label": "Lankford +66.8",
+          "margin": 66.84,
+          "votesRep": 3819,
+          "votesDem": 759,
+          "votesTotal": 4849
+        },
+        "Nowata40": {
+          "color": "#BF1D29",
+          "label": "Lankford +57.3",
+          "margin": 57.32,
+          "votesRep": 3115,
+          "votesDem": 845,
+          "votesTotal": 4212
+        },
+        "Okfuskee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +51.0",
+          "margin": 51.04,
+          "votesRep": 2795,
+          "votesDem": 906,
+          "votesTotal": 3921
+        },
+        "Oklahoma40": {
+          "color": "#BF1D29",
+          "label": "Lankford +28.5",
+          "margin": 28.54,
+          "votesRep": 160491,
+          "votesDem": 89222,
+          "votesTotal": 274314
+        },
+        "Okmulgee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +37.5",
+          "margin": 37.48,
+          "votesRep": 8936,
+          "votesDem": 4064,
+          "votesTotal": 13893
+        },
+        "Osage40": {
+          "color": "#BF1D29",
+          "label": "Lankford +41.6",
+          "margin": 41.6,
+          "votesRep": 12469,
+          "votesDem": 5142,
+          "votesTotal": 18886
+        },
+        "Ottawa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +42.8",
+          "margin": 42.8,
+          "votesRep": 6970,
+          "votesDem": 2792,
+          "votesTotal": 10571
+        },
+        "Pawnee40": {
+          "color": "#BF1D29",
+          "label": "Lankford +57.9",
+          "margin": 57.92,
+          "votesRep": 4661,
+          "votesDem": 1242,
+          "votesTotal": 6336
+        },
+        "Payne40": {
+          "color": "#BF1D29",
+          "label": "Lankford +45.0",
+          "margin": 45,
+          "votesRep": 18275,
+          "votesDem": 6932,
+          "votesTotal": 27813
+        },
+        "Pittsburg40": {
+          "color": "#BF1D29",
+          "label": "Lankford +48.4",
+          "margin": 48.36,
+          "votesRep": 11888,
+          "votesDem": 4138,
+          "votesTotal": 17140
+        },
+        "Pontotoc40": {
+          "color": "#BF1D29",
+          "label": "Lankford +48.3",
+          "margin": 48.27,
+          "votesRep": 10173,
+          "votesDem": 3549,
+          "votesTotal": 14757
+        },
+        "Pottawatomie40": {
+          "color": "#BF1D29",
+          "label": "Lankford +61.0",
+          "margin": 61,
+          "votesRep": 19184,
+          "votesDem": 4647,
+          "votesTotal": 25499
+        },
+        "Pushmataha40": {
+          "color": "#BF1D29",
+          "label": "Lankford +51.8",
+          "margin": 51.84,
+          "votesRep": 3061,
+          "votesDem": 971,
+          "votesTotal": 4341
+        },
+        "Roger Mills40": {
+          "color": "#BF1D29",
+          "label": "Lankford +82.9",
+          "margin": 82.87,
+          "votesRep": 1537,
+          "votesDem": 144,
+          "votesTotal": 1747
+        },
+        "Rogers40": {
+          "color": "#BF1D29",
+          "label": "Lankford +63.9",
+          "margin": 63.94,
+          "votesRep": 31194,
+          "votesDem": 6862,
+          "votesTotal": 40773
+        },
+        "Seminole40": {
+          "color": "#BF1D29",
+          "label": "Lankford +55.8",
+          "margin": 55.82,
+          "votesRep": 5897,
+          "votesDem": 1672,
+          "votesTotal": 8049
+        },
+        "Sequoyah40": {
+          "color": "#BF1D29",
+          "label": "Lankford +44.4",
+          "margin": 44.42,
+          "votesRep": 9458,
+          "votesDem": 3640,
+          "votesTotal": 14128
+        },
+        "Stephens40": {
+          "color": "#BF1D29",
+          "label": "Lankford +67.1",
+          "margin": 67.07,
+          "votesRep": 14102,
+          "votesDem": 2780,
+          "votesTotal": 17823
+        },
+        "Texas40": {
+          "color": "#BF1D29",
+          "label": "Lankford +71.0",
+          "margin": 70.95,
+          "votesRep": 4526,
+          "votesDem": 769,
+          "votesTotal": 5750
+        },
+        "Tillman40": {
+          "color": "#BF1D29",
+          "label": "Lankford +54.2",
+          "margin": 54.17,
+          "votesRep": 1941,
+          "votesDem": 577,
+          "votesTotal": 2669
+        },
+        "Tulsa40": {
+          "color": "#BF1D29",
+          "label": "Lankford +36.2",
+          "margin": 36.19,
+          "votesRep": 154406,
+          "votesDem": 72350,
+          "votesTotal": 246208
+        },
+        "Wagoner40": {
+          "color": "#BF1D29",
+          "label": "Lankford +58.5",
+          "margin": 58.47,
+          "votesRep": 23039,
+          "votesDem": 6037,
+          "votesTotal": 31065
+        },
+        "Washington40": {
+          "color": "#BF1D29",
+          "label": "Lankford +59.1",
+          "margin": 59.13,
+          "votesRep": 16445,
+          "votesDem": 4223,
+          "votesTotal": 22182
+        },
+        "Washita40": {
+          "color": "#BF1D29",
+          "label": "Lankford +76.1",
+          "margin": 76.07,
+          "votesRep": 3885,
+          "votesDem": 528,
+          "votesTotal": 4616
+        },
+        "Woods40": {
+          "color": "#BF1D29",
+          "label": "Lankford +76.5",
+          "margin": 76.54,
+          "votesRep": 3040,
+          "votesDem": 404,
+          "votesTotal": 3644
+        },
+        "Woodward40": {
+          "color": "#BF1D29",
+          "label": "Lankford +78.9",
+          "margin": 78.92,
+          "votesRep": 6401,
+          "votesDem": 754,
+          "votesTotal": 7551
+        }
+      }
+    }
+  ]
+}
