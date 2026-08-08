@@ -90,15 +90,22 @@ body {
  * single edge-less blob and the map looks like a solid dark shape with no
  * visible county/district boundaries.
  *
- * We use a small vector-aware stroke width: `vector-effect: non-scaling-stroke`
- * would keep strokes a constant pixel width regardless of zoom. In practice
- * panzoom scales the whole SVG, so we want strokes to scale too (otherwise
- * they get chunky at high zoom); a modest default looks clean at every
- * viewport size.
+ * The width is in device pixels, via `non-scaling-stroke`, because user units
+ * mean something different on every map this app draws. The same SVG is carved
+ * down to a state or to a single city, and `filterSvg` recomputes the viewBox
+ * to fit what survives: 959 units across for the nation, 139 for New York
+ * State, 8.6 for New York City. A fixed user-space width that is a hairline on
+ * the first is a quarter of a borough on the last, which is what a city map
+ * looked like — thick black bands between five shapes.
+ *
+ * It also stops the borders thickening as the host zooms in. A stroke that
+ * scales with the transform means the closer you look at a county, the more of
+ * it is outline.
  */
 [map-type='regions'] path {
 	stroke: rgb(from var(--color-base-100) r g b / 0.9);
-	stroke-width: 0.35;
+	stroke-width: 1;
+	vector-effect: non-scaling-stroke;
 	stroke-linejoin: round;
 }
 

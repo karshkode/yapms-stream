@@ -114,12 +114,24 @@ export function applyStreamColors(
 
 		node.style.fill = fill;
 
-		// Outline the selected region. stroke-width is in user-space units so we
-		// key off the SVG's viewBox height to keep the outline visible at any zoom.
+		// Outline the selected region, at a width measured in screen pixels.
+		//
+		// This used to be 1.25 in user-space units, which is a hairline on the
+		// national map — 959 units across — and catastrophic on anything smaller.
+		// New York City's map is 8.6 units wide, so 1.25 was fifteen percent of the
+		// frame: centred on a shape as narrow as Manhattan the stroke swallowed the
+		// borough whole and the map showed a yellow blob where the selection was.
+		// The same width also thickened with the zoom, so drilling into a county
+		// grew the outline instead of leaving it alone.
+		//
+		// `non-scaling-stroke` takes the width out of user space entirely: it means
+		// device pixels, so the highlight is the same weight on a city map, a state
+		// map and a national one, at every zoom level.
 		const isSelected = selectedAttr && attr === selectedAttr;
 		if (isSelected) {
 			node.style.stroke = '#f5c518';
-			node.style.strokeWidth = '1.25';
+			node.style.strokeWidth = '3';
+			node.style.vectorEffect = 'non-scaling-stroke';
 			// Bring selected path to front by re-appending it; fixes the case where
 			// the neighboring region's edge covers our stroke.
 			const parent = node.parentNode;
@@ -127,6 +139,7 @@ export function applyStreamColors(
 		} else {
 			node.style.removeProperty('stroke');
 			node.style.removeProperty('stroke-width');
+			node.style.removeProperty('vector-effect');
 		}
 	}
 
