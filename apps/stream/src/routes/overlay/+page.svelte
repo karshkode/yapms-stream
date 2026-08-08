@@ -32,8 +32,11 @@
 
 		room = roomFromUrl(location.search);
 		const sync = createOverlaySync(room);
+		// Validated rather than trusted: a room can be fed by a desk on a different
+		// build, and a snapshot missing a field it didn't know about would throw
+		// inside the render rather than degrade. `adopt` fills gaps from the schema.
 		const unsub = sync.onState((next) => {
-			streamStore.replace(next);
+			streamStore.adopt(next);
 		});
 		// A pan or zoom arrives on its own rather than as a fresh copy of every
 		// county, so it's applied to the state already here. Ignored before the
