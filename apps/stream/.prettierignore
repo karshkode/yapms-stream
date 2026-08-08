@@ -12,5 +12,5 @@ pnpm-lock.yaml
 package-lock.json
 yarn.lock
 
-# Generated seed data
-src/lib/templates/seed-data/*.json
+# Generated seed data, including the per-state office-history subdirectory
+src/lib/templates/seed-data/**/*.json

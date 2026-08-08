@@ -263,8 +263,7 @@ const SOURCES = [
  */
 const OFFICE_MATCH = {
 	senate: (office) => /^(US|U\.S\.|UNITED STATES) SENATE$/.test(office),
-	governor: (office) =>
-		/^GOVERNOR( ?(\/|AND|&) ?(LIEUTENANT|LT\.?) GOVERNOR)?$/.test(office)
+	governor: (office) => /^GOVERNOR( ?(\/|AND|&) ?(LIEUTENANT|LT\.?) GOVERNOR)?$/.test(office)
 };
 
 const OFFICE_LABEL = { senate: 'US Senate', governor: 'Governor' };
@@ -356,10 +355,7 @@ function cleanName(raw) {
 		s = s.replace(/,/g, ' ');
 	}
 
-	let tokens = s
-		.replace(/\./g, '')
-		.split(/\s+/)
-		.filter(Boolean);
+	let tokens = s.replace(/\./g, '').split(/\s+/).filter(Boolean);
 	while (tokens.length > 1 && HONORIFICS.has(tokens[0])) tokens.shift();
 	// Single *letters* only. A lone "/" is a joint-ticket separator standing on
 	// its own between two names ("IGE / GREEN"), and dropping it would weld the
@@ -635,7 +631,8 @@ async function openLines(file, entryName) {
 	);
 	const csvs = entries.filter((e) => /\.(csv|tab|txt)$/i.test(e.name));
 	const pick = (entryName && csvs.find((e) => e.name === entryName)) ?? csvs[0];
-	if (!pick) throw new Error(`${file}: no CSV entry (saw ${entries.map((e) => e.name).join(', ')})`);
+	if (!pick)
+		throw new Error(`${file}: no CSV entry (saw ${entries.map((e) => e.name).join(', ')})`);
 	return createInterface({ input: await openZipEntry(file, pick), crlfDelay: Infinity });
 }
 
@@ -1270,11 +1267,7 @@ async function main() {
 		const outPath = path.resolve(OUT_DIR, `state-${stateFips}.json`);
 		await fs.writeFile(
 			outPath,
-			JSON.stringify(
-				{ stateFips, stateName: seed.stateName ?? '', races: kept },
-				null,
-				2
-			) + '\n',
+			JSON.stringify({ stateFips, stateName: seed.stateName ?? '', races: kept }, null, 2) + '\n',
 			'utf8'
 		);
 		written++;
