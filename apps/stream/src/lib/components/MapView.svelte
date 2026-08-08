@@ -3,6 +3,7 @@
 	import { applyStreamColors } from '../map/apply-colors';
 	import { loadProfileSvg } from '../map/load-svg';
 	import { applyCityOverlay, updateOverlayScale, removeCityOverlay } from '../map/cities-overlay';
+	import { ensureScene, makeSceneController } from '../map/pan-scene';
 	import type { MapTab } from '../race-profile';
 	import type { StreamState } from '../stream-state';
 	import { streamStore } from '../stream-store.svelte';
@@ -58,6 +59,9 @@
 	// Throttle panzoom 'zoom' events with rAF so the overlay resize doesn't
 	// run hundreds of times per second during a smooth wheel-zoom.
 	let overlayScaleRaf: number | null = null;
+	// Watches the viewport so a resized OBS canvas can re-derive the scene
+	// transform. See the comment where it's created.
+	let resizeObserver: ResizeObserver | null = null;
 	// Track which SVG element the click handler is currently attached to so
 	// we can reliably detach it when the profile swaps. Prior revisions
 	// relied on `clickHandler` being null on first load but never cleared it
@@ -73,6 +77,9 @@
 	/** Fraction of the container the phone detail sheet can cover, mirroring
 	 *  `.detail-slot { max-height: 50% }` in StagePanel. */
 	const PHONE_SHEET_FRACTION = 0.5;
+	/** Shared by panzoom's own clamp and the click-to-zoom fit, so a county
+	 *  can't be framed at a scale panzoom will immediately refuse. */
+	const MAX_ZOOM = 20;
 
 	$effect(() => {
 		if (typeof window === 'undefined') return;
@@ -93,6 +100,10 @@
 				pz.dispose();
 				pz = null;
 			}
+			// Its callback closes over the disposed instance and the outgoing
+			// scene group, so it has to go with it.
+			resizeObserver?.disconnect();
+			resizeObserver = null;
 			// Drop the stale click handler reference. The previous SVG is about
 			// to be replaced by @html — without resetting these, the guard below
 			// (`!clickHandler`) would skip re-attaching to the new SVG.
@@ -107,12 +118,15 @@
 
 	$effect(() => {
 		if (!container || !svgMarkup) return;
-		const svg = container.querySelector<SVGElement>('svg');
+		const svg = container.querySelector<SVGSVGElement>('svg');
 		if (!svg) return;
 		// Strip any inherited size so the SVG fills the container.
 		svg.style.maxWidth = '100%';
 		svg.style.maxHeight = '100%';
 		svg.style.display = 'block';
+		// Everything below queries by attribute, so it doesn't care that the
+		// paths are now one level deeper inside the scene group.
+		const scene = ensureScene(svg);
 		applyStreamColors(svg, streamState, tab, streamState.ui.selectedRegionAttr);
 
 		// Wire click-to-select on every region path. We attach once per SVG load
@@ -169,9 +183,13 @@
 			}
 		}
 
-		// panzoom gets attached to the svg itself, so a click that lands on a
-		// region path reaches the delegated handler above before panzoom's own
-		// drag tracking decides the gesture was a pan.
+		// panzoom listens on the viewport div, so a click that lands on a region
+		// path reaches the delegated handler above before panzoom's own drag
+		// tracking decides the gesture was a pan.
+		// The scene controller keeps panzoom's transform in CSS-pixel space —
+		// identical to the semantics of the DOM controller it replaces, so every
+		// measurement below still reads true — but renders it as an SVG transform
+		// so the paths stay crisp at depth. See map/pan-scene.ts.
 		// `bounds` is off because our programmatic click-to-zoom computes an
 		// exact (tx, ty) that lands the target county at the container center.
 		// With `bounds: true`, panzoom clips those translations to keep *some*
@@ -186,7 +204,8 @@
 		// natural layout, which is exactly what the zoom formula assumes.
 		if (!pz) {
 			pz = panzoom(svg, {
-				maxZoom: 20,
+				controller: makeSceneController(svg, container, scene),
+				maxZoom: MAX_ZOOM,
 				minZoom: 0.5,
 				autocenter: false,
 				bounds: false,
@@ -219,6 +238,21 @@
 					updateOverlayScale(cur, pz.getTransform().scale);
 				});
 			});
+			// The scene transform is written in user units, and how many user
+			// units a pixel is worth depends on the box the viewBox is currently
+			// mapped onto. Resizing the OBS source while zoomed into a county
+			// changes that mapping under a translation computed against the old
+			// one, which slides the county out of frame. Recompute on resize —
+			// and rescale the city glyphs, which are sized the same way.
+			if (typeof ResizeObserver !== 'undefined') {
+				resizeObserver = new ResizeObserver(() => {
+					if (!pz) return;
+					pz.moveBy(0, 0, false);
+					const cur = container?.querySelector<SVGElement>('svg');
+					if (cur && showCities) updateOverlayScale(cur, pz.getTransform().scale);
+				});
+				resizeObserver.observe(container);
+			}
 			// Signal "panzoom is ready" so the click-to-zoom effect below can
 			// re-run against any preselected region that was set while we
 			// were still loading the SVG.
@@ -321,16 +355,19 @@
 				? containerRect.height * (1 - PHONE_SHEET_FRACTION)
 				: containerRect.height;
 
-			// Fit the path to ~55% of the visible area. Clamped to [1, 12] —
-			// tiny counties would otherwise blow up past raster fidelity;
-			// huge states (CA on the US map) shouldn't de-zoom below
-			// identity.
+			// Fit the path to ~55% of the visible area. The lower clamp keeps
+			// huge states (CA on the US map) from de-zooming below identity.
+			// The upper one used to be 12, to stop tiny counties blowing up
+			// past the fidelity of the raster panzoom was scaling; now that the
+			// zoom is applied as an SVG transform and the paths re-render at
+			// depth, the only remaining reason for a ceiling is panzoom's own
+			// maxZoom, so an independent city can actually fill the frame.
 			const padding = 0.55;
 			const fitScale = Math.min(
 				(containerRect.width * padding) / identityRect.width,
 				(visibleHeight * padding) / identityRect.height
 			);
-			const targetScale = Math.min(12, Math.max(1, fitScale));
+			const targetScale = Math.min(MAX_ZOOM, Math.max(1, fitScale));
 
 			// Zoom with pivot at the path's current (identity) screen center.
 			// panzoom keeps that pixel fixed on screen while scaling, so the
@@ -373,6 +410,8 @@
 			}
 			clickHandler = null;
 			handlerSvg = null;
+			resizeObserver?.disconnect();
+			resizeObserver = null;
 			if (overlayScaleRaf) {
 				cancelAnimationFrame(overlayScaleRaf);
 				overlayScaleRaf = null;

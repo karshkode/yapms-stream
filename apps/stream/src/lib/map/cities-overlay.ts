@@ -50,37 +50,40 @@ function tierForContext(scale: number, regionCount: number): 1 | 2 | 3 {
 /**
  * How many SVG user-space units equal one screen CSS pixel, right now.
  *
- * This is the correct way to size overlay glyphs because:
- *   1. Each SVG's viewBox maps its internal coords onto the rendered CSS box,
- *      and that ratio varies wildly between maps. The national USA SVG has
- *      viewBox ≈ 1000 wide, so 1 unit ≈ 1 screen px on a 1000px-wide panel.
- *      A state-filtered SVG (e.g. Rhode Island) has its viewBox recomputed
- *      down to maybe 50 units wide, so 1 unit = 20 screen px — meaning a
- *      "font-size=11" looks 20x too big.
- *   2. getBoundingClientRect() already factors in panzoom's CSS scale
- *      transform, so we get the right answer at any zoom level without
- *      having to ask panzoom for its scale.
+ * This is the correct way to size overlay glyphs because each SVG's viewBox
+ * maps its internal coords onto the rendered CSS box, and that ratio varies
+ * wildly between maps. The national USA SVG has viewBox ≈ 1000 wide, so 1 unit
+ * ≈ 1 screen px on a 1000px-wide panel. A state-filtered SVG (e.g. Rhode
+ * Island) has its viewBox recomputed down to maybe 50 units wide, so 1 unit =
+ * 20 screen px — meaning a "font-size=11" looks 20x too big.
  *
  * We use the LIMITING dimension (max of width-ratio and height-ratio)
  * because `preserveAspectRatio=meet` (the SVG default) aspect-fits the
  * content to the smaller dimension, leaving letterbox space on the other
  * axis. Using just width would underestimate the ratio on tall-narrow
  * containers and produce labels that render smaller than intended.
+ *
+ * `scale` is panzoom's current zoom. It has to be passed in rather than read
+ * off the element: the zoom now lives in a `transform` attribute on a group
+ * inside the SVG (see map/pan-scene.ts) so that paths re-render crisply at
+ * depth, and an SVG transform on a descendant doesn't move the root's layout
+ * box the way the CSS transform it replaced did.
  */
-function svgUnitsPerPixel(svg: SVGElement): number {
+function svgUnitsPerPixel(svg: SVGElement, scale: number): number {
 	const svgEl = svg as SVGSVGElement;
 	const vb = svgEl.viewBox?.baseVal;
 	if (!vb || vb.width <= 0 || vb.height <= 0) return 1;
 	const rect = svg.getBoundingClientRect();
 	if (rect.width <= 0 || rect.height <= 0) return 1;
+	const zoom = scale > 0 ? scale : 1;
 	// max() picks the limiting ratio, matching how preserveAspectRatio=meet
 	// fits content to the smaller of the two dimensions.
-	return Math.max(vb.width / rect.width, vb.height / rect.height);
+	return Math.max(vb.width / rect.width, vb.height / rect.height) / zoom;
 }
 
 /** Compute SVG-space sizes that hit the target screen dimensions. */
-function glyphSizes(svg: SVGElement) {
-	const u = svgUnitsPerPixel(svg);
+function glyphSizes(svg: SVGElement, scale: number) {
+	const u = svgUnitsPerPixel(svg, scale);
 	// Target screen dimensions — tuned for readability on a ~1200px-wide
 	// stage panel. Labels use dominant-baseline="middle" (set in
 	// renderMarker) so `labelOffsetY` is zero: we want the text vertically
@@ -127,7 +130,7 @@ export function applyCityOverlay(svg: SVGElement, scale: number): void {
 	// starts at tier 1, sparse state-filtered SVG starts at tier 2 or 3.
 	const regionCount = svg.querySelectorAll('[region]').length;
 	const tier = tierForContext(scale, regionCount);
-	const sizes = glyphSizes(svg);
+	const sizes = glyphSizes(svg, scale);
 
 	// IMPORTANT: append the overlay as a sibling of the region paths, not
 	// as a child of `<svg>` directly. The yapms maps wrap all regions in
@@ -187,7 +190,7 @@ export function updateOverlayScale(svg: SVGElement, scale: number): void {
 		applyCityOverlay(svg, scale);
 		return;
 	}
-	const sizes = glyphSizes(svg);
+	const sizes = glyphSizes(svg, scale);
 	for (const dot of Array.from(overlay.querySelectorAll<SVGCircleElement>('circle'))) {
 		dot.setAttribute('r', String(sizes.dotRadius));
 		dot.setAttribute('stroke-width', String(sizes.dotStroke));

@@ -1,5 +1,14 @@
 import type { MapTab, RegionResult } from '../race-profile';
 import type { StreamState } from '../stream-state';
+import {
+	outstandingVotes,
+	projectedRaceTotal,
+	regionMargin,
+	regionSwing,
+	regionTurnoutIndex,
+	resolveBaseline,
+	type ResolvedBaseline
+} from './metrics';
 
 /**
  * Paint region fills + "value-text" labels on a mounted SVG from the current
@@ -14,16 +23,17 @@ import type { StreamState } from '../stream-state';
  * live data pull their color from `archivalByYear[year]` (falls back to
  * NEUTRAL when the bake script had no row for that region in that year).
  *
- * All four map tabs now produce distinct output:
- *   results   — leader party color at full saturation.
- *   margin    — leader color lerped toward white as the race tightens.
- *   swing     — red/blue by signed live-vs-archival shift (archival required).
- *   remaining — grey out fully-reported regions; highlight pending; PENDING
- *               gray for 0% reported.
+ * Each tab answers a different question, and every one of them is answered per
+ * region — the arithmetic lives in ./metrics.ts:
+ *   results   — who leads here (leader party color, full saturation).
+ *   margin    — by how much here (leader color, paler as it tightens).
+ *   swing     — which way this region moved since the baseline race.
+ *   turnout   — whether this region is carrying more or less of the vote than
+ *               it did in the baseline race.
+ *   remaining — where the uncounted vote is, by how much of it is left.
  *
  * Also fills `<tspan map-type="value-text">` labels that ship with the yapms
  * SVGs (EV counts / vote subtitles) so the map doesn't display naked "00"s.
- * Labels are per-tab (margin, reported %, swing pts, or vote count).
  */
 
 // NEUTRAL is the default fill when a region has no live leader data AND the
@@ -34,6 +44,24 @@ const NEUTRAL = '#3a3a44';
 // warmer gray than NEUTRAL so a host can distinguish "no data at all" (neutral
 // base map) from "actively awaiting returns" (pending).
 const PENDING = '#4b5563';
+// Swing ramp. Party-colored, because a swing toward the Republican is the
+// single fact the shade is communicating.
+const SWING_R = '#BF1D29';
+const SWING_D = '#1C408C';
+const FLAT = '#6b7280';
+// Turnout ramp, deliberately NOT red/blue: "this county is punching above its
+// weight" has nothing to do with which party is winning it, and painting it in
+// party colors invites exactly that misreading on air.
+const TURNOUT_UP = '#0d9488';
+const TURNOUT_DOWN = '#b45309';
+// Remaining ramp. A single hue whose intensity tracks outstanding vote, so the
+// eye lands on wherever the night is still undecided.
+const OUTSTANDING = '#eab308';
+
+/** Full saturation at this much margin shift, in points. */
+const SWING_FULL_PP = 20;
+/** Full saturation at this far from the baseline share, as a ratio. */
+const TURNOUT_FULL_RATIO = 0.4;
 
 export function applyStreamColors(
 	svgRoot: SVGElement,
@@ -48,6 +76,14 @@ export function applyStreamColors(
 	const regionByAttr = new Map(state.regions.map((r) => [r.regionAttr, r]));
 	const candidateById = new Map(state.candidates.map((c) => [c.id, c]));
 	const archivalYear = state.ui.archivalYear;
+	const baseline = resolveBaseline(state);
+	// Computed once for the whole map rather than per region: it's a sum over
+	// every region, and the turnout fill needs it for each of them.
+	const projectedTotal = tab === 'turnout' ? projectedRaceTotal(state.regions) : 0;
+	// Scale the remaining tab against the biggest pile of uncounted votes on the
+	// map, so the shading always has a top end. An absolute scale would leave a
+	// county race almost entirely unshaded and a presidential map saturated.
+	const peakOutstanding = tab === 'remaining' ? maxOutstanding(state.regions) : 0;
 
 	for (const node of Array.from(nodes)) {
 		const attr = node.getAttribute('region');
@@ -67,9 +103,11 @@ export function applyStreamColors(
 		if (tab === 'margin') {
 			fill = fillForMarginTab(baseColor, result, state, archival);
 		} else if (tab === 'remaining') {
-			fill = fillForRemainingTab(baseColor, result);
+			fill = fillForRemainingTab(result, peakOutstanding);
 		} else if (tab === 'swing') {
-			fill = fillForSwingTab(result, state, archival);
+			fill = fillForSwingTab(result, state, baseline);
+		} else if (tab === 'turnout') {
+			fill = fillForTurnoutTab(result, baseline, projectedTotal);
 		}
 
 		node.style.fill = fill;
@@ -90,7 +128,16 @@ export function applyStreamColors(
 		}
 	}
 
-	applyValueTextLabels(svgRoot, state, tab, regionByAttr);
+	applyValueTextLabels(svgRoot, state, tab, regionByAttr, baseline, projectedTotal);
+}
+
+function maxOutstanding(regions: RegionResult[]): number {
+	let peak = 0;
+	for (const region of regions) {
+		const out = outstandingVotes(region);
+		if (out !== null && out > peak) peak = out;
+	}
+	return peak;
 }
 
 // ---------------------------------------------------------------------------
@@ -102,12 +149,11 @@ export function applyStreamColors(
  * Margin tab: more-decisive = full saturation, toss-up = lerped toward white.
  *
  * Intensity source ladder:
- *   1. Live per-region leader share (two-party) if we have it.
- *   2. Live candidates' statewide leader share as a proxy for regions without
- *      per-region breakdowns on the manual side. Works OK for straight-ticket
- *      states; poor for split races — tolerated for now.
- *   3. `archival.margin` from the slider year when live is fully absent.
- *   4. 0 → fully white (no signal).
+ *   1. This region's own candidate splits.
+ *   2. `archival.margin` from the slider year, when the region has no live
+ *      breakdown to compute from.
+ *   3. Flat leader color — we know who's ahead here but not by how much, and
+ *      a made-up shade is worse than an honest one.
  */
 function fillForMarginTab(
 	baseColor: string,
@@ -116,78 +162,87 @@ function fillForMarginTab(
 	archival: { margin: number } | null
 ): string {
 	if (!result) return baseColor;
-	const leader = result.leaderId ? state.candidates.find((c) => c.id === result.leaderId) : null;
-	let intensity = 0;
 
-	if (leader && result.votes > 0) {
-		// Runner-up inferred as second-highest-voted candidate across the race.
-		// Approximates a per-region two-party margin; replaced when civicAPI
-		// starts supplying per-region breakdowns.
-		const sorted = [...state.candidates].sort((a, b) => b.votes - a.votes);
-		const runnerUp = sorted.find((c) => c.id !== leader.id);
-		const twoParty = leader.votes + (runnerUp?.votes ?? 0);
-		if (twoParty > 0) {
-			intensity = (leader.votes - (runnerUp?.votes ?? 0)) / twoParty;
-		}
-	} else if (archival && archival.margin !== 0) {
-		intensity = Math.min(Math.abs(archival.margin) / 100, 1);
+	const live = regionMargin(result, state.candidates);
+	if (live) {
+		const intensity = clamp01(Math.abs(live.signed) / 100);
+		return lerpToWhite(baseColor, 1 - intensity);
 	}
-
-	intensity = Math.max(0, Math.min(1, intensity));
-	return lerpToWhite(baseColor, 1 - intensity);
+	if (archival && archival.margin !== 0) {
+		const intensity = clamp01(Math.abs(archival.margin) / 100);
+		return lerpToWhite(baseColor, 1 - intensity);
+	}
+	return baseColor;
 }
 
 /**
- * Remaining tab: pure reporting-status view.
- *   0%            -> PENDING gray (awaiting returns)
- *   0% < x < 99.5 -> live leader color (so the host sees who's ahead as
- *                    reporting trickles in)
- *   >= 99.5       -> NEUTRAL (finalized, not interesting)
+ * Remaining tab: how much vote is still out, not merely whether any is.
  *
- * Ignores the archival slider by design — this tab is about where returns
- * are still coming in, not historical context.
+ * The old version was a three-way traffic light — grey when finished, leader
+ * color while counting, darker grey at zero — which answered "has this county
+ * reported" and never "does what's left matter". On a map where one city holds
+ * 200,000 uncounted ballots and forty rural counties hold two thousand between
+ * them, those are completely different questions, and only the second one tells
+ * a host whether the race can still move.
  */
-function fillForRemainingTab(baseColor: string, result: RegionResult | undefined): string {
-	const pct = result?.reportedPct ?? 0;
-	if (pct >= 99.5) return NEUTRAL;
-	if (pct > 0) return baseColor;
-	return PENDING;
+function fillForRemainingTab(result: RegionResult | undefined, peak: number): string {
+	if (!result) return NEUTRAL;
+	if (result.reportedPct >= 99.5) return NEUTRAL;
+	if (result.votes <= 0) return PENDING;
+
+	const out = outstandingVotes(result);
+	// Counting has started but too little has landed to project from. It is
+	// still outstanding, so it can't read as finished.
+	if (out === null || peak <= 0) return PENDING;
+	return lerpToWhite(OUTSTANDING, 1 - clamp01(out / peak));
 }
 
 /**
- * Swing tab: red when the region shifted toward the R nominee vs the archival
- * year, blue when it shifted toward the D nominee, NEUTRAL when we can't
- * compute. Intensity scales linearly up to 20 pts of shift.
+ * Swing tab: red where the region moved toward the Republican since the
+ * baseline race, blue where it moved toward the Democrat.
  *
- * Only meaningful with BOTH live and archival available. Without archival the
- * tab has nothing to compare to; without live we can't infer direction.
+ * Previously this required the archival slider to be off "Live" and otherwise
+ * painted the entire map neutral grey, so the tab looked broken until the host
+ * found an unrelated control. The baseline now defaults to the most recent
+ * baked presidential year, and is chosen explicitly in the Compare panel.
  */
 function fillForSwingTab(
 	result: RegionResult | undefined,
 	state: StreamState,
-	archival: { margin: number } | null
+	baseline: ResolvedBaseline | null
 ): string {
-	if (!result || !archival) return NEUTRAL;
-	const leader = result.leaderId ? state.candidates.find((c) => c.id === result.leaderId) : null;
-	if (!leader || result.votes === 0 || state.candidates.length < 2) return NEUTRAL;
+	if (!result) return NEUTRAL;
+	const shift = regionSwing(result, state.candidates, baseline);
+	if (shift === null) return NEUTRAL;
 
-	const sorted = [...state.candidates].sort((a, b) => b.votes - a.votes);
-	const runnerUp = sorted.find((c) => c.id !== leader.id);
-	const twoParty = leader.votes + (runnerUp?.votes ?? 0);
-	if (twoParty === 0) return NEUTRAL;
+	const magnitude = clamp01(Math.abs(shift) / SWING_FULL_PP);
+	if (magnitude === 0) return FLAT;
+	return lerpToWhite(shift > 0 ? SWING_R : SWING_D, 1 - magnitude);
+}
 
-	// Party direction derived from the live leader's partyColor. Red family
-	// (r>b && r>g) => R; otherwise D. Matches how civicAPI / manual assign
-	// party colors in our adapters.
-	const leaderIsR = isRedParty(leader.partyColor);
-	const liveMargin = ((leader.votes - (runnerUp?.votes ?? 0)) / twoParty) * 100;
-	const liveSignedR = leaderIsR ? liveMargin : -liveMargin;
-	const shift = liveSignedR - archival.margin; // +pp = toward R since archival year
+/**
+ * Turnout tab: teal where this region is carrying more of the statewide vote
+ * than it did in the baseline race, amber where it's carrying less.
+ *
+ * This is the mode that answers "what did the primary tell us about tonight".
+ * Comparing shares rather than raw counts is what makes a May primary and a
+ * November general commensurable at all, and projecting each region to its
+ * final total (see `projectedVotes`) keeps the answer from being a readout of
+ * which counties happen to have finished counting.
+ */
+function fillForTurnoutTab(
+	result: RegionResult | undefined,
+	baseline: ResolvedBaseline | null,
+	projectedTotal: number
+): string {
+	if (!result) return NEUTRAL;
+	const index = regionTurnoutIndex(result, projectedTotal, baseline);
+	if (index === null) return NEUTRAL;
 
-	const magnitude = Math.min(Math.abs(shift) / 20, 1);
-	if (magnitude === 0) return '#6b7280'; // flat TIE color
-	const ramp = shift > 0 ? '#BF1D29' : '#1C408C';
-	return lerpToWhite(ramp, 1 - magnitude);
+	const delta = index - 1;
+	const magnitude = clamp01(Math.abs(delta) / TURNOUT_FULL_RATIO);
+	if (magnitude === 0) return FLAT;
+	return lerpToWhite(delta > 0 ? TURNOUT_UP : TURNOUT_DOWN, 1 - magnitude);
 }
 
 // ---------------------------------------------------------------------------
@@ -205,7 +260,9 @@ function applyValueTextLabels(
 	svgRoot: SVGElement,
 	state: StreamState,
 	tab: MapTab,
-	regionByAttr: Map<string, RegionResult>
+	regionByAttr: Map<string, RegionResult>,
+	baseline: ResolvedBaseline | null,
+	projectedTotal: number
 ): void {
 	const archivalYear = state.ui.archivalYear;
 	const texts = svgRoot.querySelectorAll<SVGTextElement>('[for-region]');
@@ -220,7 +277,7 @@ function applyValueTextLabels(
 				? result.archivalByYear[archivalYear]
 				: null;
 
-		const label = computeLabel(tab, result, state, archival);
+		const label = computeLabel(tab, result, state, archival, baseline, projectedTotal);
 		if (label) {
 			valueTspan.textContent = label;
 			valueTspan.style.display = '';
@@ -237,29 +294,22 @@ function computeLabel(
 	tab: MapTab,
 	result: RegionResult | undefined,
 	state: StreamState,
-	archival: { margin: number } | null
+	archival: { margin: number } | null,
+	baseline: ResolvedBaseline | null,
+	projectedTotal: number
 ): string {
 	if (!result) return '';
 
 	if (tab === 'remaining') {
-		// Show reported % (int), else blank (nothing interesting to show).
-		const pct = result.reportedPct;
-		if (pct > 0) return `${Math.round(pct)}%`;
-		return '';
+		if (result.reportedPct >= 99.5) return '';
+		const out = outstandingVotes(result);
+		if (out === null) return result.reportedPct > 0 ? `${Math.round(result.reportedPct)}%` : '';
+		return fmtShort(Math.round(out));
 	}
 
 	if (tab === 'margin') {
-		// Prefer live-derived margin when we have it; fall back to archival.
-		const leader = result.leaderId ? state.candidates.find((c) => c.id === result.leaderId) : null;
-		if (leader && result.votes > 0 && state.candidates.length >= 2) {
-			const sorted = [...state.candidates].sort((a, b) => b.votes - a.votes);
-			const runnerUp = sorted.find((c) => c.id !== leader.id);
-			const twoParty = leader.votes + (runnerUp?.votes ?? 0);
-			if (twoParty > 0) {
-				const pp = ((leader.votes - (runnerUp?.votes ?? 0)) / twoParty) * 100;
-				return `+${pp.toFixed(0)}`;
-			}
-		}
+		const live = regionMargin(result, state.candidates);
+		if (live) return `+${Math.abs(live.signed).toFixed(0)}`;
 		if (archival) {
 			const abs = Math.abs(archival.margin);
 			return abs < 1 ? '' : `+${Math.round(abs)}`;
@@ -268,36 +318,25 @@ function computeLabel(
 	}
 
 	if (tab === 'swing') {
-		const shift = computeSwing(result, state, archival);
-		if (shift == null) return '';
+		const shift = regionSwing(result, state.candidates, baseline);
+		if (shift === null) return '';
 		const abs = Math.abs(shift);
 		if (abs < 0.5) return '=';
-		const dir = shift > 0 ? 'R' : 'D';
-		return `${dir}+${abs.toFixed(0)}`;
+		return `${shift > 0 ? 'R' : 'D'}+${abs.toFixed(0)}`;
+	}
+
+	if (tab === 'turnout') {
+		const index = regionTurnoutIndex(result, projectedTotal, baseline);
+		if (index === null) return '';
+		const pct = (index - 1) * 100;
+		if (Math.abs(pct) < 1) return '=';
+		return `${pct > 0 ? '+' : '−'}${Math.abs(pct).toFixed(0)}%`;
 	}
 
 	// `results` tab
 	if (result.votes > 0) return fmtShort(result.votes);
 	// Pre-results: blank so the map doesn't look perma-marked "00".
 	return '';
-}
-
-/** Compute signed swing in pp (positive = toward R) or null when insufficient data. */
-function computeSwing(
-	result: RegionResult,
-	state: StreamState,
-	archival: { margin: number } | null
-): number | null {
-	if (!archival) return null;
-	const leader = result.leaderId ? state.candidates.find((c) => c.id === result.leaderId) : null;
-	if (!leader || result.votes === 0 || state.candidates.length < 2) return null;
-	const sorted = [...state.candidates].sort((a, b) => b.votes - a.votes);
-	const runnerUp = sorted.find((c) => c.id !== leader.id);
-	const twoParty = leader.votes + (runnerUp?.votes ?? 0);
-	if (twoParty === 0) return null;
-	const liveMargin = ((leader.votes - (runnerUp?.votes ?? 0)) / twoParty) * 100;
-	const liveSignedR = isRedParty(leader.partyColor) ? liveMargin : -liveMargin;
-	return liveSignedR - archival.margin;
 }
 
 /** Compact vote-count label: "9,845" -> "9.8k", "1,234,567" -> "1.2m". */
@@ -308,13 +347,8 @@ function fmtShort(n: number): string {
 	return String(n);
 }
 
-function isRedParty(color: string): boolean {
-	const h = color.replace('#', '').toLowerCase();
-	if (h.length < 6) return false;
-	const r = parseInt(h.slice(0, 2), 16);
-	const g = parseInt(h.slice(2, 4), 16);
-	const b = parseInt(h.slice(4, 6), 16);
-	return r > b && r > g;
+function clamp01(n: number): number {
+	return Math.max(0, Math.min(1, n));
 }
 
 /** Lerp a hex color toward white by `t` (0..1). `t=0` returns input. */

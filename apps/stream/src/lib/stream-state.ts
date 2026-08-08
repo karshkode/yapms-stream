@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import {
 	Candidate,
+	ComparisonBaseline,
 	MapTab,
 	PartyBadge,
 	PerformanceRow,
@@ -119,6 +120,25 @@ export const BroadcastConfig = z.object({
 });
 export type BroadcastConfig = z.infer<typeof BroadcastConfig>;
 
+/**
+ * What the comparison map modes measure against.
+ *
+ * `baselineRef` is a tagged string rather than two parallel fields so there is
+ * exactly one answer to "compared to what?":
+ *   - `archival:2024` — the baked presidential county margins that ship with
+ *     the state seeds. Available on any county map with no setup, which is why
+ *     it's the default: Swing used to paint the whole map neutral grey until the
+ *     host discovered the archival slider, and a mode that shows nothing until
+ *     you find an unrelated control reads as broken.
+ *   - `captured:<id>` — a race the host froze via `captureBaseline`, which is
+ *     how a May primary becomes November's comparison.
+ */
+export const ComparisonConfig = z.object({
+	baselineRef: z.string().default('archival:2024'),
+	baselines: z.array(ComparisonBaseline).default([])
+});
+export type ComparisonConfig = z.infer<typeof ComparisonConfig>;
+
 export const UiState = z.object({
 	activeMapTab: MapTab.default('results'),
 	activeSubTab: SubTab.default('Results'),
@@ -165,7 +185,16 @@ export const UiState = z.object({
 	// (now docked bottom-right) on demand.
 	detailCardCorner: PipCorner.default('top-right'),
 	activeDrawerTab: z
-		.enum(['meta', 'candidates', 'regions', 'visibility', 'broadcast', 'dataSource', 'saveLoad'])
+		.enum([
+			'meta',
+			'candidates',
+			'regions',
+			'compare',
+			'visibility',
+			'broadcast',
+			'dataSource',
+			'saveLoad'
+		])
 		.default('meta'),
 	// Archival time-slider position. null = live-only (map paints live data
 	// or NEUTRAL). A year string like "2024" paints the map from that year's
@@ -209,7 +238,12 @@ export const UiState = z.object({
 	// host's ticker mid-broadcast; and `salvagePersistedState` rescues `ui`
 	// wholesale when a newer schema fails to parse, so a followed-race list
 	// survives an upgrade that invalidates the rest of the blob.
-	broadcast: BroadcastConfig.default(() => BroadcastConfig.parse({}))
+	broadcast: BroadcastConfig.default(() => BroadcastConfig.parse({})),
+	// Under `ui` for the same two reasons as `broadcast`, and one that matters
+	// more here: a captured baseline is only useful in a *different* race than
+	// the one it came from, so it has to survive `applyTemplate` spreading
+	// `...state.ui` when the host loads November's general.
+	comparison: ComparisonConfig.default(() => ComparisonConfig.parse({}))
 });
 export type UiState = z.infer<typeof UiState>;
 

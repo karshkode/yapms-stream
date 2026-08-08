@@ -4,6 +4,7 @@
 	import CandidatesTable from '$lib/components/CandidatesTable.svelte';
 	import RaceHeader from '$lib/components/RaceHeader.svelte';
 	import { streamStore } from '$lib/stream-store.svelte';
+	import MapLegend from './MapLegend.svelte';
 	import RegionDetailCard from './RegionDetailCard.svelte';
 	import RegionListPanel from './RegionListPanel.svelte';
 	import StateRacesCard from './StateRacesCard.svelte';
@@ -41,11 +42,19 @@
 	// singleton via sync/broadcast, so /overlay still mirrors /control.
 	const state = $derived(streamStore.state);
 
-	const tabs: { id: MapTab; label: string }[] = [
-		{ id: 'results', label: 'Results' },
-		{ id: 'margin', label: 'Margin' },
-		{ id: 'swing', label: 'Swing' },
-		{ id: 'remaining', label: 'Remaining' }
+	// Each tab is a question about the map, and the title attribute says which,
+	// because "Turnout" and "Swing" are only obvious once you already know what
+	// they compare against.
+	const tabs: { id: MapTab; label: string; hint: string }[] = [
+		{ id: 'results', label: 'Results', hint: 'Who leads each region' },
+		{ id: 'margin', label: 'Margin', hint: 'How close each region is' },
+		{ id: 'swing', label: 'Swing', hint: 'Which way each region moved since the baseline race' },
+		{
+			id: 'turnout',
+			label: 'Turnout',
+			hint: "Each region's share of the vote versus the baseline race"
+		},
+		{ id: 'remaining', label: 'Remaining', hint: 'Where the uncounted vote is' }
 	];
 
 	// Only show the race-picker StateRacesCard on the blank Browse US
@@ -128,6 +137,7 @@
 						class:active={state.ui.activeMapTab === t.id}
 						role="tab"
 						aria-selected={state.ui.activeMapTab === t.id}
+						title={t.hint}
 						onclick={() => (streamStore.state.ui.activeMapTab = t.id)}
 					>
 						{t.label}
@@ -158,6 +168,10 @@
 					streamStore.state.regions = rows;
 				}}
 			/>
+			<!-- Rendered on the mirror too. A shaded map with no key is unreadable
+			     to the audience as much as to the host, and the swing on air needs
+			     to say what it's a swing from. -->
+			<MapLegend tab={state.ui.activeMapTab} {interactive} />
 		{:else if state.profile}
 			<!-- No-map race: centered candidate card so the OBS scene still has
 			     something worth pointing at. RaceHeader carries polls-close time

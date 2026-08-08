@@ -1,5 +1,6 @@
 import type { RaceTemplate } from '../race-profile';
 import { ALL_TEMPLATES } from '../templates';
+import { normalizeQueryTokens } from './raceQuery';
 
 /**
  * In-memory tokenized search index over the templates module.
@@ -38,13 +39,24 @@ export interface SearchHit {
 	matched: string[];
 }
 
+/**
+ * Fallback hits kept deliberately short. These are consolation prizes, not
+ * answers — the host asked for a specific race and we're offering the nearest
+ * blank canvas, so a handful is generous.
+ */
+const PARTIAL_LIMIT = 5;
+
 export function searchTemplates(query: string, limit = 40): SearchHit[] {
 	const q = query.trim().toLowerCase();
 	if (!q) return [];
-	const qTokens = tokenize(q);
+	// Normalized rather than raw-tokenized, so "nyc mayoral 2025" reaches the
+	// New York and mayor templates instead of matching nothing: no template
+	// names a city, spells "mayoral", or carries a year in its tags.
+	const qTokens = normalizeQueryTokens(q);
 	if (qTokens.length === 0) return [];
 
-	const hits: SearchHit[] = [];
+	const full: SearchHit[] = [];
+	const partial: SearchHit[] = [];
 	for (const entry of INDEX) {
 		let score = 0;
 		const matched: string[] = [];
@@ -64,14 +76,35 @@ export function searchTemplates(query: string, limit = 40): SearchHit[] {
 			if (best > 0) matched.push(qt);
 			score += best;
 		}
-		// Require every query token to match somewhere (intersection search).
-		if (matched.length < qTokens.length) continue;
+		if (matched.length === 0) continue;
 		if (qTokens.includes(entry.template.category)) score += 2;
-		hits.push({ template: entry.template, score, matched });
+		const hit: SearchHit = { template: entry.template, score, matched };
+		// Intersection search is the real answer: every word the host typed has
+		// to land somewhere. Anything less goes in the partial pile.
+		if (matched.length === qTokens.length) full.push(hit);
+		else partial.push(hit);
 	}
 
-	hits.sort((a, b) => b.score - a.score || a.template.name.localeCompare(b.template.name));
-	return hits.slice(0, limit);
+	const byScore = (a: SearchHit, b: SearchHit) =>
+		b.score - a.score || a.template.name.localeCompare(b.template.name);
+	full.sort(byScore);
+	if (full.length > 0) return full.slice(0, limit);
+
+	// Nothing matched everything. Rather than a bare "no results" — which is
+	// what "new york city mayoral" used to produce, since no template names a
+	// city — offer the closest starting points: the state's county map, and the
+	// blank local race that the `mayor` tag reaches. civicAPI's local coverage
+	// is patchy enough that building the race by hand is a normal outcome.
+	//
+	// Only the joint-closest are worth offering. Ranking on score alone would
+	// pad the list with every template sharing one weak word: "new york city
+	// mayor" would drag in New Hampshire, New Jersey and New Mexico on the
+	// strength of "new", which is noise next to a template that matched twice.
+	const bestMatched = partial.reduce((n, h) => Math.max(n, h.matched.length), 0);
+	return partial
+		.filter((h) => h.matched.length === bestMatched)
+		.sort(byScore)
+		.slice(0, Math.min(limit, PARTIAL_LIMIT));
 }
 
 export function highlight(label: string, matchedTokens: string[]): string {

@@ -19,7 +19,16 @@ export type RegionLabel = z.infer<typeof RegionLabel>;
 export const SubTab = z.enum(['Results', 'Forecast', 'Early Voting', 'Markets']);
 export type SubTab = z.infer<typeof SubTab>;
 
-export const MapTab = z.enum(['results', 'margin', 'swing', 'remaining']);
+/**
+ * How the map is shaded. Each answers a different on-air question:
+ *   results   — who is ahead here?
+ *   margin    — by how much, in this region?
+ *   swing     — which way has this region moved since the baseline race?
+ *   turnout   — is this region carrying more or less of the vote than it did
+ *               in the baseline race?
+ *   remaining — where is the uncounted vote?
+ */
+export const MapTab = z.enum(['results', 'margin', 'swing', 'turnout', 'remaining']);
 export type MapTab = z.infer<typeof MapTab>;
 
 /**
@@ -149,6 +158,62 @@ export const RegionResult = z.object({
 	archivalByYear: ArchivalByYear.default({})
 });
 export type RegionResult = z.infer<typeof RegionResult>;
+
+/**
+ * One region's line in a captured baseline.
+ *
+ * `share` rather than raw votes is what makes a primary comparable to a
+ * general. Turnout roughly doubles between May and November, so raw counts
+ * would say every county grew and tell the host nothing. A county's *share* of
+ * the statewide vote is scale-free, so "Jefferson was 22% of the primary vote
+ * and it's 18% tonight" is a real signal about where the electorate showed up.
+ */
+export const BaselineRegion = z.object({
+	/** Signed two-party margin, positive = R. Matches ArchivalSnapshot.margin. */
+	margin: z.number(),
+	/** Votes cast in this region. Kept for display; comparisons use `share`. */
+	votes: z.number().int().nonnegative().default(0),
+	/** This region's fraction (0-1) of the baseline race's total vote. */
+	share: z.number().min(0).max(1).default(0)
+});
+export type BaselineRegion = z.infer<typeof BaselineRegion>;
+
+/**
+ * A race's per-region results, frozen so a later race over the same geography
+ * can be measured against it.
+ *
+ * This is what makes "what did the primary tell us about November" answerable.
+ * The alternative — baking historical results for every office — is not
+ * possible: the seed data covers presidential margins only, and civicAPI
+ * carries no prior-cycle downballot results. But the host *watches* the primary
+ * in this app, so the numbers pass through it. Capturing them at the end of the
+ * night costs one click and turns every later race on that map into a
+ * comparison.
+ */
+export const ComparisonBaseline = z.object({
+	id: z.string(),
+	/** Host-facing name, e.g. "KY Governor primary, May 2026". */
+	label: z.string(),
+	capturedAt: z.number().int(),
+	/**
+	 * The SVG + filter the baseline was captured on. Comparing Ohio counties
+	 * against Texas ones would silently produce garbage, so the picker warns
+	 * when this doesn't match the loaded race.
+	 */
+	geographyKey: z.string().nullable().default(null),
+	/**
+	 * False when the top two candidates weren't from opposing parties — a
+	 * primary, or a non-partisan municipal race. Margin and swing are
+	 * meaningless against such a baseline (both candidates are Democrats), but
+	 * turnout share is still perfectly comparable, so the baseline is kept and
+	 * the UI steers to the mode that works.
+	 */
+	partisan: z.boolean().default(true),
+	totalVotes: z.number().int().nonnegative().default(0),
+	/** Keyed by `RegionResult.regionAttr`. */
+	regions: z.record(z.string(), BaselineRegion).default({})
+});
+export type ComparisonBaseline = z.infer<typeof ComparisonBaseline>;
 
 export const PerformanceRow = z.object({
 	raceName: z.string(),
