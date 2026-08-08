@@ -47,9 +47,18 @@
 
 	// Keyed lookups so each row costs one map read rather than a scan of the
 	// market's outcomes and the poll averages.
+	//
+	// A market about the general election is deliberately left out of these rows.
+	// On a primary scoreboard, "Mkt 60%" beside El-Sayed's vote count reads as his
+	// odds of winning tonight, when it is the price on a Democrat holding the seat
+	// in November — and unlike the band above the map, a chip in a row has nowhere
+	// to say so. The band keeps it, labelled.
 	let marketById = $derived(
 		new Map(
-			(streamState.ui.insights.data?.market?.outcomes ?? [])
+			(streamState.ui.insights.data?.market?.context === 'general'
+				? []
+				: (streamState.ui.insights.data?.market?.outcomes ?? [])
+			)
 				.filter((o) => o.candidateId)
 				.map((o) => [o.candidateId as string, o.probability])
 		)

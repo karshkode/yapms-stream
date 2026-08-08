@@ -356,7 +356,8 @@
 				// the next refresh without another round trip.
 				streamStore.state.ui.insights.data = summarizeInsights(
 					feed,
-					untrack(() => streamStore.state.candidates)
+					untrack(() => streamStore.state.candidates),
+					untrack(() => streamStore.state.race.title)
 				);
 				streamStore.state.ui.insights.lastError = null;
 			} catch (err) {

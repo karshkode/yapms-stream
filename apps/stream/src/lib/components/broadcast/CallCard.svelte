@@ -41,6 +41,19 @@
 	// model has decided ahead of the count, the other says the count itself has;
 	// broadcasts get sued over the difference.
 	const kicker = $derived(call?.kind === 'winner' ? 'Winner' : 'Projected winner');
+
+	/**
+	 * "(D)", not "(Democratic)".
+	 *
+	 * civicAPI sends party names in full, which is right for a roster row and
+	 * wrong next to a name set at 2.4rem — "Abdul El-Sayed (Democratic)" wraps the
+	 * headline of the card. The single letter is what a broadcast uses anyway.
+	 */
+	const party = $derived.by(() => {
+		const label = call?.party?.trim() ?? '';
+		if (label.length <= 3) return label.toUpperCase();
+		return label.charAt(0).toUpperCase();
+	});
 </script>
 
 {#if call}
@@ -71,7 +84,7 @@
 			<div class="body">
 				<p class="kicker">{kicker}</p>
 				<h2 class="name">
-					{call.name}{#if call.party}<span class="party">({call.party})</span>{/if}
+					{call.name}{#if party}<span class="party">({party})</span>{/if}
 				</h2>
 				{#if call.raceTitle}
 					<p class="race">{call.raceTitle}</p>

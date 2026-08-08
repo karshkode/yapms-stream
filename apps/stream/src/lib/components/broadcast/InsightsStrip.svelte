@@ -58,6 +58,16 @@
 	const outcomes = $derived((data?.market?.outcomes ?? []).filter((o) => o.probability > 0.005));
 	const leader = $derived(marketLeader(data?.market ?? null));
 	const averages = $derived(data?.polls?.averages ?? []);
+	const generalOnly = $derived(data?.market?.context === 'general');
+
+	/**
+	 * The note explaining an empty polling half, in one line.
+	 *
+	 * Only the polling-shaped note: the market's own failures are already visible
+	 * as an absent market, and stacking both reasons into the space where an
+	 * average should be reads as an error log rather than a caption.
+	 */
+	const gap = $derived((data?.notes ?? []).find((n) => /poll/i.test(n)) ?? null);
 
 	/**
 	 * Volume, abbreviated. A price is only as meaningful as the money behind it,
@@ -70,10 +80,34 @@
 		return `$${Math.round(n)}`;
 	}
 
+	const MONTHS = [
+		'Jan',
+		'Feb',
+		'Mar',
+		'Apr',
+		'May',
+		'Jun',
+		'Jul',
+		'Aug',
+		'Sep',
+		'Oct',
+		'Nov',
+		'Dec'
+	];
+
+	/**
+	 * "Jul 31" from "2026-07-31", read off the string.
+	 *
+	 * Not through `Date`, which treats a bare ISO date as UTC midnight and then
+	 * renders it in the viewer's zone — so a poll fielded on the 31st was showing
+	 * as the 30th on any desk west of Greenwich. A field date has no time of day
+	 * to convert.
+	 */
 	function shortDate(iso: string): string {
-		const t = Date.parse(iso);
-		if (!Number.isFinite(t)) return iso;
-		return new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+		const parts = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+		if (!parts) return iso;
+		const month = MONTHS[Number(parts[2]) - 1];
+		return month ? `${month} ${Number(parts[3])}` : iso;
 	}
 
 	const hasAnything = $derived(outcomes.length > 0 || averages.length > 0);
@@ -84,9 +118,15 @@
 		{#if outcomes.length > 0}
 			<section class="block market">
 				<h4>
-					Market
+					<!-- Naming the contest the price is about, when it isn't this one, is
+					     the whole safeguard: Polymarket runs one market per seat and
+					     labels its party slots with the expected nominees, so on a primary
+					     night these are November's odds wearing tonight's names. -->
+					{generalOnly ? 'November market' : 'Market'}
 					{#if data?.market}
-						<span class="meta">{money(data.market.volume)} traded</span>
+						<span class="meta">
+							{money(data.market.volume)} traded{generalOnly ? ' · general election' : ''}
+						</span>
 					{/if}
 				</h4>
 				<!-- A single bar rather than one per candidate: these are shares of the
@@ -140,14 +180,19 @@
 					{/each}
 				</ul>
 			</section>
-		{:else if outcomes.length > 0 && leader}
-			<!-- With no usable average, the space goes to the one sentence the market
-			     amounts to, rather than to a gap where a second panel should be. -->
+		{:else if outcomes.length > 0}
+			<!-- With no usable average the space says why, which is worth more than a
+			     restatement of the price already shown to its left. Most often the
+			     answer is that this is a primary and the only polls filed under the
+			     seat are general-election matchups. -->
 			<section class="block single">
-				<h4>Market read</h4>
+				<h4>Polling average</h4>
 				<p class="read">
-					<strong>{short(leader.name)}</strong>
-					favoured at {Math.round(leader.probability * 100)}%
+					{gap ?? 'No polls available for this contest.'}
+					{#if generalOnly && leader}
+						The price beside this is on <strong>{short(leader.name)}</strong> holding the seat in November,
+						not on tonight.
+					{/if}
 				</p>
 			</section>
 		{/if}

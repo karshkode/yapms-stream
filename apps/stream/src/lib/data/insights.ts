@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { isPrimaryTitle } from '../race-office';
 
 /**
  * What the race looked like before anyone voted: the betting market's price and
@@ -44,6 +45,21 @@ export const MarketSnapshot = z.object({
 	title: z.string(),
 	slug: z.string(),
 	url: z.string(),
+	/**
+	 * Whether the market is about the race on screen or about November.
+	 *
+	 * This distinction is the difference between a useful number and a wrong one.
+	 * Polymarket runs one market per *seat*, and labels its Democratic slot with
+	 * whoever is expected to win the nomination — so during Michigan's Senate
+	 * primary, the outcome named "Abdul El-Sayed (D)" at 60% is the price on *a
+	 * Democrat* holding the seat in the general, not on El-Sayed winning tonight.
+	 * A host reading it off a primary scoreboard would say something false.
+	 *
+	 * Still shown when it's `general`, because "whoever wins tonight starts as a
+	 * 60-40 favourite in November" is a real and interesting thing to say. Just
+	 * never shown as if it were this race.
+	 */
+	context: z.enum(['race', 'general']).default('race'),
 	/**
 	 * Lifetime traded volume in dollars. Carried because it is the only honest
 	 * measure of how much a price means: a 62% with $8 behind it is one trader's
@@ -242,9 +258,17 @@ const DAY_MS = 86_400_000;
 export function summarizeInsights(
 	feed: InsightsFeed,
 	candidates: ReadonlyArray<{ id: string; name: string }>,
+	raceTitle = '',
 	now = Date.now()
 ): InsightsData {
 	const notes = [...feed.notes];
+
+	// A primary's scoreboard alongside a market for the general is the one
+	// combination that can produce a false statement, so it's labelled at the
+	// source rather than left for each component to work out.
+	const primaryNight = isPrimaryTitle(raceTitle);
+	const marketIsPrimary = isPrimaryTitle(feed.market?.title ?? '');
+	const context: 'race' | 'general' = primaryNight && !marketIsPrimary ? 'general' : 'race';
 
 	const market: MarketSnapshot | null = feed.market
 		? {
@@ -252,6 +276,7 @@ export function summarizeInsights(
 				title: feed.market.title,
 				slug: feed.market.slug,
 				url: feed.market.url,
+				context,
 				volume: feed.market.volume,
 				outcomes: feed.market.outcomes.map((o) => ({
 					name: o.name,
