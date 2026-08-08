@@ -4,6 +4,8 @@
 	import CandidatesTable from '$lib/components/CandidatesTable.svelte';
 	import RaceHeader from '$lib/components/RaceHeader.svelte';
 	import { streamStore } from '$lib/stream-store.svelte';
+	import CallCard from '$lib/components/broadcast/CallCard.svelte';
+	import InsightsStrip from '$lib/components/broadcast/InsightsStrip.svelte';
 	import MapLegend from './MapLegend.svelte';
 	import RegionDetailCard from './RegionDetailCard.svelte';
 	import RegionListPanel from './RegionListPanel.svelte';
@@ -123,102 +125,111 @@
 {/snippet}
 
 <div class="stage" class:readonly={!interactive} class:rail-left={dockSide === 'left'}>
-	<div class="map-area">
-		{#if interactive && hasMap}
-			<!-- Color-tab strip floats over the top-left of the map. It's the same
+	<div class="stage-main">
+		{#if state.profile && state.ui.broadcast.insightsStrip}
+			<!-- Above the map on both surfaces rather than inside the broadcast
+			     frame, so turning the frame off to build chrome in OBS doesn't take
+			     the market and the polls with it, and so the operator sees the same
+			     band the audience does without reading it off the PiP. -->
+			<InsightsStrip compact={interactive} />
+		{/if}
+		<div class="map-area">
+			{#if interactive && hasMap}
+				<!-- Color-tab strip floats over the top-left of the map. It's the same
 			     MapTab set used in GeographySection (for /overlay parity) but rendered
 			     as a pill row so the map can breathe full-bleed behind it. Hidden on
 			     no-map profiles (e.g. local races) because they're meaningless there. -->
-			<div class="tabs" role="tablist">
-				{#each tabs as t (t.id)}
-					<button
-						type="button"
-						class="tab"
-						class:active={state.ui.activeMapTab === t.id}
-						role="tab"
-						aria-selected={state.ui.activeMapTab === t.id}
-						title={t.hint}
-						onclick={() => (streamStore.state.ui.activeMapTab = t.id)}
-					>
-						{t.label}
-					</button>
-				{/each}
-			</div>
-		{/if}
+				<div class="tabs" role="tablist">
+					{#each tabs as t (t.id)}
+						<button
+							type="button"
+							class="tab"
+							class:active={state.ui.activeMapTab === t.id}
+							role="tab"
+							aria-selected={state.ui.activeMapTab === t.id}
+							title={t.hint}
+							onclick={() => (streamStore.state.ui.activeMapTab = t.id)}
+						>
+							{t.label}
+						</button>
+					{/each}
+				</div>
+			{/if}
 
-		{#if state.profile && hasMap}
-			<MapView
-				tab={state.ui.activeMapTab}
-				fill
-				readonly={!interactive}
-				onselect={interactive
-					? (attr) => {
-							// Toggle so re-clicking a selected region dismisses — the host
-							// can clear selection without aiming at empty space.
-							streamStore.state.ui.selectedRegionAttr =
-								state.ui.selectedRegionAttr === attr ? null : attr;
-						}
-					: undefined}
-				onregionsextracted={(rows) => {
-					// Only auto-seed when the template didn't ship regions. Important:
-					// don't clobber the us-president baseline (which seeds regions with
-					// archival data) — its rows are already populated before the SVG
-					// loads.
-					if (state.regions.length > 0) return;
-					streamStore.state.regions = rows;
-				}}
-			/>
-			<!-- Rendered on the mirror too. A shaded map with no key is unreadable
+			{#if state.profile && hasMap}
+				<MapView
+					tab={state.ui.activeMapTab}
+					fill
+					readonly={!interactive}
+					onselect={interactive
+						? (attr) => {
+								// Toggle so re-clicking a selected region dismisses — the host
+								// can clear selection without aiming at empty space.
+								streamStore.state.ui.selectedRegionAttr =
+									state.ui.selectedRegionAttr === attr ? null : attr;
+							}
+						: undefined}
+					onregionsextracted={(rows) => {
+						// Only auto-seed when the template didn't ship regions. Important:
+						// don't clobber the us-president baseline (which seeds regions with
+						// archival data) — its rows are already populated before the SVG
+						// loads.
+						if (state.regions.length > 0) return;
+						streamStore.state.regions = rows;
+					}}
+				/>
+				<!-- Rendered on the mirror too. A shaded map with no key is unreadable
 			     to the audience as much as to the host, and the swing on air needs
 			     to say what it's a swing from. -->
-			<MapLegend tab={state.ui.activeMapTab} {interactive} />
-		{:else if state.profile}
-			<!-- No-map race: centered candidate card so the OBS scene still has
+				<MapLegend tab={state.ui.activeMapTab} {interactive} />
+			{:else if state.profile}
+				<!-- No-map race: centered candidate card so the OBS scene still has
 			     something worth pointing at. RaceHeader carries polls-close time
 			     + party badge; CandidatesTable handles the leader highlight and
 			     reported-pct bar at the bottom. Wrapped in a max-width shell so
 			     the card doesn't stretch comically on 1080p+ stages. -->
-			<div class="no-map-shell">
-				<div class="no-map-card">
-					{#if state.ui.visible.header}
-						<RaceHeader {state} />
-					{/if}
-					<CandidatesTable {state} />
-					{#if state.candidates.length === 0}
-						<p class="no-cands">
-							No candidates loaded yet. Open the Edit drawer (<kbd>e</kbd>) and add them, or let
-							civicAPI polling populate them for live races.
-						</p>
-					{/if}
+				<div class="no-map-shell">
+					<div class="no-map-card">
+						{#if state.ui.visible.header}
+							<RaceHeader {state} />
+						{/if}
+						<CandidatesTable {state} />
+						{#if state.candidates.length === 0}
+							<p class="no-cands">
+								No candidates loaded yet. Open the Edit drawer (<kbd>e</kbd>) and add them, or let
+								civicAPI polling populate them for live races.
+							</p>
+						{/if}
+					</div>
 				</div>
-			</div>
-		{:else}
-			<div class="placeholder">
-				<p>
-					Pick a race template to start — <kbd>⌘</kbd><kbd>K</kbd> or the Templates button above.
-				</p>
-			</div>
-		{/if}
+			{:else}
+				<div class="placeholder">
+					<p>
+						Pick a race template to start — <kbd>⌘</kbd><kbd>K</kbd> or the Templates button above.
+					</p>
+				</div>
+			{/if}
 
-		<!-- Legacy floating card. Only when the host has turned the dock off:
+			<!-- Legacy floating card. Only when the host has turned the dock off:
 		     `dock: 'off'` keeps the original corner-overlay behaviour, including
 		     the corner-cycle button and the offset that clears the region list. -->
-		{#if !docked && cardKind !== null}
-			<div
-				class="detail-slot corner-{state.ui.detailCardCorner}"
-				class:regions-shifted={state.ui.regionListOpen && state.regions.length > 0}
-			>
-				{@render resultsCard()}
-			</div>
-		{/if}
+			{#if !docked && cardKind !== null}
+				<div
+					class="detail-slot corner-{state.ui.detailCardCorner}"
+					class:regions-shifted={state.ui.regionListOpen && state.regions.length > 0}
+				>
+					{@render resultsCard()}
+				</div>
+			{/if}
 
-		<!-- Left-edge regions navigator. Only on /control (interactive=true) so
+			<!-- Left-edge regions navigator. Only on /control (interactive=true) so
 		     the OBS capture stays clean. The component itself no-ops when
 		     `state.regions` is empty (browse-us shell pre-state-click, or
 		     no-map races), so we don't need an extra guard here. -->
-		{#if interactive && hasMap}
-			<RegionListPanel />
-		{/if}
+			{#if interactive && hasMap}
+				<RegionListPanel />
+			{/if}
+		</div>
 	</div>
 
 	{#if docked}
@@ -230,6 +241,12 @@
 	{#if showPip && interactive && state.ui.pipVisible && state.profile}
 		<OverlayPip />
 	{/if}
+
+	<!-- Last child and absolutely positioned over the whole stage, because a call
+	     is the one graphic that outranks everything under it. On /control the same
+	     component renders small and at the edge, so the operator can see what
+	     they've pushed without losing the map they pushed it about. -->
+	<CallCard compact={interactive} />
 </div>
 
 <style>
@@ -240,6 +257,18 @@
 		background: var(--color-base-300);
 		overflow: hidden;
 		display: flex;
+	}
+	/* Holds the odds strip above the map. A wrapper rather than making the strip
+	   a child of `.map-area`, because everything else in there — the tab pills,
+	   the legend, the floating card — is positioned against that box, and a band
+	   inside it would have the tabs land on top of the band. */
+	.stage-main {
+		position: relative;
+		flex: 1 1 auto;
+		min-width: 0;
+		min-height: 0;
+		display: flex;
+		flex-direction: column;
 	}
 	.map-area {
 		position: relative;

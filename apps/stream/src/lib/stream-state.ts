@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { InsightsData } from './data/insights';
 import {
 	Candidate,
 	ComparisonBaseline,
@@ -90,6 +91,46 @@ export const BroadcastDock = z.enum(['right', 'left', 'off']);
 export type BroadcastDock = z.infer<typeof BroadcastDock>;
 
 /**
+ * A race call, frozen at the moment the host pushed it on air.
+ *
+ * Every number here is a copy rather than a live read, and that's the point. A
+ * projection is a claim made at a time — "at 9:41, with 62% counted, we're
+ * calling this for El-Sayed" — and a card that keeps updating would drift away
+ * from its own timestamp within minutes, until it showed 94% counted next to a
+ * time three hours earlier. Worse, if the count later tightened, a live card
+ * would quietly rewrite what the desk said. The frozen copy is the record of the
+ * call; the results rail next to it is the live number, and the two being
+ * different is information rather than a bug.
+ *
+ * `kind` separates the two things a desk says, which are not the same claim:
+ * a projection is the desk's own model getting ahead of the count, while a
+ * winner is the count being finished enough that nobody disputes it.
+ */
+export const RaceCall = z.object({
+	candidateId: z.string(),
+	/** Copied, so deleting or renaming a candidate can't garble a card on air. */
+	name: z.string(),
+	party: z.string().default(''),
+	partyColor: z.string().default('#6b7280'),
+	headshotUrl: z.string().nullable().default(null),
+	kind: z.enum(['projected', 'winner']).default('projected'),
+	/** ms epoch. Rendered in the race's own time zone, like every other clock. */
+	at: z.number().int(),
+	votes: z.number().int().nonnegative().default(0),
+	/** Share of the counted vote, 0-100. */
+	pct: z.number().default(0),
+	/** Lead over the runner-up in points at the moment of the call. */
+	marginPct: z.number().default(0),
+	reportedPct: z.number().nullable().default(null),
+	/** Who made the call: the desk, a wire, or the candidate's own concession. */
+	source: z.string().default(''),
+	/** One optional line of colour, e.g. "first Democrat to hold this seat since 1994". */
+	note: z.string().default(''),
+	raceTitle: z.string().default('')
+});
+export type RaceCall = z.infer<typeof RaceCall>;
+
+/**
  * Broadcast presentation config — the news-channel chrome the host asked for.
  *
  * `dock` applies to BOTH /control and /overlay: it moves the results card out
@@ -116,9 +157,54 @@ export const BroadcastConfig = z.object({
 	/** Cadence for refreshing followed-race tallies. Much slower than the
 	 *  active race's poll because these are background numbers. */
 	followIntervalMs: z.number().int().min(15_000).default(60_000),
-	followed: z.array(FollowedRace).default([])
+	followed: z.array(FollowedRace).default([]),
+	/**
+	 * The call card currently on air, or null for none.
+	 *
+	 * Under `broadcast` rather than on `race` because it is a graphic the host
+	 * pushes and pulls, not a fact about the race — and because everything here
+	 * survives `applyTemplate`, so hopping to another race and back doesn't drop
+	 * a card mid-broadcast.
+	 */
+	call: RaceCall.nullable().default(null),
+	/** The odds/polling strip across the top of the stage. */
+	insightsStrip: z.boolean().default(true)
 });
 export type BroadcastConfig = z.infer<typeof BroadcastConfig>;
+
+/**
+ * Where the market price and polling average come from, and the last ones we got.
+ *
+ * The query is stored rather than derived on every read because it can't always
+ * be derived correctly: Polymarket names its events by hand ("Michigan Senate
+ * Election Winner", but "Who will win the Georgia runoff?") and VoteHub keys
+ * polls by its own subject strings. The defaults are computed from the race, and
+ * the two overrides exist for when the defaults miss — which is a text field the
+ * host fixes in ten seconds, rather than a race the feature can't cover.
+ *
+ * `data` is the fetched result, kept in state so it rides the existing
+ * BroadcastChannel publish to /overlay. It is a few candidates' worth of numbers,
+ * far smaller than the region array already going over that channel, and it means
+ * /overlay never talks to the network — which matters because the machine running
+ * OBS is the one that must not stall.
+ */
+export const InsightsConfig = z.object({
+	enabled: z.boolean().default(true),
+	/** Overrides the market search; a Polymarket event slug. */
+	marketSlug: z.string().default(''),
+	/** Overrides the market search text, e.g. "Georgia runoff". */
+	marketQuery: z.string().default(''),
+	/** Overrides VoteHub's contest name, e.g. "2026 Michigan". */
+	pollSubject: z.string().default(''),
+	/**
+	 * Markets move all night, but not fast enough to justify a tighter loop than
+	 * this — and the polling half of the same request changes a few times a week.
+	 */
+	refreshMs: z.number().int().min(30_000).default(120_000),
+	data: InsightsData.nullable().default(null),
+	lastError: z.string().nullable().default(null)
+});
+export type InsightsConfig = z.infer<typeof InsightsConfig>;
 
 /**
  * What the comparison map modes measure against.
@@ -205,6 +291,8 @@ export const UiState = z.object({
 			'candidates',
 			'regions',
 			'compare',
+			'markets',
+			'call',
 			'visibility',
 			'broadcast',
 			'dataSource',
@@ -258,7 +346,11 @@ export const UiState = z.object({
 	// more here: a captured baseline is only useful in a *different* race than
 	// the one it came from, so it has to survive `applyTemplate` spreading
 	// `...state.ui` when the host loads November's general.
-	comparison: ComparisonConfig.default(() => ComparisonConfig.parse({}))
+	comparison: ComparisonConfig.default(() => ComparisonConfig.parse({})),
+	// Market price + polling average. Under `ui` alongside `broadcast` for the
+	// same reasons, and one of its own: the host's corrected market search for a
+	// race with an awkward name shouldn't be thrown away by a template reload.
+	insights: InsightsConfig.default(() => InsightsConfig.parse({}))
 });
 export type UiState = z.infer<typeof UiState>;
 

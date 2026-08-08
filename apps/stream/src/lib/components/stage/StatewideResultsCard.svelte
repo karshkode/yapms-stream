@@ -39,7 +39,28 @@
 		isLeader: boolean;
 		called: boolean;
 		headshotUrl: string | null;
+		/** Market probability 0-1, or null when this race has no market. */
+		market: number | null;
+		/** Polling average as a percentage, or null. */
+		poll: number | null;
 	}
+
+	// Keyed lookups so each row costs one map read rather than a scan of the
+	// market's outcomes and the poll averages.
+	let marketById = $derived(
+		new Map(
+			(streamState.ui.insights.data?.market?.outcomes ?? [])
+				.filter((o) => o.candidateId)
+				.map((o) => [o.candidateId as string, o.probability])
+		)
+	);
+	let pollById = $derived(
+		new Map(
+			(streamState.ui.insights.data?.polls?.averages ?? [])
+				.filter((a) => a.candidateId)
+				.map((a) => [a.candidateId as string, a.pct])
+		)
+	);
 
 	let totalVotes = $derived(
 		streamState.candidates.filter((c) => !c.hidden).reduce((a, c) => a + c.votes, 0)
@@ -67,7 +88,9 @@
 					pct: totalVotes > 0 ? (c.votes / totalVotes) * 100 : 0,
 					isLeader: c.id === leaderId,
 					called: c.called,
-					headshotUrl: c.headshotUrl
+					headshotUrl: c.headshotUrl,
+					market: marketById.get(c.id) ?? null,
+					poll: pollById.get(c.id) ?? null
 				})
 			)
 			.sort((a, b) => b.votes - a.votes);
@@ -254,7 +277,23 @@
 									style:background-color={c.partyColor}
 								></div>
 							</div>
-							<div class="row-foot">{fmtNum(c.votes)} votes</div>
+							<div class="row-foot">
+								<span>{fmtNum(c.votes)} votes</span>
+								<!-- On the same line as the vote count so the three numbers a
+								     host compares — what's counted, what the market thinks, what
+								     the polls said — read together instead of living in three
+								     different panels. -->
+								{#if c.market != null}
+									<span class="ext" title="Polymarket price for this candidate winning">
+										Mkt {Math.round(c.market * 100)}%
+									</span>
+								{/if}
+								{#if c.poll != null}
+									<span class="ext" title="VoteHub polling average">
+										Poll {c.poll.toFixed(1)}
+									</span>
+								{/if}
+							</div>
 						</li>
 					{/each}
 				</ul>
@@ -462,8 +501,23 @@
 		font-weight: 600;
 	}
 	.row-foot {
+		display: flex;
+		align-items: baseline;
+		gap: 0.45rem;
+		flex-wrap: wrap;
 		font-size: 0.7rem;
 		color: rgb(from var(--color-base-content) r g b / 0.6);
+	}
+	/* Set apart from the vote count rather than blended with it: these are
+	   somebody else's numbers, and a host reading the row aloud should be able to
+	   see which two aren't the count. */
+	.ext {
+		padding: 0.02rem 0.25rem;
+		border: 1px solid rgb(from var(--color-base-content) r g b / 0.2);
+		border-radius: 0.2rem;
+		font-size: 0.62rem;
+		font-variant-numeric: tabular-nums;
+		white-space: nowrap;
 	}
 	.bar-track {
 		background: rgb(from var(--color-base-300) r g b / 0.5);

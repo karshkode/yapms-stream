@@ -7,6 +7,8 @@
 	import { fillMissingHeadshots } from '$lib/broadcast/candidatePhotoFill';
 	import { civicApi } from '$lib/data/civicapi';
 	import { loadPersistedState, persistState } from '$lib/data/manual';
+	import { fetchInsightsFeed, summarizeInsights } from '$lib/data/insights';
+	import { insightsQueryFor } from '$lib/data/insights-query';
 	import { autoBaselineRef } from '$lib/map/metrics';
 	import { preserveHeadshots, remapLiveRegionsToSeed } from '$lib/data/source';
 	import { applyTemplate } from '$lib/picker/applyTemplate';
@@ -317,6 +319,58 @@
 		if (!ref) return;
 		if (untrack(() => streamStore.state.ui.comparison.baselineRef) === ref) return;
 		streamStore.state.ui.comparison.baselineRef = ref;
+	});
+
+	// Market price + polling average.
+	//
+	// Owned by /control for the same reason every other fetch is: /overlay is the
+	// surface running inside OBS on the machine that also has to encode video, and
+	// it gets the result over the BroadcastChannel it is already listening to.
+	//
+	// The dependency is the resolved *query*, not the race, so this refetches when
+	// the host renames the race into something the market can be found by, or fixes
+	// the search in the panel — and not when a vote count ticks. `refreshMs` is the
+	// floor between requests; markets move all night but not faster than a couple
+	// of minutes' worth of meaning, and the polling half of the same response
+	// changes a few times a week.
+	let insightsPass = 0;
+	const insightsKey = $derived(
+		streamStore.state.ui.insights.enabled ? JSON.stringify(insightsQueryFor(streamStore.state)) : ''
+	);
+	$effect(() => {
+		const key = insightsKey;
+		if (!key) return;
+		const query = JSON.parse(key) as ReturnType<typeof insightsQueryFor>;
+		if (!query.q && !query.subject && !query.slug) return;
+		const intervalMs = streamStore.state.ui.insights.refreshMs;
+
+		const myPass = ++insightsPass;
+		const ctl = new AbortController();
+
+		const run = async () => {
+			try {
+				const feed = await fetchInsightsFeed(query, { signal: ctl.signal });
+				if (myPass !== insightsPass) return;
+				// Matched against the roster here rather than in the request, so a
+				// photo pass or a civicAPI tick that renames a candidate re-joins on
+				// the next refresh without another round trip.
+				streamStore.state.ui.insights.data = summarizeInsights(
+					feed,
+					untrack(() => streamStore.state.candidates)
+				);
+				streamStore.state.ui.insights.lastError = null;
+			} catch (err) {
+				if (ctl.signal.aborted || myPass !== insightsPass) return;
+				streamStore.state.ui.insights.lastError = err instanceof Error ? err.message : String(err);
+			}
+		};
+
+		void run();
+		const timer = setInterval(() => void run(), intervalMs);
+		return () => {
+			ctl.abort();
+			clearInterval(timer);
+		};
 	});
 
 	// Automatic candidate-photo pass.
