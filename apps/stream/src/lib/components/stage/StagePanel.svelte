@@ -195,7 +195,10 @@
 							<RaceHeader {state} />
 						{/if}
 						<CandidatesTable {state} />
-						{#if state.candidates.length === 0}
+						{#if state.candidates.length === 0 && interactive}
+							<!-- Operator instruction, so it stays on the desk. The same
+						     keyboard hint on air is a caption telling the audience to
+						     press a key on a machine they can't reach. -->
 							<p class="no-cands">
 								No candidates loaded yet. Open the Edit drawer (<kbd>e</kbd>) and add them, or let
 								civicAPI polling populate them for live races.
