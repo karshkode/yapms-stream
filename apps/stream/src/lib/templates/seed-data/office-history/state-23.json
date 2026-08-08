@@ -1,0 +1,586 @@
+{
+  "stateFips": "23",
+  "stateName": "Maine",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Demi Kouzounas",
+      "candDem": "Angus King JR",
+      "shortRep": "Kouzounas",
+      "shortDem": "King",
+      "partisan": true,
+      "margin": -20.1,
+      "votesRep": 284434,
+      "votesDem": 427570,
+      "votesTotal": 821072,
+      "regions": {
+        "Androscoggin23": {
+          "color": "#1C408C",
+          "label": "King +14.1",
+          "margin": -14.12,
+          "votesRep": 22073,
+          "votesDem": 29332,
+          "votesTotal": 58214
+        },
+        "Aroostook23": {
+          "color": "#577CCC",
+          "label": "King +5.5",
+          "margin": -5.46,
+          "votesRep": 14996,
+          "votesDem": 16727,
+          "votesTotal": 35035
+        },
+        "Cumberland23": {
+          "color": "#1C408C",
+          "label": "King +41.2",
+          "margin": -41.23,
+          "votesRep": 47372,
+          "votesDem": 113847,
+          "votesTotal": 191102
+        },
+        "Franklin23": {
+          "color": "#1C408C",
+          "label": "King +14.8",
+          "margin": -14.79,
+          "votesRep": 6731,
+          "votesDem": 9067,
+          "votesTotal": 17640
+        },
+        "Hancock23": {
+          "color": "#1C408C",
+          "label": "King +25.9",
+          "margin": -25.86,
+          "votesRep": 11585,
+          "votesDem": 19666,
+          "votesTotal": 35916
+        },
+        "Kennebec23": {
+          "color": "#1C408C",
+          "label": "King +14.5",
+          "margin": -14.51,
+          "votesRep": 27170,
+          "votesDem": 36394,
+          "votesTotal": 71721
+        },
+        "Knox23": {
+          "color": "#1C408C",
+          "label": "King +29.7",
+          "margin": -29.7,
+          "votesRep": 7873,
+          "votesDem": 14526,
+          "votesTotal": 25680
+        },
+        "Lincoln23": {
+          "color": "#1C408C",
+          "label": "King +25.2",
+          "margin": -25.19,
+          "votesRep": 7613,
+          "votesDem": 12739,
+          "votesTotal": 23185
+        },
+        "Oxford23": {
+          "color": "#577CCC",
+          "label": "King +10.0",
+          "margin": -9.99,
+          "votesRep": 13779,
+          "votesDem": 16837,
+          "votesTotal": 34160
+        },
+        "Penobscot23": {
+          "color": "#8AAFFF",
+          "label": "King +4.5",
+          "margin": -4.47,
+          "votesRep": 35774,
+          "votesDem": 39123,
+          "votesTotal": 86002
+        },
+        "Piscataquis23": {
+          "color": "#FF5865",
+          "label": "Kouzounas +7.1",
+          "margin": 7.06,
+          "votesRep": 4943,
+          "votesDem": 4291,
+          "votesTotal": 10104
+        },
+        "Sagadahoc23": {
+          "color": "#1C408C",
+          "label": "King +32.0",
+          "margin": -32.05,
+          "votesRep": 7373,
+          "votesDem": 14328,
+          "votesTotal": 24307
+        },
+        "Somerset23": {
+          "color": "#FF8B98",
+          "label": "Kouzounas +3.0",
+          "margin": 2.95,
+          "votesRep": 12713,
+          "votesDem": 11984,
+          "votesTotal": 27490
+        },
+        "Waldo23": {
+          "color": "#1C408C",
+          "label": "King +17.0",
+          "margin": -17.02,
+          "votesRep": 8821,
+          "votesDem": 12440,
+          "votesTotal": 24848
+        },
+        "Washington23": {
+          "color": "#FF5865",
+          "label": "Kouzounas +7.1",
+          "margin": 7.06,
+          "votesRep": 8522,
+          "votesDem": 7398,
+          "votesTotal": 17775
+        },
+        "York23": {
+          "color": "#1C408C",
+          "label": "King +17.4",
+          "margin": -17.39,
+          "votesRep": 46300,
+          "votesDem": 65791,
+          "votesTotal": 131459
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Paul LePage",
+      "candDem": "Janet Mills",
+      "shortRep": "LePage",
+      "shortDem": "Mills",
+      "partisan": true,
+      "margin": -13.32,
+      "votesRep": 287087,
+      "votesDem": 375332,
+      "votesTotal": 674981,
+      "regions": {
+        "Androscoggin23": {
+          "color": "#CF8980",
+          "label": "LePage +0.7",
+          "margin": 0.66,
+          "votesRep": 23220,
+          "votesDem": 22915,
+          "votesTotal": 47019
+        },
+        "Aroostook23": {
+          "color": "#BF1D29",
+          "label": "LePage +17.6",
+          "margin": 17.58,
+          "votesRep": 16530,
+          "votesDem": 11587,
+          "votesTotal": 28632
+        },
+        "Cumberland23": {
+          "color": "#1C408C",
+          "label": "Mills +40.8",
+          "margin": -40.77,
+          "votesRep": 47201,
+          "votesDem": 112188,
+          "votesTotal": 161851
+        },
+        "Franklin23": {
+          "color": "#8AAFFF",
+          "label": "Mills +1.6",
+          "margin": -1.56,
+          "votesRep": 7179,
+          "votesDem": 7406,
+          "votesTotal": 14928
+        },
+        "Hancock23": {
+          "color": "#1C408C",
+          "label": "Mills +16.4",
+          "margin": -16.42,
+          "votesRep": 12524,
+          "votesDem": 17445,
+          "votesTotal": 30535
+        },
+        "Kennebec23": {
+          "color": "#8AAFFF",
+          "label": "Mills +4.2",
+          "margin": -4.17,
+          "votesRep": 28368,
+          "votesDem": 30838,
+          "votesTotal": 60346
+        },
+        "Knox23": {
+          "color": "#1C408C",
+          "label": "Mills +22.9",
+          "margin": -22.91,
+          "votesRep": 8430,
+          "votesDem": 13441,
+          "votesTotal": 22256
+        },
+        "Lincoln23": {
+          "color": "#1C408C",
+          "label": "Mills +15.1",
+          "margin": -15.09,
+          "votesRep": 8744,
+          "votesDem": 11853,
+          "votesTotal": 20946
+        },
+        "Oxford23": {
+          "color": "#FF8B98",
+          "label": "LePage +5.0",
+          "margin": 5,
+          "votesRep": 14229,
+          "votesDem": 12875,
+          "votesTotal": 27735
+        },
+        "Penobscot23": {
+          "color": "#FF5865",
+          "label": "LePage +5.4",
+          "margin": 5.43,
+          "votesRep": 35499,
+          "votesDem": 31845,
+          "votesTotal": 68647
+        },
+        "Piscataquis23": {
+          "color": "#BF1D29",
+          "label": "LePage +23.1",
+          "margin": 23.11,
+          "votesRep": 4960,
+          "votesDem": 3098,
+          "votesTotal": 8216
+        },
+        "Sagadahoc23": {
+          "color": "#1C408C",
+          "label": "Mills +21.3",
+          "margin": -21.33,
+          "votesRep": 8049,
+          "votesDem": 12414,
+          "votesTotal": 20842
+        },
+        "Somerset23": {
+          "color": "#BF1D29",
+          "label": "LePage +18.6",
+          "margin": 18.6,
+          "votesRep": 13233,
+          "votesDem": 9083,
+          "votesTotal": 22816
+        },
+        "Waldo23": {
+          "color": "#1C408C",
+          "label": "Mills +11.7",
+          "margin": -11.69,
+          "votesRep": 9099,
+          "votesDem": 11508,
+          "votesTotal": 21007
+        },
+        "Washington23": {
+          "color": "#BF1D29",
+          "label": "LePage +14.7",
+          "margin": 14.74,
+          "votesRep": 8160,
+          "votesDem": 6064,
+          "votesTotal": 14777
+        },
+        "York23": {
+          "color": "#1C408C",
+          "label": "Mills +18.7",
+          "margin": -18.66,
+          "votesRep": 41662,
+          "votesDem": 60772,
+          "votesTotal": 104428
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Shawn Moody",
+      "candDem": "Janet Mills",
+      "shortRep": "Moody",
+      "shortDem": "Mills",
+      "partisan": true,
+      "margin": -8.2,
+      "votesRep": 272311,
+      "votesDem": 320962,
+      "votesTotal": 630667,
+      "regions": {
+        "Androscoggin23": {
+          "color": "#FF5865",
+          "label": "Moody +5.0",
+          "margin": 5.04,
+          "votesRep": 21903,
+          "votesDem": 19801,
+          "votesTotal": 45071
+        },
+        "Aroostook23": {
+          "color": "#BF1D29",
+          "label": "Moody +16.7",
+          "margin": 16.67,
+          "votesRep": 14486,
+          "votesDem": 10347,
+          "votesTotal": 27072
+        },
+        "Cumberland23": {
+          "color": "#1C408C",
+          "label": "Mills +27.7",
+          "margin": -27.74,
+          "votesRep": 52811,
+          "votesDem": 93368,
+          "votesTotal": 153484
+        },
+        "Franklin23": {
+          "color": "#577CCC",
+          "label": "Mills +6.2",
+          "margin": -6.21,
+          "votesRep": 6257,
+          "votesDem": 7085,
+          "votesTotal": 14083
+        },
+        "Hancock23": {
+          "color": "#1C408C",
+          "label": "Mills +14.6",
+          "margin": -14.59,
+          "votesRep": 11345,
+          "votesDem": 15221,
+          "votesTotal": 28115
+        },
+        "Kennebec23": {
+          "color": "#8AAFFF",
+          "label": "Mills +2.0",
+          "margin": -1.95,
+          "votesRep": 25752,
+          "votesDem": 26777,
+          "votesTotal": 55954
+        },
+        "Knox23": {
+          "color": "#1C408C",
+          "label": "Mills +20.6",
+          "margin": -20.62,
+          "votesRep": 7694,
+          "votesDem": 11691,
+          "votesTotal": 20401
+        },
+        "Lincoln23": {
+          "color": "#577CCC",
+          "label": "Mills +7.5",
+          "margin": -7.51,
+          "votesRep": 8324,
+          "votesDem": 9676,
+          "votesTotal": 19024
+        },
+        "Oxford23": {
+          "color": "#FF5865",
+          "label": "Moody +8.0",
+          "margin": 8.01,
+          "votesRep": 12339,
+          "votesDem": 10508,
+          "votesTotal": 25592
+        },
+        "Penobscot23": {
+          "color": "#FF8B98",
+          "label": "Moody +4.3",
+          "margin": 4.26,
+          "votesRep": 31621,
+          "votesDem": 29039,
+          "votesTotal": 64306
+        },
+        "Piscataquis23": {
+          "color": "#BF1D29",
+          "label": "Moody +17.4",
+          "margin": 17.37,
+          "votesRep": 4074,
+          "votesDem": 2868,
+          "votesTotal": 7405
+        },
+        "Sagadahoc23": {
+          "color": "#1C408C",
+          "label": "Mills +13.6",
+          "margin": -13.65,
+          "votesRep": 7714,
+          "votesDem": 10152,
+          "votesTotal": 19095
+        },
+        "Somerset23": {
+          "color": "#BF1D29",
+          "label": "Moody +12.9",
+          "margin": 12.9,
+          "votesRep": 11048,
+          "votesDem": 8524,
+          "votesTotal": 20782
+        },
+        "Waldo23": {
+          "color": "#577CCC",
+          "label": "Mills +9.3",
+          "margin": -9.25,
+          "votesRep": 8397,
+          "votesDem": 10109,
+          "votesTotal": 19594
+        },
+        "Washington23": {
+          "color": "#FF5865",
+          "label": "Moody +6.5",
+          "margin": 6.53,
+          "votesRep": 6542,
+          "votesDem": 5740,
+          "votesTotal": 13057
+        },
+        "York23": {
+          "color": "#577CCC",
+          "label": "Mills +7.1",
+          "margin": -7.07,
+          "votesRep": 41727,
+          "votesDem": 48078,
+          "votesTotal": 95303
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Eric Brakey",
+      "candDem": "Angus King JR",
+      "shortRep": "Brakey",
+      "shortDem": "King",
+      "partisan": true,
+      "margin": -21.31,
+      "votesRep": 223502,
+      "votesDem": 344575,
+      "votesTotal": 634409,
+      "regions": {
+        "Androscoggin23": {
+          "color": "#577CCC",
+          "label": "King +7.8",
+          "margin": -7.84,
+          "votesRep": 18931,
+          "votesDem": 22150,
+          "votesTotal": 45409
+        },
+        "Aroostook23": {
+          "color": "#1C408C",
+          "label": "King +15.6",
+          "margin": -15.58,
+          "votesRep": 10767,
+          "votesDem": 14742,
+          "votesTotal": 27334
+        },
+        "Cumberland23": {
+          "color": "#1C408C",
+          "label": "King +40.2",
+          "margin": -40.18,
+          "votesRep": 40053,
+          "votesDem": 93860,
+          "votesTotal": 154180
+        },
+        "Franklin23": {
+          "color": "#1C408C",
+          "label": "King +18.5",
+          "margin": -18.46,
+          "votesRep": 5194,
+          "votesDem": 7546,
+          "votesTotal": 14128
+        },
+        "Hancock23": {
+          "color": "#1C408C",
+          "label": "King +22.2",
+          "margin": -22.24,
+          "votesRep": 9837,
+          "votesDem": 15463,
+          "votesTotal": 28277
+        },
+        "Kennebec23": {
+          "color": "#1C408C",
+          "label": "King +15.7",
+          "margin": -15.67,
+          "votesRep": 21608,
+          "votesDem": 29640,
+          "votesTotal": 56088
+        },
+        "Knox23": {
+          "color": "#1C408C",
+          "label": "King +31.4",
+          "margin": -31.4,
+          "votesRep": 6270,
+          "votesDem": 12009,
+          "votesTotal": 20516
+        },
+        "Lincoln23": {
+          "color": "#1C408C",
+          "label": "King +22.5",
+          "margin": -22.47,
+          "votesRep": 6814,
+          "votesDem": 10763,
+          "votesTotal": 19169
+        },
+        "Oxford23": {
+          "color": "#1C408C",
+          "label": "King +10.4",
+          "margin": -10.42,
+          "votesRep": 10510,
+          "votesDem": 12954,
+          "votesTotal": 25605
+        },
+        "Penobscot23": {
+          "color": "#577CCC",
+          "label": "King +6.1",
+          "margin": -6.1,
+          "votesRep": 27692,
+          "votesDem": 31290,
+          "votesTotal": 64847
+        },
+        "Piscataquis23": {
+          "color": "#FF8B98",
+          "label": "Brakey +2.9",
+          "margin": 2.86,
+          "votesRep": 3578,
+          "votesDem": 3379,
+          "votesTotal": 7494
+        },
+        "Sagadahoc23": {
+          "color": "#1C408C",
+          "label": "King +29.2",
+          "margin": -29.22,
+          "votesRep": 6284,
+          "votesDem": 11473,
+          "votesTotal": 19264
+        },
+        "Somerset23": {
+          "color": "#FF8B98",
+          "label": "Brakey +1.0",
+          "margin": 1.03,
+          "votesRep": 9831,
+          "votesDem": 9631,
+          "votesTotal": 20961
+        },
+        "Waldo23": {
+          "color": "#1C408C",
+          "label": "King +18.2",
+          "margin": -18.22,
+          "votesRep": 7265,
+          "votesDem": 10503,
+          "votesTotal": 19747
+        },
+        "Washington23": {
+          "color": "#8AAFFF",
+          "label": "King +4.5",
+          "margin": -4.47,
+          "votesRep": 5770,
+          "votesDem": 6310,
+          "votesTotal": 13181
+        },
+        "York23": {
+          "color": "#1C408C",
+          "label": "King +22.0",
+          "margin": -22.01,
+          "votesRep": 32849,
+          "votesDem": 51387,
+          "votesTotal": 95787
+        }
+      }
+    }
+  ]
+}

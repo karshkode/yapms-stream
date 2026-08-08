@@ -47,3 +47,8 @@ dist/**
 
 # direnv
 .direnv
+
+# Bake-script download cache. The election archives behind the seed data run to
+# a couple of hundred megabytes; the scripts re-fetch anything missing, and the
+# baked JSON they produce is what's committed.
+apps/stream/scripts/.cache/

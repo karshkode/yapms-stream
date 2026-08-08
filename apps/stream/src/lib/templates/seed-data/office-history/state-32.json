@@ -1,0 +1,924 @@
+{
+  "stateFips": "32",
+  "stateName": "Nevada",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Sam Brown",
+      "candDem": "Jacky Rosen",
+      "shortRep": "Brown",
+      "shortDem": "Rosen",
+      "partisan": true,
+      "margin": -1.75,
+      "votesRep": 677046,
+      "votesDem": 701105,
+      "votesTotal": 1464728,
+      "regions": {
+        "Carson City32": {
+          "color": "#FF5865",
+          "label": "Brown +6.7",
+          "margin": 6.71,
+          "votesRep": 15389,
+          "votesDem": 13454,
+          "votesTotal": 30799
+        },
+        "Churchill32": {
+          "color": "#BF1D29",
+          "label": "Brown +47.4",
+          "margin": 47.37,
+          "votesRep": 9179,
+          "votesDem": 3278,
+          "votesTotal": 13406
+        },
+        "Clark32": {
+          "color": "#577CCC",
+          "label": "Rosen +7.7",
+          "margin": -7.7,
+          "votesRep": 441057,
+          "votesDem": 514662,
+          "votesTotal": 1014837
+        },
+        "Douglas32": {
+          "color": "#BF1D29",
+          "label": "Brown +30.9",
+          "margin": 30.92,
+          "votesRep": 22125,
+          "votesDem": 11675,
+          "votesTotal": 35255
+        },
+        "Elko32": {
+          "color": "#BF1D29",
+          "label": "Brown +56.2",
+          "margin": 56.24,
+          "votesRep": 15850,
+          "votesDem": 4439,
+          "votesTotal": 22245
+        },
+        "Esmeralda32": {
+          "color": "#BF1D29",
+          "label": "Brown +65.5",
+          "margin": 65.47,
+          "votesRep": 345,
+          "votesDem": 72,
+          "votesTotal": 458
+        },
+        "Eureka32": {
+          "color": "#BF1D29",
+          "label": "Brown +77.0",
+          "margin": 77.04,
+          "votesRep": 825,
+          "votesDem": 107,
+          "votesTotal": 1020
+        },
+        "Humboldt32": {
+          "color": "#BF1D29",
+          "label": "Brown +49.9",
+          "margin": 49.9,
+          "votesRep": 5500,
+          "votesDem": 1838,
+          "votesTotal": 7968
+        },
+        "Lander32": {
+          "color": "#BF1D29",
+          "label": "Brown +56.3",
+          "margin": 56.3,
+          "votesRep": 1924,
+          "votesDem": 538,
+          "votesTotal": 2711
+        },
+        "Lincoln32": {
+          "color": "#BF1D29",
+          "label": "Brown +69.5",
+          "margin": 69.46,
+          "votesRep": 1959,
+          "votesDem": 353,
+          "votesTotal": 2454
+        },
+        "Lyon32": {
+          "color": "#BF1D29",
+          "label": "Brown +40.9",
+          "margin": 40.9,
+          "votesRep": 21892,
+          "votesDem": 9182,
+          "votesTotal": 33287
+        },
+        "Mineral32": {
+          "color": "#BF1D29",
+          "label": "Brown +28.6",
+          "margin": 28.55,
+          "votesRep": 1326,
+          "votesDem": 737,
+          "votesTotal": 2287
+        },
+        "Nye32": {
+          "color": "#BF1D29",
+          "label": "Brown +38.5",
+          "margin": 38.51,
+          "votesRep": 17220,
+          "votesDem": 7645,
+          "votesTotal": 26843
+        },
+        "Pershing32": {
+          "color": "#BF1D29",
+          "label": "Brown +51.4",
+          "margin": 51.43,
+          "votesRep": 1618,
+          "votesDem": 519,
+          "votesTotal": 2291
+        },
+        "Storey32": {
+          "color": "#BF1D29",
+          "label": "Brown +36.2",
+          "margin": 36.25,
+          "votesRep": 1964,
+          "votesDem": 919,
+          "votesTotal": 3058
+        },
+        "Washoe32": {
+          "color": "#577CCC",
+          "label": "Rosen +6.1",
+          "margin": -6.14,
+          "votesRep": 115713,
+          "votesDem": 130841,
+          "votesTotal": 261475
+        },
+        "White Pine32": {
+          "color": "#BF1D29",
+          "label": "Brown +57.8",
+          "margin": 57.76,
+          "votesRep": 3160,
+          "votesDem": 846,
+          "votesTotal": 4334
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Joe Lombardo",
+      "candDem": "Steve Sisolak",
+      "shortRep": "Lombardo",
+      "shortDem": "Sisolak",
+      "partisan": true,
+      "margin": 1.56,
+      "votesRep": 497147,
+      "votesDem": 481872,
+      "votesTotal": 1018705,
+      "regions": {
+        "Carson City32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +12.9",
+          "margin": 12.86,
+          "votesRep": 12721,
+          "votesDem": 9822,
+          "votesTotal": 23665
+        },
+        "Churchill32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +51.9",
+          "margin": 51.9,
+          "votesRep": 7020,
+          "votesDem": 2223,
+          "votesTotal": 9865
+        },
+        "Clark32": {
+          "color": "#577CCC",
+          "label": "Sisolak +5.9",
+          "margin": -5.9,
+          "votesRep": 308649,
+          "votesDem": 347330,
+          "votesTotal": 680171
+        },
+        "Douglas32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +35.8",
+          "margin": 35.8,
+          "votesRep": 19067,
+          "votesDem": 9014,
+          "votesTotal": 29150
+        },
+        "Elko32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +61.3",
+          "margin": 61.29,
+          "votesRep": 12170,
+          "votesDem": 2921,
+          "votesTotal": 16177
+        },
+        "Esmeralda32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +68.2",
+          "margin": 68.16,
+          "votesRep": 338,
+          "votesDem": 64,
+          "votesTotal": 452
+        },
+        "Eureka32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +83.7",
+          "margin": 83.74,
+          "votesRep": 678,
+          "votesDem": 60,
+          "votesTotal": 778
+        },
+        "Humboldt32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +57.8",
+          "margin": 57.78,
+          "votesRep": 4488,
+          "votesDem": 1201,
+          "votesTotal": 6109
+        },
+        "Lander32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +68.3",
+          "margin": 68.3,
+          "votesRep": 1678,
+          "votesDem": 316,
+          "votesTotal": 2208
+        },
+        "Lincoln32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +73.3",
+          "margin": 73.25,
+          "votesRep": 1710,
+          "votesDem": 264,
+          "votesTotal": 2160
+        },
+        "Lyon32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +46.5",
+          "margin": 46.54,
+          "votesRep": 16338,
+          "votesDem": 5960,
+          "votesTotal": 23601
+        },
+        "Mineral32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +30.1",
+          "margin": 30.13,
+          "votesRep": 1136,
+          "votesDem": 610,
+          "votesTotal": 1888
+        },
+        "Nye32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +40.8",
+          "margin": 40.78,
+          "votesRep": 13815,
+          "votesDem": 5812,
+          "votesTotal": 20804
+        },
+        "Pershing32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +54.0",
+          "margin": 54.01,
+          "votesRep": 1286,
+          "votesDem": 384,
+          "votesTotal": 1774
+        },
+        "Storey32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +43.9",
+          "margin": 43.94,
+          "votesRep": 1741,
+          "votesDem": 678,
+          "votesTotal": 2554
+        },
+        "Washoe32": {
+          "color": "#8AAFFF",
+          "label": "Sisolak +1.5",
+          "margin": -1.52,
+          "votesRep": 91770,
+          "votesDem": 94601,
+          "votesTotal": 193899
+        },
+        "White Pine32": {
+          "color": "#BF1D29",
+          "label": "Lombardo +61.2",
+          "margin": 61.19,
+          "votesRep": 2542,
+          "votesDem": 612,
+          "votesTotal": 3450
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Adam Paul Laxalt",
+      "candDem": "Catherine Cortez Masto",
+      "shortRep": "Laxalt",
+      "shortDem": "Masto",
+      "partisan": true,
+      "margin": -0.81,
+      "votesRep": 490159,
+      "votesDem": 498188,
+      "votesTotal": 1020481,
+      "regions": {
+        "Carson City32": {
+          "color": "#FF5865",
+          "label": "Laxalt +9.3",
+          "margin": 9.28,
+          "votesRep": 12451,
+          "votesDem": 10337,
+          "votesTotal": 23694
+        },
+        "Churchill32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +48.7",
+          "margin": 48.75,
+          "votesRep": 7032,
+          "votesDem": 2423,
+          "votesTotal": 9880
+        },
+        "Clark32": {
+          "color": "#577CCC",
+          "label": "Masto +8.0",
+          "margin": -8.04,
+          "votesRep": 304024,
+          "votesDem": 357205,
+          "votesTotal": 681613
+        },
+        "Douglas32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +33.2",
+          "margin": 33.23,
+          "votesRep": 18886,
+          "votesDem": 9466,
+          "votesTotal": 29165
+        },
+        "Elko32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +57.5",
+          "margin": 57.53,
+          "votesRep": 12177,
+          "votesDem": 3283,
+          "votesTotal": 16185
+        },
+        "Esmeralda32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +66.9",
+          "margin": 66.91,
+          "votesRep": 343,
+          "votesDem": 68,
+          "votesTotal": 453
+        },
+        "Eureka32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +80.5",
+          "margin": 80.54,
+          "votesRep": 668,
+          "votesDem": 72,
+          "votesTotal": 777
+        },
+        "Humboldt32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +53.3",
+          "margin": 53.29,
+          "votesRep": 4456,
+          "votesDem": 1358,
+          "votesTotal": 6112
+        },
+        "Lander32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +62.4",
+          "margin": 62.43,
+          "votesRep": 1673,
+          "votesDem": 387,
+          "votesTotal": 2212
+        },
+        "Lincoln32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +68.7",
+          "margin": 68.65,
+          "votesRep": 1727,
+          "votesDem": 321,
+          "votesTotal": 2157
+        },
+        "Lyon32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +44.6",
+          "margin": 44.59,
+          "votesRep": 16293,
+          "votesDem": 6244,
+          "votesTotal": 23616
+        },
+        "Mineral32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +26.1",
+          "margin": 26.14,
+          "votesRep": 1122,
+          "votesDem": 657,
+          "votesTotal": 1889
+        },
+        "Nye32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +39.8",
+          "margin": 39.77,
+          "votesRep": 13823,
+          "votesDem": 5956,
+          "votesTotal": 20812
+        },
+        "Pershing32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +50.4",
+          "margin": 50.44,
+          "votesRep": 1272,
+          "votesDem": 419,
+          "votesTotal": 1777
+        },
+        "Storey32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +41.1",
+          "margin": 41.09,
+          "votesRep": 1722,
+          "votesDem": 719,
+          "votesTotal": 2553
+        },
+        "Washoe32": {
+          "color": "#8AAFFF",
+          "label": "Masto +4.6",
+          "margin": -4.59,
+          "votesRep": 89911,
+          "votesDem": 98569,
+          "votesTotal": 194135
+        },
+        "White Pine32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +57.1",
+          "margin": 57.11,
+          "votesRep": 2579,
+          "votesDem": 704,
+          "votesTotal": 3451
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Adam Paul Laxalt",
+      "candDem": "Steve Sisolak",
+      "shortRep": "Laxalt",
+      "shortDem": "Sisolak",
+      "partisan": true,
+      "margin": -4.31,
+      "votesRep": 440320,
+      "votesDem": 480007,
+      "votesTotal": 971799,
+      "regions": {
+        "Carson City32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +13.3",
+          "margin": 13.27,
+          "votesRep": 12080,
+          "votesDem": 9249,
+          "votesTotal": 22681
+        },
+        "Churchill32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +58.0",
+          "margin": 58.01,
+          "votesRep": 7033,
+          "votesDem": 1869,
+          "votesTotal": 9607
+        },
+        "Clark32": {
+          "color": "#1C408C",
+          "label": "Sisolak +14.0",
+          "margin": -13.99,
+          "votesRep": 266216,
+          "votesDem": 352814,
+          "votesTotal": 651901
+        },
+        "Douglas32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +35.9",
+          "margin": 35.94,
+          "votesRep": 16897,
+          "votesDem": 7962,
+          "votesTotal": 26045
+        },
+        "Elko32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +62.9",
+          "margin": 62.93,
+          "votesRep": 11444,
+          "votesDem": 2604,
+          "votesTotal": 15170
+        },
+        "Esmeralda32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +68.5",
+          "margin": 68.52,
+          "votesRep": 273,
+          "votesDem": 51,
+          "votesTotal": 371
+        },
+        "Eureka32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +81.8",
+          "margin": 81.79,
+          "votesRep": 609,
+          "votesDem": 61,
+          "votesTotal": 757
+        },
+        "Humboldt32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +58.4",
+          "margin": 58.39,
+          "votesRep": 4061,
+          "votesDem": 1067,
+          "votesTotal": 5543
+        },
+        "Lander32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +66.5",
+          "margin": 66.51,
+          "votesRep": 1571,
+          "votesDem": 316,
+          "votesTotal": 2091
+        },
+        "Lincoln32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +68.8",
+          "margin": 68.82,
+          "votesRep": 1440,
+          "votesDem": 266,
+          "votesTotal": 1952
+        },
+        "Lyon32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +45.9",
+          "margin": 45.92,
+          "votesRep": 14211,
+          "votesDem": 5267,
+          "votesTotal": 20913
+        },
+        "Mineral32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +32.8",
+          "margin": 32.79,
+          "votesRep": 1067,
+          "votesDem": 540,
+          "votesTotal": 1809
+        },
+        "Nye32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +41.3",
+          "margin": 41.35,
+          "votesRep": 11103,
+          "votesDem": 4607,
+          "votesTotal": 17494
+        },
+        "Pershing32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +55.4",
+          "margin": 55.42,
+          "votesRep": 1255,
+          "votesDem": 360,
+          "votesTotal": 1764
+        },
+        "Storey32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +34.4",
+          "margin": 34.37,
+          "votesRep": 1476,
+          "votesDem": 721,
+          "votesTotal": 2359
+        },
+        "Washoe32": {
+          "color": "#8AAFFF",
+          "label": "Sisolak +2.5",
+          "margin": -2.49,
+          "votesRep": 87226,
+          "votesDem": 91684,
+          "votesTotal": 188098
+        },
+        "White Pine32": {
+          "color": "#BF1D29",
+          "label": "Laxalt +61.1",
+          "margin": 61.12,
+          "votesRep": 2358,
+          "votesDem": 569,
+          "votesTotal": 3244
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Dean Heller",
+      "candDem": "Jacky Rosen",
+      "shortRep": "Heller",
+      "shortDem": "Rosen",
+      "partisan": true,
+      "margin": -5.25,
+      "votesRep": 441202,
+      "votesDem": 490071,
+      "votesTotal": 972132,
+      "regions": {
+        "Carson City32": {
+          "color": "#BF1D29",
+          "label": "Heller +13.9",
+          "margin": 13.89,
+          "votesRep": 12328,
+          "votesDem": 9321,
+          "votesTotal": 22694
+        },
+        "Churchill32": {
+          "color": "#BF1D29",
+          "label": "Heller +55.8",
+          "margin": 55.78,
+          "votesRep": 7042,
+          "votesDem": 1999,
+          "votesTotal": 9612
+        },
+        "Clark32": {
+          "color": "#1C408C",
+          "label": "Rosen +14.8",
+          "margin": -14.76,
+          "votesRep": 266675,
+          "votesDem": 359028,
+          "votesTotal": 652044
+        },
+        "Douglas32": {
+          "color": "#BF1D29",
+          "label": "Heller +33.7",
+          "margin": 33.7,
+          "votesRep": 16742,
+          "votesDem": 8303,
+          "votesTotal": 26057
+        },
+        "Elko32": {
+          "color": "#BF1D29",
+          "label": "Heller +59.7",
+          "margin": 59.65,
+          "votesRep": 11491,
+          "votesDem": 2904,
+          "votesTotal": 15174
+        },
+        "Esmeralda32": {
+          "color": "#BF1D29",
+          "label": "Heller +68.7",
+          "margin": 68.67,
+          "votesRep": 280,
+          "votesDem": 52,
+          "votesTotal": 371
+        },
+        "Eureka32": {
+          "color": "#BF1D29",
+          "label": "Heller +79.1",
+          "margin": 79.07,
+          "votesRep": 633,
+          "votesDem": 74,
+          "votesTotal": 758
+        },
+        "Humboldt32": {
+          "color": "#BF1D29",
+          "label": "Heller +54.4",
+          "margin": 54.4,
+          "votesRep": 4022,
+          "votesDem": 1188,
+          "votesTotal": 5549
+        },
+        "Lander32": {
+          "color": "#BF1D29",
+          "label": "Heller +63.9",
+          "margin": 63.88,
+          "votesRep": 1588,
+          "votesDem": 350,
+          "votesTotal": 2093
+        },
+        "Lincoln32": {
+          "color": "#BF1D29",
+          "label": "Heller +69.1",
+          "margin": 69.07,
+          "votesRep": 1547,
+          "votesDem": 283,
+          "votesTotal": 1950
+        },
+        "Lyon32": {
+          "color": "#BF1D29",
+          "label": "Heller +44.2",
+          "margin": 44.24,
+          "votesRep": 14296,
+          "votesDem": 5526,
+          "votesTotal": 20924
+        },
+        "Mineral32": {
+          "color": "#BF1D29",
+          "label": "Heller +29.9",
+          "margin": 29.89,
+          "votesRep": 1056,
+          "votesDem": 570,
+          "votesTotal": 1810
+        },
+        "Nye32": {
+          "color": "#BF1D29",
+          "label": "Heller +40.0",
+          "margin": 39.97,
+          "votesRep": 11397,
+          "votesDem": 4888,
+          "votesTotal": 17503
+        },
+        "Pershing32": {
+          "color": "#BF1D29",
+          "label": "Heller +52.3",
+          "margin": 52.31,
+          "votesRep": 1271,
+          "votesDem": 398,
+          "votesTotal": 1764
+        },
+        "Storey32": {
+          "color": "#BF1D29",
+          "label": "Heller +34.7",
+          "margin": 34.75,
+          "votesRep": 1495,
+          "votesDem": 724,
+          "votesTotal": 2360
+        },
+        "Washoe32": {
+          "color": "#8AAFFF",
+          "label": "Rosen +3.8",
+          "margin": -3.78,
+          "votesRep": 86988,
+          "votesDem": 93828,
+          "votesTotal": 188227
+        },
+        "White Pine32": {
+          "color": "#BF1D29",
+          "label": "Heller +57.5",
+          "margin": 57.47,
+          "votesRep": 2351,
+          "votesDem": 635,
+          "votesTotal": 3242
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Joe Heck",
+      "candDem": "Catherine Cortez Masto",
+      "shortRep": "Heck",
+      "shortDem": "Masto",
+      "partisan": true,
+      "margin": -2.66,
+      "votesRep": 494833,
+      "votesDem": 521869,
+      "votesTotal": 1107900,
+      "regions": {
+        "Carson City32": {
+          "color": "#BF1D29",
+          "label": "Heck +14.4",
+          "margin": 14.43,
+          "votesRep": 13027,
+          "votesDem": 9741,
+          "votesTotal": 24826
+        },
+        "Churchill32": {
+          "color": "#BF1D29",
+          "label": "Heck +55.0",
+          "margin": 54.97,
+          "votesRep": 7709,
+          "votesDem": 2240,
+          "votesTotal": 10892
+        },
+        "Clark32": {
+          "color": "#1C408C",
+          "label": "Masto +12.0",
+          "margin": -11.96,
+          "votesRep": 303623,
+          "votesDem": 386121,
+          "votesTotal": 753060
+        },
+        "Douglas32": {
+          "color": "#BF1D29",
+          "label": "Heck +35.3",
+          "margin": 35.31,
+          "votesRep": 17584,
+          "votesDem": 8407,
+          "votesTotal": 27643
+        },
+        "Elko32": {
+          "color": "#BF1D29",
+          "label": "Heck +61.6",
+          "margin": 61.6,
+          "votesRep": 13462,
+          "votesDem": 3199,
+          "votesTotal": 18367
+        },
+        "Esmeralda32": {
+          "color": "#BF1D29",
+          "label": "Heck +65.5",
+          "margin": 65.5,
+          "votesRep": 307,
+          "votesDem": 64,
+          "votesTotal": 413
+        },
+        "Eureka32": {
+          "color": "#BF1D29",
+          "label": "Heck +77.4",
+          "margin": 77.44,
+          "votesRep": 692,
+          "votesDem": 88,
+          "votesTotal": 849
+        },
+        "Humboldt32": {
+          "color": "#BF1D29",
+          "label": "Heck +51.6",
+          "margin": 51.59,
+          "votesRep": 4393,
+          "votesDem": 1403,
+          "votesTotal": 6376
+        },
+        "Lander32": {
+          "color": "#BF1D29",
+          "label": "Heck +60.7",
+          "margin": 60.68,
+          "votesRep": 1704,
+          "votesDem": 417,
+          "votesTotal": 2393
+        },
+        "Lincoln32": {
+          "color": "#BF1D29",
+          "label": "Heck +67.3",
+          "margin": 67.26,
+          "votesRep": 1609,
+          "votesDem": 315,
+          "votesTotal": 2121
+        },
+        "Lyon32": {
+          "color": "#BF1D29",
+          "label": "Heck +41.3",
+          "margin": 41.33,
+          "votesRep": 15229,
+          "votesDem": 6322,
+          "votesTotal": 23575
+        },
+        "Mineral32": {
+          "color": "#BF1D29",
+          "label": "Heck +29.1",
+          "margin": 29.07,
+          "votesRep": 1139,
+          "votesDem": 626,
+          "votesTotal": 1985
+        },
+        "Nye32": {
+          "color": "#BF1D29",
+          "label": "Heck +37.7",
+          "margin": 37.7,
+          "votesRep": 11608,
+          "votesDem": 5252,
+          "votesTotal": 19356
+        },
+        "Pershing32": {
+          "color": "#BF1D29",
+          "label": "Heck +46.8",
+          "margin": 46.8,
+          "votesRep": 1286,
+          "votesDem": 466,
+          "votesTotal": 1972
+        },
+        "Storey32": {
+          "color": "#BF1D29",
+          "label": "Heck +32.4",
+          "margin": 32.42,
+          "votesRep": 1550,
+          "votesDem": 791,
+          "votesTotal": 2542
+        },
+        "Washoe32": {
+          "color": "#CF8980",
+          "label": "Heck +0.8",
+          "margin": 0.84,
+          "votesRep": 97322,
+          "votesDem": 95694,
+          "votesTotal": 207783
+        },
+        "White Pine32": {
+          "color": "#BF1D29",
+          "label": "Heck +56.3",
+          "margin": 56.34,
+          "votesRep": 2589,
+          "votesDem": 723,
+          "votesTotal": 3747
+        }
+      }
+    }
+  ]
+}

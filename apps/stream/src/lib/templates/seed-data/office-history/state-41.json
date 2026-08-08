@@ -1,0 +1,1226 @@
+{
+  "stateFips": "41",
+  "stateName": "Oregon",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Christine Drazan",
+      "candDem": "Tina Kotek",
+      "shortRep": "Drazan",
+      "shortDem": "Kotek",
+      "partisan": true,
+      "margin": -3.77,
+      "votesRep": 850347,
+      "votesDem": 917034,
+      "votesTotal": 1952844,
+      "regions": {
+        "Baker41": {
+          "color": "#BF1D29",
+          "label": "Drazan +62.0",
+          "margin": 62.03,
+          "votesRep": 6328,
+          "votesDem": 1483,
+          "votesTotal": 8751
+        },
+        "Benton41": {
+          "color": "#1C408C",
+          "label": "Kotek +29.8",
+          "margin": -29.84,
+          "votesRep": 14658,
+          "votesDem": 27128,
+          "votesTotal": 45319
+        },
+        "Clackamas41": {
+          "color": "#FF5865",
+          "label": "Drazan +5.1",
+          "margin": 5.06,
+          "votesRep": 102111,
+          "votesDem": 92274,
+          "votesTotal": 214888
+        },
+        "Clatsop41": {
+          "color": "#8AAFFF",
+          "label": "Kotek +4.1",
+          "margin": -4.13,
+          "votesRep": 7375,
+          "votesDem": 8011,
+          "votesTotal": 20161
+        },
+        "Columbia41": {
+          "color": "#BF1D29",
+          "label": "Drazan +25.1",
+          "margin": 25.09,
+          "votesRep": 13420,
+          "votesDem": 8036,
+          "votesTotal": 27384
+        },
+        "Coos41": {
+          "color": "#BF1D29",
+          "label": "Drazan +32.7",
+          "margin": 32.71,
+          "votesRep": 18611,
+          "votesDem": 9437,
+          "votesTotal": 31429
+        },
+        "Crook41": {
+          "color": "#BF1D29",
+          "label": "Drazan +64.9",
+          "margin": 64.86,
+          "votesRep": 10362,
+          "votesDem": 2209,
+          "votesTotal": 14065
+        },
+        "Curry41": {
+          "color": "#BF1D29",
+          "label": "Drazan +27.4",
+          "margin": 27.41,
+          "votesRep": 7272,
+          "votesDem": 4143,
+          "votesTotal": 12679
+        },
+        "Deschutes41": {
+          "color": "#FF8B98",
+          "label": "Drazan +3.7",
+          "margin": 3.73,
+          "votesRep": 50513,
+          "votesDem": 46879,
+          "votesTotal": 109678
+        },
+        "Douglas41": {
+          "color": "#BF1D29",
+          "label": "Drazan +51.2",
+          "margin": 51.22,
+          "votesRep": 37245,
+          "votesDem": 12013,
+          "votesTotal": 54553
+        },
+        "Gilliam41": {
+          "color": "#BF1D29",
+          "label": "Drazan +62.5",
+          "margin": 62.45,
+          "votesRep": 636,
+          "votesDem": 147,
+          "votesTotal": 999
+        },
+        "Grant41": {
+          "color": "#BF1D29",
+          "label": "Drazan +69.0",
+          "margin": 69.04,
+          "votesRep": 3145,
+          "votesDem": 576,
+          "votesTotal": 4170
+        },
+        "Harney41": {
+          "color": "#BF1D29",
+          "label": "Drazan +71.9",
+          "margin": 71.95,
+          "votesRep": 2973,
+          "votesDem": 485,
+          "votesTotal": 3834
+        },
+        "Hood River41": {
+          "color": "#1C408C",
+          "label": "Kotek +24.9",
+          "margin": -24.88,
+          "votesRep": 3633,
+          "votesDem": 6040,
+          "votesTotal": 10807
+        },
+        "Jackson41": {
+          "color": "#BF1D29",
+          "label": "Drazan +17.5",
+          "margin": 17.45,
+          "votesRep": 56362,
+          "votesDem": 39611,
+          "votesTotal": 104385
+        },
+        "Jefferson41": {
+          "color": "#BF1D29",
+          "label": "Drazan +44.9",
+          "margin": 44.92,
+          "votesRep": 6251,
+          "votesDem": 2376,
+          "votesTotal": 9977
+        },
+        "Josephine41": {
+          "color": "#BF1D29",
+          "label": "Drazan +40.7",
+          "margin": 40.75,
+          "votesRep": 27578,
+          "votesDem": 11610,
+          "votesTotal": 42962
+        },
+        "Klamath41": {
+          "color": "#BF1D29",
+          "label": "Drazan +57.3",
+          "margin": 57.26,
+          "votesRep": 21962,
+          "votesDem": 5968,
+          "votesTotal": 30217
+        },
+        "Lake41": {
+          "color": "#BF1D29",
+          "label": "Drazan +76.8",
+          "margin": 76.83,
+          "votesRep": 3282,
+          "votesDem": 430,
+          "votesTotal": 4008
+        },
+        "Lane41": {
+          "color": "#1C408C",
+          "label": "Kotek +14.1",
+          "margin": -14.15,
+          "votesRep": 72087,
+          "votesDem": 95847,
+          "votesTotal": 183669
+        },
+        "Lincoln41": {
+          "color": "#1C408C",
+          "label": "Kotek +11.1",
+          "margin": -11.07,
+          "votesRep": 10366,
+          "votesDem": 12947,
+          "votesTotal": 26270
+        },
+        "Linn41": {
+          "color": "#BF1D29",
+          "label": "Drazan +38.8",
+          "margin": 38.85,
+          "votesRep": 38505,
+          "votesDem": 16959,
+          "votesTotal": 61495
+        },
+        "Malheur41": {
+          "color": "#BF1D29",
+          "label": "Drazan +61.4",
+          "margin": 61.39,
+          "votesRep": 6921,
+          "votesDem": 1656,
+          "votesTotal": 9187
+        },
+        "Marion41": {
+          "color": "#BF1D29",
+          "label": "Drazan +16.0",
+          "margin": 15.99,
+          "votesRep": 70741,
+          "votesDem": 51238,
+          "votesTotal": 134850
+        },
+        "Morrow41": {
+          "color": "#BF1D29",
+          "label": "Drazan +66.5",
+          "margin": 66.49,
+          "votesRep": 3016,
+          "votesDem": 607,
+          "votesTotal": 4089
+        },
+        "Multnomah41": {
+          "color": "#1C408C",
+          "label": "Kotek +57.3",
+          "margin": -57.3,
+          "votesRep": 72158,
+          "votesDem": 265805,
+          "votesTotal": 366043
+        },
+        "Polk41": {
+          "color": "#BF1D29",
+          "label": "Drazan +16.9",
+          "margin": 16.89,
+          "votesRep": 21898,
+          "votesDem": 15570,
+          "votesTotal": 41510
+        },
+        "Sherman41": {
+          "color": "#BF1D29",
+          "label": "Drazan +73.4",
+          "margin": 73.39,
+          "votesRep": 795,
+          "votesDem": 122,
+          "votesTotal": 1034
+        },
+        "Tillamook41": {
+          "color": "#BF1D29",
+          "label": "Drazan +11.5",
+          "margin": 11.47,
+          "votesRep": 6631,
+          "votesDem": 5266,
+          "votesTotal": 14611
+        },
+        "Umatilla41": {
+          "color": "#BF1D29",
+          "label": "Drazan +53.2",
+          "margin": 53.17,
+          "votesRep": 17672,
+          "votesDem": 5403,
+          "votesTotal": 25132
+        },
+        "Union41": {
+          "color": "#BF1D29",
+          "label": "Drazan +54.2",
+          "margin": 54.24,
+          "votesRep": 8695,
+          "votesDem": 2580,
+          "votesTotal": 12544
+        },
+        "Wallowa41": {
+          "color": "#BF1D29",
+          "label": "Drazan +47.5",
+          "margin": 47.53,
+          "votesRep": 3138,
+          "votesDem": 1116,
+          "votesTotal": 4597
+        },
+        "Wasco41": {
+          "color": "#BF1D29",
+          "label": "Drazan +18.9",
+          "margin": 18.91,
+          "votesRep": 5978,
+          "votesDem": 4077,
+          "votesTotal": 11407
+        },
+        "Washington41": {
+          "color": "#1C408C",
+          "label": "Kotek +21.5",
+          "margin": -21.5,
+          "votesRep": 91068,
+          "votesDem": 140946,
+          "votesTotal": 255882
+        },
+        "Wheeler41": {
+          "color": "#BF1D29",
+          "label": "Drazan +60.9",
+          "margin": 60.89,
+          "votesRep": 576,
+          "votesDem": 140,
+          "votesTotal": 830
+        },
+        "Yamhill41": {
+          "color": "#BF1D29",
+          "label": "Drazan +19.2",
+          "margin": 19.16,
+          "votesRep": 26385,
+          "votesDem": 17899,
+          "votesTotal": 49428
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Jo Rae Perkins",
+      "candDem": "Ron Wyden",
+      "shortRep": "Perkins",
+      "shortDem": "Wyden",
+      "partisan": true,
+      "margin": -15.41,
+      "votesRep": 788985,
+      "votesDem": 1076424,
+      "votesTotal": 1927926,
+      "regions": {
+        "Baker41": {
+          "color": "#BF1D29",
+          "label": "Perkins +40.0",
+          "margin": 39.97,
+          "votesRep": 5902,
+          "votesDem": 2531,
+          "votesTotal": 8626
+        },
+        "Benton41": {
+          "color": "#1C408C",
+          "label": "Wyden +38.2",
+          "margin": -38.16,
+          "votesRep": 13407,
+          "votesDem": 29953,
+          "votesTotal": 45126
+        },
+        "Clackamas41": {
+          "color": "#577CCC",
+          "label": "Wyden +8.8",
+          "margin": -8.79,
+          "votesRep": 94226,
+          "votesDem": 112387,
+          "votesTotal": 212442
+        },
+        "Clatsop41": {
+          "color": "#1C408C",
+          "label": "Wyden +15.6",
+          "margin": -15.63,
+          "votesRep": 8135,
+          "votesDem": 11149,
+          "votesTotal": 19889
+        },
+        "Columbia41": {
+          "color": "#FF5865",
+          "label": "Perkins +9.3",
+          "margin": 9.26,
+          "votesRep": 14221,
+          "votesDem": 11810,
+          "votesTotal": 26996
+        },
+        "Coos41": {
+          "color": "#BF1D29",
+          "label": "Perkins +16.7",
+          "margin": 16.7,
+          "votesRep": 17595,
+          "votesDem": 12560,
+          "votesTotal": 31110
+        },
+        "Crook41": {
+          "color": "#BF1D29",
+          "label": "Perkins +45.3",
+          "margin": 45.26,
+          "votesRep": 9899,
+          "votesDem": 3730,
+          "votesTotal": 13895
+        },
+        "Curry41": {
+          "color": "#BF1D29",
+          "label": "Perkins +14.9",
+          "margin": 14.91,
+          "votesRep": 7049,
+          "votesDem": 5220,
+          "votesTotal": 12606
+        },
+        "Deschutes41": {
+          "color": "#1C408C",
+          "label": "Wyden +10.5",
+          "margin": -10.48,
+          "votesRep": 46886,
+          "votesDem": 57865,
+          "votesTotal": 107893
+        },
+        "Douglas41": {
+          "color": "#BF1D29",
+          "label": "Perkins +34.2",
+          "margin": 34.18,
+          "votesRep": 34523,
+          "votesDem": 16935,
+          "votesTotal": 52840
+        },
+        "Gilliam41": {
+          "color": "#BF1D29",
+          "label": "Perkins +29.7",
+          "margin": 29.74,
+          "votesRep": 626,
+          "votesDem": 339,
+          "votesTotal": 980
+        },
+        "Grant41": {
+          "color": "#BF1D29",
+          "label": "Perkins +46.7",
+          "margin": 46.71,
+          "votesRep": 2935,
+          "votesDem": 1066,
+          "votesTotal": 4114
+        },
+        "Harney41": {
+          "color": "#BF1D29",
+          "label": "Perkins +46.8",
+          "margin": 46.81,
+          "votesRep": 2683,
+          "votesDem": 972,
+          "votesTotal": 3744
+        },
+        "Hood River41": {
+          "color": "#1C408C",
+          "label": "Wyden +34.9",
+          "margin": -34.93,
+          "votesRep": 3377,
+          "votesDem": 7002,
+          "votesTotal": 10727
+        },
+        "Jackson41": {
+          "color": "#FF8B98",
+          "label": "Perkins +4.6",
+          "margin": 4.61,
+          "votesRep": 52714,
+          "votesDem": 48071,
+          "votesTotal": 103664
+        },
+        "Jefferson41": {
+          "color": "#BF1D29",
+          "label": "Perkins +25.7",
+          "margin": 25.68,
+          "votesRep": 6083,
+          "votesDem": 3597,
+          "votesTotal": 9900
+        },
+        "Josephine41": {
+          "color": "#BF1D29",
+          "label": "Perkins +25.5",
+          "margin": 25.52,
+          "votesRep": 25948,
+          "votesDem": 15396,
+          "votesTotal": 42482
+        },
+        "Klamath41": {
+          "color": "#BF1D29",
+          "label": "Perkins +38.5",
+          "margin": 38.51,
+          "votesRep": 20088,
+          "votesDem": 8918,
+          "votesTotal": 29761
+        },
+        "Lake41": {
+          "color": "#BF1D29",
+          "label": "Perkins +55.5",
+          "margin": 55.51,
+          "votesRep": 2999,
+          "votesDem": 858,
+          "votesTotal": 3948
+        },
+        "Lane41": {
+          "color": "#1C408C",
+          "label": "Wyden +25.5",
+          "margin": -25.53,
+          "votesRep": 65606,
+          "votesDem": 110577,
+          "votesTotal": 182053
+        },
+        "Lincoln41": {
+          "color": "#1C408C",
+          "label": "Wyden +20.8",
+          "margin": -20.84,
+          "votesRep": 10011,
+          "votesDem": 15283,
+          "votesTotal": 26120
+        },
+        "Linn41": {
+          "color": "#BF1D29",
+          "label": "Perkins +25.0",
+          "margin": 25.01,
+          "votesRep": 36740,
+          "votesDem": 22041,
+          "votesTotal": 60752
+        },
+        "Malheur41": {
+          "color": "#BF1D29",
+          "label": "Perkins +46.9",
+          "margin": 46.94,
+          "votesRep": 6469,
+          "votesDem": 2336,
+          "votesTotal": 9063
+        },
+        "Marion41": {
+          "color": "#FF8B98",
+          "label": "Perkins +4.0",
+          "margin": 3.95,
+          "votesRep": 65606,
+          "votesDem": 60614,
+          "votesTotal": 130496
+        },
+        "Morrow41": {
+          "color": "#BF1D29",
+          "label": "Perkins +41.2",
+          "margin": 41.24,
+          "votesRep": 2786,
+          "votesDem": 1159,
+          "votesTotal": 4041
+        },
+        "Multnomah41": {
+          "color": "#1C408C",
+          "label": "Wyden +64.2",
+          "margin": -64.23,
+          "votesRep": 62324,
+          "votesDem": 286167,
+          "votesTotal": 362953
+        },
+        "Polk41": {
+          "color": "#FF8B98",
+          "label": "Perkins +4.6",
+          "margin": 4.6,
+          "votesRep": 20746,
+          "votesDem": 18920,
+          "votesTotal": 40956
+        },
+        "Sherman41": {
+          "color": "#BF1D29",
+          "label": "Perkins +49.8",
+          "margin": 49.75,
+          "votesRep": 754,
+          "votesDem": 253,
+          "votesTotal": 1018
+        },
+        "Tillamook41": {
+          "color": "#8AAFFF",
+          "label": "Wyden +1.9",
+          "margin": -1.9,
+          "votesRep": 6909,
+          "votesDem": 7176,
+          "votesTotal": 14457
+        },
+        "Umatilla41": {
+          "color": "#BF1D29",
+          "label": "Perkins +36.3",
+          "margin": 36.27,
+          "votesRep": 16502,
+          "votesDem": 7718,
+          "votesTotal": 24838
+        },
+        "Union41": {
+          "color": "#BF1D29",
+          "label": "Perkins +35.6",
+          "margin": 35.6,
+          "votesRep": 8216,
+          "votesDem": 3902,
+          "votesTotal": 12388
+        },
+        "Wallowa41": {
+          "color": "#BF1D29",
+          "label": "Perkins +31.5",
+          "margin": 31.46,
+          "votesRep": 2917,
+          "votesDem": 1521,
+          "votesTotal": 4537
+        },
+        "Wasco41": {
+          "color": "#FF8B98",
+          "label": "Perkins +1.6",
+          "margin": 1.64,
+          "votesRep": 5562,
+          "votesDem": 5382,
+          "votesTotal": 11285
+        },
+        "Washington41": {
+          "color": "#1C408C",
+          "label": "Wyden +31.8",
+          "margin": -31.85,
+          "votesRep": 83146,
+          "votesDem": 160858,
+          "votesTotal": 253059
+        },
+        "Wheeler41": {
+          "color": "#BF1D29",
+          "label": "Perkins +39.5",
+          "margin": 39.46,
+          "votesRep": 546,
+          "votesDem": 237,
+          "votesTotal": 807
+        },
+        "Yamhill41": {
+          "color": "#FF5865",
+          "label": "Perkins +6.3",
+          "margin": 6.26,
+          "votesRep": 24849,
+          "votesDem": 21921,
+          "votesTotal": 48360
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Knute Buehler",
+      "candDem": "Kate Brown",
+      "shortRep": "Buehler",
+      "shortDem": "Brown",
+      "partisan": true,
+      "margin": -6.73,
+      "votesRep": 821594,
+      "votesDem": 940114,
+      "votesTotal": 1880139,
+      "regions": {
+        "Baker41": {
+          "color": "#BF1D29",
+          "label": "Buehler +58.6",
+          "margin": 58.6,
+          "votesRep": 6023,
+          "votesDem": 1572,
+          "votesTotal": 8264
+        },
+        "Benton41": {
+          "color": "#1C408C",
+          "label": "Brown +27.9",
+          "margin": -27.9,
+          "votesRep": 14990,
+          "votesDem": 26592,
+          "votesTotal": 44231
+        },
+        "Clackamas41": {
+          "color": "#FF8B98",
+          "label": "Buehler +3.9",
+          "margin": 3.89,
+          "votesRep": 98468,
+          "votesDem": 91088,
+          "votesTotal": 200266
+        },
+        "Clatsop41": {
+          "color": "#8AAFFF",
+          "label": "Brown +3.6",
+          "margin": -3.57,
+          "votesRep": 8294,
+          "votesDem": 8909,
+          "votesTotal": 18558
+        },
+        "Columbia41": {
+          "color": "#BF1D29",
+          "label": "Buehler +15.3",
+          "margin": 15.28,
+          "votesRep": 12953,
+          "votesDem": 9519,
+          "votesTotal": 24617
+        },
+        "Coos41": {
+          "color": "#BF1D29",
+          "label": "Buehler +26.4",
+          "margin": 26.39,
+          "votesRep": 16520,
+          "votesDem": 9622,
+          "votesTotal": 28727
+        },
+        "Crook41": {
+          "color": "#BF1D29",
+          "label": "Buehler +57.7",
+          "margin": 57.69,
+          "votesRep": 8516,
+          "votesDem": 2285,
+          "votesTotal": 11536
+        },
+        "Curry41": {
+          "color": "#BF1D29",
+          "label": "Buehler +22.0",
+          "margin": 21.98,
+          "votesRep": 6474,
+          "votesDem": 4141,
+          "votesTotal": 11533
+        },
+        "Deschutes41": {
+          "color": "#BF1D29",
+          "label": "Buehler +10.3",
+          "margin": 10.27,
+          "votesRep": 49983,
+          "votesDem": 40676,
+          "votesTotal": 96099
+        },
+        "Douglas41": {
+          "color": "#BF1D29",
+          "label": "Buehler +46.5",
+          "margin": 46.54,
+          "votesRep": 32413,
+          "votesDem": 11824,
+          "votesTotal": 49238
+        },
+        "Gilliam41": {
+          "color": "#BF1D29",
+          "label": "Buehler +52.0",
+          "margin": 52.04,
+          "votesRep": 691,
+          "votesDem": 218,
+          "votesTotal": 993
+        },
+        "Grant41": {
+          "color": "#BF1D29",
+          "label": "Buehler +63.7",
+          "margin": 63.66,
+          "votesRep": 2923,
+          "votesDem": 649,
+          "votesTotal": 3853
+        },
+        "Harney41": {
+          "color": "#BF1D29",
+          "label": "Buehler +64.7",
+          "margin": 64.67,
+          "votesRep": 2722,
+          "votesDem": 584,
+          "votesTotal": 3547
+        },
+        "Hood River41": {
+          "color": "#1C408C",
+          "label": "Brown +26.2",
+          "margin": -26.24,
+          "votesRep": 3789,
+          "votesDem": 6485,
+          "votesTotal": 10828
+        },
+        "Jackson41": {
+          "color": "#BF1D29",
+          "label": "Buehler +10.0",
+          "margin": 10.04,
+          "votesRep": 51623,
+          "votesDem": 42207,
+          "votesTotal": 101907
+        },
+        "Jefferson41": {
+          "color": "#BF1D29",
+          "label": "Buehler +35.4",
+          "margin": 35.36,
+          "votesRep": 5518,
+          "votesDem": 2635,
+          "votesTotal": 8852
+        },
+        "Josephine41": {
+          "color": "#BF1D29",
+          "label": "Buehler +33.5",
+          "margin": 33.46,
+          "votesRep": 24499,
+          "votesDem": 12214,
+          "votesTotal": 40470
+        },
+        "Klamath41": {
+          "color": "#BF1D29",
+          "label": "Buehler +50.5",
+          "margin": 50.45,
+          "votesRep": 19134,
+          "votesDem": 6301,
+          "votesTotal": 28256
+        },
+        "Lake41": {
+          "color": "#BF1D29",
+          "label": "Buehler +70.7",
+          "margin": 70.71,
+          "votesRep": 2774,
+          "votesDem": 476,
+          "votesTotal": 3557
+        },
+        "Lane41": {
+          "color": "#1C408C",
+          "label": "Brown +17.7",
+          "margin": -17.68,
+          "votesRep": 67737,
+          "votesDem": 96841,
+          "votesTotal": 177172
+        },
+        "Lincoln41": {
+          "color": "#1C408C",
+          "label": "Brown +12.1",
+          "margin": -12.12,
+          "votesRep": 9884,
+          "votesDem": 12610,
+          "votesTotal": 24219
+        },
+        "Linn41": {
+          "color": "#BF1D29",
+          "label": "Buehler +33.5",
+          "margin": 33.51,
+          "votesRep": 33051,
+          "votesDem": 16461,
+          "votesTotal": 54662
+        },
+        "Malheur41": {
+          "color": "#BF1D29",
+          "label": "Buehler +47.1",
+          "margin": 47.08,
+          "votesRep": 6000,
+          "votesDem": 2159,
+          "votesTotal": 8970
+        },
+        "Marion41": {
+          "color": "#FF5865",
+          "label": "Buehler +6.8",
+          "margin": 6.82,
+          "votesRep": 63323,
+          "votesDem": 55238,
+          "votesTotal": 126978
+        },
+        "Morrow41": {
+          "color": "#BF1D29",
+          "label": "Buehler +50.0",
+          "margin": 50.03,
+          "votesRep": 2534,
+          "votesDem": 844,
+          "votesTotal": 3754
+        },
+        "Multnomah41": {
+          "color": "#1C408C",
+          "label": "Brown +54.0",
+          "margin": -53.98,
+          "votesRep": 83507,
+          "votesDem": 279384,
+          "votesTotal": 378098
+        },
+        "Polk41": {
+          "color": "#BF1D29",
+          "label": "Buehler +10.9",
+          "margin": 10.93,
+          "votesRep": 19341,
+          "votesDem": 15529,
+          "votesTotal": 37315
+        },
+        "Sherman41": {
+          "color": "#BF1D29",
+          "label": "Buehler +59.0",
+          "margin": 58.96,
+          "votesRep": 736,
+          "votesDem": 190,
+          "votesTotal": 985
+        },
+        "Tillamook41": {
+          "color": "#FF5865",
+          "label": "Buehler +8.1",
+          "margin": 8.1,
+          "votesRep": 13212,
+          "votesDem": 11232,
+          "votesTotal": 26284
+        },
+        "Umatilla41": {
+          "color": "#BF1D29",
+          "label": "Buehler +36.4",
+          "margin": 36.35,
+          "votesRep": 15178,
+          "votesDem": 7085,
+          "votesTotal": 24108
+        },
+        "Union41": {
+          "color": "#BF1D29",
+          "label": "Buehler +47.0",
+          "margin": 47.02,
+          "votesRep": 7983,
+          "votesDem": 2877,
+          "votesTotal": 11756
+        },
+        "Wallowa41": {
+          "color": "#BF1D29",
+          "label": "Buehler +42.1",
+          "margin": 42.07,
+          "votesRep": 2668,
+          "votesDem": 1088,
+          "votesTotal": 4032
+        },
+        "Wasco41": {
+          "color": "#BF1D29",
+          "label": "Buehler +11.8",
+          "margin": 11.84,
+          "votesRep": 5841,
+          "votesDem": 4604,
+          "votesTotal": 11357
+        },
+        "Washington41": {
+          "color": "#1C408C",
+          "label": "Brown +17.3",
+          "margin": -17.26,
+          "votesRep": 97286,
+          "votesDem": 137886,
+          "votesTotal": 248479
+        },
+        "Wheeler41": {
+          "color": "#BF1D29",
+          "label": "Buehler +58.0",
+          "margin": 57.98,
+          "votesRep": 594,
+          "votesDem": 158,
+          "votesTotal": 818
+        },
+        "Yamhill41": {
+          "color": "#BF1D29",
+          "label": "Buehler +15.3",
+          "margin": 15.31,
+          "votesRep": 24412,
+          "votesDem": 17931,
+          "votesTotal": 45820
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Mark Callahan",
+      "candDem": "Ron Wyden",
+      "shortRep": "Callahan",
+      "shortDem": "Wyden",
+      "partisan": true,
+      "margin": -25.85,
+      "votesRep": 651106,
+      "votesDem": 1105119,
+      "votesTotal": 1952477,
+      "regions": {
+        "Baker41": {
+          "color": "#BF1D29",
+          "label": "Callahan +16.3",
+          "margin": 16.32,
+          "votesRep": 4654,
+          "votesDem": 3348,
+          "votesTotal": 8679
+        },
+        "Benton41": {
+          "color": "#1C408C",
+          "label": "Wyden +38.1",
+          "margin": -38.11,
+          "votesRep": 12998,
+          "votesDem": 29007,
+          "votesTotal": 47597
+        },
+        "Clackamas41": {
+          "color": "#1C408C",
+          "label": "Wyden +18.3",
+          "margin": -18.33,
+          "votesRep": 78099,
+          "votesDem": 113152,
+          "votesTotal": 209173
+        },
+        "Clatsop41": {
+          "color": "#1C408C",
+          "label": "Wyden +28.5",
+          "margin": -28.49,
+          "votesRep": 6201,
+          "votesDem": 11143,
+          "votesTotal": 19273
+        },
+        "Columbia41": {
+          "color": "#1C408C",
+          "label": "Wyden +12.7",
+          "margin": -12.68,
+          "votesRep": 10123,
+          "votesDem": 13064,
+          "votesTotal": 26109
+        },
+        "Coos41": {
+          "color": "#FF8B98",
+          "label": "Callahan +2.2",
+          "margin": 2.24,
+          "votesRep": 14086,
+          "votesDem": 13468,
+          "votesTotal": 30759
+        },
+        "Crook41": {
+          "color": "#BF1D29",
+          "label": "Callahan +12.7",
+          "margin": 12.75,
+          "votesRep": 6254,
+          "votesDem": 4840,
+          "votesTotal": 11997
+        },
+        "Curry41": {
+          "color": "#FF8B98",
+          "label": "Callahan +2.2",
+          "margin": 2.16,
+          "votesRep": 5633,
+          "votesDem": 5395,
+          "votesTotal": 12297
+        },
+        "Deschutes41": {
+          "color": "#1C408C",
+          "label": "Wyden +18.2",
+          "margin": -18.22,
+          "votesRep": 36041,
+          "votesDem": 52098,
+          "votesTotal": 96489
+        },
+        "Douglas41": {
+          "color": "#BF1D29",
+          "label": "Callahan +16.4",
+          "margin": 16.44,
+          "votesRep": 27634,
+          "votesDem": 19832,
+          "votesTotal": 52404
+        },
+        "Gilliam41": {
+          "color": "#577CCC",
+          "label": "Wyden +6.8",
+          "margin": -6.85,
+          "votesRep": 442,
+          "votesDem": 507,
+          "votesTotal": 1019
+        },
+        "Grant41": {
+          "color": "#BF1D29",
+          "label": "Callahan +16.5",
+          "margin": 16.53,
+          "votesRep": 2277,
+          "votesDem": 1631,
+          "votesTotal": 4239
+        },
+        "Harney41": {
+          "color": "#BF1D29",
+          "label": "Callahan +14.7",
+          "margin": 14.68,
+          "votesRep": 2070,
+          "votesDem": 1540,
+          "votesTotal": 3914
+        },
+        "Hood River41": {
+          "color": "#1C408C",
+          "label": "Wyden +44.9",
+          "margin": -44.95,
+          "votesRep": 2646,
+          "votesDem": 6967,
+          "votesTotal": 10729
+        },
+        "Jackson41": {
+          "color": "#1C408C",
+          "label": "Wyden +11.6",
+          "margin": -11.63,
+          "votesRep": 42336,
+          "votesDem": 53474,
+          "votesTotal": 106468
+        },
+        "Jefferson41": {
+          "color": "#577CCC",
+          "label": "Wyden +6.5",
+          "margin": -6.48,
+          "votesRep": 3967,
+          "votesDem": 4517,
+          "votesTotal": 9319
+        },
+        "Josephine41": {
+          "color": "#FF5865",
+          "label": "Callahan +5.9",
+          "margin": 5.87,
+          "votesRep": 20767,
+          "votesDem": 18463,
+          "votesTotal": 43510
+        },
+        "Klamath41": {
+          "color": "#FF5865",
+          "label": "Callahan +9.1",
+          "margin": 9.08,
+          "votesRep": 14808,
+          "votesDem": 12342,
+          "votesTotal": 29999
+        },
+        "Lake41": {
+          "color": "#BF1D29",
+          "label": "Callahan +24.1",
+          "margin": 24.07,
+          "votesRep": 2227,
+          "votesDem": 1363,
+          "votesTotal": 3868
+        },
+        "Lane41": {
+          "color": "#1C408C",
+          "label": "Wyden +32.3",
+          "margin": -32.3,
+          "votesRep": 56716,
+          "votesDem": 110836,
+          "votesTotal": 187296
+        },
+        "Lincoln41": {
+          "color": "#1C408C",
+          "label": "Wyden +30.5",
+          "margin": -30.52,
+          "votesRep": 7725,
+          "votesDem": 14512,
+          "votesTotal": 24925
+        },
+        "Linn41": {
+          "color": "#FF5865",
+          "label": "Callahan +6.1",
+          "margin": 6.06,
+          "votesRep": 26991,
+          "votesDem": 23908,
+          "votesTotal": 57146
+        },
+        "Malheur41": {
+          "color": "#BF1D29",
+          "label": "Callahan +32.5",
+          "margin": 32.46,
+          "votesRep": 6045,
+          "votesDem": 3082,
+          "votesTotal": 10188
+        },
+        "Marion41": {
+          "color": "#577CCC",
+          "label": "Wyden +9.0",
+          "margin": -8.98,
+          "votesRep": 55351,
+          "votesDem": 66269,
+          "votesTotal": 133827
+        },
+        "Morrow41": {
+          "color": "#FF5865",
+          "label": "Callahan +7.0",
+          "margin": 7.01,
+          "votesRep": 1978,
+          "votesDem": 1719,
+          "votesTotal": 4127
+        },
+        "Multnomah41": {
+          "color": "#1C408C",
+          "label": "Wyden +67.0",
+          "margin": -66.97,
+          "votesRep": 56395,
+          "votesDem": 285058,
+          "votesTotal": 386684
+        },
+        "Polk41": {
+          "color": "#577CCC",
+          "label": "Wyden +7.1",
+          "margin": -7.11,
+          "votesRep": 16693,
+          "votesDem": 19250,
+          "votesTotal": 39565
+        },
+        "Sherman41": {
+          "color": "#FF5865",
+          "label": "Callahan +6.2",
+          "margin": 6.18,
+          "votesRep": 498,
+          "votesDem": 440,
+          "votesTotal": 999
+        },
+        "Tillamook41": {
+          "color": "#1C408C",
+          "label": "Wyden +17.0",
+          "margin": -16.99,
+          "votesRep": 5100,
+          "votesDem": 7187,
+          "votesTotal": 13563
+        },
+        "Umatilla41": {
+          "color": "#FF5865",
+          "label": "Callahan +6.7",
+          "margin": 6.7,
+          "votesRep": 12899,
+          "votesDem": 11279,
+          "votesTotal": 26905
+        },
+        "Union41": {
+          "color": "#FF5865",
+          "label": "Callahan +9.2",
+          "margin": 9.17,
+          "votesRep": 6372,
+          "votesDem": 5302,
+          "votesTotal": 12721
+        },
+        "Wallowa41": {
+          "color": "#BF1D29",
+          "label": "Callahan +11.8",
+          "margin": 11.76,
+          "votesRep": 2238,
+          "votesDem": 1767,
+          "votesTotal": 4308
+        },
+        "Wasco41": {
+          "color": "#1C408C",
+          "label": "Wyden +22.5",
+          "margin": -22.45,
+          "votesRep": 4124,
+          "votesDem": 6512,
+          "votesTotal": 11739
+        },
+        "Washington41": {
+          "color": "#1C408C",
+          "label": "Wyden +34.0",
+          "margin": -33.99,
+          "votesRep": 78184,
+          "votesDem": 158685,
+          "votesTotal": 262243
+        },
+        "Wheeler41": {
+          "color": "#FF8B98",
+          "label": "Callahan +3.9",
+          "margin": 3.92,
+          "votesRep": 384,
+          "votesDem": 355,
+          "votesTotal": 803
+        },
+        "Yamhill41": {
+          "color": "#577CCC",
+          "label": "Wyden +6.2",
+          "margin": -6.19,
+          "votesRep": 20150,
+          "votesDem": 22807,
+          "votesTotal": 47596
+        }
+      }
+    }
+  ]
+}

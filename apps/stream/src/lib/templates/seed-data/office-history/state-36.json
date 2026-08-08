@@ -1,0 +1,3004 @@
+{
+  "stateFips": "36",
+  "stateName": "New York",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Michael Sapraicone",
+      "candDem": "Kirsten Gillibrand",
+      "shortRep": "Sapraicone",
+      "shortDem": "Gillibrand",
+      "partisan": true,
+      "margin": -18.41,
+      "votesRep": 3246690,
+      "votesDem": 4711669,
+      "votesTotal": 8011270,
+      "regions": {
+        "Albany36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +31.6",
+          "margin": -31.59,
+          "votesRep": 49505,
+          "votesDem": 95231,
+          "votesTotal": 145770
+        },
+        "Allegany36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +37.5",
+          "margin": 37.46,
+          "votesRep": 13628,
+          "votesDem": 6200,
+          "votesTotal": 19925
+        },
+        "Bronx36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +52.8",
+          "margin": -52.82,
+          "votesRep": 80569,
+          "votesDem": 260993,
+          "votesTotal": 344831
+        },
+        "Broome36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +7.7",
+          "margin": -7.66,
+          "votesRep": 40357,
+          "votesDem": 47049,
+          "votesTotal": 87980
+        },
+        "Cattaraugus36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +26.1",
+          "margin": 26.11,
+          "votesRep": 20775,
+          "votesDem": 12172,
+          "votesTotal": 33087
+        },
+        "Cayuga36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +7.4",
+          "margin": 7.42,
+          "votesRep": 18973,
+          "votesDem": 16352,
+          "votesTotal": 35498
+        },
+        "Chautauqua36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +14.9",
+          "margin": 14.86,
+          "votesRep": 31622,
+          "votesDem": 23438,
+          "votesTotal": 55277
+        },
+        "Chemung36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +12.8",
+          "margin": 12.79,
+          "votesRep": 20478,
+          "votesDem": 15835,
+          "votesTotal": 36474
+        },
+        "Chenango36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +20.3",
+          "margin": 20.26,
+          "votesRep": 13050,
+          "votesDem": 8653,
+          "votesTotal": 21820
+        },
+        "Clinton36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +7.2",
+          "margin": -7.21,
+          "votesRep": 16109,
+          "votesDem": 18614,
+          "votesTotal": 34883
+        },
+        "Columbia36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +21.2",
+          "margin": -21.16,
+          "votesRep": 13890,
+          "votesDem": 21345,
+          "votesTotal": 35463
+        },
+        "Cortland36": {
+          "color": "#FF8B98",
+          "label": "Sapraicone +2.2",
+          "margin": 2.2,
+          "votesRep": 10941,
+          "votesDem": 10469,
+          "votesTotal": 21546
+        },
+        "Delaware36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +12.3",
+          "margin": 12.32,
+          "votesRep": 12620,
+          "votesDem": 9852,
+          "votesTotal": 22600
+        },
+        "Dutchess36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +11.5",
+          "margin": -11.5,
+          "votesRep": 65871,
+          "votesDem": 82986,
+          "votesTotal": 149599
+        },
+        "Erie36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +14.8",
+          "margin": -14.82,
+          "votesRep": 187547,
+          "votesDem": 252782,
+          "votesTotal": 442824
+        },
+        "Essex36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +9.1",
+          "margin": -9.14,
+          "votesRep": 8351,
+          "votesDem": 10032,
+          "votesTotal": 18451
+        },
+        "Franklin36": {
+          "color": "#CF8980",
+          "label": "Sapraicone +0.7",
+          "margin": 0.66,
+          "votesRep": 9481,
+          "votesDem": 9357,
+          "votesTotal": 18908
+        },
+        "Fulton36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +27.1",
+          "margin": 27.08,
+          "votesRep": 14449,
+          "votesDem": 8291,
+          "votesTotal": 22837
+        },
+        "Genesee36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +29.5",
+          "margin": 29.47,
+          "votesRep": 17871,
+          "votesDem": 9736,
+          "votesTotal": 27733
+        },
+        "Greene36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +9.4",
+          "margin": 9.37,
+          "votesRep": 13435,
+          "votesDem": 11133,
+          "votesTotal": 24712
+        },
+        "Hamilton36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +23.1",
+          "margin": 23.08,
+          "votesRep": 2053,
+          "votesDem": 1283,
+          "votesTotal": 3349
+        },
+        "Herkimer36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +29.5",
+          "margin": 29.5,
+          "votesRep": 17766,
+          "votesDem": 9671,
+          "votesTotal": 27559
+        },
+        "Jefferson36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +14.6",
+          "margin": 14.56,
+          "votesRep": 23477,
+          "votesDem": 17511,
+          "votesTotal": 41138
+        },
+        "Kings36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +51.5",
+          "margin": -51.51,
+          "votesRep": 194631,
+          "votesDem": 608071,
+          "votesTotal": 811778
+        },
+        "Lewis36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +32.1",
+          "margin": 32.1,
+          "votesRep": 8099,
+          "votesDem": 4163,
+          "votesTotal": 12325
+        },
+        "Livingston36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +15.0",
+          "margin": 15.03,
+          "votesRep": 17370,
+          "votesDem": 12830,
+          "votesTotal": 30344
+        },
+        "Madison36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +7.9",
+          "margin": 7.88,
+          "votesRep": 17727,
+          "votesDem": 15138,
+          "votesTotal": 33057
+        },
+        "Monroe36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +20.5",
+          "margin": -20.52,
+          "votesRep": 140764,
+          "votesDem": 213432,
+          "votesTotal": 356050
+        },
+        "Montgomery36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +15.9",
+          "margin": 15.88,
+          "votesRep": 11383,
+          "votesDem": 8263,
+          "votesTotal": 19739
+        },
+        "Nassau36": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": 0.08,
+          "votesRep": 345339,
+          "votesDem": 344820,
+          "votesTotal": 693457
+        },
+        "New York36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +66.1",
+          "margin": -66.14,
+          "votesRep": 107064,
+          "votesDem": 525316,
+          "votesTotal": 638094
+        },
+        "Niagara36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +9.4",
+          "margin": 9.35,
+          "votesRep": 53851,
+          "votesDem": 44641,
+          "votesTotal": 98954
+        },
+        "Oneida36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +12.7",
+          "margin": 12.72,
+          "votesRep": 54056,
+          "votesDem": 41860,
+          "votesTotal": 96390
+        },
+        "Onondaga36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +20.7",
+          "margin": -20.68,
+          "votesRep": 88547,
+          "votesDem": 134707,
+          "votesTotal": 224536
+        },
+        "Ontario36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +1.7",
+          "margin": -1.7,
+          "votesRep": 28924,
+          "votesDem": 29924,
+          "votesTotal": 59096
+        },
+        "Orange36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +6.5",
+          "margin": -6.45,
+          "votesRep": 78309,
+          "votesDem": 89114,
+          "votesTotal": 168310
+        },
+        "Orleans36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +35.7",
+          "margin": 35.71,
+          "votesRep": 11568,
+          "votesDem": 5480,
+          "votesTotal": 17108
+        },
+        "Oswego36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +19.5",
+          "margin": 19.48,
+          "votesRep": 31216,
+          "votesDem": 21036,
+          "votesTotal": 52537
+        },
+        "Otsego36": {
+          "color": "#FF8B98",
+          "label": "Sapraicone +2.2",
+          "margin": 2.24,
+          "votesRep": 13956,
+          "votesDem": 13345,
+          "votesTotal": 27523
+        },
+        "Putnam36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +8.1",
+          "margin": 8.1,
+          "votesRep": 29310,
+          "votesDem": 24920,
+          "votesTotal": 54461
+        },
+        "Queens36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +32.0",
+          "margin": -32.02,
+          "votesRep": 232407,
+          "votesDem": 451360,
+          "votesTotal": 690470
+        },
+        "Rensselaer36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +8.9",
+          "margin": -8.94,
+          "votesRep": 35065,
+          "votesDem": 41950,
+          "votesTotal": 77522
+        },
+        "Richmond36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +23.6",
+          "margin": 23.57,
+          "votesRep": 119958,
+          "votesDem": 74191,
+          "votesTotal": 195771
+        },
+        "Rockland36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +5.8",
+          "margin": -5.82,
+          "votesRep": 64082,
+          "votesDem": 72003,
+          "votesTotal": 136684
+        },
+        "Saratoga36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +7.0",
+          "margin": -6.95,
+          "votesRep": 59574,
+          "votesDem": 68479,
+          "votesTotal": 128686
+        },
+        "Schenectady36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +17.2",
+          "margin": -17.23,
+          "votesRep": 28681,
+          "votesDem": 40626,
+          "votesTotal": 69798
+        },
+        "Schoharie36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +21.3",
+          "margin": 21.33,
+          "votesRep": 9495,
+          "votesDem": 6156,
+          "votesTotal": 15739
+        },
+        "Schuyler36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +17.6",
+          "margin": 17.56,
+          "votesRep": 5440,
+          "votesDem": 3815,
+          "votesTotal": 9292
+        },
+        "Seneca36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +6.6",
+          "margin": 6.63,
+          "votesRep": 7769,
+          "votesDem": 6803,
+          "votesTotal": 14630
+        },
+        "St. Lawrence36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +8.1",
+          "margin": 8.1,
+          "votesRep": 22727,
+          "votesDem": 19322,
+          "votesTotal": 42219
+        },
+        "Steuben36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +28.3",
+          "margin": 28.29,
+          "votesRep": 28367,
+          "votesDem": 15857,
+          "votesTotal": 44363
+        },
+        "Suffolk36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +5.5",
+          "margin": 5.48,
+          "votesRep": 389431,
+          "votesDem": 348948,
+          "votesTotal": 741139
+        },
+        "Sullivan36": {
+          "color": "#FF8B98",
+          "label": "Sapraicone +4.2",
+          "margin": 4.16,
+          "votesRep": 17122,
+          "votesDem": 15755,
+          "votesTotal": 33053
+        },
+        "Tioga36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +18.0",
+          "margin": 17.99,
+          "votesRep": 14036,
+          "votesDem": 9755,
+          "votesTotal": 23881
+        },
+        "Tompkins36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +52.5",
+          "margin": -52.51,
+          "votesRep": 10738,
+          "votesDem": 34484,
+          "votesTotal": 45572
+        },
+        "Ulster36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +25.4",
+          "margin": -25.43,
+          "votesRep": 35889,
+          "votesDem": 60364,
+          "votesTotal": 96882
+        },
+        "Warren36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +4.1",
+          "margin": -4.11,
+          "votesRep": 16728,
+          "votesDem": 18162,
+          "votesTotal": 35057
+        },
+        "Washington36": {
+          "color": "#FF5865",
+          "label": "Sapraicone +9.7",
+          "margin": 9.66,
+          "votesRep": 15221,
+          "votesDem": 12539,
+          "votesTotal": 27911
+        },
+        "Wayne36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +18.6",
+          "margin": 18.55,
+          "votesRep": 25686,
+          "votesDem": 17647,
+          "votesTotal": 43493
+        },
+        "Westchester36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +30.2",
+          "margin": -30.17,
+          "votesRep": 154287,
+          "votesDem": 287607,
+          "votesTotal": 444096
+        },
+        "Wyoming36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +42.7",
+          "margin": 42.68,
+          "votesRep": 13268,
+          "votesDem": 5330,
+          "votesTotal": 18683
+        },
+        "Yates36": {
+          "color": "#BF1D29",
+          "label": "Sapraicone +12.8",
+          "margin": 12.83,
+          "votesRep": 5787,
+          "votesDem": 4471,
+          "votesTotal": 10306
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Lee Zeldin",
+      "candDem": "Kathy Hochul",
+      "shortRep": "Zeldin",
+      "shortDem": "Hochul",
+      "partisan": true,
+      "margin": -6.2,
+      "votesRep": 2788149,
+      "votesDem": 3156467,
+      "votesTotal": 5996110,
+      "regions": {
+        "Albany36": {
+          "color": "#1C408C",
+          "label": "Hochul +18.4",
+          "margin": -18.43,
+          "votesRep": 47538,
+          "votesDem": 69015,
+          "votesTotal": 116938
+        },
+        "Allegany36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +51.2",
+          "margin": 51.17,
+          "votesRep": 11974,
+          "votesDem": 3868,
+          "votesTotal": 15888
+        },
+        "Bronx36": {
+          "color": "#1C408C",
+          "label": "Hochul +55.2",
+          "margin": -55.17,
+          "votesRep": 44948,
+          "votesDem": 155564,
+          "votesTotal": 200739
+        },
+        "Broome36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +12.5",
+          "margin": 12.54,
+          "votesRep": 38343,
+          "votesDem": 29799,
+          "votesTotal": 68230
+        },
+        "Cattaraugus36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +40.2",
+          "margin": 40.18,
+          "votesRep": 18265,
+          "votesDem": 7795,
+          "votesTotal": 26091
+        },
+        "Cayuga36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +24.3",
+          "margin": 24.35,
+          "votesRep": 16725,
+          "votesDem": 10175,
+          "votesTotal": 26962
+        },
+        "Chautauqua36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +30.0",
+          "margin": 29.95,
+          "votesRep": 28268,
+          "votesDem": 15237,
+          "votesTotal": 43561
+        },
+        "Chemung36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +31.9",
+          "margin": 31.93,
+          "votesRep": 18364,
+          "votesDem": 9474,
+          "votesTotal": 27910
+        },
+        "Chenango36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +43.4",
+          "margin": 43.37,
+          "votesRep": 23084,
+          "votesDem": 9119,
+          "votesTotal": 32270
+        },
+        "Clinton36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +13.4",
+          "margin": 13.45,
+          "votesRep": 15590,
+          "votesDem": 11894,
+          "votesTotal": 27524
+        },
+        "Columbia36": {
+          "color": "#577CCC",
+          "label": "Hochul +8.3",
+          "margin": -8.29,
+          "votesRep": 13601,
+          "votesDem": 16060,
+          "votesTotal": 29722
+        },
+        "Cortland36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +15.4",
+          "margin": 15.41,
+          "votesRep": 9294,
+          "votesDem": 6812,
+          "votesTotal": 16149
+        },
+        "Delaware36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +30.2",
+          "margin": 30.16,
+          "votesRep": 12094,
+          "votesDem": 6489,
+          "votesTotal": 18606
+        },
+        "Dutchess36": {
+          "color": "#FF8B98",
+          "label": "Zeldin +3.4",
+          "margin": 3.45,
+          "votesRep": 59486,
+          "votesDem": 55519,
+          "votesTotal": 115726
+        },
+        "Erie36": {
+          "color": "#577CCC",
+          "label": "Hochul +6.1",
+          "margin": -6.05,
+          "votesRep": 160004,
+          "votesDem": 180626,
+          "votesTotal": 341309
+        },
+        "Essex36": {
+          "color": "#FF5865",
+          "label": "Zeldin +9.9",
+          "margin": 9.86,
+          "votesRep": 8522,
+          "votesDem": 6992,
+          "votesTotal": 15536
+        },
+        "Franklin36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +20.9",
+          "margin": 20.92,
+          "votesRep": 9180,
+          "votesDem": 6003,
+          "votesTotal": 15197
+        },
+        "Fulton36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +44.2",
+          "margin": 44.23,
+          "votesRep": 13591,
+          "votesDem": 5255,
+          "votesTotal": 18879
+        },
+        "Genesee36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +43.7",
+          "margin": 43.67,
+          "votesRep": 16003,
+          "votesDem": 6274,
+          "votesTotal": 22312
+        },
+        "Greene36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +24.0",
+          "margin": 24.03,
+          "votesRep": 12492,
+          "votesDem": 7651,
+          "votesTotal": 20165
+        },
+        "Hamilton36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +42.3",
+          "margin": 42.33,
+          "votesRep": 2051,
+          "votesDem": 831,
+          "votesTotal": 2882
+        },
+        "Herkimer36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +48.0",
+          "margin": 48.04,
+          "votesRep": 16890,
+          "votesDem": 5928,
+          "votesTotal": 22854
+        },
+        "Jefferson36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +42.0",
+          "margin": 41.98,
+          "votesRep": 22523,
+          "votesDem": 9204,
+          "votesTotal": 31766
+        },
+        "Kings36": {
+          "color": "#1C408C",
+          "label": "Hochul +42.2",
+          "margin": -42.2,
+          "votesRep": 163430,
+          "votesDem": 402114,
+          "votesTotal": 566517
+        },
+        "Lewis36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +61.2",
+          "margin": 61.16,
+          "votesRep": 8580,
+          "votesDem": 2068,
+          "votesTotal": 10655
+        },
+        "Livingston36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +33.0",
+          "margin": 33.05,
+          "votesRep": 16168,
+          "votesDem": 8136,
+          "votesTotal": 24350
+        },
+        "Madison36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +22.1",
+          "margin": 22.09,
+          "votesRep": 15972,
+          "votesDem": 10192,
+          "votesTotal": 26265
+        },
+        "Monroe36": {
+          "color": "#577CCC",
+          "label": "Hochul +8.0",
+          "margin": -8.03,
+          "votesRep": 126637,
+          "votesDem": 148751,
+          "votesTotal": 275938
+        },
+        "Montgomery36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +36.7",
+          "margin": 36.7,
+          "votesRep": 10858,
+          "votesDem": 5028,
+          "votesTotal": 15924
+        },
+        "Nassau36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +10.4",
+          "margin": 10.44,
+          "votesRep": 286147,
+          "votesDem": 232036,
+          "votesTotal": 518640
+        },
+        "New York36": {
+          "color": "#1C408C",
+          "label": "Hochul +64.6",
+          "margin": -64.56,
+          "votesRep": 80159,
+          "votesDem": 372149,
+          "votesTotal": 453311
+        },
+        "Niagara36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +22.2",
+          "margin": 22.23,
+          "votesRep": 46627,
+          "votesDem": 29669,
+          "votesTotal": 76424
+        },
+        "Oneida36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +32.7",
+          "margin": 32.69,
+          "votesRep": 49991,
+          "votesDem": 25358,
+          "votesTotal": 75519
+        },
+        "Onondaga36": {
+          "color": "#577CCC",
+          "label": "Hochul +7.9",
+          "margin": -7.93,
+          "votesRep": 78045,
+          "votesDem": 91485,
+          "votesTotal": 169856
+        },
+        "Ontario36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +12.6",
+          "margin": 12.6,
+          "votesRep": 25979,
+          "votesDem": 20166,
+          "votesTotal": 46300
+        },
+        "Orange36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +12.2",
+          "margin": 12.24,
+          "votesRep": 69558,
+          "votesDem": 54386,
+          "votesTotal": 124142
+        },
+        "Orleans36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +51.8",
+          "margin": 51.83,
+          "votesRep": 10376,
+          "votesDem": 3292,
+          "votesTotal": 13688
+        },
+        "Oswego36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +34.8",
+          "margin": 34.77,
+          "votesRep": 27094,
+          "votesDem": 13115,
+          "votesTotal": 40281
+        },
+        "Otsego36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +24.7",
+          "margin": 24.75,
+          "votesRep": 25631,
+          "votesDem": 15462,
+          "votesTotal": 41192
+        },
+        "Putnam36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +20.5",
+          "margin": 20.54,
+          "votesRep": 24898,
+          "votesDem": 16413,
+          "votesTotal": 82622
+        },
+        "Queens36": {
+          "color": "#1C408C",
+          "label": "Hochul +26.7",
+          "margin": -26.74,
+          "votesRep": 160279,
+          "votesDem": 277279,
+          "votesTotal": 438285
+        },
+        "Rensselaer36": {
+          "color": "#FF5865",
+          "label": "Zeldin +8.4",
+          "margin": 8.4,
+          "votesRep": 33749,
+          "votesDem": 28521,
+          "votesTotal": 62405
+        },
+        "Richmond36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +33.1",
+          "margin": 33.12,
+          "votesRep": 93818,
+          "votesDem": 47135,
+          "votesTotal": 141133
+        },
+        "Rockland36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +12.1",
+          "margin": 12.09,
+          "votesRep": 61018,
+          "votesDem": 47854,
+          "votesTotal": 109029
+        },
+        "Saratoga36": {
+          "color": "#FF5865",
+          "label": "Zeldin +7.4",
+          "margin": 7.35,
+          "votesRep": 55829,
+          "votesDem": 48180,
+          "votesTotal": 104176
+        },
+        "Schenectady36": {
+          "color": "#8AAFFF",
+          "label": "Hochul +1.6",
+          "margin": -1.58,
+          "votesRep": 26772,
+          "votesDem": 27632,
+          "votesTotal": 54552
+        },
+        "Schoharie36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +38.9",
+          "margin": 38.86,
+          "votesRep": 8910,
+          "votesDem": 3923,
+          "votesTotal": 12860
+        },
+        "Schuyler36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +31.4",
+          "margin": 31.36,
+          "votesRep": 5092,
+          "votesDem": 2661,
+          "votesTotal": 7830
+        },
+        "Seneca36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +21.1",
+          "margin": 21.09,
+          "votesRep": 6932,
+          "votesDem": 4517,
+          "votesTotal": 11473
+        },
+        "St. Lawrence36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +32.4",
+          "margin": 32.37,
+          "votesRep": 22687,
+          "votesDem": 11591,
+          "votesTotal": 34322
+        },
+        "Steuben36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +44.0",
+          "margin": 44.05,
+          "votesRep": 24886,
+          "votesDem": 9666,
+          "votesTotal": 34608
+        },
+        "Suffolk36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +16.7",
+          "margin": 16.71,
+          "votesRep": 330337,
+          "votesDem": 235736,
+          "votesTotal": 566491
+        },
+        "Sullivan36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +21.2",
+          "margin": 21.2,
+          "votesRep": 15009,
+          "votesDem": 9759,
+          "votesTotal": 24787
+        },
+        "Tioga36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +35.6",
+          "margin": 35.57,
+          "votesRep": 12870,
+          "votesDem": 6117,
+          "votesTotal": 19014
+        },
+        "Tompkins36": {
+          "color": "#1C408C",
+          "label": "Hochul +44.9",
+          "margin": -44.89,
+          "votesRep": 9630,
+          "votesDem": 25319,
+          "votesTotal": 35032
+        },
+        "Ulster36": {
+          "color": "#1C408C",
+          "label": "Hochul +16.9",
+          "margin": -16.89,
+          "votesRep": 35300,
+          "votesDem": 49645,
+          "votesTotal": 85102
+        },
+        "Warren36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +12.0",
+          "margin": 12.04,
+          "votesRep": 15761,
+          "votesDem": 12373,
+          "votesTotal": 28183
+        },
+        "Washington36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +28.1",
+          "margin": 28.09,
+          "votesRep": 14155,
+          "votesDem": 7946,
+          "votesTotal": 22130
+        },
+        "Wayne36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +35.6",
+          "margin": 35.58,
+          "votesRep": 22760,
+          "votesDem": 10814,
+          "votesTotal": 33634
+        },
+        "Westchester36": {
+          "color": "#1C408C",
+          "label": "Hochul +20.8",
+          "margin": -20.77,
+          "votesRep": 130035,
+          "votesDem": 198202,
+          "votesTotal": 328519
+        },
+        "Wyoming36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +56.9",
+          "margin": 56.88,
+          "votesRep": 11978,
+          "votesDem": 3292,
+          "votesTotal": 15414
+        },
+        "Yates36": {
+          "color": "#BF1D29",
+          "label": "Zeldin +29.8",
+          "margin": 29.78,
+          "votesRep": 5362,
+          "votesDem": 2901,
+          "votesTotal": 8291
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Joe Pinion",
+      "candDem": "Charles Schumer",
+      "shortRep": "Pinion",
+      "shortDem": "Schumer",
+      "partisan": true,
+      "margin": -14.01,
+      "votesRep": 2505946,
+      "votesDem": 3322583,
+      "votesTotal": 5859533,
+      "regions": {
+        "Albany36": {
+          "color": "#1C408C",
+          "label": "Schumer +26.1",
+          "margin": -26.08,
+          "votesRep": 42713,
+          "votesDem": 72854,
+          "votesTotal": 116170
+        },
+        "Allegany36": {
+          "color": "#BF1D29",
+          "label": "Pinion +44.7",
+          "margin": 44.73,
+          "votesRep": 11277,
+          "votesDem": 4306,
+          "votesTotal": 15667
+        },
+        "Bronx36": {
+          "color": "#1C408C",
+          "label": "Schumer +62.0",
+          "margin": -62.03,
+          "votesRep": 37130,
+          "votesDem": 158433,
+          "votesTotal": 196567
+        },
+        "Broome36": {
+          "color": "#FF8B98",
+          "label": "Pinion +3.1",
+          "margin": 3.12,
+          "votesRep": 34688,
+          "votesDem": 32587,
+          "votesTotal": 67753
+        },
+        "Cattaraugus36": {
+          "color": "#BF1D29",
+          "label": "Pinion +32.3",
+          "margin": 32.25,
+          "votesRep": 16938,
+          "votesDem": 8677,
+          "votesTotal": 25740
+        },
+        "Cayuga36": {
+          "color": "#BF1D29",
+          "label": "Pinion +13.5",
+          "margin": 13.55,
+          "votesRep": 15139,
+          "votesDem": 11527,
+          "votesTotal": 26798
+        },
+        "Chautauqua36": {
+          "color": "#BF1D29",
+          "label": "Pinion +21.9",
+          "margin": 21.94,
+          "votesRep": 26217,
+          "votesDem": 16782,
+          "votesTotal": 43202
+        },
+        "Chenango36": {
+          "color": "#BF1D29",
+          "label": "Pinion +32.2",
+          "margin": 32.24,
+          "votesRep": 20989,
+          "votesDem": 10755,
+          "votesTotal": 31994
+        },
+        "Clinton36": {
+          "color": "#FF8B98",
+          "label": "Pinion +1.7",
+          "margin": 1.66,
+          "votesRep": 13792,
+          "votesDem": 13341,
+          "votesTotal": 27303
+        },
+        "Columbia36": {
+          "color": "#1C408C",
+          "label": "Schumer +14.1",
+          "margin": -14.14,
+          "votesRep": 12631,
+          "votesDem": 16791,
+          "votesTotal": 29520
+        },
+        "Cortland36": {
+          "color": "#FF5865",
+          "label": "Pinion +6.4",
+          "margin": 6.37,
+          "votesRep": 8485,
+          "votesDem": 7469,
+          "votesTotal": 16065
+        },
+        "Delaware36": {
+          "color": "#BF1D29",
+          "label": "Pinion +23.3",
+          "margin": 23.29,
+          "votesRep": 11315,
+          "votesDem": 7040,
+          "votesTotal": 18458
+        },
+        "Dutchess36": {
+          "color": "#949BB3",
+          "label": "Schumer +0.8",
+          "margin": -0.84,
+          "votesRep": 56353,
+          "votesDem": 57306,
+          "votesTotal": 114276
+        },
+        "Erie36": {
+          "color": "#1C408C",
+          "label": "Schumer +12.0",
+          "margin": -11.97,
+          "votesRep": 148585,
+          "votesDem": 188979,
+          "votesTotal": 339720
+        },
+        "Essex36": {
+          "color": "#CF8980",
+          "label": "Pinion +0.9",
+          "margin": 0.92,
+          "votesRep": 7654,
+          "votesDem": 7514,
+          "votesTotal": 15259
+        },
+        "Franklin36": {
+          "color": "#FF5865",
+          "label": "Pinion +7.9",
+          "margin": 7.93,
+          "votesRep": 8071,
+          "votesDem": 6885,
+          "votesTotal": 15046
+        },
+        "Fulton36": {
+          "color": "#BF1D29",
+          "label": "Pinion +33.1",
+          "margin": 33.15,
+          "votesRep": 12191,
+          "votesDem": 6121,
+          "votesTotal": 18433
+        },
+        "Genesee36": {
+          "color": "#BF1D29",
+          "label": "Pinion +35.7",
+          "margin": 35.72,
+          "votesRep": 14897,
+          "votesDem": 7056,
+          "votesTotal": 22088
+        },
+        "Greene36": {
+          "color": "#BF1D29",
+          "label": "Pinion +18.7",
+          "margin": 18.67,
+          "votesRep": 11711,
+          "votesDem": 8026,
+          "votesTotal": 19861
+        },
+        "Hamilton36": {
+          "color": "#BF1D29",
+          "label": "Pinion +31.0",
+          "margin": 30.96,
+          "votesRep": 1838,
+          "votesDem": 969,
+          "votesTotal": 2822
+        },
+        "Herkimer36": {
+          "color": "#BF1D29",
+          "label": "Pinion +36.2",
+          "margin": 36.23,
+          "votesRep": 15376,
+          "votesDem": 7198,
+          "votesTotal": 22693
+        },
+        "Jefferson36": {
+          "color": "#BF1D29",
+          "label": "Pinion +25.7",
+          "margin": 25.73,
+          "votesRep": 19667,
+          "votesDem": 11618,
+          "votesTotal": 31442
+        },
+        "Kings36": {
+          "color": "#1C408C",
+          "label": "Schumer +53.1",
+          "margin": -53.14,
+          "votesRep": 129692,
+          "votesDem": 423867,
+          "votesTotal": 557005
+        },
+        "Lewis36": {
+          "color": "#BF1D29",
+          "label": "Pinion +42.1",
+          "margin": 42.14,
+          "votesRep": 7372,
+          "votesDem": 3001,
+          "votesTotal": 10410
+        },
+        "Livingston36": {
+          "color": "#BF1D29",
+          "label": "Pinion +24.7",
+          "margin": 24.72,
+          "votesRep": 14958,
+          "votesDem": 9029,
+          "votesTotal": 24158
+        },
+        "Madison36": {
+          "color": "#BF1D29",
+          "label": "Pinion +12.0",
+          "margin": 12.04,
+          "votesRep": 14573,
+          "votesDem": 11440,
+          "votesTotal": 26189
+        },
+        "Monroe36": {
+          "color": "#1C408C",
+          "label": "Schumer +14.4",
+          "margin": -14.42,
+          "votesRep": 117079,
+          "votesDem": 156544,
+          "votesTotal": 275181
+        },
+        "Montgomery36": {
+          "color": "#BF1D29",
+          "label": "Pinion +25.6",
+          "margin": 25.61,
+          "votesRep": 9764,
+          "votesDem": 5783,
+          "votesTotal": 15632
+        },
+        "Nassau36": {
+          "color": "#FF8B98",
+          "label": "Pinion +3.3",
+          "margin": 3.28,
+          "votesRep": 265004,
+          "votesDem": 248186,
+          "votesTotal": 514658
+        },
+        "New York36": {
+          "color": "#1C408C",
+          "label": "Schumer +70.9",
+          "margin": -70.88,
+          "votesRep": 65366,
+          "votesDem": 383518,
+          "votesTotal": 451594
+        },
+        "Niagara36": {
+          "color": "#BF1D29",
+          "label": "Pinion +15.0",
+          "margin": 15.04,
+          "votesRep": 43261,
+          "votesDem": 31950,
+          "votesTotal": 75611
+        },
+        "Oneida36": {
+          "color": "#BF1D29",
+          "label": "Pinion +20.7",
+          "margin": 20.71,
+          "votesRep": 44899,
+          "votesDem": 29494,
+          "votesTotal": 74823
+        },
+        "Onondaga36": {
+          "color": "#1C408C",
+          "label": "Schumer +17.7",
+          "margin": -17.7,
+          "votesRep": 69374,
+          "votesDem": 99207,
+          "votesTotal": 169567
+        },
+        "Ontario36": {
+          "color": "#FF5865",
+          "label": "Pinion +5.4",
+          "margin": 5.42,
+          "votesRep": 24104,
+          "votesDem": 21626,
+          "votesTotal": 45995
+        },
+        "Orange36": {
+          "color": "#FF8B98",
+          "label": "Pinion +4.1",
+          "margin": 4.05,
+          "votesRep": 63292,
+          "votesDem": 58364,
+          "votesTotal": 122260
+        },
+        "Orleans36": {
+          "color": "#BF1D29",
+          "label": "Pinion +43.5",
+          "margin": 43.45,
+          "votesRep": 9609,
+          "votesDem": 3788,
+          "votesTotal": 13472
+        },
+        "Oswego36": {
+          "color": "#BF1D29",
+          "label": "Pinion +24.9",
+          "margin": 24.91,
+          "votesRep": 24802,
+          "votesDem": 14909,
+          "votesTotal": 39968
+        },
+        "Otsego36": {
+          "color": "#BF1D29",
+          "label": "Pinion +15.5",
+          "margin": 15.46,
+          "votesRep": 23291,
+          "votesDem": 17054,
+          "votesTotal": 40650
+        },
+        "Putnam36": {
+          "color": "#BF1D29",
+          "label": "Pinion +16.7",
+          "margin": 16.74,
+          "votesRep": 23863,
+          "votesDem": 17019,
+          "votesTotal": 41050
+        },
+        "Queens36": {
+          "color": "#1C408C",
+          "label": "Schumer +35.9",
+          "margin": -35.86,
+          "votesRep": 137805,
+          "votesDem": 291904,
+          "votesTotal": 432587
+        },
+        "Rensselaer36": {
+          "color": "#6b7280",
+          "label": "Schumer +0.2",
+          "margin": -0.24,
+          "votesRep": 30662,
+          "votesDem": 30809,
+          "votesTotal": 61907
+        },
+        "Richmond36": {
+          "color": "#BF1D29",
+          "label": "Pinion +26.6",
+          "margin": 26.64,
+          "votesRep": 88015,
+          "votesDem": 50985,
+          "votesTotal": 139664
+        },
+        "Rockland36": {
+          "color": "#8AAFFF",
+          "label": "Schumer +1.1",
+          "margin": -1.08,
+          "votesRep": 51183,
+          "votesDem": 52298,
+          "votesTotal": 103893
+        },
+        "Saratoga36": {
+          "color": "#FF8B98",
+          "label": "Pinion +1.3",
+          "margin": 1.28,
+          "votesRep": 52033,
+          "votesDem": 50716,
+          "votesTotal": 103298
+        },
+        "Schenectady36": {
+          "color": "#577CCC",
+          "label": "Schumer +8.7",
+          "margin": -8.74,
+          "votesRep": 24440,
+          "votesDem": 29124,
+          "votesTotal": 53929
+        },
+        "Schoharie36": {
+          "color": "#BF1D29",
+          "label": "Pinion +30.6",
+          "margin": 30.61,
+          "votesRep": 8254,
+          "votesDem": 4385,
+          "votesTotal": 12740
+        },
+        "Schuyler36": {
+          "color": "#BF1D29",
+          "label": "Pinion +24.5",
+          "margin": 24.55,
+          "votesRep": 4759,
+          "votesDem": 2883,
+          "votesTotal": 7818
+        },
+        "Seneca36": {
+          "color": "#BF1D29",
+          "label": "Pinion +11.7",
+          "margin": 11.73,
+          "votesRep": 6313,
+          "votesDem": 4987,
+          "votesTotal": 11391
+        },
+        "St. Lawrence36": {
+          "color": "#BF1D29",
+          "label": "Pinion +14.9",
+          "margin": 14.93,
+          "votesRep": 19389,
+          "votesDem": 14351,
+          "votesTotal": 33952
+        },
+        "Steuben36": {
+          "color": "#BF1D29",
+          "label": "Pinion +37.7",
+          "margin": 37.68,
+          "votesRep": 23456,
+          "votesDem": 10616,
+          "votesTotal": 34260
+        },
+        "Suffolk36": {
+          "color": "#BF1D29",
+          "label": "Pinion +11.6",
+          "margin": 11.55,
+          "votesRep": 311254,
+          "votesDem": 246789,
+          "votesTotal": 560257
+        },
+        "Sullivan36": {
+          "color": "#BF1D29",
+          "label": "Pinion +10.7",
+          "margin": 10.69,
+          "votesRep": 13385,
+          "votesDem": 10800,
+          "votesTotal": 24345
+        },
+        "Tioga36": {
+          "color": "#BF1D29",
+          "label": "Pinion +28.0",
+          "margin": 27.97,
+          "votesRep": 11980,
+          "votesDem": 6743,
+          "votesTotal": 18846
+        },
+        "Tompkins36": {
+          "color": "#1C408C",
+          "label": "Schumer +48.7",
+          "margin": -48.65,
+          "votesRep": 8956,
+          "votesDem": 25928,
+          "votesTotal": 35153
+        },
+        "Ulster36": {
+          "color": "#1C408C",
+          "label": "Schumer +18.6",
+          "margin": -18.62,
+          "votesRep": 31327,
+          "votesDem": 45660,
+          "votesTotal": 76987
+        },
+        "Warren36": {
+          "color": "#FF8B98",
+          "label": "Pinion +4.3",
+          "margin": 4.29,
+          "votesRep": 14452,
+          "votesDem": 13263,
+          "votesTotal": 27898
+        },
+        "Washington36": {
+          "color": "#BF1D29",
+          "label": "Pinion +19.4",
+          "margin": 19.37,
+          "votesRep": 12987,
+          "votesDem": 8773,
+          "votesTotal": 21899
+        },
+        "Wayne36": {
+          "color": "#BF1D29",
+          "label": "Pinion +28.1",
+          "margin": 28.07,
+          "votesRep": 21320,
+          "votesDem": 11975,
+          "votesTotal": 33459
+        },
+        "Westchester36": {
+          "color": "#1C408C",
+          "label": "Schumer +26.3",
+          "margin": -26.31,
+          "votesRep": 119891,
+          "votesDem": 205496,
+          "votesTotal": 326523
+        },
+        "Wyoming36": {
+          "color": "#BF1D29",
+          "label": "Pinion +48.9",
+          "margin": 48.93,
+          "votesRep": 11191,
+          "votesDem": 3838,
+          "votesTotal": 15399
+        },
+        "Yates36": {
+          "color": "#BF1D29",
+          "label": "Pinion +20.6",
+          "margin": 20.62,
+          "votesRep": 4934,
+          "votesDem": 3247,
+          "votesTotal": 8228
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Marc Molinaro",
+      "candDem": "Andrew Cuomo",
+      "shortRep": "Molinaro",
+      "shortDem": "Cuomo",
+      "partisan": true,
+      "margin": -27.56,
+      "votesRep": 1866153,
+      "votesDem": 3286344,
+      "votesTotal": 5408452,
+      "regions": {
+        "Albany36": {
+          "color": "#1C408C",
+          "label": "Cuomo +13.0",
+          "margin": -13.04,
+          "votesRep": 45917,
+          "votesDem": 59692,
+          "votesTotal": 114221
+        },
+        "Bronx36": {
+          "color": "#1C408C",
+          "label": "Cuomo +83.7",
+          "margin": -83.73,
+          "votesRep": 23079,
+          "votesDem": 260556,
+          "votesTotal": 288356
+        },
+        "Broome36": {
+          "color": "#FF5865",
+          "label": "Molinaro +7.4",
+          "margin": 7.44,
+          "votesRep": 36583,
+          "votesDem": 31519,
+          "votesTotal": 72274
+        },
+        "Cattaraugus36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +36.2",
+          "margin": 36.23,
+          "votesRep": 15028,
+          "votesDem": 7034,
+          "votesTotal": 23625
+        },
+        "Cayuga36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +20.1",
+          "margin": 20.1,
+          "votesRep": 14706,
+          "votesDem": 9783,
+          "votesTotal": 26840
+        },
+        "Chautauqua36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +25.1",
+          "margin": 25.14,
+          "votesRep": 25823,
+          "votesDem": 15447,
+          "votesTotal": 43488
+        },
+        "Chemung36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +25.8",
+          "margin": 25.84,
+          "votesRep": 17294,
+          "votesDem": 10191,
+          "votesTotal": 29723
+        },
+        "Chenango36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +33.9",
+          "margin": 33.86,
+          "votesRep": 10259,
+          "votesDem": 5069,
+          "votesTotal": 16596
+        },
+        "Clinton36": {
+          "color": "#FF5865",
+          "label": "Molinaro +7.0",
+          "margin": 7.05,
+          "votesRep": 13227,
+          "votesDem": 11485,
+          "votesTotal": 26134
+        },
+        "Columbia36": {
+          "color": "#FF8B98",
+          "label": "Molinaro +2.1",
+          "margin": 2.11,
+          "votesRep": 14253,
+          "votesDem": 13665,
+          "votesTotal": 29269
+        },
+        "Cortland36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +10.8",
+          "margin": 10.8,
+          "votesRep": 7953,
+          "votesDem": 6403,
+          "votesTotal": 33127
+        },
+        "Delaware36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +26.3",
+          "margin": 26.31,
+          "votesRep": 9934,
+          "votesDem": 5796,
+          "votesTotal": 17126
+        },
+        "Dutchess36": {
+          "color": "#FF5865",
+          "label": "Molinaro +7.2",
+          "margin": 7.21,
+          "votesRep": 59137,
+          "votesDem": 51188,
+          "votesTotal": 114281
+        },
+        "Erie36": {
+          "color": "#577CCC",
+          "label": "Cuomo +7.4",
+          "margin": -7.4,
+          "votesRep": 150679,
+          "votesDem": 174766,
+          "votesTotal": 339767
+        },
+        "Essex36": {
+          "color": "#FF8B98",
+          "label": "Molinaro +1.6",
+          "margin": 1.64,
+          "votesRep": 6705,
+          "votesDem": 6489,
+          "votesTotal": 13881
+        },
+        "Franklin36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +12.3",
+          "margin": 12.3,
+          "votesRep": 7007,
+          "votesDem": 5472,
+          "votesTotal": 14030
+        },
+        "Fulton36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +48.9",
+          "margin": 48.94,
+          "votesRep": 11901,
+          "votesDem": 4080,
+          "votesTotal": 16826
+        },
+        "Greene36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +32.8",
+          "margin": 32.83,
+          "votesRep": 12088,
+          "votesDem": 6113,
+          "votesTotal": 19170
+        },
+        "Hamilton36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +42.6",
+          "margin": 42.56,
+          "votesRep": 1792,
+          "votesDem": 722,
+          "votesTotal": 2778
+        },
+        "Herkimer36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +41.6",
+          "margin": 41.63,
+          "votesRep": 14374,
+          "votesDem": 5924,
+          "votesTotal": 21753
+        },
+        "Jefferson36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +42.8",
+          "margin": 42.77,
+          "votesRep": 16111,
+          "votesDem": 6458,
+          "votesTotal": 24071
+        },
+        "Kings36": {
+          "color": "#1C408C",
+          "label": "Cuomo +72.2",
+          "margin": -72.19,
+          "votesRep": 84648,
+          "votesDem": 524080,
+          "votesTotal": 635083
+        },
+        "Lewis36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +57.8",
+          "margin": 57.76,
+          "votesRep": 6148,
+          "votesDem": 1646,
+          "votesTotal": 8411
+        },
+        "Livingston36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +31.4",
+          "margin": 31.4,
+          "votesRep": 14627,
+          "votesDem": 7637,
+          "votesTotal": 24346
+        },
+        "Madison36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +23.7",
+          "margin": 23.75,
+          "votesRep": 14616,
+          "votesDem": 9006,
+          "votesTotal": 25908
+        },
+        "Monroe36": {
+          "color": "#577CCC",
+          "label": "Cuomo +9.2",
+          "margin": -9.24,
+          "votesRep": 118909,
+          "votesDem": 143110,
+          "votesTotal": 280266
+        },
+        "Montgomery36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +39.7",
+          "margin": 39.68,
+          "votesRep": 10153,
+          "votesDem": 4384,
+          "votesTotal": 15333
+        },
+        "Nassau36": {
+          "color": "#1C408C",
+          "label": "Cuomo +16.2",
+          "margin": -16.2,
+          "votesRep": 200376,
+          "votesDem": 277840,
+          "votesTotal": 487317
+        },
+        "New York36": {
+          "color": "#1C408C",
+          "label": "Cuomo +79.5",
+          "margin": -79.46,
+          "votesRep": 52677,
+          "votesDem": 460368,
+          "votesTotal": 533999
+        },
+        "Niagara36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +19.2",
+          "margin": 19.21,
+          "votesRep": 41242,
+          "votesDem": 27951,
+          "votesTotal": 72295
+        },
+        "Oneida36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +23.3",
+          "margin": 23.34,
+          "votesRep": 44938,
+          "votesDem": 27931,
+          "votesTotal": 78665
+        },
+        "Onondaga36": {
+          "color": "#577CCC",
+          "label": "Cuomo +6.7",
+          "margin": -6.67,
+          "votesRep": 74523,
+          "votesDem": 85182,
+          "votesTotal": 175619
+        },
+        "Ontario36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +18.1",
+          "margin": 18.12,
+          "votesRep": 23975,
+          "votesDem": 16618,
+          "votesTotal": 43663
+        },
+        "Orleans36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +48.5",
+          "margin": 48.53,
+          "votesRep": 8893,
+          "votesDem": 3082,
+          "votesTotal": 12899
+        },
+        "Oswego36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +32.1",
+          "margin": 32.07,
+          "votesRep": 22936,
+          "votesDem": 11797,
+          "votesTotal": 38424
+        },
+        "Otsego36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +17.4",
+          "margin": 17.43,
+          "votesRep": 11592,
+          "votesDem": 8151,
+          "votesTotal": 21203
+        },
+        "Putnam36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +11.6",
+          "margin": 11.63,
+          "votesRep": 20914,
+          "votesDem": 16556,
+          "votesTotal": 38535
+        },
+        "Queens36": {
+          "color": "#1C408C",
+          "label": "Cuomo +62.4",
+          "margin": -62.41,
+          "votesRep": 90533,
+          "votesDem": 391190,
+          "votesTotal": 495931
+        },
+        "Rensselaer36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +15.6",
+          "margin": 15.59,
+          "votesRep": 32362,
+          "votesDem": 23633,
+          "votesTotal": 60500
+        },
+        "Richmond36": {
+          "color": "#8AAFFF",
+          "label": "Cuomo +1.5",
+          "margin": -1.51,
+          "votesRep": 67063,
+          "votesDem": 69116,
+          "votesTotal": 138886
+        },
+        "Rockland36": {
+          "color": "#1C408C",
+          "label": "Cuomo +10.6",
+          "margin": -10.58,
+          "votesRep": 44020,
+          "votesDem": 54436,
+          "votesTotal": 101205
+        },
+        "Saratoga36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +17.0",
+          "margin": 16.99,
+          "votesRep": 52337,
+          "votesDem": 37133,
+          "votesTotal": 95255
+        },
+        "Schenectady36": {
+          "color": "#FF5865",
+          "label": "Molinaro +6.8",
+          "margin": 6.83,
+          "votesRep": 27474,
+          "votesDem": 23961,
+          "votesTotal": 54926
+        },
+        "Schoharie36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +45.1",
+          "margin": 45.1,
+          "votesRep": 8190,
+          "votesDem": 3099,
+          "votesTotal": 12220
+        },
+        "Seneca36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +21.2",
+          "margin": 21.23,
+          "votesRep": 6408,
+          "votesDem": 4164,
+          "votesTotal": 11657
+        },
+        "St. Lawrence36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +24.2",
+          "margin": 24.18,
+          "votesRep": 18632,
+          "votesDem": 11376,
+          "votesTotal": 32478
+        },
+        "Steuben36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +38.6",
+          "margin": 38.64,
+          "votesRep": 21035,
+          "votesDem": 9310,
+          "votesTotal": 33885
+        },
+        "Sullivan36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +10.7",
+          "margin": 10.67,
+          "votesRep": 12991,
+          "votesDem": 10486,
+          "votesTotal": 24535
+        },
+        "Tioga36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +29.8",
+          "margin": 29.77,
+          "votesRep": 11045,
+          "votesDem": 5978,
+          "votesTotal": 18295
+        },
+        "Tompkins36": {
+          "color": "#1C408C",
+          "label": "Cuomo +46.6",
+          "margin": -46.61,
+          "votesRep": 8859,
+          "votesDem": 24325,
+          "votesTotal": 37160
+        },
+        "Ulster36": {
+          "color": "#577CCC",
+          "label": "Cuomo +7.7",
+          "margin": -7.74,
+          "votesRep": 35453,
+          "votesDem": 41400,
+          "votesTotal": 78661
+        },
+        "Warren36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +20.1",
+          "margin": 20.07,
+          "votesRep": 14745,
+          "votesDem": 9815,
+          "votesTotal": 26108
+        },
+        "Washington36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +33.5",
+          "margin": 33.53,
+          "votesRep": 12879,
+          "votesDem": 6411,
+          "votesTotal": 20522
+        },
+        "Wayne36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +35.9",
+          "margin": 35.86,
+          "votesRep": 19574,
+          "votesDem": 9241,
+          "votesTotal": 31369
+        },
+        "Westchester36": {
+          "color": "#1C408C",
+          "label": "Cuomo +37.1",
+          "margin": -37.09,
+          "votesRep": 102180,
+          "votesDem": 222685,
+          "votesTotal": 333402
+        },
+        "Wyoming36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +57.0",
+          "margin": 57.03,
+          "votesRep": 10365,
+          "votesDem": 2836,
+          "votesTotal": 13988
+        },
+        "Yates36": {
+          "color": "#BF1D29",
+          "label": "Molinaro +32.2",
+          "margin": 32.23,
+          "votesRep": 4991,
+          "votesDem": 2558,
+          "votesTotal": 8167
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Chele Chiavacci Farley",
+      "candDem": "Kirsten Gillibrand",
+      "shortRep": "Farley",
+      "shortDem": "Gillibrand",
+      "partisan": true,
+      "margin": -34.73,
+      "votesRep": 1914265,
+      "votesDem": 3951329,
+      "votesTotal": 5910973,
+      "regions": {
+        "Albany36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +36.4",
+          "margin": -36.36,
+          "votesRep": 36456,
+          "votesDem": 78115,
+          "votesTotal": 114695
+        },
+        "Allegany36": {
+          "color": "#BF1D29",
+          "label": "Farley +25.8",
+          "margin": 25.82,
+          "votesRep": 9261,
+          "votesDem": 5460,
+          "votesTotal": 14721
+        },
+        "Bronx36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +83.6",
+          "margin": -83.59,
+          "votesRep": 23033,
+          "votesDem": 257723,
+          "votesTotal": 280924
+        },
+        "Broome36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +14.2",
+          "margin": -14.23,
+          "votesRep": 30897,
+          "votesDem": 41145,
+          "votesTotal": 72090
+        },
+        "Cattaraugus36": {
+          "color": "#BF1D29",
+          "label": "Farley +11.9",
+          "margin": 11.93,
+          "votesRep": 13256,
+          "votesDem": 10431,
+          "votesTotal": 23692
+        },
+        "Cayuga36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +2.2",
+          "margin": -2.18,
+          "votesRep": 13232,
+          "votesDem": 13823,
+          "votesTotal": 27064
+        },
+        "Chautauqua36": {
+          "color": "#FF8B98",
+          "label": "Farley +3.6",
+          "margin": 3.59,
+          "votesRep": 22361,
+          "votesDem": 20810,
+          "votesTotal": 43184
+        },
+        "Chemung36": {
+          "color": "#FF8B98",
+          "label": "Farley +1.9",
+          "margin": 1.9,
+          "votesRep": 14902,
+          "votesDem": 14347,
+          "votesTotal": 29263
+        },
+        "Chenango36": {
+          "color": "#BF1D29",
+          "label": "Farley +10.5",
+          "margin": 10.5,
+          "votesRep": 8996,
+          "votesDem": 7286,
+          "votesTotal": 16292
+        },
+        "Clinton36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +22.8",
+          "margin": -22.81,
+          "votesRep": 10012,
+          "votesDem": 15930,
+          "votesTotal": 25944
+        },
+        "Columbia36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +24.3",
+          "margin": -24.26,
+          "votesRep": 11055,
+          "votesDem": 18137,
+          "votesTotal": 29213
+        },
+        "Cortland36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +12.4",
+          "margin": -12.42,
+          "votesRep": 7099,
+          "votesDem": 9113,
+          "votesTotal": 16223
+        },
+        "Delaware36": {
+          "color": "#FF5865",
+          "label": "Farley +7.1",
+          "margin": 7.06,
+          "votesRep": 9066,
+          "votesDem": 7871,
+          "votesTotal": 16946
+        },
+        "Dutchess36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +14.8",
+          "margin": -14.79,
+          "votesRep": 47273,
+          "votesDem": 63686,
+          "votesTotal": 114477
+        },
+        "Erie36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +23.4",
+          "margin": -23.41,
+          "votesRep": 127860,
+          "votesDem": 206019,
+          "votesTotal": 333879
+        },
+        "Essex36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +19.5",
+          "margin": -19.47,
+          "votesRep": 5591,
+          "votesDem": 8294,
+          "votesTotal": 13892
+        },
+        "Franklin36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +19.3",
+          "margin": -19.31,
+          "votesRep": 5576,
+          "votesDem": 8245,
+          "votesTotal": 13823
+        },
+        "Fulton36": {
+          "color": "#BF1D29",
+          "label": "Farley +17.3",
+          "margin": 17.34,
+          "votesRep": 9790,
+          "votesDem": 6896,
+          "votesTotal": 16690
+        },
+        "Genesee36": {
+          "color": "#BF1D29",
+          "label": "Farley +21.3",
+          "margin": 21.27,
+          "votesRep": 12552,
+          "votesDem": 8149,
+          "votesTotal": 20701
+        },
+        "Greene36": {
+          "color": "#FF5865",
+          "label": "Farley +7.0",
+          "margin": 7.01,
+          "votesRep": 10293,
+          "votesDem": 8944,
+          "votesTotal": 19251
+        },
+        "Hamilton36": {
+          "color": "#BF1D29",
+          "label": "Farley +21.3",
+          "margin": 21.31,
+          "votesRep": 1662,
+          "votesDem": 1078,
+          "votesTotal": 2742
+        },
+        "Herkimer36": {
+          "color": "#BF1D29",
+          "label": "Farley +11.1",
+          "margin": 11.1,
+          "votesRep": 11742,
+          "votesDem": 9395,
+          "votesTotal": 21146
+        },
+        "Kings36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +72.7",
+          "margin": -72.65,
+          "votesRep": 85973,
+          "votesDem": 542736,
+          "votesTotal": 629372
+        },
+        "Lewis36": {
+          "color": "#BF1D29",
+          "label": "Farley +16.9",
+          "margin": 16.91,
+          "votesRep": 4781,
+          "votesDem": 3398,
+          "votesTotal": 8182
+        },
+        "Livingston36": {
+          "color": "#FF5865",
+          "label": "Farley +6.1",
+          "margin": 6.11,
+          "votesRep": 12782,
+          "votesDem": 11311,
+          "votesTotal": 24100
+        },
+        "Madison36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +2.1",
+          "margin": -2.09,
+          "votesRep": 10950,
+          "votesDem": 11417,
+          "votesTotal": 22367
+        },
+        "Monroe36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +24.9",
+          "margin": -24.85,
+          "votesRep": 105198,
+          "votesDem": 174786,
+          "votesTotal": 280105
+        },
+        "Montgomery36": {
+          "color": "#FF5865",
+          "label": "Farley +7.3",
+          "margin": 7.3,
+          "votesRep": 8131,
+          "votesDem": 7024,
+          "votesTotal": 15161
+        },
+        "Nassau36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +18.1",
+          "margin": -18.09,
+          "votesRep": 201273,
+          "votesDem": 290206,
+          "votesTotal": 491668
+        },
+        "New York36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +79.9",
+          "margin": -79.91,
+          "votesRep": 53813,
+          "votesDem": 481779,
+          "votesTotal": 536360
+        },
+        "Oneida36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +1.5",
+          "margin": -1.53,
+          "votesRep": 37446,
+          "votesDem": 38613,
+          "votesTotal": 76087
+        },
+        "Onondaga36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +24.2",
+          "margin": -24.23,
+          "votesRep": 66599,
+          "votesDem": 109201,
+          "votesTotal": 175945
+        },
+        "Ontario36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +5.9",
+          "margin": -5.91,
+          "votesRep": 20543,
+          "votesDem": 23126,
+          "votesTotal": 43683
+        },
+        "Orange36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +12.5",
+          "margin": -12.52,
+          "votesRep": 52640,
+          "votesDem": 67701,
+          "votesTotal": 120341
+        },
+        "Orleans36": {
+          "color": "#BF1D29",
+          "label": "Farley +27.5",
+          "margin": 27.54,
+          "votesRep": 7999,
+          "votesDem": 4545,
+          "votesTotal": 12548
+        },
+        "Oswego36": {
+          "color": "#FF5865",
+          "label": "Farley +7.3",
+          "margin": 7.28,
+          "votesRep": 20499,
+          "votesDem": 17717,
+          "votesTotal": 38230
+        },
+        "Otsego36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +6.9",
+          "margin": -6.93,
+          "votesRep": 9969,
+          "votesDem": 11453,
+          "votesTotal": 21429
+        },
+        "Putnam36": {
+          "color": "#6b7280",
+          "label": "Farley +0.3",
+          "margin": 0.31,
+          "votesRep": 19222,
+          "votesDem": 19103,
+          "votesTotal": 38333
+        },
+        "Queens36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +63.2",
+          "margin": -63.21,
+          "votesRep": 89810,
+          "votesDem": 398414,
+          "votesTotal": 488639
+        },
+        "Rensselaer36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +14.4",
+          "margin": -14.37,
+          "votesRep": 25964,
+          "votesDem": 34680,
+          "votesTotal": 60668
+        },
+        "Richmond36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +4.2",
+          "margin": -4.25,
+          "votesRep": 65375,
+          "votesDem": 71175,
+          "votesTotal": 136666
+        },
+        "Rockland36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +19.8",
+          "margin": -19.83,
+          "votesRep": 39730,
+          "votesDem": 59386,
+          "votesTotal": 99174
+        },
+        "Saratoga36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +9.8",
+          "margin": -9.84,
+          "votesRep": 43114,
+          "votesDem": 52523,
+          "votesTotal": 95637
+        },
+        "Schenectady36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +19.6",
+          "margin": -19.6,
+          "votesRep": 22005,
+          "votesDem": 32735,
+          "votesTotal": 54777
+        },
+        "Schoharie36": {
+          "color": "#BF1D29",
+          "label": "Farley +11.3",
+          "margin": 11.35,
+          "votesRep": 6726,
+          "votesDem": 5355,
+          "votesTotal": 12090
+        },
+        "Schuyler36": {
+          "color": "#FF5865",
+          "label": "Farley +5.9",
+          "margin": 5.89,
+          "votesRep": 3866,
+          "votesDem": 3436,
+          "votesTotal": 7308
+        },
+        "Seneca36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +4.5",
+          "margin": -4.47,
+          "votesRep": 5484,
+          "votesDem": 5997,
+          "votesTotal": 11491
+        },
+        "St. Lawrence36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +11.7",
+          "margin": -11.72,
+          "votesRep": 14201,
+          "votesDem": 17970,
+          "votesTotal": 32171
+        },
+        "Steuben36": {
+          "color": "#BF1D29",
+          "label": "Farley +17.6",
+          "margin": 17.56,
+          "votesRep": 19776,
+          "votesDem": 13868,
+          "votesTotal": 33650
+        },
+        "Suffolk36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +9.5",
+          "margin": -9.46,
+          "votesRep": 239477,
+          "votesDem": 289528,
+          "votesTotal": 529150
+        },
+        "Sullivan36": {
+          "color": "#577CCC",
+          "label": "Gillibrand +6.7",
+          "margin": -6.67,
+          "votesRep": 11319,
+          "votesDem": 12937,
+          "votesTotal": 24256
+        },
+        "Tioga36": {
+          "color": "#BF1D29",
+          "label": "Farley +12.0",
+          "margin": 12.02,
+          "votesRep": 10188,
+          "votesDem": 8002,
+          "votesTotal": 18198
+        },
+        "Tompkins36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +54.9",
+          "margin": -54.86,
+          "votesRep": 8399,
+          "votesDem": 28818,
+          "votesTotal": 75539
+        },
+        "Warren36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +13.5",
+          "margin": -13.49,
+          "votesRep": 11086,
+          "votesDem": 14543,
+          "votesTotal": 25636
+        },
+        "Washington36": {
+          "color": "#8AAFFF",
+          "label": "Gillibrand +2.6",
+          "margin": -2.57,
+          "votesRep": 9940,
+          "votesDem": 10465,
+          "votesTotal": 20410
+        },
+        "Wayne36": {
+          "color": "#BF1D29",
+          "label": "Farley +11.4",
+          "margin": 11.42,
+          "votesRep": 17522,
+          "votesDem": 13931,
+          "votesTotal": 31465
+        },
+        "Westchester36": {
+          "color": "#1C408C",
+          "label": "Gillibrand +41.4",
+          "margin": -41.43,
+          "votesRep": 96978,
+          "votesDem": 234173,
+          "votesTotal": 331377
+        },
+        "Wyoming36": {
+          "color": "#BF1D29",
+          "label": "Farley +32.9",
+          "margin": 32.87,
+          "votesRep": 9178,
+          "votesDem": 4637,
+          "votesTotal": 13818
+        },
+        "Yates36": {
+          "color": "#FF5865",
+          "label": "Farley +7.4",
+          "margin": 7.43,
+          "votesRep": 4344,
+          "votesDem": 3743,
+          "votesTotal": 8090
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Wendy Long",
+      "candDem": "Charles Schumer",
+      "shortRep": "Long",
+      "shortDem": "Schumer",
+      "partisan": true,
+      "margin": -48.98,
+      "votesRep": 1779704,
+      "votesDem": 5196132,
+      "votesTotal": 7350842,
+      "regions": {
+        "Albany36": {
+          "color": "#1C408C",
+          "label": "Schumer +48.9",
+          "margin": -48.87,
+          "votesRep": 33755,
+          "votesDem": 98287,
+          "votesTotal": 135565
+        },
+        "Allegany36": {
+          "color": "#FF5865",
+          "label": "Long +9.9",
+          "margin": 9.91,
+          "votesRep": 9614,
+          "votesDem": 7881,
+          "votesTotal": 17864
+        },
+        "Bronx36": {
+          "color": "#1C408C",
+          "label": "Schumer +86.0",
+          "margin": -86,
+          "votesRep": 25905,
+          "votesDem": 344113,
+          "votesTotal": 375741
+        },
+        "Broome36": {
+          "color": "#1C408C",
+          "label": "Schumer +29.7",
+          "margin": -29.73,
+          "votesRep": 28130,
+          "votesDem": 51929,
+          "votesTotal": 82275
+        },
+        "Cattaraugus36": {
+          "color": "#577CCC",
+          "label": "Schumer +6.3",
+          "margin": -6.26,
+          "votesRep": 13495,
+          "votesDem": 15297,
+          "votesTotal": 29443
+        },
+        "Cayuga36": {
+          "color": "#1C408C",
+          "label": "Schumer +26.4",
+          "margin": -26.36,
+          "votesRep": 11536,
+          "votesDem": 19796,
+          "votesTotal": 31991
+        },
+        "Chautauqua36": {
+          "color": "#1C408C",
+          "label": "Schumer +15.8",
+          "margin": -15.83,
+          "votesRep": 21614,
+          "votesDem": 29743,
+          "votesTotal": 52362
+        },
+        "Chemung36": {
+          "color": "#1C408C",
+          "label": "Schumer +11.2",
+          "margin": -11.2,
+          "votesRep": 14994,
+          "votesDem": 18775,
+          "votesTotal": 34467
+        },
+        "Chenango36": {
+          "color": "#577CCC",
+          "label": "Schumer +8.9",
+          "margin": -8.87,
+          "votesRep": 8463,
+          "votesDem": 10111,
+          "votesTotal": 19138
+        },
+        "Clinton36": {
+          "color": "#1C408C",
+          "label": "Schumer +27.4",
+          "margin": -27.4,
+          "votesRep": 10802,
+          "votesDem": 18955,
+          "votesTotal": 30550
+        },
+        "Columbia36": {
+          "color": "#1C408C",
+          "label": "Schumer +30.3",
+          "margin": -30.32,
+          "votesRep": 10101,
+          "votesDem": 18893,
+          "votesTotal": 29843
+        },
+        "Cortland36": {
+          "color": "#1C408C",
+          "label": "Schumer +25.4",
+          "margin": -25.44,
+          "votesRep": 7048,
+          "votesDem": 11857,
+          "votesTotal": 19450
+        },
+        "Delaware36": {
+          "color": "#8AAFFF",
+          "label": "Schumer +3.8",
+          "margin": -3.79,
+          "votesRep": 8931,
+          "votesDem": 9635,
+          "votesTotal": 19024
+        },
+        "Dutchess36": {
+          "color": "#1C408C",
+          "label": "Schumer +19.5",
+          "margin": -19.5,
+          "votesRep": 48948,
+          "votesDem": 72668,
+          "votesTotal": 124623
+        },
+        "Erie36": {
+          "color": "#1C408C",
+          "label": "Schumer +41.3",
+          "margin": -41.28,
+          "votesRep": 118072,
+          "votesDem": 284110,
+          "votesTotal": 410505
+        },
+        "Essex36": {
+          "color": "#1C408C",
+          "label": "Schumer +14.6",
+          "margin": -14.62,
+          "votesRep": 6577,
+          "votesDem": 8829,
+          "votesTotal": 15964
+        },
+        "Franklin36": {
+          "color": "#1C408C",
+          "label": "Schumer +22.4",
+          "margin": -22.37,
+          "votesRep": 6116,
+          "votesDem": 9640,
+          "votesTotal": 16209
+        },
+        "Fulton36": {
+          "color": "#8AAFFF",
+          "label": "Schumer +4.5",
+          "margin": -4.49,
+          "votesRep": 9357,
+          "votesDem": 10237,
+          "votesTotal": 19993
+        },
+        "Genesee36": {
+          "color": "#6b7280",
+          "label": "Schumer +0.4",
+          "margin": -0.4,
+          "votesRep": 12245,
+          "votesDem": 12343,
+          "votesTotal": 25181
+        },
+        "Greene36": {
+          "color": "#8AAFFF",
+          "label": "Schumer +4.6",
+          "margin": -4.64,
+          "votesRep": 9863,
+          "votesDem": 10823,
+          "votesTotal": 21191
+        },
+        "Hamilton36": {
+          "color": "#FF8B98",
+          "label": "Long +4.2",
+          "margin": 4.24,
+          "votesRep": 1572,
+          "votesDem": 1444,
+          "votesTotal": 3074
+        },
+        "Herkimer36": {
+          "color": "#1C408C",
+          "label": "Schumer +13.8",
+          "margin": -13.81,
+          "votesRep": 10376,
+          "votesDem": 13702,
+          "votesTotal": 24640
+        },
+        "Jefferson36": {
+          "color": "#1C408C",
+          "label": "Schumer +15.2",
+          "margin": -15.2,
+          "votesRep": 15245,
+          "votesDem": 20711,
+          "votesTotal": 36750
+        },
+        "Kings36": {
+          "color": "#1C408C",
+          "label": "Schumer +77.5",
+          "margin": -77.46,
+          "votesRep": 83820,
+          "votesDem": 659982,
+          "votesTotal": 767137
+        },
+        "Lewis36": {
+          "color": "#8AAFFF",
+          "label": "Schumer +3.6",
+          "margin": -3.64,
+          "votesRep": 5106,
+          "votesDem": 5492,
+          "votesTotal": 10776
+        },
+        "Livingston36": {
+          "color": "#577CCC",
+          "label": "Schumer +6.7",
+          "margin": -6.75,
+          "votesRep": 13090,
+          "votesDem": 14984,
+          "votesTotal": 28759
+        },
+        "Madison36": {
+          "color": "#1C408C",
+          "label": "Schumer +19.0",
+          "margin": -19.04,
+          "votesRep": 11363,
+          "votesDem": 16706,
+          "votesTotal": 28819
+        },
+        "Monroe36": {
+          "color": "#1C408C",
+          "label": "Schumer +37.3",
+          "margin": -37.31,
+          "votesRep": 103400,
+          "votesDem": 226493,
+          "votesTotal": 337942
+        },
+        "Montgomery36": {
+          "color": "#1C408C",
+          "label": "Schumer +17.1",
+          "margin": -17.1,
+          "votesRep": 7332,
+          "votesDem": 10357,
+          "votesTotal": 18115
+        },
+        "Nassau36": {
+          "color": "#1C408C",
+          "label": "Schumer +100.0",
+          "margin": -100,
+          "votesRep": 0,
+          "votesDem": 403274,
+          "votesTotal": 622973
+        },
+        "New York36": {
+          "color": "#1C408C",
+          "label": "Schumer +77.7",
+          "margin": -77.68,
+          "votesRep": 69536,
+          "votesDem": 553432,
+          "votesTotal": 640723
+        },
+        "Niagara36": {
+          "color": "#1C408C",
+          "label": "Schumer +21.5",
+          "margin": -21.51,
+          "votesRep": 33662,
+          "votesDem": 52114,
+          "votesTotal": 87501
+        },
+        "Oneida36": {
+          "color": "#1C408C",
+          "label": "Schumer +21.4",
+          "margin": -21.41,
+          "votesRep": 32899,
+          "votesDem": 50821,
+          "votesTotal": 85634
+        },
+        "Onondaga36": {
+          "color": "#1C408C",
+          "label": "Schumer +42.9",
+          "margin": -42.91,
+          "votesRep": 57174,
+          "votesDem": 143126,
+          "votesTotal": 204805
+        },
+        "Ontario36": {
+          "color": "#1C408C",
+          "label": "Schumer +17.1",
+          "margin": -17.1,
+          "votesRep": 7332,
+          "votesDem": 10357,
+          "votesTotal": 18115
+        },
+        "Orange36": {
+          "color": "#1C408C",
+          "label": "Schumer +22.1",
+          "margin": -22.11,
+          "votesRep": 55727,
+          "votesDem": 87368,
+          "votesTotal": 146058
+        },
+        "Orleans36": {
+          "color": "#FF5865",
+          "label": "Long +6.2",
+          "margin": 6.25,
+          "votesRep": 8101,
+          "votesDem": 7148,
+          "votesTotal": 16569
+        },
+        "Oswego36": {
+          "color": "#1C408C",
+          "label": "Schumer +16.4",
+          "margin": -16.44,
+          "votesRep": 18780,
+          "votesDem": 26172,
+          "votesTotal": 46033
+        },
+        "Otsego36": {
+          "color": "#1C408C",
+          "label": "Schumer +18.1",
+          "margin": -18.06,
+          "votesRep": 9758,
+          "votesDem": 14059,
+          "votesTotal": 24474
+        },
+        "Putnam36": {
+          "color": "#577CCC",
+          "label": "Schumer +8.9",
+          "margin": -8.95,
+          "votesRep": 20588,
+          "votesDem": 24635,
+          "votesTotal": 46128
+        },
+        "Queens36": {
+          "color": "#1C408C",
+          "label": "Schumer +69.0",
+          "margin": -69.01,
+          "votesRep": 99252,
+          "votesDem": 541334,
+          "votesTotal": 654848
+        },
+        "Rensselaer36": {
+          "color": "#1C408C",
+          "label": "Schumer +30.1",
+          "margin": -30.12,
+          "votesRep": 23577,
+          "votesDem": 43897,
+          "votesTotal": 69368
+        },
+        "Richmond36": {
+          "color": "#1C408C",
+          "label": "Schumer +26.4",
+          "margin": -26.39,
+          "votesRep": 62979,
+          "votesDem": 108147,
+          "votesTotal": 173719
+        },
+        "Rockland36": {
+          "color": "#1C408C",
+          "label": "Schumer +32.6",
+          "margin": -32.58,
+          "votesRep": 41894,
+          "votesDem": 82386,
+          "votesTotal": 126231
+        },
+        "Saratoga36": {
+          "color": "#1C408C",
+          "label": "Schumer +21.0",
+          "margin": -20.96,
+          "votesRep": 42709,
+          "votesDem": 65362,
+          "votesTotal": 110726
+        },
+        "Schenectady36": {
+          "color": "#1C408C",
+          "label": "Schumer +34.0",
+          "margin": -34.04,
+          "votesRep": 20985,
+          "votesDem": 42649,
+          "votesTotal": 65178
+        },
+        "Schoharie36": {
+          "color": "#949BB3",
+          "label": "Schumer +0.9",
+          "margin": -0.86,
+          "votesRep": 6606,
+          "votesDem": 6721,
+          "votesTotal": 13608
+        },
+        "Schuyler36": {
+          "color": "#949BB3",
+          "label": "Schumer +0.6",
+          "margin": -0.59,
+          "votesRep": 4025,
+          "votesDem": 4073,
+          "votesTotal": 8343
+        },
+        "Seneca36": {
+          "color": "#1C408C",
+          "label": "Schumer +18.2",
+          "margin": -18.16,
+          "votesRep": 5364,
+          "votesDem": 7745,
+          "votesTotal": 13486
+        },
+        "St. Lawrence36": {
+          "color": "#1C408C",
+          "label": "Schumer +25.1",
+          "margin": -25.07,
+          "votesRep": 13633,
+          "votesDem": 22755,
+          "votesTotal": 37283
+        },
+        "Steuben36": {
+          "color": "#FF5865",
+          "label": "Long +5.6",
+          "margin": 5.6,
+          "votesRep": 19182,
+          "votesDem": 17148,
+          "votesTotal": 37067
+        },
+        "Suffolk36": {
+          "color": "#1C408C",
+          "label": "Schumer +22.5",
+          "margin": -22.47,
+          "votesRep": 247391,
+          "votesDem": 390754,
+          "votesTotal": 650009
+        },
+        "Sullivan36": {
+          "color": "#1C408C",
+          "label": "Schumer +22.4",
+          "margin": -22.36,
+          "votesRep": 10641,
+          "votesDem": 16770,
+          "votesTotal": 28059
+        },
+        "Tioga36": {
+          "color": "#8AAFFF",
+          "label": "Schumer +1.5",
+          "margin": -1.5,
+          "votesRep": 10345,
+          "votesDem": 10661,
+          "votesTotal": 21554
+        },
+        "Tompkins36": {
+          "color": "#1C408C",
+          "label": "Schumer +55.0",
+          "margin": -54.98,
+          "votesRep": 8815,
+          "votesDem": 30349,
+          "votesTotal": 41260
+        },
+        "Ulster36": {
+          "color": "#1C408C",
+          "label": "Schumer +33.8",
+          "margin": -33.79,
+          "votesRep": 26029,
+          "votesDem": 52598,
+          "votesTotal": 81391
+        },
+        "Warren36": {
+          "color": "#1C408C",
+          "label": "Schumer +23.1",
+          "margin": -23.14,
+          "votesRep": 11164,
+          "votesDem": 17885,
+          "votesTotal": 30028
+        },
+        "Washington36": {
+          "color": "#1C408C",
+          "label": "Schumer +15.0",
+          "margin": -15.02,
+          "votesRep": 9787,
+          "votesDem": 13246,
+          "votesTotal": 23726
+        },
+        "Wayne36": {
+          "color": "#8AAFFF",
+          "label": "Schumer +4.7",
+          "margin": -4.72,
+          "votesRep": 17929,
+          "votesDem": 19704,
+          "votesTotal": 38495
+        },
+        "Westchester36": {
+          "color": "#1C408C",
+          "label": "Schumer +45.4",
+          "margin": -45.39,
+          "votesRep": 108127,
+          "votesDem": 287893,
+          "votesTotal": 403181
+        },
+        "Wyoming36": {
+          "color": "#FF5865",
+          "label": "Long +6.5",
+          "margin": 6.55,
+          "votesRep": 8843,
+          "votesDem": 7756,
+          "votesTotal": 16878
+        }
+      }
+    }
+  ]
+}

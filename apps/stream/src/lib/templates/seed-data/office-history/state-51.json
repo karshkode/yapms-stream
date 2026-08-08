@@ -1,0 +1,2104 @@
+{
+  "stateFips": "51",
+  "stateName": "Virginia",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Hung Cao",
+      "candDem": "Timothy Kaine",
+      "shortRep": "Cao",
+      "shortDem": "Kaine",
+      "partisan": true,
+      "margin": -8.95,
+      "votesRep": 2019911,
+      "votesDem": 2417115,
+      "votesTotal": 4445535,
+      "regions": {
+        "Accomack51": {
+          "color": "#FF5865",
+          "label": "Cao +9.8",
+          "margin": 9.8,
+          "votesRep": 9339,
+          "votesDem": 7672,
+          "votesTotal": 17037
+        },
+        "Albemarle51": {
+          "color": "#1C408C",
+          "label": "Kaine +33.5",
+          "margin": -33.48,
+          "votesRep": 21912,
+          "votesDem": 43968,
+          "votesTotal": 65956
+        },
+        "Alexandria51": {
+          "color": "#1C408C",
+          "label": "Kaine +56.9",
+          "margin": -56.94,
+          "votesRep": 17175,
+          "votesDem": 62597,
+          "votesTotal": 79994
+        },
+        "Alleghany51": {
+          "color": "#BF1D29",
+          "label": "Cao +31.6",
+          "margin": 31.58,
+          "votesRep": 5358,
+          "votesDem": 2786,
+          "votesTotal": 8157
+        },
+        "Amelia51": {
+          "color": "#BF1D29",
+          "label": "Cao +41.5",
+          "margin": 41.52,
+          "votesRep": 5600,
+          "votesDem": 2314,
+          "votesTotal": 7920
+        },
+        "Amherst51": {
+          "color": "#BF1D29",
+          "label": "Cao +32.7",
+          "margin": 32.69,
+          "votesRep": 11414,
+          "votesDem": 5790,
+          "votesTotal": 17224
+        },
+        "Appomattox51": {
+          "color": "#BF1D29",
+          "label": "Cao +46.0",
+          "margin": 45.98,
+          "votesRep": 6923,
+          "votesDem": 2562,
+          "votesTotal": 9495
+        },
+        "Arlington51": {
+          "color": "#1C408C",
+          "label": "Kaine +57.4",
+          "margin": -57.39,
+          "votesRep": 27269,
+          "votesDem": 100725,
+          "votesTotal": 128359
+        },
+        "Augusta51": {
+          "color": "#BF1D29",
+          "label": "Cao +43.3",
+          "margin": 43.26,
+          "votesRep": 31605,
+          "votesDem": 12517,
+          "votesTotal": 44183
+        },
+        "Bath51": {
+          "color": "#BF1D29",
+          "label": "Cao +46.7",
+          "margin": 46.67,
+          "votesRep": 1881,
+          "votesDem": 684,
+          "votesTotal": 2566
+        },
+        "Bedford51": {
+          "color": "#BF1D29",
+          "label": "Cao +48.4",
+          "margin": 48.35,
+          "votesRep": 37536,
+          "votesDem": 13068,
+          "votesTotal": 50656
+        },
+        "Bland51": {
+          "color": "#BF1D29",
+          "label": "Cao +58.5",
+          "margin": 58.49,
+          "votesRep": 2707,
+          "votesDem": 709,
+          "votesTotal": 3418
+        },
+        "Botetourt51": {
+          "color": "#BF1D29",
+          "label": "Cao +38.7",
+          "margin": 38.7,
+          "votesRep": 14950,
+          "votesDem": 6608,
+          "votesTotal": 21582
+        },
+        "Bristol51": {
+          "color": "#BF1D29",
+          "label": "Cao +28.2",
+          "margin": 28.25,
+          "votesRep": 4699,
+          "votesDem": 2629,
+          "votesTotal": 7332
+        },
+        "Brunswick51": {
+          "color": "#1C408C",
+          "label": "Kaine +12.4",
+          "margin": -12.37,
+          "votesRep": 3372,
+          "votesDem": 4324,
+          "votesTotal": 7702
+        },
+        "Buchanan51": {
+          "color": "#BF1D29",
+          "label": "Cao +48.3",
+          "margin": 48.3,
+          "votesRep": 6686,
+          "votesDem": 2331,
+          "votesTotal": 9033
+        },
+        "Buckingham51": {
+          "color": "#BF1D29",
+          "label": "Cao +17.1",
+          "margin": 17.12,
+          "votesRep": 4581,
+          "votesDem": 3242,
+          "votesTotal": 7832
+        },
+        "Buena Vista51": {
+          "color": "#BF1D29",
+          "label": "Cao +33.6",
+          "margin": 33.59,
+          "votesRep": 1881,
+          "votesDem": 935,
+          "votesTotal": 2819
+        },
+        "Campbell51": {
+          "color": "#BF1D29",
+          "label": "Cao +44.9",
+          "margin": 44.95,
+          "votesRep": 22449,
+          "votesDem": 8526,
+          "votesTotal": 31014
+        },
+        "Caroline51": {
+          "color": "#FF5865",
+          "label": "Cao +5.5",
+          "margin": 5.55,
+          "votesRep": 9218,
+          "votesDem": 8249,
+          "votesTotal": 17485
+        },
+        "Carroll51": {
+          "color": "#BF1D29",
+          "label": "Cao +54.4",
+          "margin": 54.41,
+          "votesRep": 12318,
+          "votesDem": 3637,
+          "votesTotal": 15969
+        },
+        "Charles City51": {
+          "color": "#1C408C",
+          "label": "Kaine +14.2",
+          "margin": -14.17,
+          "votesRep": 1802,
+          "votesDem": 2397,
+          "votesTotal": 4203
+        },
+        "Charlotte51": {
+          "color": "#BF1D29",
+          "label": "Cao +28.0",
+          "margin": 27.96,
+          "votesRep": 3815,
+          "votesDem": 2148,
+          "votesTotal": 5966
+        },
+        "Charlottesville51": {
+          "color": "#1C408C",
+          "label": "Kaine +68.4",
+          "margin": -68.38,
+          "votesRep": 3650,
+          "votesDem": 19439,
+          "votesTotal": 23147
+        },
+        "Chesapeake51": {
+          "color": "#577CCC",
+          "label": "Kaine +6.0",
+          "margin": -5.96,
+          "votesRep": 59657,
+          "votesDem": 67224,
+          "votesTotal": 127030
+        },
+        "Chesterfield51": {
+          "color": "#1C408C",
+          "label": "Kaine +10.6",
+          "margin": -10.55,
+          "votesRep": 93336,
+          "votesDem": 115364,
+          "votesTotal": 208979
+        },
+        "Clarke51": {
+          "color": "#BF1D29",
+          "label": "Cao +13.5",
+          "margin": 13.5,
+          "votesRep": 5487,
+          "votesDem": 4182,
+          "votesTotal": 9677
+        },
+        "Colonial Heights51": {
+          "color": "#BF1D29",
+          "label": "Cao +25.2",
+          "margin": 25.21,
+          "votesRep": 5456,
+          "votesDem": 3259,
+          "votesTotal": 8720
+        },
+        "Covington51": {
+          "color": "#BF1D29",
+          "label": "Cao +16.1",
+          "margin": 16.09,
+          "votesRep": 1418,
+          "votesDem": 1025,
+          "votesTotal": 2443
+        },
+        "Craig51": {
+          "color": "#BF1D29",
+          "label": "Cao +56.5",
+          "margin": 56.51,
+          "votesRep": 2415,
+          "votesDem": 671,
+          "votesTotal": 3088
+        },
+        "Culpeper51": {
+          "color": "#BF1D29",
+          "label": "Cao +20.8",
+          "margin": 20.82,
+          "votesRep": 17105,
+          "votesDem": 11211,
+          "votesTotal": 28340
+        },
+        "Cumberland51": {
+          "color": "#BF1D29",
+          "label": "Cao +20.1",
+          "margin": 20.15,
+          "votesRep": 3256,
+          "votesDem": 2164,
+          "votesTotal": 5425
+        },
+        "Danville51": {
+          "color": "#1C408C",
+          "label": "Kaine +26.9",
+          "margin": -26.85,
+          "votesRep": 6335,
+          "votesDem": 10986,
+          "votesTotal": 17354
+        },
+        "Dickenson51": {
+          "color": "#BF1D29",
+          "label": "Cao +43.4",
+          "margin": 43.37,
+          "votesRep": 4884,
+          "votesDem": 1929,
+          "votesTotal": 6830
+        },
+        "Dinwiddie51": {
+          "color": "#BF1D29",
+          "label": "Cao +18.2",
+          "margin": 18.25,
+          "votesRep": 9163,
+          "votesDem": 6335,
+          "votesTotal": 15516
+        },
+        "Emporia51": {
+          "color": "#1C408C",
+          "label": "Kaine +35.5",
+          "margin": -35.54,
+          "votesRep": 673,
+          "votesDem": 1415,
+          "votesTotal": 2090
+        },
+        "Essex51": {
+          "color": "#FF8B98",
+          "label": "Cao +3.6",
+          "margin": 3.61,
+          "votesRep": 3072,
+          "votesDem": 2858,
+          "votesTotal": 5938
+        },
+        "Fairfax51": {
+          "color": "#1C408C",
+          "label": "Kaine +35.8",
+          "margin": -35.79,
+          "votesRep": 186266,
+          "votesDem": 393906,
+          "votesTotal": 582104
+        },
+        "Falls Church51": {
+          "color": "#1C408C",
+          "label": "Kaine +60.0",
+          "margin": -60,
+          "votesRep": 1791,
+          "votesDem": 7163,
+          "votesTotal": 8974
+        },
+        "Fauquier51": {
+          "color": "#BF1D29",
+          "label": "Cao +21.5",
+          "margin": 21.46,
+          "votesRep": 26971,
+          "votesDem": 17441,
+          "votesTotal": 44463
+        },
+        "Floyd51": {
+          "color": "#BF1D29",
+          "label": "Cao +30.9",
+          "margin": 30.87,
+          "votesRep": 6251,
+          "votesDem": 3302,
+          "votesTotal": 9565
+        },
+        "Fluvanna51": {
+          "color": "#FF8B98",
+          "label": "Cao +3.6",
+          "margin": 3.55,
+          "votesRep": 8581,
+          "votesDem": 7992,
+          "votesTotal": 16597
+        },
+        "Franklin51": {
+          "color": "#BF1D29",
+          "label": "Cao +40.6",
+          "margin": 40.59,
+          "votesRep": 21569,
+          "votesDem": 9114,
+          "votesTotal": 30720
+        },
+        "Frederick51": {
+          "color": "#BF1D29",
+          "label": "Cao +23.1",
+          "margin": 23.12,
+          "votesRep": 31659,
+          "votesDem": 19769,
+          "votesTotal": 51490
+        },
+        "Fredericksburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +34.2",
+          "margin": -34.17,
+          "votesRep": 4346,
+          "votesDem": 8858,
+          "votesTotal": 13236
+        },
+        "Galax51": {
+          "color": "#BF1D29",
+          "label": "Cao +33.4",
+          "margin": 33.38,
+          "votesRep": 1788,
+          "votesDem": 893,
+          "votesTotal": 2686
+        },
+        "Giles51": {
+          "color": "#BF1D29",
+          "label": "Cao +42.6",
+          "margin": 42.56,
+          "votesRep": 6435,
+          "votesDem": 2593,
+          "votesTotal": 9041
+        },
+        "Gloucester51": {
+          "color": "#BF1D29",
+          "label": "Cao +34.3",
+          "margin": 34.34,
+          "votesRep": 15391,
+          "votesDem": 7522,
+          "votesTotal": 22934
+        },
+        "Goochland51": {
+          "color": "#BF1D29",
+          "label": "Cao +18.9",
+          "margin": 18.86,
+          "votesRep": 11655,
+          "votesDem": 7956,
+          "votesTotal": 19625
+        },
+        "Grayson51": {
+          "color": "#BF1D29",
+          "label": "Cao +52.4",
+          "margin": 52.4,
+          "votesRep": 6045,
+          "votesDem": 1888,
+          "votesTotal": 7944
+        },
+        "Greene51": {
+          "color": "#BF1D29",
+          "label": "Cao +20.6",
+          "margin": 20.65,
+          "votesRep": 7193,
+          "votesDem": 4731,
+          "votesTotal": 11940
+        },
+        "Greensville51": {
+          "color": "#1C408C",
+          "label": "Kaine +15.4",
+          "margin": -15.43,
+          "votesRep": 1770,
+          "votesDem": 2416,
+          "votesTotal": 4195
+        },
+        "Halifax51": {
+          "color": "#BF1D29",
+          "label": "Cao +16.0",
+          "margin": 16.01,
+          "votesRep": 10218,
+          "votesDem": 7397,
+          "votesTotal": 17655
+        },
+        "Hampton51": {
+          "color": "#1C408C",
+          "label": "Kaine +43.0",
+          "margin": -43.02,
+          "votesRep": 17611,
+          "votesDem": 44201,
+          "votesTotal": 61895
+        },
+        "Hanover51": {
+          "color": "#BF1D29",
+          "label": "Cao +24.3",
+          "margin": 24.34,
+          "votesRep": 44715,
+          "votesDem": 27207,
+          "votesTotal": 71987
+        },
+        "Harrisonburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +29.5",
+          "margin": -29.5,
+          "votesRep": 5946,
+          "votesDem": 10922,
+          "votesTotal": 16899
+        },
+        "Henrico51": {
+          "color": "#1C408C",
+          "label": "Kaine +31.1",
+          "margin": -31.09,
+          "votesRep": 61160,
+          "votesDem": 116336,
+          "votesTotal": 177738
+        },
+        "Henry51": {
+          "color": "#BF1D29",
+          "label": "Cao +23.4",
+          "margin": 23.36,
+          "votesRep": 15426,
+          "votesDem": 9583,
+          "votesTotal": 25052
+        },
+        "Highland51": {
+          "color": "#BF1D29",
+          "label": "Cao +34.1",
+          "margin": 34.13,
+          "votesRep": 1012,
+          "votesDem": 497,
+          "votesTotal": 1510
+        },
+        "Hopewell51": {
+          "color": "#1C408C",
+          "label": "Kaine +20.1",
+          "margin": -20.15,
+          "votesRep": 3438,
+          "votesDem": 5173,
+          "votesTotal": 8627
+        },
+        "Isle of Wight51": {
+          "color": "#BF1D29",
+          "label": "Cao +15.8",
+          "margin": 15.83,
+          "votesRep": 14163,
+          "votesDem": 10292,
+          "votesTotal": 24475
+        },
+        "James City51": {
+          "color": "#577CCC",
+          "label": "Kaine +5.8",
+          "margin": -5.8,
+          "votesRep": 24033,
+          "votesDem": 26991,
+          "votesTotal": 51092
+        },
+        "King and Queen51": {
+          "color": "#BF1D29",
+          "label": "Cao +21.4",
+          "margin": 21.37,
+          "votesRep": 2513,
+          "votesDem": 1628,
+          "votesTotal": 4143
+        },
+        "King George51": {
+          "color": "#BF1D29",
+          "label": "Cao +23.6",
+          "margin": 23.63,
+          "votesRep": 9459,
+          "votesDem": 5843,
+          "votesTotal": 15318
+        },
+        "King William51": {
+          "color": "#BF1D29",
+          "label": "Cao +35.5",
+          "margin": 35.45,
+          "votesRep": 7678,
+          "votesDem": 3659,
+          "votesTotal": 11347
+        },
+        "Lancaster51": {
+          "color": "#FF5865",
+          "label": "Cao +7.2",
+          "margin": 7.23,
+          "votesRep": 3888,
+          "votesDem": 3364,
+          "votesTotal": 7258
+        },
+        "Lee51": {
+          "color": "#BF1D29",
+          "label": "Cao +52.7",
+          "margin": 52.74,
+          "votesRep": 7452,
+          "votesDem": 2306,
+          "votesTotal": 9778
+        },
+        "Lexington51": {
+          "color": "#1C408C",
+          "label": "Kaine +27.6",
+          "margin": -27.6,
+          "votesRep": 1031,
+          "votesDem": 1817,
+          "votesTotal": 2852
+        },
+        "Loudoun51": {
+          "color": "#1C408C",
+          "label": "Kaine +17.6",
+          "margin": -17.63,
+          "votesRep": 93441,
+          "votesDem": 133436,
+          "votesTotal": 227737
+        },
+        "Louisa51": {
+          "color": "#BF1D29",
+          "label": "Cao +23.5",
+          "margin": 23.49,
+          "votesRep": 14726,
+          "votesDem": 9124,
+          "votesTotal": 23872
+        },
+        "Lunenburg51": {
+          "color": "#BF1D29",
+          "label": "Cao +17.3",
+          "margin": 17.29,
+          "votesRep": 3324,
+          "votesDem": 2344,
+          "votesTotal": 5672
+        },
+        "Lynchburg51": {
+          "color": "#FF5865",
+          "label": "Cao +6.7",
+          "margin": 6.73,
+          "votesRep": 19478,
+          "votesDem": 17020,
+          "votesTotal": 36573
+        },
+        "Madison51": {
+          "color": "#BF1D29",
+          "label": "Cao +32.3",
+          "margin": 32.28,
+          "votesRep": 5546,
+          "votesDem": 2839,
+          "votesTotal": 8388
+        },
+        "Manassas51": {
+          "color": "#1C408C",
+          "label": "Kaine +18.6",
+          "margin": -18.57,
+          "votesRep": 6438,
+          "votesDem": 9375,
+          "votesTotal": 15849
+        },
+        "Manassas Park51": {
+          "color": "#1C408C",
+          "label": "Kaine +27.5",
+          "margin": -27.48,
+          "votesRep": 2112,
+          "votesDem": 3713,
+          "votesTotal": 5853
+        },
+        "Martinsville51": {
+          "color": "#1C408C",
+          "label": "Kaine +28.8",
+          "margin": -28.83,
+          "votesRep": 1942,
+          "votesDem": 3515,
+          "votesTotal": 5466
+        },
+        "Mathews51": {
+          "color": "#BF1D29",
+          "label": "Cao +36.4",
+          "margin": 36.4,
+          "votesRep": 4015,
+          "votesDem": 1872,
+          "votesTotal": 5896
+        },
+        "Mecklenburg51": {
+          "color": "#BF1D29",
+          "label": "Cao +15.6",
+          "margin": 15.57,
+          "votesRep": 9170,
+          "votesDem": 6699,
+          "votesTotal": 15892
+        },
+        "Middlesex51": {
+          "color": "#BF1D29",
+          "label": "Cao +24.8",
+          "margin": 24.8,
+          "votesRep": 4265,
+          "votesDem": 2570,
+          "votesTotal": 6838
+        },
+        "Montgomery51": {
+          "color": "#577CCC",
+          "label": "Kaine +7.4",
+          "margin": -7.43,
+          "votesRep": 21575,
+          "votesDem": 25037,
+          "votesTotal": 46719
+        },
+        "Nelson51": {
+          "color": "#FF8B98",
+          "label": "Cao +3.5",
+          "margin": 3.51,
+          "votesRep": 4849,
+          "votesDem": 4520,
+          "votesTotal": 9385
+        },
+        "New Kent51": {
+          "color": "#BF1D29",
+          "label": "Cao +30.5",
+          "margin": 30.47,
+          "votesRep": 10695,
+          "votesDem": 5700,
+          "votesTotal": 16405
+        },
+        "Newport News51": {
+          "color": "#1C408C",
+          "label": "Kaine +32.3",
+          "margin": -32.31,
+          "votesRep": 25323,
+          "votesDem": 49499,
+          "votesTotal": 74913
+        },
+        "Norfolk51": {
+          "color": "#1C408C",
+          "label": "Kaine +44.3",
+          "margin": -44.33,
+          "votesRep": 23657,
+          "votesDem": 61334,
+          "votesTotal": 85131
+        },
+        "Northampton51": {
+          "color": "#577CCC",
+          "label": "Kaine +9.5",
+          "margin": -9.5,
+          "votesRep": 3047,
+          "votesDem": 3687,
+          "votesTotal": 6742
+        },
+        "Northumberland51": {
+          "color": "#BF1D29",
+          "label": "Cao +20.3",
+          "margin": 20.32,
+          "votesRep": 4912,
+          "votesDem": 3253,
+          "votesTotal": 8172
+        },
+        "Norton51": {
+          "color": "#BF1D29",
+          "label": "Cao +23.2",
+          "margin": 23.24,
+          "votesRep": 973,
+          "votesDem": 606,
+          "votesTotal": 1581
+        },
+        "Nottoway51": {
+          "color": "#BF1D29",
+          "label": "Cao +17.6",
+          "margin": 17.65,
+          "votesRep": 4000,
+          "votesDem": 2800,
+          "votesTotal": 6810
+        },
+        "Orange51": {
+          "color": "#BF1D29",
+          "label": "Cao +20.7",
+          "margin": 20.73,
+          "votesRep": 13289,
+          "votesDem": 8725,
+          "votesTotal": 22057
+        },
+        "Page51": {
+          "color": "#BF1D29",
+          "label": "Cao +44.2",
+          "margin": 44.22,
+          "votesRep": 9354,
+          "votesDem": 3618,
+          "votesTotal": 12993
+        },
+        "Patrick51": {
+          "color": "#BF1D29",
+          "label": "Cao +49.1",
+          "margin": 49.11,
+          "votesRep": 7005,
+          "votesDem": 2391,
+          "votesTotal": 9405
+        },
+        "Petersburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +75.3",
+          "margin": -75.34,
+          "votesRep": 1583,
+          "votesDem": 11254,
+          "votesTotal": 12859
+        },
+        "Pittsylvania51": {
+          "color": "#BF1D29",
+          "label": "Cao +36.7",
+          "margin": 36.7,
+          "votesRep": 22725,
+          "votesDem": 10523,
+          "votesTotal": 33290
+        },
+        "Poquoson51": {
+          "color": "#BF1D29",
+          "label": "Cao +43.2",
+          "margin": 43.19,
+          "votesRep": 5729,
+          "votesDem": 2273,
+          "votesTotal": 8012
+        },
+        "Portsmouth51": {
+          "color": "#1C408C",
+          "label": "Kaine +42.6",
+          "margin": -42.63,
+          "votesRep": 11581,
+          "votesDem": 28791,
+          "votesTotal": 40402
+        },
+        "Powhatan51": {
+          "color": "#BF1D29",
+          "label": "Cao +42.8",
+          "margin": 42.78,
+          "votesRep": 14844,
+          "votesDem": 5949,
+          "votesTotal": 20809
+        },
+        "Prince Edward51": {
+          "color": "#949BB3",
+          "label": "Kaine +0.5",
+          "margin": -0.54,
+          "votesRep": 4567,
+          "votesDem": 4617,
+          "votesTotal": 9198
+        },
+        "Prince George51": {
+          "color": "#BF1D29",
+          "label": "Cao +17.4",
+          "margin": 17.36,
+          "votesRep": 10010,
+          "votesDem": 7048,
+          "votesTotal": 17071
+        },
+        "Prince William51": {
+          "color": "#1C408C",
+          "label": "Kaine +22.2",
+          "margin": -22.17,
+          "votesRep": 87310,
+          "votesDem": 137060,
+          "votesTotal": 225081
+        },
+        "Pulaski51": {
+          "color": "#BF1D29",
+          "label": "Cao +35.0",
+          "margin": 34.99,
+          "votesRep": 11743,
+          "votesDem": 5655,
+          "votesTotal": 17414
+        },
+        "Radford51": {
+          "color": "#577CCC",
+          "label": "Kaine +5.7",
+          "margin": -5.75,
+          "votesRep": 3051,
+          "votesDem": 3423,
+          "votesTotal": 6490
+        },
+        "Rappahannock51": {
+          "color": "#BF1D29",
+          "label": "Cao +17.9",
+          "margin": 17.88,
+          "votesRep": 2947,
+          "votesDem": 2053,
+          "votesTotal": 5016
+        },
+        "Richmond51": {
+          "color": "#1C408C",
+          "label": "Kaine +64.1",
+          "margin": -64.11,
+          "votesRep": 19950,
+          "votesDem": 91234,
+          "votesTotal": 111427
+        },
+        "Roanoke51": {
+          "color": "#949BB3",
+          "label": "Kaine +1.0",
+          "margin": -0.98,
+          "votesRep": 48691,
+          "votesDem": 49654,
+          "votesTotal": 98497
+        },
+        "Rockbridge51": {
+          "color": "#BF1D29",
+          "label": "Cao +28.9",
+          "margin": 28.86,
+          "votesRep": 8199,
+          "votesDem": 4526,
+          "votesTotal": 12738
+        },
+        "Rockingham51": {
+          "color": "#BF1D29",
+          "label": "Cao +32.9",
+          "margin": 32.95,
+          "votesRep": 32081,
+          "votesDem": 16180,
+          "votesTotal": 48342
+        },
+        "Russell51": {
+          "color": "#BF1D29",
+          "label": "Cao +49.6",
+          "margin": 49.65,
+          "votesRep": 9885,
+          "votesDem": 3326,
+          "votesTotal": 13229
+        },
+        "Salem51": {
+          "color": "#BF1D29",
+          "label": "Cao +13.1",
+          "margin": 13.06,
+          "votesRep": 7352,
+          "votesDem": 5653,
+          "votesTotal": 13022
+        },
+        "Scott51": {
+          "color": "#BF1D29",
+          "label": "Cao +54.9",
+          "margin": 54.94,
+          "votesRep": 8359,
+          "votesDem": 2431,
+          "votesTotal": 10810
+        },
+        "Shenandoah51": {
+          "color": "#BF1D29",
+          "label": "Cao +33.8",
+          "margin": 33.78,
+          "votesRep": 16097,
+          "votesDem": 7968,
+          "votesTotal": 24101
+        },
+        "Smyth51": {
+          "color": "#BF1D29",
+          "label": "Cao +45.4",
+          "margin": 45.37,
+          "votesRep": 10339,
+          "votesDem": 3885,
+          "votesTotal": 14244
+        },
+        "Southampton51": {
+          "color": "#BF1D29",
+          "label": "Cao +19.4",
+          "margin": 19.42,
+          "votesRep": 5801,
+          "votesDem": 3914,
+          "votesTotal": 9725
+        },
+        "Spotsylvania51": {
+          "color": "#FF8B98",
+          "label": "Cao +4.9",
+          "margin": 4.91,
+          "votesRep": 41199,
+          "votesDem": 37339,
+          "votesTotal": 78644
+        },
+        "Stafford51": {
+          "color": "#8AAFFF",
+          "label": "Kaine +3.4",
+          "margin": -3.45,
+          "votesRep": 39764,
+          "votesDem": 42603,
+          "votesTotal": 82507
+        },
+        "Staunton51": {
+          "color": "#1C408C",
+          "label": "Kaine +17.0",
+          "margin": -16.96,
+          "votesRep": 5552,
+          "votesDem": 7820,
+          "votesTotal": 13396
+        },
+        "Suffolk51": {
+          "color": "#1C408C",
+          "label": "Kaine +19.6",
+          "margin": -19.55,
+          "votesRep": 21255,
+          "votesDem": 31587,
+          "votesTotal": 52923
+        },
+        "Surry51": {
+          "color": "#8AAFFF",
+          "label": "Kaine +3.0",
+          "margin": -3.05,
+          "votesRep": 2100,
+          "votesDem": 2232,
+          "votesTotal": 4341
+        },
+        "Sussex51": {
+          "color": "#577CCC",
+          "label": "Kaine +7.8",
+          "margin": -7.85,
+          "votesRep": 2226,
+          "votesDem": 2605,
+          "votesTotal": 4836
+        },
+        "Tazewell51": {
+          "color": "#BF1D29",
+          "label": "Cao +48.0",
+          "margin": 48.01,
+          "votesRep": 14096,
+          "votesDem": 4952,
+          "votesTotal": 19079
+        },
+        "Virginia Beach51": {
+          "color": "#577CCC",
+          "label": "Kaine +5.5",
+          "margin": -5.52,
+          "votesRep": 106476,
+          "votesDem": 118920,
+          "votesTotal": 225634
+        },
+        "Warren51": {
+          "color": "#BF1D29",
+          "label": "Cao +32.5",
+          "margin": 32.48,
+          "votesRep": 14771,
+          "votesDem": 7529,
+          "votesTotal": 22342
+        },
+        "Washington51": {
+          "color": "#BF1D29",
+          "label": "Cao +43.3",
+          "margin": 43.26,
+          "votesRep": 20851,
+          "votesDem": 8259,
+          "votesTotal": 29167
+        },
+        "Waynesboro51": {
+          "color": "#CF8980",
+          "label": "Cao +0.7",
+          "margin": 0.69,
+          "votesRep": 5598,
+          "votesDem": 5521,
+          "votesTotal": 11135
+        },
+        "Westmoreland51": {
+          "color": "#FF5865",
+          "label": "Cao +8.1",
+          "margin": 8.1,
+          "votesRep": 5615,
+          "votesDem": 4774,
+          "votesTotal": 10401
+        },
+        "Williamsburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +44.7",
+          "margin": -44.75,
+          "votesRep": 2151,
+          "votesDem": 5635,
+          "votesTotal": 7796
+        },
+        "Winchester51": {
+          "color": "#1C408C",
+          "label": "Kaine +16.2",
+          "margin": -16.22,
+          "votesRep": 4905,
+          "votesDem": 6804,
+          "votesTotal": 11732
+        },
+        "Wise51": {
+          "color": "#BF1D29",
+          "label": "Cao +44.8",
+          "margin": 44.85,
+          "votesRep": 11802,
+          "votesDem": 4494,
+          "votesTotal": 16316
+        },
+        "Wythe51": {
+          "color": "#BF1D29",
+          "label": "Cao +50.2",
+          "margin": 50.24,
+          "votesRep": 11268,
+          "votesDem": 3732,
+          "votesTotal": 15020
+        },
+        "York51": {
+          "color": "#FF8B98",
+          "label": "Cao +5.0",
+          "margin": 4.97,
+          "votesRep": 20685,
+          "votesDem": 18726,
+          "votesTotal": 39447
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Corey Stewart",
+      "candDem": "Timothy Kaine",
+      "shortRep": "Stewart",
+      "shortDem": "Kaine",
+      "partisan": true,
+      "margin": -16.32,
+      "votesRep": 1374313,
+      "votesDem": 1910370,
+      "votesTotal": 3351757,
+      "regions": {
+        "Accomack51": {
+          "color": "#FF8B98",
+          "label": "Stewart +4.8",
+          "margin": 4.82,
+          "votesRep": 6605,
+          "votesDem": 5997,
+          "votesTotal": 12745
+        },
+        "Albemarle51": {
+          "color": "#1C408C",
+          "label": "Kaine +37.1",
+          "margin": -37.12,
+          "votesRep": 16371,
+          "votesDem": 35701,
+          "votesTotal": 53326
+        },
+        "Alexandria51": {
+          "color": "#1C408C",
+          "label": "Kaine +66.5",
+          "margin": -66.48,
+          "votesRep": 10734,
+          "votesDem": 53307,
+          "votesTotal": 65812
+        },
+        "Alleghany51": {
+          "color": "#BF1D29",
+          "label": "Stewart +27.5",
+          "margin": 27.5,
+          "votesRep": 3433,
+          "votesDem": 1952,
+          "votesTotal": 5453
+        },
+        "Amelia51": {
+          "color": "#BF1D29",
+          "label": "Stewart +32.7",
+          "margin": 32.72,
+          "votesRep": 3823,
+          "votesDem": 1938,
+          "votesTotal": 5849
+        },
+        "Amherst51": {
+          "color": "#BF1D29",
+          "label": "Stewart +26.3",
+          "margin": 26.28,
+          "votesRep": 7779,
+          "votesDem": 4541,
+          "votesTotal": 12545
+        },
+        "Appomattox51": {
+          "color": "#BF1D29",
+          "label": "Stewart +44.4",
+          "margin": 44.43,
+          "votesRep": 4751,
+          "votesDem": 1828,
+          "votesTotal": 6681
+        },
+        "Arlington51": {
+          "color": "#1C408C",
+          "label": "Kaine +68.2",
+          "margin": -68.2,
+          "votesRep": 16495,
+          "votesDem": 87258,
+          "votesTotal": 106913
+        },
+        "Augusta51": {
+          "color": "#BF1D29",
+          "label": "Stewart +42.3",
+          "margin": 42.33,
+          "votesRep": 20796,
+          "votesDem": 8427,
+          "votesTotal": 29807
+        },
+        "Bath51": {
+          "color": "#BF1D29",
+          "label": "Stewart +32.9",
+          "margin": 32.95,
+          "votesRep": 1142,
+          "votesDem": 576,
+          "votesTotal": 1748
+        },
+        "Bedford51": {
+          "color": "#BF1D29",
+          "label": "Stewart +44.9",
+          "margin": 44.85,
+          "votesRep": 25301,
+          "votesDem": 9632,
+          "votesTotal": 35548
+        },
+        "Bland51": {
+          "color": "#BF1D29",
+          "label": "Stewart +58.3",
+          "margin": 58.35,
+          "votesRep": 1916,
+          "votesDem": 504,
+          "votesTotal": 2453
+        },
+        "Botetourt51": {
+          "color": "#BF1D29",
+          "label": "Stewart +40.5",
+          "margin": 40.47,
+          "votesRep": 10720,
+          "votesDem": 4543,
+          "votesTotal": 15522
+        },
+        "Bristol51": {
+          "color": "#BF1D29",
+          "label": "Stewart +31.9",
+          "margin": 31.88,
+          "votesRep": 3427,
+          "votesDem": 1770,
+          "votesTotal": 5272
+        },
+        "Brunswick51": {
+          "color": "#1C408C",
+          "label": "Kaine +21.6",
+          "margin": -21.65,
+          "votesRep": 2394,
+          "votesDem": 3717,
+          "votesTotal": 6156
+        },
+        "Buchanan51": {
+          "color": "#BF1D29",
+          "label": "Stewart +39.3",
+          "margin": 39.29,
+          "votesRep": 4095,
+          "votesDem": 1785,
+          "votesTotal": 5933
+        },
+        "Buckingham51": {
+          "color": "#FF5865",
+          "label": "Stewart +7.4",
+          "margin": 7.39,
+          "votesRep": 3249,
+          "votesDem": 2802,
+          "votesTotal": 6139
+        },
+        "Buena Vista51": {
+          "color": "#BF1D29",
+          "label": "Stewart +22.2",
+          "margin": 22.24,
+          "votesRep": 1047,
+          "votesDem": 666,
+          "votesTotal": 1754
+        },
+        "Campbell51": {
+          "color": "#BF1D29",
+          "label": "Stewart +41.5",
+          "margin": 41.47,
+          "votesRep": 15239,
+          "votesDem": 6305,
+          "votesTotal": 21979
+        },
+        "Caroline51": {
+          "color": "#8AAFFF",
+          "label": "Kaine +4.6",
+          "margin": -4.61,
+          "votesRep": 5323,
+          "votesDem": 5838,
+          "votesTotal": 11353
+        },
+        "Carroll51": {
+          "color": "#BF1D29",
+          "label": "Stewart +53.2",
+          "margin": 53.17,
+          "votesRep": 8042,
+          "votesDem": 2459,
+          "votesTotal": 10621
+        },
+        "Charles City51": {
+          "color": "#1C408C",
+          "label": "Kaine +29.2",
+          "margin": -29.19,
+          "votesRep": 1168,
+          "votesDem": 2131,
+          "votesTotal": 3337
+        },
+        "Charlotte51": {
+          "color": "#BF1D29",
+          "label": "Stewart +19.8",
+          "margin": 19.75,
+          "votesRep": 2792,
+          "votesDem": 1871,
+          "votesTotal": 4719
+        },
+        "Charlottesville51": {
+          "color": "#1C408C",
+          "label": "Kaine +76.5",
+          "margin": -76.52,
+          "votesRep": 2346,
+          "votesDem": 17641,
+          "votesTotal": 20490
+        },
+        "Chesapeake51": {
+          "color": "#1C408C",
+          "label": "Kaine +11.1",
+          "margin": -11.08,
+          "votesRep": 39632,
+          "votesDem": 49506,
+          "votesTotal": 90752
+        },
+        "Chesterfield51": {
+          "color": "#1C408C",
+          "label": "Kaine +10.1",
+          "margin": -10.11,
+          "votesRep": 67835,
+          "votesDem": 83091,
+          "votesTotal": 153854
+        },
+        "Clarke51": {
+          "color": "#FF5865",
+          "label": "Stewart +9.0",
+          "margin": 9,
+          "votesRep": 3845,
+          "votesDem": 3210,
+          "votesTotal": 7186
+        },
+        "Colonial Heights51": {
+          "color": "#BF1D29",
+          "label": "Stewart +33.0",
+          "margin": 33.05,
+          "votesRep": 4183,
+          "votesDem": 2105,
+          "votesTotal": 6415
+        },
+        "Covington51": {
+          "color": "#FF5865",
+          "label": "Stewart +9.9",
+          "margin": 9.87,
+          "votesRep": 957,
+          "votesDem": 785,
+          "votesTotal": 1776
+        },
+        "Craig51": {
+          "color": "#BF1D29",
+          "label": "Stewart +49.6",
+          "margin": 49.61,
+          "votesRep": 1615,
+          "votesDem": 544,
+          "votesTotal": 2193
+        },
+        "Culpeper51": {
+          "color": "#BF1D29",
+          "label": "Stewart +14.8",
+          "margin": 14.84,
+          "votesRep": 10913,
+          "votesDem": 8093,
+          "votesTotal": 19404
+        },
+        "Cumberland51": {
+          "color": "#BF1D29",
+          "label": "Stewart +10.2",
+          "margin": 10.22,
+          "votesRep": 2270,
+          "votesDem": 1849,
+          "votesTotal": 4194
+        },
+        "Danville51": {
+          "color": "#1C408C",
+          "label": "Kaine +26.1",
+          "margin": -26.11,
+          "votesRep": 5518,
+          "votesDem": 9418,
+          "votesTotal": 15115
+        },
+        "Dickenson51": {
+          "color": "#BF1D29",
+          "label": "Stewart +31.5",
+          "margin": 31.51,
+          "votesRep": 2926,
+          "votesDem": 1524,
+          "votesTotal": 4475
+        },
+        "Dinwiddie51": {
+          "color": "#FF5865",
+          "label": "Stewart +7.3",
+          "margin": 7.25,
+          "votesRep": 5626,
+          "votesDem": 4865,
+          "votesTotal": 10576
+        },
+        "Emporia51": {
+          "color": "#1C408C",
+          "label": "Kaine +31.3",
+          "margin": -31.34,
+          "votesRep": 608,
+          "votesDem": 1163,
+          "votesTotal": 1790
+        },
+        "Essex51": {
+          "color": "#8AAFFF",
+          "label": "Kaine +3.4",
+          "margin": -3.45,
+          "votesRep": 2115,
+          "votesDem": 2266,
+          "votesTotal": 4418
+        },
+        "Fairfax51": {
+          "color": "#1C408C",
+          "label": "Kaine +45.0",
+          "margin": -45.05,
+          "votesRep": 129095,
+          "votesDem": 340740,
+          "votesTotal": 480485
+        },
+        "Falls Church51": {
+          "color": "#1C408C",
+          "label": "Kaine +68.3",
+          "margin": -68.29,
+          "votesRep": 1112,
+          "votesDem": 5902,
+          "votesTotal": 7189
+        },
+        "Fauquier51": {
+          "color": "#BF1D29",
+          "label": "Stewart +12.9",
+          "margin": 12.89,
+          "votesRep": 17801,
+          "votesDem": 13735,
+          "votesTotal": 32214
+        },
+        "Floyd51": {
+          "color": "#BF1D29",
+          "label": "Stewart +25.5",
+          "margin": 25.53,
+          "votesRep": 4180,
+          "votesDem": 2480,
+          "votesTotal": 6746
+        },
+        "Fluvanna51": {
+          "color": "#8AAFFF",
+          "label": "Kaine +1.6",
+          "margin": -1.6,
+          "votesRep": 5793,
+          "votesDem": 5981,
+          "votesTotal": 12001
+        },
+        "Franklin51": {
+          "color": "#BF1D29",
+          "label": "Stewart +36.0",
+          "margin": 35.95,
+          "votesRep": 14849,
+          "votesDem": 6995,
+          "votesTotal": 22181
+        },
+        "Frederick51": {
+          "color": "#BF1D29",
+          "label": "Stewart +23.1",
+          "margin": 23.13,
+          "votesRep": 20640,
+          "votesDem": 12885,
+          "votesTotal": 34217
+        },
+        "Fredericksburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +40.1",
+          "margin": -40.08,
+          "votesRep": 2832,
+          "votesDem": 6621,
+          "votesTotal": 9710
+        },
+        "Galax51": {
+          "color": "#BF1D29",
+          "label": "Stewart +31.8",
+          "margin": 31.79,
+          "votesRep": 1198,
+          "votesDem": 620,
+          "votesTotal": 1830
+        },
+        "Giles51": {
+          "color": "#BF1D29",
+          "label": "Stewart +37.7",
+          "margin": 37.7,
+          "votesRep": 4500,
+          "votesDem": 2036,
+          "votesTotal": 6638
+        },
+        "Gloucester51": {
+          "color": "#BF1D29",
+          "label": "Stewart +27.9",
+          "margin": 27.94,
+          "votesRep": 9816,
+          "votesDem": 5529,
+          "votesTotal": 15637
+        },
+        "Goochland51": {
+          "color": "#BF1D29",
+          "label": "Stewart +15.7",
+          "margin": 15.71,
+          "votesRep": 7472,
+          "votesDem": 5443,
+          "votesTotal": 13225
+        },
+        "Grayson51": {
+          "color": "#BF1D29",
+          "label": "Stewart +50.1",
+          "margin": 50.11,
+          "votesRep": 4249,
+          "votesDem": 1412,
+          "votesTotal": 5733
+        },
+        "Greene51": {
+          "color": "#BF1D29",
+          "label": "Stewart +19.7",
+          "margin": 19.74,
+          "votesRep": 4749,
+          "votesDem": 3183,
+          "votesTotal": 8130
+        },
+        "Greensville51": {
+          "color": "#1C408C",
+          "label": "Kaine +21.5",
+          "margin": -21.49,
+          "votesRep": 1363,
+          "votesDem": 2109,
+          "votesTotal": 3491
+        },
+        "Halifax51": {
+          "color": "#BF1D29",
+          "label": "Stewart +13.4",
+          "margin": 13.44,
+          "votesRep": 7691,
+          "votesDem": 5869,
+          "votesTotal": 13686
+        },
+        "Hampton51": {
+          "color": "#1C408C",
+          "label": "Kaine +49.0",
+          "margin": -48.99,
+          "votesRep": 12696,
+          "votesDem": 37078,
+          "votesTotal": 50497
+        },
+        "Hanover51": {
+          "color": "#BF1D29",
+          "label": "Stewart +23.0",
+          "margin": 23.03,
+          "votesRep": 32333,
+          "votesDem": 20228,
+          "votesTotal": 53734
+        },
+        "Harrisonburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +39.0",
+          "margin": -38.96,
+          "votesRep": 4056,
+          "votesDem": 9234,
+          "votesTotal": 13724
+        },
+        "Henrico51": {
+          "color": "#1C408C",
+          "label": "Kaine +33.0",
+          "margin": -32.98,
+          "votesRep": 47786,
+          "votesDem": 94826,
+          "votesTotal": 145536
+        },
+        "Henry51": {
+          "color": "#BF1D29",
+          "label": "Stewart +23.8",
+          "margin": 23.8,
+          "votesRep": 11471,
+          "votesDem": 7061,
+          "votesTotal": 18728
+        },
+        "Highland51": {
+          "color": "#BF1D29",
+          "label": "Stewart +31.7",
+          "margin": 31.74,
+          "votesRep": 772,
+          "votesDem": 400,
+          "votesTotal": 1184
+        },
+        "Hopewell51": {
+          "color": "#1C408C",
+          "label": "Kaine +14.5",
+          "margin": -14.53,
+          "votesRep": 2894,
+          "votesDem": 3878,
+          "votesTotal": 6884
+        },
+        "Isle of Wight51": {
+          "color": "#BF1D29",
+          "label": "Stewart +11.0",
+          "margin": 10.98,
+          "votesRep": 9171,
+          "votesDem": 7357,
+          "votesTotal": 16809
+        },
+        "James City51": {
+          "color": "#577CCC",
+          "label": "Kaine +5.8",
+          "margin": -5.75,
+          "votesRep": 17955,
+          "votesDem": 20146,
+          "votesTotal": 38823
+        },
+        "King and Queen51": {
+          "color": "#BF1D29",
+          "label": "Stewart +10.1",
+          "margin": 10.13,
+          "votesRep": 1615,
+          "votesDem": 1318,
+          "votesTotal": 2974
+        },
+        "King George51": {
+          "color": "#BF1D29",
+          "label": "Stewart +16.5",
+          "margin": 16.49,
+          "votesRep": 5546,
+          "votesDem": 3976,
+          "votesTotal": 9750
+        },
+        "King William51": {
+          "color": "#BF1D29",
+          "label": "Stewart +27.5",
+          "margin": 27.53,
+          "votesRep": 4707,
+          "votesDem": 2675,
+          "votesTotal": 7518
+        },
+        "Lancaster51": {
+          "color": "#FF8B98",
+          "label": "Stewart +4.7",
+          "margin": 4.69,
+          "votesRep": 2947,
+          "votesDem": 2683,
+          "votesTotal": 5706
+        },
+        "Lee51": {
+          "color": "#BF1D29",
+          "label": "Stewart +50.6",
+          "margin": 50.61,
+          "votesRep": 5096,
+          "votesDem": 1671,
+          "votesTotal": 6821
+        },
+        "Lexington51": {
+          "color": "#1C408C",
+          "label": "Kaine +45.3",
+          "margin": -45.29,
+          "votesRep": 569,
+          "votesDem": 1511,
+          "votesTotal": 2120
+        },
+        "Loudoun51": {
+          "color": "#1C408C",
+          "label": "Kaine +29.0",
+          "margin": -29.01,
+          "votesRep": 58369,
+          "votesDem": 106064,
+          "votesTotal": 168025
+        },
+        "Louisa51": {
+          "color": "#BF1D29",
+          "label": "Stewart +15.9",
+          "margin": 15.86,
+          "votesRep": 8790,
+          "votesDem": 6384,
+          "votesTotal": 15428
+        },
+        "Lunenburg51": {
+          "color": "#BF1D29",
+          "label": "Stewart +12.1",
+          "margin": 12.14,
+          "votesRep": 2480,
+          "votesDem": 1943,
+          "votesTotal": 4475
+        },
+        "Lynchburg51": {
+          "color": "#577CCC",
+          "label": "Kaine +5.2",
+          "margin": -5.21,
+          "votesRep": 12238,
+          "votesDem": 13582,
+          "votesTotal": 26845
+        },
+        "Madison51": {
+          "color": "#BF1D29",
+          "label": "Stewart +23.3",
+          "margin": 23.31,
+          "votesRep": 3655,
+          "votesDem": 2273,
+          "votesTotal": 6029
+        },
+        "Manassas51": {
+          "color": "#1C408C",
+          "label": "Kaine +28.8",
+          "margin": -28.78,
+          "votesRep": 4496,
+          "votesDem": 8130,
+          "votesTotal": 12929
+        },
+        "Manassas Park51": {
+          "color": "#1C408C",
+          "label": "Kaine +41.3",
+          "margin": -41.29,
+          "votesRep": 1260,
+          "votesDem": 3032,
+          "votesTotal": 4385
+        },
+        "Martinsville51": {
+          "color": "#1C408C",
+          "label": "Kaine +29.7",
+          "margin": -29.7,
+          "votesRep": 1566,
+          "votesDem": 2889,
+          "votesTotal": 4544
+        },
+        "Mathews51": {
+          "color": "#BF1D29",
+          "label": "Stewart +28.1",
+          "margin": 28.12,
+          "votesRep": 2791,
+          "votesDem": 1566,
+          "votesTotal": 4416
+        },
+        "Mecklenburg51": {
+          "color": "#BF1D29",
+          "label": "Stewart +11.8",
+          "margin": 11.85,
+          "votesRep": 6533,
+          "votesDem": 5149,
+          "votesTotal": 11805
+        },
+        "Middlesex51": {
+          "color": "#BF1D29",
+          "label": "Stewart +19.5",
+          "margin": 19.48,
+          "votesRep": 3014,
+          "votesDem": 2031,
+          "votesTotal": 5130
+        },
+        "Montgomery51": {
+          "color": "#1C408C",
+          "label": "Kaine +16.6",
+          "margin": -16.6,
+          "votesRep": 14382,
+          "votesDem": 20109,
+          "votesTotal": 35508
+        },
+        "Nelson51": {
+          "color": "#577CCC",
+          "label": "Kaine +5.4",
+          "margin": -5.41,
+          "votesRep": 3417,
+          "votesDem": 3808,
+          "votesTotal": 7378
+        },
+        "New Kent51": {
+          "color": "#BF1D29",
+          "label": "Stewart +28.9",
+          "margin": 28.91,
+          "votesRep": 6774,
+          "votesDem": 3736,
+          "votesTotal": 10683
+        },
+        "Newport News51": {
+          "color": "#1C408C",
+          "label": "Kaine +37.5",
+          "margin": -37.54,
+          "votesRep": 17891,
+          "votesDem": 39398,
+          "votesTotal": 58331
+        },
+        "Norfolk51": {
+          "color": "#1C408C",
+          "label": "Kaine +52.8",
+          "margin": -52.84,
+          "votesRep": 15603,
+          "votesDem": 50565,
+          "votesTotal": 67505
+        },
+        "Northampton51": {
+          "color": "#1C408C",
+          "label": "Kaine +15.8",
+          "margin": -15.85,
+          "votesRep": 2124,
+          "votesDem": 2924,
+          "votesTotal": 5116
+        },
+        "Northumberland51": {
+          "color": "#BF1D29",
+          "label": "Stewart +15.1",
+          "margin": 15.1,
+          "votesRep": 3567,
+          "votesDem": 2631,
+          "votesTotal": 6269
+        },
+        "Norton51": {
+          "color": "#BF1D29",
+          "label": "Stewart +24.4",
+          "margin": 24.44,
+          "votesRep": 672,
+          "votesDem": 408,
+          "votesTotal": 1099
+        },
+        "Nottoway51": {
+          "color": "#FF5865",
+          "label": "Stewart +5.9",
+          "margin": 5.9,
+          "votesRep": 2775,
+          "votesDem": 2466,
+          "votesTotal": 5305
+        },
+        "Orange51": {
+          "color": "#BF1D29",
+          "label": "Stewart +16.5",
+          "margin": 16.5,
+          "votesRep": 8577,
+          "votesDem": 6148,
+          "votesTotal": 14952
+        },
+        "Page51": {
+          "color": "#BF1D29",
+          "label": "Stewart +42.4",
+          "margin": 42.4,
+          "votesRep": 5825,
+          "votesDem": 2356,
+          "votesTotal": 8295
+        },
+        "Patrick51": {
+          "color": "#BF1D29",
+          "label": "Stewart +50.8",
+          "margin": 50.75,
+          "votesRep": 4999,
+          "votesDem": 1633,
+          "votesTotal": 6689
+        },
+        "Petersburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +80.5",
+          "margin": -80.53,
+          "votesRep": 989,
+          "votesDem": 9170,
+          "votesTotal": 10243
+        },
+        "Pittsylvania51": {
+          "color": "#BF1D29",
+          "label": "Stewart +35.2",
+          "margin": 35.23,
+          "votesRep": 16923,
+          "votesDem": 8105,
+          "votesTotal": 25306
+        },
+        "Poquoson51": {
+          "color": "#BF1D29",
+          "label": "Stewart +40.5",
+          "margin": 40.53,
+          "votesRep": 4105,
+          "votesDem": 1737,
+          "votesTotal": 5995
+        },
+        "Portsmouth51": {
+          "color": "#1C408C",
+          "label": "Kaine +47.2",
+          "margin": -47.21,
+          "votesRep": 8601,
+          "votesDem": 23985,
+          "votesTotal": 33170
+        },
+        "Powhatan51": {
+          "color": "#BF1D29",
+          "label": "Stewart +40.1",
+          "margin": 40.1,
+          "votesRep": 10254,
+          "votesDem": 4384,
+          "votesTotal": 14972
+        },
+        "Prince Edward51": {
+          "color": "#1C408C",
+          "label": "Kaine +11.9",
+          "margin": -11.92,
+          "votesRep": 3064,
+          "votesDem": 3893,
+          "votesTotal": 7073
+        },
+        "Prince George51": {
+          "color": "#BF1D29",
+          "label": "Stewart +12.3",
+          "margin": 12.25,
+          "votesRep": 7004,
+          "votesDem": 5475,
+          "votesTotal": 12632
+        },
+        "Prince William51": {
+          "color": "#1C408C",
+          "label": "Kaine +32.7",
+          "margin": -32.66,
+          "votesRep": 54040,
+          "votesDem": 106449,
+          "votesTotal": 163926
+        },
+        "Pulaski51": {
+          "color": "#BF1D29",
+          "label": "Stewart +31.7",
+          "margin": 31.7,
+          "votesRep": 7835,
+          "votesDem": 4063,
+          "votesTotal": 12081
+        },
+        "Radford51": {
+          "color": "#1C408C",
+          "label": "Kaine +20.7",
+          "margin": -20.68,
+          "votesRep": 1958,
+          "votesDem": 2979,
+          "votesTotal": 5078
+        },
+        "Rappahannock51": {
+          "color": "#FF8B98",
+          "label": "Stewart +3.6",
+          "margin": 3.63,
+          "votesRep": 1984,
+          "votesDem": 1845,
+          "votesTotal": 3883
+        },
+        "Richmond51": {
+          "color": "#BF1D29",
+          "label": "Stewart +17.1",
+          "margin": 17.12,
+          "votesRep": 1683,
+          "votesDem": 1191,
+          "votesTotal": 2899
+        },
+        "Roanoke51": {
+          "color": "#BF1D29",
+          "label": "Stewart +17.4",
+          "margin": 17.43,
+          "votesRep": 24194,
+          "votesDem": 17012,
+          "votesTotal": 41991
+        },
+        "Rockbridge51": {
+          "color": "#BF1D29",
+          "label": "Stewart +22.1",
+          "margin": 22.14,
+          "votesRep": 5622,
+          "votesDem": 3584,
+          "votesTotal": 9349
+        },
+        "Rockingham51": {
+          "color": "#BF1D29",
+          "label": "Stewart +36.6",
+          "margin": 36.63,
+          "votesRep": 21151,
+          "votesDem": 9811,
+          "votesTotal": 31645
+        },
+        "Russell51": {
+          "color": "#BF1D29",
+          "label": "Stewart +44.2",
+          "margin": 44.16,
+          "votesRep": 6379,
+          "votesDem": 2471,
+          "votesTotal": 8951
+        },
+        "Salem51": {
+          "color": "#BF1D29",
+          "label": "Stewart +15.0",
+          "margin": 15.02,
+          "votesRep": 5571,
+          "votesDem": 4116,
+          "votesTotal": 9883
+        },
+        "Scott51": {
+          "color": "#BF1D29",
+          "label": "Stewart +56.3",
+          "margin": 56.33,
+          "votesRep": 5824,
+          "votesDem": 1627,
+          "votesTotal": 7522
+        },
+        "Shenandoah51": {
+          "color": "#BF1D29",
+          "label": "Stewart +33.8",
+          "margin": 33.79,
+          "votesRep": 10836,
+          "votesDem": 5362,
+          "votesTotal": 16485
+        },
+        "Smyth51": {
+          "color": "#BF1D29",
+          "label": "Stewart +43.8",
+          "margin": 43.79,
+          "votesRep": 6864,
+          "votesDem": 2683,
+          "votesTotal": 9668
+        },
+        "Southampton51": {
+          "color": "#BF1D29",
+          "label": "Stewart +11.9",
+          "margin": 11.89,
+          "votesRep": 3869,
+          "votesDem": 3047,
+          "votesTotal": 6989
+        },
+        "Spotsylvania51": {
+          "color": "#FF8B98",
+          "label": "Stewart +3.7",
+          "margin": 3.75,
+          "votesRep": 26466,
+          "votesDem": 24554,
+          "votesTotal": 51974
+        },
+        "Stafford51": {
+          "color": "#8AAFFF",
+          "label": "Kaine +3.9",
+          "margin": -3.95,
+          "votesRep": 26368,
+          "votesDem": 28536,
+          "votesTotal": 56049
+        },
+        "Staunton51": {
+          "color": "#1C408C",
+          "label": "Kaine +15.8",
+          "margin": -15.82,
+          "votesRep": 3937,
+          "votesDem": 5417,
+          "votesTotal": 9599
+        },
+        "Suffolk51": {
+          "color": "#1C408C",
+          "label": "Kaine +23.0",
+          "margin": -22.99,
+          "votesRep": 13397,
+          "votesDem": 21397,
+          "votesTotal": 35292
+        },
+        "Surry51": {
+          "color": "#1C408C",
+          "label": "Kaine +16.3",
+          "margin": -16.34,
+          "votesRep": 1436,
+          "votesDem": 1997,
+          "votesTotal": 3477
+        },
+        "Sussex51": {
+          "color": "#1C408C",
+          "label": "Kaine +17.1",
+          "margin": -17.12,
+          "votesRep": 1598,
+          "votesDem": 2258,
+          "votesTotal": 3888
+        },
+        "Tazewell51": {
+          "color": "#BF1D29",
+          "label": "Stewart +57.6",
+          "margin": 57.56,
+          "votesRep": 10428,
+          "votesDem": 2809,
+          "votesTotal": 13371
+        },
+        "Virginia Beach51": {
+          "color": "#1C408C",
+          "label": "Kaine +11.0",
+          "margin": -11.03,
+          "votesRep": 73575,
+          "votesDem": 91813,
+          "votesTotal": 169443
+        },
+        "Warren51": {
+          "color": "#BF1D29",
+          "label": "Stewart +27.4",
+          "margin": 27.38,
+          "votesRep": 8875,
+          "votesDem": 5060,
+          "votesTotal": 14262
+        },
+        "Washington51": {
+          "color": "#BF1D29",
+          "label": "Stewart +42.3",
+          "margin": 42.26,
+          "votesRep": 14350,
+          "votesDem": 5825,
+          "votesTotal": 20457
+        },
+        "Waynesboro51": {
+          "color": "#8AAFFF",
+          "label": "Kaine +1.8",
+          "margin": -1.8,
+          "votesRep": 3713,
+          "votesDem": 3849,
+          "votesTotal": 7718
+        },
+        "Westmoreland51": {
+          "color": "#6b7280",
+          "label": "Kaine +0.4",
+          "margin": -0.39,
+          "votesRep": 3421,
+          "votesDem": 3448,
+          "votesTotal": 6949
+        },
+        "Williamsburg51": {
+          "color": "#1C408C",
+          "label": "Kaine +49.1",
+          "margin": -49.09,
+          "votesRep": 1547,
+          "votesDem": 4530,
+          "votesTotal": 6200
+        },
+        "Winchester51": {
+          "color": "#1C408C",
+          "label": "Kaine +17.8",
+          "margin": -17.81,
+          "votesRep": 3657,
+          "votesDem": 5242,
+          "votesTotal": 9124
+        },
+        "Wise51": {
+          "color": "#BF1D29",
+          "label": "Stewart +47.3",
+          "margin": 47.29,
+          "votesRep": 7991,
+          "votesDem": 2860,
+          "votesTotal": 10955
+        },
+        "Wythe51": {
+          "color": "#BF1D29",
+          "label": "Stewart +45.4",
+          "margin": 45.41,
+          "votesRep": 7669,
+          "votesDem": 2879,
+          "votesTotal": 10713
+        },
+        "York51": {
+          "color": "#FF8B98",
+          "label": "Stewart +4.2",
+          "margin": 4.2,
+          "votesRep": 14828,
+          "votesDem": 13634,
+          "votesTotal": 29034
+        }
+      }
+    }
+  ]
+}

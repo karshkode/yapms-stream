@@ -1,0 +1,1546 @@
+{
+  "stateFips": "45",
+  "stateName": "South Carolina",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Henry McMaster",
+      "candDem": "Joe Cunningham",
+      "shortRep": "McMaster",
+      "shortDem": "Cunningham",
+      "partisan": true,
+      "margin": 17.58,
+      "votesRep": 991882,
+      "votesDem": 695280,
+      "votesTotal": 1709269,
+      "regions": {
+        "Abbeville45": {
+          "color": "#BF1D29",
+          "label": "McMaster +41.3",
+          "margin": 41.29,
+          "votesRep": 6014,
+          "votesDem": 2499,
+          "votesTotal": 8606
+        },
+        "Aiken45": {
+          "color": "#BF1D29",
+          "label": "McMaster +33.2",
+          "margin": 33.22,
+          "votesRep": 36070,
+          "votesDem": 18083,
+          "votesTotal": 55057
+        },
+        "Allendale45": {
+          "color": "#1C408C",
+          "label": "Cunningham +37.5",
+          "margin": -37.45,
+          "votesRep": 562,
+          "votesDem": 1235,
+          "votesTotal": 1821
+        },
+        "Anderson45": {
+          "color": "#BF1D29",
+          "label": "McMaster +47.2",
+          "margin": 47.2,
+          "votesRep": 46405,
+          "votesDem": 16645,
+          "votesTotal": 63791
+        },
+        "Bamberg45": {
+          "color": "#1C408C",
+          "label": "Cunningham +11.6",
+          "margin": -11.63,
+          "votesRep": 1737,
+          "votesDem": 2194,
+          "votesTotal": 3986
+        },
+        "Barnwell45": {
+          "color": "#BF1D29",
+          "label": "McMaster +17.8",
+          "margin": 17.78,
+          "votesRep": 3650,
+          "votesDem": 2548,
+          "votesTotal": 6269
+        },
+        "Beaufort45": {
+          "color": "#BF1D29",
+          "label": "McMaster +17.8",
+          "margin": 17.75,
+          "votesRep": 42107,
+          "votesDem": 29412,
+          "votesTotal": 72129
+        },
+        "Berkeley45": {
+          "color": "#BF1D29",
+          "label": "McMaster +13.1",
+          "margin": 13.1,
+          "votesRep": 39839,
+          "votesDem": 30608,
+          "votesTotal": 71426
+        },
+        "Calhoun45": {
+          "color": "#BF1D29",
+          "label": "McMaster +17.1",
+          "margin": 17.09,
+          "votesRep": 3251,
+          "votesDem": 2302,
+          "votesTotal": 5636
+        },
+        "Charleston45": {
+          "color": "#1C408C",
+          "label": "Cunningham +12.6",
+          "margin": -12.55,
+          "votesRep": 66716,
+          "votesDem": 85871,
+          "votesTotal": 154177
+        },
+        "Cherokee45": {
+          "color": "#BF1D29",
+          "label": "McMaster +53.8",
+          "margin": 53.8,
+          "votesRep": 12347,
+          "votesDem": 3709,
+          "votesTotal": 16213
+        },
+        "Chester45": {
+          "color": "#BF1D29",
+          "label": "McMaster +21.9",
+          "margin": 21.86,
+          "votesRep": 5762,
+          "votesDem": 3695,
+          "votesTotal": 9583
+        },
+        "Chesterfield45": {
+          "color": "#BF1D29",
+          "label": "McMaster +28.6",
+          "margin": 28.57,
+          "votesRep": 7984,
+          "votesDem": 4436,
+          "votesTotal": 12559
+        },
+        "Clarendon45": {
+          "color": "#BF1D29",
+          "label": "McMaster +12.3",
+          "margin": 12.26,
+          "votesRep": 6387,
+          "votesDem": 4992,
+          "votesTotal": 11479
+        },
+        "Colleton45": {
+          "color": "#BF1D29",
+          "label": "McMaster +15.5",
+          "margin": 15.49,
+          "votesRep": 7160,
+          "votesDem": 5239,
+          "votesTotal": 12546
+        },
+        "Darlington45": {
+          "color": "#BF1D29",
+          "label": "McMaster +16.1",
+          "margin": 16.11,
+          "votesRep": 11541,
+          "votesDem": 8338,
+          "votesTotal": 20048
+        },
+        "Dillon45": {
+          "color": "#BF1D29",
+          "label": "McMaster +10.5",
+          "margin": 10.48,
+          "votesRep": 4345,
+          "votesDem": 3521,
+          "votesTotal": 7932
+        },
+        "Dorchester45": {
+          "color": "#BF1D29",
+          "label": "McMaster +11.4",
+          "margin": 11.45,
+          "votesRep": 27366,
+          "votesDem": 21745,
+          "votesTotal": 49806
+        },
+        "Edgefield45": {
+          "color": "#BF1D29",
+          "label": "McMaster +35.8",
+          "margin": 35.83,
+          "votesRep": 5920,
+          "votesDem": 2797,
+          "votesTotal": 8826
+        },
+        "Fairfield45": {
+          "color": "#1C408C",
+          "label": "Cunningham +11.6",
+          "margin": -11.59,
+          "votesRep": 3663,
+          "votesDem": 4623,
+          "votesTotal": 8422
+        },
+        "Florence45": {
+          "color": "#BF1D29",
+          "label": "McMaster +11.1",
+          "margin": 11.11,
+          "votesRep": 22751,
+          "votesDem": 18203,
+          "votesTotal": 41464
+        },
+        "Georgetown45": {
+          "color": "#BF1D29",
+          "label": "McMaster +20.1",
+          "margin": 20.13,
+          "votesRep": 16383,
+          "votesDem": 10893,
+          "votesTotal": 27515
+        },
+        "Greenville45": {
+          "color": "#BF1D29",
+          "label": "McMaster +23.5",
+          "margin": 23.52,
+          "votesRep": 108879,
+          "votesDem": 67408,
+          "votesTotal": 179278
+        },
+        "Greenwood45": {
+          "color": "#BF1D29",
+          "label": "McMaster +31.7",
+          "margin": 31.67,
+          "votesRep": 14262,
+          "votesDem": 7402,
+          "votesTotal": 21945
+        },
+        "Hampton45": {
+          "color": "#8AAFFF",
+          "label": "Cunningham +4.4",
+          "margin": -4.39,
+          "votesRep": 2667,
+          "votesDem": 2912,
+          "votesTotal": 5638
+        },
+        "Horry45": {
+          "color": "#BF1D29",
+          "label": "McMaster +39.9",
+          "margin": 39.9,
+          "votesRep": 92816,
+          "votesDem": 39870,
+          "votesTotal": 133829
+        },
+        "Jasper45": {
+          "color": "#BF1D29",
+          "label": "McMaster +13.7",
+          "margin": 13.72,
+          "votesRep": 6265,
+          "votesDem": 4753,
+          "votesTotal": 11138
+        },
+        "Kershaw45": {
+          "color": "#BF1D29",
+          "label": "McMaster +26.9",
+          "margin": 26.93,
+          "votesRep": 14033,
+          "votesDem": 8079,
+          "votesTotal": 22418
+        },
+        "Lancaster45": {
+          "color": "#BF1D29",
+          "label": "McMaster +31.6",
+          "margin": 31.61,
+          "votesRep": 22499,
+          "votesDem": 11691,
+          "votesTotal": 34690
+        },
+        "Laurens45": {
+          "color": "#BF1D29",
+          "label": "McMaster +40.9",
+          "margin": 40.92,
+          "votesRep": 13825,
+          "votesDem": 5796,
+          "votesTotal": 19907
+        },
+        "Lee45": {
+          "color": "#1C408C",
+          "label": "Cunningham +18.6",
+          "margin": -18.58,
+          "votesRep": 2117,
+          "votesDem": 3083,
+          "votesTotal": 5257
+        },
+        "Lexington45": {
+          "color": "#BF1D29",
+          "label": "McMaster +31.1",
+          "margin": 31.12,
+          "votesRep": 64608,
+          "votesDem": 33943,
+          "votesTotal": 100141
+        },
+        "Marion45": {
+          "color": "#577CCC",
+          "label": "Cunningham +7.9",
+          "margin": -7.86,
+          "votesRep": 3851,
+          "votesDem": 4508,
+          "votesTotal": 8446
+        },
+        "Marlboro45": {
+          "color": "#949BB3",
+          "label": "Cunningham +0.6",
+          "margin": -0.59,
+          "votesRep": 3215,
+          "votesDem": 3253,
+          "votesTotal": 6550
+        },
+        "McCormick45": {
+          "color": "#BF1D29",
+          "label": "McMaster +22.1",
+          "margin": 22.12,
+          "votesRep": 2766,
+          "votesDem": 1764,
+          "votesTotal": 4581
+        },
+        "Newberry45": {
+          "color": "#BF1D29",
+          "label": "McMaster +32.9",
+          "margin": 32.91,
+          "votesRep": 8417,
+          "votesDem": 4249,
+          "votesTotal": 12840
+        },
+        "Oconee45": {
+          "color": "#BF1D29",
+          "label": "McMaster +51.2",
+          "margin": 51.17,
+          "votesRep": 21671,
+          "votesDem": 7000,
+          "votesTotal": 29027
+        },
+        "Orangeburg45": {
+          "color": "#1C408C",
+          "label": "Cunningham +26.9",
+          "margin": -26.86,
+          "votesRep": 9507,
+          "votesDem": 16490,
+          "votesTotal": 26206
+        },
+        "Pickens45": {
+          "color": "#BF1D29",
+          "label": "McMaster +51.7",
+          "margin": 51.71,
+          "votesRep": 30209,
+          "votesDem": 9615,
+          "votesTotal": 40469
+        },
+        "Richland45": {
+          "color": "#1C408C",
+          "label": "Cunningham +34.7",
+          "margin": -34.71,
+          "votesRep": 41095,
+          "votesDem": 84795,
+          "votesTotal": 127720
+        },
+        "Saluda45": {
+          "color": "#BF1D29",
+          "label": "McMaster +45.0",
+          "margin": 44.96,
+          "votesRep": 4698,
+          "votesDem": 1784,
+          "votesTotal": 6564
+        },
+        "Spartanburg45": {
+          "color": "#BF1D29",
+          "label": "McMaster +33.2",
+          "margin": 33.18,
+          "votesRep": 64042,
+          "votesDem": 32128,
+          "votesTotal": 97477
+        },
+        "Sumter45": {
+          "color": "#577CCC",
+          "label": "Cunningham +5.8",
+          "margin": -5.8,
+          "votesRep": 14304,
+          "votesDem": 16065,
+          "votesTotal": 30703
+        },
+        "Union45": {
+          "color": "#BF1D29",
+          "label": "McMaster +33.4",
+          "margin": 33.44,
+          "votesRep": 5760,
+          "votesDem": 2873,
+          "votesTotal": 8719
+        },
+        "Williamsburg45": {
+          "color": "#1C408C",
+          "label": "Cunningham +20.4",
+          "margin": -20.4,
+          "votesRep": 3864,
+          "votesDem": 5845,
+          "votesTotal": 9804
+        },
+        "York45": {
+          "color": "#BF1D29",
+          "label": "McMaster +23.3",
+          "margin": 23.35,
+          "votesRep": 58552,
+          "votesDem": 36386,
+          "votesTotal": 96631
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Tim Scott",
+      "candDem": "Krystle Matthews",
+      "shortRep": "Scott",
+      "shortDem": "Matthews",
+      "partisan": true,
+      "margin": 25.89,
+      "votesRep": 1070031,
+      "votesDem": 629908,
+      "votesTotal": 1701756,
+      "regions": {
+        "Abbeville45": {
+          "color": "#BF1D29",
+          "label": "Scott +46.1",
+          "margin": 46.09,
+          "votesRep": 6263,
+          "votesDem": 2311,
+          "votesTotal": 8578
+        },
+        "Aiken45": {
+          "color": "#BF1D29",
+          "label": "Scott +37.2",
+          "margin": 37.23,
+          "votesRep": 37687,
+          "votesDem": 17238,
+          "votesTotal": 54975
+        },
+        "Allendale45": {
+          "color": "#1C408C",
+          "label": "Matthews +35.4",
+          "margin": -35.36,
+          "votesRep": 585,
+          "votesDem": 1225,
+          "votesTotal": 1810
+        },
+        "Anderson45": {
+          "color": "#BF1D29",
+          "label": "Scott +54.5",
+          "margin": 54.47,
+          "votesRep": 49091,
+          "votesDem": 14471,
+          "votesTotal": 63634
+        },
+        "Bamberg45": {
+          "color": "#577CCC",
+          "label": "Matthews +8.3",
+          "margin": -8.31,
+          "votesRep": 1821,
+          "votesDem": 2151,
+          "votesTotal": 3972
+        },
+        "Barnwell45": {
+          "color": "#BF1D29",
+          "label": "Scott +21.6",
+          "margin": 21.63,
+          "votesRep": 3815,
+          "votesDem": 2458,
+          "votesTotal": 6277
+        },
+        "Beaufort45": {
+          "color": "#BF1D29",
+          "label": "Scott +26.2",
+          "margin": 26.23,
+          "votesRep": 45307,
+          "votesDem": 26475,
+          "votesTotal": 71827
+        },
+        "Berkeley45": {
+          "color": "#BF1D29",
+          "label": "Scott +25.0",
+          "margin": 25.02,
+          "votesRep": 44418,
+          "votesDem": 26637,
+          "votesTotal": 71130
+        },
+        "Calhoun45": {
+          "color": "#BF1D29",
+          "label": "Scott +22.9",
+          "margin": 22.88,
+          "votesRep": 3442,
+          "votesDem": 2160,
+          "votesTotal": 5612
+        },
+        "Charleston45": {
+          "color": "#FF8B98",
+          "label": "Scott +4.9",
+          "margin": 4.93,
+          "votesRep": 79880,
+          "votesDem": 72369,
+          "votesTotal": 152479
+        },
+        "Cherokee45": {
+          "color": "#BF1D29",
+          "label": "Scott +58.3",
+          "margin": 58.25,
+          "votesRep": 12802,
+          "votesDem": 3377,
+          "votesTotal": 16191
+        },
+        "Chester45": {
+          "color": "#BF1D29",
+          "label": "Scott +24.4",
+          "margin": 24.37,
+          "votesRep": 5954,
+          "votesDem": 3621,
+          "votesTotal": 9579
+        },
+        "Chesterfield45": {
+          "color": "#BF1D29",
+          "label": "Scott +32.4",
+          "margin": 32.42,
+          "votesRep": 8299,
+          "votesDem": 4235,
+          "votesTotal": 12540
+        },
+        "Clarendon45": {
+          "color": "#BF1D29",
+          "label": "Scott +16.0",
+          "margin": 15.96,
+          "votesRep": 6625,
+          "votesDem": 4801,
+          "votesTotal": 11432
+        },
+        "Colleton45": {
+          "color": "#BF1D29",
+          "label": "Scott +24.0",
+          "margin": 23.99,
+          "votesRep": 7748,
+          "votesDem": 4750,
+          "votesTotal": 12508
+        },
+        "Darlington45": {
+          "color": "#BF1D29",
+          "label": "Scott +21.1",
+          "margin": 21.07,
+          "votesRep": 12122,
+          "votesDem": 7902,
+          "votesTotal": 20036
+        },
+        "Dillon45": {
+          "color": "#BF1D29",
+          "label": "Scott +13.0",
+          "margin": 13.01,
+          "votesRep": 4460,
+          "votesDem": 3433,
+          "votesTotal": 7899
+        },
+        "Dorchester45": {
+          "color": "#BF1D29",
+          "label": "Scott +24.6",
+          "margin": 24.61,
+          "votesRep": 30822,
+          "votesDem": 18647,
+          "votesTotal": 49524
+        },
+        "Edgefield45": {
+          "color": "#BF1D29",
+          "label": "Scott +38.9",
+          "margin": 38.89,
+          "votesRep": 6121,
+          "votesDem": 2693,
+          "votesTotal": 8827
+        },
+        "Fairfield45": {
+          "color": "#577CCC",
+          "label": "Matthews +6.7",
+          "margin": -6.69,
+          "votesRep": 3889,
+          "votesDem": 4447,
+          "votesTotal": 8343
+        },
+        "Florence45": {
+          "color": "#BF1D29",
+          "label": "Scott +16.8",
+          "margin": 16.81,
+          "votesRep": 24129,
+          "votesDem": 17185,
+          "votesTotal": 41349
+        },
+        "Georgetown45": {
+          "color": "#BF1D29",
+          "label": "Scott +27.7",
+          "margin": 27.7,
+          "votesRep": 17467,
+          "votesDem": 9889,
+          "votesTotal": 27371
+        },
+        "Greenville45": {
+          "color": "#BF1D29",
+          "label": "Scott +33.2",
+          "margin": 33.22,
+          "votesRep": 118718,
+          "votesDem": 59508,
+          "votesTotal": 178542
+        },
+        "Greenwood45": {
+          "color": "#BF1D29",
+          "label": "Scott +38.0",
+          "margin": 37.96,
+          "votesRep": 15104,
+          "votesDem": 6792,
+          "votesTotal": 21908
+        },
+        "Hampton45": {
+          "color": "#6b7280",
+          "label": "Scott +0.4",
+          "margin": 0.39,
+          "votesRep": 2827,
+          "votesDem": 2805,
+          "votesTotal": 5634
+        },
+        "Horry45": {
+          "color": "#BF1D29",
+          "label": "Scott +45.6",
+          "margin": 45.62,
+          "votesRep": 97061,
+          "votesDem": 36247,
+          "votesTotal": 133374
+        },
+        "Jasper45": {
+          "color": "#BF1D29",
+          "label": "Scott +18.2",
+          "margin": 18.24,
+          "votesRep": 6560,
+          "votesDem": 4536,
+          "votesTotal": 11100
+        },
+        "Kershaw45": {
+          "color": "#BF1D29",
+          "label": "Scott +34.0",
+          "margin": 33.96,
+          "votesRep": 14945,
+          "votesDem": 7367,
+          "votesTotal": 22326
+        },
+        "Lancaster45": {
+          "color": "#BF1D29",
+          "label": "Scott +34.5",
+          "margin": 34.45,
+          "votesRep": 23263,
+          "votesDem": 11341,
+          "votesTotal": 34627
+        },
+        "Laurens45": {
+          "color": "#BF1D29",
+          "label": "Scott +47.1",
+          "margin": 47.1,
+          "votesRep": 14564,
+          "votesDem": 5238,
+          "votesTotal": 19842
+        },
+        "Lee45": {
+          "color": "#1C408C",
+          "label": "Matthews +15.6",
+          "margin": -15.63,
+          "votesRep": 2210,
+          "votesDem": 3029,
+          "votesTotal": 5242
+        },
+        "Lexington45": {
+          "color": "#BF1D29",
+          "label": "Scott +41.6",
+          "margin": 41.62,
+          "votesRep": 70441,
+          "votesDem": 29036,
+          "votesTotal": 99590
+        },
+        "Marion45": {
+          "color": "#577CCC",
+          "label": "Matthews +5.8",
+          "margin": -5.76,
+          "votesRep": 3959,
+          "votesDem": 4443,
+          "votesTotal": 8406
+        },
+        "Marlboro45": {
+          "color": "#FF8B98",
+          "label": "Scott +2.1",
+          "margin": 2.14,
+          "votesRep": 3314,
+          "votesDem": 3175,
+          "votesTotal": 6498
+        },
+        "McCormick45": {
+          "color": "#BF1D29",
+          "label": "Scott +23.4",
+          "margin": 23.45,
+          "votesRep": 2827,
+          "votesDem": 1753,
+          "votesTotal": 4580
+        },
+        "Newberry45": {
+          "color": "#BF1D29",
+          "label": "Scott +40.8",
+          "margin": 40.75,
+          "votesRep": 8971,
+          "votesDem": 3776,
+          "votesTotal": 12757
+        },
+        "Oconee45": {
+          "color": "#BF1D29",
+          "label": "Scott +58.7",
+          "margin": 58.68,
+          "votesRep": 22977,
+          "votesDem": 5984,
+          "votesTotal": 28982
+        },
+        "Orangeburg45": {
+          "color": "#1C408C",
+          "label": "Matthews +23.2",
+          "margin": -23.24,
+          "votesRep": 10030,
+          "votesDem": 16105,
+          "votesTotal": 26151
+        },
+        "Pickens45": {
+          "color": "#BF1D29",
+          "label": "Scott +60.0",
+          "margin": 59.98,
+          "votesRep": 32238,
+          "votesDem": 8064,
+          "votesTotal": 40345
+        },
+        "Richland45": {
+          "color": "#1C408C",
+          "label": "Matthews +25.5",
+          "margin": -25.51,
+          "votesRep": 47100,
+          "votesDem": 79368,
+          "votesTotal": 126705
+        },
+        "Saluda45": {
+          "color": "#BF1D29",
+          "label": "Scott +50.9",
+          "margin": 50.94,
+          "votesRep": 4941,
+          "votesDem": 1606,
+          "votesTotal": 6549
+        },
+        "Spartanburg45": {
+          "color": "#BF1D29",
+          "label": "Scott +40.6",
+          "margin": 40.59,
+          "votesRep": 68284,
+          "votesDem": 28854,
+          "votesTotal": 97249
+        },
+        "Sumter45": {
+          "color": "#8AAFFF",
+          "label": "Matthews +1.1",
+          "margin": -1.12,
+          "votesRep": 15113,
+          "votesDem": 15455,
+          "votesTotal": 30592
+        },
+        "Union45": {
+          "color": "#BF1D29",
+          "label": "Scott +38.8",
+          "margin": 38.81,
+          "votesRep": 6032,
+          "votesDem": 2659,
+          "votesTotal": 8693
+        },
+        "Williamsburg45": {
+          "color": "#1C408C",
+          "label": "Matthews +16.9",
+          "margin": -16.92,
+          "votesRep": 4052,
+          "votesDem": 5702,
+          "votesTotal": 9756
+        },
+        "York45": {
+          "color": "#BF1D29",
+          "label": "Scott +28.2",
+          "margin": 28.19,
+          "votesRep": 61753,
+          "votesDem": 34590,
+          "votesTotal": 96415
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Henry McMaster",
+      "candDem": "James Smith",
+      "shortRep": "McMaster",
+      "shortDem": "Smith",
+      "partisan": true,
+      "margin": 8.04,
+      "votesRep": 921342,
+      "votesDem": 784182,
+      "votesTotal": 1707569,
+      "regions": {
+        "Abbeville45": {
+          "color": "#BF1D29",
+          "label": "McMaster +27.3",
+          "margin": 27.3,
+          "votesRep": 5451,
+          "votesDem": 3113,
+          "votesTotal": 8572
+        },
+        "Aiken45": {
+          "color": "#BF1D29",
+          "label": "McMaster +23.6",
+          "margin": 23.59,
+          "votesRep": 36801,
+          "votesDem": 22754,
+          "votesTotal": 59612
+        },
+        "Allendale45": {
+          "color": "#1C408C",
+          "label": "Smith +58.0",
+          "margin": -58.03,
+          "votesRep": 608,
+          "votesDem": 2289,
+          "votesTotal": 2898
+        },
+        "Anderson45": {
+          "color": "#BF1D29",
+          "label": "McMaster +38.3",
+          "margin": 38.26,
+          "votesRep": 43412,
+          "votesDem": 19386,
+          "votesTotal": 62893
+        },
+        "Bamberg45": {
+          "color": "#1C408C",
+          "label": "Smith +29.1",
+          "margin": -29.13,
+          "votesRep": 1552,
+          "votesDem": 2828,
+          "votesTotal": 4382
+        },
+        "Barnwell45": {
+          "color": "#FF8B98",
+          "label": "McMaster +2.5",
+          "margin": 2.54,
+          "votesRep": 3734,
+          "votesDem": 3549,
+          "votesTotal": 7289
+        },
+        "Beaufort45": {
+          "color": "#FF5865",
+          "label": "McMaster +9.1",
+          "margin": 9.13,
+          "votesRep": 38399,
+          "votesDem": 31971,
+          "votesTotal": 70433
+        },
+        "Berkeley45": {
+          "color": "#FF5865",
+          "label": "McMaster +7.1",
+          "margin": 7.1,
+          "votesRep": 35107,
+          "votesDem": 30452,
+          "votesTotal": 65669
+        },
+        "Calhoun45": {
+          "color": "#949BB3",
+          "label": "Smith +0.6",
+          "margin": -0.64,
+          "votesRep": 2952,
+          "votesDem": 2990,
+          "votesTotal": 5948
+        },
+        "Charleston45": {
+          "color": "#1C408C",
+          "label": "Smith +14.9",
+          "margin": -14.93,
+          "votesRep": 62642,
+          "votesDem": 84634,
+          "votesTotal": 147451
+        },
+        "Cherokee45": {
+          "color": "#BF1D29",
+          "label": "McMaster +40.5",
+          "margin": 40.53,
+          "votesRep": 11730,
+          "votesDem": 4964,
+          "votesTotal": 16711
+        },
+        "Chester45": {
+          "color": "#FF8B98",
+          "label": "McMaster +4.3",
+          "margin": 4.33,
+          "votesRep": 5665,
+          "votesDem": 5195,
+          "votesTotal": 10863
+        },
+        "Chesterfield45": {
+          "color": "#BF1D29",
+          "label": "McMaster +12.4",
+          "margin": 12.44,
+          "votesRep": 6730,
+          "votesDem": 5241,
+          "votesTotal": 11977
+        },
+        "Clarendon45": {
+          "color": "#577CCC",
+          "label": "Smith +5.3",
+          "margin": -5.32,
+          "votesRep": 5722,
+          "votesDem": 6365,
+          "votesTotal": 12090
+        },
+        "Colleton45": {
+          "color": "#FF8B98",
+          "label": "McMaster +4.3",
+          "margin": 4.31,
+          "votesRep": 6891,
+          "votesDem": 6321,
+          "votesTotal": 13226
+        },
+        "Darlington45": {
+          "color": "#FF8B98",
+          "label": "McMaster +1.9",
+          "margin": 1.87,
+          "votesRep": 11871,
+          "votesDem": 11436,
+          "votesTotal": 23315
+        },
+        "Dillon45": {
+          "color": "#8AAFFF",
+          "label": "Smith +1.1",
+          "margin": -1.09,
+          "votesRep": 4052,
+          "votesDem": 4141,
+          "votesTotal": 8194
+        },
+        "Dorchester45": {
+          "color": "#FF5865",
+          "label": "McMaster +8.4",
+          "margin": 8.43,
+          "votesRep": 27563,
+          "votesDem": 23275,
+          "votesTotal": 50896
+        },
+        "Edgefield45": {
+          "color": "#BF1D29",
+          "label": "McMaster +20.1",
+          "margin": 20.13,
+          "votesRep": 5636,
+          "votesDem": 3747,
+          "votesTotal": 9392
+        },
+        "Fairfield45": {
+          "color": "#1C408C",
+          "label": "Smith +26.5",
+          "margin": -26.48,
+          "votesRep": 3409,
+          "votesDem": 5865,
+          "votesTotal": 9279
+        },
+        "Florence45": {
+          "color": "#CF8980",
+          "label": "McMaster +0.9",
+          "margin": 0.91,
+          "votesRep": 22947,
+          "votesDem": 22533,
+          "votesTotal": 45516
+        },
+        "Georgetown45": {
+          "color": "#FF5865",
+          "label": "McMaster +9.0",
+          "margin": 8.99,
+          "votesRep": 14083,
+          "votesDem": 11760,
+          "votesTotal": 25858
+        },
+        "Greenville45": {
+          "color": "#BF1D29",
+          "label": "McMaster +16.0",
+          "margin": 16,
+          "votesRep": 102195,
+          "votesDem": 74007,
+          "votesTotal": 176571
+        },
+        "Greenwood45": {
+          "color": "#BF1D29",
+          "label": "McMaster +20.9",
+          "margin": 20.91,
+          "votesRep": 13973,
+          "votesDem": 9140,
+          "votesTotal": 23147
+        },
+        "Hampton45": {
+          "color": "#1C408C",
+          "label": "Smith +22.6",
+          "margin": -22.59,
+          "votesRep": 2558,
+          "votesDem": 4051,
+          "votesTotal": 6624
+        },
+        "Horry45": {
+          "color": "#BF1D29",
+          "label": "McMaster +30.2",
+          "margin": 30.22,
+          "votesRep": 71985,
+          "votesDem": 38574,
+          "votesTotal": 110638
+        },
+        "Jasper45": {
+          "color": "#577CCC",
+          "label": "Smith +7.0",
+          "margin": -7.02,
+          "votesRep": 4346,
+          "votesDem": 5002,
+          "votesTotal": 9360
+        },
+        "Kershaw45": {
+          "color": "#BF1D29",
+          "label": "McMaster +18.3",
+          "margin": 18.29,
+          "votesRep": 13881,
+          "votesDem": 9588,
+          "votesTotal": 23497
+        },
+        "Lancaster45": {
+          "color": "#BF1D29",
+          "label": "McMaster +19.0",
+          "margin": 19.05,
+          "votesRep": 19554,
+          "votesDem": 13297,
+          "votesTotal": 32872
+        },
+        "Laurens45": {
+          "color": "#BF1D29",
+          "label": "McMaster +27.0",
+          "margin": 27,
+          "votesRep": 12899,
+          "votesDem": 7415,
+          "votesTotal": 20348
+        },
+        "Lee45": {
+          "color": "#1C408C",
+          "label": "Smith +31.7",
+          "margin": -31.68,
+          "votesRep": 2174,
+          "votesDem": 4190,
+          "votesTotal": 6368
+        },
+        "Lexington45": {
+          "color": "#BF1D29",
+          "label": "McMaster +25.8",
+          "margin": 25.85,
+          "votesRep": 62544,
+          "votesDem": 36854,
+          "votesTotal": 99551
+        },
+        "Marion45": {
+          "color": "#1C408C",
+          "label": "Smith +23.9",
+          "margin": -23.88,
+          "votesRep": 3963,
+          "votesDem": 6450,
+          "votesTotal": 10421
+        },
+        "Marlboro45": {
+          "color": "#1C408C",
+          "label": "Smith +18.4",
+          "margin": -18.4,
+          "votesRep": 3166,
+          "votesDem": 4594,
+          "votesTotal": 7767
+        },
+        "McCormick45": {
+          "color": "#FF5865",
+          "label": "McMaster +5.1",
+          "margin": 5.06,
+          "votesRep": 2327,
+          "votesDem": 2103,
+          "votesTotal": 4431
+        },
+        "Newberry45": {
+          "color": "#BF1D29",
+          "label": "McMaster +17.4",
+          "margin": 17.44,
+          "votesRep": 7644,
+          "votesDem": 5374,
+          "votesTotal": 13030
+        },
+        "Oconee45": {
+          "color": "#BF1D29",
+          "label": "McMaster +42.3",
+          "margin": 42.31,
+          "votesRep": 19599,
+          "votesDem": 7945,
+          "votesTotal": 27582
+        },
+        "Orangeburg45": {
+          "color": "#1C408C",
+          "label": "Smith +39.8",
+          "margin": -39.77,
+          "votesRep": 9222,
+          "votesDem": 21402,
+          "votesTotal": 30643
+        },
+        "Pickens45": {
+          "color": "#BF1D29",
+          "label": "McMaster +46.1",
+          "margin": 46.06,
+          "votesRep": 28139,
+          "votesDem": 10393,
+          "votesTotal": 38614
+        },
+        "Richland45": {
+          "color": "#1C408C",
+          "label": "Smith +40.8",
+          "margin": -40.83,
+          "votesRep": 41793,
+          "votesDem": 99476,
+          "votesTotal": 141438
+        },
+        "Saluda45": {
+          "color": "#BF1D29",
+          "label": "McMaster +31.4",
+          "margin": 31.43,
+          "votesRep": 4516,
+          "votesDem": 2356,
+          "votesTotal": 6876
+        },
+        "Spartanburg45": {
+          "color": "#BF1D29",
+          "label": "McMaster +23.4",
+          "margin": 23.42,
+          "votesRep": 58442,
+          "votesDem": 36264,
+          "votesTotal": 94874
+        },
+        "Sumter45": {
+          "color": "#1C408C",
+          "label": "Smith +15.3",
+          "margin": -15.26,
+          "votesRep": 14578,
+          "votesDem": 19830,
+          "votesTotal": 34426
+        },
+        "Union45": {
+          "color": "#BF1D29",
+          "label": "McMaster +16.6",
+          "margin": 16.56,
+          "votesRep": 5208,
+          "votesDem": 3728,
+          "votesTotal": 8943
+        },
+        "Williamsburg45": {
+          "color": "#1C408C",
+          "label": "Smith +34.6",
+          "margin": -34.61,
+          "votesRep": 3774,
+          "votesDem": 7769,
+          "votesTotal": 11554
+        },
+        "York45": {
+          "color": "#BF1D29",
+          "label": "McMaster +17.1",
+          "margin": 17.11,
+          "votesRep": 55905,
+          "votesDem": 39571,
+          "votesTotal": 95530
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Tim Scott",
+      "candDem": "Thomas Dixon",
+      "shortRep": "Scott",
+      "shortDem": "Dixon",
+      "partisan": true,
+      "margin": 27.6,
+      "votesRep": 1241609,
+      "votesDem": 704540,
+      "votesTotal": 1972581,
+      "regions": {
+        "Abbeville45": {
+          "color": "#BF1D29",
+          "label": "Scott +34.0",
+          "margin": 34,
+          "votesRep": 6669,
+          "votesDem": 3285,
+          "votesTotal": 10097
+        },
+        "Aiken45": {
+          "color": "#BF1D29",
+          "label": "Scott +36.9",
+          "margin": 36.92,
+          "votesRep": 47318,
+          "votesDem": 21801,
+          "votesTotal": 70205
+        },
+        "Allendale45": {
+          "color": "#1C408C",
+          "label": "Dixon +51.0",
+          "margin": -50.99,
+          "votesRep": 796,
+          "votesDem": 2452,
+          "votesTotal": 3292
+        },
+        "Anderson45": {
+          "color": "#BF1D29",
+          "label": "Scott +55.4",
+          "margin": 55.43,
+          "votesRep": 57675,
+          "votesDem": 16538,
+          "votesTotal": 75322
+        },
+        "Bamberg45": {
+          "color": "#1C408C",
+          "label": "Dixon +26.4",
+          "margin": -26.38,
+          "votesRep": 2159,
+          "votesDem": 3706,
+          "votesTotal": 5916
+        },
+        "Barnwell45": {
+          "color": "#FF5865",
+          "label": "Scott +9.0",
+          "margin": 9.04,
+          "votesRep": 4793,
+          "votesDem": 3998,
+          "votesTotal": 8903
+        },
+        "Beaufort45": {
+          "color": "#BF1D29",
+          "label": "Scott +31.8",
+          "margin": 31.85,
+          "votesRep": 48125,
+          "votesDem": 24875,
+          "votesTotal": 73657
+        },
+        "Berkeley45": {
+          "color": "#BF1D29",
+          "label": "Scott +36.2",
+          "margin": 36.18,
+          "votesRep": 50423,
+          "votesDem": 23628,
+          "votesTotal": 74951
+        },
+        "Calhoun45": {
+          "color": "#FF5865",
+          "label": "Scott +8.5",
+          "margin": 8.46,
+          "votesRep": 3834,
+          "votesDem": 3236,
+          "votesTotal": 7183
+        },
+        "Charleston45": {
+          "color": "#BF1D29",
+          "label": "Scott +18.2",
+          "margin": 18.16,
+          "votesRep": 97219,
+          "votesDem": 67341,
+          "votesTotal": 166115
+        },
+        "Cherokee45": {
+          "color": "#BF1D29",
+          "label": "Scott +47.1",
+          "margin": 47.09,
+          "votesRep": 14565,
+          "votesDem": 5239,
+          "votesTotal": 20149
+        },
+        "Chester45": {
+          "color": "#FF5865",
+          "label": "Scott +5.4",
+          "margin": 5.43,
+          "votesRep": 6649,
+          "votesDem": 5964,
+          "votesTotal": 12847
+        },
+        "Chesterfield45": {
+          "color": "#BF1D29",
+          "label": "Scott +17.8",
+          "margin": 17.82,
+          "votesRep": 8895,
+          "votesDem": 6204,
+          "votesTotal": 15313
+        },
+        "Clarendon45": {
+          "color": "#FF8B98",
+          "label": "Scott +3.5",
+          "margin": 3.55,
+          "votesRep": 7477,
+          "votesDem": 6965,
+          "votesTotal": 14594
+        },
+        "Colleton45": {
+          "color": "#BF1D29",
+          "label": "Scott +19.5",
+          "margin": 19.53,
+          "votesRep": 9427,
+          "votesDem": 6346,
+          "votesTotal": 16012
+        },
+        "Darlington45": {
+          "color": "#BF1D29",
+          "label": "Scott +10.6",
+          "margin": 10.6,
+          "votesRep": 15261,
+          "votesDem": 12336,
+          "votesTotal": 27904
+        },
+        "Dillon45": {
+          "color": "#BF1D29",
+          "label": "Scott +11.4",
+          "margin": 11.41,
+          "votesRep": 5743,
+          "votesDem": 4567,
+          "votesTotal": 10457
+        },
+        "Dorchester45": {
+          "color": "#BF1D29",
+          "label": "Scott +36.6",
+          "margin": 36.64,
+          "votesRep": 39918,
+          "votesDem": 18510,
+          "votesTotal": 59104
+        },
+        "Edgefield45": {
+          "color": "#BF1D29",
+          "label": "Scott +24.5",
+          "margin": 24.52,
+          "votesRep": 6662,
+          "votesDem": 4038,
+          "votesTotal": 10851
+        },
+        "Fairfield45": {
+          "color": "#1C408C",
+          "label": "Dixon +17.4",
+          "margin": -17.45,
+          "votesRep": 4265,
+          "votesDem": 6068,
+          "votesTotal": 10473
+        },
+        "Florence45": {
+          "color": "#BF1D29",
+          "label": "Scott +15.5",
+          "margin": 15.46,
+          "votesRep": 31449,
+          "votesDem": 23026,
+          "votesTotal": 55011
+        },
+        "Georgetown45": {
+          "color": "#BF1D29",
+          "label": "Scott +24.7",
+          "margin": 24.71,
+          "votesRep": 18737,
+          "votesDem": 11311,
+          "votesTotal": 30298
+        },
+        "Greenville45": {
+          "color": "#BF1D29",
+          "label": "Scott +41.2",
+          "margin": 41.21,
+          "votesRep": 141731,
+          "votesDem": 59012,
+          "votesTotal": 203503
+        },
+        "Greenwood45": {
+          "color": "#BF1D29",
+          "label": "Scott +31.8",
+          "margin": 31.82,
+          "votesRep": 17568,
+          "votesDem": 9086,
+          "votesTotal": 26974
+        },
+        "Hampton45": {
+          "color": "#1C408C",
+          "label": "Dixon +16.1",
+          "margin": -16.1,
+          "votesRep": 3265,
+          "votesDem": 4518,
+          "votesTotal": 7912
+        },
+        "Horry45": {
+          "color": "#BF1D29",
+          "label": "Scott +48.2",
+          "margin": 48.19,
+          "votesRep": 90641,
+          "votesDem": 31688,
+          "votesTotal": 123784
+        },
+        "Jasper45": {
+          "color": "#FF8B98",
+          "label": "Scott +3.6",
+          "margin": 3.56,
+          "votesRep": 5152,
+          "votesDem": 4798,
+          "votesTotal": 10102
+        },
+        "Kershaw45": {
+          "color": "#BF1D29",
+          "label": "Scott +34.9",
+          "margin": 34.88,
+          "votesRep": 17949,
+          "votesDem": 8666,
+          "votesTotal": 27076
+        },
+        "Lancaster45": {
+          "color": "#BF1D29",
+          "label": "Scott +31.5",
+          "margin": 31.49,
+          "votesRep": 23199,
+          "votesDem": 12088,
+          "votesTotal": 35873
+        },
+        "Laurens45": {
+          "color": "#BF1D29",
+          "label": "Scott +42.4",
+          "margin": 42.45,
+          "votesRep": 17051,
+          "votesDem": 6889,
+          "votesTotal": 24432
+        },
+        "Lee45": {
+          "color": "#1C408C",
+          "label": "Dixon +27.6",
+          "margin": -27.6,
+          "votesRep": 2727,
+          "votesDem": 4806,
+          "votesTotal": 7634
+        },
+        "Lexington45": {
+          "color": "#BF1D29",
+          "label": "Scott +52.1",
+          "margin": 52.07,
+          "votesRep": 85385,
+          "votesDem": 26910,
+          "votesTotal": 114573
+        },
+        "Marion45": {
+          "color": "#1C408C",
+          "label": "Dixon +15.6",
+          "margin": -15.61,
+          "votesRep": 5500,
+          "votesDem": 7535,
+          "votesTotal": 13155
+        },
+        "Marlboro45": {
+          "color": "#1C408C",
+          "label": "Dixon +13.0",
+          "margin": -12.97,
+          "votesRep": 4132,
+          "votesDem": 5364,
+          "votesTotal": 9602
+        },
+        "McCormick45": {
+          "color": "#BF1D29",
+          "label": "Scott +11.6",
+          "margin": 11.64,
+          "votesRep": 2699,
+          "votesDem": 2136,
+          "votesTotal": 4882
+        },
+        "Newberry45": {
+          "color": "#BF1D29",
+          "label": "Scott +30.8",
+          "margin": 30.84,
+          "votesRep": 10048,
+          "votesDem": 5311,
+          "votesTotal": 15664
+        },
+        "Oconee45": {
+          "color": "#BF1D29",
+          "label": "Scott +62.3",
+          "margin": 62.31,
+          "votesRep": 25248,
+          "votesDem": 5863,
+          "votesTotal": 31561
+        },
+        "Orangeburg45": {
+          "color": "#1C408C",
+          "label": "Dixon +33.9",
+          "margin": -33.85,
+          "votesRep": 12256,
+          "votesDem": 24800,
+          "votesTotal": 37401
+        },
+        "Pickens45": {
+          "color": "#BF1D29",
+          "label": "Scott +66.2",
+          "margin": 66.17,
+          "votesRep": 37726,
+          "votesDem": 7681,
+          "votesTotal": 46137
+        },
+        "Richland45": {
+          "color": "#1C408C",
+          "label": "Dixon +15.3",
+          "margin": -15.33,
+          "votesRep": 66736,
+          "votesDem": 90901,
+          "votesTotal": 159455
+        },
+        "Saluda45": {
+          "color": "#BF1D29",
+          "label": "Scott +37.7",
+          "margin": 37.75,
+          "votesRep": 5443,
+          "votesDem": 2460,
+          "votesTotal": 8040
+        },
+        "Spartanburg45": {
+          "color": "#BF1D29",
+          "label": "Scott +42.4",
+          "margin": 42.38,
+          "votesRep": 79487,
+          "votesDem": 32171,
+          "votesTotal": 113508
+        },
+        "Sumter45": {
+          "color": "#577CCC",
+          "label": "Dixon +6.0",
+          "margin": -6.02,
+          "votesRep": 19462,
+          "votesDem": 21957,
+          "votesTotal": 41893
+        },
+        "Union45": {
+          "color": "#BF1D29",
+          "label": "Scott +25.3",
+          "margin": 25.27,
+          "votesRep": 6727,
+          "votesDem": 4013,
+          "votesTotal": 10995
+        },
+        "Williamsburg45": {
+          "color": "#1C408C",
+          "label": "Dixon +26.8",
+          "margin": -26.81,
+          "votesRep": 5138,
+          "votesDem": 8902,
+          "votesTotal": 14149
+        },
+        "York45": {
+          "color": "#BF1D29",
+          "label": "Scott +31.5",
+          "margin": 31.52,
+          "votesRep": 68280,
+          "votesDem": 35551,
+          "votesTotal": 105622
+        }
+      }
+    }
+  ]
+}

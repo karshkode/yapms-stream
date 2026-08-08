@@ -1,0 +1,2458 @@
+{
+  "stateFips": "05",
+  "stateName": "Arkansas",
+  "races": [
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Sarah Huckabee Sanders",
+      "candDem": "Chris Jones",
+      "shortRep": "Sanders",
+      "shortDem": "Jones",
+      "partisan": true,
+      "margin": 28.48,
+      "votesRep": 569213,
+      "votesDem": 316827,
+      "votesTotal": 902671,
+      "regions": {
+        "Arkansas05": {
+          "color": "#BF1D29",
+          "label": "Sanders +44.4",
+          "margin": 44.4,
+          "votesRep": 3197,
+          "votesDem": 1231,
+          "votesTotal": 4489
+        },
+        "Ashley05": {
+          "color": "#BF1D29",
+          "label": "Sanders +48.6",
+          "margin": 48.65,
+          "votesRep": 4012,
+          "votesDem": 1386,
+          "votesTotal": 5461
+        },
+        "Baxter05": {
+          "color": "#BF1D29",
+          "label": "Sanders +57.2",
+          "margin": 57.21,
+          "votesRep": 12098,
+          "votesDem": 3293,
+          "votesTotal": 15668
+        },
+        "Benton05": {
+          "color": "#BF1D29",
+          "label": "Sanders +25.8",
+          "margin": 25.77,
+          "votesRep": 55907,
+          "votesDem": 33000,
+          "votesTotal": 90897
+        },
+        "Boone05": {
+          "color": "#BF1D29",
+          "label": "Sanders +62.7",
+          "margin": 62.74,
+          "votesRep": 10127,
+          "votesDem": 2319,
+          "votesTotal": 12751
+        },
+        "Bradley05": {
+          "color": "#BF1D29",
+          "label": "Sanders +35.2",
+          "margin": 35.17,
+          "votesRep": 1764,
+          "votesDem": 846,
+          "votesTotal": 2636
+        },
+        "Calhoun05": {
+          "color": "#BF1D29",
+          "label": "Sanders +58.8",
+          "margin": 58.78,
+          "votesRep": 1248,
+          "votesDem": 324,
+          "votesTotal": 1589
+        },
+        "Carroll05": {
+          "color": "#BF1D29",
+          "label": "Sanders +28.6",
+          "margin": 28.63,
+          "votesRep": 5692,
+          "votesDem": 3158,
+          "votesTotal": 9040
+        },
+        "Chicot05": {
+          "color": "#577CCC",
+          "label": "Jones +5.4",
+          "margin": -5.35,
+          "votesRep": 1601,
+          "votesDem": 1782,
+          "votesTotal": 3406
+        },
+        "Clark05": {
+          "color": "#BF1D29",
+          "label": "Sanders +14.8",
+          "margin": 14.85,
+          "votesRep": 3492,
+          "votesDem": 2589,
+          "votesTotal": 6167
+        },
+        "Clay05": {
+          "color": "#BF1D29",
+          "label": "Sanders +58.6",
+          "margin": 58.63,
+          "votesRep": 3060,
+          "votesDem": 798,
+          "votesTotal": 3944
+        },
+        "Cleburne05": {
+          "color": "#BF1D29",
+          "label": "Sanders +67.4",
+          "margin": 67.38,
+          "votesRep": 8252,
+          "votesDem": 1608,
+          "votesTotal": 10042
+        },
+        "Cleveland05": {
+          "color": "#BF1D29",
+          "label": "Sanders +65.6",
+          "margin": 65.59,
+          "votesRep": 2305,
+          "votesDem": 479,
+          "votesTotal": 2815
+        },
+        "Columbia05": {
+          "color": "#BF1D29",
+          "label": "Sanders +35.5",
+          "margin": 35.47,
+          "votesRep": 4066,
+          "votesDem": 1937,
+          "votesTotal": 6087
+        },
+        "Conway05": {
+          "color": "#BF1D29",
+          "label": "Sanders +34.6",
+          "margin": 34.63,
+          "votesRep": 4481,
+          "votesDem": 2176,
+          "votesTotal": 6764
+        },
+        "Craighead05": {
+          "color": "#BF1D29",
+          "label": "Sanders +33.9",
+          "margin": 33.85,
+          "votesRep": 18171,
+          "votesDem": 8980,
+          "votesTotal": 27712
+        },
+        "Crawford05": {
+          "color": "#BF1D29",
+          "label": "Sanders +57.0",
+          "margin": 57.05,
+          "votesRep": 13814,
+          "votesDem": 3778,
+          "votesTotal": 17959
+        },
+        "Crittenden05": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": 0.01,
+          "votesRep": 5295,
+          "votesDem": 5294,
+          "votesTotal": 10752
+        },
+        "Cross05": {
+          "color": "#BF1D29",
+          "label": "Sanders +51.5",
+          "margin": 51.55,
+          "votesRep": 3672,
+          "votesDem": 1174,
+          "votesTotal": 4935
+        },
+        "Dallas05": {
+          "color": "#BF1D29",
+          "label": "Sanders +29.0",
+          "margin": 29.04,
+          "votesRep": 1331,
+          "votesDem": 732,
+          "votesTotal": 2090
+        },
+        "Desha05": {
+          "color": "#FF8B98",
+          "label": "Sanders +4.8",
+          "margin": 4.78,
+          "votesRep": 1611,
+          "votesDem": 1464,
+          "votesTotal": 3110
+        },
+        "Drew05": {
+          "color": "#BF1D29",
+          "label": "Sanders +28.7",
+          "margin": 28.74,
+          "votesRep": 3380,
+          "votesDem": 1871,
+          "votesTotal": 5312
+        },
+        "Faulkner05": {
+          "color": "#BF1D29",
+          "label": "Sanders +28.5",
+          "margin": 28.47,
+          "votesRep": 25382,
+          "votesDem": 14131,
+          "votesTotal": 40335
+        },
+        "Franklin05": {
+          "color": "#BF1D29",
+          "label": "Sanders +54.6",
+          "margin": 54.59,
+          "votesRep": 4130,
+          "votesDem": 1213,
+          "votesTotal": 5443
+        },
+        "Fulton05": {
+          "color": "#BF1D29",
+          "label": "Sanders +57.0",
+          "margin": 57,
+          "votesRep": 3045,
+          "votesDem": 834,
+          "votesTotal": 3984
+        },
+        "Garland05": {
+          "color": "#BF1D29",
+          "label": "Sanders +35.9",
+          "margin": 35.86,
+          "votesRep": 22225,
+          "votesDem": 10493,
+          "votesTotal": 33340
+        },
+        "Grant05": {
+          "color": "#BF1D29",
+          "label": "Sanders +65.8",
+          "margin": 65.79,
+          "votesRep": 5112,
+          "votesDem": 1055,
+          "votesTotal": 6287
+        },
+        "Greene05": {
+          "color": "#BF1D29",
+          "label": "Sanders +58.8",
+          "margin": 58.8,
+          "votesRep": 8982,
+          "votesDem": 2330,
+          "votesTotal": 11562
+        },
+        "Hempstead05": {
+          "color": "#BF1D29",
+          "label": "Sanders +43.1",
+          "margin": 43.12,
+          "votesRep": 3311,
+          "votesDem": 1316,
+          "votesTotal": 4685
+        },
+        "Hot Spring05": {
+          "color": "#BF1D29",
+          "label": "Sanders +48.2",
+          "margin": 48.19,
+          "votesRep": 7230,
+          "votesDem": 2528,
+          "votesTotal": 9939
+        },
+        "Howard05": {
+          "color": "#BF1D29",
+          "label": "Sanders +44.1",
+          "margin": 44.13,
+          "votesRep": 2580,
+          "votesDem": 1000,
+          "votesTotal": 3642
+        },
+        "Independence05": {
+          "color": "#BF1D29",
+          "label": "Sanders +55.4",
+          "margin": 55.43,
+          "votesRep": 8077,
+          "votesDem": 2316,
+          "votesTotal": 10585
+        },
+        "Izard05": {
+          "color": "#BF1D29",
+          "label": "Sanders +61.7",
+          "margin": 61.71,
+          "votesRep": 3636,
+          "votesDem": 861,
+          "votesTotal": 4597
+        },
+        "Jackson05": {
+          "color": "#BF1D29",
+          "label": "Sanders +44.2",
+          "margin": 44.23,
+          "votesRep": 2860,
+          "votesDem": 1106,
+          "votesTotal": 4037
+        },
+        "Jefferson05": {
+          "color": "#1C408C",
+          "label": "Jones +20.7",
+          "margin": -20.72,
+          "votesRep": 6874,
+          "votesDem": 10466,
+          "votesTotal": 17497
+        },
+        "Johnson05": {
+          "color": "#BF1D29",
+          "label": "Sanders +47.8",
+          "margin": 47.8,
+          "votesRep": 5071,
+          "votesDem": 1791,
+          "votesTotal": 7010
+        },
+        "Lafayette05": {
+          "color": "#BF1D29",
+          "label": "Sanders +31.2",
+          "margin": 31.22,
+          "votesRep": 1286,
+          "votesDem": 674,
+          "votesTotal": 1982
+        },
+        "Lawrence05": {
+          "color": "#BF1D29",
+          "label": "Sanders +61.3",
+          "margin": 61.33,
+          "votesRep": 3655,
+          "votesDem": 876,
+          "votesTotal": 4642
+        },
+        "Lee05": {
+          "color": "#8AAFFF",
+          "label": "Jones +1.5",
+          "margin": -1.45,
+          "votesRep": 983,
+          "votesDem": 1012,
+          "votesTotal": 2017
+        },
+        "Lincoln05": {
+          "color": "#BF1D29",
+          "label": "Sanders +46.8",
+          "margin": 46.81,
+          "votesRep": 2015,
+          "votesDem": 730,
+          "votesTotal": 2777
+        },
+        "Little River05": {
+          "color": "#BF1D29",
+          "label": "Sanders +55.4",
+          "margin": 55.36,
+          "votesRep": 2906,
+          "votesDem": 835,
+          "votesTotal": 3815
+        },
+        "Logan05": {
+          "color": "#BF1D29",
+          "label": "Sanders +58.7",
+          "margin": 58.65,
+          "votesRep": 4854,
+          "votesDem": 1265,
+          "votesTotal": 6258
+        },
+        "Lonoke05": {
+          "color": "#BF1D29",
+          "label": "Sanders +51.7",
+          "margin": 51.69,
+          "votesRep": 16603,
+          "votesDem": 5287,
+          "votesTotal": 22370
+        },
+        "Madison05": {
+          "color": "#BF1D29",
+          "label": "Sanders +54.3",
+          "margin": 54.3,
+          "votesRep": 4403,
+          "votesDem": 1304,
+          "votesTotal": 5817
+        },
+        "Marion05": {
+          "color": "#BF1D29",
+          "label": "Sanders +61.8",
+          "margin": 61.83,
+          "votesRep": 4744,
+          "votesDem": 1119,
+          "votesTotal": 6002
+        },
+        "Miller05": {
+          "color": "#BF1D29",
+          "label": "Sanders +54.5",
+          "margin": 54.52,
+          "votesRep": 8571,
+          "votesDem": 2523,
+          "votesTotal": 11268
+        },
+        "Mississippi05": {
+          "color": "#BF1D29",
+          "label": "Sanders +27.2",
+          "margin": 27.19,
+          "votesRep": 5401,
+          "votesDem": 3092,
+          "votesTotal": 8693
+        },
+        "Monroe05": {
+          "color": "#BF1D29",
+          "label": "Sanders +11.6",
+          "margin": 11.58,
+          "votesRep": 1233,
+          "votesDem": 977,
+          "votesTotal": 2241
+        },
+        "Montgomery05": {
+          "color": "#BF1D29",
+          "label": "Sanders +62.1",
+          "margin": 62.09,
+          "votesRep": 2471,
+          "votesDem": 578,
+          "votesTotal": 3121
+        },
+        "Nevada05": {
+          "color": "#BF1D29",
+          "label": "Sanders +36.0",
+          "margin": 36.01,
+          "votesRep": 1658,
+          "votesDem": 780,
+          "votesTotal": 2464
+        },
+        "Newton05": {
+          "color": "#BF1D29",
+          "label": "Sanders +62.8",
+          "margin": 62.83,
+          "votesRep": 2440,
+          "votesDem": 557,
+          "votesTotal": 3080
+        },
+        "Ouachita05": {
+          "color": "#BF1D29",
+          "label": "Sanders +17.3",
+          "margin": 17.35,
+          "votesRep": 4065,
+          "votesDem": 2863,
+          "votesTotal": 7023
+        },
+        "Perry05": {
+          "color": "#BF1D29",
+          "label": "Sanders +53.5",
+          "margin": 53.47,
+          "votesRep": 2873,
+          "votesDem": 871,
+          "votesTotal": 3818
+        },
+        "Pike05": {
+          "color": "#BF1D29",
+          "label": "Sanders +69.9",
+          "margin": 69.94,
+          "votesRep": 3121,
+          "votesDem": 552,
+          "votesTotal": 3724
+        },
+        "Poinsett05": {
+          "color": "#BF1D29",
+          "label": "Sanders +61.4",
+          "margin": 61.37,
+          "votesRep": 4386,
+          "votesDem": 1050,
+          "votesTotal": 5569
+        },
+        "Polk05": {
+          "color": "#BF1D29",
+          "label": "Sanders +66.8",
+          "margin": 66.76,
+          "votesRep": 5634,
+          "votesDem": 1123,
+          "votesTotal": 6907
+        },
+        "Pope05": {
+          "color": "#BF1D29",
+          "label": "Sanders +49.1",
+          "margin": 49.06,
+          "votesRep": 12928,
+          "votesDem": 4418,
+          "votesTotal": 17630
+        },
+        "Prairie05": {
+          "color": "#BF1D29",
+          "label": "Sanders +65.0",
+          "margin": 65.04,
+          "votesRep": 2167,
+          "votesDem": 459,
+          "votesTotal": 2668
+        },
+        "Pulaski05": {
+          "color": "#1C408C",
+          "label": "Jones +23.2",
+          "margin": -23.17,
+          "votesRep": 47027,
+          "votesDem": 75393,
+          "votesTotal": 124153
+        },
+        "Randolph05": {
+          "color": "#BF1D29",
+          "label": "Sanders +60.7",
+          "margin": 60.74,
+          "votesRep": 4201,
+          "votesDem": 1026,
+          "votesTotal": 5357
+        },
+        "Saline05": {
+          "color": "#BF1D29",
+          "label": "Sanders +40.9",
+          "margin": 40.89,
+          "votesRep": 29872,
+          "votesDem": 12532,
+          "votesTotal": 43170
+        },
+        "Scott05": {
+          "color": "#BF1D29",
+          "label": "Sanders +72.0",
+          "margin": 71.98,
+          "votesRep": 2498,
+          "votesDem": 407,
+          "votesTotal": 2961
+        },
+        "Searcy05": {
+          "color": "#BF1D29",
+          "label": "Sanders +68.3",
+          "margin": 68.26,
+          "votesRep": 2608,
+          "votesDem": 492,
+          "votesTotal": 3170
+        },
+        "Sebastian05": {
+          "color": "#BF1D29",
+          "label": "Sanders +36.2",
+          "margin": 36.25,
+          "votesRep": 22939,
+          "votesDem": 10734,
+          "votesTotal": 34376
+        },
+        "Sevier05": {
+          "color": "#BF1D29",
+          "label": "Sanders +56.6",
+          "margin": 56.55,
+          "votesRep": 2825,
+          "votesDem": 784,
+          "votesTotal": 3663
+        },
+        "Sharp05": {
+          "color": "#BF1D29",
+          "label": "Sanders +64.0",
+          "margin": 64.03,
+          "votesRep": 4816,
+          "votesDem": 1056,
+          "votesTotal": 6047
+        },
+        "St. Francis05": {
+          "color": "#949BB3",
+          "label": "Jones +1.0",
+          "margin": -1,
+          "votesRep": 2477,
+          "votesDem": 2527,
+          "votesTotal": 5082
+        },
+        "Stone05": {
+          "color": "#BF1D29",
+          "label": "Sanders +57.3",
+          "margin": 57.25,
+          "votesRep": 3936,
+          "votesDem": 1070,
+          "votesTotal": 5109
+        },
+        "Union05": {
+          "color": "#BF1D29",
+          "label": "Sanders +35.9",
+          "margin": 35.86,
+          "votesRep": 7826,
+          "votesDem": 3695,
+          "votesTotal": 11693
+        },
+        "Van Buren05": {
+          "color": "#BF1D29",
+          "label": "Sanders +56.6",
+          "margin": 56.55,
+          "votesRep": 4810,
+          "votesDem": 1335,
+          "votesTotal": 6273
+        },
+        "Washington05": {
+          "color": "#949BB3",
+          "label": "Jones +0.7",
+          "margin": -0.7,
+          "votesRep": 34361,
+          "votesDem": 34842,
+          "votesTotal": 70656
+        },
+        "White05": {
+          "color": "#BF1D29",
+          "label": "Sanders +59.2",
+          "margin": 59.22,
+          "votesRep": 18010,
+          "votesDem": 4613,
+          "votesTotal": 23125
+        },
+        "Woodruff05": {
+          "color": "#BF1D29",
+          "label": "Sanders +31.9",
+          "margin": 31.93,
+          "votesRep": 1347,
+          "votesDem": 695,
+          "votesTotal": 2092
+        },
+        "Yell05": {
+          "color": "#BF1D29",
+          "label": "Sanders +60.6",
+          "margin": 60.65,
+          "votesRep": 4172,
+          "votesDem": 1022,
+          "votesTotal": 5289
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "John Boozman",
+      "candDem": "Natalie James",
+      "shortRep": "Boozman",
+      "shortDem": "James",
+      "partisan": true,
+      "margin": 36,
+      "votesRep": 590508,
+      "votesDem": 277906,
+      "votesTotal": 897030,
+      "regions": {
+        "Arkansas05": {
+          "color": "#BF1D29",
+          "label": "Boozman +53.5",
+          "margin": 53.51,
+          "votesRep": 3342,
+          "votesDem": 1012,
+          "votesTotal": 4459
+        },
+        "Ashley05": {
+          "color": "#BF1D29",
+          "label": "Boozman +53.3",
+          "margin": 53.27,
+          "votesRep": 4103,
+          "votesDem": 1251,
+          "votesTotal": 5434
+        },
+        "Baxter05": {
+          "color": "#BF1D29",
+          "label": "Boozman +61.2",
+          "margin": 61.18,
+          "votesRep": 12207,
+          "votesDem": 2940,
+          "votesTotal": 15590
+        },
+        "Benton05": {
+          "color": "#BF1D29",
+          "label": "Boozman +35.1",
+          "margin": 35.06,
+          "votesRep": 58938,
+          "votesDem": 28336,
+          "votesTotal": 90562
+        },
+        "Boone05": {
+          "color": "#BF1D29",
+          "label": "Boozman +67.4",
+          "margin": 67.43,
+          "votesRep": 10174,
+          "votesDem": 1979,
+          "votesTotal": 12686
+        },
+        "Bradley05": {
+          "color": "#BF1D29",
+          "label": "Boozman +42.8",
+          "margin": 42.83,
+          "votesRep": 1824,
+          "votesDem": 730,
+          "votesTotal": 2617
+        },
+        "Calhoun05": {
+          "color": "#BF1D29",
+          "label": "Boozman +63.7",
+          "margin": 63.74,
+          "votesRep": 1269,
+          "votesDem": 281,
+          "votesTotal": 1583
+        },
+        "Carroll05": {
+          "color": "#BF1D29",
+          "label": "Boozman +34.8",
+          "margin": 34.84,
+          "votesRep": 5867,
+          "votesDem": 2835,
+          "votesTotal": 9029
+        },
+        "Chicot05": {
+          "color": "#FF8B98",
+          "label": "Boozman +1.0",
+          "margin": 1.02,
+          "votesRep": 1687,
+          "votesDem": 1653,
+          "votesTotal": 3381
+        },
+        "Clark05": {
+          "color": "#BF1D29",
+          "label": "Boozman +23.8",
+          "margin": 23.82,
+          "votesRep": 3685,
+          "votesDem": 2267,
+          "votesTotal": 6105
+        },
+        "Clay05": {
+          "color": "#BF1D29",
+          "label": "Boozman +63.0",
+          "margin": 63.05,
+          "votesRep": 3080,
+          "votesDem": 698,
+          "votesTotal": 3917
+        },
+        "Cleburne05": {
+          "color": "#BF1D29",
+          "label": "Boozman +72.3",
+          "margin": 72.27,
+          "votesRep": 8336,
+          "votesDem": 1342,
+          "votesTotal": 10026
+        },
+        "Cleveland05": {
+          "color": "#BF1D29",
+          "label": "Boozman +72.1",
+          "margin": 72.09,
+          "votesRep": 2343,
+          "votesDem": 380,
+          "votesTotal": 2788
+        },
+        "Columbia05": {
+          "color": "#BF1D29",
+          "label": "Boozman +40.9",
+          "margin": 40.9,
+          "votesRep": 4177,
+          "votesDem": 1752,
+          "votesTotal": 6053
+        },
+        "Conway05": {
+          "color": "#BF1D29",
+          "label": "Boozman +42.9",
+          "margin": 42.93,
+          "votesRep": 4648,
+          "votesDem": 1856,
+          "votesTotal": 6716
+        },
+        "Craighead05": {
+          "color": "#BF1D29",
+          "label": "Boozman +40.7",
+          "margin": 40.69,
+          "votesRep": 18697,
+          "votesDem": 7882,
+          "votesTotal": 27583
+        },
+        "Crawford05": {
+          "color": "#BF1D29",
+          "label": "Boozman +63.3",
+          "margin": 63.28,
+          "votesRep": 13894,
+          "votesDem": 3125,
+          "votesTotal": 17679
+        },
+        "Crittenden05": {
+          "color": "#FF8B98",
+          "label": "Boozman +4.2",
+          "margin": 4.19,
+          "votesRep": 5436,
+          "votesDem": 4999,
+          "votesTotal": 10645
+        },
+        "Cross05": {
+          "color": "#BF1D29",
+          "label": "Boozman +54.9",
+          "margin": 54.91,
+          "votesRep": 3707,
+          "votesDem": 1079,
+          "votesTotal": 4905
+        },
+        "Dallas05": {
+          "color": "#BF1D29",
+          "label": "Boozman +36.9",
+          "margin": 36.87,
+          "votesRep": 1366,
+          "votesDem": 630,
+          "votesTotal": 2054
+        },
+        "Desha05": {
+          "color": "#BF1D29",
+          "label": "Boozman +11.9",
+          "margin": 11.93,
+          "votesRep": 1647,
+          "votesDem": 1296,
+          "votesTotal": 3014
+        },
+        "Drew05": {
+          "color": "#BF1D29",
+          "label": "Boozman +36.7",
+          "margin": 36.71,
+          "votesRep": 3525,
+          "votesDem": 1632,
+          "votesTotal": 5246
+        },
+        "Faulkner05": {
+          "color": "#BF1D29",
+          "label": "Boozman +36.3",
+          "margin": 36.29,
+          "votesRep": 26218,
+          "votesDem": 12257,
+          "votesTotal": 40001
+        },
+        "Franklin05": {
+          "color": "#BF1D29",
+          "label": "Boozman +65.5",
+          "margin": 65.53,
+          "votesRep": 4284,
+          "votesDem": 892,
+          "votesTotal": 5373
+        },
+        "Fulton05": {
+          "color": "#BF1D29",
+          "label": "Boozman +64.2",
+          "margin": 64.16,
+          "votesRep": 3119,
+          "votesDem": 681,
+          "votesTotal": 3968
+        },
+        "Garland05": {
+          "color": "#BF1D29",
+          "label": "Boozman +42.3",
+          "margin": 42.32,
+          "votesRep": 22606,
+          "votesDem": 9162,
+          "votesTotal": 32954
+        },
+        "Grant05": {
+          "color": "#BF1D29",
+          "label": "Boozman +71.7",
+          "margin": 71.67,
+          "votesRep": 5205,
+          "votesDem": 859,
+          "votesTotal": 6278
+        },
+        "Greene05": {
+          "color": "#BF1D29",
+          "label": "Boozman +63.4",
+          "margin": 63.4,
+          "votesRep": 9050,
+          "votesDem": 2027,
+          "votesTotal": 11506
+        },
+        "Hempstead05": {
+          "color": "#BF1D29",
+          "label": "Boozman +47.3",
+          "margin": 47.34,
+          "votesRep": 3338,
+          "votesDem": 1193,
+          "votesTotal": 4636
+        },
+        "Hot Spring05": {
+          "color": "#BF1D29",
+          "label": "Boozman +55.0",
+          "margin": 54.96,
+          "votesRep": 7360,
+          "votesDem": 2139,
+          "votesTotal": 9866
+        },
+        "Howard05": {
+          "color": "#BF1D29",
+          "label": "Boozman +51.2",
+          "margin": 51.2,
+          "votesRep": 2668,
+          "votesDem": 861,
+          "votesTotal": 3613
+        },
+        "Independence05": {
+          "color": "#BF1D29",
+          "label": "Boozman +63.8",
+          "margin": 63.81,
+          "votesRep": 8325,
+          "votesDem": 1839,
+          "votesTotal": 10521
+        },
+        "Izard05": {
+          "color": "#BF1D29",
+          "label": "Boozman +67.3",
+          "margin": 67.29,
+          "votesRep": 3687,
+          "votesDem": 721,
+          "votesTotal": 4566
+        },
+        "Jackson05": {
+          "color": "#BF1D29",
+          "label": "Boozman +49.3",
+          "margin": 49.35,
+          "votesRep": 2913,
+          "votesDem": 988,
+          "votesTotal": 4012
+        },
+        "Jefferson05": {
+          "color": "#1C408C",
+          "label": "James +10.5",
+          "margin": -10.46,
+          "votesRep": 7570,
+          "votesDem": 9339,
+          "votesTotal": 17216
+        },
+        "Johnson05": {
+          "color": "#BF1D29",
+          "label": "Boozman +56.8",
+          "margin": 56.77,
+          "votesRep": 5287,
+          "votesDem": 1458,
+          "votesTotal": 6987
+        },
+        "Lafayette05": {
+          "color": "#BF1D29",
+          "label": "Boozman +33.9",
+          "margin": 33.93,
+          "votesRep": 1281,
+          "votesDem": 632,
+          "votesTotal": 1956
+        },
+        "Lawrence05": {
+          "color": "#BF1D29",
+          "label": "Boozman +67.0",
+          "margin": 67.02,
+          "votesRep": 3692,
+          "votesDem": 729,
+          "votesTotal": 4576
+        },
+        "Lee05": {
+          "color": "#FF8B98",
+          "label": "Boozman +1.1",
+          "margin": 1.14,
+          "votesRep": 978,
+          "votesDem": 956,
+          "votesTotal": 1988
+        },
+        "Lincoln05": {
+          "color": "#BF1D29",
+          "label": "Boozman +53.4",
+          "margin": 53.44,
+          "votesRep": 2040,
+          "votesDem": 619,
+          "votesTotal": 2733
+        },
+        "Little River05": {
+          "color": "#BF1D29",
+          "label": "Boozman +56.6",
+          "margin": 56.6,
+          "votesRep": 2879,
+          "votesDem": 798,
+          "votesTotal": 3789
+        },
+        "Logan05": {
+          "color": "#BF1D29",
+          "label": "Boozman +63.6",
+          "margin": 63.62,
+          "votesRep": 4920,
+          "votesDem": 1094,
+          "votesTotal": 6228
+        },
+        "Lonoke05": {
+          "color": "#BF1D29",
+          "label": "Boozman +58.3",
+          "margin": 58.32,
+          "votesRep": 17007,
+          "votesDem": 4477,
+          "votesTotal": 22336
+        },
+        "Madison05": {
+          "color": "#BF1D29",
+          "label": "Boozman +60.6",
+          "margin": 60.58,
+          "votesRep": 4489,
+          "votesDem": 1102,
+          "votesTotal": 5775
+        },
+        "Marion05": {
+          "color": "#BF1D29",
+          "label": "Boozman +64.9",
+          "margin": 64.88,
+          "votesRep": 4766,
+          "votesDem": 1015,
+          "votesTotal": 5984
+        },
+        "Miller05": {
+          "color": "#BF1D29",
+          "label": "Boozman +55.5",
+          "margin": 55.55,
+          "votesRep": 8475,
+          "votesDem": 2422,
+          "votesTotal": 11183
+        },
+        "Mississippi05": {
+          "color": "#BF1D29",
+          "label": "Boozman +30.7",
+          "margin": 30.75,
+          "votesRep": 5430,
+          "votesDem": 2876,
+          "votesTotal": 8501
+        },
+        "Monroe05": {
+          "color": "#BF1D29",
+          "label": "Boozman +18.5",
+          "margin": 18.48,
+          "votesRep": 1295,
+          "votesDem": 891,
+          "votesTotal": 2233
+        },
+        "Montgomery05": {
+          "color": "#BF1D29",
+          "label": "Boozman +65.1",
+          "margin": 65.09,
+          "votesRep": 2516,
+          "votesDem": 532,
+          "votesTotal": 3153
+        },
+        "Nevada05": {
+          "color": "#BF1D29",
+          "label": "Boozman +38.5",
+          "margin": 38.51,
+          "votesRep": 1667,
+          "votesDem": 740,
+          "votesTotal": 2456
+        },
+        "Newton05": {
+          "color": "#BF1D29",
+          "label": "Boozman +65.3",
+          "margin": 65.26,
+          "votesRep": 2440,
+          "votesDem": 513,
+          "votesTotal": 3060
+        },
+        "Ouachita05": {
+          "color": "#BF1D29",
+          "label": "Boozman +22.0",
+          "margin": 21.97,
+          "votesRep": 4163,
+          "votesDem": 2663,
+          "votesTotal": 6994
+        },
+        "Perry05": {
+          "color": "#BF1D29",
+          "label": "Boozman +60.8",
+          "margin": 60.78,
+          "votesRep": 2919,
+          "votesDem": 712,
+          "votesTotal": 3792
+        },
+        "Pike05": {
+          "color": "#BF1D29",
+          "label": "Boozman +73.8",
+          "margin": 73.81,
+          "votesRep": 3133,
+          "votesDem": 472,
+          "votesTotal": 3703
+        },
+        "Poinsett05": {
+          "color": "#BF1D29",
+          "label": "Boozman +63.8",
+          "margin": 63.82,
+          "votesRep": 4419,
+          "votesDem": 976,
+          "votesTotal": 5549
+        },
+        "Polk05": {
+          "color": "#BF1D29",
+          "label": "Boozman +71.8",
+          "margin": 71.76,
+          "votesRep": 5669,
+          "votesDem": 932,
+          "votesTotal": 6864
+        },
+        "Pope05": {
+          "color": "#BF1D29",
+          "label": "Boozman +56.3",
+          "margin": 56.31,
+          "votesRep": 13158,
+          "votesDem": 3678,
+          "votesTotal": 17454
+        },
+        "Prairie05": {
+          "color": "#BF1D29",
+          "label": "Boozman +70.3",
+          "margin": 70.25,
+          "votesRep": 2209,
+          "votesDem": 386,
+          "votesTotal": 2658
+        },
+        "Pulaski05": {
+          "color": "#1C408C",
+          "label": "James +12.3",
+          "margin": -12.27,
+          "votesRep": 52745,
+          "votesDem": 67503,
+          "votesTotal": 123432
+        },
+        "Randolph05": {
+          "color": "#BF1D29",
+          "label": "Boozman +65.6",
+          "margin": 65.61,
+          "votesRep": 4160,
+          "votesDem": 864,
+          "votesTotal": 5245
+        },
+        "Saline05": {
+          "color": "#BF1D29",
+          "label": "Boozman +48.9",
+          "margin": 48.91,
+          "votesRep": 30900,
+          "votesDem": 10602,
+          "votesTotal": 43076
+        },
+        "Scott05": {
+          "color": "#BF1D29",
+          "label": "Boozman +75.5",
+          "margin": 75.47,
+          "votesRep": 2497,
+          "votesDem": 349,
+          "votesTotal": 2950
+        },
+        "Searcy05": {
+          "color": "#BF1D29",
+          "label": "Boozman +71.1",
+          "margin": 71.11,
+          "votesRep": 2523,
+          "votesDem": 426,
+          "votesTotal": 3111
+        },
+        "Sebastian05": {
+          "color": "#BF1D29",
+          "label": "Boozman +45.9",
+          "margin": 45.94,
+          "votesRep": 24097,
+          "votesDem": 8926,
+          "votesTotal": 34269
+        },
+        "Sevier05": {
+          "color": "#BF1D29",
+          "label": "Boozman +64.4",
+          "margin": 64.42,
+          "votesRep": 2888,
+          "votesDem": 625,
+          "votesTotal": 3623
+        },
+        "Sharp05": {
+          "color": "#BF1D29",
+          "label": "Boozman +66.4",
+          "margin": 66.4,
+          "votesRep": 4848,
+          "votesDem": 979,
+          "votesTotal": 6026
+        },
+        "St. Francis05": {
+          "color": "#FF8B98",
+          "label": "Boozman +1.8",
+          "margin": 1.82,
+          "votesRep": 2514,
+          "votesDem": 2424,
+          "votesTotal": 5039
+        },
+        "Stone05": {
+          "color": "#BF1D29",
+          "label": "Boozman +61.8",
+          "margin": 61.81,
+          "votesRep": 3949,
+          "votesDem": 932,
+          "votesTotal": 5067
+        },
+        "Union05": {
+          "color": "#BF1D29",
+          "label": "Boozman +39.4",
+          "margin": 39.43,
+          "votesRep": 7926,
+          "votesDem": 3443,
+          "votesTotal": 11599
+        },
+        "Van Buren05": {
+          "color": "#BF1D29",
+          "label": "Boozman +62.8",
+          "margin": 62.79,
+          "votesRep": 4861,
+          "votesDem": 1111,
+          "votesTotal": 6238
+        },
+        "Washington05": {
+          "color": "#FF5865",
+          "label": "Boozman +9.4",
+          "margin": 9.38,
+          "votesRep": 37336,
+          "votesDem": 30935,
+          "votesTotal": 70431
+        },
+        "White05": {
+          "color": "#BF1D29",
+          "label": "Boozman +66.4",
+          "margin": 66.42,
+          "votesRep": 18497,
+          "votesDem": 3732,
+          "votesTotal": 23052
+        },
+        "Woodruff05": {
+          "color": "#BF1D29",
+          "label": "Boozman +37.0",
+          "margin": 36.98,
+          "votesRep": 1376,
+          "votesDem": 633,
+          "votesTotal": 2076
+        },
+        "Yell05": {
+          "color": "#BF1D29",
+          "label": "Boozman +67.2",
+          "margin": 67.22,
+          "votesRep": 4264,
+          "votesDem": 836,
+          "votesTotal": 5262
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Asa Hutchinson",
+      "candDem": "Jared Henderson",
+      "shortRep": "Hutchinson",
+      "shortDem": "Henderson",
+      "partisan": true,
+      "margin": 34.56,
+      "votesRep": 582406,
+      "votesDem": 283218,
+      "votesTotal": 891509,
+      "regions": {
+        "Arkansas05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +44.5",
+          "margin": 44.52,
+          "votesRep": 3530,
+          "votesDem": 1355,
+          "votesTotal": 4962
+        },
+        "Ashley05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +41.9",
+          "margin": 41.91,
+          "votesRep": 4278,
+          "votesDem": 1751,
+          "votesTotal": 6155
+        },
+        "Baxter05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +56.4",
+          "margin": 56.44,
+          "votesRep": 10694,
+          "votesDem": 2978,
+          "votesTotal": 14351
+        },
+        "Benton05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +40.9",
+          "margin": 40.89,
+          "votesRep": 53185,
+          "votesDem": 22316,
+          "votesTotal": 77534
+        },
+        "Boone05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +60.7",
+          "margin": 60.7,
+          "votesRep": 9028,
+          "votesDem": 2208,
+          "votesTotal": 11623
+        },
+        "Bradley05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +37.4",
+          "margin": 37.42,
+          "votesRep": 1906,
+          "votesDem": 868,
+          "votesTotal": 2854
+        },
+        "Calhoun05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +51.9",
+          "margin": 51.88,
+          "votesRep": 1335,
+          "votesDem": 423,
+          "votesTotal": 1791
+        },
+        "Carroll05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +32.3",
+          "margin": 32.27,
+          "votesRep": 5796,
+          "votesDem": 2968,
+          "votesTotal": 8968
+        },
+        "Chicot05": {
+          "color": "#577CCC",
+          "label": "Henderson +6.3",
+          "margin": -6.27,
+          "votesRep": 1638,
+          "votesDem": 1857,
+          "votesTotal": 3551
+        },
+        "Clark05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +20.9",
+          "margin": 20.87,
+          "votesRep": 3988,
+          "votesDem": 2611,
+          "votesTotal": 6731
+        },
+        "Clay05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +60.9",
+          "margin": 60.9,
+          "votesRep": 3218,
+          "votesDem": 782,
+          "votesTotal": 4132
+        },
+        "Cleburne05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +68.0",
+          "margin": 68.02,
+          "votesRep": 7856,
+          "votesDem": 1495,
+          "votesTotal": 9624
+        },
+        "Cleveland05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +59.5",
+          "margin": 59.49,
+          "votesRep": 2020,
+          "votesDem": 513,
+          "votesTotal": 2589
+        },
+        "Columbia05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +34.5",
+          "margin": 34.52,
+          "votesRep": 4199,
+          "votesDem": 2044,
+          "votesTotal": 6342
+        },
+        "Conway05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +37.6",
+          "margin": 37.64,
+          "votesRep": 4339,
+          "votesDem": 1966,
+          "votesTotal": 6465
+        },
+        "Craighead05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +40.1",
+          "margin": 40.07,
+          "votesRep": 17313,
+          "votesDem": 7407,
+          "votesTotal": 26078
+        },
+        "Crawford05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +61.8",
+          "margin": 61.76,
+          "votesRep": 13200,
+          "votesDem": 3120,
+          "votesTotal": 16860
+        },
+        "Crittenden05": {
+          "color": "#6b7280",
+          "label": "Henderson +0.5",
+          "margin": -0.5,
+          "votesRep": 5775,
+          "votesDem": 5833,
+          "votesTotal": 11918
+        },
+        "Cross05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +46.6",
+          "margin": 46.56,
+          "votesRep": 4108,
+          "votesDem": 1498,
+          "votesTotal": 5794
+        },
+        "Dallas05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +26.0",
+          "margin": 25.99,
+          "votesRep": 1316,
+          "votesDem": 773,
+          "votesTotal": 2115
+        },
+        "Desha05": {
+          "color": "#FF5865",
+          "label": "Hutchinson +8.0",
+          "margin": 8.05,
+          "votesRep": 1833,
+          "votesDem": 1560,
+          "votesTotal": 3469
+        },
+        "Drew05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +39.0",
+          "margin": 38.98,
+          "votesRep": 3658,
+          "votesDem": 1606,
+          "votesTotal": 5397
+        },
+        "Faulkner05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +37.4",
+          "margin": 37.38,
+          "votesRep": 25643,
+          "votesDem": 11689,
+          "votesTotal": 38559
+        },
+        "Franklin05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +64.2",
+          "margin": 64.22,
+          "votesRep": 4204,
+          "votesDem": 916,
+          "votesTotal": 5295
+        },
+        "Fulton05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +51.7",
+          "margin": 51.73,
+          "votesRep": 2829,
+          "votesDem": 900,
+          "votesTotal": 3832
+        },
+        "Garland05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +42.5",
+          "margin": 42.5,
+          "votesRep": 21969,
+          "votesDem": 8865,
+          "votesTotal": 31767
+        },
+        "Grant05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +66.9",
+          "margin": 66.88,
+          "votesRep": 4524,
+          "votesDem": 898,
+          "votesTotal": 5549
+        },
+        "Greene05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +59.7",
+          "margin": 59.7,
+          "votesRep": 8275,
+          "votesDem": 2088,
+          "votesTotal": 10953
+        },
+        "Hempstead05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +36.1",
+          "margin": 36.13,
+          "votesRep": 3312,
+          "votesDem": 1554,
+          "votesTotal": 4971
+        },
+        "Hot Spring05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +50.2",
+          "margin": 50.17,
+          "votesRep": 6368,
+          "votesDem": 2113,
+          "votesTotal": 8739
+        },
+        "Howard05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +43.7",
+          "margin": 43.75,
+          "votesRep": 2489,
+          "votesDem": 974,
+          "votesTotal": 3519
+        },
+        "Independence05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +60.1",
+          "margin": 60.09,
+          "votesRep": 7733,
+          "votesDem": 1928,
+          "votesTotal": 10145
+        },
+        "Izard05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +59.5",
+          "margin": 59.51,
+          "votesRep": 3423,
+          "votesDem": 869,
+          "votesTotal": 4471
+        },
+        "Jackson05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +47.5",
+          "margin": 47.5,
+          "votesRep": 2998,
+          "votesDem": 1067,
+          "votesTotal": 4171
+        },
+        "Jefferson05": {
+          "color": "#577CCC",
+          "label": "Henderson +7.2",
+          "margin": -7.22,
+          "votesRep": 9005,
+          "votesDem": 10406,
+          "votesTotal": 19820
+        },
+        "Johnson05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +53.7",
+          "margin": 53.67,
+          "votesRep": 5546,
+          "votesDem": 1672,
+          "votesTotal": 7477
+        },
+        "Lafayette05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +33.6",
+          "margin": 33.62,
+          "votesRep": 1395,
+          "votesDem": 693,
+          "votesTotal": 2131
+        },
+        "Lawrence05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +59.6",
+          "margin": 59.57,
+          "votesRep": 3584,
+          "votesDem": 908,
+          "votesTotal": 4669
+        },
+        "Lee05": {
+          "color": "#577CCC",
+          "label": "Henderson +8.8",
+          "margin": -8.81,
+          "votesRep": 947,
+          "votesDem": 1130,
+          "votesTotal": 2119
+        },
+        "Lincoln05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +48.6",
+          "margin": 48.57,
+          "votesRep": 2227,
+          "votesDem": 771,
+          "votesTotal": 3039
+        },
+        "Little River05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +47.1",
+          "margin": 47.1,
+          "votesRep": 2820,
+          "votesDem": 1014,
+          "votesTotal": 3925
+        },
+        "Logan05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +61.0",
+          "margin": 61.04,
+          "votesRep": 4303,
+          "votesDem": 1041,
+          "votesTotal": 5528
+        },
+        "Lonoke05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +58.2",
+          "margin": 58.21,
+          "votesRep": 15791,
+          "votesDem": 4171,
+          "votesTotal": 20613
+        },
+        "Madison05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +52.8",
+          "margin": 52.78,
+          "votesRep": 4151,
+          "votesDem": 1283,
+          "votesTotal": 5576
+        },
+        "Marion05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +58.8",
+          "margin": 58.8,
+          "votesRep": 3959,
+          "votesDem": 1027,
+          "votesTotal": 5163
+        },
+        "Miller05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +49.4",
+          "margin": 49.42,
+          "votesRep": 8393,
+          "votesDem": 2841,
+          "votesTotal": 11431
+        },
+        "Mississippi05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +27.4",
+          "margin": 27.45,
+          "votesRep": 6429,
+          "votesDem": 3660,
+          "votesTotal": 10455
+        },
+        "Monroe05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +15.0",
+          "margin": 14.98,
+          "votesRep": 1493,
+          "votesDem": 1104,
+          "votesTotal": 2640
+        },
+        "Montgomery05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +59.6",
+          "margin": 59.59,
+          "votesRep": 2204,
+          "votesDem": 558,
+          "votesTotal": 2831
+        },
+        "Nevada05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +31.8",
+          "margin": 31.82,
+          "votesRep": 1628,
+          "votesDem": 842,
+          "votesTotal": 2516
+        },
+        "Newton05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +52.0",
+          "margin": 52.04,
+          "votesRep": 2203,
+          "votesDem": 695,
+          "votesTotal": 3091
+        },
+        "Ouachita05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +16.5",
+          "margin": 16.48,
+          "votesRep": 4227,
+          "votesDem": 3031,
+          "votesTotal": 7386
+        },
+        "Perry05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +53.0",
+          "margin": 53.04,
+          "votesRep": 2731,
+          "votesDem": 838,
+          "votesTotal": 3701
+        },
+        "Phillips05": {
+          "color": "#577CCC",
+          "label": "Henderson +9.8",
+          "margin": -9.8,
+          "votesRep": 2401,
+          "votesDem": 2923,
+          "votesTotal": 5444
+        },
+        "Pike05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +65.6",
+          "margin": 65.58,
+          "votesRep": 2708,
+          "votesDem": 563,
+          "votesTotal": 3358
+        },
+        "Poinsett05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +59.4",
+          "margin": 59.42,
+          "votesRep": 4690,
+          "votesDem": 1194,
+          "votesTotal": 6109
+        },
+        "Polk05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +68.9",
+          "margin": 68.87,
+          "votesRep": 4903,
+          "votesDem": 904,
+          "votesTotal": 6056
+        },
+        "Pope05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +56.3",
+          "margin": 56.31,
+          "votesRep": 13437,
+          "votesDem": 3756,
+          "votesTotal": 17956
+        },
+        "Prairie05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +60.2",
+          "margin": 60.23,
+          "votesRep": 2256,
+          "votesDem": 560,
+          "votesTotal": 2860
+        },
+        "Pulaski05": {
+          "color": "#577CCC",
+          "label": "Henderson +5.1",
+          "margin": -5.13,
+          "votesRep": 62510,
+          "votesDem": 69265,
+          "votesTotal": 134667
+        },
+        "Randolph05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +60.2",
+          "margin": 60.25,
+          "votesRep": 4285,
+          "votesDem": 1063,
+          "votesTotal": 5662
+        },
+        "Saline05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +52.1",
+          "margin": 52.14,
+          "votesRep": 30756,
+          "votesDem": 9676,
+          "votesTotal": 41578
+        },
+        "Scott05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +71.3",
+          "margin": 71.33,
+          "votesRep": 2331,
+          "votesDem": 390,
+          "votesTotal": 2879
+        },
+        "Searcy05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +65.5",
+          "margin": 65.48,
+          "votesRep": 2512,
+          "votesDem": 524,
+          "votesTotal": 3194
+        },
+        "Sebastian05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +48.2",
+          "margin": 48.19,
+          "votesRep": 23785,
+          "votesDem": 8316,
+          "votesTotal": 33165
+        },
+        "Sevier05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +55.9",
+          "margin": 55.91,
+          "votesRep": 2412,
+          "votesDem": 682,
+          "votesTotal": 3202
+        },
+        "Sharp05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +62.0",
+          "margin": 62.03,
+          "votesRep": 4430,
+          "votesDem": 1038,
+          "votesTotal": 5670
+        },
+        "St. Francis05": {
+          "color": "#577CCC",
+          "label": "Henderson +6.3",
+          "margin": -6.32,
+          "votesRep": 2660,
+          "votesDem": 3019,
+          "votesTotal": 5811
+        },
+        "Stone05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +55.1",
+          "margin": 55.1,
+          "votesRep": 3302,
+          "votesDem": 956,
+          "votesTotal": 4442
+        },
+        "Union05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +34.2",
+          "margin": 34.17,
+          "votesRep": 8225,
+          "votesDem": 4036,
+          "votesTotal": 12502
+        },
+        "Van Buren05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +62.0",
+          "margin": 62.03,
+          "votesRep": 4937,
+          "votesDem": 1157,
+          "votesTotal": 6296
+        },
+        "Washington05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +12.4",
+          "margin": 12.37,
+          "votesRep": 35967,
+          "votesDem": 28051,
+          "votesTotal": 65863
+        },
+        "White05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +64.5",
+          "margin": 64.51,
+          "votesRep": 17610,
+          "votesDem": 3799,
+          "votesTotal": 21993
+        },
+        "Woodruff05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +25.2",
+          "margin": 25.16,
+          "votesRep": 1271,
+          "votesDem": 760,
+          "votesTotal": 2086
+        },
+        "Yell05": {
+          "color": "#BF1D29",
+          "label": "Hutchinson +56.6",
+          "margin": 56.63,
+          "votesRep": 4002,
+          "votesDem": 1108,
+          "votesTotal": 5331
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "John Boozman",
+      "candDem": "Conner Eldridge",
+      "shortRep": "Boozman",
+      "shortDem": "Eldridge",
+      "partisan": true,
+      "margin": 24.6,
+      "votesRep": 661984,
+      "votesDem": 400590,
+      "votesTotal": 1107491,
+      "regions": {
+        "Arkansas05": {
+          "color": "#BF1D29",
+          "label": "Boozman +22.3",
+          "margin": 22.29,
+          "votesRep": 3684,
+          "votesDem": 2341,
+          "votesTotal": 6150
+        },
+        "Ashley05": {
+          "color": "#BF1D29",
+          "label": "Boozman +37.0",
+          "margin": 37.04,
+          "votesRep": 5106,
+          "votesDem": 2346,
+          "votesTotal": 7737
+        },
+        "Baxter05": {
+          "color": "#BF1D29",
+          "label": "Boozman +53.8",
+          "margin": 53.77,
+          "votesRep": 14074,
+          "votesDem": 4231,
+          "votesTotal": 19255
+        },
+        "Benton05": {
+          "color": "#BF1D29",
+          "label": "Boozman +39.7",
+          "margin": 39.68,
+          "votesRep": 63503,
+          "votesDem": 27423,
+          "votesTotal": 95469
+        },
+        "Boone05": {
+          "color": "#BF1D29",
+          "label": "Boozman +65.3",
+          "margin": 65.32,
+          "votesRep": 12490,
+          "votesDem": 2620,
+          "votesTotal": 15839
+        },
+        "Bradley05": {
+          "color": "#BF1D29",
+          "label": "Boozman +20.1",
+          "margin": 20.11,
+          "votesRep": 2019,
+          "votesDem": 1343,
+          "votesTotal": 3483
+        },
+        "Calhoun05": {
+          "color": "#BF1D29",
+          "label": "Boozman +26.7",
+          "margin": 26.7,
+          "votesRep": 1336,
+          "votesDem": 773,
+          "votesTotal": 2193
+        },
+        "Carroll05": {
+          "color": "#BF1D29",
+          "label": "Boozman +34.2",
+          "margin": 34.23,
+          "votesRep": 6771,
+          "votesDem": 3318,
+          "votesTotal": 10511
+        },
+        "Chicot05": {
+          "color": "#1C408C",
+          "label": "Eldridge +11.3",
+          "margin": -11.28,
+          "votesRep": 1824,
+          "votesDem": 2288,
+          "votesTotal": 4202
+        },
+        "Clark05": {
+          "color": "#8AAFFF",
+          "label": "Eldridge +1.7",
+          "margin": -1.74,
+          "votesRep": 3947,
+          "votesDem": 4087,
+          "votesTotal": 8276
+        },
+        "Clay05": {
+          "color": "#BF1D29",
+          "label": "Boozman +36.5",
+          "margin": 36.55,
+          "votesRep": 3286,
+          "votesDem": 1527,
+          "votesTotal": 5049
+        },
+        "Cleburne05": {
+          "color": "#BF1D29",
+          "label": "Boozman +48.6",
+          "margin": 48.56,
+          "votesRep": 8382,
+          "votesDem": 2902,
+          "votesTotal": 11780
+        },
+        "Cleveland05": {
+          "color": "#BF1D29",
+          "label": "Boozman +35.3",
+          "margin": 35.33,
+          "votesRep": 2164,
+          "votesDem": 1034,
+          "votesTotal": 3302
+        },
+        "Columbia05": {
+          "color": "#BF1D29",
+          "label": "Boozman +32.7",
+          "margin": 32.73,
+          "votesRep": 5440,
+          "votesDem": 2757,
+          "votesTotal": 8461
+        },
+        "Conway05": {
+          "color": "#BF1D29",
+          "label": "Boozman +18.6",
+          "margin": 18.58,
+          "votesRep": 4403,
+          "votesDem": 3023,
+          "votesTotal": 7728
+        },
+        "Craighead05": {
+          "color": "#BF1D29",
+          "label": "Boozman +38.8",
+          "margin": 38.78,
+          "votesRep": 23218,
+          "votesDem": 10241,
+          "votesTotal": 34933
+        },
+        "Crawford05": {
+          "color": "#BF1D29",
+          "label": "Boozman +52.1",
+          "margin": 52.1,
+          "votesRep": 16008,
+          "votesDem": 5042,
+          "votesTotal": 22006
+        },
+        "Crittenden05": {
+          "color": "#8AAFFF",
+          "label": "Eldridge +4.5",
+          "margin": -4.46,
+          "votesRep": 6779,
+          "votesDem": 7412,
+          "votesTotal": 14765
+        },
+        "Cross05": {
+          "color": "#BF1D29",
+          "label": "Boozman +38.1",
+          "margin": 38.11,
+          "votesRep": 4456,
+          "votesDem": 1997,
+          "votesTotal": 6671
+        },
+        "Dallas05": {
+          "color": "#FF5865",
+          "label": "Boozman +9.9",
+          "margin": 9.92,
+          "votesRep": 1429,
+          "votesDem": 1171,
+          "votesTotal": 2689
+        },
+        "Desha05": {
+          "color": "#1C408C",
+          "label": "Eldridge +13.3",
+          "margin": -13.28,
+          "votesRep": 1727,
+          "votesDem": 2256,
+          "votesTotal": 4079
+        },
+        "Drew05": {
+          "color": "#BF1D29",
+          "label": "Boozman +21.1",
+          "margin": 21.07,
+          "votesRep": 3701,
+          "votesDem": 2413,
+          "votesTotal": 6327
+        },
+        "Faulkner05": {
+          "color": "#BF1D29",
+          "label": "Boozman +24.5",
+          "margin": 24.46,
+          "votesRep": 27632,
+          "votesDem": 16770,
+          "votesTotal": 46753
+        },
+        "Franklin05": {
+          "color": "#BF1D29",
+          "label": "Boozman +47.5",
+          "margin": 47.51,
+          "votesRep": 4749,
+          "votesDem": 1690,
+          "votesTotal": 6719
+        },
+        "Fulton05": {
+          "color": "#BF1D29",
+          "label": "Boozman +50.9",
+          "margin": 50.89,
+          "votesRep": 3254,
+          "votesDem": 1059,
+          "votesTotal": 4545
+        },
+        "Garland05": {
+          "color": "#BF1D29",
+          "label": "Boozman +25.6",
+          "margin": 25.56,
+          "votesRep": 24262,
+          "votesDem": 14385,
+          "votesTotal": 40380
+        },
+        "Grant05": {
+          "color": "#BF1D29",
+          "label": "Boozman +45.5",
+          "margin": 45.53,
+          "votesRep": 5015,
+          "votesDem": 1877,
+          "votesTotal": 7256
+        },
+        "Greene05": {
+          "color": "#BF1D29",
+          "label": "Boozman +48.6",
+          "margin": 48.59,
+          "votesRep": 9842,
+          "votesDem": 3405,
+          "votesTotal": 14042
+        },
+        "Hempstead05": {
+          "color": "#BF1D29",
+          "label": "Boozman +27.9",
+          "margin": 27.85,
+          "votesRep": 4168,
+          "votesDem": 2352,
+          "votesTotal": 6711
+        },
+        "Hot Spring05": {
+          "color": "#BF1D29",
+          "label": "Boozman +28.9",
+          "margin": 28.88,
+          "votesRep": 7259,
+          "votesDem": 4006,
+          "votesTotal": 11655
+        },
+        "Howard05": {
+          "color": "#BF1D29",
+          "label": "Boozman +36.6",
+          "margin": 36.63,
+          "votesRep": 2969,
+          "votesDem": 1377,
+          "votesTotal": 4481
+        },
+        "Independence05": {
+          "color": "#BF1D29",
+          "label": "Boozman +41.3",
+          "margin": 41.3,
+          "votesRep": 9020,
+          "votesDem": 3747,
+          "votesTotal": 13268
+        },
+        "Izard05": {
+          "color": "#BF1D29",
+          "label": "Boozman +43.8",
+          "margin": 43.81,
+          "votesRep": 3593,
+          "votesDem": 1404,
+          "votesTotal": 5224
+        },
+        "Jackson05": {
+          "color": "#BF1D29",
+          "label": "Boozman +20.5",
+          "margin": 20.51,
+          "votesRep": 2958,
+          "votesDem": 1951,
+          "votesTotal": 5078
+        },
+        "Jefferson05": {
+          "color": "#1C408C",
+          "label": "Eldridge +27.1",
+          "margin": -27.07,
+          "votesRep": 8805,
+          "votesDem": 15342,
+          "votesTotal": 24930
+        },
+        "Johnson05": {
+          "color": "#BF1D29",
+          "label": "Boozman +32.7",
+          "margin": 32.68,
+          "votesRep": 5680,
+          "votesDem": 2882,
+          "votesTotal": 8880
+        },
+        "Lafayette05": {
+          "color": "#BF1D29",
+          "label": "Boozman +28.5",
+          "margin": 28.46,
+          "votesRep": 1713,
+          "votesDem": 954,
+          "votesTotal": 2739
+        },
+        "Lawrence05": {
+          "color": "#BF1D29",
+          "label": "Boozman +47.8",
+          "margin": 47.85,
+          "votesRep": 3912,
+          "votesDem": 1380,
+          "votesTotal": 5528
+        },
+        "Lee05": {
+          "color": "#1C408C",
+          "label": "Eldridge +12.6",
+          "margin": -12.56,
+          "votesRep": 1271,
+          "votesDem": 1636,
+          "votesTotal": 2994
+        },
+        "Lincoln05": {
+          "color": "#BF1D29",
+          "label": "Boozman +20.7",
+          "margin": 20.66,
+          "votesRep": 2190,
+          "votesDem": 1440,
+          "votesTotal": 3720
+        },
+        "Little River05": {
+          "color": "#BF1D29",
+          "label": "Boozman +40.0",
+          "margin": 40.01,
+          "votesRep": 3368,
+          "votesDem": 1443,
+          "votesTotal": 4999
+        },
+        "Logan05": {
+          "color": "#BF1D29",
+          "label": "Boozman +38.0",
+          "margin": 37.97,
+          "votesRep": 5209,
+          "votesDem": 2342,
+          "votesTotal": 7849
+        },
+        "Lonoke05": {
+          "color": "#BF1D29",
+          "label": "Boozman +39.0",
+          "margin": 39.04,
+          "votesRep": 17483,
+          "votesDem": 7666,
+          "votesTotal": 26453
+        },
+        "Madison05": {
+          "color": "#BF1D29",
+          "label": "Boozman +37.7",
+          "margin": 37.7,
+          "votesRep": 4520,
+          "votesDem": 2045,
+          "votesTotal": 6828
+        },
+        "Marion05": {
+          "color": "#BF1D29",
+          "label": "Boozman +59.9",
+          "margin": 59.91,
+          "votesRep": 5265,
+          "votesDem": 1320,
+          "votesTotal": 6967
+        },
+        "Miller05": {
+          "color": "#BF1D29",
+          "label": "Boozman +45.6",
+          "margin": 45.61,
+          "votesRep": 10974,
+          "votesDem": 4099,
+          "votesTotal": 15567
+        },
+        "Mississippi05": {
+          "color": "#BF1D29",
+          "label": "Boozman +15.3",
+          "margin": 15.28,
+          "votesRep": 6835,
+          "votesDem": 5023,
+          "votesTotal": 12310
+        },
+        "Monroe05": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": 0.07,
+          "votesRep": 1363,
+          "votesDem": 1361,
+          "votesTotal": 2783
+        },
+        "Montgomery05": {
+          "color": "#BF1D29",
+          "label": "Boozman +41.2",
+          "margin": 41.21,
+          "votesRep": 2366,
+          "votesDem": 985,
+          "votesTotal": 3473
+        },
+        "Nevada05": {
+          "color": "#BF1D29",
+          "label": "Boozman +25.6",
+          "margin": 25.57,
+          "votesRep": 1881,
+          "votesDem": 1115,
+          "votesTotal": 3121
+        },
+        "Newton05": {
+          "color": "#BF1D29",
+          "label": "Boozman +58.0",
+          "margin": 57.96,
+          "votesRep": 2833,
+          "votesDem": 754,
+          "votesTotal": 3727
+        },
+        "Ouachita05": {
+          "color": "#BF1D29",
+          "label": "Boozman +13.1",
+          "margin": 13.13,
+          "votesRep": 5277,
+          "votesDem": 4052,
+          "votesTotal": 9564
+        },
+        "Perry05": {
+          "color": "#BF1D29",
+          "label": "Boozman +30.0",
+          "margin": 29.98,
+          "votesRep": 2588,
+          "votesDem": 1394,
+          "votesTotal": 4199
+        },
+        "Phillips05": {
+          "color": "#1C408C",
+          "label": "Eldridge +22.3",
+          "margin": -22.28,
+          "votesRep": 2400,
+          "votesDem": 3776,
+          "votesTotal": 6367
+        },
+        "Pike05": {
+          "color": "#BF1D29",
+          "label": "Boozman +49.4",
+          "margin": 49.39,
+          "votesRep": 2819,
+          "votesDem": 955,
+          "votesTotal": 3911
+        },
+        "Poinsett05": {
+          "color": "#BF1D29",
+          "label": "Boozman +45.1",
+          "margin": 45.12,
+          "votesRep": 5357,
+          "votesDem": 2026,
+          "votesTotal": 7628
+        },
+        "Polk05": {
+          "color": "#BF1D29",
+          "label": "Boozman +57.1",
+          "margin": 57.13,
+          "votesRep": 6062,
+          "votesDem": 1654,
+          "votesTotal": 8026
+        },
+        "Pope05": {
+          "color": "#BF1D29",
+          "label": "Boozman +45.0",
+          "margin": 45.01,
+          "votesRep": 15344,
+          "votesDem": 5819,
+          "votesTotal": 22241
+        },
+        "Prairie05": {
+          "color": "#BF1D29",
+          "label": "Boozman +32.2",
+          "margin": 32.17,
+          "votesRep": 2130,
+          "votesDem": 1093,
+          "votesTotal": 3316
+        },
+        "Pulaski05": {
+          "color": "#1C408C",
+          "label": "Eldridge +16.0",
+          "margin": -15.99,
+          "votesRep": 64378,
+          "votesDem": 88892,
+          "votesTotal": 158339
+        },
+        "Randolph05": {
+          "color": "#BF1D29",
+          "label": "Boozman +44.0",
+          "margin": 44,
+          "votesRep": 4266,
+          "votesDem": 1659,
+          "votesTotal": 6255
+        },
+        "Saline05": {
+          "color": "#BF1D29",
+          "label": "Boozman +34.5",
+          "margin": 34.48,
+          "votesRep": 33125,
+          "votesDem": 16140,
+          "votesTotal": 51640
+        },
+        "Scott05": {
+          "color": "#BF1D29",
+          "label": "Boozman +47.9",
+          "margin": 47.9,
+          "votesRep": 2461,
+          "votesDem": 867,
+          "votesTotal": 3444
+        },
+        "Searcy05": {
+          "color": "#BF1D29",
+          "label": "Boozman +57.7",
+          "margin": 57.71,
+          "votesRep": 2704,
+          "votesDem": 725,
+          "votesTotal": 3624
+        },
+        "Sebastian05": {
+          "color": "#BF1D29",
+          "label": "Boozman +38.5",
+          "margin": 38.49,
+          "votesRep": 29405,
+          "votesDem": 13060,
+          "votesTotal": 44560
+        },
+        "Sevier05": {
+          "color": "#BF1D29",
+          "label": "Boozman +47.7",
+          "margin": 47.67,
+          "votesRep": 3036,
+          "votesDem": 1076,
+          "votesTotal": 4321
+        },
+        "Sharp05": {
+          "color": "#BF1D29",
+          "label": "Boozman +52.2",
+          "margin": 52.23,
+          "votesRep": 5127,
+          "votesDem": 1609,
+          "votesTotal": 7053
+        },
+        "St. Francis05": {
+          "color": "#577CCC",
+          "label": "Eldridge +7.2",
+          "margin": -7.21,
+          "votesRep": 3153,
+          "votesDem": 3643,
+          "votesTotal": 6966
+        },
+        "Stone05": {
+          "color": "#BF1D29",
+          "label": "Boozman +41.4",
+          "margin": 41.38,
+          "votesRep": 3690,
+          "votesDem": 1530,
+          "votesTotal": 5486
+        },
+        "Union05": {
+          "color": "#BF1D29",
+          "label": "Boozman +34.9",
+          "margin": 34.94,
+          "votesRep": 10168,
+          "votesDem": 4902,
+          "votesTotal": 15753
+        },
+        "Van Buren05": {
+          "color": "#BF1D29",
+          "label": "Boozman +37.1",
+          "margin": 37.05,
+          "votesRep": 4670,
+          "votesDem": 2145,
+          "votesTotal": 7133
+        },
+        "Washington05": {
+          "color": "#BF1D29",
+          "label": "Boozman +11.2",
+          "margin": 11.16,
+          "votesRep": 43137,
+          "votesDem": 34475,
+          "votesTotal": 81107
+        },
+        "White05": {
+          "color": "#BF1D29",
+          "label": "Boozman +45.1",
+          "margin": 45.12,
+          "votesRep": 19413,
+          "votesDem": 7341,
+          "votesTotal": 27830
+        },
+        "Woodruff05": {
+          "color": "#1C408C",
+          "label": "Eldridge +24.8",
+          "margin": -24.77,
+          "votesRep": 917,
+          "votesDem": 1521,
+          "votesTotal": 2487
+        },
+        "Yell05": {
+          "color": "#BF1D29",
+          "label": "Boozman +38.3",
+          "margin": 38.35,
+          "votesRep": 4221,
+          "votesDem": 1881,
+          "votesTotal": 6356
+        }
+      }
+    }
+  ]
+}

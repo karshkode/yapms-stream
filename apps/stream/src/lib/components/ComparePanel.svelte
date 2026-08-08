@@ -1,5 +1,6 @@
 <script lang="ts">
 	import {
+		autoBaselineRef,
 		baselineOptions,
 		captureBaseline,
 		geographyKey,
@@ -13,11 +14,16 @@
 	 * Chooses what the Swing and Turnout map modes measure against, and freezes
 	 * the loaded race so a later one can be measured against it.
 	 *
-	 * The capture step is the whole point. There is no source of prior-cycle
-	 * results for downballot races: the seed data covers presidential margins
-	 * and nothing else, and civicAPI serves the current race rather than an
-	 * archive of past ones by district. But the host watches the primary in this
-	 * app, so those numbers already pass through here — capturing them at the
+	 * Three kinds of baseline show up in the list, in the order a host reaches
+	 * for them: the past Senate and Governor results baked in per state, the
+	 * races the host has frozen themselves, and the baked presidential margins.
+	 * The first is picked automatically when the race title says which office
+	 * this is, so a Senate night is already measured against the last Senate
+	 * race before the host opens this panel.
+	 *
+	 * Capture still matters for everything the bake can't cover — primaries,
+	 * municipal races, anything downballot of Governor. The host watches those
+	 * in this app, so the numbers pass through here, and freezing them at the
 	 * end of the night is what turns "how did the primary break down" into a
 	 * layer on November's map.
 	 */
@@ -27,6 +33,12 @@
 	}
 
 	let { streamState }: Props = $props();
+
+	const KIND_LABEL = {
+		history: 'Past result, this state',
+		archival: 'Baked county margins',
+		captured: 'Captured'
+	} as const;
 
 	let label = $state('');
 
@@ -62,7 +74,7 @@
 	function capture() {
 		const baseline = captureBaseline(streamState, label);
 		streamStore.state.ui.comparison.baselines = [baseline, ...streamState.ui.comparison.baselines];
-		streamStore.state.ui.comparison.baselineRef = `captured:${baseline.id}`;
+		select(`captured:${baseline.id}`);
 		label = '';
 	}
 
@@ -71,11 +83,21 @@
 			(b) => b.id !== id
 		);
 		if (activeRef === `captured:${id}`) {
-			streamStore.state.ui.comparison.baselineRef = 'archival:2024';
+			// Deleting the selected baseline isn't a choice about what to compare
+			// against, so this hands the decision back to the automatic pick rather
+			// than leaving `baselineAuto` cleared and the map on the presidential
+			// margin for the rest of the night.
+			streamStore.state.ui.comparison.baselineAuto = true;
+			streamStore.state.ui.comparison.baselineRef = autoBaselineRef(streamState) ?? 'archival:2024';
 		}
 	}
 
+	/**
+	 * Picking anything here is a deliberate choice, so it stops the automatic
+	 * same-office pick from overwriting it when the next poll tick lands.
+	 */
 	function select(ref: string) {
+		streamStore.state.ui.comparison.baselineAuto = false;
 		streamStore.state.ui.comparison.baselineRef = ref;
 	}
 
@@ -98,13 +120,14 @@
 	<h3 class="heading">Compare against</h3>
 	<p class="blurb">
 		Swing and Turnout on the map are measured against whichever of these is selected. Everything
-		else on the map ignores it.
+		else on the map ignores it. The last race for this same office is picked for you; choosing
+		anything here keeps it.
 	</p>
 
 	{#if options.length === 0}
 		<p class="empty">
-			Nothing to compare against yet. This map has no baked presidential margins, so capture a race
-			below once one has reported.
+			Nothing to compare against yet. This map has no baked results, so capture a race below once
+			one has reported.
 		</p>
 	{:else}
 		<ul class="options">
@@ -118,9 +141,16 @@
 						onclick={() => select(opt.ref)}
 					>
 						<span class="opt-main">
-							<strong>{opt.label}</strong>
+							<span class="opt-title">
+								<strong>{opt.label}</strong>
+								{#if opt.sameOffice}
+									<!-- The reason this one is at the top of the list, and the
+									     reason it's already selected. -->
+									<span class="chip">Same office</span>
+								{/if}
+							</span>
 							<span class="opt-sub">
-								{opt.kind === 'archival' ? 'Baked county margins' : 'Captured'} ·
+								{KIND_LABEL[opt.kind]} ·
 								{opt.coverage}/{regionCount} regions
 								{#if !opt.partisan}
 									· turnout only
@@ -150,9 +180,9 @@
 <section class="race-card p-4">
 	<h3 class="heading">Capture this race as a baseline</h3>
 	<p class="blurb">
-		Freezes each region's margin and its share of the vote. Do this at the end of a primary night,
-		then load the general over the same map and Turnout will show which areas are carrying more of
-		the electorate than they did.
+		Freezes each region's margin and its vote. Past Senate and Governor races are already baked in,
+		so this is for everything else — a primary, a municipal race, anything downballot. Capture at
+		the end of the night, then load the next race over the same map.
 	</p>
 
 	{#if capturable.regions === 0}
@@ -281,11 +311,28 @@
 		min-width: 0;
 		flex: 1;
 	}
+	.opt-title {
+		display: flex;
+		align-items: center;
+		gap: 0.3rem;
+		min-width: 0;
+	}
 	.opt-main strong {
 		font-size: 0.8rem;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+	}
+	.chip {
+		flex-shrink: 0;
+		padding: 0.05rem 0.25rem;
+		border-radius: 0.2rem;
+		background: rgb(from var(--color-primary) r g b / 0.25);
+		border: 1px solid rgb(from var(--color-primary) r g b / 0.5);
+		font-size: 0.58rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
 	}
 	.opt-sub {
 		font-size: 0.66rem;

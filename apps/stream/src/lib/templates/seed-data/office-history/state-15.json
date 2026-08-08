@@ -1,0 +1,300 @@
+{
+  "stateFips": "15",
+  "stateName": "Hawaii",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Bob McDermott",
+      "candDem": "Mazie Hirono",
+      "shortRep": "McDermott",
+      "shortDem": "Hirono",
+      "partisan": true,
+      "margin": -33.89,
+      "votesRep": 160075,
+      "votesDem": 324194,
+      "votesTotal": 501763,
+      "regions": {
+        "Hawaii15": {
+          "color": "#1C408C",
+          "label": "Hirono +41.3",
+          "margin": -41.25,
+          "votesRep": 22747,
+          "votesDem": 54691,
+          "votesTotal": 80517
+        },
+        "Honolulu15": {
+          "color": "#1C408C",
+          "label": "Hirono +30.5",
+          "margin": -30.55,
+          "votesRep": 111603,
+          "votesDem": 209780,
+          "votesTotal": 332336
+        },
+        "Kauai15": {
+          "color": "#1C408C",
+          "label": "Hirono +37.8",
+          "margin": -37.85,
+          "votesRep": 8537,
+          "votesDem": 18934,
+          "votesTotal": 28495
+        },
+        "Maui15": {
+          "color": "#1C408C",
+          "label": "Hirono +40.7",
+          "margin": -40.71,
+          "votesRep": 17188,
+          "votesDem": 40789,
+          "votesTotal": 60415
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Duke Tupai Aiona",
+      "candDem": "Josh Luke Green",
+      "shortRep": "Aiona",
+      "shortDem": "Green",
+      "partisan": true,
+      "margin": -26.32,
+      "votesRep": 152237,
+      "votesDem": 261025,
+      "votesTotal": 413262,
+      "regions": {
+        "Hawaii15": {
+          "color": "#1C408C",
+          "label": "Green +31.7",
+          "margin": -31.68,
+          "votesRep": 21870,
+          "votesDem": 42152,
+          "votesTotal": 64022
+        },
+        "Honolulu15": {
+          "color": "#1C408C",
+          "label": "Green +24.7",
+          "margin": -24.72,
+          "votesRep": 102968,
+          "votesDem": 170575,
+          "votesTotal": 273543
+        },
+        "Kauai15": {
+          "color": "#1C408C",
+          "label": "Green +19.0",
+          "margin": -19.04,
+          "votesRep": 9722,
+          "votesDem": 14296,
+          "votesTotal": 24018
+        },
+        "Maui15": {
+          "color": "#1C408C",
+          "label": "Green +31.6",
+          "margin": -31.59,
+          "votesRep": 17677,
+          "votesDem": 34002,
+          "votesTotal": 51679
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Bob McDermott",
+      "candDem": "Brian Schatz",
+      "shortRep": "McDermott",
+      "shortDem": "Schatz",
+      "partisan": true,
+      "margin": -46.45,
+      "votesRep": 106358,
+      "votesDem": 290894,
+      "votesTotal": 408517,
+      "regions": {
+        "Hawaii15": {
+          "color": "#1C408C",
+          "label": "Schatz +50.5",
+          "margin": -50.51,
+          "votesRep": 15156,
+          "votesDem": 46096,
+          "votesTotal": 63234
+        },
+        "Honolulu15": {
+          "color": "#1C408C",
+          "label": "Schatz +43.8",
+          "margin": -43.83,
+          "votesRep": 74265,
+          "votesDem": 190178,
+          "votesTotal": 270991
+        },
+        "Kauai15": {
+          "color": "#1C408C",
+          "label": "Schatz +49.6",
+          "margin": -49.65,
+          "votesRep": 5711,
+          "votesDem": 16974,
+          "votesTotal": 23449
+        },
+        "Maui15": {
+          "color": "#1C408C",
+          "label": "Schatz +54.1",
+          "margin": -54.06,
+          "votesRep": 11226,
+          "votesDem": 37646,
+          "votesTotal": 50843
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Tupola",
+      "candDem": "Ige",
+      "shortRep": "Tupola",
+      "shortDem": "Ige",
+      "partisan": true,
+      "margin": -30.06,
+      "votesRep": 131719,
+      "votesDem": 244934,
+      "votesTotal": 390843,
+      "regions": {
+        "Hawaii15": {
+          "color": "#1C408C",
+          "label": "Ige +36.2",
+          "margin": -36.17,
+          "votesRep": 17953,
+          "votesDem": 38301,
+          "votesTotal": 58617
+        },
+        "Honolulu15": {
+          "color": "#1C408C",
+          "label": "Ige +27.1",
+          "margin": -27.13,
+          "votesRep": 90929,
+          "votesDem": 158623,
+          "votesTotal": 258080
+        },
+        "Kauai15": {
+          "color": "#1C408C",
+          "label": "Ige +32.2",
+          "margin": -32.22,
+          "votesRep": 8135,
+          "votesDem": 15868,
+          "votesTotal": 24833
+        },
+        "Maui15": {
+          "color": "#1C408C",
+          "label": "Ige +37.2",
+          "margin": -37.23,
+          "votesRep": 14702,
+          "votesDem": 32142,
+          "votesTotal": 49313
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Ron Curtis",
+      "candDem": "Mazie Hirono",
+      "shortRep": "Curtis",
+      "shortDem": "Hirono",
+      "partisan": true,
+      "margin": -42.3,
+      "votesRep": 112035,
+      "votesDem": 276316,
+      "votesTotal": 388351,
+      "regions": {
+        "Hawaii15": {
+          "color": "#1C408C",
+          "label": "Hirono +48.5",
+          "margin": -48.51,
+          "votesRep": 15031,
+          "votesDem": 43348,
+          "votesTotal": 58379
+        },
+        "Honolulu15": {
+          "color": "#1C408C",
+          "label": "Hirono +37.9",
+          "margin": -37.94,
+          "votesRep": 79503,
+          "votesDem": 176705,
+          "votesTotal": 256208
+        },
+        "Kauai15": {
+          "color": "#1C408C",
+          "label": "Hirono +50.3",
+          "margin": -50.3,
+          "votesRep": 6120,
+          "votesDem": 18510,
+          "votesTotal": 24630
+        },
+        "Maui15": {
+          "color": "#1C408C",
+          "label": "Hirono +53.7",
+          "margin": -53.67,
+          "votesRep": 11381,
+          "votesDem": 37753,
+          "votesTotal": 49134
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "John Carroll",
+      "candDem": "Brian Schatz",
+      "shortRep": "Carroll",
+      "shortDem": "Schatz",
+      "partisan": true,
+      "margin": -53.59,
+      "votesRep": 92653,
+      "votesDem": 306604,
+      "votesTotal": 416562,
+      "regions": {
+        "Hawaii15": {
+          "color": "#1C408C",
+          "label": "Schatz +57.3",
+          "margin": -57.28,
+          "votesRep": 12766,
+          "votesDem": 47003,
+          "votesTotal": 63015
+        },
+        "Honolulu15": {
+          "color": "#1C408C",
+          "label": "Schatz +51.6",
+          "margin": -51.59,
+          "votesRep": 64939,
+          "votesDem": 203372,
+          "votesTotal": 278656
+        },
+        "Kauai15": {
+          "color": "#1C408C",
+          "label": "Schatz +60.1",
+          "margin": -60.06,
+          "votesRep": 4745,
+          "votesDem": 19015,
+          "votesTotal": 24976
+        },
+        "Maui15": {
+          "color": "#1C408C",
+          "label": "Schatz +57.0",
+          "margin": -56.96,
+          "votesRep": 10203,
+          "votesDem": 37214,
+          "votesTotal": 49915
+        }
+      }
+    }
+  ]
+}

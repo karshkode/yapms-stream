@@ -1,0 +1,491 @@
+{
+  "stateFips": "33",
+  "stateName": "New Hampshire",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Kelly Ayotte",
+      "candDem": "Joyce Craig",
+      "shortRep": "Ayotte",
+      "shortDem": "Craig",
+      "partisan": true,
+      "margin": 9.54,
+      "votesRep": 436122,
+      "votesDem": 360149,
+      "votesTotal": 813497,
+      "regions": {
+        "Belknap33": {
+          "color": "#BF1D29",
+          "label": "Ayotte +25.2",
+          "margin": 25.24,
+          "votesRep": 24732,
+          "votesDem": 14762,
+          "votesTotal": 40275
+        },
+        "Carroll33": {
+          "color": "#BF1D29",
+          "label": "Ayotte +14.0",
+          "margin": 14.02,
+          "votesRep": 19104,
+          "votesDem": 14407,
+          "votesTotal": 34158
+        },
+        "Cheshire33": {
+          "color": "#8AAFFF",
+          "label": "Craig +1.8",
+          "margin": -1.76,
+          "votesRep": 21342,
+          "votesDem": 22107,
+          "votesTotal": 44504
+        },
+        "Coos33": {
+          "color": "#BF1D29",
+          "label": "Ayotte +22.6",
+          "margin": 22.55,
+          "votesRep": 10047,
+          "votesDem": 6349,
+          "votesTotal": 16849
+        },
+        "Grafton33": {
+          "color": "#577CCC",
+          "label": "Craig +9.3",
+          "margin": -9.26,
+          "votesRep": 24260,
+          "votesDem": 29212,
+          "votesTotal": 54773
+        },
+        "Hillsborough33": {
+          "color": "#BF1D29",
+          "label": "Ayotte +11.3",
+          "margin": 11.26,
+          "votesRep": 125883,
+          "votesDem": 100395,
+          "votesTotal": 231048
+        },
+        "Merrimack33": {
+          "color": "#FF5865",
+          "label": "Ayotte +6.4",
+          "margin": 6.37,
+          "votesRep": 47792,
+          "votesDem": 42070,
+          "votesTotal": 91788
+        },
+        "Rockingham33": {
+          "color": "#BF1D29",
+          "label": "Ayotte +16.0",
+          "margin": 15.98,
+          "votesRep": 113667,
+          "votesDem": 82344,
+          "votesTotal": 199836
+        },
+        "Strafford33": {
+          "color": "#8AAFFF",
+          "label": "Craig +2.2",
+          "margin": -2.17,
+          "votesRep": 36040,
+          "votesDem": 37641,
+          "votesTotal": 75459
+        },
+        "Sullivan33": {
+          "color": "#FF5865",
+          "label": "Ayotte +9.9",
+          "margin": 9.92,
+          "votesRep": 13255,
+          "votesDem": 10862,
+          "votesTotal": 24807
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Chris Sununu",
+      "candDem": "Tom Sherman",
+      "shortRep": "Sununu",
+      "shortDem": "Sherman",
+      "partisan": true,
+      "margin": 15.76,
+      "votesRep": 352813,
+      "votesDem": 256766,
+      "votesTotal": 619135,
+      "regions": {
+        "Belknap33": {
+          "color": "#BF1D29",
+          "label": "Sununu +37.0",
+          "margin": 36.99,
+          "votesRep": 20499,
+          "votesDem": 9429,
+          "votesTotal": 30353
+        },
+        "Carroll33": {
+          "color": "#BF1D29",
+          "label": "Sununu +23.3",
+          "margin": 23.26,
+          "votesRep": 16554,
+          "votesDem": 10306,
+          "votesTotal": 27202
+        },
+        "Cheshire33": {
+          "color": "#8AAFFF",
+          "label": "Sherman +1.2",
+          "margin": -1.16,
+          "votesRep": 16503,
+          "votesDem": 16890,
+          "votesTotal": 33909
+        },
+        "Coos33": {
+          "color": "#BF1D29",
+          "label": "Sununu +32.6",
+          "margin": 32.6,
+          "votesRep": 8251,
+          "votesDem": 4194,
+          "votesTotal": 12805
+        },
+        "Grafton33": {
+          "color": "#8AAFFF",
+          "label": "Sherman +2.5",
+          "margin": -2.52,
+          "votesRep": 20427,
+          "votesDem": 21483,
+          "votesTotal": 42586
+        },
+        "Hillsborough33": {
+          "color": "#BF1D29",
+          "label": "Sununu +17.7",
+          "margin": 17.68,
+          "votesRep": 99608,
+          "votesDem": 69673,
+          "votesTotal": 171866
+        },
+        "Merrimack33": {
+          "color": "#BF1D29",
+          "label": "Sununu +11.3",
+          "margin": 11.27,
+          "votesRep": 38669,
+          "votesDem": 30835,
+          "votesTotal": 70752
+        },
+        "Rockingham33": {
+          "color": "#BF1D29",
+          "label": "Sununu +21.3",
+          "margin": 21.27,
+          "votesRep": 92043,
+          "votesDem": 59759,
+          "votesTotal": 154018
+        },
+        "Strafford33": {
+          "color": "#FF8B98",
+          "label": "Sununu +4.7",
+          "margin": 4.69,
+          "votesRep": 29100,
+          "votesDem": 26495,
+          "votesTotal": 56524
+        },
+        "Sullivan33": {
+          "color": "#BF1D29",
+          "label": "Sununu +18.3",
+          "margin": 18.33,
+          "votesRep": 11159,
+          "votesDem": 7702,
+          "votesTotal": 19120
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Donald Bolduc",
+      "candDem": "Maggie Hassan",
+      "shortRep": "Bolduc",
+      "shortDem": "Hassan",
+      "partisan": true,
+      "margin": -9.25,
+      "votesRep": 275928,
+      "votesDem": 332193,
+      "votesTotal": 620975,
+      "regions": {
+        "Belknap33": {
+          "color": "#FF5865",
+          "label": "Bolduc +9.7",
+          "margin": 9.66,
+          "votesRep": 16591,
+          "votesDem": 13669,
+          "votesTotal": 30797
+        },
+        "Carroll33": {
+          "color": "#8AAFFF",
+          "label": "Hassan +2.6",
+          "margin": -2.6,
+          "votesRep": 13014,
+          "votesDem": 13708,
+          "votesTotal": 27137
+        },
+        "Cheshire33": {
+          "color": "#1C408C",
+          "label": "Hassan +20.5",
+          "margin": -20.53,
+          "votesRep": 13241,
+          "votesDem": 20083,
+          "votesTotal": 34008
+        },
+        "Coos33": {
+          "color": "#FF8B98",
+          "label": "Bolduc +3.4",
+          "margin": 3.44,
+          "votesRep": 6491,
+          "votesDem": 6059,
+          "votesTotal": 12903
+        },
+        "Grafton33": {
+          "color": "#1C408C",
+          "label": "Hassan +25.8",
+          "margin": -25.77,
+          "votesRep": 15544,
+          "votesDem": 26337,
+          "votesTotal": 42772
+        },
+        "Hillsborough33": {
+          "color": "#577CCC",
+          "label": "Hassan +8.8",
+          "margin": -8.84,
+          "votesRep": 76862,
+          "votesDem": 91776,
+          "votesTotal": 172376
+        },
+        "Merrimack33": {
+          "color": "#1C408C",
+          "label": "Hassan +13.6",
+          "margin": -13.56,
+          "votesRep": 29965,
+          "votesDem": 39367,
+          "votesTotal": 70858
+        },
+        "Rockingham33": {
+          "color": "#8AAFFF",
+          "label": "Hassan +3.2",
+          "margin": -3.17,
+          "votesRep": 73244,
+          "votesDem": 78047,
+          "votesTotal": 154387
+        },
+        "Strafford33": {
+          "color": "#1C408C",
+          "label": "Hassan +19.9",
+          "margin": -19.88,
+          "votesRep": 22217,
+          "votesDem": 33240,
+          "votesTotal": 56618
+        },
+        "Sullivan33": {
+          "color": "#577CCC",
+          "label": "Hassan +6.2",
+          "margin": -6.15,
+          "votesRep": 8759,
+          "votesDem": 9907,
+          "votesTotal": 19119
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Chris Sununu",
+      "candDem": "Molly Kelly",
+      "shortRep": "Sununu",
+      "shortDem": "Kelly",
+      "partisan": true,
+      "margin": 7.15,
+      "votesRep": 302764,
+      "votesDem": 262359,
+      "votesTotal": 573602,
+      "regions": {
+        "Belknap33": {
+          "color": "#BF1D29",
+          "label": "Sununu +27.0",
+          "margin": 26.99,
+          "votesRep": 16856,
+          "votesDem": 9690,
+          "votesTotal": 26920
+        },
+        "Carroll33": {
+          "color": "#BF1D29",
+          "label": "Sununu +12.1",
+          "margin": 12.11,
+          "votesRep": 13308,
+          "votesDem": 10432,
+          "votesTotal": 24005
+        },
+        "Cheshire33": {
+          "color": "#1C408C",
+          "label": "Kelly +13.4",
+          "margin": -13.37,
+          "votesRep": 13875,
+          "votesDem": 18158,
+          "votesTotal": 32542
+        },
+        "Coos33": {
+          "color": "#BF1D29",
+          "label": "Sununu +12.4",
+          "margin": 12.38,
+          "votesRep": 6397,
+          "votesDem": 4988,
+          "votesTotal": 11610
+        },
+        "Grafton33": {
+          "color": "#1C408C",
+          "label": "Kelly +15.6",
+          "margin": -15.63,
+          "votesRep": 16734,
+          "votesDem": 22932,
+          "votesTotal": 40308
+        },
+        "Hillsborough33": {
+          "color": "#FF5865",
+          "label": "Sununu +9.9",
+          "margin": 9.89,
+          "votesRep": 87846,
+          "votesDem": 72033,
+          "votesTotal": 162468
+        },
+        "Merrimack33": {
+          "color": "#FF8B98",
+          "label": "Sununu +4.6",
+          "margin": 4.64,
+          "votesRep": 33513,
+          "votesDem": 30540,
+          "votesTotal": 65025
+        },
+        "Rockingham33": {
+          "color": "#BF1D29",
+          "label": "Sununu +14.4",
+          "margin": 14.39,
+          "votesRep": 79195,
+          "votesDem": 59269,
+          "votesTotal": 140163
+        },
+        "Strafford33": {
+          "color": "#8AAFFF",
+          "label": "Kelly +1.5",
+          "margin": -1.55,
+          "votesRep": 25782,
+          "votesDem": 26593,
+          "votesTotal": 53306
+        },
+        "Sullivan33": {
+          "color": "#FF5865",
+          "label": "Sununu +9.0",
+          "margin": 9.03,
+          "votesRep": 9258,
+          "votesDem": 7724,
+          "votesTotal": 17255
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Kelly Ayotte",
+      "candDem": "Maggie Hassan",
+      "shortRep": "Ayotte",
+      "shortDem": "Hassan",
+      "partisan": true,
+      "margin": 4.91,
+      "votesRep": 270015,
+      "votesDem": 244747,
+      "votesTotal": 536712,
+      "regions": {
+        "Belknap33": {
+          "color": "#BF1D29",
+          "label": "Ayotte +14.0",
+          "margin": 13.96,
+          "votesRep": 14640,
+          "votesDem": 11053,
+          "votesTotal": 26739
+        },
+        "Carroll33": {
+          "color": "#FF8B98",
+          "label": "Ayotte +5.0",
+          "margin": 4.98,
+          "votesRep": 14838,
+          "votesDem": 13431,
+          "votesTotal": 29348
+        },
+        "Cheshire33": {
+          "color": "#577CCC",
+          "label": "Hassan +6.8",
+          "margin": -6.76,
+          "votesRep": 12847,
+          "votesDem": 14709,
+          "votesTotal": 28954
+        },
+        "Coos33": {
+          "color": "#FF8B98",
+          "label": "Ayotte +1.3",
+          "margin": 1.34,
+          "votesRep": 7539,
+          "votesDem": 7340,
+          "votesTotal": 15493
+        },
+        "Grafton33": {
+          "color": "#1C408C",
+          "label": "Hassan +11.5",
+          "margin": -11.53,
+          "votesRep": 18503,
+          "votesDem": 23326,
+          "votesTotal": 43594
+        },
+        "Hillsborough33": {
+          "color": "#BF1D29",
+          "label": "Ayotte +11.3",
+          "margin": 11.26,
+          "votesRep": 64606,
+          "votesDem": 51529,
+          "votesTotal": 121018
+        },
+        "Merrimack33": {
+          "color": "#FF8B98",
+          "label": "Ayotte +3.7",
+          "margin": 3.74,
+          "votesRep": 28490,
+          "votesDem": 26435,
+          "votesTotal": 56984
+        },
+        "Rockingham33": {
+          "color": "#FF5865",
+          "label": "Ayotte +8.9",
+          "margin": 8.91,
+          "votesRep": 87030,
+          "votesDem": 72786,
+          "votesTotal": 166966
+        },
+        "Strafford33": {
+          "color": "#577CCC",
+          "label": "Hassan +9.5",
+          "margin": -9.46,
+          "votesRep": 13381,
+          "votesDem": 16178,
+          "votesTotal": 30754
+        },
+        "Sullivan33": {
+          "color": "#FF8B98",
+          "label": "Ayotte +1.1",
+          "margin": 1.12,
+          "votesRep": 8141,
+          "votesDem": 7960,
+          "votesTotal": 16862
+        }
+      }
+    }
+  ]
+}

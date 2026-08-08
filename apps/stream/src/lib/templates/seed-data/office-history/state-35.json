@@ -1,0 +1,1098 @@
+{
+  "stateFips": "35",
+  "stateName": "New Mexico",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Nella Louise Domenici",
+      "candDem": "Martin Heinrich",
+      "shortRep": "Domenici",
+      "shortDem": "Heinrich",
+      "partisan": true,
+      "margin": -10.11,
+      "votesRep": 405978,
+      "votesDem": 497333,
+      "votesTotal": 903311,
+      "regions": {
+        "Bernalillo35": {
+          "color": "#1C408C",
+          "label": "Heinrich +22.8",
+          "margin": -22.84,
+          "votesRep": 117575,
+          "votesDem": 187163,
+          "votesTotal": 304738
+        },
+        "Catron35": {
+          "color": "#BF1D29",
+          "label": "Domenici +46.3",
+          "margin": 46.31,
+          "votesRep": 1676,
+          "votesDem": 615,
+          "votesTotal": 2291
+        },
+        "Chaves35": {
+          "color": "#BF1D29",
+          "label": "Domenici +37.8",
+          "margin": 37.79,
+          "votesRep": 14891,
+          "votesDem": 6723,
+          "votesTotal": 21614
+        },
+        "Cibola35": {
+          "color": "#1C408C",
+          "label": "Heinrich +13.2",
+          "margin": -13.18,
+          "votesRep": 3801,
+          "votesDem": 4955,
+          "votesTotal": 8756
+        },
+        "Colfax35": {
+          "color": "#FF5865",
+          "label": "Domenici +5.7",
+          "margin": 5.66,
+          "votesRep": 3031,
+          "votesDem": 2706,
+          "votesTotal": 5737
+        },
+        "Curry35": {
+          "color": "#BF1D29",
+          "label": "Domenici +38.4",
+          "margin": 38.37,
+          "votesRep": 10176,
+          "votesDem": 4532,
+          "votesTotal": 14708
+        },
+        "De Baca35": {
+          "color": "#BF1D29",
+          "label": "Domenici +37.2",
+          "margin": 37.16,
+          "votesRep": 585,
+          "votesDem": 268,
+          "votesTotal": 853
+        },
+        "Eddy35": {
+          "color": "#BF1D29",
+          "label": "Domenici +47.4",
+          "margin": 47.45,
+          "votesRep": 16775,
+          "votesDem": 5979,
+          "votesTotal": 22754
+        },
+        "Grant35": {
+          "color": "#1C408C",
+          "label": "Heinrich +12.0",
+          "margin": -11.96,
+          "votesRep": 6133,
+          "votesDem": 7800,
+          "votesTotal": 13933
+        },
+        "Guadalupe35": {
+          "color": "#1C408C",
+          "label": "Heinrich +21.7",
+          "margin": -21.73,
+          "votesRep": 735,
+          "votesDem": 1143,
+          "votesTotal": 1878
+        },
+        "Harding35": {
+          "color": "#BF1D29",
+          "label": "Domenici +34.3",
+          "margin": 34.29,
+          "votesRep": 282,
+          "votesDem": 138,
+          "votesTotal": 420
+        },
+        "Hidalgo35": {
+          "color": "#BF1D29",
+          "label": "Domenici +11.0",
+          "margin": 11.05,
+          "votesRep": 980,
+          "votesDem": 785,
+          "votesTotal": 1765
+        },
+        "Lea35": {
+          "color": "#BF1D29",
+          "label": "Domenici +55.3",
+          "margin": 55.3,
+          "votesRep": 15852,
+          "votesDem": 4563,
+          "votesTotal": 20415
+        },
+        "Lincoln35": {
+          "color": "#BF1D29",
+          "label": "Domenici +34.4",
+          "margin": 34.44,
+          "votesRep": 6706,
+          "votesDem": 3270,
+          "votesTotal": 9976
+        },
+        "Los Alamos35": {
+          "color": "#1C408C",
+          "label": "Heinrich +28.0",
+          "margin": -28.01,
+          "votesRep": 4365,
+          "votesDem": 7761,
+          "votesTotal": 12126
+        },
+        "Luna35": {
+          "color": "#FF5865",
+          "label": "Domenici +8.5",
+          "margin": 8.49,
+          "votesRep": 4205,
+          "votesDem": 3547,
+          "votesTotal": 7752
+        },
+        "McKinley35": {
+          "color": "#1C408C",
+          "label": "Heinrich +35.1",
+          "margin": -35.11,
+          "votesRep": 8195,
+          "votesDem": 17064,
+          "votesTotal": 25259
+        },
+        "Mora35": {
+          "color": "#1C408C",
+          "label": "Heinrich +27.8",
+          "margin": -27.77,
+          "votesRep": 866,
+          "votesDem": 1532,
+          "votesTotal": 2398
+        },
+        "Otero35": {
+          "color": "#BF1D29",
+          "label": "Domenici +21.0",
+          "margin": 21.04,
+          "votesRep": 14147,
+          "votesDem": 9229,
+          "votesTotal": 23376
+        },
+        "Quay35": {
+          "color": "#BF1D29",
+          "label": "Domenici +34.4",
+          "margin": 34.41,
+          "votesRep": 2406,
+          "votesDem": 1174,
+          "votesTotal": 3580
+        },
+        "Rio Arriba35": {
+          "color": "#1C408C",
+          "label": "Heinrich +29.0",
+          "margin": -28.99,
+          "votesRep": 5524,
+          "votesDem": 10035,
+          "votesTotal": 15559
+        },
+        "Roosevelt35": {
+          "color": "#BF1D29",
+          "label": "Domenici +40.1",
+          "margin": 40.06,
+          "votesRep": 4559,
+          "votesDem": 1951,
+          "votesTotal": 6510
+        },
+        "San Juan35": {
+          "color": "#BF1D29",
+          "label": "Domenici +25.9",
+          "margin": 25.9,
+          "votesRep": 32417,
+          "votesDem": 19078,
+          "votesTotal": 51495
+        },
+        "San Miguel35": {
+          "color": "#1C408C",
+          "label": "Heinrich +37.0",
+          "margin": -36.97,
+          "votesRep": 3427,
+          "votesDem": 7447,
+          "votesTotal": 10874
+        },
+        "Sandoval35": {
+          "color": "#577CCC",
+          "label": "Heinrich +8.3",
+          "margin": -8.31,
+          "votesRep": 35959,
+          "votesDem": 42473,
+          "votesTotal": 78432
+        },
+        "Santa Fe35": {
+          "color": "#1C408C",
+          "label": "Heinrich +51.1",
+          "margin": -51.07,
+          "votesRep": 20183,
+          "votesDem": 62312,
+          "votesTotal": 82495
+        },
+        "Sierra35": {
+          "color": "#BF1D29",
+          "label": "Domenici +12.3",
+          "margin": 12.3,
+          "votesRep": 3269,
+          "votesDem": 2553,
+          "votesTotal": 5822
+        },
+        "Socorro35": {
+          "color": "#8AAFFF",
+          "label": "Heinrich +4.8",
+          "margin": -4.8,
+          "votesRep": 3365,
+          "votesDem": 3704,
+          "votesTotal": 7069
+        },
+        "Taos35": {
+          "color": "#1C408C",
+          "label": "Heinrich +52.8",
+          "margin": -52.79,
+          "votesRep": 3849,
+          "votesDem": 12457,
+          "votesTotal": 16306
+        },
+        "Torrance35": {
+          "color": "#BF1D29",
+          "label": "Domenici +30.4",
+          "margin": 30.43,
+          "votesRep": 4601,
+          "votesDem": 2454,
+          "votesTotal": 7055
+        },
+        "Union35": {
+          "color": "#BF1D29",
+          "label": "Domenici +51.2",
+          "margin": 51.23,
+          "votesRep": 1231,
+          "votesDem": 397,
+          "votesTotal": 1628
+        },
+        "Valencia35": {
+          "color": "#FF5865",
+          "label": "Domenici +9.3",
+          "margin": 9.33,
+          "votesRep": 17857,
+          "votesDem": 14810,
+          "votesTotal": 32667
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Mark Ronchetti",
+      "candDem": "Michelle Lujan Grisham",
+      "shortRep": "Ronchetti",
+      "shortDem": "Grisham",
+      "partisan": false,
+      "margin": -6.54,
+      "votesRep": 324665,
+      "votesDem": 370125,
+      "votesTotal": 709514,
+      "regions": {
+        "Bernalillo35": {
+          "color": "#1C408C",
+          "label": "Grisham +17.3",
+          "margin": -17.25,
+          "votesRep": 99630,
+          "votesDem": 141177,
+          "votesTotal": 244267
+        },
+        "Catron35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +52.0",
+          "margin": 52.04,
+          "votesRep": 1493,
+          "votesDem": 471,
+          "votesTotal": 2001
+        },
+        "Chaves35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +49.1",
+          "margin": 49.06,
+          "votesRep": 11880,
+          "votesDem": 4060,
+          "votesTotal": 16241
+        },
+        "Cibola35": {
+          "color": "#8AAFFF",
+          "label": "Grisham +2.9",
+          "margin": -2.91,
+          "votesRep": 3225,
+          "votesDem": 3418,
+          "votesTotal": 6816
+        },
+        "Colfax35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +14.0",
+          "margin": 13.96,
+          "votesRep": 2719,
+          "votesDem": 2053,
+          "votesTotal": 4876
+        },
+        "Curry35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +47.7",
+          "margin": 47.67,
+          "votesRep": 7092,
+          "votesDem": 2513,
+          "votesTotal": 10232
+        },
+        "De Baca35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +55.3",
+          "margin": 55.28,
+          "votesRep": 566,
+          "votesDem": 163,
+          "votesTotal": 751
+        },
+        "Eddy35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +58.8",
+          "margin": 58.83,
+          "votesRep": 12996,
+          "votesDem": 3369,
+          "votesTotal": 16648
+        },
+        "Grant35": {
+          "color": "#577CCC",
+          "label": "Grisham +8.5",
+          "margin": -8.49,
+          "votesRep": 5217,
+          "votesDem": 6185,
+          "votesTotal": 11634
+        },
+        "Guadalupe35": {
+          "color": "#577CCC",
+          "label": "Grisham +7.7",
+          "margin": -7.71,
+          "votesRep": 784,
+          "votesDem": 915,
+          "votesTotal": 1741
+        },
+        "Harding35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +37.9",
+          "margin": 37.93,
+          "votesRep": 280,
+          "votesDem": 126,
+          "votesTotal": 413
+        },
+        "Hidalgo35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +17.3",
+          "margin": 17.25,
+          "votesRep": 914,
+          "votesDem": 645,
+          "votesTotal": 1615
+        },
+        "Lea35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +69.2",
+          "margin": 69.16,
+          "votesRep": 11542,
+          "votesDem": 2104,
+          "votesTotal": 13922
+        },
+        "Lincoln35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +42.5",
+          "margin": 42.46,
+          "votesRep": 5778,
+          "votesDem": 2334,
+          "votesTotal": 8330
+        },
+        "Los Alamos35": {
+          "color": "#1C408C",
+          "label": "Grisham +24.5",
+          "margin": -24.55,
+          "votesRep": 3751,
+          "votesDem": 6192,
+          "votesTotal": 10131
+        },
+        "Luna35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +14.1",
+          "margin": 14.14,
+          "votesRep": 3250,
+          "votesDem": 2445,
+          "votesTotal": 5884
+        },
+        "McKinley35": {
+          "color": "#1C408C",
+          "label": "Grisham +38.0",
+          "margin": -38.01,
+          "votesRep": 5799,
+          "votesDem": 12910,
+          "votesTotal": 19409
+        },
+        "Mora35": {
+          "color": "#1C408C",
+          "label": "Grisham +31.1",
+          "margin": -31.13,
+          "votesRep": 832,
+          "votesDem": 1584,
+          "votesTotal": 2437
+        },
+        "Otero35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +31.4",
+          "margin": 31.35,
+          "votesRep": 11182,
+          "votesDem": 5844,
+          "votesTotal": 17596
+        },
+        "Quay35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +45.2",
+          "margin": 45.15,
+          "votesRep": 2104,
+          "votesDem": 795,
+          "votesTotal": 3008
+        },
+        "Rio Arriba35": {
+          "color": "#1C408C",
+          "label": "Grisham +25.9",
+          "margin": -25.93,
+          "votesRep": 4726,
+          "votesDem": 8035,
+          "votesTotal": 12873
+        },
+        "Roosevelt35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +49.0",
+          "margin": 49.02,
+          "votesRep": 3177,
+          "votesDem": 1087,
+          "votesTotal": 4661
+        },
+        "San Juan35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +33.1",
+          "margin": 33.12,
+          "votesRep": 25574,
+          "votesDem": 12849,
+          "votesTotal": 40028
+        },
+        "San Miguel35": {
+          "color": "#1C408C",
+          "label": "Grisham +40.3",
+          "margin": -40.27,
+          "votesRep": 2781,
+          "votesDem": 6531,
+          "votesTotal": 9396
+        },
+        "Sandoval35": {
+          "color": "#8AAFFF",
+          "label": "Grisham +2.4",
+          "margin": -2.41,
+          "votesRep": 29337,
+          "votesDem": 30789,
+          "votesTotal": 61016
+        },
+        "Santa Fe35": {
+          "color": "#1C408C",
+          "label": "Grisham +52.6",
+          "margin": -52.61,
+          "votesRep": 16286,
+          "votesDem": 52447,
+          "votesTotal": 69239
+        },
+        "Sierra35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +25.5",
+          "margin": 25.54,
+          "votesRep": 3001,
+          "votesDem": 1780,
+          "votesTotal": 4919
+        },
+        "Socorro35": {
+          "color": "#CF8980",
+          "label": "Ronchetti +0.7",
+          "margin": 0.67,
+          "votesRep": 2988,
+          "votesDem": 2948,
+          "votesTotal": 6100
+        },
+        "Taos35": {
+          "color": "#1C408C",
+          "label": "Grisham +55.0",
+          "margin": -55.04,
+          "votesRep": 2954,
+          "votesDem": 10188,
+          "votesTotal": 13281
+        },
+        "Torrance35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +40.1",
+          "margin": 40.08,
+          "votesRep": 3712,
+          "votesDem": 1588,
+          "votesTotal": 5518
+        },
+        "Union35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +54.4",
+          "margin": 54.42,
+          "votesRep": 1101,
+          "votesDem": 325,
+          "votesTotal": 1491
+        },
+        "Valencia35": {
+          "color": "#BF1D29",
+          "label": "Ronchetti +18.8",
+          "margin": 18.78,
+          "votesRep": 14781,
+          "votesDem": 10108,
+          "votesTotal": 25409
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Steve Pearce",
+      "candDem": "Michelle Lujan Grisham",
+      "shortRep": "Pearce",
+      "shortDem": "Grisham",
+      "partisan": true,
+      "margin": -14.4,
+      "votesRep": 298091,
+      "votesDem": 398368,
+      "votesTotal": 696459,
+      "regions": {
+        "Bernalillo35": {
+          "color": "#1C408C",
+          "label": "Grisham +24.2",
+          "margin": -24.2,
+          "votesRep": 91221,
+          "votesDem": 149480,
+          "votesTotal": 240701
+        },
+        "Catron35": {
+          "color": "#BF1D29",
+          "label": "Pearce +44.5",
+          "margin": 44.55,
+          "votesRep": 1332,
+          "votesDem": 511,
+          "votesTotal": 1843
+        },
+        "Chaves35": {
+          "color": "#BF1D29",
+          "label": "Pearce +36.0",
+          "margin": 35.95,
+          "votesRep": 11352,
+          "votesDem": 5348,
+          "votesTotal": 16700
+        },
+        "Cibola35": {
+          "color": "#1C408C",
+          "label": "Grisham +11.9",
+          "margin": -11.88,
+          "votesRep": 3141,
+          "votesDem": 3988,
+          "votesTotal": 7129
+        },
+        "Colfax35": {
+          "color": "#6b7280",
+          "label": "Pearce +0.2",
+          "margin": 0.17,
+          "votesRep": 2335,
+          "votesDem": 2327,
+          "votesTotal": 4662
+        },
+        "Curry35": {
+          "color": "#BF1D29",
+          "label": "Pearce +39.2",
+          "margin": 39.18,
+          "votesRep": 7107,
+          "votesDem": 3106,
+          "votesTotal": 10213
+        },
+        "De Baca35": {
+          "color": "#BF1D29",
+          "label": "Pearce +43.9",
+          "margin": 43.87,
+          "votesRep": 587,
+          "votesDem": 229,
+          "votesTotal": 816
+        },
+        "Eddy35": {
+          "color": "#BF1D29",
+          "label": "Pearce +41.4",
+          "margin": 41.41,
+          "votesRep": 11178,
+          "votesDem": 4631,
+          "votesTotal": 15809
+        },
+        "Grant35": {
+          "color": "#1C408C",
+          "label": "Grisham +19.4",
+          "margin": -19.44,
+          "votesRep": 4750,
+          "votesDem": 7043,
+          "votesTotal": 11793
+        },
+        "Guadalupe35": {
+          "color": "#1C408C",
+          "label": "Grisham +20.5",
+          "margin": -20.54,
+          "votesRep": 673,
+          "votesDem": 1021,
+          "votesTotal": 1694
+        },
+        "Harding35": {
+          "color": "#BF1D29",
+          "label": "Pearce +25.5",
+          "margin": 25.52,
+          "votesRep": 300,
+          "votesDem": 178,
+          "votesTotal": 478
+        },
+        "Hidalgo35": {
+          "color": "#FF8B98",
+          "label": "Pearce +3.5",
+          "margin": 3.5,
+          "votesRep": 842,
+          "votesDem": 785,
+          "votesTotal": 1627
+        },
+        "Lea35": {
+          "color": "#BF1D29",
+          "label": "Pearce +55.7",
+          "margin": 55.7,
+          "votesRep": 10845,
+          "votesDem": 3086,
+          "votesTotal": 13931
+        },
+        "Lincoln35": {
+          "color": "#BF1D29",
+          "label": "Pearce +33.0",
+          "margin": 33.04,
+          "votesRep": 5216,
+          "votesDem": 2625,
+          "votesTotal": 7841
+        },
+        "Los Alamos35": {
+          "color": "#1C408C",
+          "label": "Grisham +17.2",
+          "margin": -17.23,
+          "votesRep": 4240,
+          "votesDem": 6005,
+          "votesTotal": 10245
+        },
+        "Luna35": {
+          "color": "#FF8B98",
+          "label": "Pearce +3.4",
+          "margin": 3.4,
+          "votesRep": 3176,
+          "votesDem": 2967,
+          "votesTotal": 6143
+        },
+        "McKinley35": {
+          "color": "#1C408C",
+          "label": "Grisham +42.9",
+          "margin": -42.93,
+          "votesRep": 5238,
+          "votesDem": 13117,
+          "votesTotal": 18355
+        },
+        "Mora35": {
+          "color": "#1C408C",
+          "label": "Grisham +42.1",
+          "margin": -42.1,
+          "votesRep": 678,
+          "votesDem": 1664,
+          "votesTotal": 2342
+        },
+        "Otero35": {
+          "color": "#BF1D29",
+          "label": "Pearce +24.5",
+          "margin": 24.53,
+          "votesRep": 10644,
+          "votesDem": 6450,
+          "votesTotal": 17094
+        },
+        "Quay35": {
+          "color": "#BF1D29",
+          "label": "Pearce +25.9",
+          "margin": 25.93,
+          "votesRep": 1945,
+          "votesDem": 1144,
+          "votesTotal": 3089
+        },
+        "Rio Arriba35": {
+          "color": "#1C408C",
+          "label": "Grisham +46.0",
+          "margin": -46,
+          "votesRep": 3459,
+          "votesDem": 9352,
+          "votesTotal": 12811
+        },
+        "Roosevelt35": {
+          "color": "#BF1D29",
+          "label": "Pearce +38.5",
+          "margin": 38.52,
+          "votesRep": 3222,
+          "votesDem": 1430,
+          "votesTotal": 4652
+        },
+        "San Juan35": {
+          "color": "#BF1D29",
+          "label": "Pearce +28.4",
+          "margin": 28.45,
+          "votesRep": 23961,
+          "votesDem": 13347,
+          "votesTotal": 37308
+        },
+        "San Miguel35": {
+          "color": "#1C408C",
+          "label": "Grisham +51.6",
+          "margin": -51.55,
+          "votesRep": 2238,
+          "votesDem": 7001,
+          "votesTotal": 9239
+        },
+        "Sandoval35": {
+          "color": "#1C408C",
+          "label": "Grisham +10.2",
+          "margin": -10.18,
+          "votesRep": 24803,
+          "votesDem": 30425,
+          "votesTotal": 55228
+        },
+        "Santa Fe35": {
+          "color": "#1C408C",
+          "label": "Grisham +57.1",
+          "margin": -57.09,
+          "votesRep": 14394,
+          "votesDem": 52692,
+          "votesTotal": 67086
+        },
+        "Sierra35": {
+          "color": "#BF1D29",
+          "label": "Pearce +20.4",
+          "margin": 20.39,
+          "votesRep": 2843,
+          "votesDem": 1880,
+          "votesTotal": 4723
+        },
+        "Socorro35": {
+          "color": "#1C408C",
+          "label": "Grisham +14.9",
+          "margin": -14.89,
+          "votesRep": 2664,
+          "votesDem": 3596,
+          "votesTotal": 6260
+        },
+        "Taos35": {
+          "color": "#1C408C",
+          "label": "Grisham +62.9",
+          "margin": -62.92,
+          "votesRep": 2687,
+          "votesDem": 11806,
+          "votesTotal": 14493
+        },
+        "Torrance35": {
+          "color": "#BF1D29",
+          "label": "Pearce +23.7",
+          "margin": 23.65,
+          "votesRep": 3317,
+          "votesDem": 2048,
+          "votesTotal": 5365
+        },
+        "Union35": {
+          "color": "#BF1D29",
+          "label": "Pearce +43.7",
+          "margin": 43.69,
+          "votesRep": 1059,
+          "votesDem": 415,
+          "votesTotal": 1474
+        },
+        "Valencia35": {
+          "color": "#FF8B98",
+          "label": "Pearce +3.9",
+          "margin": 3.86,
+          "votesRep": 12659,
+          "votesDem": 11717,
+          "votesTotal": 24376
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Mick Rich",
+      "candDem": "Martin Heinrich",
+      "shortRep": "Rich",
+      "shortDem": "Heinrich",
+      "partisan": true,
+      "margin": -27.84,
+      "votesRep": 212813,
+      "votesDem": 376998,
+      "votesTotal": 697012,
+      "regions": {
+        "Bernalillo35": {
+          "color": "#1C408C",
+          "label": "Heinrich +38.7",
+          "margin": -38.69,
+          "votesRep": 61932,
+          "votesDem": 140082,
+          "votesTotal": 241288
+        },
+        "Catron35": {
+          "color": "#BF1D29",
+          "label": "Rich +32.3",
+          "margin": 32.31,
+          "votesRep": 1075,
+          "votesDem": 550,
+          "votesTotal": 1842
+        },
+        "Chaves35": {
+          "color": "#BF1D29",
+          "label": "Rich +24.6",
+          "margin": 24.62,
+          "votesRep": 8727,
+          "votesDem": 5279,
+          "votesTotal": 16672
+        },
+        "Cibola35": {
+          "color": "#1C408C",
+          "label": "Heinrich +36.1",
+          "margin": -36.11,
+          "votesRep": 1842,
+          "votesDem": 3924,
+          "votesTotal": 7121
+        },
+        "Colfax35": {
+          "color": "#1C408C",
+          "label": "Heinrich +18.2",
+          "margin": -18.19,
+          "votesRep": 1615,
+          "votesDem": 2333,
+          "votesTotal": 4679
+        },
+        "Curry35": {
+          "color": "#BF1D29",
+          "label": "Rich +35.7",
+          "margin": 35.71,
+          "votesRep": 5896,
+          "votesDem": 2793,
+          "votesTotal": 10187
+        },
+        "De Baca35": {
+          "color": "#BF1D29",
+          "label": "Rich +12.3",
+          "margin": 12.32,
+          "votesRep": 342,
+          "votesDem": 267,
+          "votesTotal": 805
+        },
+        "Eddy35": {
+          "color": "#BF1D29",
+          "label": "Rich +29.2",
+          "margin": 29.22,
+          "votesRep": 8826,
+          "votesDem": 4834,
+          "votesTotal": 15755
+        },
+        "Grant35": {
+          "color": "#1C408C",
+          "label": "Heinrich +30.5",
+          "margin": -30.55,
+          "votesRep": 3598,
+          "votesDem": 6763,
+          "votesTotal": 11803
+        },
+        "Guadalupe35": {
+          "color": "#1C408C",
+          "label": "Heinrich +57.9",
+          "margin": -57.86,
+          "votesRep": 292,
+          "votesDem": 1094,
+          "votesTotal": 1678
+        },
+        "Harding35": {
+          "color": "#6b7280",
+          "label": "Rich +0.3",
+          "margin": 0.25,
+          "votesRep": 199,
+          "votesDem": 198,
+          "votesTotal": 481
+        },
+        "Hidalgo35": {
+          "color": "#1C408C",
+          "label": "Heinrich +13.1",
+          "margin": -13.1,
+          "votesRep": 607,
+          "votesDem": 790,
+          "votesTotal": 1595
+        },
+        "Lea35": {
+          "color": "#BF1D29",
+          "label": "Rich +45.5",
+          "margin": 45.45,
+          "votesRep": 8882,
+          "votesDem": 3331,
+          "votesTotal": 13841
+        },
+        "Lincoln35": {
+          "color": "#BF1D29",
+          "label": "Rich +22.3",
+          "margin": 22.33,
+          "votesRep": 4122,
+          "votesDem": 2617,
+          "votesTotal": 7850
+        },
+        "Los Alamos35": {
+          "color": "#1C408C",
+          "label": "Heinrich +38.5",
+          "margin": -38.48,
+          "votesRep": 2576,
+          "votesDem": 5798,
+          "votesTotal": 10300
+        },
+        "Luna35": {
+          "color": "#1C408C",
+          "label": "Heinrich +13.0",
+          "margin": -13.01,
+          "votesRep": 2313,
+          "votesDem": 3005,
+          "votesTotal": 6141
+        },
+        "McKinley35": {
+          "color": "#1C408C",
+          "label": "Heinrich +62.0",
+          "margin": -61.96,
+          "votesRep": 2915,
+          "votesDem": 12409,
+          "votesTotal": 18373
+        },
+        "Mora35": {
+          "color": "#1C408C",
+          "label": "Heinrich +61.6",
+          "margin": -61.57,
+          "votesRep": 372,
+          "votesDem": 1564,
+          "votesTotal": 2322
+        },
+        "Otero35": {
+          "color": "#BF1D29",
+          "label": "Rich +14.1",
+          "margin": 14.09,
+          "votesRep": 8460,
+          "votesDem": 6370,
+          "votesTotal": 17121
+        },
+        "Quay35": {
+          "color": "#BF1D29",
+          "label": "Rich +20.3",
+          "margin": 20.31,
+          "votesRep": 1534,
+          "votesDem": 1016,
+          "votesTotal": 3087
+        },
+        "Rio Arriba35": {
+          "color": "#1C408C",
+          "label": "Heinrich +63.7",
+          "margin": -63.71,
+          "votesRep": 1945,
+          "votesDem": 8773,
+          "votesTotal": 12753
+        },
+        "Roosevelt35": {
+          "color": "#BF1D29",
+          "label": "Rich +34.2",
+          "margin": 34.23,
+          "votesRep": 2606,
+          "votesDem": 1277,
+          "votesTotal": 4633
+        },
+        "San Juan35": {
+          "color": "#BF1D29",
+          "label": "Rich +18.1",
+          "margin": 18.1,
+          "votesRep": 18002,
+          "votesDem": 12485,
+          "votesTotal": 37363
+        },
+        "San Miguel35": {
+          "color": "#1C408C",
+          "label": "Heinrich +67.2",
+          "margin": -67.17,
+          "votesRep": 1298,
+          "votesDem": 6609,
+          "votesTotal": 9230
+        },
+        "Sandoval35": {
+          "color": "#1C408C",
+          "label": "Heinrich +22.6",
+          "margin": -22.65,
+          "votesRep": 17785,
+          "votesDem": 28198,
+          "votesTotal": 55380
+        },
+        "Santa Fe35": {
+          "color": "#1C408C",
+          "label": "Heinrich +67.9",
+          "margin": -67.93,
+          "votesRep": 9546,
+          "votesDem": 49994,
+          "votesTotal": 67182
+        },
+        "Sierra35": {
+          "color": "#FF8B98",
+          "label": "Rich +3.3",
+          "margin": 3.3,
+          "votesRep": 2048,
+          "votesDem": 1917,
+          "votesTotal": 4732
+        },
+        "Socorro35": {
+          "color": "#1C408C",
+          "label": "Heinrich +33.5",
+          "margin": -33.45,
+          "votesRep": 1700,
+          "votesDem": 3409,
+          "votesTotal": 6238
+        },
+        "Taos35": {
+          "color": "#1C408C",
+          "label": "Heinrich +74.9",
+          "margin": -74.89,
+          "votesRep": 1556,
+          "votesDem": 10838,
+          "votesTotal": 14506
+        },
+        "Torrance35": {
+          "color": "#BF1D29",
+          "label": "Rich +10.2",
+          "margin": 10.22,
+          "votesRep": 2433,
+          "votesDem": 1982,
+          "votesTotal": 5366
+        },
+        "Union35": {
+          "color": "#BF1D29",
+          "label": "Rich +44.9",
+          "margin": 44.88,
+          "votesRep": 878,
+          "votesDem": 334,
+          "votesTotal": 1464
+        },
+        "Valencia35": {
+          "color": "#1C408C",
+          "label": "Heinrich +13.4",
+          "margin": -13.42,
+          "votesRep": 8790,
+          "votesDem": 11514,
+          "votesTotal": 24443
+        }
+      }
+    }
+  ]
+}

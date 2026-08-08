@@ -1,0 +1,1344 @@
+{
+  "stateFips": "28",
+  "stateName": "Mississippi",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Roger Wicker",
+      "candDem": "Ty Pinkins",
+      "shortRep": "Wicker",
+      "shortDem": "Pinkins",
+      "partisan": true,
+      "margin": 25.66,
+      "votesRep": 761934,
+      "votesDem": 450749,
+      "votesTotal": 1212683,
+      "regions": {
+        "Adams28": {
+          "color": "#1C408C",
+          "label": "Pinkins +11.4",
+          "margin": -11.38,
+          "votesRep": 5219,
+          "votesDem": 6560,
+          "votesTotal": 11779
+        },
+        "Alcorn28": {
+          "color": "#BF1D29",
+          "label": "Wicker +69.3",
+          "margin": 69.31,
+          "votesRep": 12576,
+          "votesDem": 2280,
+          "votesTotal": 14856
+        },
+        "Amite28": {
+          "color": "#BF1D29",
+          "label": "Wicker +32.6",
+          "margin": 32.61,
+          "votesRep": 4514,
+          "votesDem": 2294,
+          "votesTotal": 6808
+        },
+        "Attala28": {
+          "color": "#BF1D29",
+          "label": "Wicker +24.3",
+          "margin": 24.31,
+          "votesRep": 4753,
+          "votesDem": 2894,
+          "votesTotal": 7647
+        },
+        "Benton28": {
+          "color": "#BF1D29",
+          "label": "Wicker +32.7",
+          "margin": 32.67,
+          "votesRep": 2522,
+          "votesDem": 1280,
+          "votesTotal": 3802
+        },
+        "Bolivar28": {
+          "color": "#1C408C",
+          "label": "Pinkins +20.4",
+          "margin": -20.38,
+          "votesRep": 4101,
+          "votesDem": 6200,
+          "votesTotal": 10301
+        },
+        "Calhoun28": {
+          "color": "#BF1D29",
+          "label": "Wicker +48.9",
+          "margin": 48.87,
+          "votesRep": 4402,
+          "votesDem": 1512,
+          "votesTotal": 5914
+        },
+        "Carroll28": {
+          "color": "#BF1D29",
+          "label": "Wicker +46.2",
+          "margin": 46.21,
+          "votesRep": 3746,
+          "votesDem": 1378,
+          "votesTotal": 5124
+        },
+        "Chickasaw28": {
+          "color": "#BF1D29",
+          "label": "Wicker +15.4",
+          "margin": 15.37,
+          "votesRep": 4121,
+          "votesDem": 3023,
+          "votesTotal": 7144
+        },
+        "Choctaw28": {
+          "color": "#BF1D29",
+          "label": "Wicker +50.7",
+          "margin": 50.72,
+          "votesRep": 2866,
+          "votesDem": 937,
+          "votesTotal": 3803
+        },
+        "Claiborne28": {
+          "color": "#1C408C",
+          "label": "Pinkins +59.6",
+          "margin": -59.63,
+          "votesRep": 719,
+          "votesDem": 2843,
+          "votesTotal": 3562
+        },
+        "Clarke28": {
+          "color": "#BF1D29",
+          "label": "Wicker +37.3",
+          "margin": 37.34,
+          "votesRep": 5151,
+          "votesDem": 2350,
+          "votesTotal": 7501
+        },
+        "Clay28": {
+          "color": "#577CCC",
+          "label": "Pinkins +7.2",
+          "margin": -7.22,
+          "votesRep": 4228,
+          "votesDem": 4886,
+          "votesTotal": 9114
+        },
+        "Coahoma28": {
+          "color": "#1C408C",
+          "label": "Pinkins +35.7",
+          "margin": -35.74,
+          "votesRep": 2146,
+          "votesDem": 4533,
+          "votesTotal": 6679
+        },
+        "Copiah28": {
+          "color": "#FF5865",
+          "label": "Wicker +9.4",
+          "margin": 9.43,
+          "votesRep": 6388,
+          "votesDem": 5287,
+          "votesTotal": 11675
+        },
+        "Covington28": {
+          "color": "#BF1D29",
+          "label": "Wicker +34.6",
+          "margin": 34.59,
+          "votesRep": 5924,
+          "votesDem": 2879,
+          "votesTotal": 8803
+        },
+        "DeSoto28": {
+          "color": "#BF1D29",
+          "label": "Wicker +25.8",
+          "margin": 25.85,
+          "votesRep": 49073,
+          "votesDem": 28914,
+          "votesTotal": 77987
+        },
+        "Forrest28": {
+          "color": "#BF1D29",
+          "label": "Wicker +20.8",
+          "margin": 20.77,
+          "votesRep": 17104,
+          "votesDem": 11221,
+          "votesTotal": 28325
+        },
+        "Franklin28": {
+          "color": "#BF1D29",
+          "label": "Wicker +40.7",
+          "margin": 40.67,
+          "votesRep": 2852,
+          "votesDem": 1203,
+          "votesTotal": 4055
+        },
+        "George28": {
+          "color": "#BF1D29",
+          "label": "Wicker +77.6",
+          "margin": 77.64,
+          "votesRep": 9662,
+          "votesDem": 1216,
+          "votesTotal": 10878
+        },
+        "Greene28": {
+          "color": "#BF1D29",
+          "label": "Wicker +68.2",
+          "margin": 68.2,
+          "votesRep": 4712,
+          "votesDem": 891,
+          "votesTotal": 5603
+        },
+        "Grenada28": {
+          "color": "#BF1D29",
+          "label": "Wicker +17.6",
+          "margin": 17.57,
+          "votesRep": 5689,
+          "votesDem": 3989,
+          "votesTotal": 9678
+        },
+        "Hancock28": {
+          "color": "#BF1D29",
+          "label": "Wicker +60.7",
+          "margin": 60.73,
+          "votesRep": 16797,
+          "votesDem": 4104,
+          "votesTotal": 20901
+        },
+        "Harrison28": {
+          "color": "#BF1D29",
+          "label": "Wicker +32.7",
+          "margin": 32.7,
+          "votesRep": 49863,
+          "votesDem": 25289,
+          "votesTotal": 75152
+        },
+        "Hinds28": {
+          "color": "#1C408C",
+          "label": "Pinkins +40.1",
+          "margin": -40.13,
+          "votesRep": 25901,
+          "votesDem": 60625,
+          "votesTotal": 86526
+        },
+        "Holmes28": {
+          "color": "#1C408C",
+          "label": "Pinkins +56.4",
+          "margin": -56.42,
+          "votesRep": 1456,
+          "votesDem": 5226,
+          "votesTotal": 6682
+        },
+        "Humphreys28": {
+          "color": "#1C408C",
+          "label": "Pinkins +37.3",
+          "margin": -37.32,
+          "votesRep": 1075,
+          "votesDem": 2355,
+          "votesTotal": 3430
+        },
+        "Issaquena28": {
+          "color": "#FF8B98",
+          "label": "Wicker +2.2",
+          "margin": 2.18,
+          "votesRep": 304,
+          "votesDem": 291,
+          "votesTotal": 595
+        },
+        "Itawamba28": {
+          "color": "#BF1D29",
+          "label": "Wicker +78.7",
+          "margin": 78.68,
+          "votesRep": 9337,
+          "votesDem": 1114,
+          "votesTotal": 10451
+        },
+        "Jackson28": {
+          "color": "#BF1D29",
+          "label": "Wicker +42.6",
+          "margin": 42.56,
+          "votesRep": 37059,
+          "votesDem": 14932,
+          "votesTotal": 51991
+        },
+        "Jasper28": {
+          "color": "#FF5865",
+          "label": "Wicker +6.9",
+          "margin": 6.93,
+          "votesRep": 4189,
+          "votesDem": 3646,
+          "votesTotal": 7835
+        },
+        "Jefferson28": {
+          "color": "#1C408C",
+          "label": "Pinkins +58.3",
+          "margin": -58.34,
+          "votesRep": 693,
+          "votesDem": 2634,
+          "votesTotal": 3327
+        },
+        "Jones28": {
+          "color": "#BF1D29",
+          "label": "Wicker +47.4",
+          "margin": 47.4,
+          "votesRep": 20307,
+          "votesDem": 7246,
+          "votesTotal": 27553
+        },
+        "Kemper28": {
+          "color": "#1C408C",
+          "label": "Pinkins +10.1",
+          "margin": -10.1,
+          "votesRep": 1824,
+          "votesDem": 2234,
+          "votesTotal": 4058
+        },
+        "Lafayette28": {
+          "color": "#BF1D29",
+          "label": "Wicker +27.2",
+          "margin": 27.21,
+          "votesRep": 14761,
+          "votesDem": 8447,
+          "votesTotal": 23208
+        },
+        "Lamar28": {
+          "color": "#BF1D29",
+          "label": "Wicker +50.7",
+          "margin": 50.71,
+          "votesRep": 20984,
+          "votesDem": 6863,
+          "votesTotal": 27847
+        },
+        "Lauderdale28": {
+          "color": "#BF1D29",
+          "label": "Wicker +24.9",
+          "margin": 24.93,
+          "votesRep": 16873,
+          "votesDem": 10139,
+          "votesTotal": 27012
+        },
+        "Lawrence28": {
+          "color": "#BF1D29",
+          "label": "Wicker +37.8",
+          "margin": 37.81,
+          "votesRep": 4137,
+          "votesDem": 1867,
+          "votesTotal": 6004
+        },
+        "Leake28": {
+          "color": "#BF1D29",
+          "label": "Wicker +25.3",
+          "margin": 25.32,
+          "votesRep": 5229,
+          "votesDem": 3116,
+          "votesTotal": 8345
+        },
+        "Lee28": {
+          "color": "#BF1D29",
+          "label": "Wicker +40.4",
+          "margin": 40.45,
+          "votesRep": 24415,
+          "votesDem": 10352,
+          "votesTotal": 34767
+        },
+        "Leflore28": {
+          "color": "#1C408C",
+          "label": "Pinkins +33.4",
+          "margin": -33.4,
+          "votesRep": 3111,
+          "votesDem": 6231,
+          "votesTotal": 9342
+        },
+        "Lincoln28": {
+          "color": "#BF1D29",
+          "label": "Wicker +48.0",
+          "margin": 47.96,
+          "votesRep": 11599,
+          "votesDem": 4080,
+          "votesTotal": 15679
+        },
+        "Lowndes28": {
+          "color": "#BF1D29",
+          "label": "Wicker +11.8",
+          "margin": 11.79,
+          "votesRep": 13548,
+          "votesDem": 10690,
+          "votesTotal": 24238
+        },
+        "Madison28": {
+          "color": "#BF1D29",
+          "label": "Wicker +23.5",
+          "margin": 23.48,
+          "votesRep": 34181,
+          "votesDem": 21180,
+          "votesTotal": 55361
+        },
+        "Marion28": {
+          "color": "#BF1D29",
+          "label": "Wicker +41.5",
+          "margin": 41.53,
+          "votesRep": 7845,
+          "votesDem": 3241,
+          "votesTotal": 11086
+        },
+        "Marshall28": {
+          "color": "#FF5865",
+          "label": "Wicker +9.9",
+          "margin": 9.95,
+          "votesRep": 8100,
+          "votesDem": 6634,
+          "votesTotal": 14734
+        },
+        "Monroe28": {
+          "color": "#BF1D29",
+          "label": "Wicker +37.0",
+          "margin": 36.97,
+          "votesRep": 10920,
+          "votesDem": 5025,
+          "votesTotal": 15945
+        },
+        "Montgomery28": {
+          "color": "#BF1D29",
+          "label": "Wicker +22.8",
+          "margin": 22.83,
+          "votesRep": 2671,
+          "votesDem": 1678,
+          "votesTotal": 4349
+        },
+        "Neshoba28": {
+          "color": "#BF1D29",
+          "label": "Wicker +52.9",
+          "margin": 52.91,
+          "votesRep": 8245,
+          "votesDem": 2539,
+          "votesTotal": 10784
+        },
+        "Newton28": {
+          "color": "#BF1D29",
+          "label": "Wicker +44.4",
+          "margin": 44.42,
+          "votesRep": 6657,
+          "votesDem": 2562,
+          "votesTotal": 9219
+        },
+        "Noxubee28": {
+          "color": "#1C408C",
+          "label": "Pinkins +38.8",
+          "margin": -38.79,
+          "votesRep": 1312,
+          "votesDem": 2975,
+          "votesTotal": 4287
+        },
+        "Oktibbeha28": {
+          "color": "#FF5865",
+          "label": "Wicker +6.6",
+          "margin": 6.58,
+          "votesRep": 9498,
+          "votesDem": 8325,
+          "votesTotal": 17823
+        },
+        "Panola28": {
+          "color": "#BF1D29",
+          "label": "Wicker +16.7",
+          "margin": 16.69,
+          "votesRep": 8374,
+          "votesDem": 5978,
+          "votesTotal": 14352
+        },
+        "Pearl River28": {
+          "color": "#BF1D29",
+          "label": "Wicker +66.8",
+          "margin": 66.8,
+          "votesRep": 20157,
+          "votesDem": 4012,
+          "votesTotal": 24169
+        },
+        "Perry28": {
+          "color": "#BF1D29",
+          "label": "Wicker +60.4",
+          "margin": 60.41,
+          "votesRep": 4412,
+          "votesDem": 1089,
+          "votesTotal": 5501
+        },
+        "Pike28": {
+          "color": "#FF5865",
+          "label": "Wicker +6.5",
+          "margin": 6.51,
+          "votesRep": 6719,
+          "votesDem": 5898,
+          "votesTotal": 12617
+        },
+        "Pontotoc28": {
+          "color": "#BF1D29",
+          "label": "Wicker +66.8",
+          "margin": 66.75,
+          "votesRep": 11556,
+          "votesDem": 2304,
+          "votesTotal": 13860
+        },
+        "Prentiss28": {
+          "color": "#BF1D29",
+          "label": "Wicker +66.4",
+          "margin": 66.4,
+          "votesRep": 8504,
+          "votesDem": 1717,
+          "votesTotal": 10221
+        },
+        "Quitman28": {
+          "color": "#1C408C",
+          "label": "Pinkins +26.2",
+          "margin": -26.23,
+          "votesRep": 952,
+          "votesDem": 1629,
+          "votesTotal": 2581
+        },
+        "Rankin28": {
+          "color": "#BF1D29",
+          "label": "Wicker +49.8",
+          "margin": 49.81,
+          "votesRep": 51542,
+          "votesDem": 17267,
+          "votesTotal": 68809
+        },
+        "Scott28": {
+          "color": "#BF1D29",
+          "label": "Wicker +24.9",
+          "margin": 24.91,
+          "votesRep": 6122,
+          "votesDem": 3680,
+          "votesTotal": 9802
+        },
+        "Sharkey28": {
+          "color": "#1C408C",
+          "label": "Pinkins +37.7",
+          "margin": -37.7,
+          "votesRep": 556,
+          "votesDem": 1229,
+          "votesTotal": 1785
+        },
+        "Simpson28": {
+          "color": "#BF1D29",
+          "label": "Wicker +38.1",
+          "margin": 38.07,
+          "votesRep": 7556,
+          "votesDem": 3389,
+          "votesTotal": 10945
+        },
+        "Smith28": {
+          "color": "#BF1D29",
+          "label": "Wicker +61.7",
+          "margin": 61.71,
+          "votesRep": 6158,
+          "votesDem": 1458,
+          "votesTotal": 7616
+        },
+        "Stone28": {
+          "color": "#BF1D29",
+          "label": "Wicker +61.2",
+          "margin": 61.24,
+          "votesRep": 6282,
+          "votesDem": 1510,
+          "votesTotal": 7792
+        },
+        "Sunflower28": {
+          "color": "#1C408C",
+          "label": "Pinkins +20.5",
+          "margin": -20.5,
+          "votesRep": 3074,
+          "votesDem": 4659,
+          "votesTotal": 7733
+        },
+        "Tallahatchie28": {
+          "color": "#8AAFFF",
+          "label": "Pinkins +1.4",
+          "margin": -1.35,
+          "votesRep": 2478,
+          "votesDem": 2546,
+          "votesTotal": 5024
+        },
+        "Tate28": {
+          "color": "#BF1D29",
+          "label": "Wicker +45.0",
+          "margin": 45.01,
+          "votesRep": 9225,
+          "votesDem": 3498,
+          "votesTotal": 12723
+        },
+        "Tippah28": {
+          "color": "#BF1D29",
+          "label": "Wicker +67.3",
+          "margin": 67.29,
+          "votesRep": 7927,
+          "votesDem": 1550,
+          "votesTotal": 9477
+        },
+        "Tishomingo28": {
+          "color": "#BF1D29",
+          "label": "Wicker +76.6",
+          "margin": 76.57,
+          "votesRep": 7824,
+          "votesDem": 1038,
+          "votesTotal": 8862
+        },
+        "Tunica28": {
+          "color": "#1C408C",
+          "label": "Pinkins +37.0",
+          "margin": -36.99,
+          "votesRep": 827,
+          "votesDem": 1798,
+          "votesTotal": 2625
+        },
+        "Union28": {
+          "color": "#BF1D29",
+          "label": "Wicker +71.0",
+          "margin": 70.99,
+          "votesRep": 10484,
+          "votesDem": 1779,
+          "votesTotal": 12263
+        },
+        "Walthall28": {
+          "color": "#BF1D29",
+          "label": "Wicker +28.4",
+          "margin": 28.39,
+          "votesRep": 4158,
+          "votesDem": 2319,
+          "votesTotal": 6477
+        },
+        "Warren28": {
+          "color": "#FF5865",
+          "label": "Wicker +8.3",
+          "margin": 8.3,
+          "votesRep": 9770,
+          "votesDem": 8272,
+          "votesTotal": 18042
+        },
+        "Washington28": {
+          "color": "#1C408C",
+          "label": "Pinkins +31.3",
+          "margin": -31.26,
+          "votesRep": 4926,
+          "votesDem": 9406,
+          "votesTotal": 14332
+        },
+        "Wayne28": {
+          "color": "#BF1D29",
+          "label": "Wicker +32.4",
+          "margin": 32.4,
+          "votesRep": 6022,
+          "votesDem": 3075,
+          "votesTotal": 9097
+        },
+        "Webster28": {
+          "color": "#BF1D29",
+          "label": "Wicker +66.2",
+          "margin": 66.23,
+          "votesRep": 4203,
+          "votesDem": 854,
+          "votesTotal": 5057
+        },
+        "Wilkinson28": {
+          "color": "#1C408C",
+          "label": "Pinkins +20.2",
+          "margin": -20.17,
+          "votesRep": 1136,
+          "votesDem": 1710,
+          "votesTotal": 2846
+        },
+        "Winston28": {
+          "color": "#BF1D29",
+          "label": "Wicker +17.9",
+          "margin": 17.88,
+          "votesRep": 4937,
+          "votesDem": 3439,
+          "votesTotal": 8376
+        },
+        "Yalobusha28": {
+          "color": "#BF1D29",
+          "label": "Wicker +23.3",
+          "margin": 23.34,
+          "votesRep": 3609,
+          "votesDem": 2243,
+          "votesTotal": 5852
+        },
+        "Yazoo28": {
+          "color": "#FF5865",
+          "label": "Wicker +5.4",
+          "margin": 5.37,
+          "votesRep": 4702,
+          "votesDem": 4223,
+          "votesTotal": 8925
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Roger Wicker",
+      "candDem": "David Baria",
+      "shortRep": "Wicker",
+      "shortDem": "Baria",
+      "partisan": true,
+      "margin": 19.41,
+      "votesRep": 547619,
+      "votesDem": 369567,
+      "votesTotal": 936215,
+      "regions": {
+        "Adams28": {
+          "color": "#1C408C",
+          "label": "Baria +15.2",
+          "margin": -15.21,
+          "votesRep": 4487,
+          "votesDem": 6097,
+          "votesTotal": 10760
+        },
+        "Alcorn28": {
+          "color": "#BF1D29",
+          "label": "Wicker +64.2",
+          "margin": 64.21,
+          "votesRep": 8167,
+          "votesDem": 1780,
+          "votesTotal": 10166
+        },
+        "Amite28": {
+          "color": "#BF1D29",
+          "label": "Wicker +24.6",
+          "margin": 24.56,
+          "votesRep": 3246,
+          "votesDem": 1966,
+          "votesTotal": 5363
+        },
+        "Attala28": {
+          "color": "#BF1D29",
+          "label": "Wicker +23.9",
+          "margin": 23.87,
+          "votesRep": 3728,
+          "votesDem": 2291,
+          "votesTotal": 6130
+        },
+        "Benton28": {
+          "color": "#BF1D29",
+          "label": "Wicker +20.2",
+          "margin": 20.25,
+          "votesRep": 1645,
+          "votesDem": 1091,
+          "votesTotal": 2784
+        },
+        "Bolivar28": {
+          "color": "#1C408C",
+          "label": "Baria +24.3",
+          "margin": -24.32,
+          "votesRep": 3938,
+          "votesDem": 6469,
+          "votesTotal": 10612
+        },
+        "Calhoun28": {
+          "color": "#BF1D29",
+          "label": "Wicker +45.6",
+          "margin": 45.65,
+          "votesRep": 3296,
+          "votesDem": 1230,
+          "votesTotal": 4599
+        },
+        "Carroll28": {
+          "color": "#BF1D29",
+          "label": "Wicker +41.6",
+          "margin": 41.56,
+          "votesRep": 2936,
+          "votesDem": 1212,
+          "votesTotal": 4238
+        },
+        "Chickasaw28": {
+          "color": "#BF1D29",
+          "label": "Wicker +13.8",
+          "margin": 13.81,
+          "votesRep": 3317,
+          "votesDem": 2512,
+          "votesTotal": 5926
+        },
+        "Choctaw28": {
+          "color": "#BF1D29",
+          "label": "Wicker +45.3",
+          "margin": 45.3,
+          "votesRep": 2101,
+          "votesDem": 791,
+          "votesTotal": 2953
+        },
+        "Claiborne28": {
+          "color": "#1C408C",
+          "label": "Baria +58.2",
+          "margin": -58.15,
+          "votesRep": 653,
+          "votesDem": 2468,
+          "votesTotal": 3240
+        },
+        "Clarke28": {
+          "color": "#BF1D29",
+          "label": "Wicker +34.2",
+          "margin": 34.22,
+          "votesRep": 3944,
+          "votesDem": 1933,
+          "votesTotal": 5990
+        },
+        "Clay28": {
+          "color": "#577CCC",
+          "label": "Baria +9.1",
+          "margin": -9.06,
+          "votesRep": 3411,
+          "votesDem": 4091,
+          "votesTotal": 7610
+        },
+        "Coahoma28": {
+          "color": "#1C408C",
+          "label": "Baria +27.8",
+          "margin": -27.83,
+          "votesRep": 2178,
+          "votesDem": 3858,
+          "votesTotal": 6214
+        },
+        "Copiah28": {
+          "color": "#FF8B98",
+          "label": "Wicker +1.9",
+          "margin": 1.87,
+          "votesRep": 5052,
+          "votesDem": 4867,
+          "votesTotal": 10180
+        },
+        "Covington28": {
+          "color": "#BF1D29",
+          "label": "Wicker +28.1",
+          "margin": 28.08,
+          "votesRep": 4242,
+          "votesDem": 2382,
+          "votesTotal": 6788
+        },
+        "DeSoto28": {
+          "color": "#BF1D29",
+          "label": "Wicker +32.0",
+          "margin": 32.04,
+          "votesRep": 32750,
+          "votesDem": 16858,
+          "votesTotal": 50879
+        },
+        "Forrest28": {
+          "color": "#BF1D29",
+          "label": "Wicker +15.7",
+          "margin": 15.71,
+          "votesRep": 12539,
+          "votesDem": 9134,
+          "votesTotal": 22303
+        },
+        "Franklin28": {
+          "color": "#BF1D29",
+          "label": "Wicker +31.1",
+          "margin": 31.12,
+          "votesRep": 1999,
+          "votesDem": 1050,
+          "votesTotal": 3145
+        },
+        "George28": {
+          "color": "#BF1D29",
+          "label": "Wicker +75.0",
+          "margin": 74.99,
+          "votesRep": 6060,
+          "votesDem": 866,
+          "votesTotal": 7141
+        },
+        "Greene28": {
+          "color": "#BF1D29",
+          "label": "Wicker +61.2",
+          "margin": 61.22,
+          "votesRep": 2923,
+          "votesDem": 703,
+          "votesTotal": 3733
+        },
+        "Grenada28": {
+          "color": "#BF1D29",
+          "label": "Wicker +15.6",
+          "margin": 15.58,
+          "votesRep": 4348,
+          "votesDem": 3176,
+          "votesTotal": 7645
+        },
+        "Hancock28": {
+          "color": "#BF1D29",
+          "label": "Wicker +46.0",
+          "margin": 46.03,
+          "votesRep": 9989,
+          "votesDem": 3692,
+          "votesTotal": 13899
+        },
+        "Harrison28": {
+          "color": "#BF1D29",
+          "label": "Wicker +27.6",
+          "margin": 27.6,
+          "votesRep": 32414,
+          "votesDem": 18391,
+          "votesTotal": 51723
+        },
+        "Hinds28": {
+          "color": "#1C408C",
+          "label": "Baria +44.1",
+          "margin": -44.09,
+          "votesRep": 21644,
+          "votesDem": 55780,
+          "votesTotal": 78706
+        },
+        "Holmes28": {
+          "color": "#1C408C",
+          "label": "Baria +59.6",
+          "margin": -59.62,
+          "votesRep": 1068,
+          "votesDem": 4222,
+          "votesTotal": 5375
+        },
+        "Humphreys28": {
+          "color": "#1C408C",
+          "label": "Baria +36.8",
+          "margin": -36.84,
+          "votesRep": 961,
+          "votesDem": 2082,
+          "votesTotal": 3144
+        },
+        "Issaquena28": {
+          "color": "#949BB3",
+          "label": "Baria +0.6",
+          "margin": -0.58,
+          "votesRep": 258,
+          "votesDem": 261,
+          "votesTotal": 532
+        },
+        "Itawamba28": {
+          "color": "#BF1D29",
+          "label": "Wicker +76.4",
+          "margin": 76.42,
+          "votesRep": 5858,
+          "votesDem": 783,
+          "votesTotal": 6794
+        },
+        "Jackson28": {
+          "color": "#BF1D29",
+          "label": "Wicker +37.1",
+          "margin": 37.1,
+          "votesRep": 26544,
+          "votesDem": 12179,
+          "votesTotal": 39507
+        },
+        "Jasper28": {
+          "color": "#8AAFFF",
+          "label": "Baria +2.6",
+          "margin": -2.62,
+          "votesRep": 2988,
+          "votesDem": 3149,
+          "votesTotal": 6267
+        },
+        "Jefferson28": {
+          "color": "#1C408C",
+          "label": "Baria +62.0",
+          "margin": -62.03,
+          "votesRep": 562,
+          "votesDem": 2398,
+          "votesTotal": 3060
+        },
+        "Jefferson Davis28": {
+          "color": "#1C408C",
+          "label": "Baria +14.8",
+          "margin": -14.83,
+          "votesRep": 1958,
+          "votesDem": 2640,
+          "votesTotal": 4701
+        },
+        "Jones28": {
+          "color": "#BF1D29",
+          "label": "Wicker +41.5",
+          "margin": 41.48,
+          "votesRep": 14852,
+          "votesDem": 6143,
+          "votesTotal": 21687
+        },
+        "Kemper28": {
+          "color": "#1C408C",
+          "label": "Baria +15.4",
+          "margin": -15.44,
+          "votesRep": 1432,
+          "votesDem": 1955,
+          "votesTotal": 3431
+        },
+        "Lafayette28": {
+          "color": "#BF1D29",
+          "label": "Wicker +14.0",
+          "margin": 14.01,
+          "votesRep": 9256,
+          "votesDem": 6981,
+          "votesTotal": 16490
+        },
+        "Lamar28": {
+          "color": "#BF1D29",
+          "label": "Wicker +53.8",
+          "margin": 53.81,
+          "votesRep": 14777,
+          "votesDem": 4437,
+          "votesTotal": 19711
+        },
+        "Lauderdale28": {
+          "color": "#BF1D29",
+          "label": "Wicker +24.6",
+          "margin": 24.56,
+          "votesRep": 14217,
+          "votesDem": 8610,
+          "votesTotal": 23136
+        },
+        "Lawrence28": {
+          "color": "#BF1D29",
+          "label": "Wicker +34.5",
+          "margin": 34.46,
+          "votesRep": 3196,
+          "votesDem": 1558,
+          "votesTotal": 4861
+        },
+        "Leake28": {
+          "color": "#BF1D29",
+          "label": "Wicker +19.5",
+          "margin": 19.49,
+          "votesRep": 3666,
+          "votesDem": 2470,
+          "votesTotal": 6268
+        },
+        "Lee28": {
+          "color": "#BF1D29",
+          "label": "Wicker +38.9",
+          "margin": 38.93,
+          "votesRep": 17413,
+          "votesDem": 7654,
+          "votesTotal": 25661
+        },
+        "Leflore28": {
+          "color": "#1C408C",
+          "label": "Baria +30.5",
+          "margin": -30.5,
+          "votesRep": 2850,
+          "votesDem": 5352,
+          "votesTotal": 8364
+        },
+        "Lincoln28": {
+          "color": "#BF1D29",
+          "label": "Wicker +42.6",
+          "margin": 42.59,
+          "votesRep": 8576,
+          "votesDem": 3453,
+          "votesTotal": 12223
+        },
+        "Lowndes28": {
+          "color": "#BF1D29",
+          "label": "Wicker +10.8",
+          "margin": 10.76,
+          "votesRep": 10720,
+          "votesDem": 8638,
+          "votesTotal": 19646
+        },
+        "Madison28": {
+          "color": "#BF1D29",
+          "label": "Wicker +18.4",
+          "margin": 18.41,
+          "votesRep": 23632,
+          "votesDem": 16283,
+          "votesTotal": 40553
+        },
+        "Marion28": {
+          "color": "#BF1D29",
+          "label": "Wicker +36.4",
+          "margin": 36.43,
+          "votesRep": 5867,
+          "votesDem": 2734,
+          "votesTotal": 8801
+        },
+        "Marshall28": {
+          "color": "#8AAFFF",
+          "label": "Baria +2.5",
+          "margin": -2.49,
+          "votesRep": 5415,
+          "votesDem": 5692,
+          "votesTotal": 11313
+        },
+        "Monroe28": {
+          "color": "#BF1D29",
+          "label": "Wicker +34.1",
+          "margin": 34.11,
+          "votesRep": 7739,
+          "votesDem": 3802,
+          "votesTotal": 11695
+        },
+        "Montgomery28": {
+          "color": "#BF1D29",
+          "label": "Wicker +19.3",
+          "margin": 19.26,
+          "votesRep": 2254,
+          "votesDem": 1526,
+          "votesTotal": 3840
+        },
+        "Neshoba28": {
+          "color": "#BF1D29",
+          "label": "Wicker +49.9",
+          "margin": 49.86,
+          "votesRep": 5861,
+          "votesDem": 1961,
+          "votesTotal": 7946
+        },
+        "Newton28": {
+          "color": "#BF1D29",
+          "label": "Wicker +42.9",
+          "margin": 42.86,
+          "votesRep": 4965,
+          "votesDem": 1986,
+          "votesTotal": 7104
+        },
+        "Noxubee28": {
+          "color": "#1C408C",
+          "label": "Baria +44.0",
+          "margin": -43.97,
+          "votesRep": 1085,
+          "votesDem": 2788,
+          "votesTotal": 3919
+        },
+        "Oktibbeha28": {
+          "color": "#FF8B98",
+          "label": "Wicker +2.4",
+          "margin": 2.41,
+          "votesRep": 7134,
+          "votesDem": 6798,
+          "votesTotal": 14219
+        },
+        "Panola28": {
+          "color": "#FF5865",
+          "label": "Wicker +5.4",
+          "margin": 5.37,
+          "votesRep": 5804,
+          "votesDem": 5212,
+          "votesTotal": 11205
+        },
+        "Pearl River28": {
+          "color": "#BF1D29",
+          "label": "Wicker +62.0",
+          "margin": 62.04,
+          "votesRep": 12373,
+          "votesDem": 2899,
+          "votesTotal": 15704
+        },
+        "Perry28": {
+          "color": "#BF1D29",
+          "label": "Wicker +54.7",
+          "margin": 54.7,
+          "votesRep": 2913,
+          "votesDem": 853,
+          "votesTotal": 3864
+        },
+        "Pike28": {
+          "color": "#FF5865",
+          "label": "Wicker +5.2",
+          "margin": 5.22,
+          "votesRep": 6502,
+          "votesDem": 5857,
+          "votesTotal": 12598
+        },
+        "Pontotoc28": {
+          "color": "#BF1D29",
+          "label": "Wicker +63.5",
+          "margin": 63.52,
+          "votesRep": 7588,
+          "votesDem": 1693,
+          "votesTotal": 9593
+        },
+        "Prentiss28": {
+          "color": "#BF1D29",
+          "label": "Wicker +58.8",
+          "margin": 58.85,
+          "votesRep": 5597,
+          "votesDem": 1450,
+          "votesTotal": 7173
+        },
+        "Quitman28": {
+          "color": "#1C408C",
+          "label": "Baria +25.2",
+          "margin": -25.21,
+          "votesRep": 872,
+          "votesDem": 1460,
+          "votesTotal": 2389
+        },
+        "Rankin28": {
+          "color": "#BF1D29",
+          "label": "Wicker +50.3",
+          "margin": 50.34,
+          "votesRep": 37913,
+          "votesDem": 12523,
+          "votesTotal": 51630
+        },
+        "Scott28": {
+          "color": "#BF1D29",
+          "label": "Wicker +22.2",
+          "margin": 22.24,
+          "votesRep": 4600,
+          "votesDem": 2926,
+          "votesTotal": 7642
+        },
+        "Sharkey28": {
+          "color": "#1C408C",
+          "label": "Baria +27.4",
+          "margin": -27.41,
+          "votesRep": 596,
+          "votesDem": 1046,
+          "votesTotal": 1678
+        },
+        "Simpson28": {
+          "color": "#BF1D29",
+          "label": "Wicker +33.2",
+          "margin": 33.23,
+          "votesRep": 5697,
+          "votesDem": 2855,
+          "votesTotal": 8733
+        },
+        "Smith28": {
+          "color": "#BF1D29",
+          "label": "Wicker +54.4",
+          "margin": 54.39,
+          "votesRep": 4394,
+          "votesDem": 1298,
+          "votesTotal": 5844
+        },
+        "Stone28": {
+          "color": "#BF1D29",
+          "label": "Wicker +56.0",
+          "margin": 56.03,
+          "votesRep": 4052,
+          "votesDem": 1142,
+          "votesTotal": 5309
+        },
+        "Sunflower28": {
+          "color": "#1C408C",
+          "label": "Baria +30.2",
+          "margin": -30.16,
+          "votesRep": 2457,
+          "votesDem": 4579,
+          "votesTotal": 7189
+        },
+        "Tallahatchie28": {
+          "color": "#8AAFFF",
+          "label": "Baria +3.6",
+          "margin": -3.58,
+          "votesRep": 1950,
+          "votesDem": 2095,
+          "votesTotal": 4136
+        },
+        "Tate28": {
+          "color": "#BF1D29",
+          "label": "Wicker +36.6",
+          "margin": 36.57,
+          "votesRep": 5680,
+          "votesDem": 2638,
+          "votesTotal": 8531
+        },
+        "Tippah28": {
+          "color": "#BF1D29",
+          "label": "Wicker +63.7",
+          "margin": 63.67,
+          "votesRep": 5536,
+          "votesDem": 1229,
+          "votesTotal": 6906
+        },
+        "Tishomingo28": {
+          "color": "#BF1D29",
+          "label": "Wicker +73.3",
+          "margin": 73.35,
+          "votesRep": 5125,
+          "votesDem": 788,
+          "votesTotal": 6066
+        },
+        "Tunica28": {
+          "color": "#1C408C",
+          "label": "Baria +35.3",
+          "margin": -35.33,
+          "votesRep": 779,
+          "votesDem": 1630,
+          "votesTotal": 2480
+        },
+        "Union28": {
+          "color": "#BF1D29",
+          "label": "Wicker +67.9",
+          "margin": 67.88,
+          "votesRep": 6779,
+          "votesDem": 1297,
+          "votesTotal": 8239
+        },
+        "Walthall28": {
+          "color": "#BF1D29",
+          "label": "Wicker +22.1",
+          "margin": 22.1,
+          "votesRep": 3008,
+          "votesDem": 1919,
+          "votesTotal": 5038
+        },
+        "Warren28": {
+          "color": "#BF1D29",
+          "label": "Wicker +10.1",
+          "margin": 10.06,
+          "votesRep": 8206,
+          "votesDem": 6706,
+          "votesTotal": 15185
+        },
+        "Washington28": {
+          "color": "#1C408C",
+          "label": "Baria +32.6",
+          "margin": -32.61,
+          "votesRep": 4519,
+          "votesDem": 8893,
+          "votesTotal": 13582
+        },
+        "Wayne28": {
+          "color": "#BF1D29",
+          "label": "Wicker +24.8",
+          "margin": 24.78,
+          "votesRep": 4376,
+          "votesDem": 2638,
+          "votesTotal": 7183
+        },
+        "Webster28": {
+          "color": "#BF1D29",
+          "label": "Wicker +61.9",
+          "margin": 61.89,
+          "votesRep": 3114,
+          "votesDem": 733,
+          "votesTotal": 3917
+        },
+        "Wilkinson28": {
+          "color": "#1C408C",
+          "label": "Baria +31.5",
+          "margin": -31.48,
+          "votesRep": 950,
+          "votesDem": 1823,
+          "votesTotal": 2831
+        },
+        "Winston28": {
+          "color": "#BF1D29",
+          "label": "Wicker +15.6",
+          "margin": 15.65,
+          "votesRep": 3976,
+          "votesDem": 2900,
+          "votesTotal": 6981
+        },
+        "Yalobusha28": {
+          "color": "#BF1D29",
+          "label": "Wicker +12.3",
+          "margin": 12.28,
+          "votesRep": 2574,
+          "votesDem": 2011,
+          "votesTotal": 4654
+        },
+        "Yazoo28": {
+          "color": "#FF8B98",
+          "label": "Wicker +4.8",
+          "margin": 4.79,
+          "votesRep": 3578,
+          "votesDem": 3251,
+          "votesTotal": 6960
+        }
+      }
+    }
+  ]
+}

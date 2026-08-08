@@ -1,0 +1,1960 @@
+{
+  "stateFips": "21",
+  "stateName": "Kentucky",
+  "races": [
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Rand Paul",
+      "candDem": "Charles Booker",
+      "shortRep": "Paul",
+      "shortDem": "Booker",
+      "partisan": true,
+      "margin": 23.62,
+      "votesRep": 913257,
+      "votesDem": 564231,
+      "votesTotal": 1477622,
+      "regions": {
+        "Adair21": {
+          "color": "#BF1D29",
+          "label": "Paul +66.0",
+          "margin": 66,
+          "votesRep": 5249,
+          "votesDem": 1075,
+          "votesTotal": 6324
+        },
+        "Allen21": {
+          "color": "#BF1D29",
+          "label": "Paul +61.6",
+          "margin": 61.62,
+          "votesRep": 4931,
+          "votesDem": 1171,
+          "votesTotal": 6102
+        },
+        "Anderson21": {
+          "color": "#BF1D29",
+          "label": "Paul +42.6",
+          "margin": 42.61,
+          "votesRep": 6687,
+          "votesDem": 2691,
+          "votesTotal": 9378
+        },
+        "Ballard21": {
+          "color": "#BF1D29",
+          "label": "Paul +59.1",
+          "margin": 59.13,
+          "votesRep": 2488,
+          "votesDem": 639,
+          "votesTotal": 3127
+        },
+        "Barren21": {
+          "color": "#BF1D29",
+          "label": "Paul +45.6",
+          "margin": 45.63,
+          "votesRep": 10298,
+          "votesDem": 3845,
+          "votesTotal": 14143
+        },
+        "Bath21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.6",
+          "margin": 33.63,
+          "votesRep": 2827,
+          "votesDem": 1404,
+          "votesTotal": 4233
+        },
+        "Bell21": {
+          "color": "#BF1D29",
+          "label": "Paul +59.5",
+          "margin": 59.53,
+          "votesRep": 5420,
+          "votesDem": 1375,
+          "votesTotal": 6795
+        },
+        "Boone21": {
+          "color": "#BF1D29",
+          "label": "Paul +36.4",
+          "margin": 36.39,
+          "votesRep": 30898,
+          "votesDem": 14409,
+          "votesTotal": 45318
+        },
+        "Bourbon21": {
+          "color": "#BF1D29",
+          "label": "Paul +28.7",
+          "margin": 28.66,
+          "votesRep": 4381,
+          "votesDem": 2429,
+          "votesTotal": 6810
+        },
+        "Boyd21": {
+          "color": "#BF1D29",
+          "label": "Paul +28.0",
+          "margin": 28.04,
+          "votesRep": 9071,
+          "votesDem": 5098,
+          "votesTotal": 14169
+        },
+        "Boyle21": {
+          "color": "#BF1D29",
+          "label": "Paul +22.1",
+          "margin": 22.11,
+          "votesRep": 6304,
+          "votesDem": 4021,
+          "votesTotal": 10326
+        },
+        "Bracken21": {
+          "color": "#BF1D29",
+          "label": "Paul +53.2",
+          "margin": 53.25,
+          "votesRep": 2478,
+          "votesDem": 756,
+          "votesTotal": 3234
+        },
+        "Breathitt21": {
+          "color": "#BF1D29",
+          "label": "Paul +28.7",
+          "margin": 28.66,
+          "votesRep": 2285,
+          "votesDem": 1267,
+          "votesTotal": 3552
+        },
+        "Breckinridge21": {
+          "color": "#BF1D29",
+          "label": "Paul +49.3",
+          "margin": 49.32,
+          "votesRep": 5076,
+          "votesDem": 1723,
+          "votesTotal": 6799
+        },
+        "Bullitt21": {
+          "color": "#BF1D29",
+          "label": "Paul +44.5",
+          "margin": 44.48,
+          "votesRep": 17945,
+          "votesDem": 6895,
+          "votesTotal": 24842
+        },
+        "Butler21": {
+          "color": "#BF1D29",
+          "label": "Paul +63.5",
+          "margin": 63.48,
+          "votesRep": 3429,
+          "votesDem": 766,
+          "votesTotal": 4195
+        },
+        "Caldwell21": {
+          "color": "#BF1D29",
+          "label": "Paul +52.9",
+          "margin": 52.86,
+          "votesRep": 3580,
+          "votesDem": 1104,
+          "votesTotal": 4684
+        },
+        "Calloway21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.5",
+          "margin": 33.55,
+          "votesRep": 7906,
+          "votesDem": 3934,
+          "votesTotal": 11841
+        },
+        "Campbell21": {
+          "color": "#BF1D29",
+          "label": "Paul +16.9",
+          "margin": 16.93,
+          "votesRep": 20849,
+          "votesDem": 14812,
+          "votesTotal": 35664
+        },
+        "Carlisle21": {
+          "color": "#BF1D29",
+          "label": "Paul +64.6",
+          "margin": 64.55,
+          "votesRep": 1750,
+          "votesDem": 377,
+          "votesTotal": 2127
+        },
+        "Carroll21": {
+          "color": "#BF1D29",
+          "label": "Paul +38.4",
+          "margin": 38.43,
+          "votesRep": 1992,
+          "votesDem": 886,
+          "votesTotal": 2878
+        },
+        "Carter21": {
+          "color": "#BF1D29",
+          "label": "Paul +41.7",
+          "margin": 41.7,
+          "votesRep": 5792,
+          "votesDem": 2383,
+          "votesTotal": 8176
+        },
+        "Casey21": {
+          "color": "#BF1D29",
+          "label": "Paul +70.8",
+          "margin": 70.82,
+          "votesRep": 4396,
+          "votesDem": 751,
+          "votesTotal": 5148
+        },
+        "Christian21": {
+          "color": "#BF1D29",
+          "label": "Paul +32.6",
+          "margin": 32.62,
+          "votesRep": 10255,
+          "votesDem": 5210,
+          "votesTotal": 15465
+        },
+        "Clark21": {
+          "color": "#BF1D29",
+          "label": "Paul +29.2",
+          "margin": 29.19,
+          "votesRep": 8270,
+          "votesDem": 4533,
+          "votesTotal": 12805
+        },
+        "Clay21": {
+          "color": "#BF1D29",
+          "label": "Paul +72.1",
+          "margin": 72.1,
+          "votesRep": 4238,
+          "votesDem": 687,
+          "votesTotal": 4925
+        },
+        "Clinton21": {
+          "color": "#BF1D29",
+          "label": "Paul +76.1",
+          "margin": 76.12,
+          "votesRep": 3016,
+          "votesDem": 409,
+          "votesTotal": 3425
+        },
+        "Crittenden21": {
+          "color": "#BF1D29",
+          "label": "Paul +65.3",
+          "margin": 65.26,
+          "votesRep": 2540,
+          "votesDem": 534,
+          "votesTotal": 3074
+        },
+        "Cumberland21": {
+          "color": "#BF1D29",
+          "label": "Paul +71.3",
+          "margin": 71.35,
+          "votesRep": 2123,
+          "votesDem": 355,
+          "votesTotal": 2478
+        },
+        "Daviess21": {
+          "color": "#BF1D29",
+          "label": "Paul +27.6",
+          "margin": 27.63,
+          "votesRep": 20998,
+          "votesDem": 11906,
+          "votesTotal": 32906
+        },
+        "Edmonson21": {
+          "color": "#BF1D29",
+          "label": "Paul +55.1",
+          "margin": 55.13,
+          "votesRep": 3309,
+          "votesDem": 957,
+          "votesTotal": 4266
+        },
+        "Elliott21": {
+          "color": "#BF1D29",
+          "label": "Paul +36.2",
+          "margin": 36.24,
+          "votesRep": 1406,
+          "votesDem": 658,
+          "votesTotal": 2064
+        },
+        "Estill21": {
+          "color": "#BF1D29",
+          "label": "Paul +52.0",
+          "margin": 51.96,
+          "votesRep": 3511,
+          "votesDem": 1110,
+          "votesTotal": 4621
+        },
+        "Fayette21": {
+          "color": "#1C408C",
+          "label": "Booker +21.1",
+          "margin": -21.05,
+          "votesRep": 42041,
+          "votesDem": 64465,
+          "votesTotal": 106548
+        },
+        "Fleming21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.4",
+          "margin": 50.41,
+          "votesRep": 3803,
+          "votesDem": 1254,
+          "votesTotal": 5057
+        },
+        "Floyd21": {
+          "color": "#BF1D29",
+          "label": "Paul +31.2",
+          "margin": 31.25,
+          "votesRep": 7636,
+          "votesDem": 4000,
+          "votesTotal": 11636
+        },
+        "Franklin21": {
+          "color": "#577CCC",
+          "label": "Booker +5.1",
+          "margin": -5.05,
+          "votesRep": 9570,
+          "votesDem": 10589,
+          "votesTotal": 20162
+        },
+        "Fulton21": {
+          "color": "#BF1D29",
+          "label": "Paul +41.9",
+          "margin": 41.91,
+          "votesRep": 1087,
+          "votesDem": 445,
+          "votesTotal": 1532
+        },
+        "Gallatin21": {
+          "color": "#BF1D29",
+          "label": "Paul +47.7",
+          "margin": 47.68,
+          "votesRep": 2224,
+          "votesDem": 788,
+          "votesTotal": 3012
+        },
+        "Garrard21": {
+          "color": "#BF1D29",
+          "label": "Paul +54.4",
+          "margin": 54.42,
+          "votesRep": 4560,
+          "votesDem": 1346,
+          "votesTotal": 5906
+        },
+        "Grant21": {
+          "color": "#BF1D29",
+          "label": "Paul +57.2",
+          "margin": 57.2,
+          "votesRep": 5847,
+          "votesDem": 1592,
+          "votesTotal": 7441
+        },
+        "Graves21": {
+          "color": "#BF1D29",
+          "label": "Paul +57.4",
+          "margin": 57.4,
+          "votesRep": 9514,
+          "votesDem": 2575,
+          "votesTotal": 12093
+        },
+        "Grayson21": {
+          "color": "#BF1D29",
+          "label": "Paul +57.4",
+          "margin": 57.38,
+          "votesRep": 6229,
+          "votesDem": 1687,
+          "votesTotal": 7916
+        },
+        "Green21": {
+          "color": "#BF1D29",
+          "label": "Paul +69.6",
+          "margin": 69.63,
+          "votesRep": 3658,
+          "votesDem": 655,
+          "votesTotal": 4313
+        },
+        "Greenup21": {
+          "color": "#BF1D29",
+          "label": "Paul +40.9",
+          "margin": 40.87,
+          "votesRep": 8899,
+          "votesDem": 3735,
+          "votesTotal": 12634
+        },
+        "Hancock21": {
+          "color": "#BF1D29",
+          "label": "Paul +36.5",
+          "margin": 36.51,
+          "votesRep": 2223,
+          "votesDem": 1034,
+          "votesTotal": 3257
+        },
+        "Hardin21": {
+          "color": "#BF1D29",
+          "label": "Paul +25.8",
+          "margin": 25.76,
+          "votesRep": 19413,
+          "votesDem": 11459,
+          "votesTotal": 30886
+        },
+        "Harlan21": {
+          "color": "#BF1D29",
+          "label": "Paul +65.5",
+          "margin": 65.46,
+          "votesRep": 6386,
+          "votesDem": 1333,
+          "votesTotal": 7719
+        },
+        "Harrison21": {
+          "color": "#BF1D29",
+          "label": "Paul +39.0",
+          "margin": 38.98,
+          "votesRep": 4624,
+          "votesDem": 2030,
+          "votesTotal": 6659
+        },
+        "Hart21": {
+          "color": "#BF1D29",
+          "label": "Paul +48.5",
+          "margin": 48.54,
+          "votesRep": 4624,
+          "votesDem": 1602,
+          "votesTotal": 6226
+        },
+        "Henderson21": {
+          "color": "#BF1D29",
+          "label": "Paul +25.2",
+          "margin": 25.23,
+          "votesRep": 8765,
+          "votesDem": 5233,
+          "votesTotal": 13998
+        },
+        "Henry21": {
+          "color": "#BF1D29",
+          "label": "Paul +40.0",
+          "margin": 40.05,
+          "votesRep": 4228,
+          "votesDem": 1810,
+          "votesTotal": 6039
+        },
+        "Hickman21": {
+          "color": "#BF1D29",
+          "label": "Paul +63.4",
+          "margin": 63.41,
+          "votesRep": 1264,
+          "votesDem": 283,
+          "votesTotal": 1547
+        },
+        "Hopkins21": {
+          "color": "#BF1D29",
+          "label": "Paul +43.2",
+          "margin": 43.16,
+          "votesRep": 10592,
+          "votesDem": 4205,
+          "votesTotal": 14797
+        },
+        "Jackson21": {
+          "color": "#BF1D29",
+          "label": "Paul +79.0",
+          "margin": 79.01,
+          "votesRep": 3283,
+          "votesDem": 385,
+          "votesTotal": 3668
+        },
+        "Jefferson21": {
+          "color": "#1C408C",
+          "label": "Booker +18.1",
+          "margin": -18.13,
+          "votesRep": 113707,
+          "votesDem": 164065,
+          "votesTotal": 277772
+        },
+        "Jessamine21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.7",
+          "margin": 33.74,
+          "votesRep": 11569,
+          "votesDem": 5732,
+          "votesTotal": 17301
+        },
+        "Johnson21": {
+          "color": "#BF1D29",
+          "label": "Paul +61.6",
+          "margin": 61.58,
+          "votesRep": 4559,
+          "votesDem": 1084,
+          "votesTotal": 5643
+        },
+        "Kenton21": {
+          "color": "#BF1D29",
+          "label": "Paul +17.5",
+          "margin": 17.52,
+          "votesRep": 30057,
+          "votesDem": 21096,
+          "votesTotal": 51153
+        },
+        "Knott21": {
+          "color": "#BF1D29",
+          "label": "Paul +35.7",
+          "margin": 35.73,
+          "votesRep": 3252,
+          "votesDem": 1540,
+          "votesTotal": 4792
+        },
+        "Knox21": {
+          "color": "#BF1D29",
+          "label": "Paul +62.0",
+          "margin": 61.97,
+          "votesRep": 6457,
+          "votesDem": 1516,
+          "votesTotal": 7973
+        },
+        "Larue21": {
+          "color": "#BF1D29",
+          "label": "Paul +52.0",
+          "margin": 51.97,
+          "votesRep": 3955,
+          "votesDem": 1250,
+          "votesTotal": 5205
+        },
+        "Laurel21": {
+          "color": "#BF1D29",
+          "label": "Paul +64.8",
+          "margin": 64.76,
+          "votesRep": 14474,
+          "votesDem": 3096,
+          "votesTotal": 17570
+        },
+        "Lawrence21": {
+          "color": "#BF1D29",
+          "label": "Paul +54.1",
+          "margin": 54.06,
+          "votesRep": 3179,
+          "votesDem": 948,
+          "votesTotal": 4127
+        },
+        "Lee21": {
+          "color": "#BF1D29",
+          "label": "Paul +59.2",
+          "margin": 59.15,
+          "votesRep": 1648,
+          "votesDem": 423,
+          "votesTotal": 2071
+        },
+        "Leslie21": {
+          "color": "#BF1D29",
+          "label": "Paul +74.2",
+          "margin": 74.24,
+          "votesRep": 2509,
+          "votesDem": 371,
+          "votesTotal": 2880
+        },
+        "Letcher21": {
+          "color": "#BF1D29",
+          "label": "Paul +35.3",
+          "margin": 35.25,
+          "votesRep": 3873,
+          "votesDem": 1854,
+          "votesTotal": 5727
+        },
+        "Lewis21": {
+          "color": "#BF1D29",
+          "label": "Paul +70.1",
+          "margin": 70.14,
+          "votesRep": 3259,
+          "votesDem": 572,
+          "votesTotal": 3831
+        },
+        "Lincoln21": {
+          "color": "#BF1D29",
+          "label": "Paul +53.7",
+          "margin": 53.66,
+          "votesRep": 5687,
+          "votesDem": 1715,
+          "votesTotal": 7403
+        },
+        "Livingston21": {
+          "color": "#BF1D29",
+          "label": "Paul +62.3",
+          "margin": 62.3,
+          "votesRep": 2609,
+          "votesDem": 606,
+          "votesTotal": 3216
+        },
+        "Logan21": {
+          "color": "#BF1D29",
+          "label": "Paul +46.7",
+          "margin": 46.69,
+          "votesRep": 6240,
+          "votesDem": 2268,
+          "votesTotal": 8508
+        },
+        "Lyon21": {
+          "color": "#BF1D29",
+          "label": "Paul +45.9",
+          "margin": 45.88,
+          "votesRep": 2356,
+          "votesDem": 874,
+          "votesTotal": 3230
+        },
+        "Madison21": {
+          "color": "#BF1D29",
+          "label": "Paul +23.9",
+          "margin": 23.9,
+          "votesRep": 18592,
+          "votesDem": 11420,
+          "votesTotal": 30012
+        },
+        "Magoffin21": {
+          "color": "#BF1D29",
+          "label": "Paul +39.6",
+          "margin": 39.62,
+          "votesRep": 3404,
+          "votesDem": 1472,
+          "votesTotal": 4876
+        },
+        "Marion21": {
+          "color": "#BF1D29",
+          "label": "Paul +28.3",
+          "margin": 28.33,
+          "votesRep": 3782,
+          "votesDem": 2112,
+          "votesTotal": 5896
+        },
+        "Marshall21": {
+          "color": "#BF1D29",
+          "label": "Paul +52.8",
+          "margin": 52.76,
+          "votesRep": 9875,
+          "votesDem": 3054,
+          "votesTotal": 12930
+        },
+        "Martin21": {
+          "color": "#BF1D29",
+          "label": "Paul +72.5",
+          "margin": 72.45,
+          "votesRep": 2241,
+          "votesDem": 358,
+          "votesTotal": 2599
+        },
+        "Mason21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.6",
+          "margin": 33.62,
+          "votesRep": 3879,
+          "votesDem": 1927,
+          "votesTotal": 5806
+        },
+        "McCracken21": {
+          "color": "#BF1D29",
+          "label": "Paul +34.4",
+          "margin": 34.39,
+          "votesRep": 15294,
+          "votesDem": 7466,
+          "votesTotal": 22762
+        },
+        "McCreary21": {
+          "color": "#BF1D29",
+          "label": "Paul +71.2",
+          "margin": 71.19,
+          "votesRep": 3738,
+          "votesDem": 629,
+          "votesTotal": 4367
+        },
+        "McLean21": {
+          "color": "#BF1D29",
+          "label": "Paul +51.9",
+          "margin": 51.9,
+          "votesRep": 2760,
+          "votesDem": 874,
+          "votesTotal": 3634
+        },
+        "Meade21": {
+          "color": "#BF1D29",
+          "label": "Paul +44.1",
+          "margin": 44.06,
+          "votesRep": 6881,
+          "votesDem": 2672,
+          "votesTotal": 9555
+        },
+        "Menifee21": {
+          "color": "#BF1D29",
+          "label": "Paul +40.0",
+          "margin": 40.04,
+          "votesRep": 1586,
+          "votesDem": 679,
+          "votesTotal": 2265
+        },
+        "Mercer21": {
+          "color": "#BF1D29",
+          "label": "Paul +44.3",
+          "margin": 44.31,
+          "votesRep": 5980,
+          "votesDem": 2308,
+          "votesTotal": 8288
+        },
+        "Metcalfe21": {
+          "color": "#BF1D29",
+          "label": "Paul +52.4",
+          "margin": 52.39,
+          "votesRep": 3047,
+          "votesDem": 952,
+          "votesTotal": 3999
+        },
+        "Monroe21": {
+          "color": "#BF1D29",
+          "label": "Paul +76.3",
+          "margin": 76.31,
+          "votesRep": 3356,
+          "votesDem": 451,
+          "votesTotal": 3807
+        },
+        "Montgomery21": {
+          "color": "#BF1D29",
+          "label": "Paul +36.9",
+          "margin": 36.92,
+          "votesRep": 6152,
+          "votesDem": 2834,
+          "votesTotal": 8986
+        },
+        "Morgan21": {
+          "color": "#BF1D29",
+          "label": "Paul +43.9",
+          "margin": 43.94,
+          "votesRep": 2894,
+          "votesDem": 1127,
+          "votesTotal": 4021
+        },
+        "Muhlenberg21": {
+          "color": "#BF1D29",
+          "label": "Paul +38.5",
+          "margin": 38.48,
+          "votesRep": 7062,
+          "votesDem": 3137,
+          "votesTotal": 10200
+        },
+        "Nelson21": {
+          "color": "#BF1D29",
+          "label": "Paul +31.9",
+          "margin": 31.89,
+          "votesRep": 11205,
+          "votesDem": 5787,
+          "votesTotal": 16993
+        },
+        "Nicholas21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.4",
+          "margin": 33.36,
+          "votesRep": 1649,
+          "votesDem": 824,
+          "votesTotal": 2473
+        },
+        "Ohio21": {
+          "color": "#BF1D29",
+          "label": "Paul +54.4",
+          "margin": 54.38,
+          "votesRep": 5617,
+          "votesDem": 1660,
+          "votesTotal": 7278
+        },
+        "Oldham21": {
+          "color": "#BF1D29",
+          "label": "Paul +21.7",
+          "margin": 21.69,
+          "votesRep": 15998,
+          "votesDem": 10295,
+          "votesTotal": 26297
+        },
+        "Owen21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.8",
+          "margin": 50.81,
+          "votesRep": 2937,
+          "votesDem": 958,
+          "votesTotal": 3895
+        },
+        "Owsley21": {
+          "color": "#BF1D29",
+          "label": "Paul +66.8",
+          "margin": 66.8,
+          "votesRep": 1467,
+          "votesDem": 292,
+          "votesTotal": 1759
+        },
+        "Pendleton21": {
+          "color": "#BF1D29",
+          "label": "Paul +57.0",
+          "margin": 57.03,
+          "votesRep": 3841,
+          "votesDem": 1051,
+          "votesTotal": 4892
+        },
+        "Perry21": {
+          "color": "#BF1D29",
+          "label": "Paul +39.7",
+          "margin": 39.69,
+          "votesRep": 5212,
+          "votesDem": 2250,
+          "votesTotal": 7462
+        },
+        "Pike21": {
+          "color": "#BF1D29",
+          "label": "Paul +48.3",
+          "margin": 48.3,
+          "votesRep": 11667,
+          "votesDem": 4067,
+          "votesTotal": 15735
+        },
+        "Powell21": {
+          "color": "#BF1D29",
+          "label": "Paul +39.4",
+          "margin": 39.37,
+          "votesRep": 2503,
+          "votesDem": 1089,
+          "votesTotal": 3592
+        },
+        "Pulaski21": {
+          "color": "#BF1D29",
+          "label": "Paul +60.6",
+          "margin": 60.55,
+          "votesRep": 17000,
+          "votesDem": 4177,
+          "votesTotal": 21177
+        },
+        "Robertson21": {
+          "color": "#BF1D29",
+          "label": "Paul +39.7",
+          "margin": 39.73,
+          "votesRep": 684,
+          "votesDem": 295,
+          "votesTotal": 979
+        },
+        "Rockcastle21": {
+          "color": "#BF1D29",
+          "label": "Paul +68.2",
+          "margin": 68.17,
+          "votesRep": 4020,
+          "votesDem": 761,
+          "votesTotal": 4781
+        },
+        "Rowan21": {
+          "color": "#BF1D29",
+          "label": "Paul +14.2",
+          "margin": 14.23,
+          "votesRep": 4235,
+          "votesDem": 3180,
+          "votesTotal": 7416
+        },
+        "Russell21": {
+          "color": "#BF1D29",
+          "label": "Paul +69.3",
+          "margin": 69.34,
+          "votesRep": 5373,
+          "votesDem": 973,
+          "votesTotal": 6346
+        },
+        "Scott21": {
+          "color": "#BF1D29",
+          "label": "Paul +20.0",
+          "margin": 20.02,
+          "votesRep": 12302,
+          "votesDem": 8198,
+          "votesTotal": 20503
+        },
+        "Shelby21": {
+          "color": "#BF1D29",
+          "label": "Paul +30.4",
+          "margin": 30.4,
+          "votesRep": 11606,
+          "votesDem": 6194,
+          "votesTotal": 17806
+        },
+        "Simpson21": {
+          "color": "#BF1D29",
+          "label": "Paul +38.6",
+          "margin": 38.55,
+          "votesRep": 3975,
+          "votesDem": 1763,
+          "votesTotal": 5738
+        },
+        "Spencer21": {
+          "color": "#BF1D29",
+          "label": "Paul +51.1",
+          "margin": 51.14,
+          "votesRep": 5844,
+          "votesDem": 1889,
+          "votesTotal": 7734
+        },
+        "Taylor21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.1",
+          "margin": 50.11,
+          "votesRep": 6751,
+          "votesDem": 2244,
+          "votesTotal": 8996
+        },
+        "Todd21": {
+          "color": "#BF1D29",
+          "label": "Paul +53.4",
+          "margin": 53.42,
+          "votesRep": 2681,
+          "votesDem": 814,
+          "votesTotal": 3495
+        },
+        "Trigg21": {
+          "color": "#BF1D29",
+          "label": "Paul +48.8",
+          "margin": 48.8,
+          "votesRep": 4057,
+          "votesDem": 1396,
+          "votesTotal": 5455
+        },
+        "Trimble21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.1",
+          "margin": 50.14,
+          "votesRep": 2394,
+          "votesDem": 795,
+          "votesTotal": 3190
+        },
+        "Union21": {
+          "color": "#BF1D29",
+          "label": "Paul +51.1",
+          "margin": 51.12,
+          "votesRep": 3688,
+          "votesDem": 1193,
+          "votesTotal": 4881
+        },
+        "Warren21": {
+          "color": "#BF1D29",
+          "label": "Paul +19.7",
+          "margin": 19.68,
+          "votesRep": 22951,
+          "votesDem": 15403,
+          "votesTotal": 38358
+        },
+        "Washington21": {
+          "color": "#BF1D29",
+          "label": "Paul +40.9",
+          "margin": 40.92,
+          "votesRep": 3492,
+          "votesDem": 1464,
+          "votesTotal": 4956
+        },
+        "Wayne21": {
+          "color": "#BF1D29",
+          "label": "Paul +58.6",
+          "margin": 58.62,
+          "votesRep": 5021,
+          "votesDem": 1310,
+          "votesTotal": 6331
+        },
+        "Webster21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.0",
+          "margin": 49.95,
+          "votesRep": 3158,
+          "votesDem": 1054,
+          "votesTotal": 4212
+        },
+        "Whitley21": {
+          "color": "#BF1D29",
+          "label": "Paul +63.7",
+          "margin": 63.72,
+          "votesRep": 8221,
+          "votesDem": 1822,
+          "votesTotal": 10043
+        },
+        "Wolfe21": {
+          "color": "#BF1D29",
+          "label": "Paul +24.3",
+          "margin": 24.28,
+          "votesRep": 1400,
+          "votesDem": 853,
+          "votesTotal": 2253
+        },
+        "Woodford21": {
+          "color": "#BF1D29",
+          "label": "Paul +10.7",
+          "margin": 10.7,
+          "votesRep": 6227,
+          "votesDem": 5023,
+          "votesTotal": 11251
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Rand Paul",
+      "candDem": "Jim Gray",
+      "shortRep": "Paul",
+      "shortDem": "Gray",
+      "partisan": true,
+      "margin": 14.55,
+      "votesRep": 1090077,
+      "votesDem": 813164,
+      "votesTotal": 1903613,
+      "regions": {
+        "Adair21": {
+          "color": "#BF1D29",
+          "label": "Paul +48.0",
+          "margin": 48,
+          "votesRep": 5897,
+          "votesDem": 2072,
+          "votesTotal": 7969
+        },
+        "Allen21": {
+          "color": "#BF1D29",
+          "label": "Paul +51.0",
+          "margin": 51,
+          "votesRep": 5979,
+          "votesDem": 1940,
+          "votesTotal": 7919
+        },
+        "Anderson21": {
+          "color": "#BF1D29",
+          "label": "Paul +21.4",
+          "margin": 21.39,
+          "votesRep": 6910,
+          "votesDem": 4475,
+          "votesTotal": 11385
+        },
+        "Ballard21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.2",
+          "margin": 33.19,
+          "votesRep": 2725,
+          "votesDem": 1367,
+          "votesTotal": 4092
+        },
+        "Barren21": {
+          "color": "#BF1D29",
+          "label": "Paul +18.6",
+          "margin": 18.63,
+          "votesRep": 10876,
+          "votesDem": 7460,
+          "votesTotal": 18336
+        },
+        "Bath21": {
+          "color": "#FF8B98",
+          "label": "Paul +3.8",
+          "margin": 3.8,
+          "votesRep": 2324,
+          "votesDem": 2154,
+          "votesTotal": 4478
+        },
+        "Bell21": {
+          "color": "#BF1D29",
+          "label": "Paul +43.1",
+          "margin": 43.12,
+          "votesRep": 6637,
+          "votesDem": 2638,
+          "votesTotal": 9275
+        },
+        "Boone21": {
+          "color": "#BF1D29",
+          "label": "Paul +46.6",
+          "margin": 46.62,
+          "votesRep": 42032,
+          "votesDem": 15303,
+          "votesTotal": 57335
+        },
+        "Bourbon21": {
+          "color": "#CF8980",
+          "label": "Paul +0.7",
+          "margin": 0.7,
+          "votesRep": 4411,
+          "votesDem": 4350,
+          "votesTotal": 8761
+        },
+        "Boyd21": {
+          "color": "#FF5865",
+          "label": "Paul +5.9",
+          "margin": 5.89,
+          "votesRep": 10730,
+          "votesDem": 9536,
+          "votesTotal": 20266
+        },
+        "Boyle21": {
+          "color": "#FF5865",
+          "label": "Paul +8.1",
+          "margin": 8.09,
+          "votesRep": 6982,
+          "votesDem": 5937,
+          "votesTotal": 12919
+        },
+        "Bracken21": {
+          "color": "#BF1D29",
+          "label": "Paul +44.1",
+          "margin": 44.15,
+          "votesRep": 2488,
+          "votesDem": 964,
+          "votesTotal": 3452
+        },
+        "Breathitt21": {
+          "color": "#FF8B98",
+          "label": "Paul +3.3",
+          "margin": 3.29,
+          "votesRep": 2854,
+          "votesDem": 2672,
+          "votesTotal": 5526
+        },
+        "Breckinridge21": {
+          "color": "#BF1D29",
+          "label": "Paul +25.2",
+          "margin": 25.21,
+          "votesRep": 5413,
+          "votesDem": 3233,
+          "votesTotal": 8646
+        },
+        "Bullitt21": {
+          "color": "#BF1D29",
+          "label": "Paul +29.2",
+          "margin": 29.19,
+          "votesRep": 23022,
+          "votesDem": 12619,
+          "votesTotal": 35641
+        },
+        "Butler21": {
+          "color": "#BF1D29",
+          "label": "Paul +47.5",
+          "margin": 47.48,
+          "votesRep": 4055,
+          "votesDem": 1444,
+          "votesTotal": 5499
+        },
+        "Caldwell21": {
+          "color": "#BF1D29",
+          "label": "Paul +31.2",
+          "margin": 31.23,
+          "votesRep": 3887,
+          "votesDem": 2037,
+          "votesTotal": 5924
+        },
+        "Calloway21": {
+          "color": "#BF1D29",
+          "label": "Paul +23.1",
+          "margin": 23.08,
+          "votesRep": 9848,
+          "votesDem": 6154,
+          "votesTotal": 16002
+        },
+        "Campbell21": {
+          "color": "#BF1D29",
+          "label": "Paul +29.6",
+          "margin": 29.57,
+          "votesRep": 27327,
+          "votesDem": 14855,
+          "votesTotal": 42183
+        },
+        "Carlisle21": {
+          "color": "#BF1D29",
+          "label": "Paul +40.4",
+          "margin": 40.43,
+          "votesRep": 1813,
+          "votesDem": 769,
+          "votesTotal": 2582
+        },
+        "Carroll21": {
+          "color": "#BF1D29",
+          "label": "Paul +14.9",
+          "margin": 14.88,
+          "votesRep": 2193,
+          "votesDem": 1625,
+          "votesTotal": 3818
+        },
+        "Carter21": {
+          "color": "#BF1D29",
+          "label": "Paul +12.0",
+          "margin": 12.04,
+          "votesRep": 5640,
+          "votesDem": 4428,
+          "votesTotal": 10068
+        },
+        "Casey21": {
+          "color": "#BF1D29",
+          "label": "Paul +51.9",
+          "margin": 51.86,
+          "votesRep": 4789,
+          "votesDem": 1518,
+          "votesTotal": 6307
+        },
+        "Christian21": {
+          "color": "#BF1D29",
+          "label": "Paul +29.4",
+          "margin": 29.42,
+          "votesRep": 14074,
+          "votesDem": 7675,
+          "votesTotal": 21749
+        },
+        "Clark21": {
+          "color": "#BF1D29",
+          "label": "Paul +11.8",
+          "margin": 11.79,
+          "votesRep": 9023,
+          "votesDem": 7120,
+          "votesTotal": 16143
+        },
+        "Clay21": {
+          "color": "#BF1D29",
+          "label": "Paul +53.1",
+          "margin": 53.11,
+          "votesRep": 4917,
+          "votesDem": 1506,
+          "votesTotal": 6423
+        },
+        "Clinton21": {
+          "color": "#BF1D29",
+          "label": "Paul +67.6",
+          "margin": 67.6,
+          "votesRep": 3513,
+          "votesDem": 679,
+          "votesTotal": 4192
+        },
+        "Crittenden21": {
+          "color": "#BF1D29",
+          "label": "Paul +45.0",
+          "margin": 45.05,
+          "votesRep": 2877,
+          "votesDem": 1090,
+          "votesTotal": 3967
+        },
+        "Cumberland21": {
+          "color": "#BF1D29",
+          "label": "Paul +56.4",
+          "margin": 56.36,
+          "votesRep": 2261,
+          "votesDem": 631,
+          "votesTotal": 2892
+        },
+        "Daviess21": {
+          "color": "#BF1D29",
+          "label": "Paul +17.4",
+          "margin": 17.36,
+          "votesRep": 26652,
+          "votesDem": 18768,
+          "votesTotal": 45420
+        },
+        "Edmonson21": {
+          "color": "#BF1D29",
+          "label": "Paul +36.6",
+          "margin": 36.63,
+          "votesRep": 3553,
+          "votesDem": 1648,
+          "votesTotal": 5201
+        },
+        "Elliott21": {
+          "color": "#1C408C",
+          "label": "Gray +12.1",
+          "margin": -12.15,
+          "votesRep": 1157,
+          "votesDem": 1477,
+          "votesTotal": 2634
+        },
+        "Estill21": {
+          "color": "#BF1D29",
+          "label": "Paul +29.5",
+          "margin": 29.52,
+          "votesRep": 3528,
+          "votesDem": 1920,
+          "votesTotal": 5448
+        },
+        "Fayette21": {
+          "color": "#1C408C",
+          "label": "Gray +20.8",
+          "margin": -20.77,
+          "votesRep": 54064,
+          "votesDem": 82401,
+          "votesTotal": 136465
+        },
+        "Fleming21": {
+          "color": "#BF1D29",
+          "label": "Paul +16.9",
+          "margin": 16.94,
+          "votesRep": 3597,
+          "votesDem": 2555,
+          "votesTotal": 6152
+        },
+        "Floyd21": {
+          "color": "#FF8B98",
+          "label": "Paul +3.0",
+          "margin": 2.98,
+          "votesRep": 8082,
+          "votesDem": 7615,
+          "votesTotal": 15697
+        },
+        "Franklin21": {
+          "color": "#1C408C",
+          "label": "Gray +16.2",
+          "margin": -16.18,
+          "votesRep": 10000,
+          "votesDem": 13860,
+          "votesTotal": 23860
+        },
+        "Fulton21": {
+          "color": "#BF1D29",
+          "label": "Paul +12.5",
+          "margin": 12.46,
+          "votesRep": 1322,
+          "votesDem": 1029,
+          "votesTotal": 2351
+        },
+        "Gallatin21": {
+          "color": "#BF1D29",
+          "label": "Paul +43.0",
+          "margin": 43.04,
+          "votesRep": 2358,
+          "votesDem": 939,
+          "votesTotal": 3297
+        },
+        "Garrard21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.4",
+          "margin": 33.37,
+          "votesRep": 5034,
+          "votesDem": 2515,
+          "votesTotal": 7549
+        },
+        "Grant21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.7",
+          "margin": 50.65,
+          "votesRep": 7125,
+          "votesDem": 2334,
+          "votesTotal": 9459
+        },
+        "Graves21": {
+          "color": "#BF1D29",
+          "label": "Paul +34.2",
+          "margin": 34.18,
+          "votesRep": 10996,
+          "votesDem": 5394,
+          "votesTotal": 16390
+        },
+        "Grayson21": {
+          "color": "#BF1D29",
+          "label": "Paul +36.4",
+          "margin": 36.43,
+          "votesRep": 7097,
+          "votesDem": 3307,
+          "votesTotal": 10404
+        },
+        "Green21": {
+          "color": "#BF1D29",
+          "label": "Paul +43.3",
+          "margin": 43.31,
+          "votesRep": 3688,
+          "votesDem": 1459,
+          "votesTotal": 5147
+        },
+        "Greenup21": {
+          "color": "#BF1D29",
+          "label": "Paul +11.3",
+          "margin": 11.31,
+          "votesRep": 8946,
+          "votesDem": 7128,
+          "votesTotal": 16074
+        },
+        "Hancock21": {
+          "color": "#BF1D29",
+          "label": "Paul +12.8",
+          "margin": 12.8,
+          "votesRep": 2383,
+          "votesDem": 1842,
+          "votesTotal": 4225
+        },
+        "Hardin21": {
+          "color": "#BF1D29",
+          "label": "Paul +15.9",
+          "margin": 15.94,
+          "votesRep": 24891,
+          "votesDem": 18046,
+          "votesTotal": 42937
+        },
+        "Harlan21": {
+          "color": "#BF1D29",
+          "label": "Paul +47.5",
+          "margin": 47.48,
+          "votesRep": 7455,
+          "votesDem": 2655,
+          "votesTotal": 10110
+        },
+        "Harrison21": {
+          "color": "#FF5865",
+          "label": "Paul +9.8",
+          "margin": 9.78,
+          "votesRep": 4225,
+          "votesDem": 3472,
+          "votesTotal": 7697
+        },
+        "Hart21": {
+          "color": "#BF1D29",
+          "label": "Paul +26.0",
+          "margin": 25.97,
+          "votesRep": 4504,
+          "votesDem": 2647,
+          "votesTotal": 7151
+        },
+        "Henderson21": {
+          "color": "#FF5865",
+          "label": "Paul +9.1",
+          "margin": 9.09,
+          "votesRep": 10659,
+          "votesDem": 8882,
+          "votesTotal": 19541
+        },
+        "Henry21": {
+          "color": "#BF1D29",
+          "label": "Paul +21.2",
+          "margin": 21.23,
+          "votesRep": 4300,
+          "votesDem": 2794,
+          "votesTotal": 7094
+        },
+        "Hickman21": {
+          "color": "#BF1D29",
+          "label": "Paul +32.2",
+          "margin": 32.24,
+          "votesRep": 1409,
+          "votesDem": 722,
+          "votesTotal": 2131
+        },
+        "Hopkins21": {
+          "color": "#BF1D29",
+          "label": "Paul +35.7",
+          "margin": 35.69,
+          "votesRep": 13625,
+          "votesDem": 6457,
+          "votesTotal": 20082
+        },
+        "Jackson21": {
+          "color": "#BF1D29",
+          "label": "Paul +63.0",
+          "margin": 62.97,
+          "votesRep": 4264,
+          "votesDem": 969,
+          "votesTotal": 5233
+        },
+        "Jefferson21": {
+          "color": "#1C408C",
+          "label": "Gray +17.9",
+          "margin": -17.88,
+          "votesRep": 144628,
+          "votesDem": 207610,
+          "votesTotal": 352609
+        },
+        "Jessamine21": {
+          "color": "#BF1D29",
+          "label": "Paul +18.7",
+          "margin": 18.72,
+          "votesRep": 13821,
+          "votesDem": 9462,
+          "votesTotal": 23283
+        },
+        "Johnson21": {
+          "color": "#BF1D29",
+          "label": "Paul +35.2",
+          "margin": 35.16,
+          "votesRep": 6187,
+          "votesDem": 2968,
+          "votesTotal": 9155
+        },
+        "Kenton21": {
+          "color": "#BF1D29",
+          "label": "Paul +32.1",
+          "margin": 32.06,
+          "votesRep": 47375,
+          "votesDem": 24370,
+          "votesTotal": 71745
+        },
+        "Knott21": {
+          "color": "#BF1D29",
+          "label": "Paul +13.1",
+          "margin": 13.13,
+          "votesRep": 3085,
+          "votesDem": 2369,
+          "votesTotal": 5454
+        },
+        "Knox21": {
+          "color": "#BF1D29",
+          "label": "Paul +42.1",
+          "margin": 42.15,
+          "votesRep": 8162,
+          "votesDem": 3322,
+          "votesTotal": 11484
+        },
+        "Larue21": {
+          "color": "#BF1D29",
+          "label": "Paul +30.6",
+          "margin": 30.59,
+          "votesRep": 4111,
+          "votesDem": 2185,
+          "votesTotal": 6296
+        },
+        "Laurel21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.0",
+          "margin": 50.04,
+          "votesRep": 18216,
+          "votesDem": 6065,
+          "votesTotal": 24281
+        },
+        "Lawrence21": {
+          "color": "#BF1D29",
+          "label": "Paul +24.4",
+          "margin": 24.43,
+          "votesRep": 3652,
+          "votesDem": 2218,
+          "votesTotal": 5870
+        },
+        "Lee21": {
+          "color": "#BF1D29",
+          "label": "Paul +30.5",
+          "margin": 30.55,
+          "votesRep": 1688,
+          "votesDem": 898,
+          "votesTotal": 2586
+        },
+        "Leslie21": {
+          "color": "#BF1D29",
+          "label": "Paul +68.1",
+          "margin": 68.08,
+          "votesRep": 3575,
+          "votesDem": 679,
+          "votesTotal": 4254
+        },
+        "Letcher21": {
+          "color": "#BF1D29",
+          "label": "Paul +25.6",
+          "margin": 25.64,
+          "votesRep": 5364,
+          "votesDem": 3175,
+          "votesTotal": 8539
+        },
+        "Lewis21": {
+          "color": "#BF1D29",
+          "label": "Paul +42.7",
+          "margin": 42.67,
+          "votesRep": 3569,
+          "votesDem": 1434,
+          "votesTotal": 5003
+        },
+        "Lincoln21": {
+          "color": "#BF1D29",
+          "label": "Paul +30.6",
+          "margin": 30.61,
+          "votesRep": 6144,
+          "votesDem": 3264,
+          "votesTotal": 9408
+        },
+        "Livingston21": {
+          "color": "#BF1D29",
+          "label": "Paul +33.8",
+          "margin": 33.84,
+          "votesRep": 3063,
+          "votesDem": 1514,
+          "votesTotal": 4577
+        },
+        "Logan21": {
+          "color": "#BF1D29",
+          "label": "Paul +40.3",
+          "margin": 40.31,
+          "votesRep": 7555,
+          "votesDem": 3214,
+          "votesTotal": 10769
+        },
+        "Lyon21": {
+          "color": "#BF1D29",
+          "label": "Paul +23.4",
+          "margin": 23.43,
+          "votesRep": 2431,
+          "votesDem": 1508,
+          "votesTotal": 3939
+        },
+        "Madison21": {
+          "color": "#BF1D29",
+          "label": "Paul +11.8",
+          "margin": 11.75,
+          "votesRep": 20817,
+          "votesDem": 16439,
+          "votesTotal": 37256
+        },
+        "Magoffin21": {
+          "color": "#BF1D29",
+          "label": "Paul +11.9",
+          "margin": 11.87,
+          "votesRep": 2756,
+          "votesDem": 2171,
+          "votesTotal": 4927
+        },
+        "Marion21": {
+          "color": "#8AAFFF",
+          "label": "Gray +2.5",
+          "margin": -2.5,
+          "votesRep": 3887,
+          "votesDem": 4086,
+          "votesTotal": 7973
+        },
+        "Marshall21": {
+          "color": "#BF1D29",
+          "label": "Paul +27.6",
+          "margin": 27.63,
+          "votesRep": 10635,
+          "votesDem": 6031,
+          "votesTotal": 16666
+        },
+        "Martin21": {
+          "color": "#BF1D29",
+          "label": "Paul +51.2",
+          "margin": 51.17,
+          "votesRep": 2814,
+          "votesDem": 909,
+          "votesTotal": 3723
+        },
+        "Mason21": {
+          "color": "#BF1D29",
+          "label": "Paul +25.5",
+          "margin": 25.55,
+          "votesRep": 4452,
+          "votesDem": 2640,
+          "votesTotal": 7092
+        },
+        "McCracken21": {
+          "color": "#BF1D29",
+          "label": "Paul +26.1",
+          "margin": 26.07,
+          "votesRep": 19699,
+          "votesDem": 11552,
+          "votesTotal": 31251
+        },
+        "McCreary21": {
+          "color": "#BF1D29",
+          "label": "Paul +55.3",
+          "margin": 55.31,
+          "votesRep": 4303,
+          "votesDem": 1238,
+          "votesTotal": 5541
+        },
+        "McLean21": {
+          "color": "#BF1D29",
+          "label": "Paul +25.3",
+          "margin": 25.31,
+          "votesRep": 2820,
+          "votesDem": 1681,
+          "votesTotal": 4501
+        },
+        "Meade21": {
+          "color": "#BF1D29",
+          "label": "Paul +16.3",
+          "margin": 16.3,
+          "votesRep": 7043,
+          "votesDem": 5069,
+          "votesTotal": 12112
+        },
+        "Menifee21": {
+          "color": "#BF1D29",
+          "label": "Paul +11.5",
+          "margin": 11.53,
+          "votesRep": 1514,
+          "votesDem": 1201,
+          "votesTotal": 2715
+        },
+        "Mercer21": {
+          "color": "#BF1D29",
+          "label": "Paul +21.5",
+          "margin": 21.54,
+          "votesRep": 6371,
+          "votesDem": 4113,
+          "votesTotal": 10484
+        },
+        "Metcalfe21": {
+          "color": "#BF1D29",
+          "label": "Paul +26.3",
+          "margin": 26.3,
+          "votesRep": 2845,
+          "votesDem": 1660,
+          "votesTotal": 4505
+        },
+        "Monroe21": {
+          "color": "#BF1D29",
+          "label": "Paul +62.7",
+          "margin": 62.69,
+          "votesRep": 3842,
+          "votesDem": 881,
+          "votesTotal": 4723
+        },
+        "Montgomery21": {
+          "color": "#FF5865",
+          "label": "Paul +9.8",
+          "margin": 9.78,
+          "votesRep": 6220,
+          "votesDem": 5112,
+          "votesTotal": 11332
+        },
+        "Morgan21": {
+          "color": "#BF1D29",
+          "label": "Paul +12.8",
+          "margin": 12.84,
+          "votesRep": 2602,
+          "votesDem": 2010,
+          "votesTotal": 4612
+        },
+        "Muhlenberg21": {
+          "color": "#BF1D29",
+          "label": "Paul +14.5",
+          "margin": 14.52,
+          "votesRep": 7354,
+          "votesDem": 5489,
+          "votesTotal": 12843
+        },
+        "Nelson21": {
+          "color": "#BF1D29",
+          "label": "Paul +14.2",
+          "margin": 14.16,
+          "votesRep": 11746,
+          "votesDem": 8832,
+          "votesTotal": 20578
+        },
+        "Nicholas21": {
+          "color": "#8AAFFF",
+          "label": "Gray +2.5",
+          "margin": -2.47,
+          "votesRep": 1365,
+          "votesDem": 1434,
+          "votesTotal": 2799
+        },
+        "Ohio21": {
+          "color": "#BF1D29",
+          "label": "Paul +31.6",
+          "margin": 31.59,
+          "votesRep": 6742,
+          "votesDem": 3505,
+          "votesTotal": 10247
+        },
+        "Oldham21": {
+          "color": "#BF1D29",
+          "label": "Paul +28.9",
+          "margin": 28.91,
+          "votesRep": 21250,
+          "votesDem": 11718,
+          "votesTotal": 32968
+        },
+        "Owen21": {
+          "color": "#BF1D29",
+          "label": "Paul +37.9",
+          "margin": 37.86,
+          "votesRep": 3388,
+          "votesDem": 1527,
+          "votesTotal": 4915
+        },
+        "Owsley21": {
+          "color": "#BF1D29",
+          "label": "Paul +41.4",
+          "margin": 41.38,
+          "votesRep": 1160,
+          "votesDem": 481,
+          "votesTotal": 1641
+        },
+        "Pendleton21": {
+          "color": "#BF1D29",
+          "label": "Paul +49.1",
+          "margin": 49.12,
+          "votesRep": 4376,
+          "votesDem": 1493,
+          "votesTotal": 5869
+        },
+        "Perry21": {
+          "color": "#BF1D29",
+          "label": "Paul +23.8",
+          "margin": 23.85,
+          "votesRep": 6310,
+          "votesDem": 3880,
+          "votesTotal": 10190
+        },
+        "Pike21": {
+          "color": "#BF1D29",
+          "label": "Paul +21.6",
+          "margin": 21.62,
+          "votesRep": 14421,
+          "votesDem": 9294,
+          "votesTotal": 23715
+        },
+        "Powell21": {
+          "color": "#FF5865",
+          "label": "Paul +9.0",
+          "margin": 8.98,
+          "votesRep": 2664,
+          "votesDem": 2225,
+          "votesTotal": 4889
+        },
+        "Pulaski21": {
+          "color": "#BF1D29",
+          "label": "Paul +44.6",
+          "margin": 44.62,
+          "votesRep": 19971,
+          "votesDem": 7648,
+          "votesTotal": 27619
+        },
+        "Robertson21": {
+          "color": "#BF1D29",
+          "label": "Paul +30.8",
+          "margin": 30.78,
+          "votesRep": 650,
+          "votesDem": 344,
+          "votesTotal": 994
+        },
+        "Rockcastle21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.4",
+          "margin": 50.36,
+          "votesRep": 4889,
+          "votesDem": 1614,
+          "votesTotal": 6503
+        },
+        "Rowan21": {
+          "color": "#577CCC",
+          "label": "Gray +5.7",
+          "margin": -5.74,
+          "votesRep": 4123,
+          "votesDem": 4625,
+          "votesTotal": 8748
+        },
+        "Russell21": {
+          "color": "#BF1D29",
+          "label": "Paul +48.2",
+          "margin": 48.25,
+          "votesRep": 5904,
+          "votesDem": 2061,
+          "votesTotal": 7965
+        },
+        "Scott21": {
+          "color": "#BF1D29",
+          "label": "Paul +10.4",
+          "margin": 10.37,
+          "votesRep": 13340,
+          "votesDem": 10833,
+          "votesTotal": 24173
+        },
+        "Shelby21": {
+          "color": "#BF1D29",
+          "label": "Paul +21.8",
+          "margin": 21.8,
+          "votesRep": 12477,
+          "votesDem": 8011,
+          "votesTotal": 20488
+        },
+        "Simpson21": {
+          "color": "#BF1D29",
+          "label": "Paul +29.6",
+          "margin": 29.6,
+          "votesRep": 4819,
+          "votesDem": 2618,
+          "votesTotal": 7437
+        },
+        "Spencer21": {
+          "color": "#BF1D29",
+          "label": "Paul +36.6",
+          "margin": 36.65,
+          "votesRep": 6447,
+          "votesDem": 2989,
+          "votesTotal": 9436
+        },
+        "Taylor21": {
+          "color": "#BF1D29",
+          "label": "Paul +30.7",
+          "margin": 30.66,
+          "votesRep": 7276,
+          "votesDem": 3861,
+          "votesTotal": 11137
+        },
+        "Todd21": {
+          "color": "#BF1D29",
+          "label": "Paul +50.0",
+          "margin": 50.04,
+          "votesRep": 3514,
+          "votesDem": 1170,
+          "votesTotal": 4684
+        },
+        "Trigg21": {
+          "color": "#BF1D29",
+          "label": "Paul +42.6",
+          "margin": 42.62,
+          "votesRep": 4750,
+          "votesDem": 1911,
+          "votesTotal": 6661
+        },
+        "Trimble21": {
+          "color": "#BF1D29",
+          "label": "Paul +23.7",
+          "margin": 23.72,
+          "votesRep": 2326,
+          "votesDem": 1434,
+          "votesTotal": 3760
+        },
+        "Union21": {
+          "color": "#BF1D29",
+          "label": "Paul +25.0",
+          "margin": 25.04,
+          "votesRep": 3840,
+          "votesDem": 2302,
+          "votesTotal": 6142
+        },
+        "Warren21": {
+          "color": "#BF1D29",
+          "label": "Paul +20.7",
+          "margin": 20.67,
+          "votesRep": 29190,
+          "votesDem": 19191,
+          "votesTotal": 48381
+        },
+        "Washington21": {
+          "color": "#BF1D29",
+          "label": "Paul +21.1",
+          "margin": 21.13,
+          "votesRep": 3365,
+          "votesDem": 2191,
+          "votesTotal": 5556
+        },
+        "Wayne21": {
+          "color": "#BF1D29",
+          "label": "Paul +34.1",
+          "margin": 34.11,
+          "votesRep": 5158,
+          "votesDem": 2534,
+          "votesTotal": 7692
+        },
+        "Webster21": {
+          "color": "#BF1D29",
+          "label": "Paul +30.1",
+          "margin": 30.06,
+          "votesRep": 3712,
+          "votesDem": 1996,
+          "votesTotal": 5708
+        },
+        "Whitley21": {
+          "color": "#BF1D29",
+          "label": "Paul +44.0",
+          "margin": 43.96,
+          "votesRep": 9748,
+          "votesDem": 3795,
+          "votesTotal": 13543
+        },
+        "Wolfe21": {
+          "color": "#FF8B98",
+          "label": "Paul +1.5",
+          "margin": 1.51,
+          "votesRep": 1307,
+          "votesDem": 1268,
+          "votesTotal": 2575
+        },
+        "Woodford21": {
+          "color": "#CF8980",
+          "label": "Paul +0.6",
+          "margin": 0.6,
+          "votesRep": 6838,
+          "votesDem": 6756,
+          "votesTotal": 13594
+        }
+      }
+    }
+  ]
+}

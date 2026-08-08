@@ -1,0 +1,1643 @@
+{
+  "stateFips": "53",
+  "stateName": "Washington",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Dave Reichert",
+      "candDem": "Bob Ferguson",
+      "shortRep": "Reichert",
+      "shortDem": "Ferguson",
+      "partisan": true,
+      "margin": -11.32,
+      "votesRep": 1705535,
+      "votesDem": 2140948,
+      "votesTotal": 3854672,
+      "regions": {
+        "Adams53": {
+          "color": "#BF1D29",
+          "label": "Reichert +46.1",
+          "margin": 46.14,
+          "votesRep": 3761,
+          "votesDem": 1386,
+          "votesTotal": 5160
+        },
+        "Asotin53": {
+          "color": "#BF1D29",
+          "label": "Reichert +28.2",
+          "margin": 28.22,
+          "votesRep": 7198,
+          "votesDem": 4030,
+          "votesTotal": 11252
+        },
+        "Benton53": {
+          "color": "#BF1D29",
+          "label": "Reichert +27.8",
+          "margin": 27.76,
+          "votesRep": 62998,
+          "votesDem": 35623,
+          "votesTotal": 98821
+        },
+        "Chelan53": {
+          "color": "#BF1D29",
+          "label": "Reichert +17.4",
+          "margin": 17.39,
+          "votesRep": 24442,
+          "votesDem": 17201,
+          "votesTotal": 41712
+        },
+        "Clallam53": {
+          "color": "#8AAFFF",
+          "label": "Ferguson +3.4",
+          "margin": -3.37,
+          "votesRep": 23100,
+          "votesDem": 24709,
+          "votesTotal": 47925
+        },
+        "Clark53": {
+          "color": "#8AAFFF",
+          "label": "Ferguson +3.1",
+          "margin": -3.05,
+          "votesRep": 129529,
+          "votesDem": 137691,
+          "votesTotal": 267580
+        },
+        "Columbia53": {
+          "color": "#BF1D29",
+          "label": "Reichert +48.3",
+          "margin": 48.27,
+          "votesRep": 1797,
+          "votesDem": 627,
+          "votesTotal": 2435
+        },
+        "Cowlitz53": {
+          "color": "#BF1D29",
+          "label": "Reichert +23.9",
+          "margin": 23.88,
+          "votesRep": 36035,
+          "votesDem": 22143,
+          "votesTotal": 58247
+        },
+        "Douglas53": {
+          "color": "#BF1D29",
+          "label": "Reichert +32.9",
+          "margin": 32.93,
+          "votesRep": 13161,
+          "votesDem": 6641,
+          "votesTotal": 19840
+        },
+        "Ferry53": {
+          "color": "#BF1D29",
+          "label": "Reichert +38.1",
+          "margin": 38.09,
+          "votesRep": 2806,
+          "votesDem": 1258,
+          "votesTotal": 4073
+        },
+        "Franklin53": {
+          "color": "#BF1D29",
+          "label": "Reichert +26.6",
+          "margin": 26.6,
+          "votesRep": 19630,
+          "votesDem": 11382,
+          "votesTotal": 31047
+        },
+        "Garfield53": {
+          "color": "#BF1D29",
+          "label": "Reichert +56.1",
+          "margin": 56.13,
+          "votesRep": 1064,
+          "votesDem": 299,
+          "votesTotal": 1363
+        },
+        "Grant53": {
+          "color": "#BF1D29",
+          "label": "Reichert +41.6",
+          "margin": 41.65,
+          "votesRep": 24616,
+          "votesDem": 10141,
+          "votesTotal": 34811
+        },
+        "Grays Harbor53": {
+          "color": "#BF1D29",
+          "label": "Reichert +11.1",
+          "margin": 11.11,
+          "votesRep": 20656,
+          "votesDem": 16526,
+          "votesTotal": 37287
+        },
+        "Island53": {
+          "color": "#577CCC",
+          "label": "Ferguson +8.2",
+          "margin": -8.24,
+          "votesRep": 23677,
+          "votesDem": 27931,
+          "votesTotal": 51738
+        },
+        "Jefferson53": {
+          "color": "#1C408C",
+          "label": "Ferguson +40.3",
+          "margin": -40.34,
+          "votesRep": 7312,
+          "votesDem": 17201,
+          "votesTotal": 24575
+        },
+        "King53": {
+          "color": "#1C408C",
+          "label": "Ferguson +43.5",
+          "margin": -43.46,
+          "votesRep": 314226,
+          "votesDem": 797248,
+          "votesTotal": 1113997
+        },
+        "Kitsap53": {
+          "color": "#1C408C",
+          "label": "Ferguson +13.7",
+          "margin": -13.68,
+          "votesRep": 66283,
+          "votesDem": 87299,
+          "votesTotal": 153968
+        },
+        "Kittitas53": {
+          "color": "#BF1D29",
+          "label": "Reichert +25.8",
+          "margin": 25.84,
+          "votesRep": 16394,
+          "votesDem": 9662,
+          "votesTotal": 26123
+        },
+        "Klickitat53": {
+          "color": "#BF1D29",
+          "label": "Reichert +14.5",
+          "margin": 14.52,
+          "votesRep": 7625,
+          "votesDem": 5691,
+          "votesTotal": 13335
+        },
+        "Lewis53": {
+          "color": "#BF1D29",
+          "label": "Reichert +38.6",
+          "margin": 38.65,
+          "votesRep": 31070,
+          "votesDem": 13749,
+          "votesTotal": 44909
+        },
+        "Lincoln53": {
+          "color": "#BF1D29",
+          "label": "Reichert +54.6",
+          "margin": 54.6,
+          "votesRep": 5411,
+          "votesDem": 1589,
+          "votesTotal": 7027
+        },
+        "Mason53": {
+          "color": "#BF1D29",
+          "label": "Reichert +10.4",
+          "margin": 10.39,
+          "votesRep": 19745,
+          "votesDem": 16027,
+          "votesTotal": 35892
+        },
+        "Okanogan53": {
+          "color": "#BF1D29",
+          "label": "Reichert +19.5",
+          "margin": 19.51,
+          "votesRep": 12161,
+          "votesDem": 8190,
+          "votesTotal": 20395
+        },
+        "Pacific53": {
+          "color": "#FF8B98",
+          "label": "Reichert +3.9",
+          "margin": 3.85,
+          "votesRep": 7132,
+          "votesDem": 6603,
+          "votesTotal": 13756
+        },
+        "Pend Oreille53": {
+          "color": "#BF1D29",
+          "label": "Reichert +41.5",
+          "margin": 41.5,
+          "votesRep": 5960,
+          "votesDem": 2464,
+          "votesTotal": 8446
+        },
+        "Pierce53": {
+          "color": "#8AAFFF",
+          "label": "Ferguson +1.8",
+          "margin": -1.84,
+          "votesRep": 212180,
+          "votesDem": 220132,
+          "votesTotal": 433356
+        },
+        "San Juan53": {
+          "color": "#1C408C",
+          "label": "Ferguson +46.7",
+          "margin": -46.66,
+          "votesRep": 3400,
+          "votesDem": 9348,
+          "votesTotal": 12781
+        },
+        "Skagit53": {
+          "color": "#949BB3",
+          "label": "Ferguson +0.9",
+          "margin": -0.85,
+          "votesRep": 34231,
+          "votesDem": 34821,
+          "votesTotal": 69203
+        },
+        "Skamania53": {
+          "color": "#BF1D29",
+          "label": "Reichert +14.7",
+          "margin": 14.66,
+          "votesRep": 4109,
+          "votesDem": 3058,
+          "votesTotal": 7178
+        },
+        "Snohomish53": {
+          "color": "#1C408C",
+          "label": "Ferguson +10.3",
+          "margin": -10.25,
+          "votesRep": 183193,
+          "votesDem": 225046,
+          "votesTotal": 409184
+        },
+        "Spokane53": {
+          "color": "#FF5865",
+          "label": "Reichert +9.4",
+          "margin": 9.37,
+          "votesRep": 153974,
+          "votesDem": 127594,
+          "votesTotal": 281959
+        },
+        "Stevens53": {
+          "color": "#BF1D29",
+          "label": "Reichert +48.0",
+          "margin": 48.04,
+          "votesRep": 20673,
+          "votesDem": 7256,
+          "votesTotal": 27989
+        },
+        "Thurston53": {
+          "color": "#1C408C",
+          "label": "Ferguson +11.7",
+          "margin": -11.65,
+          "votesRep": 71764,
+          "votesDem": 90696,
+          "votesTotal": 162865
+        },
+        "Wahkiakum53": {
+          "color": "#BF1D29",
+          "label": "Reichert +22.9",
+          "margin": 22.88,
+          "votesRep": 1845,
+          "votesDem": 1158,
+          "votesTotal": 3009
+        },
+        "Walla Walla53": {
+          "color": "#BF1D29",
+          "label": "Reichert +13.6",
+          "margin": 13.6,
+          "votesRep": 16103,
+          "votesDem": 12248,
+          "votesTotal": 28376
+        },
+        "Whatcom53": {
+          "color": "#1C408C",
+          "label": "Ferguson +19.6",
+          "margin": -19.58,
+          "votesRep": 54769,
+          "votesDem": 81435,
+          "votesTotal": 136451
+        },
+        "Whitman53": {
+          "color": "#8AAFFF",
+          "label": "Ferguson +2.4",
+          "margin": -2.42,
+          "votesRep": 9610,
+          "votesDem": 10087,
+          "votesTotal": 19742
+        },
+        "Yakima53": {
+          "color": "#BF1D29",
+          "label": "Reichert +19.8",
+          "margin": 19.78,
+          "votesRep": 51895,
+          "votesDem": 34758,
+          "votesTotal": 86865
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Raul Garcia",
+      "candDem": "Maria Cantwell",
+      "shortRep": "Garcia",
+      "shortDem": "Cantwell",
+      "partisan": true,
+      "margin": -18.5,
+      "votesRep": 1549187,
+      "votesDem": 2252577,
+      "votesTotal": 3812391,
+      "regions": {
+        "Adams53": {
+          "color": "#BF1D29",
+          "label": "Garcia +36.6",
+          "margin": 36.58,
+          "votesRep": 3504,
+          "votesDem": 1627,
+          "votesTotal": 5175
+        },
+        "Asotin53": {
+          "color": "#BF1D29",
+          "label": "Garcia +20.3",
+          "margin": 20.35,
+          "votesRep": 6627,
+          "votesDem": 4386,
+          "votesTotal": 11049
+        },
+        "Benton53": {
+          "color": "#BF1D29",
+          "label": "Garcia +18.7",
+          "margin": 18.7,
+          "votesRep": 57804,
+          "votesDem": 39595,
+          "votesTotal": 97712
+        },
+        "Chelan53": {
+          "color": "#FF5865",
+          "label": "Garcia +8.0",
+          "margin": 8,
+          "votesRep": 22168,
+          "votesDem": 18884,
+          "votesTotal": 41148
+        },
+        "Clallam53": {
+          "color": "#577CCC",
+          "label": "Cantwell +8.1",
+          "margin": -8.11,
+          "votesRep": 21663,
+          "votesDem": 25487,
+          "votesTotal": 47233
+        },
+        "Clark53": {
+          "color": "#577CCC",
+          "label": "Cantwell +7.5",
+          "margin": -7.52,
+          "votesRep": 122712,
+          "votesDem": 142669,
+          "votesTotal": 266299
+        },
+        "Columbia53": {
+          "color": "#BF1D29",
+          "label": "Garcia +38.0",
+          "margin": 37.99,
+          "votesRep": 1658,
+          "votesDem": 745,
+          "votesTotal": 2418
+        },
+        "Cowlitz53": {
+          "color": "#BF1D29",
+          "label": "Garcia +14.9",
+          "margin": 14.91,
+          "votesRep": 32854,
+          "votesDem": 24329,
+          "votesTotal": 57354
+        },
+        "Douglas53": {
+          "color": "#BF1D29",
+          "label": "Garcia +23.1",
+          "margin": 23.11,
+          "votesRep": 12637,
+          "votesDem": 7892,
+          "votesTotal": 20593
+        },
+        "Ferry53": {
+          "color": "#BF1D29",
+          "label": "Garcia +28.3",
+          "margin": 28.25,
+          "votesRep": 2558,
+          "votesDem": 1431,
+          "votesTotal": 3997
+        },
+        "Franklin53": {
+          "color": "#BF1D29",
+          "label": "Garcia +18.5",
+          "margin": 18.45,
+          "votesRep": 18212,
+          "votesDem": 12538,
+          "votesTotal": 30800
+        },
+        "Garfield53": {
+          "color": "#BF1D29",
+          "label": "Garcia +38.3",
+          "margin": 38.31,
+          "votesRep": 926,
+          "votesDem": 413,
+          "votesTotal": 1340
+        },
+        "Grant53": {
+          "color": "#BF1D29",
+          "label": "Garcia +33.5",
+          "margin": 33.45,
+          "votesRep": 23390,
+          "votesDem": 11664,
+          "votesTotal": 35128
+        },
+        "Grays Harbor53": {
+          "color": "#FF8B98",
+          "label": "Garcia +1.9",
+          "margin": 1.93,
+          "votesRep": 18772,
+          "votesDem": 18061,
+          "votesTotal": 36938
+        },
+        "Island53": {
+          "color": "#1C408C",
+          "label": "Cantwell +14.8",
+          "margin": -14.81,
+          "votesRep": 21677,
+          "votesDem": 29216,
+          "votesTotal": 51007
+        },
+        "Jefferson53": {
+          "color": "#1C408C",
+          "label": "Cantwell +44.9",
+          "margin": -44.86,
+          "votesRep": 6708,
+          "votesDem": 17621,
+          "votesTotal": 24378
+        },
+        "King53": {
+          "color": "#1C408C",
+          "label": "Cantwell +50.6",
+          "margin": -50.58,
+          "votesRep": 271832,
+          "votesDem": 828204,
+          "votesTotal": 1103406
+        },
+        "Kitsap53": {
+          "color": "#1C408C",
+          "label": "Cantwell +19.3",
+          "margin": -19.35,
+          "votesRep": 61734,
+          "votesDem": 91348,
+          "votesTotal": 153409
+        },
+        "Kittitas53": {
+          "color": "#BF1D29",
+          "label": "Garcia +13.8",
+          "margin": 13.79,
+          "votesRep": 14556,
+          "votesDem": 11028,
+          "votesTotal": 25657
+        },
+        "Klickitat53": {
+          "color": "#FF5865",
+          "label": "Garcia +8.9",
+          "margin": 8.89,
+          "votesRep": 7125,
+          "votesDem": 5962,
+          "votesTotal": 13127
+        },
+        "Lewis53": {
+          "color": "#BF1D29",
+          "label": "Garcia +27.6",
+          "margin": 27.58,
+          "votesRep": 28030,
+          "votesDem": 15912,
+          "votesTotal": 44074
+        },
+        "Lincoln53": {
+          "color": "#BF1D29",
+          "label": "Garcia +45.9",
+          "margin": 45.94,
+          "votesRep": 5099,
+          "votesDem": 1889,
+          "votesTotal": 7007
+        },
+        "Mason53": {
+          "color": "#CF8980",
+          "label": "Garcia +0.8",
+          "margin": 0.77,
+          "votesRep": 17865,
+          "votesDem": 17593,
+          "votesTotal": 35620
+        },
+        "Okanogan53": {
+          "color": "#BF1D29",
+          "label": "Garcia +10.1",
+          "margin": 10.15,
+          "votesRep": 11060,
+          "votesDem": 9022,
+          "votesTotal": 20133
+        },
+        "Pacific53": {
+          "color": "#577CCC",
+          "label": "Cantwell +5.2",
+          "margin": -5.22,
+          "votesRep": 6552,
+          "votesDem": 7273,
+          "votesTotal": 13863
+        },
+        "Pend Oreille53": {
+          "color": "#BF1D29",
+          "label": "Garcia +34.5",
+          "margin": 34.48,
+          "votesRep": 5585,
+          "votesDem": 2721,
+          "votesTotal": 8329
+        },
+        "Pierce53": {
+          "color": "#1C408C",
+          "label": "Cantwell +10.2",
+          "margin": -10.15,
+          "votesRep": 192366,
+          "votesDem": 235829,
+          "votesTotal": 429094
+        },
+        "San Juan53": {
+          "color": "#1C408C",
+          "label": "Cantwell +49.3",
+          "margin": -49.31,
+          "votesRep": 3214,
+          "votesDem": 9466,
+          "votesTotal": 12726
+        },
+        "Skagit53": {
+          "color": "#577CCC",
+          "label": "Cantwell +7.9",
+          "margin": -7.88,
+          "votesRep": 29438,
+          "votesDem": 34472,
+          "votesTotal": 64053
+        },
+        "Skamania53": {
+          "color": "#FF5865",
+          "label": "Garcia +9.2",
+          "margin": 9.19,
+          "votesRep": 3855,
+          "votesDem": 3206,
+          "votesTotal": 7081
+        },
+        "Snohomish53": {
+          "color": "#1C408C",
+          "label": "Cantwell +18.0",
+          "margin": -18,
+          "votesRep": 166117,
+          "votesDem": 239059,
+          "votesTotal": 406196
+        },
+        "Spokane53": {
+          "color": "#FF8B98",
+          "label": "Garcia +4.0",
+          "margin": 3.99,
+          "votesRep": 143680,
+          "votesDem": 132644,
+          "votesTotal": 277166
+        },
+        "Stevens53": {
+          "color": "#BF1D29",
+          "label": "Garcia +40.6",
+          "margin": 40.62,
+          "votesRep": 19270,
+          "votesDem": 8138,
+          "votesTotal": 27504
+        },
+        "Thurston53": {
+          "color": "#1C408C",
+          "label": "Cantwell +20.2",
+          "margin": -20.2,
+          "votesRep": 63796,
+          "votesDem": 96086,
+          "votesTotal": 160344
+        },
+        "Wahkiakum53": {
+          "color": "#BF1D29",
+          "label": "Garcia +11.4",
+          "margin": 11.41,
+          "votesRep": 1641,
+          "votesDem": 1305,
+          "votesTotal": 2954
+        },
+        "Walla Walla53": {
+          "color": "#FF5865",
+          "label": "Garcia +5.8",
+          "margin": 5.78,
+          "votesRep": 15293,
+          "votesDem": 13621,
+          "votesTotal": 28946
+        },
+        "Whatcom53": {
+          "color": "#1C408C",
+          "label": "Cantwell +23.3",
+          "margin": -23.31,
+          "votesRep": 51836,
+          "votesDem": 83355,
+          "votesTotal": 135481
+        },
+        "Whitman53": {
+          "color": "#577CCC",
+          "label": "Cantwell +9.4",
+          "margin": -9.42,
+          "votesRep": 8856,
+          "votesDem": 10698,
+          "votesTotal": 19588
+        },
+        "Yakima53": {
+          "color": "#BF1D29",
+          "label": "Garcia +11.1",
+          "margin": 11.15,
+          "votesRep": 46517,
+          "votesDem": 37188,
+          "votesTotal": 84064
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Tiffany Smiley",
+      "candDem": "Patty Murray",
+      "shortRep": "Smiley",
+      "shortDem": "Murray",
+      "partisan": true,
+      "margin": -14.59,
+      "votesRep": 1297894,
+      "votesDem": 1741255,
+      "votesTotal": 3045897,
+      "regions": {
+        "Adams53": {
+          "color": "#BF1D29",
+          "label": "Smiley +52.9",
+          "margin": 52.95,
+          "votesRep": 3150,
+          "votesDem": 969,
+          "votesTotal": 4131
+        },
+        "Asotin53": {
+          "color": "#BF1D29",
+          "label": "Smiley +29.4",
+          "margin": 29.35,
+          "votesRep": 5824,
+          "votesDem": 3181,
+          "votesTotal": 9018
+        },
+        "Benton53": {
+          "color": "#BF1D29",
+          "label": "Smiley +32.4",
+          "margin": 32.42,
+          "votesRep": 49983,
+          "votesDem": 25506,
+          "votesTotal": 75617
+        },
+        "Chelan53": {
+          "color": "#BF1D29",
+          "label": "Smiley +15.9",
+          "margin": 15.92,
+          "votesRep": 19812,
+          "votesDem": 14370,
+          "votesTotal": 34249
+        },
+        "Clallam53": {
+          "color": "#8AAFFF",
+          "label": "Murray +3.4",
+          "margin": -3.44,
+          "votesRep": 19401,
+          "votesDem": 20784,
+          "votesTotal": 40279
+        },
+        "Clark53": {
+          "color": "#8AAFFF",
+          "label": "Murray +2.3",
+          "margin": -2.34,
+          "votesRep": 100250,
+          "votesDem": 105055,
+          "votesTotal": 205603
+        },
+        "Columbia53": {
+          "color": "#BF1D29",
+          "label": "Smiley +42.9",
+          "margin": 42.91,
+          "votesRep": 1422,
+          "votesDem": 568,
+          "votesTotal": 2002
+        },
+        "Cowlitz53": {
+          "color": "#BF1D29",
+          "label": "Smiley +22.3",
+          "margin": 22.29,
+          "votesRep": 27446,
+          "votesDem": 17439,
+          "votesTotal": 44942
+        },
+        "Douglas53": {
+          "color": "#BF1D29",
+          "label": "Smiley +34.4",
+          "margin": 34.39,
+          "votesRep": 10806,
+          "votesDem": 5275,
+          "votesTotal": 16117
+        },
+        "Ferry53": {
+          "color": "#BF1D29",
+          "label": "Smiley +37.8",
+          "margin": 37.79,
+          "votesRep": 2348,
+          "votesDem": 1060,
+          "votesTotal": 3415
+        },
+        "Franklin53": {
+          "color": "#BF1D29",
+          "label": "Smiley +36.4",
+          "margin": 36.43,
+          "votesRep": 15061,
+          "votesDem": 7018,
+          "votesTotal": 22097
+        },
+        "Garfield53": {
+          "color": "#BF1D29",
+          "label": "Smiley +52.2",
+          "margin": 52.18,
+          "votesRep": 977,
+          "votesDem": 307,
+          "votesTotal": 1287
+        },
+        "Grant53": {
+          "color": "#BF1D29",
+          "label": "Smiley +46.2",
+          "margin": 46.19,
+          "votesRep": 19589,
+          "votesDem": 7211,
+          "votesTotal": 26836
+        },
+        "Grays Harbor53": {
+          "color": "#FF5865",
+          "label": "Smiley +7.2",
+          "margin": 7.19,
+          "votesRep": 15685,
+          "votesDem": 13581,
+          "votesTotal": 29347
+        },
+        "Island53": {
+          "color": "#1C408C",
+          "label": "Murray +10.3",
+          "margin": -10.25,
+          "votesRep": 19275,
+          "votesDem": 23680,
+          "votesTotal": 43057
+        },
+        "Jefferson53": {
+          "color": "#1C408C",
+          "label": "Murray +41.5",
+          "margin": -41.53,
+          "votesRep": 6185,
+          "votesDem": 14970,
+          "votesTotal": 21199
+        },
+        "King53": {
+          "color": "#1C408C",
+          "label": "Murray +50.4",
+          "margin": -50.44,
+          "votesRep": 220307,
+          "votesDem": 668692,
+          "votesTotal": 890942
+        },
+        "Kitsap53": {
+          "color": "#1C408C",
+          "label": "Murray +15.3",
+          "margin": -15.28,
+          "votesRep": 52130,
+          "votesDem": 70931,
+          "votesTotal": 123339
+        },
+        "Kittitas53": {
+          "color": "#BF1D29",
+          "label": "Smiley +19.9",
+          "margin": 19.88,
+          "votesRep": 12446,
+          "votesDem": 8318,
+          "votesTotal": 20798
+        },
+        "Klickitat53": {
+          "color": "#BF1D29",
+          "label": "Smiley +16.1",
+          "margin": 16.1,
+          "votesRep": 6639,
+          "votesDem": 4798,
+          "votesTotal": 11455
+        },
+        "Lewis53": {
+          "color": "#BF1D29",
+          "label": "Smiley +37.1",
+          "margin": 37.12,
+          "votesRep": 24459,
+          "votesDem": 11216,
+          "votesTotal": 35749
+        },
+        "Lincoln53": {
+          "color": "#BF1D29",
+          "label": "Smiley +53.0",
+          "margin": 53,
+          "votesRep": 4558,
+          "votesDem": 1400,
+          "votesTotal": 5973
+        },
+        "Mason53": {
+          "color": "#FF5865",
+          "label": "Smiley +6.2",
+          "margin": 6.24,
+          "votesRep": 15612,
+          "votesDem": 13777,
+          "votesTotal": 29475
+        },
+        "Okanogan53": {
+          "color": "#BF1D29",
+          "label": "Smiley +20.9",
+          "margin": 20.92,
+          "votesRep": 9793,
+          "votesDem": 6405,
+          "votesTotal": 16232
+        },
+        "Pacific53": {
+          "color": "#FF8B98",
+          "label": "Smiley +2.3",
+          "margin": 2.27,
+          "votesRep": 5958,
+          "votesDem": 5693,
+          "votesTotal": 11684
+        },
+        "Pierce53": {
+          "color": "#577CCC",
+          "label": "Murray +5.7",
+          "margin": -5.69,
+          "votesRep": 156285,
+          "votesDem": 175143,
+          "votesTotal": 332387
+        },
+        "San Juan53": {
+          "color": "#1C408C",
+          "label": "Murray +46.0",
+          "margin": -45.97,
+          "votesRep": 3055,
+          "votesDem": 8254,
+          "votesTotal": 11326
+        },
+        "Skagit53": {
+          "color": "#8AAFFF",
+          "label": "Murray +3.4",
+          "margin": -3.39,
+          "votesRep": 27390,
+          "votesDem": 29313,
+          "votesTotal": 56842
+        },
+        "Skamania53": {
+          "color": "#BF1D29",
+          "label": "Smiley +15.7",
+          "margin": 15.74,
+          "votesRep": 3599,
+          "votesDem": 2620,
+          "votesTotal": 6227
+        },
+        "Snohomish53": {
+          "color": "#1C408C",
+          "label": "Murray +15.4",
+          "margin": -15.36,
+          "votesRep": 135322,
+          "votesDem": 184423,
+          "votesTotal": 320609
+        },
+        "Spokane53": {
+          "color": "#FF5865",
+          "label": "Smiley +8.9",
+          "margin": 8.89,
+          "votesRep": 120369,
+          "votesDem": 100719,
+          "votesTotal": 221531
+        },
+        "Stevens53": {
+          "color": "#BF1D29",
+          "label": "Smiley +46.9",
+          "margin": 46.91,
+          "votesRep": 16803,
+          "votesDem": 6073,
+          "votesTotal": 22919
+        },
+        "Thurston53": {
+          "color": "#1C408C",
+          "label": "Murray +16.4",
+          "margin": -16.4,
+          "votesRep": 52567,
+          "votesDem": 73184,
+          "votesTotal": 126098
+        },
+        "Wahkiakum53": {
+          "color": "#BF1D29",
+          "label": "Smiley +21.3",
+          "margin": 21.27,
+          "votesRep": 1551,
+          "votesDem": 1007,
+          "votesTotal": 2565
+        },
+        "Walla Walla53": {
+          "color": "#BF1D29",
+          "label": "Smiley +17.1",
+          "margin": 17.12,
+          "votesRep": 14164,
+          "votesDem": 10024,
+          "votesTotal": 24217
+        },
+        "Whatcom53": {
+          "color": "#1C408C",
+          "label": "Murray +18.8",
+          "margin": -18.84,
+          "votesRep": 45038,
+          "votesDem": 65950,
+          "votesTotal": 111170
+        },
+        "Whitman53": {
+          "color": "#6b7280",
+          "label": "Murray +0.4",
+          "margin": -0.37,
+          "votesRep": 7714,
+          "votesDem": 7771,
+          "votesTotal": 15520
+        },
+        "Yakima53": {
+          "color": "#BF1D29",
+          "label": "Smiley +28.1",
+          "margin": 28.13,
+          "votesRep": 40182,
+          "votesDem": 22538,
+          "votesTotal": 62856
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Susan Hutchison",
+      "candDem": "Maria Cantwell",
+      "shortRep": "Hutchison",
+      "shortDem": "Cantwell",
+      "partisan": true,
+      "margin": -16.88,
+      "votesRep": 1282006,
+      "votesDem": 1802779,
+      "votesTotal": 3086786,
+      "regions": {
+        "Adams53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +35.5",
+          "margin": 35.49,
+          "votesRep": 2867,
+          "votesDem": 1365,
+          "votesTotal": 4232
+        },
+        "Asotin53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +16.4",
+          "margin": 16.35,
+          "votesRep": 5298,
+          "votesDem": 3809,
+          "votesTotal": 9107
+        },
+        "Benton53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +24.9",
+          "margin": 24.87,
+          "votesRep": 46834,
+          "votesDem": 28181,
+          "votesTotal": 75015
+        },
+        "Chelan53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +11.9",
+          "margin": 11.85,
+          "votesRep": 18759,
+          "votesDem": 14783,
+          "votesTotal": 33542
+        },
+        "Clallam53": {
+          "color": "#8AAFFF",
+          "label": "Cantwell +1.3",
+          "margin": -1.35,
+          "votesRep": 19504,
+          "votesDem": 20036,
+          "votesTotal": 39540
+        },
+        "Clark53": {
+          "color": "#577CCC",
+          "label": "Cantwell +5.9",
+          "margin": -5.93,
+          "votesRep": 91119,
+          "votesDem": 102599,
+          "votesTotal": 193718
+        },
+        "Columbia53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +33.5",
+          "margin": 33.52,
+          "votesRep": 1468,
+          "votesDem": 731,
+          "votesTotal": 2199
+        },
+        "Cowlitz53": {
+          "color": "#FF5865",
+          "label": "Hutchison +7.7",
+          "margin": 7.66,
+          "votesRep": 23487,
+          "votesDem": 20146,
+          "votesTotal": 43633
+        },
+        "Douglas53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +27.7",
+          "margin": 27.66,
+          "votesRep": 9512,
+          "votesDem": 5390,
+          "votesTotal": 14902
+        },
+        "Ferry53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +23.8",
+          "margin": 23.8,
+          "votesRep": 2159,
+          "votesDem": 1329,
+          "votesTotal": 3488
+        },
+        "Franklin53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +19.5",
+          "margin": 19.47,
+          "votesRep": 13311,
+          "votesDem": 8972,
+          "votesTotal": 22283
+        },
+        "Garfield53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +32.5",
+          "margin": 32.55,
+          "votesRep": 843,
+          "votesDem": 429,
+          "votesTotal": 1272
+        },
+        "Grant53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +38.4",
+          "margin": 38.4,
+          "votesRep": 18333,
+          "votesDem": 8159,
+          "votesTotal": 26492
+        },
+        "Grays Harbor53": {
+          "color": "#FF8B98",
+          "label": "Hutchison +4.4",
+          "margin": 4.39,
+          "votesRep": 14849,
+          "votesDem": 13600,
+          "votesTotal": 28449
+        },
+        "Island53": {
+          "color": "#577CCC",
+          "label": "Cantwell +6.4",
+          "margin": -6.35,
+          "votesRep": 19672,
+          "votesDem": 22341,
+          "votesTotal": 42013
+        },
+        "Jefferson53": {
+          "color": "#1C408C",
+          "label": "Cantwell +37.6",
+          "margin": -37.58,
+          "votesRep": 6502,
+          "votesDem": 14331,
+          "votesTotal": 20833
+        },
+        "King53": {
+          "color": "#1C408C",
+          "label": "Cantwell +48.3",
+          "margin": -48.3,
+          "votesRep": 247071,
+          "votesDem": 708654,
+          "votesTotal": 957726
+        },
+        "Kitsap53": {
+          "color": "#1C408C",
+          "label": "Cantwell +12.9",
+          "margin": -12.93,
+          "votesRep": 52308,
+          "votesDem": 67847,
+          "votesTotal": 120155
+        },
+        "Kittitas53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +13.8",
+          "margin": 13.79,
+          "votesRep": 10996,
+          "votesDem": 8330,
+          "votesTotal": 19326
+        },
+        "Klickitat53": {
+          "color": "#FF5865",
+          "label": "Hutchison +8.3",
+          "margin": 8.32,
+          "votesRep": 5776,
+          "votesDem": 4889,
+          "votesTotal": 10665
+        },
+        "Lewis53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +34.6",
+          "margin": 34.58,
+          "votesRep": 22783,
+          "votesDem": 11076,
+          "votesTotal": 33859
+        },
+        "Lincoln53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +42.5",
+          "margin": 42.49,
+          "votesRep": 3974,
+          "votesDem": 1604,
+          "votesTotal": 5578
+        },
+        "Mason53": {
+          "color": "#FF8B98",
+          "label": "Hutchison +4.3",
+          "margin": 4.33,
+          "votesRep": 14416,
+          "votesDem": 13220,
+          "votesTotal": 27636
+        },
+        "Okanogan53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +12.8",
+          "margin": 12.81,
+          "votesRep": 9317,
+          "votesDem": 7201,
+          "votesTotal": 16518
+        },
+        "Pacific53": {
+          "color": "#8AAFFF",
+          "label": "Cantwell +1.8",
+          "margin": -1.8,
+          "votesRep": 5332,
+          "votesDem": 5527,
+          "votesTotal": 10859
+        },
+        "Pend Oreille53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +27.7",
+          "margin": 27.74,
+          "votesRep": 4379,
+          "votesDem": 2477,
+          "votesTotal": 6856
+        },
+        "Pierce53": {
+          "color": "#577CCC",
+          "label": "Cantwell +6.7",
+          "margin": -6.72,
+          "votesRep": 152158,
+          "votesDem": 174081,
+          "votesTotal": 326239
+        },
+        "San Juan53": {
+          "color": "#1C408C",
+          "label": "Cantwell +45.2",
+          "margin": -45.19,
+          "votesRep": 3026,
+          "votesDem": 8016,
+          "votesTotal": 11042
+        },
+        "Skagit53": {
+          "color": "#8AAFFF",
+          "label": "Cantwell +3.0",
+          "margin": -2.98,
+          "votesRep": 26491,
+          "votesDem": 28119,
+          "votesTotal": 54610
+        },
+        "Skamania53": {
+          "color": "#FF8B98",
+          "label": "Hutchison +4.6",
+          "margin": 4.59,
+          "votesRep": 2919,
+          "votesDem": 2663,
+          "votesTotal": 5582
+        },
+        "Snohomish53": {
+          "color": "#1C408C",
+          "label": "Cantwell +14.8",
+          "margin": -14.79,
+          "votesRep": 136729,
+          "votesDem": 184203,
+          "votesTotal": 320932
+        },
+        "Spokane53": {
+          "color": "#FF8B98",
+          "label": "Hutchison +1.5",
+          "margin": 1.54,
+          "votesRep": 115508,
+          "votesDem": 112000,
+          "votesTotal": 227508
+        },
+        "Stevens53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +35.5",
+          "margin": 35.54,
+          "votesRep": 15296,
+          "votesDem": 7274,
+          "votesTotal": 22570
+        },
+        "Thurston53": {
+          "color": "#1C408C",
+          "label": "Cantwell +17.1",
+          "margin": -17.09,
+          "votesRep": 51464,
+          "votesDem": 72673,
+          "votesTotal": 124137
+        },
+        "Wahkiakum53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +10.7",
+          "margin": 10.69,
+          "votesRep": 1341,
+          "votesDem": 1082,
+          "votesTotal": 2423
+        },
+        "Walla Walla53": {
+          "color": "#FF5865",
+          "label": "Hutchison +7.3",
+          "margin": 7.28,
+          "votesRep": 13684,
+          "votesDem": 11826,
+          "votesTotal": 25510
+        },
+        "Whatcom53": {
+          "color": "#1C408C",
+          "label": "Cantwell +19.5",
+          "margin": -19.51,
+          "votesRep": 43757,
+          "votesDem": 64971,
+          "votesTotal": 108728
+        },
+        "Whitman53": {
+          "color": "#577CCC",
+          "label": "Cantwell +9.0",
+          "margin": -9,
+          "votesRep": 7825,
+          "votesDem": 9372,
+          "votesTotal": 17197
+        },
+        "Yakima53": {
+          "color": "#BF1D29",
+          "label": "Hutchison +16.3",
+          "margin": 16.28,
+          "votesRep": 40939,
+          "votesDem": 29473,
+          "votesTotal": 70412
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Chris Vance",
+      "candDem": "Patty Murray",
+      "shortRep": "Vance",
+      "shortDem": "Murray",
+      "partisan": true,
+      "margin": -18.05,
+      "votesRep": 1328264,
+      "votesDem": 1913186,
+      "votesTotal": 3241450,
+      "regions": {
+        "Adams53": {
+          "color": "#BF1D29",
+          "label": "Vance +20.5",
+          "margin": 20.5,
+          "votesRep": 2818,
+          "votesDem": 1859,
+          "votesTotal": 4677
+        },
+        "Asotin53": {
+          "color": "#BF1D29",
+          "label": "Vance +12.8",
+          "margin": 12.82,
+          "votesRep": 5497,
+          "votesDem": 4248,
+          "votesTotal": 9745
+        },
+        "Benton53": {
+          "color": "#BF1D29",
+          "label": "Vance +13.0",
+          "margin": 13.03,
+          "votesRep": 46366,
+          "votesDem": 35673,
+          "votesTotal": 82039
+        },
+        "Chelan53": {
+          "color": "#FF5865",
+          "label": "Vance +7.6",
+          "margin": 7.56,
+          "votesRep": 18129,
+          "votesDem": 15582,
+          "votesTotal": 33711
+        },
+        "Clallam53": {
+          "color": "#8AAFFF",
+          "label": "Murray +4.0",
+          "margin": -4.04,
+          "votesRep": 18955,
+          "votesDem": 20549,
+          "votesTotal": 39504
+        },
+        "Clark53": {
+          "color": "#8AAFFF",
+          "label": "Murray +2.6",
+          "margin": -2.64,
+          "votesRep": 97637,
+          "votesDem": 102922,
+          "votesTotal": 200559
+        },
+        "Columbia53": {
+          "color": "#BF1D29",
+          "label": "Vance +22.1",
+          "margin": 22.12,
+          "votesRep": 1339,
+          "votesDem": 854,
+          "votesTotal": 2193
+        },
+        "Cowlitz53": {
+          "color": "#CF8980",
+          "label": "Vance +0.6",
+          "margin": 0.6,
+          "votesRep": 22741,
+          "votesDem": 22468,
+          "votesTotal": 45209
+        },
+        "Douglas53": {
+          "color": "#BF1D29",
+          "label": "Vance +19.2",
+          "margin": 19.23,
+          "votesRep": 9333,
+          "votesDem": 6322,
+          "votesTotal": 15655
+        },
+        "Ferry53": {
+          "color": "#BF1D29",
+          "label": "Vance +16.0",
+          "margin": 16,
+          "votesRep": 2099,
+          "votesDem": 1520,
+          "votesTotal": 3619
+        },
+        "Franklin53": {
+          "color": "#FF5865",
+          "label": "Vance +9.8",
+          "margin": 9.76,
+          "votesRep": 12975,
+          "votesDem": 10668,
+          "votesTotal": 23643
+        },
+        "Garfield53": {
+          "color": "#BF1D29",
+          "label": "Vance +21.7",
+          "margin": 21.72,
+          "votesRep": 737,
+          "votesDem": 474,
+          "votesTotal": 1211
+        },
+        "Grant53": {
+          "color": "#BF1D29",
+          "label": "Vance +28.1",
+          "margin": 28.1,
+          "votesRep": 18404,
+          "votesDem": 10329,
+          "votesTotal": 28733
+        },
+        "Grays Harbor53": {
+          "color": "#577CCC",
+          "label": "Murray +6.8",
+          "margin": -6.8,
+          "votesRep": 13429,
+          "votesDem": 15390,
+          "votesTotal": 28819
+        },
+        "Island53": {
+          "color": "#577CCC",
+          "label": "Murray +9.1",
+          "margin": -9.05,
+          "votesRep": 19761,
+          "votesDem": 23695,
+          "votesTotal": 43456
+        },
+        "Jefferson53": {
+          "color": "#1C408C",
+          "label": "Murray +37.5",
+          "margin": -37.5,
+          "votesRep": 6408,
+          "votesDem": 14098,
+          "votesTotal": 20506
+        },
+        "King53": {
+          "color": "#1C408C",
+          "label": "Murray +45.4",
+          "margin": -45.4,
+          "votesRep": 273410,
+          "votesDem": 728113,
+          "votesTotal": 1001523
+        },
+        "Kitsap53": {
+          "color": "#1C408C",
+          "label": "Murray +13.5",
+          "margin": -13.47,
+          "votesRep": 54716,
+          "votesDem": 71746,
+          "votesTotal": 126462
+        },
+        "Kittitas53": {
+          "color": "#FF5865",
+          "label": "Vance +7.6",
+          "margin": 7.65,
+          "votesRep": 10292,
+          "votesDem": 8830,
+          "votesTotal": 19122
+        },
+        "Klickitat53": {
+          "color": "#FF5865",
+          "label": "Vance +5.3",
+          "margin": 5.28,
+          "votesRep": 5692,
+          "votesDem": 5121,
+          "votesTotal": 10813
+        },
+        "Lewis53": {
+          "color": "#BF1D29",
+          "label": "Vance +23.1",
+          "margin": 23.06,
+          "votesRep": 21070,
+          "votesDem": 13174,
+          "votesTotal": 34244
+        },
+        "Lincoln53": {
+          "color": "#BF1D29",
+          "label": "Vance +32.8",
+          "margin": 32.77,
+          "votesRep": 3837,
+          "votesDem": 1943,
+          "votesTotal": 5780
+        },
+        "Mason53": {
+          "color": "#8AAFFF",
+          "label": "Murray +4.1",
+          "margin": -4.11,
+          "votesRep": 13677,
+          "votesDem": 14848,
+          "votesTotal": 28525
+        },
+        "Okanogan53": {
+          "color": "#FF5865",
+          "label": "Vance +6.2",
+          "margin": 6.17,
+          "votesRep": 9160,
+          "votesDem": 8095,
+          "votesTotal": 17255
+        },
+        "Pacific53": {
+          "color": "#1C408C",
+          "label": "Murray +10.5",
+          "margin": -10.51,
+          "votesRep": 4819,
+          "votesDem": 5951,
+          "votesTotal": 10770
+        },
+        "Pend Oreille53": {
+          "color": "#BF1D29",
+          "label": "Vance +19.2",
+          "margin": 19.19,
+          "votesRep": 4093,
+          "votesDem": 2775,
+          "votesTotal": 6868
+        },
+        "Pierce53": {
+          "color": "#1C408C",
+          "label": "Murray +10.9",
+          "margin": -10.89,
+          "votesRep": 157636,
+          "votesDem": 196164,
+          "votesTotal": 353800
+        },
+        "San Juan53": {
+          "color": "#1C408C",
+          "label": "Murray +43.2",
+          "margin": -43.18,
+          "votesRep": 3091,
+          "votesDem": 7789,
+          "votesTotal": 10880
+        },
+        "Skagit53": {
+          "color": "#577CCC",
+          "label": "Murray +6.9",
+          "margin": -6.94,
+          "votesRep": 26598,
+          "votesDem": 30566,
+          "votesTotal": 57164
+        },
+        "Skamania53": {
+          "color": "#FF8B98",
+          "label": "Vance +4.6",
+          "margin": 4.56,
+          "votesRep": 2945,
+          "votesDem": 2688,
+          "votesTotal": 5633
+        },
+        "Snohomish53": {
+          "color": "#1C408C",
+          "label": "Murray +15.3",
+          "margin": -15.3,
+          "votesRep": 148319,
+          "votesDem": 201910,
+          "votesTotal": 350229
+        },
+        "Spokane53": {
+          "color": "#FF8B98",
+          "label": "Vance +1.5",
+          "margin": 1.51,
+          "votesRep": 117197,
+          "votesDem": 113717,
+          "votesTotal": 230914
+        },
+        "Stevens53": {
+          "color": "#BF1D29",
+          "label": "Vance +29.1",
+          "margin": 29.07,
+          "votesRep": 14830,
+          "votesDem": 8150,
+          "votesTotal": 22980
+        },
+        "Thurston53": {
+          "color": "#1C408C",
+          "label": "Murray +19.5",
+          "margin": -19.54,
+          "votesRep": 52603,
+          "votesDem": 78153,
+          "votesTotal": 130756
+        },
+        "Wahkiakum53": {
+          "color": "#FF8B98",
+          "label": "Vance +3.8",
+          "margin": 3.75,
+          "votesRep": 1217,
+          "votesDem": 1129,
+          "votesTotal": 2346
+        },
+        "Walla Walla53": {
+          "color": "#FF8B98",
+          "label": "Vance +1.3",
+          "margin": 1.28,
+          "votesRep": 12932,
+          "votesDem": 12604,
+          "votesTotal": 25536
+        },
+        "Whatcom53": {
+          "color": "#1C408C",
+          "label": "Murray +18.9",
+          "margin": -18.88,
+          "votesRep": 44924,
+          "votesDem": 65830,
+          "votesTotal": 110754
+        },
+        "Whitman53": {
+          "color": "#577CCC",
+          "label": "Murray +8.7",
+          "margin": -8.72,
+          "votesRep": 7990,
+          "votesDem": 9517,
+          "votesTotal": 17507
+        },
+        "Yakima53": {
+          "color": "#FF8B98",
+          "label": "Vance +3.7",
+          "margin": 3.66,
+          "votesRep": 40588,
+          "votesDem": 37722,
+          "votesTotal": 78310
+        }
+      }
+    }
+  ]
+}

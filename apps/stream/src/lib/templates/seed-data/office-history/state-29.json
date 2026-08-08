@@ -1,0 +1,4651 @@
+{
+  "stateFips": "29",
+  "stateName": "Missouri",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Mike Kehoe",
+      "candDem": "Crystal Quade",
+      "shortRep": "Kehoe",
+      "shortDem": "Quade",
+      "partisan": true,
+      "margin": 20.87,
+      "votesRep": 1750802,
+      "votesDem": 1146173,
+      "votesTotal": 2960266,
+      "regions": {
+        "Adair29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +41.0",
+          "margin": 40.96,
+          "votesRep": 6967,
+          "votesDem": 2918,
+          "votesTotal": 10112
+        },
+        "Andrew29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +54.7",
+          "margin": 54.75,
+          "votesRep": 7311,
+          "votesDem": 2138,
+          "votesTotal": 9678
+        },
+        "Atchison29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +66.5",
+          "margin": 66.54,
+          "votesRep": 2125,
+          "votesDem": 427,
+          "votesTotal": 2622
+        },
+        "Audrain29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +50.8",
+          "margin": 50.84,
+          "votesRep": 7622,
+          "votesDem": 2484,
+          "votesTotal": 10383
+        },
+        "Barry29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +62.7",
+          "margin": 62.66,
+          "votesRep": 12721,
+          "votesDem": 2920,
+          "votesTotal": 15944
+        },
+        "Barton29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +74.9",
+          "margin": 74.88,
+          "votesRep": 5055,
+          "votesDem": 726,
+          "votesTotal": 5887
+        },
+        "Bates29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +59.9",
+          "margin": 59.93,
+          "votesRep": 6402,
+          "votesDem": 1604,
+          "votesTotal": 8155
+        },
+        "Benton29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +57.1",
+          "margin": 57.05,
+          "votesRep": 8151,
+          "votesDem": 2229,
+          "votesTotal": 10636
+        },
+        "Bollinger29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +76.7",
+          "margin": 76.7,
+          "votesRep": 5247,
+          "votesDem": 692,
+          "votesTotal": 6061
+        },
+        "Boone29": {
+          "color": "#8AAFFF",
+          "label": "Quade +3.8",
+          "margin": -3.83,
+          "votesRep": 41770,
+          "votesDem": 45101,
+          "votesTotal": 89031
+        },
+        "Buchanan29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +31.0",
+          "margin": 30.99,
+          "votesRep": 22432,
+          "votesDem": 11819,
+          "votesTotal": 35154
+        },
+        "Butler29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +67.0",
+          "margin": 67.01,
+          "votesRep": 14510,
+          "votesDem": 2866,
+          "votesTotal": 17658
+        },
+        "Caldwell29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +58.6",
+          "margin": 58.6,
+          "votesRep": 3601,
+          "votesDem": 940,
+          "votesTotal": 4647
+        },
+        "Callaway29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +47.6",
+          "margin": 47.61,
+          "votesRep": 15250,
+          "votesDem": 5413,
+          "votesTotal": 21296
+        },
+        "Camden29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +55.2",
+          "margin": 55.17,
+          "votesRep": 19104,
+          "votesDem": 5519,
+          "votesTotal": 25155
+        },
+        "Cape Girardeau29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +51.7",
+          "margin": 51.68,
+          "votesRep": 29523,
+          "votesDem": 9405,
+          "votesTotal": 39762
+        },
+        "Carroll29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.5",
+          "margin": 65.55,
+          "votesRep": 3623,
+          "votesDem": 754,
+          "votesTotal": 4458
+        },
+        "Carter29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +76.9",
+          "margin": 76.91,
+          "votesRep": 2467,
+          "votesDem": 322,
+          "votesTotal": 2818
+        },
+        "Cass29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +33.1",
+          "margin": 33.11,
+          "votesRep": 38034,
+          "votesDem": 19112,
+          "votesTotal": 58464
+        },
+        "Cedar29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +67.0",
+          "margin": 66.98,
+          "votesRep": 5774,
+          "votesDem": 1142,
+          "votesTotal": 7069
+        },
+        "Chariton29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +58.0",
+          "margin": 58.01,
+          "votesRep": 3131,
+          "votesDem": 832,
+          "votesTotal": 4036
+        },
+        "Christian29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +52.1",
+          "margin": 52.13,
+          "votesRep": 37568,
+          "votesDem": 11822,
+          "votesTotal": 50287
+        },
+        "Clark29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +64.9",
+          "margin": 64.94,
+          "votesRep": 2616,
+          "votesDem": 556,
+          "votesTotal": 3266
+        },
+        "Clay29": {
+          "color": "#FF5865",
+          "label": "Kehoe +7.5",
+          "margin": 7.45,
+          "votesRep": 67765,
+          "votesDem": 58365,
+          "votesTotal": 128823
+        },
+        "Clinton29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +46.8",
+          "margin": 46.75,
+          "votesRep": 7921,
+          "votesDem": 2874,
+          "votesTotal": 11052
+        },
+        "Cole29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +45.4",
+          "margin": 45.4,
+          "votesRep": 28418,
+          "votesDem": 10671,
+          "votesTotal": 40006
+        },
+        "Cooper29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +49.3",
+          "margin": 49.3,
+          "votesRep": 6378,
+          "votesDem": 2166,
+          "votesTotal": 8783
+        },
+        "Crawford29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +62.9",
+          "margin": 62.87,
+          "votesRep": 8531,
+          "votesDem": 1945,
+          "votesTotal": 10685
+        },
+        "Dade29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.6",
+          "margin": 65.56,
+          "votesRep": 3360,
+          "votesDem": 699,
+          "votesTotal": 4135
+        },
+        "Dallas29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +63.1",
+          "margin": 63.1,
+          "votesRep": 6665,
+          "votesDem": 1508,
+          "votesTotal": 8353
+        },
+        "Daviess29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +62.2",
+          "margin": 62.22,
+          "votesRep": 3074,
+          "votesDem": 716,
+          "votesTotal": 3893
+        },
+        "DeKalb29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +62.0",
+          "margin": 62.04,
+          "votesRep": 3744,
+          "votesDem": 877,
+          "votesTotal": 4749
+        },
+        "Dent29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +70.4",
+          "margin": 70.41,
+          "votesRep": 5851,
+          "votesDem": 1016,
+          "votesTotal": 7017
+        },
+        "Douglas29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +70.4",
+          "margin": 70.42,
+          "votesRep": 5998,
+          "votesDem": 1041,
+          "votesTotal": 7179
+        },
+        "Dunklin29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.9",
+          "margin": 65.91,
+          "votesRep": 8040,
+          "votesDem": 1652,
+          "votesTotal": 9877
+        },
+        "Franklin29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +48.2",
+          "margin": 48.22,
+          "votesRep": 39500,
+          "votesDem": 13800,
+          "votesTotal": 54579
+        },
+        "Gasconade29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +63.6",
+          "margin": 63.62,
+          "votesRep": 6354,
+          "votesDem": 1413,
+          "votesTotal": 7905
+        },
+        "Gentry29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.4",
+          "margin": 65.35,
+          "votesRep": 2639,
+          "votesDem": 553,
+          "votesTotal": 3240
+        },
+        "Greene29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +20.3",
+          "margin": 20.29,
+          "votesRep": 84418,
+          "votesDem": 55938,
+          "votesTotal": 143189
+        },
+        "Grundy29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.1",
+          "margin": 65.05,
+          "votesRep": 3533,
+          "votesDem": 748,
+          "votesTotal": 4354
+        },
+        "Harrison29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +71.9",
+          "margin": 71.91,
+          "votesRep": 3243,
+          "votesDem": 530,
+          "votesTotal": 3807
+        },
+        "Henry29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +51.8",
+          "margin": 51.79,
+          "votesRep": 7957,
+          "votesDem": 2527,
+          "votesTotal": 10728
+        },
+        "Hickory29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +58.0",
+          "margin": 57.99,
+          "votesRep": 3915,
+          "votesDem": 1041,
+          "votesTotal": 5063
+        },
+        "Holt29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +69.8",
+          "margin": 69.77,
+          "votesRep": 1921,
+          "votesDem": 342,
+          "votesTotal": 2310
+        },
+        "Howard29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +46.4",
+          "margin": 46.35,
+          "votesRep": 3481,
+          "votesDem": 1276,
+          "votesTotal": 4892
+        },
+        "Howell29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +66.0",
+          "margin": 66.01,
+          "votesRep": 15231,
+          "votesDem": 3118,
+          "votesTotal": 18707
+        },
+        "Iron29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +60.0",
+          "margin": 59.95,
+          "votesRep": 3399,
+          "votesDem": 851,
+          "votesTotal": 4397
+        },
+        "Jackson29": {
+          "color": "#FF8B98",
+          "label": "Kehoe +4.7",
+          "margin": 4.71,
+          "votesRep": 97216,
+          "votesDem": 88479,
+          "votesTotal": 190296
+        },
+        "Jasper29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +50.7",
+          "margin": 50.74,
+          "votesRep": 39119,
+          "votesDem": 12785,
+          "votesTotal": 53186
+        },
+        "Jefferson29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +37.4",
+          "margin": 37.35,
+          "votesRep": 78385,
+          "votesDem": 35753,
+          "votesTotal": 117034
+        },
+        "Johnson29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +40.6",
+          "margin": 40.63,
+          "votesRep": 15991,
+          "votesDem": 6751,
+          "votesTotal": 23311
+        },
+        "Knox29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +71.3",
+          "margin": 71.29,
+          "votesRep": 1462,
+          "votesDem": 245,
+          "votesTotal": 1739
+        },
+        "Laclede29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +66.3",
+          "margin": 66.34,
+          "votesRep": 13861,
+          "votesDem": 2805,
+          "votesTotal": 16989
+        },
+        "Lafayette29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +49.2",
+          "margin": 49.16,
+          "votesRep": 12571,
+          "votesDem": 4285,
+          "votesTotal": 17131
+        },
+        "Lawrence29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +61.7",
+          "margin": 61.69,
+          "votesRep": 14345,
+          "votesDem": 3399,
+          "votesTotal": 18109
+        },
+        "Lewis29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.1",
+          "margin": 65.07,
+          "votesRep": 3573,
+          "votesDem": 756,
+          "votesTotal": 4413
+        },
+        "Lincoln29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +56.3",
+          "margin": 56.26,
+          "votesRep": 24149,
+          "votesDem": 6759,
+          "votesTotal": 31627
+        },
+        "Linn29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +56.0",
+          "margin": 56.02,
+          "votesRep": 4285,
+          "votesDem": 1208,
+          "votesTotal": 5619
+        },
+        "Livingston29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +60.2",
+          "margin": 60.19,
+          "votesRep": 5295,
+          "votesDem": 1316,
+          "votesTotal": 6723
+        },
+        "Macon29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.2",
+          "margin": 65.2,
+          "votesRep": 6304,
+          "votesDem": 1328,
+          "votesTotal": 7749
+        },
+        "Madison29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +66.1",
+          "margin": 66.05,
+          "votesRep": 4598,
+          "votesDem": 940,
+          "votesTotal": 5661
+        },
+        "Maries29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +70.9",
+          "margin": 70.89,
+          "votesRep": 4010,
+          "votesDem": 683,
+          "votesTotal": 4767
+        },
+        "Marion29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +56.0",
+          "margin": 56.03,
+          "votesRep": 9887,
+          "votesDem": 2786,
+          "votesTotal": 12936
+        },
+        "McDonald29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +70.5",
+          "margin": 70.48,
+          "votesRep": 7668,
+          "votesDem": 1328,
+          "votesTotal": 9211
+        },
+        "Mercer29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +73.8",
+          "margin": 73.78,
+          "votesRep": 1498,
+          "votesDem": 226,
+          "votesTotal": 1759
+        },
+        "Miller29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +69.8",
+          "margin": 69.75,
+          "votesRep": 10630,
+          "votesDem": 1894,
+          "votesTotal": 12832
+        },
+        "Mississippi29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +59.4",
+          "margin": 59.37,
+          "votesRep": 3381,
+          "votesDem": 862,
+          "votesTotal": 4359
+        },
+        "Moniteau29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +66.9",
+          "margin": 66.95,
+          "votesRep": 5879,
+          "votesDem": 1164,
+          "votesTotal": 7234
+        },
+        "Monroe29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +64.3",
+          "margin": 64.26,
+          "votesRep": 3475,
+          "votesDem": 756,
+          "votesTotal": 4308
+        },
+        "Montgomery29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +62.1",
+          "margin": 62.14,
+          "votesRep": 4702,
+          "votesDem": 1098,
+          "votesTotal": 5921
+        },
+        "Morgan29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +61.7",
+          "margin": 61.67,
+          "votesRep": 7588,
+          "votesDem": 1799,
+          "votesTotal": 9600
+        },
+        "New Madrid29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +60.0",
+          "margin": 60.04,
+          "votesRep": 5231,
+          "votesDem": 1306,
+          "votesTotal": 6679
+        },
+        "Newton29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +61.3",
+          "margin": 61.33,
+          "votesRep": 22795,
+          "votesDem": 5464,
+          "votesTotal": 28830
+        },
+        "Nodaway29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +45.5",
+          "margin": 45.5,
+          "votesRep": 6869,
+          "votesDem": 2573,
+          "votesTotal": 9609
+        },
+        "Oregon29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +67.7",
+          "margin": 67.72,
+          "votesRep": 3715,
+          "votesDem": 715,
+          "votesTotal": 4520
+        },
+        "Osage29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +78.5",
+          "margin": 78.48,
+          "votesRep": 6777,
+          "votesDem": 817,
+          "votesTotal": 7724
+        },
+        "Ozark29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +68.3",
+          "margin": 68.33,
+          "votesRep": 3886,
+          "votesDem": 731,
+          "votesTotal": 4695
+        },
+        "Pemiscot29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +52.0",
+          "margin": 52.03,
+          "votesRep": 3800,
+          "votesDem": 1199,
+          "votesTotal": 5086
+        },
+        "Perry29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +67.9",
+          "margin": 67.89,
+          "votesRep": 7847,
+          "votesDem": 1501,
+          "votesTotal": 9516
+        },
+        "Pettis29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +51.5",
+          "margin": 51.54,
+          "votesRep": 13873,
+          "votesDem": 4436,
+          "votesTotal": 18706
+        },
+        "Phelps29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +46.9",
+          "margin": 46.87,
+          "votesRep": 13690,
+          "votesDem": 4952,
+          "votesTotal": 19119
+        },
+        "Pike29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +59.4",
+          "margin": 59.43,
+          "votesRep": 6083,
+          "votesDem": 1548,
+          "votesTotal": 7736
+        },
+        "Platte29": {
+          "color": "#FF5865",
+          "label": "Kehoe +6.7",
+          "margin": 6.69,
+          "votesRep": 30102,
+          "votesDem": 26328,
+          "votesTotal": 57544
+        },
+        "Polk29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +61.9",
+          "margin": 61.89,
+          "votesRep": 12487,
+          "votesDem": 2940,
+          "votesTotal": 15731
+        },
+        "Pulaski29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +50.5",
+          "margin": 50.53,
+          "votesRep": 11197,
+          "votesDem": 3680,
+          "votesTotal": 15303
+        },
+        "Putnam29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +74.1",
+          "margin": 74.08,
+          "votesRep": 1988,
+          "votesDem": 296,
+          "votesTotal": 2334
+        },
+        "Ralls29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +62.7",
+          "margin": 62.68,
+          "votesRep": 4560,
+          "votesDem": 1046,
+          "votesTotal": 5711
+        },
+        "Randolph29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +53.0",
+          "margin": 53.04,
+          "votesRep": 8177,
+          "votesDem": 2509,
+          "votesTotal": 10915
+        },
+        "Ray29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +47.5",
+          "margin": 47.45,
+          "votesRep": 8256,
+          "votesDem": 2942,
+          "votesTotal": 11459
+        },
+        "Reynolds29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +67.7",
+          "margin": 67.69,
+          "votesRep": 2424,
+          "votesDem": 467,
+          "votesTotal": 2953
+        },
+        "Ripley29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +74.5",
+          "margin": 74.5,
+          "votesRep": 4872,
+          "votesDem": 712,
+          "votesTotal": 5691
+        },
+        "Saline29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +42.6",
+          "margin": 42.58,
+          "votesRep": 6433,
+          "votesDem": 2591,
+          "votesTotal": 9234
+        },
+        "Schuyler29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +69.1",
+          "margin": 69.06,
+          "votesRep": 1552,
+          "votesDem": 284,
+          "votesTotal": 1881
+        },
+        "Scotland29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +69.2",
+          "margin": 69.17,
+          "votesRep": 1553,
+          "votesDem": 283,
+          "votesTotal": 1863
+        },
+        "Scott29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +63.2",
+          "margin": 63.23,
+          "votesRep": 13801,
+          "votesDem": 3109,
+          "votesTotal": 17208
+        },
+        "Shannon29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +66.4",
+          "margin": 66.38,
+          "votesRep": 3182,
+          "votesDem": 643,
+          "votesTotal": 3906
+        },
+        "Shelby29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +68.1",
+          "margin": 68.1,
+          "votesRep": 2656,
+          "votesDem": 504,
+          "votesTotal": 3214
+        },
+        "St. Charles29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +21.5",
+          "margin": 21.51,
+          "votesRep": 132563,
+          "votesDem": 85628,
+          "votesTotal": 222752
+        },
+        "St. Clair29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +59.0",
+          "margin": 59.01,
+          "votesRep": 3887,
+          "votesDem": 1002,
+          "votesTotal": 4983
+        },
+        "St. Francois29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +52.3",
+          "margin": 52.29,
+          "votesRep": 20827,
+          "votesDem": 6524,
+          "votesTotal": 27942
+        },
+        "St. Louis County29": {
+          "color": "#1C408C",
+          "label": "Quade +17.9",
+          "margin": -17.91,
+          "votesRep": 201181,
+          "votesDem": 288946,
+          "votesTotal": 499821
+        },
+        "Ste. Genevieve29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +47.9",
+          "margin": 47.87,
+          "votesRep": 6887,
+          "votesDem": 2428,
+          "votesTotal": 9508
+        },
+        "Stoddard29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +76.5",
+          "margin": 76.52,
+          "votesRep": 11683,
+          "votesDem": 1554,
+          "votesTotal": 13429
+        },
+        "Stone29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +60.7",
+          "margin": 60.7,
+          "votesRep": 14911,
+          "votesDem": 3647,
+          "votesTotal": 18880
+        },
+        "Sullivan29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +69.6",
+          "margin": 69.61,
+          "votesRep": 2020,
+          "votesDem": 362,
+          "votesTotal": 2418
+        },
+        "Taney29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +59.8",
+          "margin": 59.79,
+          "votesRep": 20622,
+          "votesDem": 5189,
+          "votesTotal": 26408
+        },
+        "Texas29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +69.8",
+          "margin": 69.83,
+          "votesRep": 9491,
+          "votesDem": 1686,
+          "votesTotal": 11408
+        },
+        "Vernon29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +62.9",
+          "margin": 62.95,
+          "votesRep": 7050,
+          "votesDem": 1603,
+          "votesTotal": 8838
+        },
+        "Warren29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +52.0",
+          "margin": 52.03,
+          "votesRep": 14719,
+          "votesDem": 4644,
+          "votesTotal": 19786
+        },
+        "Washington29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +63.7",
+          "margin": 63.75,
+          "votesRep": 7999,
+          "votesDem": 1771,
+          "votesTotal": 10013
+        },
+        "Wayne29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +74.1",
+          "margin": 74.13,
+          "votesRep": 4906,
+          "votesDem": 729,
+          "votesTotal": 5735
+        },
+        "Webster29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +60.6",
+          "margin": 60.62,
+          "votesRep": 15493,
+          "votesDem": 3798,
+          "votesTotal": 19656
+        },
+        "Worth29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +65.3",
+          "margin": 65.35,
+          "votesRep": 878,
+          "votesDem": 184,
+          "votesTotal": 1079
+        },
+        "Wright29": {
+          "color": "#BF1D29",
+          "label": "Kehoe +75.3",
+          "margin": 75.27,
+          "votesRep": 7697,
+          "votesDem": 1086,
+          "votesTotal": 8932
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Josh Hawley",
+      "candDem": "Lucas Kunce",
+      "shortRep": "Hawley",
+      "shortDem": "Kunce",
+      "partisan": true,
+      "margin": 14.1,
+      "votesRep": 1651907,
+      "votesDem": 1243728,
+      "votesTotal": 2972559,
+      "regions": {
+        "Adair29": {
+          "color": "#BF1D29",
+          "label": "Hawley +33.2",
+          "margin": 33.16,
+          "votesRep": 6589,
+          "votesDem": 3307,
+          "votesTotal": 10175
+        },
+        "Andrew29": {
+          "color": "#BF1D29",
+          "label": "Hawley +47.5",
+          "margin": 47.53,
+          "votesRep": 7002,
+          "votesDem": 2490,
+          "votesTotal": 9720
+        },
+        "Atchison29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.1",
+          "margin": 62.15,
+          "votesRep": 2052,
+          "votesDem": 479,
+          "votesTotal": 2623
+        },
+        "Audrain29": {
+          "color": "#BF1D29",
+          "label": "Hawley +42.5",
+          "margin": 42.51,
+          "votesRep": 7172,
+          "votesDem": 2893,
+          "votesTotal": 10377
+        },
+        "Barry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +59.4",
+          "margin": 59.35,
+          "votesRep": 12423,
+          "votesDem": 3169,
+          "votesTotal": 15984
+        },
+        "Barton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +71.1",
+          "margin": 71.14,
+          "votesRep": 4958,
+          "votesDem": 836,
+          "votesTotal": 5916
+        },
+        "Bates29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.0",
+          "margin": 52.04,
+          "votesRep": 6100,
+          "votesDem": 1924,
+          "votesTotal": 8227
+        },
+        "Benton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.7",
+          "margin": 52.69,
+          "votesRep": 7966,
+          "votesDem": 2468,
+          "votesTotal": 10690
+        },
+        "Bollinger29": {
+          "color": "#BF1D29",
+          "label": "Hawley +75.0",
+          "margin": 74.97,
+          "votesRep": 5244,
+          "votesDem": 750,
+          "votesTotal": 6102
+        },
+        "Boone29": {
+          "color": "#1C408C",
+          "label": "Kunce +13.5",
+          "margin": -13.55,
+          "votesRep": 37557,
+          "votesDem": 49327,
+          "votesTotal": 89323
+        },
+        "Buchanan29": {
+          "color": "#BF1D29",
+          "label": "Hawley +24.5",
+          "margin": 24.47,
+          "votesRep": 21451,
+          "votesDem": 13017,
+          "votesTotal": 35390
+        },
+        "Butler29": {
+          "color": "#BF1D29",
+          "label": "Hawley +64.2",
+          "margin": 64.23,
+          "votesRep": 14267,
+          "votesDem": 3107,
+          "votesTotal": 17700
+        },
+        "Caldwell29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.4",
+          "margin": 54.38,
+          "votesRep": 3506,
+          "votesDem": 1036,
+          "votesTotal": 4669
+        },
+        "Callaway29": {
+          "color": "#BF1D29",
+          "label": "Hawley +36.3",
+          "margin": 36.28,
+          "votesRep": 14110,
+          "votesDem": 6598,
+          "votesTotal": 21258
+        },
+        "Camden29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.2",
+          "margin": 49.24,
+          "votesRep": 18505,
+          "votesDem": 6294,
+          "votesTotal": 25283
+        },
+        "Cape Girardeau29": {
+          "color": "#BF1D29",
+          "label": "Hawley +48.2",
+          "margin": 48.2,
+          "votesRep": 28864,
+          "votesDem": 10089,
+          "votesTotal": 39945
+        },
+        "Carroll29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.1",
+          "margin": 56.09,
+          "votesRep": 3395,
+          "votesDem": 955,
+          "votesTotal": 4462
+        },
+        "Carter29": {
+          "color": "#BF1D29",
+          "label": "Hawley +72.8",
+          "margin": 72.75,
+          "votesRep": 2403,
+          "votesDem": 379,
+          "votesTotal": 2825
+        },
+        "Cass29": {
+          "color": "#BF1D29",
+          "label": "Hawley +26.2",
+          "margin": 26.21,
+          "votesRep": 36053,
+          "votesDem": 21081,
+          "votesTotal": 58808
+        },
+        "Cedar29": {
+          "color": "#BF1D29",
+          "label": "Hawley +63.5",
+          "margin": 63.53,
+          "votesRep": 5649,
+          "votesDem": 1260,
+          "votesTotal": 7098
+        },
+        "Chariton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +46.6",
+          "margin": 46.59,
+          "votesRep": 2887,
+          "votesDem": 1052,
+          "votesTotal": 4035
+        },
+        "Christian29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.6",
+          "margin": 49.64,
+          "votesRep": 37040,
+          "votesDem": 12465,
+          "votesTotal": 50545
+        },
+        "Clark29": {
+          "color": "#BF1D29",
+          "label": "Hawley +60.9",
+          "margin": 60.9,
+          "votesRep": 2539,
+          "votesDem": 617,
+          "votesTotal": 3271
+        },
+        "Clay29": {
+          "color": "#CF8980",
+          "label": "Hawley +0.7",
+          "margin": 0.7,
+          "votesRep": 63337,
+          "votesDem": 62452,
+          "votesTotal": 129210
+        },
+        "Clinton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +40.6",
+          "margin": 40.6,
+          "votesRep": 7614,
+          "votesDem": 3217,
+          "votesTotal": 11107
+        },
+        "Cole29": {
+          "color": "#BF1D29",
+          "label": "Hawley +28.6",
+          "margin": 28.61,
+          "votesRep": 25034,
+          "votesDem": 13896,
+          "votesTotal": 39896
+        },
+        "Cooper29": {
+          "color": "#BF1D29",
+          "label": "Hawley +40.3",
+          "margin": 40.28,
+          "votesRep": 6028,
+          "votesDem": 2566,
+          "votesTotal": 8787
+        },
+        "Crawford29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.2",
+          "margin": 56.2,
+          "votesRep": 8220,
+          "votesDem": 2305,
+          "votesTotal": 10716
+        },
+        "Dade29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.0",
+          "margin": 62.01,
+          "votesRep": 3284,
+          "votesDem": 770,
+          "votesTotal": 4142
+        },
+        "Dallas29": {
+          "color": "#BF1D29",
+          "label": "Hawley +59.6",
+          "margin": 59.63,
+          "votesRep": 6504,
+          "votesDem": 1645,
+          "votesTotal": 8368
+        },
+        "Daviess29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.5",
+          "margin": 54.5,
+          "votesRep": 2934,
+          "votesDem": 864,
+          "votesTotal": 3910
+        },
+        "DeKalb29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.7",
+          "margin": 55.74,
+          "votesRep": 3610,
+          "votesDem": 1026,
+          "votesTotal": 4763
+        },
+        "Dent29": {
+          "color": "#BF1D29",
+          "label": "Hawley +65.5",
+          "margin": 65.48,
+          "votesRep": 5662,
+          "votesDem": 1181,
+          "votesTotal": 7023
+        },
+        "Douglas29": {
+          "color": "#BF1D29",
+          "label": "Hawley +66.9",
+          "margin": 66.86,
+          "votesRep": 5866,
+          "votesDem": 1165,
+          "votesTotal": 7190
+        },
+        "Dunklin29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.5",
+          "margin": 62.55,
+          "votesRep": 7786,
+          "votesDem": 1794,
+          "votesTotal": 9856
+        },
+        "Franklin29": {
+          "color": "#BF1D29",
+          "label": "Hawley +38.0",
+          "margin": 37.96,
+          "votesRep": 36907,
+          "votesDem": 16597,
+          "votesTotal": 54904
+        },
+        "Gasconade29": {
+          "color": "#BF1D29",
+          "label": "Hawley +53.5",
+          "margin": 53.55,
+          "votesRep": 5976,
+          "votesDem": 1808,
+          "votesTotal": 7920
+        },
+        "Gentry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +53.8",
+          "margin": 53.85,
+          "votesRep": 2450,
+          "votesDem": 735,
+          "votesTotal": 3255
+        },
+        "Greene29": {
+          "color": "#BF1D29",
+          "label": "Hawley +17.7",
+          "margin": 17.71,
+          "votesRep": 82303,
+          "votesDem": 57542,
+          "votesTotal": 143445
+        },
+        "Grundy29": {
+          "color": "#BF1D29",
+          "label": "Hawley +59.5",
+          "margin": 59.48,
+          "votesRep": 3420,
+          "votesDem": 869,
+          "votesTotal": 4364
+        },
+        "Harrison29": {
+          "color": "#BF1D29",
+          "label": "Hawley +65.5",
+          "margin": 65.47,
+          "votesRep": 3105,
+          "votesDem": 648,
+          "votesTotal": 3809
+        },
+        "Henry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +45.5",
+          "margin": 45.46,
+          "votesRep": 7617,
+          "votesDem": 2856,
+          "votesTotal": 10794
+        },
+        "Hickory29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.9",
+          "margin": 54.92,
+          "votesRep": 3818,
+          "votesDem": 1111,
+          "votesTotal": 5065
+        },
+        "Holt29": {
+          "color": "#BF1D29",
+          "label": "Hawley +64.7",
+          "margin": 64.73,
+          "votesRep": 1873,
+          "votesDem": 401,
+          "votesTotal": 2317
+        },
+        "Howard29": {
+          "color": "#BF1D29",
+          "label": "Hawley +36.6",
+          "margin": 36.63,
+          "votesRep": 3262,
+          "votesDem": 1513,
+          "votesTotal": 4898
+        },
+        "Howell29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.8",
+          "margin": 62.78,
+          "votesRep": 14932,
+          "votesDem": 3414,
+          "votesTotal": 18746
+        },
+        "Iron29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.9",
+          "margin": 52.87,
+          "votesRep": 3289,
+          "votesDem": 1014,
+          "votesTotal": 4430
+        },
+        "Jackson29": {
+          "color": "#6b7280",
+          "label": "Kunce +0.4",
+          "margin": -0.43,
+          "votesRep": 92530,
+          "votesDem": 93333,
+          "votesTotal": 191532
+        },
+        "Jasper29": {
+          "color": "#BF1D29",
+          "label": "Hawley +47.7",
+          "margin": 47.65,
+          "votesRep": 38129,
+          "votesDem": 13518,
+          "votesTotal": 53457
+        },
+        "Jefferson29": {
+          "color": "#BF1D29",
+          "label": "Hawley +27.6",
+          "margin": 27.62,
+          "votesRep": 73111,
+          "votesDem": 41469,
+          "votesTotal": 117742
+        },
+        "Johnson29": {
+          "color": "#BF1D29",
+          "label": "Hawley +34.3",
+          "margin": 34.35,
+          "votesRep": 15269,
+          "votesDem": 7462,
+          "votesTotal": 23401
+        },
+        "Knox29": {
+          "color": "#BF1D29",
+          "label": "Hawley +64.2",
+          "margin": 64.16,
+          "votesRep": 1406,
+          "votesDem": 307,
+          "votesTotal": 1754
+        },
+        "Laclede29": {
+          "color": "#BF1D29",
+          "label": "Hawley +63.1",
+          "margin": 63.14,
+          "votesRep": 13600,
+          "votesDem": 3073,
+          "votesTotal": 17020
+        },
+        "Lafayette29": {
+          "color": "#BF1D29",
+          "label": "Hawley +41.4",
+          "margin": 41.42,
+          "votesRep": 11895,
+          "votesDem": 4927,
+          "votesTotal": 17171
+        },
+        "Lawrence29": {
+          "color": "#BF1D29",
+          "label": "Hawley +59.2",
+          "margin": 59.18,
+          "votesRep": 14138,
+          "votesDem": 3625,
+          "votesTotal": 18223
+        },
+        "Lewis29": {
+          "color": "#BF1D29",
+          "label": "Hawley +61.2",
+          "margin": 61.19,
+          "votesRep": 3460,
+          "votesDem": 833,
+          "votesTotal": 4423
+        },
+        "Lincoln29": {
+          "color": "#BF1D29",
+          "label": "Hawley +47.7",
+          "margin": 47.73,
+          "votesRep": 22811,
+          "votesDem": 8071,
+          "votesTotal": 31686
+        },
+        "Linn29": {
+          "color": "#BF1D29",
+          "label": "Hawley +47.8",
+          "margin": 47.76,
+          "votesRep": 4028,
+          "votesDem": 1424,
+          "votesTotal": 5620
+        },
+        "Livingston29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.1",
+          "margin": 52.12,
+          "votesRep": 5077,
+          "votesDem": 1598,
+          "votesTotal": 6783
+        },
+        "Macon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +60.0",
+          "margin": 59.97,
+          "votesRep": 6111,
+          "votesDem": 1529,
+          "votesTotal": 7759
+        },
+        "Madison29": {
+          "color": "#BF1D29",
+          "label": "Hawley +61.4",
+          "margin": 61.4,
+          "votesRep": 4465,
+          "votesDem": 1068,
+          "votesTotal": 5677
+        },
+        "Maries29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.8",
+          "margin": 62.81,
+          "votesRep": 3822,
+          "votesDem": 873,
+          "votesTotal": 4764
+        },
+        "Marion29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.2",
+          "margin": 52.15,
+          "votesRep": 9642,
+          "votesDem": 3032,
+          "votesTotal": 12992
+        },
+        "McDonald29": {
+          "color": "#BF1D29",
+          "label": "Hawley +68.4",
+          "margin": 68.44,
+          "votesRep": 7620,
+          "votesDem": 1428,
+          "votesTotal": 9244
+        },
+        "Mercer29": {
+          "color": "#BF1D29",
+          "label": "Hawley +68.8",
+          "margin": 68.76,
+          "votesRep": 1475,
+          "votesDem": 273,
+          "votesTotal": 1777
+        },
+        "Miller29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.3",
+          "margin": 62.32,
+          "votesRep": 10194,
+          "votesDem": 2366,
+          "votesTotal": 12846
+        },
+        "Mississippi29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.2",
+          "margin": 55.2,
+          "votesRep": 3263,
+          "votesDem": 942,
+          "votesTotal": 4351
+        },
+        "Moniteau29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.3",
+          "margin": 55.35,
+          "votesRep": 5469,
+          "votesDem": 1572,
+          "votesTotal": 7200
+        },
+        "Monroe29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.4",
+          "margin": 54.39,
+          "votesRep": 3256,
+          "votesDem": 962,
+          "votesTotal": 4309
+        },
+        "Montgomery29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.4",
+          "margin": 54.38,
+          "votesRep": 4497,
+          "votesDem": 1329,
+          "votesTotal": 5942
+        },
+        "Morgan29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.4",
+          "margin": 54.42,
+          "votesRep": 7243,
+          "votesDem": 2138,
+          "votesTotal": 9608
+        },
+        "New Madrid29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.9",
+          "margin": 55.91,
+          "votesRep": 5068,
+          "votesDem": 1433,
+          "votesTotal": 6686
+        },
+        "Newton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +58.5",
+          "margin": 58.5,
+          "votesRep": 22381,
+          "votesDem": 5860,
+          "votesTotal": 28980
+        },
+        "Nodaway29": {
+          "color": "#BF1D29",
+          "label": "Hawley +39.5",
+          "margin": 39.45,
+          "votesRep": 6562,
+          "votesDem": 2849,
+          "votesTotal": 9618
+        },
+        "Oregon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +64.4",
+          "margin": 64.44,
+          "votesRep": 3635,
+          "votesDem": 786,
+          "votesTotal": 4543
+        },
+        "Osage29": {
+          "color": "#BF1D29",
+          "label": "Hawley +66.9",
+          "margin": 66.89,
+          "votesRep": 6337,
+          "votesDem": 1257,
+          "votesTotal": 7699
+        },
+        "Ozark29": {
+          "color": "#BF1D29",
+          "label": "Hawley +65.6",
+          "margin": 65.56,
+          "votesRep": 3802,
+          "votesDem": 791,
+          "votesTotal": 4700
+        },
+        "Pemiscot29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.5",
+          "margin": 49.55,
+          "votesRep": 3735,
+          "votesDem": 1260,
+          "votesTotal": 5101
+        },
+        "Perry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.6",
+          "margin": 62.59,
+          "votesRep": 7619,
+          "votesDem": 1753,
+          "votesTotal": 9569
+        },
+        "Pettis29": {
+          "color": "#BF1D29",
+          "label": "Hawley +44.1",
+          "margin": 44.05,
+          "votesRep": 13134,
+          "votesDem": 5101,
+          "votesTotal": 18715
+        },
+        "Phelps29": {
+          "color": "#BF1D29",
+          "label": "Hawley +39.4",
+          "margin": 39.37,
+          "votesRep": 13014,
+          "votesDem": 5662,
+          "votesTotal": 19157
+        },
+        "Pike29": {
+          "color": "#BF1D29",
+          "label": "Hawley +51.2",
+          "margin": 51.22,
+          "votesRep": 5754,
+          "votesDem": 1856,
+          "votesTotal": 7743
+        },
+        "Platte29": {
+          "color": "#949BB3",
+          "label": "Kunce +0.5",
+          "margin": -0.51,
+          "votesRep": 28061,
+          "votesDem": 28351,
+          "votesTotal": 57755
+        },
+        "Polk29": {
+          "color": "#BF1D29",
+          "label": "Hawley +58.1",
+          "margin": 58.1,
+          "votesRep": 12204,
+          "votesDem": 3234,
+          "votesTotal": 15771
+        },
+        "Pulaski29": {
+          "color": "#BF1D29",
+          "label": "Hawley +45.9",
+          "margin": 45.85,
+          "votesRep": 10834,
+          "votesDem": 4022,
+          "votesTotal": 15339
+        },
+        "Putnam29": {
+          "color": "#BF1D29",
+          "label": "Hawley +70.1",
+          "margin": 70.06,
+          "votesRep": 1937,
+          "votesDem": 341,
+          "votesTotal": 2347
+        },
+        "Ralls29": {
+          "color": "#BF1D29",
+          "label": "Hawley +57.7",
+          "margin": 57.71,
+          "votesRep": 4404,
+          "votesDem": 1181,
+          "votesTotal": 5709
+        },
+        "Randolph29": {
+          "color": "#BF1D29",
+          "label": "Hawley +45.3",
+          "margin": 45.28,
+          "votesRep": 7700,
+          "votesDem": 2900,
+          "votesTotal": 10915
+        },
+        "Ray29": {
+          "color": "#BF1D29",
+          "label": "Hawley +38.7",
+          "margin": 38.69,
+          "votesRep": 7791,
+          "votesDem": 3444,
+          "votesTotal": 11542
+        },
+        "Reynolds29": {
+          "color": "#BF1D29",
+          "label": "Hawley +60.3",
+          "margin": 60.26,
+          "votesRep": 2343,
+          "votesDem": 581,
+          "votesTotal": 2986
+        },
+        "Ripley29": {
+          "color": "#BF1D29",
+          "label": "Hawley +71.8",
+          "margin": 71.77,
+          "votesRep": 4739,
+          "votesDem": 779,
+          "votesTotal": 5680
+        },
+        "Saline29": {
+          "color": "#BF1D29",
+          "label": "Hawley +32.6",
+          "margin": 32.56,
+          "votesRep": 5971,
+          "votesDem": 3038,
+          "votesTotal": 9283
+        },
+        "Schuyler29": {
+          "color": "#BF1D29",
+          "label": "Hawley +64.5",
+          "margin": 64.46,
+          "votesRep": 1513,
+          "votesDem": 327,
+          "votesTotal": 1897
+        },
+        "Scotland29": {
+          "color": "#BF1D29",
+          "label": "Hawley +61.9",
+          "margin": 61.87,
+          "votesRep": 1473,
+          "votesDem": 347,
+          "votesTotal": 1870
+        },
+        "Scott29": {
+          "color": "#BF1D29",
+          "label": "Hawley +59.6",
+          "margin": 59.65,
+          "votesRep": 13488,
+          "votesDem": 3409,
+          "votesTotal": 17236
+        },
+        "Shannon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +61.5",
+          "margin": 61.51,
+          "votesRep": 3088,
+          "votesDem": 736,
+          "votesTotal": 3941
+        },
+        "Shelby29": {
+          "color": "#BF1D29",
+          "label": "Hawley +60.9",
+          "margin": 60.9,
+          "votesRep": 2535,
+          "votesDem": 616,
+          "votesTotal": 3212
+        },
+        "St. Charles29": {
+          "color": "#BF1D29",
+          "label": "Hawley +11.1",
+          "margin": 11.07,
+          "votesRep": 121368,
+          "votesDem": 97175,
+          "votesTotal": 224116
+        },
+        "St. Clair29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.1",
+          "margin": 56.11,
+          "votesRep": 3809,
+          "votesDem": 1071,
+          "votesTotal": 4971
+        },
+        "St. Francois29": {
+          "color": "#BF1D29",
+          "label": "Hawley +42.5",
+          "margin": 42.49,
+          "votesRep": 19573,
+          "votesDem": 7899,
+          "votesTotal": 28133
+        },
+        "St. Louis County29": {
+          "color": "#1C408C",
+          "label": "Kunce +26.5",
+          "margin": -26.54,
+          "votesRep": 179628,
+          "votesDem": 309428,
+          "votesTotal": 502494
+        },
+        "Ste. Genevieve29": {
+          "color": "#BF1D29",
+          "label": "Hawley +36.5",
+          "margin": 36.53,
+          "votesRep": 6415,
+          "votesDem": 2982,
+          "votesTotal": 9593
+        },
+        "Stoddard29": {
+          "color": "#BF1D29",
+          "label": "Hawley +73.8",
+          "margin": 73.8,
+          "votesRep": 11451,
+          "votesDem": 1726,
+          "votesTotal": 13435
+        },
+        "Stone29": {
+          "color": "#BF1D29",
+          "label": "Hawley +57.6",
+          "margin": 57.63,
+          "votesRep": 14687,
+          "votesDem": 3948,
+          "votesTotal": 18954
+        },
+        "Sullivan29": {
+          "color": "#BF1D29",
+          "label": "Hawley +64.3",
+          "margin": 64.32,
+          "votesRep": 1957,
+          "votesDem": 425,
+          "votesTotal": 2424
+        },
+        "Taney29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.4",
+          "margin": 56.44,
+          "votesRep": 20221,
+          "votesDem": 5630,
+          "votesTotal": 26509
+        },
+        "Texas29": {
+          "color": "#BF1D29",
+          "label": "Hawley +66.4",
+          "margin": 66.38,
+          "votesRep": 9324,
+          "votesDem": 1884,
+          "votesTotal": 11448
+        },
+        "Vernon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +57.4",
+          "margin": 57.39,
+          "votesRep": 6778,
+          "votesDem": 1835,
+          "votesTotal": 8841
+        },
+        "Warren29": {
+          "color": "#BF1D29",
+          "label": "Hawley +42.6",
+          "margin": 42.59,
+          "votesRep": 13858,
+          "votesDem": 5579,
+          "votesTotal": 19876
+        },
+        "Washington29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.6",
+          "margin": 55.59,
+          "votesRep": 7648,
+          "votesDem": 2183,
+          "votesTotal": 10058
+        },
+        "Wayne29": {
+          "color": "#BF1D29",
+          "label": "Hawley +70.1",
+          "margin": 70.12,
+          "votesRep": 4783,
+          "votesDem": 840,
+          "votesTotal": 5761
+        },
+        "Webster29": {
+          "color": "#BF1D29",
+          "label": "Hawley +57.6",
+          "margin": 57.64,
+          "votesRep": 15163,
+          "votesDem": 4074,
+          "votesTotal": 19694
+        },
+        "Worth29": {
+          "color": "#BF1D29",
+          "label": "Hawley +60.3",
+          "margin": 60.3,
+          "votesRep": 848,
+          "votesDem": 210,
+          "votesTotal": 1080
+        },
+        "Wright29": {
+          "color": "#BF1D29",
+          "label": "Hawley +72.8",
+          "margin": 72.81,
+          "votesRep": 7608,
+          "votesDem": 1197,
+          "votesTotal": 8944
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Eric Schmitt",
+      "candDem": "Trudy Busch Valentine",
+      "shortRep": "Schmitt",
+      "shortDem": "Valentine",
+      "partisan": true,
+      "margin": 13.57,
+      "votesRep": 1146224,
+      "votesDem": 872346,
+      "votesTotal": 2068008,
+      "regions": {
+        "Adair29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +28.5",
+          "margin": 28.52,
+          "votesRep": 4423,
+          "votesDem": 2460,
+          "votesTotal": 7071
+        },
+        "Andrew29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +49.3",
+          "margin": 49.34,
+          "votesRep": 4885,
+          "votesDem": 1657,
+          "votesTotal": 6727
+        },
+        "Atchison29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +57.8",
+          "margin": 57.85,
+          "votesRep": 1468,
+          "votesDem": 392,
+          "votesTotal": 1910
+        },
+        "Audrain29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +43.1",
+          "margin": 43.14,
+          "votesRep": 5209,
+          "votesDem": 2069,
+          "votesTotal": 7469
+        },
+        "Barry29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +61.3",
+          "margin": 61.33,
+          "votesRep": 8537,
+          "votesDem": 2046,
+          "votesTotal": 10973
+        },
+        "Barton29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +72.4",
+          "margin": 72.36,
+          "votesRep": 3654,
+          "votesDem": 586,
+          "votesTotal": 4326
+        },
+        "Bates29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +51.3",
+          "margin": 51.26,
+          "votesRep": 4227,
+          "votesDem": 1362,
+          "votesTotal": 5766
+        },
+        "Benton29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +52.7",
+          "margin": 52.66,
+          "votesRep": 5717,
+          "votesDem": 1773,
+          "votesTotal": 7728
+        },
+        "Bollinger29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +75.2",
+          "margin": 75.24,
+          "votesRep": 3589,
+          "votesDem": 507,
+          "votesTotal": 4168
+        },
+        "Boone29": {
+          "color": "#1C408C",
+          "label": "Valentine +15.7",
+          "margin": -15.71,
+          "votesRep": 25940,
+          "votesDem": 35608,
+          "votesTotal": 63110
+        },
+        "Buchanan29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +25.1",
+          "margin": 25.07,
+          "votesRep": 14828,
+          "votesDem": 8884,
+          "votesTotal": 24570
+        },
+        "Butler29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +66.6",
+          "margin": 66.62,
+          "votesRep": 9345,
+          "votesDem": 1872,
+          "votesTotal": 11519
+        },
+        "Caldwell29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +55.3",
+          "margin": 55.3,
+          "votesRep": 2588,
+          "votesDem": 745,
+          "votesTotal": 3432
+        },
+        "Callaway29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +36.4",
+          "margin": 36.42,
+          "votesRep": 9917,
+          "votesDem": 4622,
+          "votesTotal": 15003
+        },
+        "Camden29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +50.6",
+          "margin": 50.64,
+          "votesRep": 13380,
+          "votesDem": 4384,
+          "votesTotal": 18289
+        },
+        "Cape Girardeau29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +51.0",
+          "margin": 51.03,
+          "votesRep": 20511,
+          "votesDem": 6650,
+          "votesTotal": 27888
+        },
+        "Carroll29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +58.4",
+          "margin": 58.42,
+          "votesRep": 2610,
+          "votesDem": 685,
+          "votesTotal": 3359
+        },
+        "Carter29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +68.2",
+          "margin": 68.23,
+          "votesRep": 1578,
+          "votesDem": 298,
+          "votesTotal": 1911
+        },
+        "Cass29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +28.2",
+          "margin": 28.17,
+          "votesRep": 24848,
+          "votesDem": 13927,
+          "votesTotal": 39799
+        },
+        "Cedar29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +62.0",
+          "margin": 62.01,
+          "votesRep": 3962,
+          "votesDem": 929,
+          "votesTotal": 5149
+        },
+        "Chariton29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +51.5",
+          "margin": 51.49,
+          "votesRep": 2083,
+          "votesDem": 667,
+          "votesTotal": 2813
+        },
+        "Christian29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +50.0",
+          "margin": 49.99,
+          "votesRep": 24206,
+          "votesDem": 8070,
+          "votesTotal": 33300
+        },
+        "Clark29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +52.9",
+          "margin": 52.93,
+          "votesRep": 1738,
+          "votesDem": 535,
+          "votesTotal": 2349
+        },
+        "Clay29": {
+          "color": "#FF8B98",
+          "label": "Schmitt +1.4",
+          "margin": 1.44,
+          "votesRep": 43210,
+          "votesDem": 41987,
+          "votesTotal": 87406
+        },
+        "Clinton29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +39.8",
+          "margin": 39.75,
+          "votesRep": 5147,
+          "votesDem": 2219,
+          "votesTotal": 7569
+        },
+        "Cole29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +31.7",
+          "margin": 31.69,
+          "votesRep": 18289,
+          "votesDem": 9487,
+          "votesTotal": 28538
+        },
+        "Cooper29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +41.5",
+          "margin": 41.47,
+          "votesRep": 4198,
+          "votesDem": 1737,
+          "votesTotal": 6128
+        },
+        "Crawford29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +56.7",
+          "margin": 56.67,
+          "votesRep": 5822,
+          "votesDem": 1610,
+          "votesTotal": 7603
+        },
+        "Dade29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +65.4",
+          "margin": 65.4,
+          "votesRep": 2395,
+          "votesDem": 501,
+          "votesTotal": 2997
+        },
+        "Dallas29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +60.4",
+          "margin": 60.44,
+          "votesRep": 4449,
+          "votesDem": 1097,
+          "votesTotal": 5752
+        },
+        "Daviess29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +53.9",
+          "margin": 53.89,
+          "votesRep": 2029,
+          "votesDem": 608,
+          "votesTotal": 2709
+        },
+        "DeKalb29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +57.3",
+          "margin": 57.25,
+          "votesRep": 2575,
+          "votesDem": 700,
+          "votesTotal": 3394
+        },
+        "Dent29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +66.1",
+          "margin": 66.12,
+          "votesRep": 4030,
+          "votesDem": 822,
+          "votesTotal": 5014
+        },
+        "Douglas29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +68.0",
+          "margin": 68.04,
+          "votesRep": 4101,
+          "votesDem": 780,
+          "votesTotal": 5032
+        },
+        "Dunklin29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +61.6",
+          "margin": 61.57,
+          "votesRep": 4906,
+          "votesDem": 1167,
+          "votesTotal": 6220
+        },
+        "Franklin29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +38.5",
+          "margin": 38.51,
+          "votesRep": 25089,
+          "votesDem": 11139,
+          "votesTotal": 37088
+        },
+        "Gasconade29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +53.6",
+          "margin": 53.65,
+          "votesRep": 4306,
+          "votesDem": 1299,
+          "votesTotal": 5712
+        },
+        "Gentry29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +53.6",
+          "margin": 53.6,
+          "votesRep": 1748,
+          "votesDem": 528,
+          "votesTotal": 2325
+        },
+        "Greene29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +17.2",
+          "margin": 17.2,
+          "votesRep": 55499,
+          "votesDem": 39211,
+          "votesTotal": 98011
+        },
+        "Grundy29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +59.4",
+          "margin": 59.37,
+          "votesRep": 2514,
+          "votesDem": 641,
+          "votesTotal": 3226
+        },
+        "Harrison29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +66.8",
+          "margin": 66.82,
+          "votesRep": 2237,
+          "votesDem": 445,
+          "votesTotal": 2736
+        },
+        "Henry29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +43.0",
+          "margin": 43.03,
+          "votesRep": 5232,
+          "votesDem": 2084,
+          "votesTotal": 7528
+        },
+        "Hickory29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +55.1",
+          "margin": 55.07,
+          "votesRep": 2747,
+          "votesDem": 796,
+          "votesTotal": 3668
+        },
+        "Holt29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +68.1",
+          "margin": 68.15,
+          "votesRep": 1383,
+          "votesDem": 262,
+          "votesTotal": 1671
+        },
+        "Howard29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +35.2",
+          "margin": 35.2,
+          "votesRep": 2529,
+          "votesDem": 1212,
+          "votesTotal": 3872
+        },
+        "Howell29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +61.7",
+          "margin": 61.65,
+          "votesRep": 10336,
+          "votesDem": 2452,
+          "votesTotal": 13298
+        },
+        "Iron29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +50.1",
+          "margin": 50.08,
+          "votesRep": 2246,
+          "votesDem": 747,
+          "votesTotal": 3072
+        },
+        "Jackson29": {
+          "color": "#FF8B98",
+          "label": "Schmitt +1.2",
+          "margin": 1.24,
+          "votesRep": 64471,
+          "votesDem": 62895,
+          "votesTotal": 130597
+        },
+        "Jasper29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +49.5",
+          "margin": 49.53,
+          "votesRep": 25183,
+          "votesDem": 8500,
+          "votesTotal": 34699
+        },
+        "Jefferson29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +26.1",
+          "margin": 26.06,
+          "votesRep": 48881,
+          "votesDem": 28670,
+          "votesTotal": 79438
+        },
+        "Johnson29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +32.2",
+          "margin": 32.24,
+          "votesRep": 10019,
+          "votesDem": 5134,
+          "votesTotal": 15672
+        },
+        "Knox29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +51.7",
+          "margin": 51.71,
+          "votesRep": 996,
+          "votesDem": 317,
+          "votesTotal": 1366
+        },
+        "Laclede29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +64.5",
+          "margin": 64.47,
+          "votesRep": 9018,
+          "votesDem": 1948,
+          "votesTotal": 11351
+        },
+        "Lafayette29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +40.0",
+          "margin": 40.04,
+          "votesRep": 8233,
+          "votesDem": 3525,
+          "votesTotal": 12030
+        },
+        "Lawrence29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +61.9",
+          "margin": 61.88,
+          "votesRep": 9834,
+          "votesDem": 2316,
+          "votesTotal": 12561
+        },
+        "Lewis29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +53.1",
+          "margin": 53.13,
+          "votesRep": 2339,
+          "votesDem": 716,
+          "votesTotal": 3152
+        },
+        "Lincoln29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +46.1",
+          "margin": 46.1,
+          "votesRep": 14099,
+          "votesDem": 5202,
+          "votesTotal": 19873
+        },
+        "Linn29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +44.2",
+          "margin": 44.16,
+          "votesRep": 2915,
+          "votesDem": 1129,
+          "votesTotal": 4131
+        },
+        "Livingston29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +51.4",
+          "margin": 51.4,
+          "votesRep": 3523,
+          "votesDem": 1131,
+          "votesTotal": 4743
+        },
+        "Macon29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +56.8",
+          "margin": 56.82,
+          "votesRep": 4264,
+          "votesDem": 1174,
+          "votesTotal": 5588
+        },
+        "Madison29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +60.3",
+          "margin": 60.25,
+          "votesRep": 2907,
+          "votesDem": 721,
+          "votesTotal": 3720
+        },
+        "Maries29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +61.5",
+          "margin": 61.52,
+          "votesRep": 2737,
+          "votesDem": 652,
+          "votesTotal": 3454
+        },
+        "Marion29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +48.0",
+          "margin": 48.01,
+          "votesRep": 6254,
+          "votesDem": 2197,
+          "votesTotal": 8693
+        },
+        "McDonald29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +69.9",
+          "margin": 69.87,
+          "votesRep": 5001,
+          "votesDem": 887,
+          "votesTotal": 6091
+        },
+        "Mercer29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +65.7",
+          "margin": 65.67,
+          "votesRep": 1028,
+          "votesDem": 213,
+          "votesTotal": 1264
+        },
+        "Miller29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +62.8",
+          "margin": 62.8,
+          "votesRep": 6889,
+          "votesDem": 1574,
+          "votesTotal": 8739
+        },
+        "Mississippi29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +58.1",
+          "margin": 58.15,
+          "votesRep": 2237,
+          "votesDem": 592,
+          "votesTotal": 2896
+        },
+        "Moniteau29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +56.4",
+          "margin": 56.44,
+          "votesRep": 3915,
+          "votesDem": 1090,
+          "votesTotal": 5143
+        },
+        "Monroe29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +52.1",
+          "margin": 52.06,
+          "votesRep": 2344,
+          "votesDem": 739,
+          "votesTotal": 3158
+        },
+        "Montgomery29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +49.3",
+          "margin": 49.31,
+          "votesRep": 2990,
+          "votesDem": 1015,
+          "votesTotal": 4085
+        },
+        "Morgan29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +53.0",
+          "margin": 52.96,
+          "votesRep": 5150,
+          "votesDem": 1584,
+          "votesTotal": 6951
+        },
+        "New Madrid29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +55.3",
+          "margin": 55.28,
+          "votesRep": 3347,
+          "votesDem": 964,
+          "votesTotal": 4412
+        },
+        "Newton29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +60.1",
+          "margin": 60.11,
+          "votesRep": 15565,
+          "votesDem": 3878,
+          "votesTotal": 19937
+        },
+        "Nodaway29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +37.6",
+          "margin": 37.62,
+          "votesRep": 4757,
+          "votesDem": 2156,
+          "votesTotal": 7061
+        },
+        "Oregon29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +61.4",
+          "margin": 61.44,
+          "votesRep": 2391,
+          "votesDem": 571,
+          "votesTotal": 3071
+        },
+        "Osage29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +68.5",
+          "margin": 68.55,
+          "votesRep": 4587,
+          "votesDem": 856,
+          "votesTotal": 5533
+        },
+        "Ozark29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +65.8",
+          "margin": 65.83,
+          "votesRep": 2960,
+          "votesDem": 610,
+          "votesTotal": 3699
+        },
+        "Pemiscot29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +55.3",
+          "margin": 55.31,
+          "votesRep": 2457,
+          "votesDem": 707,
+          "votesTotal": 3217
+        },
+        "Perry29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +64.6",
+          "margin": 64.56,
+          "votesRep": 5113,
+          "votesDem": 1101,
+          "votesTotal": 6340
+        },
+        "Pettis29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +42.1",
+          "margin": 42.14,
+          "votesRep": 9032,
+          "votesDem": 3677,
+          "votesTotal": 13152
+        },
+        "Phelps29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +39.7",
+          "margin": 39.69,
+          "votesRep": 9268,
+          "votesDem": 4001,
+          "votesTotal": 13618
+        },
+        "Pike29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +48.4",
+          "margin": 48.42,
+          "votesRep": 3738,
+          "votesDem": 1299,
+          "votesTotal": 5167
+        },
+        "Platte29": {
+          "color": "#CF8980",
+          "label": "Schmitt +1.0",
+          "margin": 0.96,
+          "votesRep": 20304,
+          "votesDem": 19918,
+          "votesTotal": 41120
+        },
+        "Polk29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +56.9",
+          "margin": 56.89,
+          "votesRep": 7948,
+          "votesDem": 2184,
+          "votesTotal": 10563
+        },
+        "Pulaski29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +50.2",
+          "margin": 50.17,
+          "votesRep": 6703,
+          "votesDem": 2224,
+          "votesTotal": 9313
+        },
+        "Putnam29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +65.5",
+          "margin": 65.55,
+          "votesRep": 1379,
+          "votesDem": 287,
+          "votesTotal": 1714
+        },
+        "Ralls29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +51.5",
+          "margin": 51.45,
+          "votesRep": 2917,
+          "votesDem": 935,
+          "votesTotal": 3982
+        },
+        "Randolph29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +45.7",
+          "margin": 45.69,
+          "votesRep": 5242,
+          "votesDem": 1954,
+          "votesTotal": 7424
+        },
+        "Ray29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +37.5",
+          "margin": 37.5,
+          "votesRep": 5286,
+          "votesDem": 2403,
+          "votesTotal": 7939
+        },
+        "Reynolds29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +56.0",
+          "margin": 56.03,
+          "votesRep": 1817,
+          "votesDem": 512,
+          "votesTotal": 2396
+        },
+        "Ripley29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +66.3",
+          "margin": 66.3,
+          "votesRep": 3005,
+          "votesDem": 609,
+          "votesTotal": 3735
+        },
+        "Saline29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +31.9",
+          "margin": 31.94,
+          "votesRep": 4030,
+          "votesDem": 2079,
+          "votesTotal": 6278
+        },
+        "Schuyler29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +59.1",
+          "margin": 59.08,
+          "votesRep": 1182,
+          "votesDem": 304,
+          "votesTotal": 1530
+        },
+        "Scotland29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +53.6",
+          "margin": 53.61,
+          "votesRep": 1010,
+          "votesDem": 305,
+          "votesTotal": 1360
+        },
+        "Scott29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +62.0",
+          "margin": 61.99,
+          "votesRep": 9210,
+          "votesDem": 2161,
+          "votesTotal": 11625
+        },
+        "Shannon29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +58.6",
+          "margin": 58.57,
+          "votesRep": 2243,
+          "votesDem": 586,
+          "votesTotal": 2910
+        },
+        "Shelby29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +57.1",
+          "margin": 57.08,
+          "votesRep": 1753,
+          "votesDem": 479,
+          "votesTotal": 2298
+        },
+        "St. Charles29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +12.8",
+          "margin": 12.83,
+          "votesRep": 83559,
+          "votesDem": 64552,
+          "votesTotal": 150979
+        },
+        "St. Clair29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +52.9",
+          "margin": 52.9,
+          "votesRep": 2711,
+          "votesDem": 835,
+          "votesTotal": 3692
+        },
+        "St. Francois29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +41.4",
+          "margin": 41.44,
+          "votesRep": 12552,
+          "votesDem": 5197,
+          "votesTotal": 18238
+        },
+        "St. Louis County29": {
+          "color": "#1C408C",
+          "label": "Valentine +24.6",
+          "margin": -24.61,
+          "votesRep": 137197,
+          "votesDem": 226772,
+          "votesTotal": 369628
+        },
+        "Ste. Genevieve29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +33.0",
+          "margin": 33,
+          "votesRep": 4329,
+          "votesDem": 2181,
+          "votesTotal": 6640
+        },
+        "Stoddard29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +72.9",
+          "margin": 72.95,
+          "votesRep": 7320,
+          "votesDem": 1145,
+          "votesTotal": 8637
+        },
+        "Stone29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +60.4",
+          "margin": 60.4,
+          "votesRep": 10784,
+          "votesDem": 2662,
+          "votesTotal": 13809
+        },
+        "Sullivan29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +59.6",
+          "margin": 59.62,
+          "votesRep": 1360,
+          "votesDem": 344,
+          "votesTotal": 1744
+        },
+        "Taney29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +59.0",
+          "margin": 59,
+          "votesRep": 13734,
+          "votesDem": 3542,
+          "votesTotal": 17795
+        },
+        "Texas29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +66.4",
+          "margin": 66.4,
+          "votesRep": 6621,
+          "votesDem": 1337,
+          "votesTotal": 8257
+        },
+        "Vernon29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +55.4",
+          "margin": 55.42,
+          "votesRep": 4620,
+          "votesDem": 1325,
+          "votesTotal": 6156
+        },
+        "Warren29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +41.4",
+          "margin": 41.45,
+          "votesRep": 9103,
+          "votesDem": 3768,
+          "votesTotal": 13172
+        },
+        "Washington29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +55.7",
+          "margin": 55.71,
+          "votesRep": 5267,
+          "votesDem": 1498,
+          "votesTotal": 6934
+        },
+        "Wayne29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +69.6",
+          "margin": 69.59,
+          "votesRep": 3374,
+          "votesDem": 605,
+          "votesTotal": 4064
+        },
+        "Webster29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +57.7",
+          "margin": 57.71,
+          "votesRep": 9913,
+          "votesDem": 2658,
+          "votesTotal": 13069
+        },
+        "Worth29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +55.9",
+          "margin": 55.93,
+          "votesRep": 651,
+          "votesDem": 184,
+          "votesTotal": 863
+        },
+        "Wright29": {
+          "color": "#BF1D29",
+          "label": "Schmitt +72.8",
+          "margin": 72.83,
+          "votesRep": 5210,
+          "votesDem": 819,
+          "votesTotal": 6244
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Josh Hawley",
+      "candDem": "Claire McCaskill",
+      "shortRep": "Hawley",
+      "shortDem": "McCaskill",
+      "partisan": true,
+      "margin": 6,
+      "votesRep": 1254942,
+      "votesDem": 1112944,
+      "votesTotal": 2442315,
+      "regions": {
+        "Adair29": {
+          "color": "#BF1D29",
+          "label": "Hawley +17.1",
+          "margin": 17.14,
+          "votesRep": 4939,
+          "votesDem": 3494,
+          "votesTotal": 8695
+        },
+        "Andrew29": {
+          "color": "#BF1D29",
+          "label": "Hawley +34.9",
+          "margin": 34.93,
+          "votesRep": 4919,
+          "votesDem": 2372,
+          "votesTotal": 7590
+        },
+        "Atchison29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.8",
+          "margin": 49.84,
+          "votesRep": 1619,
+          "votesDem": 542,
+          "votesTotal": 2227
+        },
+        "Audrain29": {
+          "color": "#BF1D29",
+          "label": "Hawley +34.9",
+          "margin": 34.9,
+          "votesRep": 5651,
+          "votesDem": 2727,
+          "votesTotal": 8731
+        },
+        "Barry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.3",
+          "margin": 52.34,
+          "votesRep": 9019,
+          "votesDem": 2822,
+          "votesTotal": 12295
+        },
+        "Barton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +67.7",
+          "margin": 67.69,
+          "votesRep": 4064,
+          "votesDem": 783,
+          "votesTotal": 5021
+        },
+        "Bates29": {
+          "color": "#BF1D29",
+          "label": "Hawley +40.2",
+          "margin": 40.19,
+          "votesRep": 4467,
+          "votesDem": 1906,
+          "votesTotal": 6685
+        },
+        "Benton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +42.1",
+          "margin": 42.07,
+          "votesRep": 5685,
+          "votesDem": 2318,
+          "votesTotal": 8354
+        },
+        "Bollinger29": {
+          "color": "#BF1D29",
+          "label": "Hawley +62.6",
+          "margin": 62.55,
+          "votesRep": 3846,
+          "votesDem": 886,
+          "votesTotal": 4822
+        },
+        "Boone29": {
+          "color": "#1C408C",
+          "label": "McCaskill +15.9",
+          "margin": -15.89,
+          "votesRep": 30710,
+          "votesDem": 42315,
+          "votesTotal": 75192
+        },
+        "Buchanan29": {
+          "color": "#BF1D29",
+          "label": "Hawley +10.5",
+          "margin": 10.5,
+          "votesRep": 15912,
+          "votesDem": 12889,
+          "votesTotal": 30117
+        },
+        "Butler29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.7",
+          "margin": 56.74,
+          "votesRep": 10727,
+          "votesDem": 2961,
+          "votesTotal": 14028
+        },
+        "Caldwell29": {
+          "color": "#BF1D29",
+          "label": "Hawley +42.9",
+          "margin": 42.91,
+          "votesRep": 2558,
+          "votesDem": 1022,
+          "votesTotal": 3778
+        },
+        "Callaway29": {
+          "color": "#BF1D29",
+          "label": "Hawley +30.3",
+          "margin": 30.28,
+          "votesRep": 10661,
+          "votesDem": 5705,
+          "votesTotal": 17075
+        },
+        "Camden29": {
+          "color": "#BF1D29",
+          "label": "Hawley +44.1",
+          "margin": 44.13,
+          "votesRep": 13995,
+          "votesDem": 5425,
+          "votesTotal": 20010
+        },
+        "Cape Girardeau29": {
+          "color": "#BF1D29",
+          "label": "Hawley +44.2",
+          "margin": 44.2,
+          "votesRep": 22964,
+          "votesDem": 8886,
+          "votesTotal": 32503
+        },
+        "Carroll29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.1",
+          "margin": 52.08,
+          "votesRep": 2761,
+          "votesDem": 870,
+          "votesTotal": 3744
+        },
+        "Carter29": {
+          "color": "#BF1D29",
+          "label": "Hawley +57.2",
+          "margin": 57.19,
+          "votesRep": 1799,
+          "votesDem": 490,
+          "votesTotal": 2353
+        },
+        "Cass29": {
+          "color": "#BF1D29",
+          "label": "Hawley +22.6",
+          "margin": 22.56,
+          "votesRep": 25861,
+          "votesDem": 16340,
+          "votesTotal": 43816
+        },
+        "Cedar29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.2",
+          "margin": 55.21,
+          "votesRep": 4092,
+          "votesDem": 1181,
+          "votesTotal": 5467
+        },
+        "Chariton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +35.6",
+          "margin": 35.58,
+          "votesRep": 2195,
+          "votesDem": 1043,
+          "votesTotal": 3362
+        },
+        "Christian29": {
+          "color": "#BF1D29",
+          "label": "Hawley +44.0",
+          "margin": 43.96,
+          "votesRep": 25384,
+          "votesDem": 9882,
+          "votesTotal": 36384
+        },
+        "Clark29": {
+          "color": "#BF1D29",
+          "label": "Hawley +46.7",
+          "margin": 46.67,
+          "votesRep": 1903,
+          "votesDem": 692,
+          "votesTotal": 2691
+        },
+        "Clay29": {
+          "color": "#8AAFFF",
+          "label": "McCaskill +2.3",
+          "margin": -2.29,
+          "votesRep": 45947,
+          "votesDem": 48096,
+          "votesTotal": 97196
+        },
+        "Clinton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +28.6",
+          "margin": 28.56,
+          "votesRep": 5320,
+          "votesDem": 2956,
+          "votesTotal": 8641
+        },
+        "Cole29": {
+          "color": "#BF1D29",
+          "label": "Hawley +27.8",
+          "margin": 27.79,
+          "votesRep": 20738,
+          "votesDem": 11718,
+          "votesTotal": 33442
+        },
+        "Cooper29": {
+          "color": "#BF1D29",
+          "label": "Hawley +35.6",
+          "margin": 35.56,
+          "votesRep": 4618,
+          "votesDem": 2195,
+          "votesTotal": 7042
+        },
+        "Crawford29": {
+          "color": "#BF1D29",
+          "label": "Hawley +42.6",
+          "margin": 42.59,
+          "votesRep": 5867,
+          "votesDem": 2362,
+          "votesTotal": 8547
+        },
+        "Dade29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.8",
+          "margin": 55.83,
+          "votesRep": 2533,
+          "votesDem": 718,
+          "votesTotal": 3371
+        },
+        "Dallas29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.2",
+          "margin": 49.2,
+          "votesRep": 4682,
+          "votesDem": 1594,
+          "votesTotal": 6493
+        },
+        "Daviess29": {
+          "color": "#BF1D29",
+          "label": "Hawley +43.3",
+          "margin": 43.33,
+          "votesRep": 2074,
+          "votesDem": 820,
+          "votesTotal": 3018
+        },
+        "DeKalb29": {
+          "color": "#BF1D29",
+          "label": "Hawley +43.8",
+          "margin": 43.76,
+          "votesRep": 2584,
+          "votesDem": 1011,
+          "votesTotal": 3771
+        },
+        "Dent29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.8",
+          "margin": 56.83,
+          "votesRep": 4541,
+          "votesDem": 1250,
+          "votesTotal": 6020
+        },
+        "Douglas29": {
+          "color": "#BF1D29",
+          "label": "Hawley +59.5",
+          "margin": 59.54,
+          "votesRep": 4334,
+          "votesDem": 1099,
+          "votesTotal": 5588
+        },
+        "Dunklin29": {
+          "color": "#BF1D29",
+          "label": "Hawley +48.9",
+          "margin": 48.91,
+          "votesRep": 5814,
+          "votesDem": 1995,
+          "votesTotal": 7996
+        },
+        "Franklin29": {
+          "color": "#BF1D29",
+          "label": "Hawley +24.2",
+          "margin": 24.24,
+          "votesRep": 25651,
+          "votesDem": 15642,
+          "votesTotal": 42931
+        },
+        "Gasconade29": {
+          "color": "#BF1D29",
+          "label": "Hawley +41.5",
+          "margin": 41.5,
+          "votesRep": 4351,
+          "votesDem": 1799,
+          "votesTotal": 6371
+        },
+        "Gentry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +39.4",
+          "margin": 39.41,
+          "votesRep": 1689,
+          "votesDem": 734,
+          "votesTotal": 2547
+        },
+        "Greene29": {
+          "color": "#BF1D29",
+          "label": "Hawley +14.3",
+          "margin": 14.28,
+          "votesRep": 63977,
+          "votesDem": 47992,
+          "votesTotal": 116145
+        },
+        "Grundy29": {
+          "color": "#BF1D29",
+          "label": "Hawley +50.4",
+          "margin": 50.4,
+          "votesRep": 2641,
+          "votesDem": 871,
+          "votesTotal": 3634
+        },
+        "Harrison29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.8",
+          "margin": 55.82,
+          "votesRep": 2155,
+          "votesDem": 611,
+          "votesTotal": 2876
+        },
+        "Henry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +33.2",
+          "margin": 33.16,
+          "votesRep": 5517,
+          "votesDem": 2769,
+          "votesTotal": 8624
+        },
+        "Hickory29": {
+          "color": "#BF1D29",
+          "label": "Hawley +38.3",
+          "margin": 38.34,
+          "votesRep": 2753,
+          "votesDem": 1227,
+          "votesTotal": 4131
+        },
+        "Holt29": {
+          "color": "#BF1D29",
+          "label": "Hawley +57.1",
+          "margin": 57.09,
+          "votesRep": 1457,
+          "votesDem": 398,
+          "votesTotal": 1913
+        },
+        "Howard29": {
+          "color": "#BF1D29",
+          "label": "Hawley +30.4",
+          "margin": 30.41,
+          "votesRep": 2629,
+          "votesDem": 1403,
+          "votesTotal": 4193
+        },
+        "Howell29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.9",
+          "margin": 54.88,
+          "votesRep": 10966,
+          "votesDem": 3195,
+          "votesTotal": 14582
+        },
+        "Iron29": {
+          "color": "#BF1D29",
+          "label": "Hawley +29.0",
+          "margin": 28.99,
+          "votesRep": 2236,
+          "votesDem": 1231,
+          "votesTotal": 3574
+        },
+        "Jackson29": {
+          "color": "#8AAFFF",
+          "label": "McCaskill +1.4",
+          "margin": -1.42,
+          "votesRep": 72004,
+          "votesDem": 74073,
+          "votesTotal": 151029
+        },
+        "Jasper29": {
+          "color": "#BF1D29",
+          "label": "Hawley +44.2",
+          "margin": 44.16,
+          "votesRep": 27743,
+          "votesDem": 10745,
+          "votesTotal": 40388
+        },
+        "Jefferson29": {
+          "color": "#BF1D29",
+          "label": "Hawley +12.9",
+          "margin": 12.9,
+          "votesRep": 49142,
+          "votesDem": 37915,
+          "votesTotal": 90447
+        },
+        "Johnson29": {
+          "color": "#BF1D29",
+          "label": "Hawley +23.5",
+          "margin": 23.55,
+          "votesRep": 10465,
+          "votesDem": 6476,
+          "votesTotal": 17724
+        },
+        "Knox29": {
+          "color": "#BF1D29",
+          "label": "Hawley +45.7",
+          "margin": 45.68,
+          "votesRep": 1097,
+          "votesDem": 409,
+          "votesTotal": 1578
+        },
+        "Laclede29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.6",
+          "margin": 54.63,
+          "votesRep": 10125,
+          "votesDem": 2971,
+          "votesTotal": 13515
+        },
+        "Lafayette29": {
+          "color": "#BF1D29",
+          "label": "Hawley +30.3",
+          "margin": 30.33,
+          "votesRep": 8429,
+          "votesDem": 4506,
+          "votesTotal": 13421
+        },
+        "Lawrence29": {
+          "color": "#BF1D29",
+          "label": "Hawley +52.8",
+          "margin": 52.77,
+          "votesRep": 10311,
+          "votesDem": 3188,
+          "votesTotal": 14034
+        },
+        "Lewis29": {
+          "color": "#BF1D29",
+          "label": "Hawley +45.1",
+          "margin": 45.14,
+          "votesRep": 2307,
+          "votesDem": 872,
+          "votesTotal": 3551
+        },
+        "Lincoln29": {
+          "color": "#BF1D29",
+          "label": "Hawley +28.0",
+          "margin": 28,
+          "votesRep": 13140,
+          "votesDem": 7391,
+          "votesTotal": 21502
+        },
+        "Linn29": {
+          "color": "#BF1D29",
+          "label": "Hawley +36.9",
+          "margin": 36.94,
+          "votesRep": 3066,
+          "votesDem": 1412,
+          "votesTotal": 4660
+        },
+        "Livingston29": {
+          "color": "#BF1D29",
+          "label": "Hawley +42.3",
+          "margin": 42.32,
+          "votesRep": 3565,
+          "votesDem": 1445,
+          "votesTotal": 5188
+        },
+        "Macon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +44.3",
+          "margin": 44.34,
+          "votesRep": 4618,
+          "votesDem": 1781,
+          "votesTotal": 6591
+        },
+        "Madison29": {
+          "color": "#BF1D29",
+          "label": "Hawley +45.6",
+          "margin": 45.62,
+          "votesRep": 3122,
+          "votesDem": 1166,
+          "votesTotal": 4445
+        },
+        "Maries29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.3",
+          "margin": 49.34,
+          "votesRep": 2848,
+          "votesDem": 966,
+          "votesTotal": 3937
+        },
+        "Marion29": {
+          "color": "#BF1D29",
+          "label": "Hawley +41.5",
+          "margin": 41.49,
+          "votesRep": 7325,
+          "votesDem": 3029,
+          "votesTotal": 10737
+        },
+        "McDonald29": {
+          "color": "#BF1D29",
+          "label": "Hawley +61.2",
+          "margin": 61.24,
+          "votesRep": 5062,
+          "votesDem": 1217,
+          "votesTotal": 6572
+        },
+        "Mercer29": {
+          "color": "#BF1D29",
+          "label": "Hawley +66.3",
+          "margin": 66.34,
+          "votesRep": 1102,
+          "votesDem": 223,
+          "votesTotal": 1368
+        },
+        "Miller29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.4",
+          "margin": 56.36,
+          "votesRep": 7513,
+          "votesDem": 2097,
+          "votesTotal": 9898
+        },
+        "Mississippi29": {
+          "color": "#BF1D29",
+          "label": "Hawley +35.7",
+          "margin": 35.67,
+          "votesRep": 2516,
+          "votesDem": 1193,
+          "votesTotal": 3820
+        },
+        "Moniteau29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.2",
+          "margin": 49.23,
+          "votesRep": 4297,
+          "votesDem": 1462,
+          "votesTotal": 5957
+        },
+        "Monroe29": {
+          "color": "#BF1D29",
+          "label": "Hawley +43.1",
+          "margin": 43.12,
+          "votesRep": 2559,
+          "votesDem": 1017,
+          "votesTotal": 3714
+        },
+        "Montgomery29": {
+          "color": "#BF1D29",
+          "label": "Hawley +40.1",
+          "margin": 40.1,
+          "votesRep": 3188,
+          "votesDem": 1363,
+          "votesTotal": 4720
+        },
+        "Morgan29": {
+          "color": "#BF1D29",
+          "label": "Hawley +46.8",
+          "margin": 46.79,
+          "votesRep": 5553,
+          "votesDem": 2013,
+          "votesTotal": 7866
+        },
+        "New Madrid29": {
+          "color": "#BF1D29",
+          "label": "Hawley +40.9",
+          "margin": 40.92,
+          "votesRep": 3967,
+          "votesDem": 1663,
+          "votesTotal": 5742
+        },
+        "Newton29": {
+          "color": "#BF1D29",
+          "label": "Hawley +53.7",
+          "margin": 53.7,
+          "votesRep": 16550,
+          "votesDem": 4985,
+          "votesTotal": 22571
+        },
+        "Nodaway29": {
+          "color": "#BF1D29",
+          "label": "Hawley +26.4",
+          "margin": 26.43,
+          "votesRep": 4661,
+          "votesDem": 2712,
+          "votesTotal": 7697
+        },
+        "Oregon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +47.9",
+          "margin": 47.92,
+          "votesRep": 2738,
+          "votesDem": 964,
+          "votesTotal": 3822
+        },
+        "Osage29": {
+          "color": "#BF1D29",
+          "label": "Hawley +57.3",
+          "margin": 57.32,
+          "votesRep": 4626,
+          "votesDem": 1255,
+          "votesTotal": 6033
+        },
+        "Ozark29": {
+          "color": "#BF1D29",
+          "label": "Hawley +53.3",
+          "margin": 53.26,
+          "votesRep": 3000,
+          "votesDem": 915,
+          "votesTotal": 4039
+        },
+        "Pemiscot29": {
+          "color": "#BF1D29",
+          "label": "Hawley +34.1",
+          "margin": 34.12,
+          "votesRep": 2968,
+          "votesDem": 1458,
+          "votesTotal": 4532
+        },
+        "Perry29": {
+          "color": "#BF1D29",
+          "label": "Hawley +47.8",
+          "margin": 47.77,
+          "votesRep": 5245,
+          "votesDem": 1854,
+          "votesTotal": 7283
+        },
+        "Pettis29": {
+          "color": "#BF1D29",
+          "label": "Hawley +38.7",
+          "margin": 38.66,
+          "votesRep": 10063,
+          "votesDem": 4452,
+          "votesTotal": 15102
+        },
+        "Phelps29": {
+          "color": "#BF1D29",
+          "label": "Hawley +30.7",
+          "margin": 30.74,
+          "votesRep": 10124,
+          "votesDem": 5363,
+          "votesTotal": 16072
+        },
+        "Pike29": {
+          "color": "#BF1D29",
+          "label": "Hawley +29.5",
+          "margin": 29.52,
+          "votesRep": 3909,
+          "votesDem": 2127,
+          "votesTotal": 6299
+        },
+        "Platte29": {
+          "color": "#6b7280",
+          "label": "Hawley +0.3",
+          "margin": 0.33,
+          "votesRep": 21618,
+          "votesDem": 21477,
+          "votesTotal": 44464
+        },
+        "Polk29": {
+          "color": "#BF1D29",
+          "label": "Hawley +46.4",
+          "margin": 46.39,
+          "votesRep": 8268,
+          "votesDem": 3028,
+          "votesTotal": 11725
+        },
+        "Pulaski29": {
+          "color": "#BF1D29",
+          "label": "Hawley +41.0",
+          "margin": 41,
+          "votesRep": 7324,
+          "votesDem": 3065,
+          "votesTotal": 10813
+        },
+        "Putnam29": {
+          "color": "#BF1D29",
+          "label": "Hawley +61.7",
+          "margin": 61.72,
+          "votesRep": 1508,
+          "votesDem": 357,
+          "votesTotal": 1910
+        },
+        "Ralls29": {
+          "color": "#BF1D29",
+          "label": "Hawley +44.4",
+          "margin": 44.39,
+          "votesRep": 3095,
+          "votesDem": 1192,
+          "votesTotal": 4406
+        },
+        "Randolph29": {
+          "color": "#BF1D29",
+          "label": "Hawley +40.2",
+          "margin": 40.17,
+          "votesRep": 5986,
+          "votesDem": 2555,
+          "votesTotal": 8903
+        },
+        "Ray29": {
+          "color": "#BF1D29",
+          "label": "Hawley +21.7",
+          "margin": 21.74,
+          "votesRep": 5479,
+          "votesDem": 3522,
+          "votesTotal": 9466
+        },
+        "Reynolds29": {
+          "color": "#BF1D29",
+          "label": "Hawley +45.5",
+          "margin": 45.46,
+          "votesRep": 1795,
+          "votesDem": 673,
+          "votesTotal": 2535
+        },
+        "Ripley29": {
+          "color": "#BF1D29",
+          "label": "Hawley +56.5",
+          "margin": 56.49,
+          "votesRep": 3384,
+          "votesDem": 941,
+          "votesTotal": 4467
+        },
+        "Saline29": {
+          "color": "#BF1D29",
+          "label": "Hawley +22.4",
+          "margin": 22.41,
+          "votesRep": 4570,
+          "votesDem": 2897,
+          "votesTotal": 7842
+        },
+        "Schuyler29": {
+          "color": "#BF1D29",
+          "label": "Hawley +48.5",
+          "margin": 48.55,
+          "votesRep": 1149,
+          "votesDem": 398,
+          "votesTotal": 1615
+        },
+        "Scotland29": {
+          "color": "#BF1D29",
+          "label": "Hawley +48.9",
+          "margin": 48.91,
+          "votesRep": 1163,
+          "votesDem": 399,
+          "votesTotal": 1616
+        },
+        "Scott29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.6",
+          "margin": 49.61,
+          "votesRep": 10594,
+          "votesDem": 3568,
+          "votesTotal": 14412
+        },
+        "Shannon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +43.1",
+          "margin": 43.11,
+          "votesRep": 2254,
+          "votesDem": 896,
+          "votesTotal": 3233
+        },
+        "Shelby29": {
+          "color": "#BF1D29",
+          "label": "Hawley +46.4",
+          "margin": 46.37,
+          "votesRep": 1935,
+          "votesDem": 709,
+          "votesTotal": 2736
+        },
+        "St. Charles29": {
+          "color": "#FF5865",
+          "label": "Hawley +8.9",
+          "margin": 8.88,
+          "votesRep": 93172,
+          "votesDem": 77973,
+          "votesTotal": 176105
+        },
+        "St. Clair29": {
+          "color": "#BF1D29",
+          "label": "Hawley +41.4",
+          "margin": 41.39,
+          "votesRep": 2772,
+          "votesDem": 1149,
+          "votesTotal": 4108
+        },
+        "St. Francois29": {
+          "color": "#BF1D29",
+          "label": "Hawley +25.6",
+          "margin": 25.58,
+          "votesRep": 13111,
+          "votesDem": 7770,
+          "votesTotal": 21827
+        },
+        "St. Louis County29": {
+          "color": "#1C408C",
+          "label": "McCaskill +26.8",
+          "margin": -26.8,
+          "votesRep": 163972,
+          "votesDem": 284015,
+          "votesTotal": 457609
+        },
+        "Ste. Genevieve29": {
+          "color": "#FF5865",
+          "label": "Hawley +7.7",
+          "margin": 7.65,
+          "votesRep": 3903,
+          "votesDem": 3348,
+          "votesTotal": 7518
+        },
+        "Stoddard29": {
+          "color": "#BF1D29",
+          "label": "Hawley +63.0",
+          "margin": 63.02,
+          "votesRep": 8683,
+          "votesDem": 1970,
+          "votesTotal": 10874
+        },
+        "Stone29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.1",
+          "margin": 54.11,
+          "votesRep": 11128,
+          "votesDem": 3314,
+          "votesTotal": 14808
+        },
+        "Sullivan29": {
+          "color": "#BF1D29",
+          "label": "Hawley +49.8",
+          "margin": 49.82,
+          "votesRep": 1439,
+          "votesDem": 482,
+          "votesTotal": 1974
+        },
+        "Taney29": {
+          "color": "#BF1D29",
+          "label": "Hawley +51.0",
+          "margin": 51.03,
+          "votesRep": 15137,
+          "votesDem": 4908,
+          "votesTotal": 20632
+        },
+        "Texas29": {
+          "color": "#BF1D29",
+          "label": "Hawley +54.4",
+          "margin": 54.44,
+          "votesRep": 6989,
+          "votesDem": 2062,
+          "votesTotal": 9323
+        },
+        "Vernon29": {
+          "color": "#BF1D29",
+          "label": "Hawley +48.1",
+          "margin": 48.08,
+          "votesRep": 5083,
+          "votesDem": 1782,
+          "votesTotal": 7190
+        },
+        "Warren29": {
+          "color": "#BF1D29",
+          "label": "Hawley +26.5",
+          "margin": 26.54,
+          "votesRep": 8519,
+          "votesDem": 4945,
+          "votesTotal": 14011
+        },
+        "Washington29": {
+          "color": "#BF1D29",
+          "label": "Hawley +31.3",
+          "margin": 31.28,
+          "votesRep": 4646,
+          "votesDem": 2432,
+          "votesTotal": 7341
+        },
+        "Wayne29": {
+          "color": "#BF1D29",
+          "label": "Hawley +55.0",
+          "margin": 54.99,
+          "votesRep": 3567,
+          "votesDem": 1036,
+          "votesTotal": 4737
+        },
+        "Webster29": {
+          "color": "#BF1D29",
+          "label": "Hawley +46.4",
+          "margin": 46.42,
+          "votesRep": 10338,
+          "votesDem": 3783,
+          "votesTotal": 14572
+        },
+        "Worth29": {
+          "color": "#BF1D29",
+          "label": "Hawley +47.0",
+          "margin": 46.99,
+          "votesRep": 660,
+          "votesDem": 238,
+          "votesTotal": 923
+        },
+        "Wright29": {
+          "color": "#BF1D29",
+          "label": "Hawley +58.7",
+          "margin": 58.68,
+          "votesRep": 5272,
+          "votesDem": 1373,
+          "votesTotal": 6849
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Roy Blunt",
+      "candDem": "Jason Kander",
+      "shortRep": "Blunt",
+      "shortDem": "Kander",
+      "partisan": true,
+      "margin": 6.04,
+      "votesRep": 1354410,
+      "votesDem": 1200098,
+      "votesTotal": 2673937,
+      "regions": {
+        "Adair29": {
+          "color": "#BF1D29",
+          "label": "Blunt +14.3",
+          "margin": 14.34,
+          "votesRep": 5603,
+          "votesDem": 4198,
+          "votesTotal": 10201
+        },
+        "Andrew29": {
+          "color": "#BF1D29",
+          "label": "Blunt +28.5",
+          "margin": 28.49,
+          "votesRep": 5610,
+          "votesDem": 3122,
+          "votesTotal": 9102
+        },
+        "Atchison29": {
+          "color": "#BF1D29",
+          "label": "Blunt +45.1",
+          "margin": 45.11,
+          "votesRep": 1861,
+          "votesDem": 704,
+          "votesTotal": 2675
+        },
+        "Audrain29": {
+          "color": "#BF1D29",
+          "label": "Blunt +21.8",
+          "margin": 21.75,
+          "votesRep": 5726,
+          "votesDem": 3680,
+          "votesTotal": 10000
+        },
+        "Barry29": {
+          "color": "#BF1D29",
+          "label": "Blunt +44.5",
+          "margin": 44.49,
+          "votesRep": 10059,
+          "votesDem": 3864,
+          "votesTotal": 14645
+        },
+        "Barton29": {
+          "color": "#BF1D29",
+          "label": "Blunt +56.9",
+          "margin": 56.88,
+          "votesRep": 4479,
+          "votesDem": 1231,
+          "votesTotal": 5911
+        },
+        "Bates29": {
+          "color": "#BF1D29",
+          "label": "Blunt +23.5",
+          "margin": 23.53,
+          "votesRep": 4630,
+          "votesDem": 2866,
+          "votesTotal": 7975
+        },
+        "Benton29": {
+          "color": "#BF1D29",
+          "label": "Blunt +31.1",
+          "margin": 31.09,
+          "votesRep": 5891,
+          "votesDem": 3097,
+          "votesTotal": 9522
+        },
+        "Bollinger29": {
+          "color": "#BF1D29",
+          "label": "Blunt +48.9",
+          "margin": 48.88,
+          "votesRep": 4016,
+          "votesDem": 1379,
+          "votesTotal": 5608
+        },
+        "Boone29": {
+          "color": "#1C408C",
+          "label": "Kander +13.8",
+          "margin": -13.79,
+          "votesRep": 34171,
+          "votesDem": 45100,
+          "votesTotal": 83071
+        },
+        "Buchanan29": {
+          "color": "#FF8B98",
+          "label": "Blunt +4.6",
+          "margin": 4.61,
+          "votesRep": 17658,
+          "votesDem": 16103,
+          "votesTotal": 35602
+        },
+        "Butler29": {
+          "color": "#BF1D29",
+          "label": "Blunt +44.3",
+          "margin": 44.28,
+          "votesRep": 11764,
+          "votesDem": 4543,
+          "votesTotal": 16995
+        },
+        "Caldwell29": {
+          "color": "#BF1D29",
+          "label": "Blunt +24.7",
+          "margin": 24.71,
+          "votesRep": 2513,
+          "votesDem": 1517,
+          "votesTotal": 4314
+        },
+        "Callaway29": {
+          "color": "#BF1D29",
+          "label": "Blunt +21.6",
+          "margin": 21.58,
+          "votesRep": 10983,
+          "votesDem": 7084,
+          "votesTotal": 19187
+        },
+        "Camden29": {
+          "color": "#BF1D29",
+          "label": "Blunt +34.7",
+          "margin": 34.71,
+          "votesRep": 14434,
+          "votesDem": 6995,
+          "votesTotal": 22427
+        },
+        "Cape Girardeau29": {
+          "color": "#BF1D29",
+          "label": "Blunt +36.6",
+          "margin": 36.6,
+          "votesRep": 24173,
+          "votesDem": 11219,
+          "votesTotal": 36815
+        },
+        "Carroll29": {
+          "color": "#BF1D29",
+          "label": "Blunt +38.1",
+          "margin": 38.06,
+          "votesRep": 2875,
+          "votesDem": 1290,
+          "votesTotal": 4343
+        },
+        "Carter29": {
+          "color": "#BF1D29",
+          "label": "Blunt +44.0",
+          "margin": 44,
+          "votesRep": 1908,
+          "votesDem": 742,
+          "votesTotal": 2785
+        },
+        "Cass29": {
+          "color": "#BF1D29",
+          "label": "Blunt +14.3",
+          "margin": 14.34,
+          "votesRep": 27532,
+          "votesDem": 20628,
+          "votesTotal": 50874
+        },
+        "Cedar29": {
+          "color": "#BF1D29",
+          "label": "Blunt +48.5",
+          "margin": 48.51,
+          "votesRep": 4445,
+          "votesDem": 1541,
+          "votesTotal": 6295
+        },
+        "Chariton29": {
+          "color": "#BF1D29",
+          "label": "Blunt +22.6",
+          "margin": 22.63,
+          "votesRep": 2322,
+          "votesDem": 1465,
+          "votesTotal": 3960
+        },
+        "Christian29": {
+          "color": "#BF1D29",
+          "label": "Blunt +40.2",
+          "margin": 40.22,
+          "votesRep": 27812,
+          "votesDem": 11857,
+          "votesTotal": 41556
+        },
+        "Clark29": {
+          "color": "#BF1D29",
+          "label": "Blunt +31.6",
+          "margin": 31.59,
+          "votesRep": 2037,
+          "votesDem": 1059,
+          "votesTotal": 3277
+        },
+        "Clay29": {
+          "color": "#577CCC",
+          "label": "Kander +5.9",
+          "margin": -5.88,
+          "votesRep": 49173,
+          "votesDem": 55322,
+          "votesTotal": 110098
+        },
+        "Clinton29": {
+          "color": "#BF1D29",
+          "label": "Blunt +16.9",
+          "margin": 16.91,
+          "votesRep": 5614,
+          "votesDem": 3990,
+          "votesTotal": 10223
+        },
+        "Cole29": {
+          "color": "#BF1D29",
+          "label": "Blunt +21.4",
+          "margin": 21.36,
+          "votesRep": 21940,
+          "votesDem": 14216,
+          "votesTotal": 37476
+        },
+        "Cooper29": {
+          "color": "#BF1D29",
+          "label": "Blunt +23.0",
+          "margin": 23.04,
+          "votesRep": 4668,
+          "votesDem": 2920,
+          "votesTotal": 7972
+        },
+        "Crawford29": {
+          "color": "#BF1D29",
+          "label": "Blunt +32.4",
+          "margin": 32.44,
+          "votesRep": 6163,
+          "votesDem": 3144,
+          "votesTotal": 9831
+        },
+        "Dade29": {
+          "color": "#BF1D29",
+          "label": "Blunt +48.7",
+          "margin": 48.72,
+          "votesRep": 2810,
+          "votesDem": 969,
+          "votesTotal": 3945
+        },
+        "Dallas29": {
+          "color": "#BF1D29",
+          "label": "Blunt +44.1",
+          "margin": 44.08,
+          "votesRep": 5101,
+          "votesDem": 1980,
+          "votesTotal": 7428
+        },
+        "Daviess29": {
+          "color": "#BF1D29",
+          "label": "Blunt +27.2",
+          "margin": 27.22,
+          "votesRep": 2213,
+          "votesDem": 1266,
+          "votesTotal": 3731
+        },
+        "DeKalb29": {
+          "color": "#BF1D29",
+          "label": "Blunt +31.3",
+          "margin": 31.32,
+          "votesRep": 2826,
+          "votesDem": 1478,
+          "votesTotal": 4571
+        },
+        "Dent29": {
+          "color": "#BF1D29",
+          "label": "Blunt +44.3",
+          "margin": 44.32,
+          "votesRep": 4653,
+          "votesDem": 1795,
+          "votesTotal": 6767
+        },
+        "Douglas29": {
+          "color": "#BF1D29",
+          "label": "Blunt +50.7",
+          "margin": 50.67,
+          "votesRep": 4753,
+          "votesDem": 1556,
+          "votesTotal": 6665
+        },
+        "Dunklin29": {
+          "color": "#BF1D29",
+          "label": "Blunt +31.1",
+          "margin": 31.13,
+          "votesRep": 6536,
+          "votesDem": 3433,
+          "votesTotal": 10371
+        },
+        "Franklin29": {
+          "color": "#BF1D29",
+          "label": "Blunt +19.3",
+          "margin": 19.33,
+          "votesRep": 28258,
+          "votesDem": 19102,
+          "votesTotal": 49952
+        },
+        "Gasconade29": {
+          "color": "#BF1D29",
+          "label": "Blunt +34.3",
+          "margin": 34.32,
+          "votesRep": 4743,
+          "votesDem": 2319,
+          "votesTotal": 7420
+        },
+        "Gentry29": {
+          "color": "#BF1D29",
+          "label": "Blunt +28.9",
+          "margin": 28.94,
+          "votesRep": 1860,
+          "votesDem": 1025,
+          "votesTotal": 3015
+        },
+        "Greene29": {
+          "color": "#BF1D29",
+          "label": "Blunt +17.8",
+          "margin": 17.77,
+          "votesRep": 72993,
+          "votesDem": 50967,
+          "votesTotal": 129827
+        },
+        "Grundy29": {
+          "color": "#BF1D29",
+          "label": "Blunt +37.2",
+          "margin": 37.25,
+          "votesRep": 2898,
+          "votesDem": 1325,
+          "votesTotal": 4435
+        },
+        "Harrison29": {
+          "color": "#BF1D29",
+          "label": "Blunt +39.3",
+          "margin": 39.27,
+          "votesRep": 2415,
+          "votesDem": 1053,
+          "votesTotal": 3665
+        },
+        "Henry29": {
+          "color": "#BF1D29",
+          "label": "Blunt +18.5",
+          "margin": 18.47,
+          "votesRep": 5500,
+          "votesDem": 3785,
+          "votesTotal": 9853
+        },
+        "Hickory29": {
+          "color": "#BF1D29",
+          "label": "Blunt +33.0",
+          "margin": 33.02,
+          "votesRep": 2959,
+          "votesDem": 1490,
+          "votesTotal": 4702
+        },
+        "Holt29": {
+          "color": "#BF1D29",
+          "label": "Blunt +43.9",
+          "margin": 43.91,
+          "votesRep": 1614,
+          "votesDem": 629,
+          "votesTotal": 2333
+        },
+        "Howard29": {
+          "color": "#BF1D29",
+          "label": "Blunt +16.2",
+          "margin": 16.16,
+          "votesRep": 2671,
+          "votesDem": 1928,
+          "votesTotal": 4834
+        },
+        "Howell29": {
+          "color": "#BF1D29",
+          "label": "Blunt +46.8",
+          "margin": 46.79,
+          "votesRep": 12070,
+          "votesDem": 4375,
+          "votesTotal": 17339
+        },
+        "Iron29": {
+          "color": "#BF1D29",
+          "label": "Blunt +16.4",
+          "margin": 16.45,
+          "votesRep": 2329,
+          "votesDem": 1671,
+          "votesTotal": 4227
+        },
+        "Jackson29": {
+          "color": "#8AAFFF",
+          "label": "Kander +4.7",
+          "margin": -4.72,
+          "votesRep": 77941,
+          "votesDem": 85664,
+          "votesTotal": 172676
+        },
+        "Jasper29": {
+          "color": "#BF1D29",
+          "label": "Blunt +39.9",
+          "margin": 39.9,
+          "votesRep": 32123,
+          "votesDem": 13799,
+          "votesTotal": 48414
+        },
+        "Jefferson29": {
+          "color": "#FF5865",
+          "label": "Blunt +6.2",
+          "margin": 6.23,
+          "votesRep": 53218,
+          "votesDem": 46975,
+          "votesTotal": 105710
+        },
+        "Johnson29": {
+          "color": "#BF1D29",
+          "label": "Blunt +16.5",
+          "margin": 16.54,
+          "votesRep": 11611,
+          "votesDem": 8315,
+          "votesTotal": 21156
+        },
+        "Knox29": {
+          "color": "#BF1D29",
+          "label": "Blunt +36.8",
+          "margin": 36.81,
+          "votesRep": 1208,
+          "votesDem": 558,
+          "votesTotal": 1825
+        },
+        "Laclede29": {
+          "color": "#BF1D29",
+          "label": "Blunt +48.1",
+          "margin": 48.11,
+          "votesRep": 11316,
+          "votesDem": 3965,
+          "votesTotal": 16044
+        },
+        "Lafayette29": {
+          "color": "#BF1D29",
+          "label": "Blunt +17.8",
+          "margin": 17.79,
+          "votesRep": 8812,
+          "votesDem": 6150,
+          "votesTotal": 15865
+        },
+        "Lawrence29": {
+          "color": "#BF1D29",
+          "label": "Blunt +45.3",
+          "margin": 45.33,
+          "votesRep": 11525,
+          "votesDem": 4336,
+          "votesTotal": 16692
+        },
+        "Lewis29": {
+          "color": "#BF1D29",
+          "label": "Blunt +30.0",
+          "margin": 29.97,
+          "votesRep": 2732,
+          "votesDem": 1472,
+          "votesTotal": 4418
+        },
+        "Lincoln29": {
+          "color": "#BF1D29",
+          "label": "Blunt +20.6",
+          "margin": 20.57,
+          "votesRep": 14061,
+          "votesDem": 9264,
+          "votesTotal": 24800
+        },
+        "Linn29": {
+          "color": "#BF1D29",
+          "label": "Blunt +22.4",
+          "margin": 22.38,
+          "votesRep": 3245,
+          "votesDem": 2058,
+          "votesTotal": 5565
+        },
+        "Livingston29": {
+          "color": "#BF1D29",
+          "label": "Blunt +26.9",
+          "margin": 26.91,
+          "votesRep": 3834,
+          "votesDem": 2208,
+          "votesTotal": 6347
+        },
+        "Macon29": {
+          "color": "#BF1D29",
+          "label": "Blunt +35.6",
+          "margin": 35.62,
+          "votesRep": 4894,
+          "votesDem": 2323,
+          "votesTotal": 7551
+        },
+        "Madison29": {
+          "color": "#BF1D29",
+          "label": "Blunt +28.9",
+          "margin": 28.92,
+          "votesRep": 3203,
+          "votesDem": 1766,
+          "votesTotal": 5289
+        },
+        "Maries29": {
+          "color": "#BF1D29",
+          "label": "Blunt +38.0",
+          "margin": 37.97,
+          "votesRep": 2978,
+          "votesDem": 1339,
+          "votesTotal": 4494
+        },
+        "Marion29": {
+          "color": "#BF1D29",
+          "label": "Blunt +33.4",
+          "margin": 33.38,
+          "votesRep": 8239,
+          "votesDem": 4115,
+          "votesTotal": 12852
+        },
+        "McDonald29": {
+          "color": "#BF1D29",
+          "label": "Blunt +52.8",
+          "margin": 52.85,
+          "votesRep": 5812,
+          "votesDem": 1793,
+          "votesTotal": 8176
+        },
+        "Mercer29": {
+          "color": "#BF1D29",
+          "label": "Blunt +51.3",
+          "margin": 51.32,
+          "votesRep": 1231,
+          "votesDem": 396,
+          "votesTotal": 1701
+        },
+        "Miller29": {
+          "color": "#BF1D29",
+          "label": "Blunt +43.8",
+          "margin": 43.81,
+          "votesRep": 7760,
+          "votesDem": 3032,
+          "votesTotal": 11333
+        },
+        "Mississippi29": {
+          "color": "#BF1D29",
+          "label": "Blunt +15.6",
+          "margin": 15.61,
+          "votesRep": 2826,
+          "votesDem": 2063,
+          "votesTotal": 5068
+        },
+        "Moniteau29": {
+          "color": "#BF1D29",
+          "label": "Blunt +35.8",
+          "margin": 35.75,
+          "votesRep": 4431,
+          "votesDem": 2097,
+          "votesTotal": 6787
+        },
+        "Monroe29": {
+          "color": "#BF1D29",
+          "label": "Blunt +32.0",
+          "margin": 32.04,
+          "votesRep": 2584,
+          "votesDem": 1330,
+          "votesTotal": 4109
+        },
+        "Montgomery29": {
+          "color": "#BF1D29",
+          "label": "Blunt +32.8",
+          "margin": 32.83,
+          "votesRep": 3405,
+          "votesDem": 1722,
+          "votesTotal": 5417
+        },
+        "Morgan29": {
+          "color": "#BF1D29",
+          "label": "Blunt +30.0",
+          "margin": 29.95,
+          "votesRep": 5410,
+          "votesDem": 2916,
+          "votesTotal": 8768
+        },
+        "New Madrid29": {
+          "color": "#BF1D29",
+          "label": "Blunt +18.8",
+          "margin": 18.75,
+          "votesRep": 4157,
+          "votesDem": 2844,
+          "votesTotal": 7254
+        },
+        "Newton29": {
+          "color": "#BF1D29",
+          "label": "Blunt +47.1",
+          "margin": 47.08,
+          "votesRep": 18598,
+          "votesDem": 6691,
+          "votesTotal": 26612
+        },
+        "Nodaway29": {
+          "color": "#BF1D29",
+          "label": "Blunt +22.8",
+          "margin": 22.82,
+          "votesRep": 5516,
+          "votesDem": 3466,
+          "votesTotal": 9405
+        },
+        "Oregon29": {
+          "color": "#BF1D29",
+          "label": "Blunt +37.3",
+          "margin": 37.27,
+          "votesRep": 3031,
+          "votesDem": 1385,
+          "votesTotal": 4631
+        },
+        "Osage29": {
+          "color": "#BF1D29",
+          "label": "Blunt +40.3",
+          "margin": 40.28,
+          "votesRep": 4789,
+          "votesDem": 2039,
+          "votesTotal": 7064
+        },
+        "Ozark29": {
+          "color": "#BF1D29",
+          "label": "Blunt +47.0",
+          "margin": 46.97,
+          "votesRep": 3085,
+          "votesDem": 1113,
+          "votesTotal": 4470
+        },
+        "Pemiscot29": {
+          "color": "#BF1D29",
+          "label": "Blunt +22.4",
+          "margin": 22.42,
+          "votesRep": 3476,
+          "votesDem": 2203,
+          "votesTotal": 5854
+        },
+        "Perry29": {
+          "color": "#BF1D29",
+          "label": "Blunt +36.0",
+          "margin": 35.96,
+          "votesRep": 5599,
+          "votesDem": 2637,
+          "votesTotal": 8592
+        },
+        "Pettis29": {
+          "color": "#BF1D29",
+          "label": "Blunt +21.8",
+          "margin": 21.77,
+          "votesRep": 10361,
+          "votesDem": 6657,
+          "votesTotal": 17991
+        },
+        "Phelps29": {
+          "color": "#BF1D29",
+          "label": "Blunt +25.4",
+          "margin": 25.44,
+          "votesRep": 11063,
+          "votesDem": 6576,
+          "votesTotal": 18532
+        },
+        "Pike29": {
+          "color": "#BF1D29",
+          "label": "Blunt +17.4",
+          "margin": 17.42,
+          "votesRep": 4084,
+          "votesDem": 2872,
+          "votesTotal": 7352
+        },
+        "Platte29": {
+          "color": "#8AAFFF",
+          "label": "Kander +1.9",
+          "margin": -1.85,
+          "votesRep": 22929,
+          "votesDem": 23795,
+          "votesTotal": 49039
+        },
+        "Polk29": {
+          "color": "#BF1D29",
+          "label": "Blunt +45.8",
+          "margin": 45.78,
+          "votesRep": 9693,
+          "votesDem": 3605,
+          "votesTotal": 13861
+        },
+        "Pulaski29": {
+          "color": "#BF1D29",
+          "label": "Blunt +36.1",
+          "margin": 36.13,
+          "votesRep": 8663,
+          "votesDem": 4065,
+          "votesTotal": 13429
+        },
+        "Putnam29": {
+          "color": "#BF1D29",
+          "label": "Blunt +55.7",
+          "margin": 55.7,
+          "votesRep": 1708,
+          "votesDem": 486,
+          "votesTotal": 2281
+        },
+        "Ralls29": {
+          "color": "#BF1D29",
+          "label": "Blunt +29.2",
+          "margin": 29.24,
+          "votesRep": 3220,
+          "votesDem": 1763,
+          "votesTotal": 5201
+        },
+        "Randolph29": {
+          "color": "#BF1D29",
+          "label": "Blunt +25.3",
+          "margin": 25.32,
+          "votesRep": 6135,
+          "votesDem": 3656,
+          "votesTotal": 10358
+        },
+        "Ray29": {
+          "color": "#FF5865",
+          "label": "Blunt +6.8",
+          "margin": 6.8,
+          "votesRep": 5415,
+          "votesDem": 4725,
+          "votesTotal": 10809
+        },
+        "Reynolds29": {
+          "color": "#BF1D29",
+          "label": "Blunt +27.6",
+          "margin": 27.64,
+          "votesRep": 1780,
+          "votesDem": 1009,
+          "votesTotal": 2939
+        },
+        "Ripley29": {
+          "color": "#BF1D29",
+          "label": "Blunt +48.0",
+          "margin": 48,
+          "votesRep": 3814,
+          "votesDem": 1340,
+          "votesTotal": 5383
+        },
+        "Saline29": {
+          "color": "#FF5865",
+          "label": "Blunt +6.4",
+          "margin": 6.36,
+          "votesRep": 4613,
+          "votesDem": 4061,
+          "votesTotal": 9241
+        },
+        "Schuyler29": {
+          "color": "#BF1D29",
+          "label": "Blunt +39.4",
+          "margin": 39.42,
+          "votesRep": 1259,
+          "votesDem": 547,
+          "votesTotal": 1903
+        },
+        "Scotland29": {
+          "color": "#BF1D29",
+          "label": "Blunt +38.5",
+          "margin": 38.48,
+          "votesRep": 1283,
+          "votesDem": 570,
+          "votesTotal": 1940
+        },
+        "Scott29": {
+          "color": "#BF1D29",
+          "label": "Blunt +34.0",
+          "margin": 33.99,
+          "votesRep": 11040,
+          "votesDem": 5439,
+          "votesTotal": 17132
+        },
+        "Shannon29": {
+          "color": "#BF1D29",
+          "label": "Blunt +32.8",
+          "margin": 32.75,
+          "votesRep": 2436,
+          "votesDem": 1234,
+          "votesTotal": 3876
+        },
+        "Shelby29": {
+          "color": "#BF1D29",
+          "label": "Blunt +36.6",
+          "margin": 36.56,
+          "votesRep": 2129,
+          "votesDem": 989,
+          "votesTotal": 3218
+        },
+        "St. Charles29": {
+          "color": "#FF5865",
+          "label": "Blunt +8.2",
+          "margin": 8.17,
+          "votesRep": 103946,
+          "votesDem": 88238,
+          "votesTotal": 200749
+        },
+        "St. Clair29": {
+          "color": "#BF1D29",
+          "label": "Blunt +33.7",
+          "margin": 33.65,
+          "votesRep": 2941,
+          "votesDem": 1460,
+          "votesTotal": 4654
+        },
+        "St. Francois29": {
+          "color": "#BF1D29",
+          "label": "Blunt +12.9",
+          "margin": 12.89,
+          "votesRep": 13110,
+          "votesDem": 10117,
+          "votesTotal": 24589
+        },
+        "St. Louis County29": {
+          "color": "#1C408C",
+          "label": "Kander +23.9",
+          "margin": -23.9,
+          "votesRep": 189726,
+          "votesDem": 308925,
+          "votesTotal": 515813
+        },
+        "Ste. Genevieve29": {
+          "color": "#FF8B98",
+          "label": "Blunt +2.1",
+          "margin": 2.08,
+          "votesRep": 4096,
+          "votesDem": 3929,
+          "votesTotal": 8390
+        },
+        "Stoddard29": {
+          "color": "#BF1D29",
+          "label": "Blunt +46.2",
+          "margin": 46.23,
+          "votesRep": 9318,
+          "votesDem": 3426,
+          "votesTotal": 13229
+        },
+        "Stone29": {
+          "color": "#BF1D29",
+          "label": "Blunt +47.3",
+          "margin": 47.26,
+          "votesRep": 11620,
+          "votesDem": 4162,
+          "votesTotal": 16522
+        },
+        "Sullivan29": {
+          "color": "#BF1D29",
+          "label": "Blunt +38.7",
+          "margin": 38.67,
+          "votesRep": 1662,
+          "votesDem": 735,
+          "votesTotal": 2472
+        },
+        "Taney29": {
+          "color": "#BF1D29",
+          "label": "Blunt +44.8",
+          "margin": 44.81,
+          "votesRep": 16117,
+          "votesDem": 6143,
+          "votesTotal": 23358
+        },
+        "Texas29": {
+          "color": "#BF1D29",
+          "label": "Blunt +45.8",
+          "margin": 45.85,
+          "votesRep": 7619,
+          "votesDem": 2829,
+          "votesTotal": 10935
+        },
+        "Vernon29": {
+          "color": "#BF1D29",
+          "label": "Blunt +33.7",
+          "margin": 33.73,
+          "votesRep": 5448,
+          "votesDem": 2700,
+          "votesTotal": 8551
+        },
+        "Warren29": {
+          "color": "#BF1D29",
+          "label": "Blunt +20.1",
+          "margin": 20.14,
+          "votesRep": 8918,
+          "votesDem": 5928,
+          "votesTotal": 15731
+        },
+        "Washington29": {
+          "color": "#BF1D29",
+          "label": "Blunt +18.2",
+          "margin": 18.22,
+          "votesRep": 5083,
+          "votesDem": 3516,
+          "votesTotal": 9173
+        },
+        "Wayne29": {
+          "color": "#BF1D29",
+          "label": "Blunt +36.1",
+          "margin": 36.13,
+          "votesRep": 3636,
+          "votesDem": 1706,
+          "votesTotal": 5636
+        },
+        "Webster29": {
+          "color": "#BF1D29",
+          "label": "Blunt +42.6",
+          "margin": 42.57,
+          "votesRep": 11450,
+          "votesDem": 4612,
+          "votesTotal": 16799
+        },
+        "Worth29": {
+          "color": "#BF1D29",
+          "label": "Blunt +35.0",
+          "margin": 35.02,
+          "votesRep": 667,
+          "votesDem": 321,
+          "votesTotal": 1034
+        },
+        "Wright29": {
+          "color": "#BF1D29",
+          "label": "Blunt +52.7",
+          "margin": 52.72,
+          "votesRep": 5930,
+          "votesDem": 1836,
+          "votesTotal": 8091
+        }
+      }
+    }
+  ]
+}

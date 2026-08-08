@@ -123,18 +123,33 @@ export type BroadcastConfig = z.infer<typeof BroadcastConfig>;
 /**
  * What the comparison map modes measure against.
  *
- * `baselineRef` is a tagged string rather than two parallel fields so there is
+ * `baselineRef` is a tagged string rather than parallel fields so there is
  * exactly one answer to "compared to what?":
+ *   - `history:senate-2024` — a past race for the same office in this state,
+ *     baked by scripts/bake-office-history.mjs. The one a downballot night
+ *     actually wants, and auto-selected when the race's title says which office
+ *     it is.
  *   - `archival:2024` — the baked presidential county margins that ship with
  *     the state seeds. Available on any county map with no setup, which is why
- *     it's the default: Swing used to paint the whole map neutral grey until the
- *     host discovered the archival slider, and a mode that shows nothing until
- *     you find an unrelated control reads as broken.
+ *     it's the fallback default: Swing used to paint the whole map neutral grey
+ *     until the host discovered the archival slider, and a mode that shows
+ *     nothing until you find an unrelated control reads as broken.
  *   - `captured:<id>` — a race the host froze via `captureBaseline`, which is
  *     how a May primary becomes November's comparison.
  */
 export const ComparisonConfig = z.object({
 	baselineRef: z.string().default('archival:2024'),
+	/**
+	 * True while the host hasn't chosen a baseline themselves, which lets
+	 * loading a race re-point the comparison at that race's own office history.
+	 *
+	 * Without the flag there's no way to tell an untouched default from a
+	 * deliberate choice, and auto-selection would have to either never run —
+	 * leaving the feature behind a control the host has to find — or run every
+	 * time and silently overwrite a host who picked the presidential margin on
+	 * purpose. Cleared by the Compare panel the moment they pick anything.
+	 */
+	baselineAuto: z.boolean().default(true),
 	baselines: z.array(ComparisonBaseline).default([])
 });
 export type ComparisonConfig = z.infer<typeof ComparisonConfig>;

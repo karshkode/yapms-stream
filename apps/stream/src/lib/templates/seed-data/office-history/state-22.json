@@ -1,0 +1,1064 @@
+{
+  "stateFips": "22",
+  "stateName": "Louisiana",
+  "races": [
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "John Kennedy",
+      "candDem": "Gary Chambers JR",
+      "shortRep": "Kennedy",
+      "shortDem": "Chambers",
+      "partisan": true,
+      "margin": 55.04,
+      "votesRep": 851568,
+      "votesDem": 246933,
+      "votesTotal": 1383290,
+      "regions": {
+        "Acadia22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +80.8",
+          "margin": 80.78,
+          "votesRep": 15864,
+          "votesDem": 1687,
+          "votesTotal": 19647
+        },
+        "Allen22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +80.6",
+          "margin": 80.59,
+          "votesRep": 5033,
+          "votesDem": 541,
+          "votesTotal": 6386
+        },
+        "Ascension22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +62.0",
+          "margin": 61.99,
+          "votesRep": 27149,
+          "votesDem": 6370,
+          "votesTotal": 40776
+        },
+        "Assumption22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +60.6",
+          "margin": 60.64,
+          "votesRep": 5126,
+          "votesDem": 1256,
+          "votesTotal": 7655
+        },
+        "Avoyelles22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +79.3",
+          "margin": 79.29,
+          "votesRep": 8102,
+          "votesDem": 936,
+          "votesTotal": 11422
+        },
+        "Beauregard22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +87.0",
+          "margin": 87.04,
+          "votesRep": 8979,
+          "votesDem": 622,
+          "votesTotal": 10830
+        },
+        "Bienville22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +47.7",
+          "margin": 47.72,
+          "votesRep": 2704,
+          "votesDem": 957,
+          "votesTotal": 4769
+        },
+        "Bossier22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +72.9",
+          "margin": 72.88,
+          "votesRep": 23910,
+          "votesDem": 3751,
+          "votesTotal": 32181
+        },
+        "Caddo22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +35.9",
+          "margin": 35.86,
+          "votesRep": 33687,
+          "votesDem": 15902,
+          "votesTotal": 66349
+        },
+        "Calcasieu22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +66.6",
+          "margin": 66.56,
+          "votesRep": 36865,
+          "votesDem": 7401,
+          "votesTotal": 53673
+        },
+        "Caldwell22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +89.5",
+          "margin": 89.55,
+          "votesRep": 2738,
+          "votesDem": 151,
+          "votesTotal": 3219
+        },
+        "Cameron22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +95.3",
+          "margin": 95.29,
+          "votesRep": 2158,
+          "votesDem": 52,
+          "votesTotal": 2447
+        },
+        "Catahoula22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +72.6",
+          "margin": 72.61,
+          "votesRep": 2590,
+          "votesDem": 411,
+          "votesTotal": 3568
+        },
+        "Claiborne22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +56.3",
+          "margin": 56.27,
+          "votesRep": 2898,
+          "votesDem": 811,
+          "votesTotal": 4425
+        },
+        "Concordia22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +66.7",
+          "margin": 66.72,
+          "votesRep": 3912,
+          "votesDem": 781,
+          "votesTotal": 5947
+        },
+        "De Soto22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +67.1",
+          "margin": 67.13,
+          "votesRep": 6284,
+          "votesDem": 1236,
+          "votesTotal": 9247
+        },
+        "East Baton Rouge22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +20.8",
+          "margin": 20.82,
+          "votesRep": 63024,
+          "votesDem": 41303,
+          "votesTotal": 137079
+        },
+        "East Carroll22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +13.9",
+          "margin": 13.88,
+          "votesRep": 833,
+          "votesDem": 630,
+          "votesTotal": 1983
+        },
+        "East Feliciana22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +47.3",
+          "margin": 47.33,
+          "votesRep": 4560,
+          "votesDem": 1630,
+          "votesTotal": 7430
+        },
+        "Evangeline22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +67.5",
+          "margin": 67.45,
+          "votesRep": 7841,
+          "votesDem": 1524,
+          "votesTotal": 11116
+        },
+        "Franklin22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +78.7",
+          "margin": 78.65,
+          "votesRep": 4871,
+          "votesDem": 582,
+          "votesTotal": 6149
+        },
+        "Grant22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +91.4",
+          "margin": 91.38,
+          "votesRep": 5550,
+          "votesDem": 250,
+          "votesTotal": 6350
+        },
+        "Iberia22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +65.2",
+          "margin": 65.18,
+          "votesRep": 13796,
+          "votesDem": 2908,
+          "votesTotal": 19632
+        },
+        "Iberville22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +25.3",
+          "margin": 25.27,
+          "votesRep": 6196,
+          "votesDem": 3696,
+          "votesTotal": 12154
+        },
+        "Jackson22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +72.1",
+          "margin": 72.13,
+          "votesRep": 4045,
+          "votesDem": 655,
+          "votesTotal": 5670
+        },
+        "Jefferson22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +55.5",
+          "margin": 55.55,
+          "votesRep": 68954,
+          "votesDem": 19705,
+          "votesTotal": 118183
+        },
+        "Jefferson Davis22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +80.0",
+          "margin": 80,
+          "votesRep": 7965,
+          "votesDem": 885,
+          "votesTotal": 10109
+        },
+        "Lafayette22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +60.4",
+          "margin": 60.38,
+          "votesRep": 48435,
+          "votesDem": 11967,
+          "votesTotal": 72444
+        },
+        "Lafourche22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +84.4",
+          "margin": 84.4,
+          "votesRep": 24016,
+          "votesDem": 2032,
+          "votesTotal": 30177
+        },
+        "LaSalle22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +93.9",
+          "margin": 93.91,
+          "votesRep": 4486,
+          "votesDem": 141,
+          "votesTotal": 4983
+        },
+        "Lincoln22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +62.7",
+          "margin": 62.71,
+          "votesRep": 8155,
+          "votesDem": 1869,
+          "votesTotal": 12583
+        },
+        "Livingston22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +86.9",
+          "margin": 86.9,
+          "votesRep": 35213,
+          "votesDem": 2469,
+          "votesTotal": 42271
+        },
+        "Madison22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +34.1",
+          "margin": 34.12,
+          "votesRep": 1419,
+          "votesDem": 697,
+          "votesTotal": 2726
+        },
+        "Morehouse22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +53.9",
+          "margin": 53.86,
+          "votesRep": 4455,
+          "votesDem": 1336,
+          "votesTotal": 7189
+        },
+        "Natchitoches22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +60.8",
+          "margin": 60.84,
+          "votesRep": 6600,
+          "votesDem": 1607,
+          "votesTotal": 10294
+        },
+        "Orleans22": {
+          "color": "#1C408C",
+          "label": "Chambers +43.7",
+          "margin": -43.65,
+          "votesRep": 17931,
+          "votesDem": 45713,
+          "votesTotal": 111117
+        },
+        "Ouachita22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +64.3",
+          "margin": 64.31,
+          "votesRep": 28727,
+          "votesDem": 6239,
+          "votesTotal": 42920
+        },
+        "Plaquemines22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +66.1",
+          "margin": 66.12,
+          "votesRep": 5398,
+          "votesDem": 1101,
+          "votesTotal": 7869
+        },
+        "Pointe Coupee22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +55.5",
+          "margin": 55.52,
+          "votesRep": 6039,
+          "votesDem": 1727,
+          "votesTotal": 9631
+        },
+        "Rapides22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +66.9",
+          "margin": 66.86,
+          "votesRep": 27110,
+          "votesDem": 5384,
+          "votesTotal": 39079
+        },
+        "Red River22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +63.8",
+          "margin": 63.78,
+          "votesRep": 1714,
+          "votesDem": 379,
+          "votesTotal": 2488
+        },
+        "Richland22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +67.2",
+          "margin": 67.23,
+          "votesRep": 4771,
+          "votesDem": 935,
+          "votesTotal": 6719
+        },
+        "Sabine22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +86.9",
+          "margin": 86.86,
+          "votesRep": 6316,
+          "votesDem": 444,
+          "votesTotal": 7488
+        },
+        "St. Bernard22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +60.5",
+          "margin": 60.55,
+          "votesRep": 6950,
+          "votesDem": 1708,
+          "votesTotal": 10739
+        },
+        "St. Charles22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +63.4",
+          "margin": 63.37,
+          "votesRep": 11876,
+          "votesDem": 2663,
+          "votesTotal": 18016
+        },
+        "St. Helena22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +37.5",
+          "margin": 37.48,
+          "votesRep": 2034,
+          "votesDem": 925,
+          "votesTotal": 4170
+        },
+        "St. James22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +52.7",
+          "margin": 52.67,
+          "votesRep": 4468,
+          "votesDem": 1385,
+          "votesTotal": 8838
+        },
+        "St. John the Baptist22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +12.4",
+          "margin": 12.38,
+          "votesRep": 4457,
+          "votesDem": 3475,
+          "votesTotal": 11643
+        },
+        "St. Landry22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +49.3",
+          "margin": 49.3,
+          "votesRep": 16217,
+          "votesDem": 5507,
+          "votesTotal": 26942
+        },
+        "St. Martin22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +66.0",
+          "margin": 65.95,
+          "votesRep": 12317,
+          "votesDem": 2527,
+          "votesTotal": 17144
+        },
+        "St. Mary22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +62.0",
+          "margin": 61.99,
+          "votesRep": 9755,
+          "votesDem": 2289,
+          "votesTotal": 14461
+        },
+        "St. Tammany22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +77.9",
+          "margin": 77.93,
+          "votesRep": 68694,
+          "votesDem": 8520,
+          "votesTotal": 94655
+        },
+        "Tangipahoa22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +69.8",
+          "margin": 69.8,
+          "votesRep": 24754,
+          "votesDem": 4402,
+          "votesTotal": 35489
+        },
+        "Tensas22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +40.6",
+          "margin": 40.63,
+          "votesRep": 900,
+          "votesDem": 380,
+          "votesTotal": 1652
+        },
+        "Terrebonne22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +79.5",
+          "margin": 79.54,
+          "votesRep": 20731,
+          "votesDem": 2362,
+          "votesTotal": 27366
+        },
+        "Union22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +82.7",
+          "margin": 82.72,
+          "votesRep": 6070,
+          "votesDem": 574,
+          "votesTotal": 7680
+        },
+        "Vermilion22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +83.4",
+          "margin": 83.38,
+          "votesRep": 14573,
+          "votesDem": 1321,
+          "votesTotal": 17953
+        },
+        "Vernon22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +86.9",
+          "margin": 86.93,
+          "votesRep": 9413,
+          "votesDem": 658,
+          "votesTotal": 11239
+        },
+        "Washington22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +63.2",
+          "margin": 63.2,
+          "votesRep": 9020,
+          "votesDem": 2034,
+          "votesTotal": 13171
+        },
+        "Webster22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +61.8",
+          "margin": 61.83,
+          "votesRep": 8188,
+          "votesDem": 1931,
+          "votesTotal": 11990
+        },
+        "West Baton Rouge22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +38.1",
+          "margin": 38.09,
+          "votesRep": 5815,
+          "votesDem": 2607,
+          "votesTotal": 10104
+        },
+        "West Carroll22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +89.5",
+          "margin": 89.45,
+          "votesRep": 2964,
+          "votesDem": 165,
+          "votesTotal": 3389
+        },
+        "West Feliciana22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +73.4",
+          "margin": 73.37,
+          "votesRep": 2800,
+          "votesDem": 430,
+          "votesTotal": 4277
+        },
+        "Winn22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +77.6",
+          "margin": 77.63,
+          "votesRep": 3153,
+          "votesDem": 397,
+          "votesTotal": 3998
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "John Kennedy",
+      "candDem": "Foster Campbell",
+      "shortRep": "Kennedy",
+      "shortDem": "Campbell",
+      "partisan": true,
+      "margin": 17.64,
+      "votesRep": 482591,
+      "votesDem": 337833,
+      "votesTotal": 1933635,
+      "regions": {
+        "Acadia22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +39.4",
+          "margin": 39.41,
+          "votesRep": 4818,
+          "votesDem": 2094,
+          "votesTotal": 26389
+        },
+        "Allen22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +13.9",
+          "margin": 13.91,
+          "votesRep": 1298,
+          "votesDem": 981,
+          "votesTotal": 8836
+        },
+        "Ascension22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +42.8",
+          "margin": 42.83,
+          "votesRep": 17968,
+          "votesDem": 7192,
+          "votesTotal": 52387
+        },
+        "Assumption22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +30.0",
+          "margin": 29.97,
+          "votesRep": 3231,
+          "votesDem": 1741,
+          "votesTotal": 10080
+        },
+        "Avoyelles22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +18.2",
+          "margin": 18.19,
+          "votesRep": 3496,
+          "votesDem": 2420,
+          "votesTotal": 15208
+        },
+        "Beauregard22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +28.6",
+          "margin": 28.64,
+          "votesRep": 1945,
+          "votesDem": 1079,
+          "votesTotal": 14528
+        },
+        "Bienville22": {
+          "color": "#1C408C",
+          "label": "Campbell +33.4",
+          "margin": -33.35,
+          "votesRep": 1173,
+          "votesDem": 2347,
+          "votesTotal": 6658
+        },
+        "Bossier22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +10.8",
+          "margin": 10.81,
+          "votesRep": 10809,
+          "votesDem": 8700,
+          "votesTotal": 47870
+        },
+        "Caddo22": {
+          "color": "#1C408C",
+          "label": "Campbell +34.3",
+          "margin": -34.28,
+          "votesRep": 16557,
+          "votesDem": 33827,
+          "votesTotal": 100315
+        },
+        "Calcasieu22": {
+          "color": "#8AAFFF",
+          "label": "Campbell +2.5",
+          "margin": -2.55,
+          "votesRep": 9970,
+          "votesDem": 10491,
+          "votesTotal": 80786
+        },
+        "Caldwell22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +57.4",
+          "margin": 57.38,
+          "votesRep": 1728,
+          "votesDem": 468,
+          "votesTotal": 4502
+        },
+        "Cameron22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +56.4",
+          "margin": 56.36,
+          "votesRep": 473,
+          "votesDem": 132,
+          "votesTotal": 3574
+        },
+        "Catahoula22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +36.2",
+          "margin": 36.15,
+          "votesRep": 1480,
+          "votesDem": 694,
+          "votesTotal": 4511
+        },
+        "Claiborne22": {
+          "color": "#1C408C",
+          "label": "Campbell +22.1",
+          "margin": -22.08,
+          "votesRep": 1129,
+          "votesDem": 1769,
+          "votesTotal": 6044
+        },
+        "Concordia22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +13.1",
+          "margin": 13.08,
+          "votesRep": 2006,
+          "votesDem": 1542,
+          "votesTotal": 7935
+        },
+        "De Soto22": {
+          "color": "#1C408C",
+          "label": "Campbell +15.5",
+          "margin": -15.52,
+          "votesRep": 2770,
+          "votesDem": 3788,
+          "votesTotal": 12925
+        },
+        "East Baton Rouge22": {
+          "color": "#8AAFFF",
+          "label": "Campbell +2.7",
+          "margin": -2.74,
+          "votesRep": 44922,
+          "votesDem": 47450,
+          "votesTotal": 190562
+        },
+        "East Carroll22": {
+          "color": "#1C408C",
+          "label": "Campbell +36.5",
+          "margin": -36.54,
+          "votesRep": 403,
+          "votesDem": 867,
+          "votesTotal": 2723
+        },
+        "East Feliciana22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +28.0",
+          "margin": 28.02,
+          "votesRep": 3331,
+          "votesDem": 1873,
+          "votesTotal": 9586
+        },
+        "Evangeline22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +26.8",
+          "margin": 26.77,
+          "votesRep": 2441,
+          "votesDem": 1410,
+          "votesTotal": 13656
+        },
+        "Franklin22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +39.4",
+          "margin": 39.41,
+          "votesRep": 2927,
+          "votesDem": 1272,
+          "votesTotal": 8646
+        },
+        "Grant22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +53.7",
+          "margin": 53.75,
+          "votesRep": 2031,
+          "votesDem": 611,
+          "votesTotal": 8383
+        },
+        "Iberia22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +19.1",
+          "margin": 19.13,
+          "votesRep": 5316,
+          "votesDem": 3609,
+          "votesTotal": 30418
+        },
+        "Iberville22": {
+          "color": "#FF5865",
+          "label": "Kennedy +6.4",
+          "margin": 6.36,
+          "votesRep": 3811,
+          "votesDem": 3355,
+          "votesTotal": 14824
+        },
+        "Jackson22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +23.6",
+          "margin": 23.56,
+          "votesRep": 2045,
+          "votesDem": 1265,
+          "votesTotal": 7087
+        },
+        "Jefferson22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +36.2",
+          "margin": 36.16,
+          "votesRep": 53228,
+          "votesDem": 24955,
+          "votesTotal": 172481
+        },
+        "Jefferson Davis22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +31.0",
+          "margin": 31.02,
+          "votesRep": 2530,
+          "votesDem": 1332,
+          "votesTotal": 13838
+        },
+        "Lafayette22": {
+          "color": "#FF5865",
+          "label": "Kennedy +6.6",
+          "margin": 6.56,
+          "votesRep": 14714,
+          "votesDem": 12902,
+          "votesTotal": 101826
+        },
+        "Lafourche22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +69.1",
+          "margin": 69.11,
+          "votesRep": 17254,
+          "votesDem": 3152,
+          "votesTotal": 39674
+        },
+        "LaSalle22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +75.2",
+          "margin": 75.2,
+          "votesRep": 2487,
+          "votesDem": 352,
+          "votesTotal": 6279
+        },
+        "Lincoln22": {
+          "color": "#FF5865",
+          "label": "Kennedy +5.7",
+          "margin": 5.74,
+          "votesRep": 4107,
+          "votesDem": 3661,
+          "votesTotal": 17771
+        },
+        "Livingston22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +74.8",
+          "margin": 74.84,
+          "votesRep": 24756,
+          "votesDem": 3563,
+          "votesTotal": 55799
+        },
+        "Madison22": {
+          "color": "#1C408C",
+          "label": "Campbell +19.0",
+          "margin": -19.03,
+          "votesRep": 815,
+          "votesDem": 1198,
+          "votesTotal": 4303
+        },
+        "Morehouse22": {
+          "color": "#FF5865",
+          "label": "Kennedy +7.5",
+          "margin": 7.46,
+          "votesRep": 2875,
+          "votesDem": 2476,
+          "votesTotal": 11007
+        },
+        "Natchitoches22": {
+          "color": "#1C408C",
+          "label": "Campbell +20.3",
+          "margin": -20.29,
+          "votesRep": 3250,
+          "votesDem": 4905,
+          "votesTotal": 15759
+        },
+        "Orleans22": {
+          "color": "#1C408C",
+          "label": "Campbell +54.3",
+          "margin": -54.34,
+          "votesRep": 14732,
+          "votesDem": 49801,
+          "votesTotal": 157333
+        },
+        "Ouachita22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +17.6",
+          "margin": 17.58,
+          "votesRep": 18377,
+          "votesDem": 12883,
+          "votesTotal": 64714
+        },
+        "Plaquemines22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +65.6",
+          "margin": 65.56,
+          "votesRep": 3952,
+          "votesDem": 822,
+          "votesTotal": 10091
+        },
+        "Pointe Coupee22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +30.2",
+          "margin": 30.19,
+          "votesRep": 3653,
+          "votesDem": 1959,
+          "votesTotal": 11088
+        },
+        "Rapides22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +24.1",
+          "margin": 24.11,
+          "votesRep": 12229,
+          "votesDem": 7477,
+          "votesTotal": 53592
+        },
+        "Red River22": {
+          "color": "#1C408C",
+          "label": "Campbell +29.0",
+          "margin": -28.98,
+          "votesRep": 871,
+          "votesDem": 1582,
+          "votesTotal": 4186
+        },
+        "Richland22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +23.3",
+          "margin": 23.3,
+          "votesRep": 2746,
+          "votesDem": 1708,
+          "votesTotal": 9042
+        },
+        "Sabine22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +32.5",
+          "margin": 32.46,
+          "votesRep": 2536,
+          "votesDem": 1293,
+          "votesTotal": 9308
+        },
+        "St. Bernard22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +49.3",
+          "margin": 49.29,
+          "votesRep": 5355,
+          "votesDem": 1819,
+          "votesTotal": 15029
+        },
+        "St. Charles22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +52.2",
+          "margin": 52.24,
+          "votesRep": 8566,
+          "votesDem": 2687,
+          "votesTotal": 24844
+        },
+        "St. Helena22": {
+          "color": "#FF5865",
+          "label": "Kennedy +6.6",
+          "margin": 6.63,
+          "votesRep": 1239,
+          "votesDem": 1085,
+          "votesTotal": 5585
+        },
+        "St. James22": {
+          "color": "#FF5865",
+          "label": "Kennedy +6.2",
+          "margin": 6.2,
+          "votesRep": 3085,
+          "votesDem": 2725,
+          "votesTotal": 11247
+        },
+        "St. John the Baptist22": {
+          "color": "#FF8B98",
+          "label": "Kennedy +1.8",
+          "margin": 1.84,
+          "votesRep": 4261,
+          "votesDem": 4107,
+          "votesTotal": 19237
+        },
+        "St. Landry22": {
+          "color": "#1C408C",
+          "label": "Campbell +13.2",
+          "margin": -13.21,
+          "votesRep": 5379,
+          "votesDem": 7016,
+          "votesTotal": 37067
+        },
+        "St. Martin22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +26.2",
+          "margin": 26.15,
+          "votesRep": 4686,
+          "votesDem": 2743,
+          "votesTotal": 24160
+        },
+        "St. Mary22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +28.4",
+          "margin": 28.38,
+          "votesRep": 4906,
+          "votesDem": 2737,
+          "votesTotal": 21472
+        },
+        "St. Tammany22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +69.2",
+          "margin": 69.21,
+          "votesRep": 48914,
+          "votesDem": 8901,
+          "votesTotal": 120428
+        },
+        "Tangipahoa22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +45.3",
+          "margin": 45.26,
+          "votesRep": 16962,
+          "votesDem": 6392,
+          "votesTotal": 49936
+        },
+        "Tensas22": {
+          "color": "#577CCC",
+          "label": "Campbell +6.5",
+          "margin": -6.53,
+          "votesRep": 544,
+          "votesDem": 620,
+          "votesTotal": 2302
+        },
+        "Terrebonne22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +67.0",
+          "margin": 67.02,
+          "votesRep": 16734,
+          "votesDem": 3304,
+          "votesTotal": 41720
+        },
+        "Union22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +29.3",
+          "margin": 29.26,
+          "votesRep": 3128,
+          "votesDem": 1712,
+          "votesTotal": 10312
+        },
+        "Vermilion22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +45.8",
+          "margin": 45.8,
+          "votesRep": 4438,
+          "votesDem": 1650,
+          "votesTotal": 24600
+        },
+        "Vernon22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +23.1",
+          "margin": 23.11,
+          "votesRep": 2088,
+          "votesDem": 1304,
+          "votesTotal": 15798
+        },
+        "Washington22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +50.4",
+          "margin": 50.36,
+          "votesRep": 6942,
+          "votesDem": 2292,
+          "votesTotal": 17700
+        },
+        "Webster22": {
+          "color": "#1C408C",
+          "label": "Campbell +24.5",
+          "margin": -24.47,
+          "votesRep": 3109,
+          "votesDem": 5123,
+          "votesTotal": 17490
+        },
+        "West Baton Rouge22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +21.6",
+          "margin": 21.65,
+          "votesRep": 3734,
+          "votesDem": 2405,
+          "votesTotal": 12167
+        },
+        "West Carroll22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +56.8",
+          "margin": 56.83,
+          "votesRep": 1671,
+          "votesDem": 460,
+          "votesTotal": 4482
+        },
+        "West Feliciana22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +34.9",
+          "margin": 34.91,
+          "votesRep": 1857,
+          "votesDem": 896,
+          "votesTotal": 5546
+        },
+        "Winn22": {
+          "color": "#BF1D29",
+          "label": "Kennedy +35.6",
+          "margin": 35.56,
+          "votesRep": 1803,
+          "votesDem": 857,
+          "votesTotal": 5989
+        }
+      }
+    }
+  ]
+}

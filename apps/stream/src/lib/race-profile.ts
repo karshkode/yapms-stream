@@ -162,18 +162,25 @@ export type RegionResult = z.infer<typeof RegionResult>;
 /**
  * One region's line in a captured baseline.
  *
- * `share` rather than raw votes is what makes a primary comparable to a
- * general. Turnout roughly doubles between May and November, so raw counts
- * would say every county grew and tell the host nothing. A county's *share* of
- * the statewide vote is scale-free, so "Jefferson was 22% of the primary vote
- * and it's 18% tonight" is a real signal about where the electorate showed up.
+ * Shares, not raw counts, are what make a primary comparable to a general.
+ * Turnout roughly doubles between May and November, so raw counts would say
+ * every county grew and tell the host nothing, while "Jefferson was 22% of the
+ * primary vote and it's 18% tonight" is a real signal about where the
+ * electorate showed up. The share is computed at read time from `votes` rather
+ * than stored, though — see `turnoutScale` in map/metrics.ts, which has to
+ * restrict both sides' denominators to the regions they have in common before
+ * either share means anything.
  */
 export const BaselineRegion = z.object({
 	/** Signed two-party margin, positive = R. Matches ArchivalSnapshot.margin. */
 	margin: z.number(),
-	/** Votes cast in this region. Kept for display; comparisons use `share`. */
+	/** Votes cast in this region. What turnout comparisons are computed from. */
 	votes: z.number().int().nonnegative().default(0),
-	/** This region's fraction (0-1) of the baseline race's total vote. */
+	/**
+	 * This region's fraction (0-1) of the baseline race's total vote, as it
+	 * stood at capture. Superseded by `votes` for computation and kept only so
+	 * baselines captured by an older build still load.
+	 */
 	share: z.number().min(0).max(1).default(0)
 });
 export type BaselineRegion = z.infer<typeof BaselineRegion>;

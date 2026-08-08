@@ -1,0 +1,1377 @@
+{
+  "stateFips": "54",
+  "stateName": "West Virginia",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Patrick Morrisey",
+      "candDem": "Steve Williams",
+      "shortRep": "Morrisey",
+      "shortDem": "Williams",
+      "partisan": true,
+      "margin": 32.5,
+      "votesRep": 459300,
+      "votesDem": 233976,
+      "votesTotal": 740928,
+      "regions": {
+        "Barbour54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +55.4",
+          "margin": 55.39,
+          "votesRep": 4521,
+          "votesDem": 1298,
+          "votesTotal": 6234
+        },
+        "Berkeley54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +38.0",
+          "margin": 37.96,
+          "votesRep": 33619,
+          "votesDem": 15120,
+          "votesTotal": 55041
+        },
+        "Boone54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +32.0",
+          "margin": 32.03,
+          "votesRep": 4874,
+          "votesDem": 2509,
+          "votesTotal": 7841
+        },
+        "Braxton54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +36.9",
+          "margin": 36.88,
+          "votesRep": 3329,
+          "votesDem": 1535,
+          "votesTotal": 5160
+        },
+        "Brooke54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +41.0",
+          "margin": 41,
+          "votesRep": 6250,
+          "votesDem": 2615,
+          "votesTotal": 9429
+        },
+        "Cabell54": {
+          "color": "#FF5865",
+          "label": "Morrisey +5.8",
+          "margin": 5.75,
+          "votesRep": 17316,
+          "votesDem": 15432,
+          "votesTotal": 34701
+        },
+        "Calhoun54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +53.6",
+          "margin": 53.58,
+          "votesRep": 2008,
+          "votesDem": 607,
+          "votesTotal": 2774
+        },
+        "Clay54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +41.3",
+          "margin": 41.34,
+          "votesRep": 2065,
+          "votesDem": 857,
+          "votesTotal": 3135
+        },
+        "Doddridge54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +62.4",
+          "margin": 62.41,
+          "votesRep": 2186,
+          "votesDem": 506,
+          "votesTotal": 2859
+        },
+        "Fayette54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +29.0",
+          "margin": 28.99,
+          "votesRep": 9093,
+          "votesDem": 5006,
+          "votesTotal": 15069
+        },
+        "Gilmer54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +43.9",
+          "margin": 43.86,
+          "votesRep": 1522,
+          "votesDem": 594,
+          "votesTotal": 2267
+        },
+        "Grant54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +77.2",
+          "margin": 77.22,
+          "votesRep": 4535,
+          "votesDem": 583,
+          "votesTotal": 5320
+        },
+        "Greenbrier54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +29.3",
+          "margin": 29.32,
+          "votesRep": 9046,
+          "votesDem": 4944,
+          "votesTotal": 14665
+        },
+        "Hampshire54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +62.4",
+          "margin": 62.43,
+          "votesRep": 7755,
+          "votesDem": 1794,
+          "votesTotal": 10160
+        },
+        "Hancock54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +44.1",
+          "margin": 44.07,
+          "votesRep": 8590,
+          "votesDem": 3335,
+          "votesTotal": 12609
+        },
+        "Hardy54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +53.5",
+          "margin": 53.46,
+          "votesRep": 4497,
+          "votesDem": 1364,
+          "votesTotal": 6252
+        },
+        "Harrison54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +34.4",
+          "margin": 34.36,
+          "votesRep": 17953,
+          "votesDem": 8771,
+          "votesTotal": 28796
+        },
+        "Jackson54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +38.5",
+          "margin": 38.53,
+          "votesRep": 7886,
+          "votesDem": 3499,
+          "votesTotal": 12518
+        },
+        "Jefferson54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +21.9",
+          "margin": 21.92,
+          "votesRep": 16716,
+          "votesDem": 10705,
+          "votesTotal": 28708
+        },
+        "Kanawha54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +1.5",
+          "margin": 1.45,
+          "votesRep": 34907,
+          "votesDem": 33906,
+          "votesTotal": 73332
+        },
+        "Lewis54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +52.9",
+          "margin": 52.9,
+          "votesRep": 4873,
+          "votesDem": 1501,
+          "votesTotal": 6955
+        },
+        "Lincoln54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +39.8",
+          "margin": 39.75,
+          "votesRep": 4505,
+          "votesDem": 1942,
+          "votesTotal": 6915
+        },
+        "Logan54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +44.3",
+          "margin": 44.31,
+          "votesRep": 7424,
+          "votesDem": 2865,
+          "votesTotal": 10741
+        },
+        "Marion54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +24.7",
+          "margin": 24.72,
+          "votesRep": 13883,
+          "votesDem": 8380,
+          "votesTotal": 24116
+        },
+        "Marshall54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +40.5",
+          "margin": 40.55,
+          "votesRep": 8522,
+          "votesDem": 3605,
+          "votesTotal": 12952
+        },
+        "Mason54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +33.2",
+          "margin": 33.18,
+          "votesRep": 6455,
+          "votesDem": 3239,
+          "votesTotal": 10259
+        },
+        "McDowell54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +49.2",
+          "margin": 49.17,
+          "votesRep": 3489,
+          "votesDem": 1189,
+          "votesTotal": 4988
+        },
+        "Mercer54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +49.0",
+          "margin": 48.98,
+          "votesRep": 16234,
+          "votesDem": 5560,
+          "votesTotal": 22912
+        },
+        "Mineral54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +61.8",
+          "margin": 61.81,
+          "votesRep": 9771,
+          "votesDem": 2306,
+          "votesTotal": 12655
+        },
+        "Mingo54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +53.5",
+          "margin": 53.46,
+          "votesRep": 5873,
+          "votesDem": 1781,
+          "votesTotal": 7957
+        },
+        "Monongalia54": {
+          "color": "#CF8980",
+          "label": "Morrisey +0.7",
+          "margin": 0.74,
+          "votesRep": 19233,
+          "votesDem": 18949,
+          "votesTotal": 40530
+        },
+        "Monroe54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +50.4",
+          "margin": 50.37,
+          "votesRep": 4454,
+          "votesDem": 1470,
+          "votesTotal": 6182
+        },
+        "Morgan54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +57.0",
+          "margin": 56.97,
+          "votesRep": 6373,
+          "votesDem": 1747,
+          "votesTotal": 8815
+        },
+        "Nicholas54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +44.8",
+          "margin": 44.83,
+          "votesRep": 6699,
+          "votesDem": 2552,
+          "votesTotal": 9746
+        },
+        "Ohio54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +23.1",
+          "margin": 23.08,
+          "votesRep": 10634,
+          "votesDem": 6646,
+          "votesTotal": 18242
+        },
+        "Pendleton54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +58.0",
+          "margin": 57.99,
+          "votesRep": 2486,
+          "votesDem": 661,
+          "votesTotal": 3302
+        },
+        "Pleasants54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +55.5",
+          "margin": 55.49,
+          "votesRep": 2358,
+          "votesDem": 675,
+          "votesTotal": 3229
+        },
+        "Pocahontas54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +40.0",
+          "margin": 39.98,
+          "votesRep": 2465,
+          "votesDem": 1057,
+          "votesTotal": 3752
+        },
+        "Preston54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +52.7",
+          "margin": 52.74,
+          "votesRep": 9874,
+          "votesDem": 3055,
+          "votesTotal": 13962
+        },
+        "Putnam54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +27.1",
+          "margin": 27.08,
+          "votesRep": 16068,
+          "votesDem": 9220,
+          "votesTotal": 26796
+        },
+        "Raleigh54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +42.2",
+          "margin": 42.22,
+          "votesRep": 20000,
+          "votesDem": 8125,
+          "votesTotal": 29803
+        },
+        "Randolph54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +35.8",
+          "margin": 35.81,
+          "votesRep": 7142,
+          "votesDem": 3376,
+          "votesTotal": 11294
+        },
+        "Ritchie54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +64.7",
+          "margin": 64.73,
+          "votesRep": 2999,
+          "votesDem": 642,
+          "votesTotal": 3876
+        },
+        "Roane54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +39.3",
+          "margin": 39.34,
+          "votesRep": 3526,
+          "votesDem": 1535,
+          "votesTotal": 5365
+        },
+        "Summers54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +39.1",
+          "margin": 39.1,
+          "votesRep": 3367,
+          "votesDem": 1474,
+          "votesTotal": 5072
+        },
+        "Taylor54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +45.6",
+          "margin": 45.65,
+          "votesRep": 4829,
+          "votesDem": 1802,
+          "votesTotal": 7110
+        },
+        "Tucker54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +37.4",
+          "margin": 37.37,
+          "votesRep": 2281,
+          "votesDem": 1040,
+          "votesTotal": 3548
+        },
+        "Tyler54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +61.2",
+          "margin": 61.24,
+          "votesRep": 2596,
+          "votesDem": 624,
+          "votesTotal": 3510
+        },
+        "Upshur54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +53.8",
+          "margin": 53.76,
+          "votesRep": 6478,
+          "votesDem": 1948,
+          "votesTotal": 9639
+        },
+        "Wayne54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +30.6",
+          "margin": 30.63,
+          "votesRep": 9471,
+          "votesDem": 5030,
+          "votesTotal": 15198
+        },
+        "Webster54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +50.0",
+          "margin": 49.96,
+          "votesRep": 2038,
+          "votesDem": 680,
+          "votesTotal": 2877
+        },
+        "Wetzel54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +44.0",
+          "margin": 43.96,
+          "votesRep": 4007,
+          "votesDem": 1560,
+          "votesTotal": 5937
+        },
+        "Wirt54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +54.7",
+          "margin": 54.74,
+          "votesRep": 1788,
+          "votesDem": 523,
+          "votesTotal": 2468
+        },
+        "Wood54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +38.0",
+          "margin": 37.96,
+          "votesRep": 23422,
+          "votesDem": 10532,
+          "votesTotal": 36191
+        },
+        "Wyoming54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +49.3",
+          "margin": 49.26,
+          "votesRep": 5015,
+          "votesDem": 1705,
+          "votesTotal": 7164
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Jim Justice",
+      "candDem": "Glenn Elliott",
+      "shortRep": "Justice",
+      "shortDem": "Elliott",
+      "partisan": true,
+      "margin": 42.48,
+      "votesRep": 514079,
+      "votesDem": 207548,
+      "votesTotal": 747702,
+      "regions": {
+        "Barbour54": {
+          "color": "#BF1D29",
+          "label": "Justice +64.6",
+          "margin": 64.56,
+          "votesRep": 4963,
+          "votesDem": 1069,
+          "votesTotal": 6305
+        },
+        "Berkeley54": {
+          "color": "#BF1D29",
+          "label": "Justice +36.4",
+          "margin": 36.36,
+          "votesRep": 35870,
+          "votesDem": 16740,
+          "votesTotal": 54895
+        },
+        "Boone54": {
+          "color": "#BF1D29",
+          "label": "Justice +53.1",
+          "margin": 53.13,
+          "votesRep": 5965,
+          "votesDem": 1826,
+          "votesTotal": 7988
+        },
+        "Braxton54": {
+          "color": "#BF1D29",
+          "label": "Justice +50.5",
+          "margin": 50.46,
+          "votesRep": 3812,
+          "votesDem": 1255,
+          "votesTotal": 5232
+        },
+        "Brooke54": {
+          "color": "#BF1D29",
+          "label": "Justice +43.7",
+          "margin": 43.74,
+          "votesRep": 6857,
+          "votesDem": 2684,
+          "votesTotal": 9682
+        },
+        "Cabell54": {
+          "color": "#BF1D29",
+          "label": "Justice +28.0",
+          "margin": 27.97,
+          "votesRep": 21486,
+          "votesDem": 12093,
+          "votesTotal": 34710
+        },
+        "Calhoun54": {
+          "color": "#BF1D29",
+          "label": "Justice +65.1",
+          "margin": 65.14,
+          "votesRep": 2293,
+          "votesDem": 484,
+          "votesTotal": 2854
+        },
+        "Clay54": {
+          "color": "#BF1D29",
+          "label": "Justice +61.3",
+          "margin": 61.34,
+          "votesRep": 2479,
+          "votesDem": 594,
+          "votesTotal": 3173
+        },
+        "Doddridge54": {
+          "color": "#BF1D29",
+          "label": "Justice +72.5",
+          "margin": 72.47,
+          "votesRep": 2374,
+          "votesDem": 379,
+          "votesTotal": 2903
+        },
+        "Fayette54": {
+          "color": "#BF1D29",
+          "label": "Justice +38.4",
+          "margin": 38.44,
+          "votesRep": 10147,
+          "votesDem": 4512,
+          "votesTotal": 15216
+        },
+        "Gilmer54": {
+          "color": "#BF1D29",
+          "label": "Justice +57.1",
+          "margin": 57.13,
+          "votesRep": 1763,
+          "votesDem": 481,
+          "votesTotal": 2311
+        },
+        "Grant54": {
+          "color": "#BF1D29",
+          "label": "Justice +78.9",
+          "margin": 78.94,
+          "votesRep": 4647,
+          "votesDem": 547,
+          "votesTotal": 5393
+        },
+        "Greenbrier54": {
+          "color": "#BF1D29",
+          "label": "Justice +36.4",
+          "margin": 36.37,
+          "votesRep": 9676,
+          "votesDem": 4515,
+          "votesTotal": 14712
+        },
+        "Hampshire54": {
+          "color": "#BF1D29",
+          "label": "Justice +64.1",
+          "margin": 64.09,
+          "votesRep": 8120,
+          "votesDem": 1777,
+          "votesTotal": 10238
+        },
+        "Hancock54": {
+          "color": "#BF1D29",
+          "label": "Justice +48.0",
+          "margin": 48.03,
+          "votesRep": 9334,
+          "votesDem": 3277,
+          "votesTotal": 12858
+        },
+        "Hardy54": {
+          "color": "#BF1D29",
+          "label": "Justice +57.3",
+          "margin": 57.29,
+          "votesRep": 4798,
+          "votesDem": 1303,
+          "votesTotal": 6307
+        },
+        "Harrison54": {
+          "color": "#BF1D29",
+          "label": "Justice +46.2",
+          "margin": 46.19,
+          "votesRep": 20396,
+          "votesDem": 7508,
+          "votesTotal": 29049
+        },
+        "Jackson54": {
+          "color": "#BF1D29",
+          "label": "Justice +56.1",
+          "margin": 56.11,
+          "votesRep": 9492,
+          "votesDem": 2669,
+          "votesTotal": 12627
+        },
+        "Jefferson54": {
+          "color": "#BF1D29",
+          "label": "Justice +18.9",
+          "margin": 18.88,
+          "votesRep": 16509,
+          "votesDem": 11265,
+          "votesTotal": 28658
+        },
+        "Kanawha54": {
+          "color": "#BF1D29",
+          "label": "Justice +18.4",
+          "margin": 18.37,
+          "votesRep": 42331,
+          "votesDem": 29195,
+          "votesTotal": 73629
+        },
+        "Lewis54": {
+          "color": "#BF1D29",
+          "label": "Justice +63.0",
+          "margin": 63.05,
+          "votesRep": 5467,
+          "votesDem": 1239,
+          "votesTotal": 7004
+        },
+        "Lincoln54": {
+          "color": "#BF1D29",
+          "label": "Justice +62.5",
+          "margin": 62.47,
+          "votesRep": 5555,
+          "votesDem": 1283,
+          "votesTotal": 7043
+        },
+        "Logan54": {
+          "color": "#BF1D29",
+          "label": "Justice +65.3",
+          "margin": 65.26,
+          "votesRep": 8916,
+          "votesDem": 1874,
+          "votesTotal": 11036
+        },
+        "Marion54": {
+          "color": "#BF1D29",
+          "label": "Justice +32.6",
+          "margin": 32.58,
+          "votesRep": 15406,
+          "votesDem": 7834,
+          "votesTotal": 24314
+        },
+        "Marshall54": {
+          "color": "#BF1D29",
+          "label": "Justice +37.7",
+          "margin": 37.71,
+          "votesRep": 8902,
+          "votesDem": 4027,
+          "votesTotal": 13154
+        },
+        "Mason54": {
+          "color": "#BF1D29",
+          "label": "Justice +57.1",
+          "margin": 57.08,
+          "votesRep": 7890,
+          "votesDem": 2156,
+          "votesTotal": 10402
+        },
+        "McDowell54": {
+          "color": "#BF1D29",
+          "label": "Justice +64.2",
+          "margin": 64.22,
+          "votesRep": 4121,
+          "votesDem": 898,
+          "votesTotal": 5155
+        },
+        "Mercer54": {
+          "color": "#BF1D29",
+          "label": "Justice +61.6",
+          "margin": 61.6,
+          "votesRep": 18120,
+          "votesDem": 4306,
+          "votesTotal": 23079
+        },
+        "Mineral54": {
+          "color": "#BF1D29",
+          "label": "Justice +64.3",
+          "margin": 64.3,
+          "votesRep": 10157,
+          "votesDem": 2207,
+          "votesTotal": 12749
+        },
+        "Mingo54": {
+          "color": "#BF1D29",
+          "label": "Justice +73.0",
+          "margin": 72.96,
+          "votesRep": 6940,
+          "votesDem": 1085,
+          "votesTotal": 8195
+        },
+        "Monongalia54": {
+          "color": "#FF5865",
+          "label": "Justice +6.6",
+          "margin": 6.65,
+          "votesRep": 20874,
+          "votesDem": 18272,
+          "votesTotal": 40926
+        },
+        "Monroe54": {
+          "color": "#BF1D29",
+          "label": "Justice +59.1",
+          "margin": 59.1,
+          "votesRep": 4804,
+          "votesDem": 1235,
+          "votesTotal": 6238
+        },
+        "Morgan54": {
+          "color": "#BF1D29",
+          "label": "Justice +56.7",
+          "margin": 56.72,
+          "votesRep": 6662,
+          "votesDem": 1840,
+          "votesTotal": 8825
+        },
+        "Nicholas54": {
+          "color": "#BF1D29",
+          "label": "Justice +58.0",
+          "margin": 57.96,
+          "votesRep": 7538,
+          "votesDem": 2006,
+          "votesTotal": 9864
+        },
+        "Ohio54": {
+          "color": "#BF1D29",
+          "label": "Justice +17.2",
+          "margin": 17.17,
+          "votesRep": 10750,
+          "votesDem": 7599,
+          "votesTotal": 18624
+        },
+        "Pendleton54": {
+          "color": "#BF1D29",
+          "label": "Justice +62.5",
+          "margin": 62.47,
+          "votesRep": 2658,
+          "votesDem": 614,
+          "votesTotal": 3353
+        },
+        "Pleasants54": {
+          "color": "#BF1D29",
+          "label": "Justice +60.1",
+          "margin": 60.06,
+          "votesRep": 2569,
+          "votesDem": 641,
+          "votesTotal": 3304
+        },
+        "Pocahontas54": {
+          "color": "#BF1D29",
+          "label": "Justice +44.6",
+          "margin": 44.64,
+          "votesRep": 2649,
+          "votesDem": 1014,
+          "votesTotal": 3804
+        },
+        "Preston54": {
+          "color": "#BF1D29",
+          "label": "Justice +60.3",
+          "margin": 60.26,
+          "votesRep": 9988,
+          "votesDem": 2477,
+          "votesTotal": 14152
+        },
+        "Putnam54": {
+          "color": "#BF1D29",
+          "label": "Justice +47.4",
+          "margin": 47.43,
+          "votesRep": 19184,
+          "votesDem": 6841,
+          "votesTotal": 26955
+        },
+        "Raleigh54": {
+          "color": "#BF1D29",
+          "label": "Justice +51.5",
+          "margin": 51.54,
+          "votesRep": 21796,
+          "votesDem": 6970,
+          "votesTotal": 29991
+        },
+        "Randolph54": {
+          "color": "#BF1D29",
+          "label": "Justice +47.6",
+          "margin": 47.56,
+          "votesRep": 8107,
+          "votesDem": 2881,
+          "votesTotal": 11420
+        },
+        "Ritchie54": {
+          "color": "#BF1D29",
+          "label": "Justice +71.4",
+          "margin": 71.4,
+          "votesRep": 3278,
+          "votesDem": 547,
+          "votesTotal": 3944
+        },
+        "Roane54": {
+          "color": "#BF1D29",
+          "label": "Justice +55.0",
+          "margin": 55.01,
+          "votesRep": 4100,
+          "votesDem": 1190,
+          "votesTotal": 5441
+        },
+        "Summers54": {
+          "color": "#BF1D29",
+          "label": "Justice +49.1",
+          "margin": 49.07,
+          "votesRep": 3708,
+          "votesDem": 1267,
+          "votesTotal": 5135
+        },
+        "Taylor54": {
+          "color": "#BF1D29",
+          "label": "Justice +55.8",
+          "margin": 55.76,
+          "votesRep": 5344,
+          "votesDem": 1518,
+          "votesTotal": 7199
+        },
+        "Tucker54": {
+          "color": "#BF1D29",
+          "label": "Justice +50.0",
+          "margin": 49.96,
+          "votesRep": 2544,
+          "votesDem": 849,
+          "votesTotal": 3611
+        },
+        "Tyler54": {
+          "color": "#BF1D29",
+          "label": "Justice +62.6",
+          "margin": 62.59,
+          "votesRep": 2795,
+          "votesDem": 643,
+          "votesTotal": 3553
+        },
+        "Upshur54": {
+          "color": "#BF1D29",
+          "label": "Justice +59.7",
+          "margin": 59.66,
+          "votesRep": 7437,
+          "votesDem": 1879,
+          "votesTotal": 9690
+        },
+        "Wayne54": {
+          "color": "#BF1D29",
+          "label": "Justice +54.2",
+          "margin": 54.19,
+          "votesRep": 11416,
+          "votesDem": 3392,
+          "votesTotal": 15243
+        },
+        "Webster54": {
+          "color": "#BF1D29",
+          "label": "Justice +62.3",
+          "margin": 62.33,
+          "votesRep": 2331,
+          "votesDem": 541,
+          "votesTotal": 2941
+        },
+        "Wetzel54": {
+          "color": "#BF1D29",
+          "label": "Justice +49.9",
+          "margin": 49.89,
+          "votesRep": 4469,
+          "votesDem": 1494,
+          "votesTotal": 6077
+        },
+        "Wirt54": {
+          "color": "#BF1D29",
+          "label": "Justice +65.4",
+          "margin": 65.37,
+          "votesRep": 2001,
+          "votesDem": 419,
+          "votesTotal": 2520
+        },
+        "Wood54": {
+          "color": "#BF1D29",
+          "label": "Justice +47.1",
+          "margin": 47.1,
+          "votesRep": 26084,
+          "votesDem": 9381,
+          "votesTotal": 36643
+        },
+        "Wyoming54": {
+          "color": "#BF1D29",
+          "label": "Justice +73.3",
+          "margin": 73.31,
+          "votesRep": 6207,
+          "votesDem": 956,
+          "votesTotal": 7378
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Patrick Morrisey",
+      "candDem": "Joseph Manchin III",
+      "shortRep": "Morrisey",
+      "shortDem": "Manchin",
+      "partisan": true,
+      "margin": -3.45,
+      "votesRep": 271113,
+      "votesDem": 290510,
+      "votesTotal": 586034,
+      "regions": {
+        "Barbour54": {
+          "color": "#FF5865",
+          "label": "Morrisey +9.4",
+          "margin": 9.42,
+          "votesRep": 2562,
+          "votesDem": 2121,
+          "votesTotal": 4935
+        },
+        "Berkeley54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +11.0",
+          "margin": 11.05,
+          "votesRep": 18111,
+          "votesDem": 14508,
+          "votesTotal": 34035
+        },
+        "Boone54": {
+          "color": "#1C408C",
+          "label": "Manchin +17.9",
+          "margin": -17.93,
+          "votesRep": 2710,
+          "votesDem": 3894,
+          "votesTotal": 6817
+        },
+        "Braxton54": {
+          "color": "#577CCC",
+          "label": "Manchin +6.5",
+          "margin": -6.47,
+          "votesRep": 1887,
+          "votesDem": 2148,
+          "votesTotal": 4192
+        },
+        "Brooke54": {
+          "color": "#577CCC",
+          "label": "Manchin +6.3",
+          "margin": -6.32,
+          "votesRep": 3513,
+          "votesDem": 3987,
+          "votesTotal": 7828
+        },
+        "Cabell54": {
+          "color": "#1C408C",
+          "label": "Manchin +20.0",
+          "margin": -20.02,
+          "votesRep": 11267,
+          "votesDem": 16909,
+          "votesTotal": 29061
+        },
+        "Calhoun54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +4.8",
+          "margin": 4.82,
+          "votesRep": 1065,
+          "votesDem": 967,
+          "votesTotal": 2133
+        },
+        "Clay54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +2.4",
+          "margin": 2.4,
+          "votesRep": 1197,
+          "votesDem": 1141,
+          "votesTotal": 2432
+        },
+        "Doddridge54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +28.9",
+          "margin": 28.88,
+          "votesRep": 1352,
+          "votesDem": 746,
+          "votesTotal": 2209
+        },
+        "Fayette54": {
+          "color": "#1C408C",
+          "label": "Manchin +11.5",
+          "margin": -11.51,
+          "votesRep": 5160,
+          "votesDem": 6502,
+          "votesTotal": 12223
+        },
+        "Gilmer54": {
+          "color": "#949BB3",
+          "label": "Manchin +0.8",
+          "margin": -0.8,
+          "votesRep": 929,
+          "votesDem": 944,
+          "votesTotal": 1999
+        },
+        "Grant54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +50.2",
+          "margin": 50.2,
+          "votesRep": 2820,
+          "votesDem": 935,
+          "votesTotal": 3890
+        },
+        "Greenbrier54": {
+          "color": "#577CCC",
+          "label": "Manchin +5.4",
+          "margin": -5.42,
+          "votesRep": 5563,
+          "votesDem": 6201,
+          "votesTotal": 12212
+        },
+        "Hampshire54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +29.9",
+          "margin": 29.95,
+          "votesRep": 4313,
+          "votesDem": 2325,
+          "votesTotal": 6878
+        },
+        "Hancock54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +2.6",
+          "margin": 2.65,
+          "votesRep": 4963,
+          "votesDem": 4707,
+          "votesTotal": 10117
+        },
+        "Hardy54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +13.5",
+          "margin": 13.5,
+          "votesRep": 2467,
+          "votesDem": 1880,
+          "votesTotal": 4540
+        },
+        "Harrison54": {
+          "color": "#577CCC",
+          "label": "Manchin +9.4",
+          "margin": -9.42,
+          "votesRep": 9512,
+          "votesDem": 11491,
+          "votesTotal": 22511
+        },
+        "Jackson54": {
+          "color": "#CF8980",
+          "label": "Morrisey +0.8",
+          "margin": 0.75,
+          "votesRep": 4964,
+          "votesDem": 4890,
+          "votesTotal": 10211
+        },
+        "Jefferson54": {
+          "color": "#577CCC",
+          "label": "Manchin +6.5",
+          "margin": -6.52,
+          "votesRep": 9360,
+          "votesDem": 10666,
+          "votesTotal": 20782
+        },
+        "Kanawha54": {
+          "color": "#1C408C",
+          "label": "Manchin +27.2",
+          "margin": -27.17,
+          "votesRep": 22527,
+          "votesDem": 39333,
+          "votesTotal": 63878
+        },
+        "Lewis54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +10.6",
+          "margin": 10.62,
+          "votesRep": 2879,
+          "votesDem": 2326,
+          "votesTotal": 5586
+        },
+        "Lincoln54": {
+          "color": "#577CCC",
+          "label": "Manchin +6.3",
+          "margin": -6.35,
+          "votesRep": 2553,
+          "votesDem": 2899,
+          "votesTotal": 5640
+        },
+        "Logan54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +1.4",
+          "margin": 1.44,
+          "votesRep": 4708,
+          "votesDem": 4574,
+          "votesTotal": 9582
+        },
+        "Marion54": {
+          "color": "#1C408C",
+          "label": "Manchin +19.9",
+          "margin": -19.86,
+          "votesRep": 7280,
+          "votesDem": 10889,
+          "votesTotal": 19366
+        },
+        "Marshall54": {
+          "color": "#577CCC",
+          "label": "Manchin +6.0",
+          "margin": -5.96,
+          "votesRep": 4868,
+          "votesDem": 5485,
+          "votesTotal": 10789
+        },
+        "Mason54": {
+          "color": "#577CCC",
+          "label": "Manchin +5.8",
+          "margin": -5.76,
+          "votesRep": 3805,
+          "votesDem": 4270,
+          "votesTotal": 8363
+        },
+        "McDowell54": {
+          "color": "#949BB3",
+          "label": "Manchin +0.5",
+          "margin": -0.54,
+          "votesRep": 2198,
+          "votesDem": 2222,
+          "votesTotal": 4565
+        },
+        "Mercer54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +14.9",
+          "margin": 14.91,
+          "votesRep": 10033,
+          "votesDem": 7430,
+          "votesTotal": 18040
+        },
+        "Mineral54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +28.0",
+          "margin": 28,
+          "votesRep": 5525,
+          "votesDem": 3108,
+          "votesTotal": 8934
+        },
+        "Mingo54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +13.3",
+          "margin": 13.27,
+          "votesRep": 3825,
+          "votesDem": 2929,
+          "votesTotal": 6952
+        },
+        "Monongalia54": {
+          "color": "#1C408C",
+          "label": "Manchin +24.5",
+          "margin": -24.52,
+          "votesRep": 10918,
+          "votesDem": 18010,
+          "votesTotal": 30947
+        },
+        "Monroe54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +10.9",
+          "margin": 10.88,
+          "votesRep": 2644,
+          "votesDem": 2125,
+          "votesTotal": 4932
+        },
+        "Morgan54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +27.7",
+          "margin": 27.67,
+          "votesRep": 3783,
+          "votesDem": 2143,
+          "votesTotal": 6204
+        },
+        "Nicholas54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +4.8",
+          "margin": 4.78,
+          "votesRep": 3948,
+          "votesDem": 3588,
+          "votesTotal": 7843
+        },
+        "Ohio54": {
+          "color": "#1C408C",
+          "label": "Manchin +14.0",
+          "margin": -13.99,
+          "votesRep": 6588,
+          "votesDem": 8731,
+          "votesTotal": 15823
+        },
+        "Pendleton54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +21.8",
+          "margin": 21.85,
+          "votesRep": 1478,
+          "votesDem": 948,
+          "votesTotal": 2518
+        },
+        "Pleasants54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +4.5",
+          "margin": 4.5,
+          "votesRep": 1266,
+          "votesDem": 1157,
+          "votesTotal": 2522
+        },
+        "Pocahontas54": {
+          "color": "#FF5865",
+          "label": "Morrisey +5.3",
+          "margin": 5.3,
+          "votesRep": 1411,
+          "votesDem": 1269,
+          "votesTotal": 2846
+        },
+        "Preston54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +23.4",
+          "margin": 23.44,
+          "votesRep": 5943,
+          "votesDem": 3686,
+          "votesTotal": 10365
+        },
+        "Putnam54": {
+          "color": "#8AAFFF",
+          "label": "Manchin +2.1",
+          "margin": -2.05,
+          "votesRep": 10090,
+          "votesDem": 10513,
+          "votesTotal": 21319
+        },
+        "Raleigh54": {
+          "color": "#FF5865",
+          "label": "Morrisey +8.8",
+          "margin": 8.79,
+          "votesRep": 12620,
+          "votesDem": 10581,
+          "votesTotal": 24127
+        },
+        "Randolph54": {
+          "color": "#577CCC",
+          "label": "Manchin +5.4",
+          "margin": -5.36,
+          "votesRep": 4017,
+          "votesDem": 4472,
+          "votesTotal": 8896
+        },
+        "Ritchie54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +28.9",
+          "margin": 28.89,
+          "votesRep": 1961,
+          "votesDem": 1082,
+          "votesTotal": 3196
+        },
+        "Roane54": {
+          "color": "#577CCC",
+          "label": "Manchin +6.5",
+          "margin": -6.55,
+          "votesRep": 1899,
+          "votesDem": 2165,
+          "votesTotal": 4220
+        },
+        "Summers54": {
+          "color": "#577CCC",
+          "label": "Manchin +5.1",
+          "margin": -5.11,
+          "votesRep": 1868,
+          "votesDem": 2069,
+          "votesTotal": 4087
+        },
+        "Taylor54": {
+          "color": "#FF5865",
+          "label": "Morrisey +5.3",
+          "margin": 5.3,
+          "votesRep": 2642,
+          "votesDem": 2376,
+          "votesTotal": 5290
+        },
+        "Tucker54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +1.1",
+          "margin": 1.11,
+          "votesRep": 1502,
+          "votesDem": 1469,
+          "votesTotal": 3132
+        },
+        "Tyler54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +20.2",
+          "margin": 20.16,
+          "votesRep": 1603,
+          "votesDem": 1065,
+          "votesTotal": 2803
+        },
+        "Upshur54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +12.8",
+          "margin": 12.77,
+          "votesRep": 4010,
+          "votesDem": 3102,
+          "votesTotal": 7534
+        },
+        "Wayne54": {
+          "color": "#8AAFFF",
+          "label": "Manchin +3.6",
+          "margin": -3.57,
+          "votesRep": 5954,
+          "votesDem": 6395,
+          "votesTotal": 12704
+        },
+        "Webster54": {
+          "color": "#FF8B98",
+          "label": "Morrisey +4.0",
+          "margin": 4.04,
+          "votesRep": 1120,
+          "votesDem": 1033,
+          "votesTotal": 2294
+        },
+        "Wetzel54": {
+          "color": "#577CCC",
+          "label": "Manchin +8.2",
+          "margin": -8.23,
+          "votesRep": 2135,
+          "votesDem": 2518,
+          "votesTotal": 4946
+        },
+        "Wirt54": {
+          "color": "#BF1D29",
+          "label": "Morrisey +12.0",
+          "margin": 11.98,
+          "votesRep": 1005,
+          "votesDem": 790,
+          "votesTotal": 1871
+        },
+        "Wood54": {
+          "color": "#8AAFFF",
+          "label": "Manchin +1.8",
+          "margin": -1.77,
+          "votesRep": 13696,
+          "votesDem": 14189,
+          "votesTotal": 29026
+        },
+        "Wyoming54": {
+          "color": "#FF5865",
+          "label": "Morrisey +8.6",
+          "margin": 8.57,
+          "votesRep": 3096,
+          "votesDem": 2607,
+          "votesTotal": 5889
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2730 @@
+{
+  "stateFips": "26",
+  "stateName": "Michigan",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Mike Rogers",
+      "candDem": "Elissa Slotkin",
+      "shortRep": "Rogers",
+      "shortDem": "Slotkin",
+      "partisan": true,
+      "margin": -0.35,
+      "votesRep": 2693680,
+      "votesDem": 2712686,
+      "votesTotal": 5577187,
+      "regions": {
+        "Alcona26": {
+          "color": "#BF1D29",
+          "label": "Rogers +40.6",
+          "margin": 40.59,
+          "votesRep": 5048,
+          "votesDem": 2133,
+          "votesTotal": 7367
+        },
+        "Alger26": {
+          "color": "#BF1D29",
+          "label": "Rogers +18.9",
+          "margin": 18.91,
+          "votesRep": 3002,
+          "votesDem": 2047,
+          "votesTotal": 5158
+        },
+        "Allegan26": {
+          "color": "#BF1D29",
+          "label": "Rogers +27.4",
+          "margin": 27.4,
+          "votesRep": 44205,
+          "votesDem": 25193,
+          "votesTotal": 71370
+        },
+        "Alpena26": {
+          "color": "#BF1D29",
+          "label": "Rogers +28.9",
+          "margin": 28.91,
+          "votesRep": 10567,
+          "votesDem": 5827,
+          "votesTotal": 16877
+        },
+        "Antrim26": {
+          "color": "#BF1D29",
+          "label": "Rogers +24.3",
+          "margin": 24.26,
+          "votesRep": 10136,
+          "votesDem": 6178,
+          "votesTotal": 16732
+        },
+        "Arenac26": {
+          "color": "#BF1D29",
+          "label": "Rogers +35.9",
+          "margin": 35.93,
+          "votesRep": 5911,
+          "votesDem": 2786,
+          "votesTotal": 8938
+        },
+        "Baraga26": {
+          "color": "#BF1D29",
+          "label": "Rogers +29.5",
+          "margin": 29.52,
+          "votesRep": 2698,
+          "votesDem": 1468,
+          "votesTotal": 4246
+        },
+        "Barry26": {
+          "color": "#BF1D29",
+          "label": "Rogers +33.4",
+          "margin": 33.43,
+          "votesRep": 24678,
+          "votesDem": 12311,
+          "votesTotal": 38132
+        },
+        "Bay26": {
+          "color": "#FF5865",
+          "label": "Rogers +10.0",
+          "margin": 9.98,
+          "votesRep": 32145,
+          "votesDem": 26313,
+          "votesTotal": 60151
+        },
+        "Benzie26": {
+          "color": "#FF5865",
+          "label": "Rogers +8.7",
+          "margin": 8.73,
+          "votesRep": 6742,
+          "votesDem": 5659,
+          "votesTotal": 12739
+        },
+        "Berrien26": {
+          "color": "#BF1D29",
+          "label": "Rogers +10.9",
+          "margin": 10.94,
+          "votesRep": 44819,
+          "votesDem": 35983,
+          "votesTotal": 83160
+        },
+        "Branch26": {
+          "color": "#BF1D29",
+          "label": "Rogers +41.1",
+          "margin": 41.08,
+          "votesRep": 14181,
+          "votesDem": 5923,
+          "votesTotal": 20792
+        },
+        "Calhoun26": {
+          "color": "#BF1D29",
+          "label": "Rogers +12.7",
+          "margin": 12.73,
+          "votesRep": 36586,
+          "votesDem": 28321,
+          "votesTotal": 67202
+        },
+        "Cass26": {
+          "color": "#BF1D29",
+          "label": "Rogers +35.7",
+          "margin": 35.73,
+          "votesRep": 18127,
+          "votesDem": 8584,
+          "votesTotal": 27415
+        },
+        "Charlevoix26": {
+          "color": "#BF1D29",
+          "label": "Rogers +17.5",
+          "margin": 17.45,
+          "votesRep": 9930,
+          "votesDem": 6979,
+          "votesTotal": 17384
+        },
+        "Cheboygan26": {
+          "color": "#BF1D29",
+          "label": "Rogers +30.7",
+          "margin": 30.65,
+          "votesRep": 10259,
+          "votesDem": 5445,
+          "votesTotal": 16164
+        },
+        "Chippewa26": {
+          "color": "#BF1D29",
+          "label": "Rogers +23.3",
+          "margin": 23.29,
+          "votesRep": 10751,
+          "votesDem": 6689,
+          "votesTotal": 18013
+        },
+        "Clare26": {
+          "color": "#BF1D29",
+          "label": "Rogers +35.7",
+          "margin": 35.67,
+          "votesRep": 11146,
+          "votesDem": 5285,
+          "votesTotal": 16993
+        },
+        "Clinton26": {
+          "color": "#FF5865",
+          "label": "Rogers +6.8",
+          "margin": 6.81,
+          "votesRep": 25903,
+          "votesDem": 22600,
+          "votesTotal": 49545
+        },
+        "Crawford26": {
+          "color": "#BF1D29",
+          "label": "Rogers +33.1",
+          "margin": 33.07,
+          "votesRep": 5360,
+          "votesDem": 2696,
+          "votesTotal": 8331
+        },
+        "Delta26": {
+          "color": "#BF1D29",
+          "label": "Rogers +30.0",
+          "margin": 30.05,
+          "votesRep": 13601,
+          "votesDem": 7316,
+          "votesTotal": 21478
+        },
+        "Dickinson26": {
+          "color": "#BF1D29",
+          "label": "Rogers +36.7",
+          "margin": 36.73,
+          "votesRep": 10076,
+          "votesDem": 4662,
+          "votesTotal": 15102
+        },
+        "Eaton26": {
+          "color": "#6b7280",
+          "label": "Rogers +0.3",
+          "margin": 0.28,
+          "votesRep": 31627,
+          "votesDem": 31453,
+          "votesTotal": 64629
+        },
+        "Emmet26": {
+          "color": "#BF1D29",
+          "label": "Rogers +11.4",
+          "margin": 11.43,
+          "votesRep": 12301,
+          "votesDem": 9778,
+          "votesTotal": 22668
+        },
+        "Genesee26": {
+          "color": "#577CCC",
+          "label": "Slotkin +8.0",
+          "margin": -7.98,
+          "votesRep": 97999,
+          "votesDem": 114995,
+          "votesTotal": 219459
+        },
+        "Gladwin26": {
+          "color": "#BF1D29",
+          "label": "Rogers +38.6",
+          "margin": 38.59,
+          "votesRep": 10239,
+          "votesDem": 4537,
+          "votesTotal": 15193
+        },
+        "Gogebic26": {
+          "color": "#BF1D29",
+          "label": "Rogers +16.5",
+          "margin": 16.52,
+          "votesRep": 4536,
+          "votesDem": 3250,
+          "votesTotal": 8050
+        },
+        "Grand Traverse26": {
+          "color": "#FF8B98",
+          "label": "Rogers +2.3",
+          "margin": 2.28,
+          "votesRep": 30865,
+          "votesDem": 29487,
+          "votesTotal": 62022
+        },
+        "Gratiot26": {
+          "color": "#BF1D29",
+          "label": "Rogers +29.8",
+          "margin": 29.76,
+          "votesRep": 12281,
+          "votesDem": 6648,
+          "votesTotal": 19510
+        },
+        "Hillsdale26": {
+          "color": "#BF1D29",
+          "label": "Rogers +50.0",
+          "margin": 50.04,
+          "votesRep": 17792,
+          "votesDem": 5924,
+          "votesTotal": 24405
+        },
+        "Houghton26": {
+          "color": "#BF1D29",
+          "label": "Rogers +17.9",
+          "margin": 17.93,
+          "votesRep": 10993,
+          "votesDem": 7650,
+          "votesTotal": 19126
+        },
+        "Huron26": {
+          "color": "#BF1D29",
+          "label": "Rogers +38.6",
+          "margin": 38.6,
+          "votesRep": 12509,
+          "votesDem": 5541,
+          "votesTotal": 18550
+        },
+        "Ingham26": {
+          "color": "#1C408C",
+          "label": "Slotkin +32.6",
+          "margin": -32.64,
+          "votesRep": 48083,
+          "votesDem": 94679,
+          "votesTotal": 146816
+        },
+        "Ionia26": {
+          "color": "#BF1D29",
+          "label": "Rogers +30.7",
+          "margin": 30.74,
+          "votesRep": 21241,
+          "votesDem": 11253,
+          "votesTotal": 33553
+        },
+        "Iosco26": {
+          "color": "#BF1D29",
+          "label": "Rogers +27.7",
+          "margin": 27.72,
+          "votesRep": 9546,
+          "votesDem": 5402,
+          "votesTotal": 15423
+        },
+        "Iron26": {
+          "color": "#BF1D29",
+          "label": "Rogers +28.6",
+          "margin": 28.58,
+          "votesRep": 4328,
+          "votesDem": 2404,
+          "votesTotal": 6904
+        },
+        "Isabella26": {
+          "color": "#FF5865",
+          "label": "Rogers +6.3",
+          "margin": 6.28,
+          "votesRep": 15569,
+          "votesDem": 13728,
+          "votesTotal": 30256
+        },
+        "Jackson26": {
+          "color": "#BF1D29",
+          "label": "Rogers +19.3",
+          "margin": 19.26,
+          "votesRep": 47562,
+          "votesDem": 32200,
+          "votesTotal": 82405
+        },
+        "Kalamazoo26": {
+          "color": "#1C408C",
+          "label": "Slotkin +17.6",
+          "margin": -17.58,
+          "votesRep": 57478,
+          "votesDem": 81996,
+          "votesTotal": 143934
+        },
+        "Kalkaska26": {
+          "color": "#BF1D29",
+          "label": "Rogers +42.2",
+          "margin": 42.24,
+          "votesRep": 7757,
+          "votesDem": 3150,
+          "votesTotal": 11315
+        },
+        "Kent26": {
+          "color": "#8AAFFF",
+          "label": "Slotkin +4.8",
+          "margin": -4.78,
+          "votesRep": 170388,
+          "votesDem": 187509,
+          "votesTotal": 368158
+        },
+        "Keweenaw26": {
+          "color": "#BF1D29",
+          "label": "Rogers +14.0",
+          "margin": 14.03,
+          "votesRep": 882,
+          "votesDem": 665,
+          "votesTotal": 1585
+        },
+        "Lake26": {
+          "color": "#BF1D29",
+          "label": "Rogers +30.8",
+          "margin": 30.84,
+          "votesRep": 4257,
+          "votesDem": 2250,
+          "votesTotal": 6767
+        },
+        "Lapeer26": {
+          "color": "#BF1D29",
+          "label": "Rogers +37.4",
+          "margin": 37.44,
+          "votesRep": 36578,
+          "votesDem": 16651,
+          "votesTotal": 54655
+        },
+        "Leelanau26": {
+          "color": "#577CCC",
+          "label": "Slotkin +6.2",
+          "margin": -6.15,
+          "votesRep": 8102,
+          "votesDem": 9164,
+          "votesTotal": 17555
+        },
+        "Lenawee26": {
+          "color": "#BF1D29",
+          "label": "Rogers +24.2",
+          "margin": 24.18,
+          "votesRep": 32385,
+          "votesDem": 19772,
+          "votesTotal": 53784
+        },
+        "Livingston26": {
+          "color": "#BF1D29",
+          "label": "Rogers +21.5",
+          "margin": 21.49,
+          "votesRep": 78193,
+          "votesDem": 50533,
+          "votesTotal": 131252
+        },
+        "Luce26": {
+          "color": "#BF1D29",
+          "label": "Rogers +46.2",
+          "margin": 46.22,
+          "votesRep": 2096,
+          "votesDem": 771,
+          "votesTotal": 2946
+        },
+        "Mackinac26": {
+          "color": "#BF1D29",
+          "label": "Rogers +24.7",
+          "margin": 24.69,
+          "votesRep": 4326,
+          "votesDem": 2613,
+          "votesTotal": 7104
+        },
+        "Macomb26": {
+          "color": "#FF5865",
+          "label": "Rogers +10.0",
+          "margin": 9.97,
+          "votesRep": 265883,
+          "votesDem": 217665,
+          "votesTotal": 498724
+        },
+        "Manistee26": {
+          "color": "#BF1D29",
+          "label": "Rogers +15.8",
+          "margin": 15.78,
+          "votesRep": 8491,
+          "votesDem": 6177,
+          "votesTotal": 15125
+        },
+        "Marquette26": {
+          "color": "#577CCC",
+          "label": "Slotkin +9.7",
+          "margin": -9.7,
+          "votesRep": 16915,
+          "votesDem": 20548,
+          "votesTotal": 38389
+        },
+        "Mason26": {
+          "color": "#BF1D29",
+          "label": "Rogers +22.3",
+          "margin": 22.33,
+          "votesRep": 10613,
+          "votesDem": 6739,
+          "votesTotal": 17857
+        },
+        "Mecosta26": {
+          "color": "#BF1D29",
+          "label": "Rogers +30.3",
+          "margin": 30.3,
+          "votesRep": 13950,
+          "votesDem": 7462,
+          "votesTotal": 22159
+        },
+        "Menominee26": {
+          "color": "#BF1D29",
+          "label": "Rogers +34.7",
+          "margin": 34.68,
+          "votesRep": 8332,
+          "votesDem": 4041,
+          "votesTotal": 12703
+        },
+        "Midland26": {
+          "color": "#BF1D29",
+          "label": "Rogers +14.4",
+          "margin": 14.38,
+          "votesRep": 27605,
+          "votesDem": 20666,
+          "votesTotal": 49601
+        },
+        "Missaukee26": {
+          "color": "#BF1D29",
+          "label": "Rogers +55.9",
+          "margin": 55.85,
+          "votesRep": 6828,
+          "votesDem": 1934,
+          "votesTotal": 9018
+        },
+        "Monroe26": {
+          "color": "#BF1D29",
+          "label": "Rogers +25.0",
+          "margin": 25.04,
+          "votesRep": 54082,
+          "votesDem": 32420,
+          "votesTotal": 88962
+        },
+        "Montcalm26": {
+          "color": "#BF1D29",
+          "label": "Rogers +38.2",
+          "margin": 38.16,
+          "votesRep": 22944,
+          "votesDem": 10270,
+          "votesTotal": 34328
+        },
+        "Montmorency26": {
+          "color": "#BF1D29",
+          "label": "Rogers +45.9",
+          "margin": 45.85,
+          "votesRep": 4455,
+          "votesDem": 1654,
+          "votesTotal": 6271
+        },
+        "Muskegon26": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": 0.05,
+          "votesRep": 45231,
+          "votesDem": 45182,
+          "votesTotal": 93438
+        },
+        "Newaygo26": {
+          "color": "#BF1D29",
+          "label": "Rogers +42.4",
+          "margin": 42.38,
+          "votesRep": 19932,
+          "votesDem": 8066,
+          "votesTotal": 28837
+        },
+        "Oakland26": {
+          "color": "#1C408C",
+          "label": "Slotkin +12.5",
+          "margin": -12.47,
+          "votesRep": 325903,
+          "votesDem": 418749,
+          "votesTotal": 763454
+        },
+        "Oceana26": {
+          "color": "#BF1D29",
+          "label": "Rogers +28.8",
+          "margin": 28.82,
+          "votesRep": 9168,
+          "votesDem": 5066,
+          "votesTotal": 14653
+        },
+        "Ogemaw26": {
+          "color": "#BF1D29",
+          "label": "Rogers +38.6",
+          "margin": 38.58,
+          "votesRep": 8312,
+          "votesDem": 3684,
+          "votesTotal": 12311
+        },
+        "Ontonagon26": {
+          "color": "#BF1D29",
+          "label": "Rogers +30.2",
+          "margin": 30.22,
+          "votesRep": 2387,
+          "votesDem": 1279,
+          "votesTotal": 3774
+        },
+        "Osceola26": {
+          "color": "#BF1D29",
+          "label": "Rogers +47.8",
+          "margin": 47.8,
+          "votesRep": 9291,
+          "votesDem": 3281,
+          "votesTotal": 13008
+        },
+        "Oscoda26": {
+          "color": "#BF1D29",
+          "label": "Rogers +43.2",
+          "margin": 43.21,
+          "votesRep": 3500,
+          "votesDem": 1388,
+          "votesTotal": 5072
+        },
+        "Otsego26": {
+          "color": "#BF1D29",
+          "label": "Rogers +34.9",
+          "margin": 34.93,
+          "votesRep": 10323,
+          "votesDem": 4978,
+          "votesTotal": 15739
+        },
+        "Ottawa26": {
+          "color": "#BF1D29",
+          "label": "Rogers +22.1",
+          "margin": 22.14,
+          "votesRep": 105708,
+          "votesDem": 67389,
+          "votesTotal": 177092
+        },
+        "Presque Isle26": {
+          "color": "#BF1D29",
+          "label": "Rogers +28.6",
+          "margin": 28.62,
+          "votesRep": 5391,
+          "votesDem": 2992,
+          "votesTotal": 8606
+        },
+        "Roscommon26": {
+          "color": "#BF1D29",
+          "label": "Rogers +31.6",
+          "margin": 31.63,
+          "votesRep": 10115,
+          "votesDem": 5254,
+          "votesTotal": 15841
+        },
+        "Saginaw26": {
+          "color": "#6b7280",
+          "label": "Tie",
+          "margin": -0.01,
+          "votesRep": 49659,
+          "votesDem": 49668,
+          "votesTotal": 101936
+        },
+        "Sanilac26": {
+          "color": "#BF1D29",
+          "label": "Rogers +45.8",
+          "margin": 45.84,
+          "votesRep": 16306,
+          "votesDem": 6056,
+          "votesTotal": 23007
+        },
+        "Schoolcraft26": {
+          "color": "#BF1D29",
+          "label": "Rogers +30.1",
+          "margin": 30.1,
+          "votesRep": 3032,
+          "votesDem": 1629,
+          "votesTotal": 4794
+        },
+        "Shiawassee26": {
+          "color": "#BF1D29",
+          "label": "Rogers +20.6",
+          "margin": 20.6,
+          "votesRep": 23505,
+          "votesDem": 15476,
+          "votesTotal": 40103
+        },
+        "St. Clair26": {
+          "color": "#BF1D29",
+          "label": "Rogers +31.1",
+          "margin": 31.11,
+          "votesRep": 59992,
+          "votesDem": 31519,
+          "votesTotal": 94432
+        },
+        "St. Joseph26": {
+          "color": "#BF1D29",
+          "label": "Rogers +33.7",
+          "margin": 33.71,
+          "votesRep": 18545,
+          "votesDem": 9195,
+          "votesTotal": 28762
+        },
+        "Tuscola26": {
+          "color": "#BF1D29",
+          "label": "Rogers +40.2",
+          "margin": 40.16,
+          "votesRep": 20503,
+          "votesDem": 8754,
+          "votesTotal": 30140
+        },
+        "Van Buren26": {
+          "color": "#BF1D29",
+          "label": "Rogers +14.7",
+          "margin": 14.66,
+          "votesRep": 22570,
+          "votesDem": 16798,
+          "votesTotal": 40596
+        },
+        "Washtenaw26": {
+          "color": "#1C408C",
+          "label": "Slotkin +45.2",
+          "margin": -45.2,
+          "votesRep": 58207,
+          "votesDem": 154214,
+          "votesTotal": 219069
+        },
+        "Wayne26": {
+          "color": "#1C408C",
+          "label": "Slotkin +33.0",
+          "margin": -33.04,
+          "votesRep": 267761,
+          "votesDem": 532029,
+          "votesTotal": 838859
+        },
+        "Wexford26": {
+          "color": "#BF1D29",
+          "label": "Rogers +34.5",
+          "margin": 34.52,
+          "votesRep": 12457,
+          "votesDem": 6063,
+          "votesTotal": 19214
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Tudor Dixon",
+      "candDem": "Gretchen Whitmer",
+      "shortRep": "Dixon",
+      "shortDem": "Whitmer",
+      "partisan": true,
+      "margin": -10.37,
+      "votesRep": 1952318,
+      "votesDem": 2403861,
+      "votesTotal": 4651863,
+      "regions": {
+        "Alcona26": {
+          "color": "#BF1D29",
+          "label": "Dixon +29.4",
+          "margin": 29.36,
+          "votesRep": 3802,
+          "votesDem": 2076,
+          "votesTotal": 5981
+        },
+        "Alger26": {
+          "color": "#FF5865",
+          "label": "Dixon +6.5",
+          "margin": 6.46,
+          "votesRep": 2258,
+          "votesDem": 1984,
+          "votesTotal": 4326
+        },
+        "Allegan26": {
+          "color": "#BF1D29",
+          "label": "Dixon +19.1",
+          "margin": 19.13,
+          "votesRep": 33590,
+          "votesDem": 22802,
+          "votesTotal": 57341
+        },
+        "Alpena26": {
+          "color": "#BF1D29",
+          "label": "Dixon +15.6",
+          "margin": 15.63,
+          "votesRep": 7920,
+          "votesDem": 5779,
+          "votesTotal": 13980
+        },
+        "Antrim26": {
+          "color": "#BF1D29",
+          "label": "Dixon +13.7",
+          "margin": 13.73,
+          "votesRep": 7827,
+          "votesDem": 5937,
+          "votesTotal": 14014
+        },
+        "Arenac26": {
+          "color": "#BF1D29",
+          "label": "Dixon +22.9",
+          "margin": 22.85,
+          "votesRep": 4314,
+          "votesDem": 2709,
+          "votesTotal": 7170
+        },
+        "Baraga26": {
+          "color": "#BF1D29",
+          "label": "Dixon +21.5",
+          "margin": 21.48,
+          "votesRep": 2056,
+          "votesDem": 1329,
+          "votesTotal": 3444
+        },
+        "Barry26": {
+          "color": "#BF1D29",
+          "label": "Dixon +23.2",
+          "margin": 23.24,
+          "votesRep": 18547,
+          "votesDem": 11552,
+          "votesTotal": 30697
+        },
+        "Bay26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +2.8",
+          "margin": -2.77,
+          "votesRep": 23448,
+          "votesDem": 24783,
+          "votesTotal": 49209
+        },
+        "Benzie26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +3.6",
+          "margin": -3.63,
+          "votesRep": 5064,
+          "votesDem": 5446,
+          "votesTotal": 10695
+        },
+        "Berrien26": {
+          "color": "#FF5865",
+          "label": "Dixon +5.3",
+          "margin": 5.33,
+          "votesRep": 33157,
+          "votesDem": 29803,
+          "votesTotal": 64024
+        },
+        "Branch26": {
+          "color": "#BF1D29",
+          "label": "Dixon +28.2",
+          "margin": 28.19,
+          "votesRep": 10132,
+          "votesDem": 5676,
+          "votesTotal": 16130
+        },
+        "Calhoun26": {
+          "color": "#FF8B98",
+          "label": "Dixon +1.5",
+          "margin": 1.54,
+          "votesRep": 25694,
+          "votesDem": 24916,
+          "votesTotal": 51576
+        },
+        "Cass26": {
+          "color": "#BF1D29",
+          "label": "Dixon +26.6",
+          "margin": 26.56,
+          "votesRep": 12666,
+          "votesDem": 7350,
+          "votesTotal": 20353
+        },
+        "Charlevoix26": {
+          "color": "#FF5865",
+          "label": "Dixon +6.5",
+          "margin": 6.52,
+          "votesRep": 7667,
+          "votesDem": 6728,
+          "votesTotal": 14679
+        },
+        "Cheboygan26": {
+          "color": "#BF1D29",
+          "label": "Dixon +18.0",
+          "margin": 17.99,
+          "votesRep": 7707,
+          "votesDem": 5357,
+          "votesTotal": 13333
+        },
+        "Chippewa26": {
+          "color": "#BF1D29",
+          "label": "Dixon +11.3",
+          "margin": 11.26,
+          "votesRep": 7902,
+          "votesDem": 6303,
+          "votesTotal": 14535
+        },
+        "Clare26": {
+          "color": "#BF1D29",
+          "label": "Dixon +22.2",
+          "margin": 22.24,
+          "votesRep": 7950,
+          "votesDem": 5057,
+          "votesTotal": 13298
+        },
+        "Clinton26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +1.9",
+          "margin": -1.87,
+          "votesRep": 19904,
+          "votesDem": 20664,
+          "votesTotal": 41204
+        },
+        "Crawford26": {
+          "color": "#BF1D29",
+          "label": "Dixon +16.8",
+          "margin": 16.81,
+          "votesRep": 3728,
+          "votesDem": 2655,
+          "votesTotal": 6530
+        },
+        "Delta26": {
+          "color": "#BF1D29",
+          "label": "Dixon +18.9",
+          "margin": 18.88,
+          "votesRep": 10097,
+          "votesDem": 6890,
+          "votesTotal": 17341
+        },
+        "Dickinson26": {
+          "color": "#BF1D29",
+          "label": "Dixon +26.7",
+          "margin": 26.68,
+          "votesRep": 7446,
+          "votesDem": 4310,
+          "votesTotal": 11997
+        },
+        "Eaton26": {
+          "color": "#577CCC",
+          "label": "Whitmer +9.5",
+          "margin": -9.46,
+          "votesRep": 23828,
+          "votesDem": 28806,
+          "votesTotal": 53558
+        },
+        "Emmet26": {
+          "color": "#FF8B98",
+          "label": "Dixon +1.6",
+          "margin": 1.62,
+          "votesRep": 9590,
+          "votesDem": 9285,
+          "votesTotal": 19203
+        },
+        "Genesee26": {
+          "color": "#1C408C",
+          "label": "Whitmer +19.0",
+          "margin": -19,
+          "votesRep": 68282,
+          "votesDem": 100325,
+          "votesTotal": 171594
+        },
+        "Gladwin26": {
+          "color": "#BF1D29",
+          "label": "Dixon +24.9",
+          "margin": 24.92,
+          "votesRep": 7357,
+          "votesDem": 4422,
+          "votesTotal": 12041
+        },
+        "Gogebic26": {
+          "color": "#FF5865",
+          "label": "Dixon +7.4",
+          "margin": 7.45,
+          "votesRep": 3413,
+          "votesDem": 2940,
+          "votesTotal": 6469
+        },
+        "Grand Traverse26": {
+          "color": "#577CCC",
+          "label": "Whitmer +6.6",
+          "margin": -6.6,
+          "votesRep": 24005,
+          "votesDem": 27396,
+          "votesTotal": 52301
+        },
+        "Gratiot26": {
+          "color": "#BF1D29",
+          "label": "Dixon +15.1",
+          "margin": 15.12,
+          "votesRep": 8659,
+          "votesDem": 6385,
+          "votesTotal": 15424
+        },
+        "Hillsdale26": {
+          "color": "#BF1D29",
+          "label": "Dixon +38.8",
+          "margin": 38.8,
+          "votesRep": 12644,
+          "votesDem": 5575,
+          "votesTotal": 18650
+        },
+        "Houghton26": {
+          "color": "#FF5865",
+          "label": "Dixon +7.2",
+          "margin": 7.24,
+          "votesRep": 8128,
+          "votesDem": 7030,
+          "votesTotal": 15480
+        },
+        "Huron26": {
+          "color": "#BF1D29",
+          "label": "Dixon +27.8",
+          "margin": 27.78,
+          "votesRep": 9395,
+          "votesDem": 5310,
+          "votesTotal": 15019
+        },
+        "Ingham26": {
+          "color": "#1C408C",
+          "label": "Whitmer +40.5",
+          "margin": -40.54,
+          "votesRep": 34869,
+          "votesDem": 82408,
+          "votesTotal": 119045
+        },
+        "Ionia26": {
+          "color": "#BF1D29",
+          "label": "Dixon +18.6",
+          "margin": 18.55,
+          "votesRep": 15786,
+          "votesDem": 10845,
+          "votesTotal": 27208
+        },
+        "Iosco26": {
+          "color": "#BF1D29",
+          "label": "Dixon +14.9",
+          "margin": 14.91,
+          "votesRep": 7111,
+          "votesDem": 5266,
+          "votesTotal": 12644
+        },
+        "Iron26": {
+          "color": "#BF1D29",
+          "label": "Dixon +19.0",
+          "margin": 18.96,
+          "votesRep": 3282,
+          "votesDem": 2236,
+          "votesTotal": 5625
+        },
+        "Isabella26": {
+          "color": "#577CCC",
+          "label": "Whitmer +7.0",
+          "margin": -7.04,
+          "votesRep": 10927,
+          "votesDem": 12581,
+          "votesTotal": 23972
+        },
+        "Jackson26": {
+          "color": "#FF5865",
+          "label": "Dixon +8.6",
+          "margin": 8.55,
+          "votesRep": 34439,
+          "votesDem": 29011,
+          "votesTotal": 64703
+        },
+        "Kalamazoo26": {
+          "color": "#1C408C",
+          "label": "Whitmer +26.2",
+          "margin": -26.17,
+          "votesRep": 42436,
+          "votesDem": 72516,
+          "votesTotal": 116837
+        },
+        "Kalkaska26": {
+          "color": "#BF1D29",
+          "label": "Dixon +30.2",
+          "margin": 30.23,
+          "votesRep": 5616,
+          "votesDem": 3009,
+          "votesTotal": 8854
+        },
+        "Kent26": {
+          "color": "#1C408C",
+          "label": "Whitmer +10.4",
+          "margin": -10.41,
+          "votesRep": 132172,
+          "votesDem": 162899,
+          "votesTotal": 299870
+        },
+        "Keweenaw26": {
+          "color": "#FF8B98",
+          "label": "Dixon +2.6",
+          "margin": 2.56,
+          "votesRep": 1402,
+          "votesDem": 1332,
+          "votesTotal": 2780
+        },
+        "Lake26": {
+          "color": "#BF1D29",
+          "label": "Dixon +19.0",
+          "margin": 18.96,
+          "votesRep": 3055,
+          "votesDem": 2081,
+          "votesTotal": 5264
+        },
+        "Lapeer26": {
+          "color": "#BF1D29",
+          "label": "Dixon +25.5",
+          "margin": 25.53,
+          "votesRep": 26940,
+          "votesDem": 15983,
+          "votesTotal": 43867
+        },
+        "Leelanau26": {
+          "color": "#1C408C",
+          "label": "Whitmer +11.7",
+          "margin": -11.69,
+          "votesRep": 6752,
+          "votesDem": 8540,
+          "votesTotal": 15474
+        },
+        "Lenawee26": {
+          "color": "#BF1D29",
+          "label": "Dixon +13.2",
+          "margin": 13.2,
+          "votesRep": 23796,
+          "votesDem": 18248,
+          "votesTotal": 42897
+        },
+        "Livingston26": {
+          "color": "#BF1D29",
+          "label": "Dixon +13.1",
+          "margin": 13.05,
+          "votesRep": 60494,
+          "votesDem": 46524,
+          "votesTotal": 108839
+        },
+        "Luce26": {
+          "color": "#BF1D29",
+          "label": "Dixon +31.8",
+          "margin": 31.83,
+          "votesRep": 1520,
+          "votesDem": 786,
+          "votesTotal": 2366
+        },
+        "Mackinac26": {
+          "color": "#BF1D29",
+          "label": "Dixon +12.9",
+          "margin": 12.86,
+          "votesRep": 6650,
+          "votesDem": 5134,
+          "votesTotal": 12006
+        },
+        "Macomb26": {
+          "color": "#577CCC",
+          "label": "Whitmer +5.3",
+          "margin": -5.29,
+          "votesRep": 179258,
+          "votesDem": 199277,
+          "votesTotal": 384540
+        },
+        "Manistee26": {
+          "color": "#FF8B98",
+          "label": "Dixon +2.7",
+          "margin": 2.73,
+          "votesRep": 6364,
+          "votesDem": 6026,
+          "votesTotal": 12646
+        },
+        "Marquette26": {
+          "color": "#1C408C",
+          "label": "Whitmer +22.4",
+          "margin": -22.41,
+          "votesRep": 11967,
+          "votesDem": 18880,
+          "votesTotal": 31387
+        },
+        "Mason26": {
+          "color": "#BF1D29",
+          "label": "Dixon +11.1",
+          "margin": 11.08,
+          "votesRep": 8018,
+          "votesDem": 6419,
+          "votesTotal": 14770
+        },
+        "Mecosta26": {
+          "color": "#BF1D29",
+          "label": "Dixon +19.8",
+          "margin": 19.82,
+          "votesRep": 10262,
+          "votesDem": 6867,
+          "votesTotal": 17523
+        },
+        "Menominee26": {
+          "color": "#BF1D29",
+          "label": "Dixon +29.4",
+          "margin": 29.36,
+          "votesRep": 6129,
+          "votesDem": 3347,
+          "votesTotal": 9681
+        },
+        "Midland26": {
+          "color": "#FF8B98",
+          "label": "Dixon +3.6",
+          "margin": 3.63,
+          "votesRep": 20964,
+          "votesDem": 19497,
+          "votesTotal": 41249
+        },
+        "Missaukee26": {
+          "color": "#BF1D29",
+          "label": "Dixon +45.3",
+          "margin": 45.35,
+          "votesRep": 5306,
+          "votesDem": 1995,
+          "votesTotal": 7448
+        },
+        "Monroe26": {
+          "color": "#BF1D29",
+          "label": "Dixon +11.4",
+          "margin": 11.43,
+          "votesRep": 38312,
+          "votesDem": 30452,
+          "votesTotal": 70044
+        },
+        "Montcalm26": {
+          "color": "#BF1D29",
+          "label": "Dixon +25.4",
+          "margin": 25.37,
+          "votesRep": 16165,
+          "votesDem": 9622,
+          "votesTotal": 26395
+        },
+        "Montmorency26": {
+          "color": "#BF1D29",
+          "label": "Dixon +32.0",
+          "margin": 31.99,
+          "votesRep": 3301,
+          "votesDem": 1701,
+          "votesTotal": 5119
+        },
+        "Muskegon26": {
+          "color": "#577CCC",
+          "label": "Whitmer +8.5",
+          "margin": -8.49,
+          "votesRep": 33121,
+          "votesDem": 39269,
+          "votesTotal": 147672
+        },
+        "Newaygo26": {
+          "color": "#BF1D29",
+          "label": "Dixon +33.5",
+          "margin": 33.47,
+          "votesRep": 14879,
+          "votesDem": 7417,
+          "votesTotal": 22775
+        },
+        "Oakland26": {
+          "color": "#1C408C",
+          "label": "Whitmer +23.4",
+          "margin": -23.37,
+          "votesRep": 238448,
+          "votesDem": 383895,
+          "votesTotal": 630205
+        },
+        "Oceana26": {
+          "color": "#BF1D29",
+          "label": "Dixon +18.5",
+          "margin": 18.53,
+          "votesRep": 7012,
+          "votesDem": 4820,
+          "votesTotal": 12091
+        },
+        "Ogemaw26": {
+          "color": "#BF1D29",
+          "label": "Dixon +27.0",
+          "margin": 27.05,
+          "votesRep": 6151,
+          "votesDem": 3532,
+          "votesTotal": 9906
+        },
+        "Ontonagon26": {
+          "color": "#BF1D29",
+          "label": "Dixon +17.1",
+          "margin": 17.07,
+          "votesRep": 1862,
+          "votesDem": 1319,
+          "votesTotal": 3262
+        },
+        "Osceola26": {
+          "color": "#BF1D29",
+          "label": "Dixon +37.3",
+          "margin": 37.32,
+          "votesRep": 6954,
+          "votesDem": 3174,
+          "votesTotal": 10379
+        },
+        "Oscoda26": {
+          "color": "#BF1D29",
+          "label": "Dixon +30.7",
+          "margin": 30.66,
+          "votesRep": 2553,
+          "votesDem": 1355,
+          "votesTotal": 4018
+        },
+        "Otsego26": {
+          "color": "#BF1D29",
+          "label": "Dixon +21.3",
+          "margin": 21.27,
+          "votesRep": 7422,
+          "votesDem": 4818,
+          "votesTotal": 12505
+        },
+        "Ottawa26": {
+          "color": "#BF1D29",
+          "label": "Dixon +18.3",
+          "margin": 18.3,
+          "votesRep": 85361,
+          "votesDem": 58952,
+          "votesTotal": 292864
+        },
+        "Presque Isle26": {
+          "color": "#BF1D29",
+          "label": "Dixon +16.6",
+          "margin": 16.57,
+          "votesRep": 4165,
+          "votesDem": 2981,
+          "votesTotal": 7304
+        },
+        "Roscommon26": {
+          "color": "#BF1D29",
+          "label": "Dixon +16.6",
+          "margin": 16.62,
+          "votesRep": 7391,
+          "votesDem": 5284,
+          "votesTotal": 12957
+        },
+        "Saginaw26": {
+          "color": "#577CCC",
+          "label": "Whitmer +7.7",
+          "margin": -7.75,
+          "votesRep": 37002,
+          "votesDem": 43219,
+          "votesTotal": 81613
+        },
+        "Sanilac26": {
+          "color": "#BF1D29",
+          "label": "Dixon +35.3",
+          "margin": 35.28,
+          "votesRep": 12473,
+          "votesDem": 5967,
+          "votesTotal": 18804
+        },
+        "Schoolcraft26": {
+          "color": "#BF1D29",
+          "label": "Dixon +19.5",
+          "margin": 19.54,
+          "votesRep": 2264,
+          "votesDem": 1524,
+          "votesTotal": 3884
+        },
+        "Shiawassee26": {
+          "color": "#FF5865",
+          "label": "Dixon +7.1",
+          "margin": 7.06,
+          "votesRep": 16969,
+          "votesDem": 14730,
+          "votesTotal": 32402
+        },
+        "St. Clair26": {
+          "color": "#BF1D29",
+          "label": "Dixon +17.2",
+          "margin": 17.23,
+          "votesRep": 42731,
+          "votesDem": 30170,
+          "votesTotal": 74622
+        },
+        "St. Joseph26": {
+          "color": "#BF1D29",
+          "label": "Dixon +21.7",
+          "margin": 21.7,
+          "votesRep": 13059,
+          "votesDem": 8402,
+          "votesTotal": 21925
+        },
+        "Tuscola26": {
+          "color": "#BF1D29",
+          "label": "Dixon +28.3",
+          "margin": 28.35,
+          "votesRep": 15078,
+          "votesDem": 8418,
+          "votesTotal": 24007
+        },
+        "Van Buren26": {
+          "color": "#FF8B98",
+          "label": "Dixon +2.0",
+          "margin": 2,
+          "votesRep": 15974,
+          "votesDem": 15347,
+          "votesTotal": 31922
+        },
+        "Washtenaw26": {
+          "color": "#1C408C",
+          "label": "Whitmer +52.1",
+          "margin": -52.1,
+          "votesRep": 42804,
+          "votesDem": 135904,
+          "votesTotal": 180848
+        },
+        "Wayne26": {
+          "color": "#1C408C",
+          "label": "Whitmer +43.5",
+          "margin": -43.49,
+          "votesRep": 168044,
+          "votesDem": 426657,
+          "votesTotal": 606144
+        },
+        "Wexford26": {
+          "color": "#BF1D29",
+          "label": "Dixon +23.6",
+          "margin": 23.59,
+          "votesRep": 9131,
+          "votesDem": 5645,
+          "votesTotal": 15105
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Bill Schuette",
+      "candDem": "Gretchen Whitmer",
+      "shortRep": "Schuette",
+      "shortDem": "Whitmer",
+      "partisan": true,
+      "margin": -9.86,
+      "votesRep": 1859534,
+      "votesDem": 2266193,
+      "votesTotal": 4250585,
+      "regions": {
+        "Alcona26": {
+          "color": "#BF1D29",
+          "label": "Schuette +26.5",
+          "margin": 26.46,
+          "votesRep": 3408,
+          "votesDem": 1982,
+          "votesTotal": 5534
+        },
+        "Alger26": {
+          "color": "#FF8B98",
+          "label": "Schuette +3.6",
+          "margin": 3.63,
+          "votesRep": 2097,
+          "votesDem": 1950,
+          "votesTotal": 4159
+        },
+        "Allegan26": {
+          "color": "#BF1D29",
+          "label": "Schuette +19.0",
+          "margin": 19.01,
+          "votesRep": 28648,
+          "votesDem": 19497,
+          "votesTotal": 49853
+        },
+        "Alpena26": {
+          "color": "#BF1D29",
+          "label": "Schuette +11.4",
+          "margin": 11.37,
+          "votesRep": 7031,
+          "votesDem": 5595,
+          "votesTotal": 13072
+        },
+        "Antrim26": {
+          "color": "#BF1D29",
+          "label": "Schuette +19.6",
+          "margin": 19.63,
+          "votesRep": 7480,
+          "votesDem": 5025,
+          "votesTotal": 12900
+        },
+        "Arenac26": {
+          "color": "#BF1D29",
+          "label": "Schuette +19.2",
+          "margin": 19.2,
+          "votesRep": 3881,
+          "votesDem": 2631,
+          "votesTotal": 6758
+        },
+        "Baraga26": {
+          "color": "#BF1D29",
+          "label": "Schuette +13.8",
+          "margin": 13.77,
+          "votesRep": 1789,
+          "votesDem": 1356,
+          "votesTotal": 3237
+        },
+        "Barry26": {
+          "color": "#BF1D29",
+          "label": "Schuette +20.5",
+          "margin": 20.51,
+          "votesRep": 15573,
+          "votesDem": 10272,
+          "votesTotal": 26858
+        },
+        "Bay26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +2.9",
+          "margin": -2.92,
+          "votesRep": 21847,
+          "votesDem": 23159,
+          "votesTotal": 46531
+        },
+        "Benzie26": {
+          "color": "#FF8B98",
+          "label": "Schuette +4.3",
+          "margin": 4.33,
+          "votesRep": 4963,
+          "votesDem": 4551,
+          "votesTotal": 9793
+        },
+        "Berrien26": {
+          "color": "#FF5865",
+          "label": "Schuette +7.2",
+          "margin": 7.16,
+          "votesRep": 32161,
+          "votesDem": 27861,
+          "votesTotal": 62036
+        },
+        "Branch26": {
+          "color": "#BF1D29",
+          "label": "Schuette +27.6",
+          "margin": 27.59,
+          "votesRep": 9381,
+          "votesDem": 5324,
+          "votesTotal": 15212
+        },
+        "Calhoun26": {
+          "color": "#FF8B98",
+          "label": "Schuette +2.5",
+          "margin": 2.55,
+          "votesRep": 24711,
+          "votesDem": 23484,
+          "votesTotal": 50044
+        },
+        "Cass26": {
+          "color": "#BF1D29",
+          "label": "Schuette +22.8",
+          "margin": 22.79,
+          "votesRep": 11538,
+          "votesDem": 7255,
+          "votesTotal": 19457
+        },
+        "Charlevoix26": {
+          "color": "#BF1D29",
+          "label": "Schuette +13.8",
+          "margin": 13.83,
+          "votesRep": 7556,
+          "votesDem": 5720,
+          "votesTotal": 13677
+        },
+        "Cheboygan26": {
+          "color": "#BF1D29",
+          "label": "Schuette +19.9",
+          "margin": 19.95,
+          "votesRep": 7249,
+          "votesDem": 4838,
+          "votesTotal": 12555
+        },
+        "Chippewa26": {
+          "color": "#FF5865",
+          "label": "Schuette +8.8",
+          "margin": 8.8,
+          "votesRep": 7381,
+          "votesDem": 6187,
+          "votesTotal": 13978
+        },
+        "Clare26": {
+          "color": "#BF1D29",
+          "label": "Schuette +22.2",
+          "margin": 22.24,
+          "votesRep": 6955,
+          "votesDem": 4424,
+          "votesTotal": 11836
+        },
+        "Clinton26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +2.3",
+          "margin": -2.34,
+          "votesRep": 17649,
+          "votesDem": 18495,
+          "votesTotal": 37157
+        },
+        "Crawford26": {
+          "color": "#BF1D29",
+          "label": "Schuette +20.8",
+          "margin": 20.84,
+          "votesRep": 3613,
+          "votesDem": 2367,
+          "votesTotal": 6259
+        },
+        "Delta26": {
+          "color": "#BF1D29",
+          "label": "Schuette +12.9",
+          "margin": 12.9,
+          "votesRep": 9061,
+          "votesDem": 6991,
+          "votesTotal": 16430
+        },
+        "Dickinson26": {
+          "color": "#BF1D29",
+          "label": "Schuette +25.3",
+          "margin": 25.33,
+          "votesRep": 6914,
+          "votesDem": 4119,
+          "votesTotal": 11333
+        },
+        "Eaton26": {
+          "color": "#577CCC",
+          "label": "Whitmer +9.2",
+          "margin": -9.23,
+          "votesRep": 22438,
+          "votesDem": 27003,
+          "votesTotal": 51106
+        },
+        "Emmet26": {
+          "color": "#BF1D29",
+          "label": "Schuette +10.1",
+          "margin": 10.11,
+          "votesRep": 9539,
+          "votesDem": 7788,
+          "votesTotal": 17882
+        },
+        "Genesee26": {
+          "color": "#1C408C",
+          "label": "Whitmer +22.3",
+          "margin": -22.33,
+          "votesRep": 63537,
+          "votesDem": 100073,
+          "votesTotal": 168545
+        },
+        "Gladwin26": {
+          "color": "#BF1D29",
+          "label": "Schuette +22.1",
+          "margin": 22.1,
+          "votesRep": 6512,
+          "votesDem": 4155,
+          "votesTotal": 11005
+        },
+        "Gogebic26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +4.9",
+          "margin": -4.89,
+          "votesRep": 3003,
+          "votesDem": 3312,
+          "votesTotal": 6507
+        },
+        "Grand Traverse26": {
+          "color": "#FF8B98",
+          "label": "Schuette +1.7",
+          "margin": 1.72,
+          "votesRep": 24031,
+          "votesDem": 23220,
+          "votesTotal": 48801
+        },
+        "Gratiot26": {
+          "color": "#BF1D29",
+          "label": "Schuette +11.0",
+          "margin": 10.97,
+          "votesRep": 7690,
+          "votesDem": 6170,
+          "votesTotal": 14353
+        },
+        "Hillsdale26": {
+          "color": "#BF1D29",
+          "label": "Schuette +36.4",
+          "margin": 36.43,
+          "votesRep": 11088,
+          "votesDem": 5166,
+          "votesTotal": 16821
+        },
+        "Houghton26": {
+          "color": "#FF5865",
+          "label": "Schuette +6.0",
+          "margin": 5.99,
+          "votesRep": 7372,
+          "votesDem": 6539,
+          "votesTotal": 14311
+        },
+        "Huron26": {
+          "color": "#BF1D29",
+          "label": "Schuette +27.7",
+          "margin": 27.65,
+          "votesRep": 8519,
+          "votesDem": 4828,
+          "votesTotal": 13732
+        },
+        "Ingham26": {
+          "color": "#1C408C",
+          "label": "Whitmer +38.6",
+          "margin": -38.59,
+          "votesRep": 35579,
+          "votesDem": 80292,
+          "votesTotal": 119230
+        },
+        "Ionia26": {
+          "color": "#BF1D29",
+          "label": "Schuette +13.4",
+          "margin": 13.42,
+          "votesRep": 13007,
+          "votesDem": 9929,
+          "votesTotal": 23830
+        },
+        "Iosco26": {
+          "color": "#BF1D29",
+          "label": "Schuette +15.6",
+          "margin": 15.58,
+          "votesRep": 6534,
+          "votesDem": 4772,
+          "votesTotal": 11690
+        },
+        "Iron26": {
+          "color": "#BF1D29",
+          "label": "Schuette +13.4",
+          "margin": 13.38,
+          "votesRep": 2970,
+          "votesDem": 2269,
+          "votesTotal": 5403
+        },
+        "Isabella26": {
+          "color": "#577CCC",
+          "label": "Whitmer +7.2",
+          "margin": -7.17,
+          "votesRep": 10097,
+          "votesDem": 11656,
+          "votesTotal": 22485
+        },
+        "Jackson26": {
+          "color": "#FF5865",
+          "label": "Schuette +9.1",
+          "margin": 9.05,
+          "votesRep": 32021,
+          "votesDem": 26704,
+          "votesTotal": 60852
+        },
+        "Kalamazoo26": {
+          "color": "#1C408C",
+          "label": "Whitmer +20.5",
+          "margin": -20.54,
+          "votesRep": 44183,
+          "votesDem": 67023,
+          "votesTotal": 114862
+        },
+        "Kalkaska26": {
+          "color": "#BF1D29",
+          "label": "Schuette +30.2",
+          "margin": 30.21,
+          "votesRep": 5190,
+          "votesDem": 2782,
+          "votesTotal": 8357
+        },
+        "Kent26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +4.3",
+          "margin": -4.29,
+          "votesRep": 129988,
+          "votesDem": 141629,
+          "votesTotal": 280291
+        },
+        "Keweenaw26": {
+          "color": "#BF1D29",
+          "label": "Schuette +10.6",
+          "margin": 10.64,
+          "votesRep": 707,
+          "votesDem": 571,
+          "votesTotal": 1316
+        },
+        "Lake26": {
+          "color": "#BF1D29",
+          "label": "Schuette +15.5",
+          "margin": 15.49,
+          "votesRep": 2602,
+          "votesDem": 1904,
+          "votesTotal": 4700
+        },
+        "Lapeer26": {
+          "color": "#BF1D29",
+          "label": "Schuette +22.1",
+          "margin": 22.13,
+          "votesRep": 23209,
+          "votesDem": 14798,
+          "votesTotal": 39372
+        },
+        "Leelanau26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +4.6",
+          "margin": -4.56,
+          "votesRep": 6630,
+          "votesDem": 7264,
+          "votesTotal": 14202
+        },
+        "Lenawee26": {
+          "color": "#FF5865",
+          "label": "Schuette +9.3",
+          "margin": 9.27,
+          "votesRep": 21225,
+          "votesDem": 17624,
+          "votesTotal": 40052
+        },
+        "Livingston26": {
+          "color": "#BF1D29",
+          "label": "Schuette +17.5",
+          "margin": 17.53,
+          "votesRep": 55842,
+          "votesDem": 39187,
+          "votesTotal": 97578
+        },
+        "Luce26": {
+          "color": "#BF1D29",
+          "label": "Schuette +26.6",
+          "margin": 26.64,
+          "votesRep": 1469,
+          "votesDem": 851,
+          "votesTotal": 2420
+        },
+        "Mackinac26": {
+          "color": "#BF1D29",
+          "label": "Schuette +15.9",
+          "margin": 15.86,
+          "votesRep": 3229,
+          "votesDem": 2345,
+          "votesTotal": 5716
+        },
+        "Macomb26": {
+          "color": "#8AAFFF",
+          "label": "Whitmer +3.6",
+          "margin": -3.57,
+          "votesRep": 169073,
+          "votesDem": 181603,
+          "votesTotal": 360226
+        },
+        "Manistee26": {
+          "color": "#FF8B98",
+          "label": "Schuette +4.5",
+          "margin": 4.48,
+          "votesRep": 5928,
+          "votesDem": 5420,
+          "votesTotal": 11717
+        },
+        "Marquette26": {
+          "color": "#1C408C",
+          "label": "Whitmer +17.9",
+          "margin": -17.88,
+          "votesRep": 11963,
+          "votesDem": 17173,
+          "votesTotal": 30002
+        },
+        "Mason26": {
+          "color": "#BF1D29",
+          "label": "Schuette +12.1",
+          "margin": 12.06,
+          "votesRep": 7420,
+          "votesDem": 5823,
+          "votesTotal": 13710
+        },
+        "Mecosta26": {
+          "color": "#BF1D29",
+          "label": "Schuette +15.1",
+          "margin": 15.09,
+          "votesRep": 8686,
+          "votesDem": 6408,
+          "votesTotal": 15654
+        },
+        "Menominee26": {
+          "color": "#BF1D29",
+          "label": "Schuette +17.6",
+          "margin": 17.55,
+          "votesRep": 5030,
+          "votesDem": 3528,
+          "votesTotal": 8784
+        },
+        "Midland26": {
+          "color": "#BF1D29",
+          "label": "Schuette +13.3",
+          "margin": 13.29,
+          "votesRep": 21215,
+          "votesDem": 16238,
+          "votesTotal": 38505
+        },
+        "Missaukee26": {
+          "color": "#BF1D29",
+          "label": "Schuette +45.0",
+          "margin": 45.03,
+          "votesRep": 4641,
+          "votesDem": 1759,
+          "votesTotal": 6566
+        },
+        "Monroe26": {
+          "color": "#FF5865",
+          "label": "Schuette +8.2",
+          "margin": 8.24,
+          "votesRep": 32336,
+          "votesDem": 27413,
+          "votesTotal": 61539
+        },
+        "Montcalm26": {
+          "color": "#BF1D29",
+          "label": "Schuette +19.7",
+          "margin": 19.66,
+          "votesRep": 13408,
+          "votesDem": 9003,
+          "votesTotal": 23357
+        },
+        "Montmorency26": {
+          "color": "#BF1D29",
+          "label": "Schuette +32.7",
+          "margin": 32.74,
+          "votesRep": 2976,
+          "votesDem": 1508,
+          "votesTotal": 4625
+        },
+        "Muskegon26": {
+          "color": "#1C408C",
+          "label": "Whitmer +11.1",
+          "margin": -11.06,
+          "votesRep": 29655,
+          "votesDem": 37029,
+          "votesTotal": 73660
+        },
+        "Newaygo26": {
+          "color": "#BF1D29",
+          "label": "Schuette +29.0",
+          "margin": 29.02,
+          "votesRep": 12621,
+          "votesDem": 6944,
+          "votesTotal": 20327
+        },
+        "Oakland26": {
+          "color": "#1C408C",
+          "label": "Whitmer +17.4",
+          "margin": -17.36,
+          "votesRep": 244417,
+          "votesDem": 347080,
+          "votesTotal": 605267
+        },
+        "Oceana26": {
+          "color": "#BF1D29",
+          "label": "Schuette +18.2",
+          "margin": 18.16,
+          "votesRep": 6151,
+          "votesDem": 4260,
+          "votesTotal": 10757
+        },
+        "Ogemaw26": {
+          "color": "#BF1D29",
+          "label": "Schuette +24.3",
+          "margin": 24.26,
+          "votesRep": 5471,
+          "votesDem": 3335,
+          "votesTotal": 9134
+        },
+        "Ontonagon26": {
+          "color": "#BF1D29",
+          "label": "Schuette +14.8",
+          "margin": 14.77,
+          "votesRep": 1741,
+          "votesDem": 1293,
+          "votesTotal": 3140
+        },
+        "Osceola26": {
+          "color": "#BF1D29",
+          "label": "Schuette +35.5",
+          "margin": 35.53,
+          "votesRep": 6098,
+          "votesDem": 2901,
+          "votesTotal": 9391
+        },
+        "Oscoda26": {
+          "color": "#BF1D29",
+          "label": "Schuette +32.0",
+          "margin": 31.98,
+          "votesRep": 2379,
+          "votesDem": 1226,
+          "votesTotal": 3732
+        },
+        "Otsego26": {
+          "color": "#BF1D29",
+          "label": "Schuette +25.9",
+          "margin": 25.89,
+          "votesRep": 6903,
+          "votesDem": 4064,
+          "votesTotal": 11356
+        },
+        "Ottawa26": {
+          "color": "#BF1D29",
+          "label": "Schuette +24.2",
+          "margin": 24.24,
+          "votesRep": 77691,
+          "votesDem": 47380,
+          "votesTotal": 128588
+        },
+        "Presque Isle26": {
+          "color": "#BF1D29",
+          "label": "Schuette +16.2",
+          "margin": 16.22,
+          "votesRep": 3751,
+          "votesDem": 2704,
+          "votesTotal": 6677
+        },
+        "Roscommon26": {
+          "color": "#BF1D29",
+          "label": "Schuette +20.1",
+          "margin": 20.12,
+          "votesRep": 6859,
+          "votesDem": 4561,
+          "votesTotal": 11800
+        },
+        "Saginaw26": {
+          "color": "#577CCC",
+          "label": "Whitmer +8.1",
+          "margin": -8.08,
+          "votesRep": 36306,
+          "votesDem": 42693,
+          "votesTotal": 80998
+        },
+        "Sanilac26": {
+          "color": "#BF1D29",
+          "label": "Schuette +32.0",
+          "margin": 31.97,
+          "votesRep": 10443,
+          "votesDem": 5383,
+          "votesTotal": 16402
+        },
+        "Schoolcraft26": {
+          "color": "#BF1D29",
+          "label": "Schuette +15.5",
+          "margin": 15.47,
+          "votesRep": 2094,
+          "votesDem": 1533,
+          "votesTotal": 3743
+        },
+        "Shiawassee26": {
+          "color": "#FF8B98",
+          "label": "Schuette +3.9",
+          "margin": 3.85,
+          "votesRep": 14943,
+          "votesDem": 13834,
+          "votesTotal": 29790
+        },
+        "St. Clair26": {
+          "color": "#BF1D29",
+          "label": "Schuette +13.5",
+          "margin": 13.48,
+          "votesRep": 36840,
+          "votesDem": 28089,
+          "votesTotal": 67434
+        },
+        "St. Joseph26": {
+          "color": "#BF1D29",
+          "label": "Schuette +22.2",
+          "margin": 22.23,
+          "votesRep": 11962,
+          "votesDem": 7611,
+          "votesTotal": 20438
+        },
+        "Tuscola26": {
+          "color": "#BF1D29",
+          "label": "Schuette +23.3",
+          "margin": 23.26,
+          "votesRep": 13286,
+          "votesDem": 8272,
+          "votesTotal": 22291
+        },
+        "Van Buren26": {
+          "color": "#FF8B98",
+          "label": "Schuette +4.4",
+          "margin": 4.38,
+          "votesRep": 14824,
+          "votesDem": 13580,
+          "votesTotal": 29544
+        },
+        "Washtenaw26": {
+          "color": "#1C408C",
+          "label": "Whitmer +47.2",
+          "margin": -47.16,
+          "votesRep": 44850,
+          "votesDem": 124910,
+          "votesTotal": 173508
+        },
+        "Wayne26": {
+          "color": "#1C408C",
+          "label": "Whitmer +44.1",
+          "margin": -44.06,
+          "votesRep": 180057,
+          "votesDem": 463703,
+          "votesTotal": 659859
+        },
+        "Wexford26": {
+          "color": "#BF1D29",
+          "label": "Schuette +25.5",
+          "margin": 25.53,
+          "votesRep": 8419,
+          "votesDem": 4995,
+          "votesTotal": 13976
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "John James",
+      "candDem": "Debbie Stabenow",
+      "shortRep": "James",
+      "shortDem": "Stabenow",
+      "partisan": true,
+      "margin": -6.64,
+      "votesRep": 1938818,
+      "votesDem": 2214478,
+      "votesTotal": 4237287,
+      "regions": {
+        "Alcona26": {
+          "color": "#BF1D29",
+          "label": "James +29.8",
+          "margin": 29.8,
+          "votesRep": 3541,
+          "votesDem": 1915,
+          "votesTotal": 5555
+        },
+        "Alger26": {
+          "color": "#FF5865",
+          "label": "James +6.2",
+          "margin": 6.16,
+          "votesRep": 2162,
+          "votesDem": 1911,
+          "votesTotal": 4162
+        },
+        "Allegan26": {
+          "color": "#BF1D29",
+          "label": "James +22.5",
+          "margin": 22.46,
+          "votesRep": 29834,
+          "votesDem": 18890,
+          "votesTotal": 49762
+        },
+        "Alpena26": {
+          "color": "#BF1D29",
+          "label": "James +15.4",
+          "margin": 15.38,
+          "votesRep": 7380,
+          "votesDem": 5412,
+          "votesTotal": 13083
+        },
+        "Antrim26": {
+          "color": "#BF1D29",
+          "label": "James +21.3",
+          "margin": 21.27,
+          "votesRep": 7629,
+          "votesDem": 4953,
+          "votesTotal": 12866
+        },
+        "Arenac26": {
+          "color": "#BF1D29",
+          "label": "James +21.5",
+          "margin": 21.48,
+          "votesRep": 3995,
+          "votesDem": 2582,
+          "votesTotal": 6735
+        },
+        "Baraga26": {
+          "color": "#BF1D29",
+          "label": "James +15.2",
+          "margin": 15.18,
+          "votesRep": 1825,
+          "votesDem": 1344,
+          "votesTotal": 3250
+        },
+        "Barry26": {
+          "color": "#BF1D29",
+          "label": "James +24.5",
+          "margin": 24.52,
+          "votesRep": 16260,
+          "votesDem": 9857,
+          "votesTotal": 26737
+        },
+        "Bay26": {
+          "color": "#CF8980",
+          "label": "James +0.6",
+          "margin": 0.55,
+          "votesRep": 22752,
+          "votesDem": 22502,
+          "votesTotal": 46333
+        },
+        "Benzie26": {
+          "color": "#FF5865",
+          "label": "James +6.2",
+          "margin": 6.23,
+          "votesRep": 5080,
+          "votesDem": 4484,
+          "votesTotal": 9773
+        },
+        "Berrien26": {
+          "color": "#FF5865",
+          "label": "James +9.7",
+          "margin": 9.71,
+          "votesRep": 33229,
+          "votesDem": 27345,
+          "votesTotal": 61986
+        },
+        "Branch26": {
+          "color": "#BF1D29",
+          "label": "James +30.5",
+          "margin": 30.53,
+          "votesRep": 9666,
+          "votesDem": 5144,
+          "votesTotal": 15199
+        },
+        "Calhoun26": {
+          "color": "#FF5865",
+          "label": "James +6.6",
+          "margin": 6.59,
+          "votesRep": 25950,
+          "votesDem": 22739,
+          "votesTotal": 50045
+        },
+        "Cass26": {
+          "color": "#BF1D29",
+          "label": "James +25.1",
+          "margin": 25.05,
+          "votesRep": 11811,
+          "votesDem": 7079,
+          "votesTotal": 19445
+        },
+        "Charlevoix26": {
+          "color": "#BF1D29",
+          "label": "James +16.3",
+          "margin": 16.35,
+          "votesRep": 7783,
+          "votesDem": 5596,
+          "votesTotal": 13662
+        },
+        "Cheboygan26": {
+          "color": "#BF1D29",
+          "label": "James +21.0",
+          "margin": 20.96,
+          "votesRep": 7384,
+          "votesDem": 4825,
+          "votesTotal": 12525
+        },
+        "Chippewa26": {
+          "color": "#BF1D29",
+          "label": "James +13.7",
+          "margin": 13.65,
+          "votesRep": 7767,
+          "votesDem": 5901,
+          "votesTotal": 13978
+        },
+        "Clare26": {
+          "color": "#BF1D29",
+          "label": "James +21.9",
+          "margin": 21.93,
+          "votesRep": 7048,
+          "votesDem": 4513,
+          "votesTotal": 11851
+        },
+        "Clinton26": {
+          "color": "#FF8B98",
+          "label": "James +3.8",
+          "margin": 3.79,
+          "votesRep": 18946,
+          "votesDem": 17564,
+          "votesTotal": 37074
+        },
+        "Crawford26": {
+          "color": "#BF1D29",
+          "label": "James +23.9",
+          "margin": 23.86,
+          "votesRep": 3751,
+          "votesDem": 2306,
+          "votesTotal": 6253
+        },
+        "Delta26": {
+          "color": "#BF1D29",
+          "label": "James +14.0",
+          "margin": 14.04,
+          "votesRep": 9197,
+          "votesDem": 6932,
+          "votesTotal": 16416
+        },
+        "Dickinson26": {
+          "color": "#BF1D29",
+          "label": "James +25.3",
+          "margin": 25.31,
+          "votesRep": 6982,
+          "votesDem": 4162,
+          "votesTotal": 11363
+        },
+        "Eaton26": {
+          "color": "#8AAFFF",
+          "label": "Stabenow +4.8",
+          "margin": -4.76,
+          "votesRep": 23771,
+          "votesDem": 26147,
+          "votesTotal": 50952
+        },
+        "Emmet26": {
+          "color": "#BF1D29",
+          "label": "James +12.9",
+          "margin": 12.89,
+          "votesRep": 9875,
+          "votesDem": 7620,
+          "votesTotal": 17891
+        },
+        "Genesee26": {
+          "color": "#1C408C",
+          "label": "Stabenow +16.6",
+          "margin": -16.56,
+          "votesRep": 68648,
+          "votesDem": 95903,
+          "votesTotal": 168294
+        },
+        "Gladwin26": {
+          "color": "#BF1D29",
+          "label": "James +22.7",
+          "margin": 22.71,
+          "votesRep": 6604,
+          "votesDem": 4160,
+          "votesTotal": 11005
+        },
+        "Gogebic26": {
+          "color": "#8AAFFF",
+          "label": "Stabenow +3.6",
+          "margin": -3.65,
+          "votesRep": 3078,
+          "votesDem": 3311,
+          "votesTotal": 6527
+        },
+        "Grand Traverse26": {
+          "color": "#FF8B98",
+          "label": "James +4.5",
+          "margin": 4.5,
+          "votesRep": 24903,
+          "votesDem": 22757,
+          "votesTotal": 48728
+        },
+        "Gratiot26": {
+          "color": "#BF1D29",
+          "label": "James +17.3",
+          "margin": 17.33,
+          "votesRep": 8180,
+          "votesDem": 5764,
+          "votesTotal": 14299
+        },
+        "Hillsdale26": {
+          "color": "#BF1D29",
+          "label": "James +38.0",
+          "margin": 38.02,
+          "votesRep": 11310,
+          "votesDem": 5079,
+          "votesTotal": 16800
+        },
+        "Houghton26": {
+          "color": "#FF5865",
+          "label": "James +6.9",
+          "margin": 6.91,
+          "votesRep": 7503,
+          "votesDem": 6533,
+          "votesTotal": 14321
+        },
+        "Huron26": {
+          "color": "#BF1D29",
+          "label": "James +24.1",
+          "margin": 24.07,
+          "votesRep": 8312,
+          "votesDem": 5087,
+          "votesTotal": 13673
+        },
+        "Ingham26": {
+          "color": "#1C408C",
+          "label": "Stabenow +33.5",
+          "margin": -33.49,
+          "votesRep": 38870,
+          "votesDem": 78012,
+          "votesTotal": 119163
+        },
+        "Ionia26": {
+          "color": "#BF1D29",
+          "label": "James +19.8",
+          "margin": 19.81,
+          "votesRep": 13834,
+          "votesDem": 9259,
+          "votesTotal": 23730
+        },
+        "Iosco26": {
+          "color": "#BF1D29",
+          "label": "James +17.0",
+          "margin": 16.97,
+          "votesRep": 6694,
+          "votesDem": 4752,
+          "votesTotal": 11699
+        },
+        "Iron26": {
+          "color": "#BF1D29",
+          "label": "James +14.1",
+          "margin": 14.09,
+          "votesRep": 3000,
+          "votesDem": 2259,
+          "votesTotal": 5410
+        },
+        "Isabella26": {
+          "color": "#8AAFFF",
+          "label": "Stabenow +3.5",
+          "margin": -3.52,
+          "votesRep": 10536,
+          "votesDem": 11304,
+          "votesTotal": 22418
+        },
+        "Jackson26": {
+          "color": "#BF1D29",
+          "label": "James +12.9",
+          "margin": 12.86,
+          "votesRep": 33490,
+          "votesDem": 25858,
+          "votesTotal": 60782
+        },
+        "Kalamazoo26": {
+          "color": "#1C408C",
+          "label": "Stabenow +17.4",
+          "margin": -17.37,
+          "votesRep": 46243,
+          "votesDem": 65686,
+          "votesTotal": 114648
+        },
+        "Kalkaska26": {
+          "color": "#BF1D29",
+          "label": "James +32.2",
+          "margin": 32.23,
+          "votesRep": 5340,
+          "votesDem": 2737,
+          "votesTotal": 8328
+        },
+        "Kent26": {
+          "color": "#6b7280",
+          "label": "Stabenow +0.3",
+          "margin": -0.32,
+          "votesRep": 136227,
+          "votesDem": 137089,
+          "votesTotal": 279474
+        },
+        "Keweenaw26": {
+          "color": "#FF5865",
+          "label": "James +8.1",
+          "margin": 8.14,
+          "votesRep": 704,
+          "votesDem": 598,
+          "votesTotal": 1323
+        },
+        "Lake26": {
+          "color": "#BF1D29",
+          "label": "James +15.3",
+          "margin": 15.25,
+          "votesRep": 2633,
+          "votesDem": 1936,
+          "votesTotal": 4708
+        },
+        "Lapeer26": {
+          "color": "#BF1D29",
+          "label": "James +25.4",
+          "margin": 25.41,
+          "votesRep": 24206,
+          "votesDem": 14396,
+          "votesTotal": 39420
+        },
+        "Leelanau26": {
+          "color": "#8AAFFF",
+          "label": "Stabenow +3.2",
+          "margin": -3.15,
+          "votesRep": 6775,
+          "votesDem": 7216,
+          "votesTotal": 14192
+        },
+        "Lenawee26": {
+          "color": "#BF1D29",
+          "label": "James +12.5",
+          "margin": 12.54,
+          "votesRep": 21981,
+          "votesDem": 17084,
+          "votesTotal": 39960
+        },
+        "Livingston26": {
+          "color": "#BF1D29",
+          "label": "James +21.5",
+          "margin": 21.55,
+          "votesRep": 58020,
+          "votesDem": 37450,
+          "votesTotal": 96982
+        },
+        "Luce26": {
+          "color": "#BF1D29",
+          "label": "James +30.5",
+          "margin": 30.54,
+          "votesRep": 1524,
+          "votesDem": 811,
+          "votesTotal": 2402
+        },
+        "Mackinac26": {
+          "color": "#BF1D29",
+          "label": "James +17.3",
+          "margin": 17.3,
+          "votesRep": 3298,
+          "votesDem": 2325,
+          "votesTotal": 5713
+        },
+        "Macomb26": {
+          "color": "#8AAFFF",
+          "label": "Stabenow +1.9",
+          "margin": -1.87,
+          "votesRep": 173369,
+          "votesDem": 179975,
+          "votesTotal": 359469
+        },
+        "Manistee26": {
+          "color": "#FF5865",
+          "label": "James +8.2",
+          "margin": 8.24,
+          "votesRep": 6183,
+          "votesDem": 5242,
+          "votesTotal": 11712
+        },
+        "Marquette26": {
+          "color": "#1C408C",
+          "label": "Stabenow +15.8",
+          "margin": -15.79,
+          "votesRep": 12348,
+          "votesDem": 16977,
+          "votesTotal": 29985
+        },
+        "Mason26": {
+          "color": "#BF1D29",
+          "label": "James +14.4",
+          "margin": 14.38,
+          "votesRep": 7625,
+          "votesDem": 5708,
+          "votesTotal": 13677
+        },
+        "Mecosta26": {
+          "color": "#BF1D29",
+          "label": "James +16.7",
+          "margin": 16.74,
+          "votesRep": 8857,
+          "votesDem": 6317,
+          "votesTotal": 15594
+        },
+        "Menominee26": {
+          "color": "#BF1D29",
+          "label": "James +15.4",
+          "margin": 15.39,
+          "votesRep": 4982,
+          "votesDem": 3653,
+          "votesTotal": 8809
+        },
+        "Midland26": {
+          "color": "#BF1D29",
+          "label": "James +15.2",
+          "margin": 15.24,
+          "votesRep": 21696,
+          "votesDem": 15959,
+          "votesTotal": 38344
+        },
+        "Missaukee26": {
+          "color": "#BF1D29",
+          "label": "James +44.6",
+          "margin": 44.57,
+          "votesRep": 4650,
+          "votesDem": 1783,
+          "votesTotal": 6555
+        },
+        "Monroe26": {
+          "color": "#BF1D29",
+          "label": "James +11.5",
+          "margin": 11.54,
+          "votesRep": 33607,
+          "votesDem": 26651,
+          "votesTotal": 61423
+        },
+        "Montcalm26": {
+          "color": "#BF1D29",
+          "label": "James +22.6",
+          "margin": 22.62,
+          "votesRep": 13878,
+          "votesDem": 8758,
+          "votesTotal": 23317
+        },
+        "Montmorency26": {
+          "color": "#BF1D29",
+          "label": "James +31.9",
+          "margin": 31.92,
+          "votesRep": 2978,
+          "votesDem": 1537,
+          "votesTotal": 4610
+        },
+        "Muskegon26": {
+          "color": "#577CCC",
+          "label": "Stabenow +7.7",
+          "margin": -7.68,
+          "votesRep": 30831,
+          "votesDem": 35957,
+          "votesTotal": 68765
+        },
+        "Newaygo26": {
+          "color": "#BF1D29",
+          "label": "James +30.5",
+          "margin": 30.47,
+          "votesRep": 12870,
+          "votesDem": 6858,
+          "votesTotal": 20259
+        },
+        "Oakland26": {
+          "color": "#1C408C",
+          "label": "Stabenow +13.9",
+          "margin": -13.94,
+          "votesRep": 256017,
+          "votesDem": 338986,
+          "votesTotal": 603819
+        },
+        "Oceana26": {
+          "color": "#BF1D29",
+          "label": "James +19.6",
+          "margin": 19.57,
+          "votesRep": 6263,
+          "votesDem": 4213,
+          "votesTotal": 10757
+        },
+        "Ogemaw26": {
+          "color": "#BF1D29",
+          "label": "James +26.1",
+          "margin": 26.06,
+          "votesRep": 5592,
+          "votesDem": 3280,
+          "votesTotal": 9109
+        },
+        "Ontonagon26": {
+          "color": "#BF1D29",
+          "label": "James +14.3",
+          "margin": 14.32,
+          "votesRep": 1752,
+          "votesDem": 1313,
+          "votesTotal": 3129
+        },
+        "Osceola26": {
+          "color": "#BF1D29",
+          "label": "James +35.7",
+          "margin": 35.66,
+          "votesRep": 6186,
+          "votesDem": 2934,
+          "votesTotal": 9392
+        },
+        "Oscoda26": {
+          "color": "#BF1D29",
+          "label": "James +32.7",
+          "margin": 32.75,
+          "votesRep": 2410,
+          "votesDem": 1221,
+          "votesTotal": 3717
+        },
+        "Otsego26": {
+          "color": "#BF1D29",
+          "label": "James +28.2",
+          "margin": 28.23,
+          "votesRep": 7092,
+          "votesDem": 3969,
+          "votesTotal": 11334
+        },
+        "Ottawa26": {
+          "color": "#BF1D29",
+          "label": "James +27.5",
+          "margin": 27.47,
+          "votesRep": 80318,
+          "votesDem": 45696,
+          "votesTotal": 128198
+        },
+        "Presque Isle26": {
+          "color": "#BF1D29",
+          "label": "James +15.7",
+          "margin": 15.7,
+          "votesRep": 3788,
+          "votesDem": 2760,
+          "votesTotal": 6686
+        },
+        "Roscommon26": {
+          "color": "#BF1D29",
+          "label": "James +19.3",
+          "margin": 19.3,
+          "votesRep": 6864,
+          "votesDem": 4643,
+          "votesTotal": 11807
+        },
+        "Saginaw26": {
+          "color": "#8AAFFF",
+          "label": "Stabenow +4.6",
+          "margin": -4.62,
+          "votesRep": 37809,
+          "votesDem": 41472,
+          "votesTotal": 80814
+        },
+        "Sanilac26": {
+          "color": "#BF1D29",
+          "label": "James +32.6",
+          "margin": 32.59,
+          "votesRep": 10657,
+          "votesDem": 5418,
+          "votesTotal": 16443
+        },
+        "Schoolcraft26": {
+          "color": "#BF1D29",
+          "label": "James +15.1",
+          "margin": 15.14,
+          "votesRep": 2099,
+          "votesDem": 1547,
+          "votesTotal": 3737
+        },
+        "Shiawassee26": {
+          "color": "#FF5865",
+          "label": "James +9.8",
+          "margin": 9.76,
+          "votesRep": 15865,
+          "votesDem": 13043,
+          "votesTotal": 29720
+        },
+        "St. Clair26": {
+          "color": "#BF1D29",
+          "label": "James +16.4",
+          "margin": 16.38,
+          "votesRep": 38329,
+          "votesDem": 27540,
+          "votesTotal": 67505
+        },
+        "St. Joseph26": {
+          "color": "#BF1D29",
+          "label": "James +26.4",
+          "margin": 26.36,
+          "votesRep": 12489,
+          "votesDem": 7278,
+          "votesTotal": 20403
+        },
+        "Tuscola26": {
+          "color": "#BF1D29",
+          "label": "James +24.4",
+          "margin": 24.42,
+          "votesRep": 13495,
+          "votesDem": 8197,
+          "votesTotal": 22260
+        },
+        "Van Buren26": {
+          "color": "#FF5865",
+          "label": "James +7.7",
+          "margin": 7.66,
+          "votesRep": 15379,
+          "votesDem": 13191,
+          "votesTotal": 29443
+        },
+        "Washtenaw26": {
+          "color": "#1C408C",
+          "label": "Stabenow +44.5",
+          "margin": -44.48,
+          "votesRep": 47380,
+          "votesDem": 123305,
+          "votesTotal": 173226
+        },
+        "Wayne26": {
+          "color": "#1C408C",
+          "label": "Stabenow +40.9",
+          "margin": -40.91,
+          "votesRep": 190884,
+          "votesDem": 455176,
+          "votesTotal": 658391
+        },
+        "Wexford26": {
+          "color": "#BF1D29",
+          "label": "James +28.8",
+          "margin": 28.82,
+          "votesRep": 8745,
+          "votesDem": 4832,
+          "votesTotal": 13983
+        }
+      }
+    }
+  ]
+}

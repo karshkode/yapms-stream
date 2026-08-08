@@ -2,12 +2,13 @@ import type { MapTab, RegionResult } from '../race-profile';
 import type { StreamState } from '../stream-state';
 import {
 	outstandingVotes,
-	projectedRaceTotal,
 	regionMargin,
 	regionSwing,
 	regionTurnoutIndex,
 	resolveBaseline,
-	type ResolvedBaseline
+	turnoutScale,
+	type ResolvedBaseline,
+	type TurnoutScale
 } from './metrics';
 
 /**
@@ -77,9 +78,10 @@ export function applyStreamColors(
 	const candidateById = new Map(state.candidates.map((c) => [c.id, c]));
 	const archivalYear = state.ui.archivalYear;
 	const baseline = resolveBaseline(state);
-	// Computed once for the whole map rather than per region: it's a sum over
-	// every region, and the turnout fill needs it for each of them.
-	const projectedTotal = tab === 'turnout' ? projectedRaceTotal(state.regions) : 0;
+	// Computed once for the whole map rather than per region: each is a sum over
+	// every region, and the turnout fill needs both for each of them.
+	const scale =
+		tab === 'turnout' ? turnoutScale(state.regions, baseline) : { liveTotal: 0, baseTotal: 0 };
 	// Scale the remaining tab against the biggest pile of uncounted votes on the
 	// map, so the shading always has a top end. An absolute scale would leave a
 	// county race almost entirely unshaded and a presidential map saturated.
@@ -107,7 +109,7 @@ export function applyStreamColors(
 		} else if (tab === 'swing') {
 			fill = fillForSwingTab(result, state, baseline);
 		} else if (tab === 'turnout') {
-			fill = fillForTurnoutTab(result, baseline, projectedTotal);
+			fill = fillForTurnoutTab(result, baseline, scale);
 		}
 
 		node.style.fill = fill;
@@ -128,7 +130,7 @@ export function applyStreamColors(
 		}
 	}
 
-	applyValueTextLabels(svgRoot, state, tab, regionByAttr, baseline, projectedTotal);
+	applyValueTextLabels(svgRoot, state, tab, regionByAttr, baseline, scale);
 }
 
 function maxOutstanding(regions: RegionResult[]): number {
@@ -233,10 +235,10 @@ function fillForSwingTab(
 function fillForTurnoutTab(
 	result: RegionResult | undefined,
 	baseline: ResolvedBaseline | null,
-	projectedTotal: number
+	scale: TurnoutScale
 ): string {
 	if (!result) return NEUTRAL;
-	const index = regionTurnoutIndex(result, projectedTotal, baseline);
+	const index = regionTurnoutIndex(result, scale, baseline);
 	if (index === null) return NEUTRAL;
 
 	const delta = index - 1;
@@ -262,7 +264,7 @@ function applyValueTextLabels(
 	tab: MapTab,
 	regionByAttr: Map<string, RegionResult>,
 	baseline: ResolvedBaseline | null,
-	projectedTotal: number
+	scale: TurnoutScale
 ): void {
 	const archivalYear = state.ui.archivalYear;
 	const texts = svgRoot.querySelectorAll<SVGTextElement>('[for-region]');
@@ -277,7 +279,7 @@ function applyValueTextLabels(
 				? result.archivalByYear[archivalYear]
 				: null;
 
-		const label = computeLabel(tab, result, state, archival, baseline, projectedTotal);
+		const label = computeLabel(tab, result, state, archival, baseline, scale);
 		if (label) {
 			valueTspan.textContent = label;
 			valueTspan.style.display = '';
@@ -296,7 +298,7 @@ function computeLabel(
 	state: StreamState,
 	archival: { margin: number } | null,
 	baseline: ResolvedBaseline | null,
-	projectedTotal: number
+	scale: TurnoutScale
 ): string {
 	if (!result) return '';
 
@@ -326,7 +328,7 @@ function computeLabel(
 	}
 
 	if (tab === 'turnout') {
-		const index = regionTurnoutIndex(result, projectedTotal, baseline);
+		const index = regionTurnoutIndex(result, scale, baseline);
 		if (index === null) return '';
 		const pct = (index - 1) * 100;
 		if (Math.abs(pct) < 1) return '=';

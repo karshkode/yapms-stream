@@ -1,0 +1,828 @@
+{
+  "stateFips": "04",
+  "stateName": "Arizona",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Kari Lake",
+      "candDem": "Ruben Gallego",
+      "shortRep": "Lake",
+      "shortDem": "Gallego",
+      "partisan": true,
+      "margin": -2.46,
+      "votesRep": 1595761,
+      "votesDem": 1676335,
+      "votesTotal": 3347964,
+      "regions": {
+        "Apache04": {
+          "color": "#1C408C",
+          "label": "Gallego +27.6",
+          "margin": -27.64,
+          "votesRep": 11283,
+          "votesDem": 19901,
+          "votesTotal": 31859
+        },
+        "Cochise04": {
+          "color": "#BF1D29",
+          "label": "Lake +17.4",
+          "margin": 17.4,
+          "votesRep": 33184,
+          "votesDem": 23347,
+          "votesTotal": 58093
+        },
+        "Coconino04": {
+          "color": "#1C408C",
+          "label": "Gallego +26.7",
+          "margin": -26.71,
+          "votesRep": 24825,
+          "votesDem": 42924,
+          "votesTotal": 69470
+        },
+        "Gila04": {
+          "color": "#BF1D29",
+          "label": "Lake +30.3",
+          "margin": 30.28,
+          "votesRep": 17433,
+          "votesDem": 9330,
+          "votesTotal": 27327
+        },
+        "Graham04": {
+          "color": "#BF1D29",
+          "label": "Lake +42.1",
+          "margin": 42.07,
+          "votesRep": 10385,
+          "votesDem": 4235,
+          "votesTotal": 14993
+        },
+        "Greenlee04": {
+          "color": "#BF1D29",
+          "label": "Lake +30.7",
+          "margin": 30.69,
+          "votesRep": 2078,
+          "votesDem": 1102,
+          "votesTotal": 3283
+        },
+        "La Paz04": {
+          "color": "#BF1D29",
+          "label": "Lake +37.1",
+          "margin": 37.12,
+          "votesRep": 4998,
+          "votesDem": 2292,
+          "votesTotal": 7509
+        },
+        "Maricopa04": {
+          "color": "#577CCC",
+          "label": "Gallego +5.3",
+          "margin": -5.3,
+          "votesRep": 940465,
+          "votesDem": 1045766,
+          "votesTotal": 2030083
+        },
+        "Mohave04": {
+          "color": "#BF1D29",
+          "label": "Lake +49.9",
+          "margin": 49.89,
+          "votesRep": 79494,
+          "votesDem": 26578,
+          "votesTotal": 108470
+        },
+        "Navajo04": {
+          "color": "#BF1D29",
+          "label": "Lake +10.2",
+          "margin": 10.21,
+          "votesRep": 27218,
+          "votesDem": 22173,
+          "votesTotal": 50469
+        },
+        "Pima04": {
+          "color": "#1C408C",
+          "label": "Gallego +21.5",
+          "margin": -21.5,
+          "votesRep": 193021,
+          "votesDem": 298751,
+          "votesTotal": 505631
+        },
+        "Pinal04": {
+          "color": "#BF1D29",
+          "label": "Lake +14.3",
+          "margin": 14.3,
+          "votesRep": 115595,
+          "votesDem": 86674,
+          "votesTotal": 206891
+        },
+        "Santa Cruz04": {
+          "color": "#1C408C",
+          "label": "Gallego +30.6",
+          "margin": -30.59,
+          "votesRep": 6370,
+          "votesDem": 11986,
+          "votesTotal": 18952
+        },
+        "Yavapai04": {
+          "color": "#BF1D29",
+          "label": "Lake +28.3",
+          "margin": 28.31,
+          "votesRep": 93200,
+          "votesDem": 52077,
+          "votesTotal": 147832
+        },
+        "Yuma04": {
+          "color": "#BF1D29",
+          "label": "Lake +10.7",
+          "margin": 10.72,
+          "votesRep": 36212,
+          "votesDem": 29199,
+          "votesTotal": 67102
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Kari Lake",
+      "candDem": "Katie Hobbs",
+      "shortRep": "Lake",
+      "shortDem": "Hobbs",
+      "partisan": true,
+      "margin": -0.67,
+      "votesRep": 1270718,
+      "votesDem": 1287891,
+      "votesTotal": 2570910,
+      "regions": {
+        "Apache04": {
+          "color": "#1C408C",
+          "label": "Hobbs +33.3",
+          "margin": -33.33,
+          "votesRep": 8870,
+          "votesDem": 17739,
+          "votesTotal": 26679
+        },
+        "Cochise04": {
+          "color": "#BF1D29",
+          "label": "Lake +17.8",
+          "margin": 17.81,
+          "votesRep": 27433,
+          "votesDem": 19137,
+          "votesTotal": 46755
+        },
+        "Coconino04": {
+          "color": "#1C408C",
+          "label": "Hobbs +25.8",
+          "margin": -25.77,
+          "votesRep": 20298,
+          "votesDem": 34389,
+          "votesTotal": 54856
+        },
+        "Gila04": {
+          "color": "#BF1D29",
+          "label": "Lake +31.6",
+          "margin": 31.6,
+          "votesRep": 14763,
+          "votesDem": 7674,
+          "votesTotal": 22499
+        },
+        "Graham04": {
+          "color": "#BF1D29",
+          "label": "Lake +43.1",
+          "margin": 43.08,
+          "votesRep": 7760,
+          "votesDem": 3087,
+          "votesTotal": 10872
+        },
+        "Greenlee04": {
+          "color": "#BF1D29",
+          "label": "Lake +24.8",
+          "margin": 24.78,
+          "votesRep": 1526,
+          "votesDem": 920,
+          "votesTotal": 2446
+        },
+        "La Paz04": {
+          "color": "#BF1D29",
+          "label": "Lake +40.1",
+          "margin": 40.07,
+          "votesRep": 3847,
+          "votesDem": 1646,
+          "votesTotal": 5518
+        },
+        "Maricopa04": {
+          "color": "#8AAFFF",
+          "label": "Hobbs +2.4",
+          "margin": -2.44,
+          "votesRep": 752710,
+          "votesDem": 790352,
+          "votesTotal": 1552777
+        },
+        "Mohave04": {
+          "color": "#BF1D29",
+          "label": "Lake +50.0",
+          "margin": 50.01,
+          "votesRep": 61125,
+          "votesDem": 20369,
+          "votesTotal": 81745
+        },
+        "Navajo04": {
+          "color": "#BF1D29",
+          "label": "Lake +10.6",
+          "margin": 10.6,
+          "votesRep": 22340,
+          "votesDem": 18058,
+          "votesTotal": 40508
+        },
+        "Pima04": {
+          "color": "#1C408C",
+          "label": "Hobbs +21.2",
+          "margin": -21.17,
+          "votesRep": 157034,
+          "votesDem": 241398,
+          "votesTotal": 399525
+        },
+        "Pinal04": {
+          "color": "#BF1D29",
+          "label": "Lake +16.5",
+          "margin": 16.52,
+          "votesRep": 83771,
+          "votesDem": 60019,
+          "votesTotal": 144233
+        },
+        "Santa Cruz04": {
+          "color": "#1C408C",
+          "label": "Hobbs +33.2",
+          "margin": -33.24,
+          "votesRep": 4371,
+          "votesDem": 8724,
+          "votesTotal": 13132
+        },
+        "Yavapai04": {
+          "color": "#BF1D29",
+          "label": "Lake +28.0",
+          "margin": 28.03,
+          "votesRep": 78832,
+          "votesDem": 44316,
+          "votesTotal": 123178
+        },
+        "Yuma04": {
+          "color": "#BF1D29",
+          "label": "Lake +13.0",
+          "margin": 12.96,
+          "votesRep": 26038,
+          "votesDem": 20063,
+          "votesTotal": 46187
+        }
+      }
+    },
+    {
+      "id": "senate-2022",
+      "office": "senate",
+      "year": 2022,
+      "label": "2022 US Senate",
+      "candRep": "Blake Masters",
+      "candDem": "Mark Kelly",
+      "shortRep": "Masters",
+      "shortDem": "Kelly",
+      "partisan": true,
+      "margin": -4.99,
+      "votesRep": 1196284,
+      "votesDem": 1321911,
+      "votesTotal": 2575762,
+      "regions": {
+        "Apache04": {
+          "color": "#1C408C",
+          "label": "Kelly +37.3",
+          "margin": -37.32,
+          "votesRep": 8163,
+          "votesDem": 17884,
+          "votesTotal": 26619
+        },
+        "Cochise04": {
+          "color": "#BF1D29",
+          "label": "Masters +12.2",
+          "margin": 12.16,
+          "votesRep": 25539,
+          "votesDem": 20002,
+          "votesTotal": 46987
+        },
+        "Coconino04": {
+          "color": "#1C408C",
+          "label": "Kelly +30.6",
+          "margin": -30.55,
+          "votesRep": 18697,
+          "votesDem": 35149,
+          "votesTotal": 55101
+        },
+        "Gila04": {
+          "color": "#BF1D29",
+          "label": "Masters +27.2",
+          "margin": 27.23,
+          "votesRep": 13958,
+          "votesDem": 7984,
+          "votesTotal": 22573
+        },
+        "Graham04": {
+          "color": "#BF1D29",
+          "label": "Masters +39.0",
+          "margin": 38.99,
+          "votesRep": 7388,
+          "votesDem": 3243,
+          "votesTotal": 10898
+        },
+        "Greenlee04": {
+          "color": "#BF1D29",
+          "label": "Masters +17.9",
+          "margin": 17.87,
+          "votesRep": 1392,
+          "votesDem": 970,
+          "votesTotal": 2464
+        },
+        "La Paz04": {
+          "color": "#BF1D29",
+          "label": "Masters +36.2",
+          "margin": 36.24,
+          "votesRep": 3656,
+          "votesDem": 1711,
+          "votesTotal": 5533
+        },
+        "Maricopa04": {
+          "color": "#577CCC",
+          "label": "Kelly +6.5",
+          "margin": -6.52,
+          "votesRep": 710480,
+          "votesDem": 809573,
+          "votesTotal": 1553939
+        },
+        "Mohave04": {
+          "color": "#BF1D29",
+          "label": "Masters +47.3",
+          "margin": 47.25,
+          "votesRep": 58737,
+          "votesDem": 21040,
+          "votesTotal": 81999
+        },
+        "Navajo04": {
+          "color": "#FF5865",
+          "label": "Masters +5.7",
+          "margin": 5.66,
+          "votesRep": 20970,
+          "votesDem": 18724,
+          "votesTotal": 40661
+        },
+        "Pima04": {
+          "color": "#1C408C",
+          "label": "Kelly +26.3",
+          "margin": -26.27,
+          "votesRep": 144936,
+          "votesDem": 248230,
+          "votesTotal": 401089
+        },
+        "Pinal04": {
+          "color": "#BF1D29",
+          "label": "Masters +11.9",
+          "margin": 11.94,
+          "votesRep": 78820,
+          "votesDem": 62009,
+          "votesTotal": 144612
+        },
+        "Santa Cruz04": {
+          "color": "#1C408C",
+          "label": "Kelly +39.5",
+          "margin": -39.55,
+          "votesRep": 3896,
+          "votesDem": 8993,
+          "votesTotal": 13205
+        },
+        "Yavapai04": {
+          "color": "#BF1D29",
+          "label": "Masters +25.2",
+          "margin": 25.19,
+          "votesRep": 75737,
+          "votesDem": 45258,
+          "votesTotal": 123755
+        },
+        "Yuma04": {
+          "color": "#FF5865",
+          "label": "Masters +6.2",
+          "margin": 6.16,
+          "votesRep": 23915,
+          "votesDem": 21141,
+          "votesTotal": 46327
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Doug Ducey",
+      "candDem": "David Garcia",
+      "shortRep": "Ducey",
+      "shortDem": "Garcia",
+      "partisan": true,
+      "margin": 14.47,
+      "votesRep": 1330863,
+      "votesDem": 994341,
+      "votesTotal": 2379369,
+      "regions": {
+        "Apache04": {
+          "color": "#1C408C",
+          "label": "Garcia +24.0",
+          "margin": -23.95,
+          "votesRep": 9175,
+          "votesDem": 14955,
+          "votesTotal": 25088
+        },
+        "Cochise04": {
+          "color": "#BF1D29",
+          "label": "Ducey +34.1",
+          "margin": 34.07,
+          "votesRep": 29638,
+          "votesDem": 14576,
+          "votesTotal": 45483
+        },
+        "Coconino04": {
+          "color": "#1C408C",
+          "label": "Garcia +14.8",
+          "margin": -14.83,
+          "votesRep": 22778,
+          "votesDem": 30712,
+          "votesTotal": 55014
+        },
+        "Gila04": {
+          "color": "#BF1D29",
+          "label": "Ducey +44.0",
+          "margin": 43.96,
+          "votesRep": 14444,
+          "votesDem": 5623,
+          "votesTotal": 20558
+        },
+        "Graham04": {
+          "color": "#BF1D29",
+          "label": "Ducey +50.3",
+          "margin": 50.33,
+          "votesRep": 7776,
+          "votesDem": 2569,
+          "votesTotal": 10638
+        },
+        "Greenlee04": {
+          "color": "#BF1D29",
+          "label": "Ducey +32.6",
+          "margin": 32.6,
+          "votesRep": 1637,
+          "votesDem": 832,
+          "votesTotal": 2560
+        },
+        "La Paz04": {
+          "color": "#BF1D29",
+          "label": "Ducey +54.9",
+          "margin": 54.89,
+          "votesRep": 3852,
+          "votesDem": 1122,
+          "votesTotal": 5107
+        },
+        "Maricopa04": {
+          "color": "#BF1D29",
+          "label": "Ducey +14.0",
+          "margin": 14.05,
+          "votesRep": 800210,
+          "votesDem": 603055,
+          "votesTotal": 1434695
+        },
+        "Mohave04": {
+          "color": "#BF1D29",
+          "label": "Ducey +61.3",
+          "margin": 61.34,
+          "votesRep": 56682,
+          "votesDem": 13580,
+          "votesTotal": 71660
+        },
+        "Navajo04": {
+          "color": "#BF1D29",
+          "label": "Ducey +23.2",
+          "margin": 23.18,
+          "votesRep": 21880,
+          "votesDem": 13646,
+          "votesTotal": 36636
+        },
+        "Pima04": {
+          "color": "#8AAFFF",
+          "label": "Garcia +2.8",
+          "margin": -2.79,
+          "votesRep": 184621,
+          "votesDem": 195227,
+          "votesTotal": 389053
+        },
+        "Pinal04": {
+          "color": "#BF1D29",
+          "label": "Ducey +32.0",
+          "margin": 31.97,
+          "votesRep": 75272,
+          "votesDem": 38801,
+          "votesTotal": 117020
+        },
+        "Santa Cruz04": {
+          "color": "#1C408C",
+          "label": "Garcia +27.4",
+          "margin": -27.39,
+          "votesRep": 4792,
+          "votesDem": 8407,
+          "votesTotal": 13473
+        },
+        "Yavapai04": {
+          "color": "#BF1D29",
+          "label": "Ducey +39.5",
+          "margin": 39.5,
+          "votesRep": 74148,
+          "votesDem": 32159,
+          "votesTotal": 108475
+        },
+        "Yuma04": {
+          "color": "#BF1D29",
+          "label": "Ducey +11.3",
+          "margin": 11.34,
+          "votesRep": 23958,
+          "votesDem": 19077,
+          "votesTotal": 43909
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Martha McSally",
+      "candDem": "Kyrsten Sinema",
+      "shortRep": "McSally",
+      "shortDem": "Sinema",
+      "partisan": true,
+      "margin": -2.4,
+      "votesRep": 1135200,
+      "votesDem": 1191100,
+      "votesTotal": 2387543,
+      "regions": {
+        "Apache04": {
+          "color": "#1C408C",
+          "label": "Sinema +35.2",
+          "margin": -35.21,
+          "votesRep": 7810,
+          "votesDem": 16298,
+          "votesTotal": 25123
+        },
+        "Cochise04": {
+          "color": "#BF1D29",
+          "label": "McSally +21.5",
+          "margin": 21.54,
+          "votesRep": 26929,
+          "votesDem": 17383,
+          "votesTotal": 45618
+        },
+        "Coconino04": {
+          "color": "#1C408C",
+          "label": "Sinema +28.0",
+          "margin": -28.03,
+          "votesRep": 19249,
+          "votesDem": 34240,
+          "votesTotal": 55340
+        },
+        "Gila04": {
+          "color": "#BF1D29",
+          "label": "McSally +22.9",
+          "margin": 22.89,
+          "votesRep": 12180,
+          "votesDem": 7643,
+          "votesTotal": 20529
+        },
+        "Graham04": {
+          "color": "#BF1D29",
+          "label": "McSally +34.2",
+          "margin": 34.21,
+          "votesRep": 6870,
+          "votesDem": 3368,
+          "votesTotal": 10624
+        },
+        "Greenlee04": {
+          "color": "#BF1D29",
+          "label": "McSally +15.2",
+          "margin": 15.22,
+          "votesRep": 1416,
+          "votesDem": 1042,
+          "votesTotal": 2571
+        },
+        "La Paz04": {
+          "color": "#BF1D29",
+          "label": "McSally +34.0",
+          "margin": 33.98,
+          "votesRep": 3265,
+          "votesDem": 1609,
+          "votesTotal": 5081
+        },
+        "Maricopa04": {
+          "color": "#8AAFFF",
+          "label": "Sinema +4.3",
+          "margin": -4.29,
+          "votesRep": 672505,
+          "votesDem": 732761,
+          "votesTotal": 1439917
+        },
+        "Mohave04": {
+          "color": "#BF1D29",
+          "label": "McSally +44.6",
+          "margin": 44.65,
+          "votesRep": 50209,
+          "votesDem": 19214,
+          "votesTotal": 71609
+        },
+        "Navajo04": {
+          "color": "#FF5865",
+          "label": "McSally +6.1",
+          "margin": 6.06,
+          "votesRep": 18767,
+          "votesDem": 16624,
+          "votesTotal": 36687
+        },
+        "Pima04": {
+          "color": "#1C408C",
+          "label": "Sinema +15.9",
+          "margin": -15.9,
+          "votesRep": 160550,
+          "votesDem": 221242,
+          "votesTotal": 391058
+        },
+        "Pinal04": {
+          "color": "#BF1D29",
+          "label": "McSally +11.7",
+          "margin": 11.72,
+          "votesRep": 63782,
+          "votesDem": 50395,
+          "votesTotal": 117560
+        },
+        "Santa Cruz04": {
+          "color": "#1C408C",
+          "label": "Sinema +41.4",
+          "margin": -41.42,
+          "votesRep": 3828,
+          "votesDem": 9241,
+          "votesTotal": 13495
+        },
+        "Yavapai04": {
+          "color": "#BF1D29",
+          "label": "McSally +23.8",
+          "margin": 23.84,
+          "votesRep": 65308,
+          "votesDem": 40160,
+          "votesTotal": 108507
+        },
+        "Yuma04": {
+          "color": "#FF5865",
+          "label": "McSally +6.3",
+          "margin": 6.25,
+          "votesRep": 22532,
+          "votesDem": 19880,
+          "votesTotal": 43824
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "John McCain",
+      "candDem": "Ann Kirkpatrick",
+      "shortRep": "McCain",
+      "shortDem": "Kirkpatrick",
+      "partisan": true,
+      "margin": 13.72,
+      "votesRep": 1359258,
+      "votesDem": 1031241,
+      "votesTotal": 2547042,
+      "regions": {
+        "Apache04": {
+          "color": "#1C408C",
+          "label": "Kirkpatrick +39.8",
+          "margin": -39.8,
+          "votesRep": 7944,
+          "votesDem": 18446,
+          "votesTotal": 27866
+        },
+        "Cochise04": {
+          "color": "#BF1D29",
+          "label": "McCain +22.1",
+          "margin": 22.07,
+          "votesRep": 27627,
+          "votesDem": 17638,
+          "votesTotal": 48975
+        },
+        "Coconino04": {
+          "color": "#1C408C",
+          "label": "Kirkpatrick +13.8",
+          "margin": -13.75,
+          "votesRep": 24031,
+          "votesDem": 31695,
+          "votesTotal": 59181
+        },
+        "Gila04": {
+          "color": "#BF1D29",
+          "label": "McCain +32.5",
+          "margin": 32.51,
+          "votesRep": 13157,
+          "votesDem": 6701,
+          "votesTotal": 21652
+        },
+        "Graham04": {
+          "color": "#BF1D29",
+          "label": "McCain +40.4",
+          "margin": 40.41,
+          "votesRep": 7728,
+          "votesDem": 3280,
+          "votesTotal": 11986
+        },
+        "Greenlee04": {
+          "color": "#BF1D29",
+          "label": "McCain +20.0",
+          "margin": 20.01,
+          "votesRep": 1784,
+          "votesDem": 1189,
+          "votesTotal": 3276
+        },
+        "La Paz04": {
+          "color": "#BF1D29",
+          "label": "McCain +38.4",
+          "margin": 38.42,
+          "votesRep": 3662,
+          "votesDem": 1629,
+          "votesTotal": 5803
+        },
+        "Maricopa04": {
+          "color": "#BF1D29",
+          "label": "McCain +16.6",
+          "margin": 16.59,
+          "votesRep": 842425,
+          "votesDem": 602635,
+          "votesTotal": 1534633
+        },
+        "Mohave04": {
+          "color": "#BF1D29",
+          "label": "McCain +45.2",
+          "margin": 45.22,
+          "votesRep": 50486,
+          "votesDem": 19045,
+          "votesTotal": 77404
+        },
+        "Navajo04": {
+          "color": "#FF8B98",
+          "label": "McCain +3.1",
+          "margin": 3.06,
+          "votesRep": 18760,
+          "votesDem": 17645,
+          "votesTotal": 39470
+        },
+        "Pima04": {
+          "color": "#8AAFFF",
+          "label": "Kirkpatrick +3.7",
+          "margin": -3.67,
+          "votesRep": 187910,
+          "votesDem": 202213,
+          "votesTotal": 412002
+        },
+        "Pinal04": {
+          "color": "#BF1D29",
+          "label": "McCain +23.2",
+          "margin": 23.17,
+          "votesRep": 72787,
+          "votesDem": 45402,
+          "votesTotal": 127515
+        },
+        "Santa Cruz04": {
+          "color": "#1C408C",
+          "label": "Kirkpatrick +26.7",
+          "margin": -26.72,
+          "votesRep": 5635,
+          "votesDem": 9745,
+          "votesTotal": 16031
+        },
+        "Yavapai04": {
+          "color": "#BF1D29",
+          "label": "McCain +32.7",
+          "margin": 32.67,
+          "votesRep": 68032,
+          "votesDem": 34527,
+          "votesTotal": 111366
+        },
+        "Yuma04": {
+          "color": "#BF1D29",
+          "label": "McCain +16.8",
+          "margin": 16.77,
+          "votesRep": 27290,
+          "votesDem": 19451,
+          "votesTotal": 49882
+        }
+      }
+    }
+  ]
+}

@@ -1,11 +1,7 @@
 <script lang="ts">
 	import { streamStore } from '$lib/stream-store.svelte';
-	import {
-		projectedRaceTotal,
-		regionSwing,
-		regionTurnoutIndex,
-		resolveBaseline
-	} from '$lib/map/metrics';
+	import { regionSwing, regionTurnoutIndex, resolveBaseline, turnoutScale } from '$lib/map/metrics';
+	import { activeHistoryRace } from '$lib/map/office-history.svelte';
 
 	interface Props {
 		onclose: () => void;
@@ -117,6 +113,41 @@
 
 	let nominees = $derived(NOMINEES[displayYear] ?? NOMINEES['2024']);
 
+	// This county's line in the past same-office race, when that's what the
+	// comparison is set to. Shown in place of the presidential default below,
+	// because it's the race the swing on this card is measured against — the
+	// presidential numbers alongside a Senate swing invite reading one as the
+	// other. Scrubbing the archival slider is an explicit ask for the
+	// presidential figures, so that still wins.
+	let history = $derived.by(() => {
+		if (!region || state.ui.archivalYear) return null;
+		const race = activeHistoryRace(state);
+		const snap = race?.regions[region.regionAttr];
+		if (!race || !snap) return null;
+		// Every candidate's votes, not just the top two, so these percentages are
+		// shares of the electorate and agree with what the turnout mode divides by.
+		const total = snap.votesTotal || snap.votesRep + snap.votesDem;
+		// A race the bake flagged non-partisan is two candidates of the same party
+		// (California's top-two Senate races) or one whose source carried no party
+		// at all. `votesRep` is then just the side the margin is positive for, so
+		// painting it red and labelling it (R) would state something false.
+		const rows = [
+			{
+				name: race.candRep,
+				party: race.partisan ? 'R' : '',
+				color: race.partisan ? '#BF1D29' : '#8a8a94',
+				votes: snap.votesRep
+			},
+			{
+				name: race.candDem,
+				party: race.partisan ? 'D' : '',
+				color: race.partisan ? '#1375B7' : '#5c5c66',
+				votes: snap.votesDem
+			}
+		].map((row) => ({ ...row, pct: total > 0 ? (row.votes / total) * 100 : 0 }));
+		return { label: race.label, total, rows, marginLabel: snap.label, color: snap.color };
+	});
+
 	// Comparison figures against whichever baseline the Compare panel selected —
 	// the same numbers the map is shaded with, from the same functions, so the
 	// card and the county under the cursor can't disagree.
@@ -125,7 +156,7 @@
 	// race-wide totals: every county reported the same swing, and it was the
 	// statewide one.
 	let baseline = $derived(resolveBaseline(state));
-	let projectedTotal = $derived(projectedRaceTotal(state.regions));
+	let scale = $derived(turnoutScale(state.regions, baseline));
 
 	let swing = $derived.by(() => {
 		if (!region) return null;
@@ -145,7 +176,7 @@
 	// time, whoever it's turning out for.
 	let turnout = $derived.by(() => {
 		if (!region) return null;
-		const index = regionTurnoutIndex(region, projectedTotal, baseline);
+		const index = regionTurnoutIndex(region, scale, baseline);
 		if (index === null) return null;
 		const pct = (index - 1) * 100;
 		return {
@@ -267,14 +298,48 @@
 					</div>
 				{/if}
 			</section>
-		{:else if region.reportedPct === 0 && archival}
+		{:else if region.reportedPct === 0 && (history || archival)}
 			<section class="live muted">
 				<div class="section-head">No reporting yet</div>
-				<p class="leader-row">Showing {archival.year} presidential baseline below.</p>
+				<p class="leader-row">
+					Showing the {history ? history.label : `${archival?.year} presidential`} result below.
+				</p>
 			</section>
 		{/if}
 
-		{#if archival}
+		{#if history}
+			<section class="archival-section">
+				<div class="section-head">
+					{history.label}
+					{#if history.marginLabel}
+						<span class="margin-chip" style:background-color={history.color ?? '#555'}>
+							{history.marginLabel}
+						</span>
+					{/if}
+				</div>
+				<ul class="bars">
+					{#each history.rows as row (row.name)}
+						<li>
+							<div class="row-head">
+								<span class="name" style:color={row.color}>
+									{row.name}{row.party ? ` (${row.party})` : ''}
+								</span>
+								<span class="pct">{row.pct.toFixed(1)}%</span>
+							</div>
+							<div class="bar-track">
+								<div
+									class="bar-fill"
+									style:width="{row.pct}%"
+									style:background-color={row.color}
+								></div>
+							</div>
+							<div class="row-foot">{fmtNum(row.votes)} votes</div>
+						</li>
+					{/each}
+				</ul>
+				<p class="total">Total: {fmtNum(history.total)} votes cast</p>
+			</section>
+		{:else if archival}
 			<section class="archival-section">
 				<div class="section-head">
 					{archival.year} Presidential

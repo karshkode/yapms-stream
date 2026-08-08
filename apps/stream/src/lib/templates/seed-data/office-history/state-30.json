@@ -1,0 +1,1401 @@
+{
+  "stateFips": "30",
+  "stateName": "Montana",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Greg Gianforte",
+      "candDem": "Ryan Busse",
+      "shortRep": "Gianforte",
+      "shortDem": "Busse",
+      "partisan": true,
+      "margin": 20.76,
+      "votesRep": 354491,
+      "votesDem": 232604,
+      "votesTotal": 602283,
+      "regions": {
+        "Beaverhead30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +46.5",
+          "margin": 46.51,
+          "votesRep": 4139,
+          "votesDem": 1511,
+          "votesTotal": 5771
+        },
+        "Big Horn30": {
+          "color": "#FF8B98",
+          "label": "Gianforte +2.0",
+          "margin": 2.04,
+          "votesRep": 2206,
+          "votesDem": 2118,
+          "votesTotal": 4451
+        },
+        "Blaine30": {
+          "color": "#FF5865",
+          "label": "Gianforte +5.7",
+          "margin": 5.71,
+          "votesRep": 1555,
+          "votesDem": 1387,
+          "votesTotal": 3024
+        },
+        "Broadwater30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +60.0",
+          "margin": 60.03,
+          "votesRep": 3723,
+          "votesDem": 930,
+          "votesTotal": 4798
+        },
+        "Carbon30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +34.0",
+          "margin": 34,
+          "votesRep": 4812,
+          "votesDem": 2370,
+          "votesTotal": 7351
+        },
+        "Carter30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +87.2",
+          "margin": 87.18,
+          "votesRep": 774,
+          "votesDem": 53,
+          "votesTotal": 845
+        },
+        "Cascade30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +27.3",
+          "margin": 27.3,
+          "votesRep": 23261,
+          "votesDem": 13284,
+          "votesTotal": 37474
+        },
+        "Chouteau30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +38.4",
+          "margin": 38.38,
+          "votesRep": 1994,
+          "votesDem": 888,
+          "votesTotal": 2931
+        },
+        "Custer30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +49.6",
+          "margin": 49.57,
+          "votesRep": 4203,
+          "votesDem": 1417,
+          "votesTotal": 5790
+        },
+        "Daniels30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +69.8",
+          "margin": 69.8,
+          "votesRep": 787,
+          "votesDem": 140,
+          "votesTotal": 947
+        },
+        "Dawson30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +58.7",
+          "margin": 58.65,
+          "votesRep": 3553,
+          "votesDem": 926,
+          "votesTotal": 4603
+        },
+        "Deer Lodge30": {
+          "color": "#8AAFFF",
+          "label": "Busse +4.8",
+          "margin": -4.8,
+          "votesRep": 2259,
+          "votesDem": 2487,
+          "votesTotal": 4888
+        },
+        "Fallon30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +78.4",
+          "margin": 78.36,
+          "votesRep": 1302,
+          "votesDem": 158,
+          "votesTotal": 1489
+        },
+        "Fergus30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +51.1",
+          "margin": 51.06,
+          "votesRep": 4945,
+          "votesDem": 1602,
+          "votesTotal": 6701
+        },
+        "Flathead30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +34.9",
+          "margin": 34.86,
+          "votesRep": 41539,
+          "votesDem": 20064,
+          "votesTotal": 63054
+        },
+        "Gallatin30": {
+          "color": "#8AAFFF",
+          "label": "Busse +3.5",
+          "margin": -3.46,
+          "votesRep": 32843,
+          "votesDem": 35200,
+          "votesTotal": 69785
+        },
+        "Garfield30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +91.3",
+          "margin": 91.35,
+          "votesRep": 752,
+          "votesDem": 34,
+          "votesTotal": 793
+        },
+        "Glacier30": {
+          "color": "#1C408C",
+          "label": "Busse +20.9",
+          "margin": -20.87,
+          "votesRep": 1955,
+          "votesDem": 2986,
+          "votesTotal": 5095
+        },
+        "Golden Valley30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +73.6",
+          "margin": 73.57,
+          "votesRep": 440,
+          "votesDem": 67,
+          "votesTotal": 518
+        },
+        "Granite30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +42.2",
+          "margin": 42.17,
+          "votesRep": 1507,
+          "votesDem": 613,
+          "votesTotal": 2166
+        },
+        "Hill30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +18.9",
+          "margin": 18.92,
+          "votesRep": 3910,
+          "votesDem": 2666,
+          "votesTotal": 6782
+        },
+        "Jefferson30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +35.8",
+          "margin": 35.77,
+          "votesRep": 5507,
+          "votesDem": 2605,
+          "votesTotal": 8323
+        },
+        "Judith Basin30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +64.7",
+          "margin": 64.65,
+          "votesRep": 1090,
+          "votesDem": 234,
+          "votesTotal": 1358
+        },
+        "Lake30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +21.0",
+          "margin": 21.02,
+          "votesRep": 9937,
+          "votesDem": 6485,
+          "votesTotal": 16850
+        },
+        "Lewis and Clark30": {
+          "color": "#FF5865",
+          "label": "Gianforte +5.6",
+          "margin": 5.65,
+          "votesRep": 21678,
+          "votesDem": 19360,
+          "votesTotal": 42103
+        },
+        "Liberty30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +58.8",
+          "margin": 58.83,
+          "votesRep": 787,
+          "votesDem": 204,
+          "votesTotal": 1000
+        },
+        "Lincoln30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +54.0",
+          "margin": 54.01,
+          "votesRep": 8820,
+          "votesDem": 2634,
+          "votesTotal": 11752
+        },
+        "Madison30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +45.5",
+          "margin": 45.53,
+          "votesRep": 4611,
+          "votesDem": 1726,
+          "votesTotal": 6472
+        },
+        "McCone30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +73.3",
+          "margin": 73.31,
+          "votesRep": 922,
+          "votesDem": 142,
+          "votesTotal": 1083
+        },
+        "Meagher30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +57.0",
+          "margin": 56.98,
+          "votesRep": 894,
+          "votesDem": 245,
+          "votesTotal": 1166
+        },
+        "Mineral30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +48.2",
+          "margin": 48.21,
+          "votesRep": 2026,
+          "votesDem": 708,
+          "votesTotal": 2815
+        },
+        "Missoula30": {
+          "color": "#1C408C",
+          "label": "Busse +22.1",
+          "margin": -22.11,
+          "votesRep": 27670,
+          "votesDem": 43378,
+          "votesTotal": 72810
+        },
+        "Musselshell30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +74.8",
+          "margin": 74.76,
+          "votesRep": 2555,
+          "votesDem": 369,
+          "votesTotal": 2999
+        },
+        "Park30": {
+          "color": "#FF8B98",
+          "label": "Gianforte +4.4",
+          "margin": 4.43,
+          "votesRep": 5947,
+          "votesDem": 5442,
+          "votesTotal": 11725
+        },
+        "Petroleum30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +78.3",
+          "margin": 78.26,
+          "votesRep": 287,
+          "votesDem": 35,
+          "votesTotal": 330
+        },
+        "Phillips30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +65.8",
+          "margin": 65.83,
+          "votesRep": 1786,
+          "votesDem": 368,
+          "votesTotal": 2192
+        },
+        "Pondera30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +46.9",
+          "margin": 46.87,
+          "votesRep": 2054,
+          "votesDem": 743,
+          "votesTotal": 2850
+        },
+        "Powder River30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +77.3",
+          "margin": 77.29,
+          "votesRep": 960,
+          "votesDem": 123,
+          "votesTotal": 1096
+        },
+        "Powell30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +53.3",
+          "margin": 53.3,
+          "votesRep": 2413,
+          "votesDem": 735,
+          "votesTotal": 3272
+        },
+        "Prairie30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +62.4",
+          "margin": 62.41,
+          "votesRep": 540,
+          "votesDem": 125,
+          "votesTotal": 688
+        },
+        "Ravalli30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +42.4",
+          "margin": 42.41,
+          "votesRep": 20740,
+          "votesDem": 8387,
+          "votesTotal": 29800
+        },
+        "Richland30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +70.5",
+          "margin": 70.5,
+          "votesRep": 4324,
+          "votesDem": 748,
+          "votesTotal": 5227
+        },
+        "Roosevelt30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +12.3",
+          "margin": 12.33,
+          "votesRep": 2122,
+          "votesDem": 1656,
+          "votesTotal": 3885
+        },
+        "Rosebud30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +37.2",
+          "margin": 37.24,
+          "votesRep": 2469,
+          "votesDem": 1129,
+          "votesTotal": 3693
+        },
+        "Sanders30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +56.1",
+          "margin": 56.06,
+          "votesRep": 6088,
+          "votesDem": 1714,
+          "votesTotal": 8044
+        },
+        "Sheridan30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +49.1",
+          "margin": 49.1,
+          "votesRep": 1365,
+          "votesDem": 466,
+          "votesTotal": 1888
+        },
+        "Silver Bow30": {
+          "color": "#1C408C",
+          "label": "Busse +11.8",
+          "margin": -11.76,
+          "votesRep": 7790,
+          "votesDem": 9866,
+          "votesTotal": 18225
+        },
+        "Stillwater30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +62.8",
+          "margin": 62.8,
+          "votesRep": 4709,
+          "votesDem": 1076,
+          "votesTotal": 5917
+        },
+        "Sweet Grass30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +55.9",
+          "margin": 55.94,
+          "votesRep": 1805,
+          "votesDem": 510,
+          "votesTotal": 2382
+        },
+        "Teton30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +49.1",
+          "margin": 49.13,
+          "votesRep": 2612,
+          "votesDem": 891,
+          "votesTotal": 3578
+        },
+        "Toole30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +64.3",
+          "margin": 64.27,
+          "votesRep": 1632,
+          "votesDem": 355,
+          "votesTotal": 2038
+        },
+        "Treasure30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +78.2",
+          "margin": 78.19,
+          "votesRep": 384,
+          "votesDem": 47,
+          "votesTotal": 447
+        },
+        "Valley30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +51.6",
+          "margin": 51.59,
+          "votesRep": 3009,
+          "votesDem": 961,
+          "votesTotal": 4077
+        },
+        "Wheatland30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +61.6",
+          "margin": 61.59,
+          "votesRep": 854,
+          "votesDem": 203,
+          "votesTotal": 1078
+        },
+        "Wibaux30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +71.0",
+          "margin": 71,
+          "votesRep": 454,
+          "votesDem": 77,
+          "votesTotal": 543
+        },
+        "Yellowstone30": {
+          "color": "#BF1D29",
+          "label": "Gianforte +29.4",
+          "margin": 29.36,
+          "votesRep": 51191,
+          "votesDem": 27956,
+          "votesTotal": 81321
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Tim Sheehy",
+      "candDem": "Jon Tester",
+      "shortRep": "Sheehy",
+      "shortDem": "Tester",
+      "partisan": true,
+      "margin": 7.28,
+      "votesRep": 319682,
+      "votesDem": 276305,
+      "votesTotal": 607262,
+      "regions": {
+        "Beaverhead30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +29.4",
+          "margin": 29.37,
+          "votesRep": 3707,
+          "votesDem": 2024,
+          "votesTotal": 5841
+        },
+        "Big Horn30": {
+          "color": "#1C408C",
+          "label": "Tester +27.9",
+          "margin": -27.94,
+          "votesRep": 1580,
+          "votesDem": 2805,
+          "votesTotal": 4453
+        },
+        "Blaine30": {
+          "color": "#1C408C",
+          "label": "Tester +20.7",
+          "margin": -20.69,
+          "votesRep": 1192,
+          "votesDem": 1814,
+          "votesTotal": 3057
+        },
+        "Broadwater30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +48.4",
+          "margin": 48.37,
+          "votesRep": 3503,
+          "votesDem": 1219,
+          "votesTotal": 4842
+        },
+        "Carbon30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +23.0",
+          "margin": 22.96,
+          "votesRep": 4459,
+          "votesDem": 2794,
+          "votesTotal": 7388
+        },
+        "Carter30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +74.1",
+          "margin": 74.08,
+          "votesRep": 732,
+          "votesDem": 109,
+          "votesTotal": 854
+        },
+        "Cascade30": {
+          "color": "#FF5865",
+          "label": "Sheehy +6.7",
+          "margin": 6.69,
+          "votesRep": 19808,
+          "votesDem": 17323,
+          "votesTotal": 37877
+        },
+        "Chouteau30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +12.6",
+          "margin": 12.65,
+          "votesRep": 1643,
+          "votesDem": 1274,
+          "votesTotal": 2961
+        },
+        "Custer30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +34.6",
+          "margin": 34.6,
+          "votesRep": 3818,
+          "votesDem": 1855,
+          "votesTotal": 5820
+        },
+        "Daniels30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +53.1",
+          "margin": 53.14,
+          "votesRep": 719,
+          "votesDem": 220,
+          "votesTotal": 954
+        },
+        "Dawson30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +44.4",
+          "margin": 44.39,
+          "votesRep": 3269,
+          "votesDem": 1259,
+          "votesTotal": 4653
+        },
+        "Deer Lodge30": {
+          "color": "#1C408C",
+          "label": "Tester +24.3",
+          "margin": -24.34,
+          "votesRep": 1820,
+          "votesDem": 2991,
+          "votesTotal": 4910
+        },
+        "Fallon30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +64.8",
+          "margin": 64.84,
+          "votesRep": 1200,
+          "votesDem": 256,
+          "votesTotal": 1495
+        },
+        "Fergus30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +42.6",
+          "margin": 42.63,
+          "votesRep": 4749,
+          "votesDem": 1910,
+          "votesTotal": 6763
+        },
+        "Flathead30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +24.0",
+          "margin": 24,
+          "votesRep": 38582,
+          "votesDem": 23647,
+          "votesTotal": 63542
+        },
+        "Gallatin30": {
+          "color": "#1C408C",
+          "label": "Tester +12.3",
+          "margin": -12.29,
+          "votesRep": 30537,
+          "votesDem": 39094,
+          "votesTotal": 70555
+        },
+        "Garfield30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +82.7",
+          "margin": 82.74,
+          "votesRep": 720,
+          "votesDem": 68,
+          "votesTotal": 796
+        },
+        "Glacier30": {
+          "color": "#1C408C",
+          "label": "Tester +43.7",
+          "margin": -43.68,
+          "votesRep": 1426,
+          "votesDem": 3638,
+          "votesTotal": 5134
+        },
+        "Golden Valley30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +64.5",
+          "margin": 64.52,
+          "votesRep": 422,
+          "votesDem": 91,
+          "votesTotal": 520
+        },
+        "Granite30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +27.8",
+          "margin": 27.8,
+          "votesRep": 1377,
+          "votesDem": 778,
+          "votesTotal": 2185
+        },
+        "Hill30": {
+          "color": "#8AAFFF",
+          "label": "Tester +3.3",
+          "margin": -3.32,
+          "votesRep": 3217,
+          "votesDem": 3438,
+          "votesTotal": 6832
+        },
+        "Jefferson30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +24.5",
+          "margin": 24.48,
+          "votesRep": 5108,
+          "votesDem": 3099,
+          "votesTotal": 8353
+        },
+        "Judith Basin30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +47.6",
+          "margin": 47.58,
+          "votesRep": 991,
+          "votesDem": 352,
+          "votesTotal": 1360
+        },
+        "Lake30": {
+          "color": "#FF5865",
+          "label": "Sheehy +6.5",
+          "margin": 6.49,
+          "votesRep": 8881,
+          "votesDem": 7798,
+          "votesTotal": 16993
+        },
+        "Lewis and Clark30": {
+          "color": "#577CCC",
+          "label": "Tester +6.8",
+          "margin": -6.76,
+          "votesRep": 19367,
+          "votesDem": 22175,
+          "votesTotal": 42389
+        },
+        "Liberty30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +38.0",
+          "margin": 37.98,
+          "votesRep": 683,
+          "votesDem": 307,
+          "votesTotal": 1002
+        },
+        "Lincoln30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +43.2",
+          "margin": 43.22,
+          "votesRep": 8291,
+          "votesDem": 3287,
+          "votesTotal": 11819
+        },
+        "Madison30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +36.8",
+          "margin": 36.85,
+          "votesRep": 4388,
+          "votesDem": 2025,
+          "votesTotal": 6514
+        },
+        "McCone30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +67.5",
+          "margin": 67.45,
+          "votesRep": 890,
+          "votesDem": 173,
+          "votesTotal": 1085
+        },
+        "Meagher30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +46.4",
+          "margin": 46.45,
+          "votesRep": 845,
+          "votesDem": 309,
+          "votesTotal": 1180
+        },
+        "Mineral30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +31.7",
+          "margin": 31.68,
+          "votesRep": 1831,
+          "votesDem": 950,
+          "votesTotal": 2849
+        },
+        "Missoula30": {
+          "color": "#1C408C",
+          "label": "Tester +34.2",
+          "margin": -34.2,
+          "votesRep": 23743,
+          "votesDem": 48429,
+          "votesTotal": 73372
+        },
+        "Musselshell30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +63.6",
+          "margin": 63.59,
+          "votesRep": 2408,
+          "votesDem": 536,
+          "votesTotal": 3005
+        },
+        "Park30": {
+          "color": "#8AAFFF",
+          "label": "Tester +3.4",
+          "margin": -3.4,
+          "votesRep": 5614,
+          "votesDem": 6009,
+          "votesTotal": 11816
+        },
+        "Petroleum30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +69.1",
+          "margin": 69.14,
+          "votesRep": 274,
+          "votesDem": 50,
+          "votesTotal": 328
+        },
+        "Phillips30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +54.8",
+          "margin": 54.8,
+          "votesRep": 1678,
+          "votesDem": 490,
+          "votesTotal": 2200
+        },
+        "Pondera30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +27.9",
+          "margin": 27.9,
+          "votesRep": 1804,
+          "votesDem": 1017,
+          "votesTotal": 2866
+        },
+        "Powder River30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +62.4",
+          "margin": 62.42,
+          "votesRep": 886,
+          "votesDem": 205,
+          "votesTotal": 1110
+        },
+        "Powell30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +34.0",
+          "margin": 33.95,
+          "votesRep": 2160,
+          "votesDem": 1065,
+          "votesTotal": 3301
+        },
+        "Prairie30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +46.2",
+          "margin": 46.19,
+          "votesRep": 489,
+          "votesDem": 180,
+          "votesTotal": 693
+        },
+        "Ravalli30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +29.3",
+          "margin": 29.32,
+          "votesRep": 19116,
+          "votesDem": 10449,
+          "votesTotal": 30047
+        },
+        "Richland30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +51.9",
+          "margin": 51.94,
+          "votesRep": 3914,
+          "votesDem": 1238,
+          "votesTotal": 5300
+        },
+        "Roosevelt30": {
+          "color": "#1C408C",
+          "label": "Tester +15.8",
+          "margin": -15.78,
+          "votesRep": 1636,
+          "votesDem": 2249,
+          "votesTotal": 3958
+        },
+        "Rosebud30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +21.2",
+          "margin": 21.22,
+          "votesRep": 2208,
+          "votesDem": 1435,
+          "votesTotal": 3724
+        },
+        "Sanders30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +43.3",
+          "margin": 43.29,
+          "votesRep": 5663,
+          "votesDem": 2241,
+          "votesTotal": 8106
+        },
+        "Sheridan30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +25.7",
+          "margin": 25.7,
+          "votesRep": 1159,
+          "votesDem": 685,
+          "votesTotal": 1897
+        },
+        "Silver Bow30": {
+          "color": "#1C408C",
+          "label": "Tester +31.1",
+          "margin": -31.08,
+          "votesRep": 6232,
+          "votesDem": 11854,
+          "votesTotal": 18418
+        },
+        "Stillwater30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +53.6",
+          "margin": 53.58,
+          "votesRep": 4473,
+          "votesDem": 1352,
+          "votesTotal": 5932
+        },
+        "Sweet Grass30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +43.4",
+          "margin": 43.4,
+          "votesRep": 1685,
+          "votesDem": 665,
+          "votesTotal": 2402
+        },
+        "Teton30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +31.3",
+          "margin": 31.28,
+          "votesRep": 2323,
+          "votesDem": 1216,
+          "votesTotal": 3606
+        },
+        "Toole30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +44.0",
+          "margin": 44.03,
+          "votesRep": 1436,
+          "votesDem": 558,
+          "votesTotal": 2044
+        },
+        "Treasure30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +53.8",
+          "margin": 53.78,
+          "votesRep": 336,
+          "votesDem": 101,
+          "votesTotal": 447
+        },
+        "Valley30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +34.3",
+          "margin": 34.31,
+          "votesRep": 2672,
+          "votesDem": 1307,
+          "votesTotal": 4093
+        },
+        "Wheatland30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +48.0",
+          "margin": 48.04,
+          "votesRep": 792,
+          "votesDem": 278,
+          "votesTotal": 1086
+        },
+        "Wibaux30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +54.8",
+          "margin": 54.77,
+          "votesRep": 414,
+          "votesDem": 121,
+          "votesTotal": 550
+        },
+        "Yellowstone30": {
+          "color": "#BF1D29",
+          "label": "Sheehy +16.6",
+          "margin": 16.59,
+          "votesRep": 46812,
+          "votesDem": 33493,
+          "votesTotal": 81985
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Matt Rosendale",
+      "candDem": "Jon Tester",
+      "shortRep": "Rosendale",
+      "shortDem": "Tester",
+      "partisan": true,
+      "margin": -3.66,
+      "votesRep": 235963,
+      "votesDem": 253876,
+      "votesTotal": 504384,
+      "regions": {
+        "Beaverhead30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +20.9",
+          "margin": 20.88,
+          "votesRep": 2866,
+          "votesDem": 1876,
+          "votesTotal": 4897
+        },
+        "Big Horn30": {
+          "color": "#1C408C",
+          "label": "Tester +32.0",
+          "margin": -32.04,
+          "votesRep": 1558,
+          "votesDem": 3027,
+          "votesTotal": 4676
+        },
+        "Blaine30": {
+          "color": "#1C408C",
+          "label": "Tester +33.3",
+          "margin": -33.27,
+          "votesRep": 982,
+          "votesDem": 1961,
+          "votesTotal": 3019
+        },
+        "Broadwater30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +32.2",
+          "margin": 32.15,
+          "votesRep": 2086,
+          "votesDem": 1071,
+          "votesTotal": 3261
+        },
+        "Carbon30": {
+          "color": "#FF5865",
+          "label": "Rosendale +9.0",
+          "margin": 8.98,
+          "votesRep": 3209,
+          "votesDem": 2680,
+          "votesTotal": 6067
+        },
+        "Carter30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +64.9",
+          "margin": 64.93,
+          "votesRep": 602,
+          "votesDem": 128,
+          "votesTotal": 752
+        },
+        "Cascade30": {
+          "color": "#577CCC",
+          "label": "Tester +5.7",
+          "margin": -5.66,
+          "votesRep": 15566,
+          "votesDem": 17435,
+          "votesTotal": 34009
+        },
+        "Chouteau30": {
+          "color": "#FF8B98",
+          "label": "Rosendale +1.4",
+          "margin": 1.43,
+          "votesRep": 1312,
+          "votesDem": 1275,
+          "votesTotal": 2657
+        },
+        "Custer30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +17.4",
+          "margin": 17.43,
+          "votesRep": 2762,
+          "votesDem": 1942,
+          "votesTotal": 4883
+        },
+        "Daniels30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +38.4",
+          "margin": 38.38,
+          "votesRep": 631,
+          "votesDem": 281,
+          "votesTotal": 941
+        },
+        "Dawson30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +37.3",
+          "margin": 37.3,
+          "votesRep": 2700,
+          "votesDem": 1233,
+          "votesTotal": 4073
+        },
+        "Deer Lodge30": {
+          "color": "#1C408C",
+          "label": "Tester +41.1",
+          "margin": -41.07,
+          "votesRep": 1208,
+          "votesDem": 2892,
+          "votesTotal": 4236
+        },
+        "Fallon30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +54.4",
+          "margin": 54.38,
+          "votesRep": 951,
+          "votesDem": 281,
+          "votesTotal": 1289
+        },
+        "Fergus30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +29.9",
+          "margin": 29.91,
+          "votesRep": 3640,
+          "votesDem": 1964,
+          "votesTotal": 5793
+        },
+        "Flathead30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +15.3",
+          "margin": 15.31,
+          "votesRep": 26759,
+          "votesDem": 19652,
+          "votesTotal": 47760
+        },
+        "Gallatin30": {
+          "color": "#1C408C",
+          "label": "Tester +22.0",
+          "margin": -22.02,
+          "votesRep": 21248,
+          "votesDem": 33251,
+          "votesTotal": 55933
+        },
+        "Garfield30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +75.2",
+          "margin": 75.15,
+          "votesRep": 571,
+          "votesDem": 81,
+          "votesTotal": 682
+        },
+        "Glacier30": {
+          "color": "#1C408C",
+          "label": "Tester +53.0",
+          "margin": -53.01,
+          "votesRep": 1153,
+          "votesDem": 3754,
+          "votesTotal": 4996
+        },
+        "Golden Valley30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +40.0",
+          "margin": 39.95,
+          "votesRep": 303,
+          "votesDem": 130,
+          "votesTotal": 454
+        },
+        "Granite30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +20.2",
+          "margin": 20.16,
+          "votesRep": 1046,
+          "votesDem": 695,
+          "votesTotal": 1793
+        },
+        "Hill30": {
+          "color": "#1C408C",
+          "label": "Tester +21.0",
+          "margin": -21.01,
+          "votesRep": 2434,
+          "votesDem": 3729,
+          "votesTotal": 6390
+        },
+        "Jefferson30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +10.6",
+          "margin": 10.58,
+          "votesRep": 3653,
+          "votesDem": 2954,
+          "votesTotal": 6833
+        },
+        "Judith Basin30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +31.9",
+          "margin": 31.93,
+          "votesRep": 752,
+          "votesDem": 388,
+          "votesTotal": 1191
+        },
+        "Lake30": {
+          "color": "#8AAFFF",
+          "label": "Tester +3.2",
+          "margin": -3.17,
+          "votesRep": 6491,
+          "votesDem": 6916,
+          "votesTotal": 13772
+        },
+        "Lewis and Clark30": {
+          "color": "#1C408C",
+          "label": "Tester +18.5",
+          "margin": -18.49,
+          "votesRep": 14106,
+          "votesDem": 20506,
+          "votesTotal": 35539
+        },
+        "Liberty30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +23.2",
+          "margin": 23.24,
+          "votesRep": 586,
+          "votesDem": 365,
+          "votesTotal": 981
+        },
+        "Lincoln30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +35.8",
+          "margin": 35.79,
+          "votesRep": 6137,
+          "votesDem": 2902,
+          "votesTotal": 9337
+        },
+        "Madison30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +21.1",
+          "margin": 21.05,
+          "votesRep": 2898,
+          "votesDem": 1890,
+          "votesTotal": 4959
+        },
+        "McCone30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +54.6",
+          "margin": 54.6,
+          "votesRep": 773,
+          "votesDem": 227,
+          "votesTotal": 1029
+        },
+        "Meagher30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +32.7",
+          "margin": 32.7,
+          "votesRep": 629,
+          "votesDem": 319,
+          "votesTotal": 976
+        },
+        "Mineral30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +20.1",
+          "margin": 20.14,
+          "votesRep": 1181,
+          "votesDem": 785,
+          "votesTotal": 2058
+        },
+        "Missoula30": {
+          "color": "#1C408C",
+          "label": "Tester +38.2",
+          "margin": -38.23,
+          "votesRep": 18631,
+          "votesDem": 41688,
+          "votesTotal": 61651
+        },
+        "Musselshell30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +50.5",
+          "margin": 50.52,
+          "votesRep": 1743,
+          "votesDem": 573,
+          "votesTotal": 2432
+        },
+        "Park30": {
+          "color": "#577CCC",
+          "label": "Tester +8.0",
+          "margin": -7.99,
+          "votesRep": 4357,
+          "votesDem": 5114,
+          "votesTotal": 9724
+        },
+        "Petroleum30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +62.1",
+          "margin": 62.09,
+          "votesRep": 248,
+          "votesDem": 58,
+          "votesTotal": 312
+        },
+        "Phillips30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +42.4",
+          "margin": 42.39,
+          "votesRep": 1426,
+          "votesDem": 577,
+          "votesTotal": 2082
+        },
+        "Pondera30": {
+          "color": "#FF5865",
+          "label": "Rosendale +9.2",
+          "margin": 9.15,
+          "votesRep": 1413,
+          "votesDem": 1176,
+          "votesTotal": 2685
+        },
+        "Powder River30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +57.3",
+          "margin": 57.31,
+          "votesRep": 748,
+          "votesDem": 203,
+          "votesTotal": 973
+        },
+        "Powell30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +23.1",
+          "margin": 23.06,
+          "votesRep": 1641,
+          "votesDem": 1026,
+          "votesTotal": 2760
+        },
+        "Prairie30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +43.5",
+          "margin": 43.54,
+          "votesRep": 450,
+          "votesDem": 177,
+          "votesTotal": 653
+        },
+        "Ravalli30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +19.6",
+          "margin": 19.61,
+          "votesRep": 13622,
+          "votesDem": 9156,
+          "votesTotal": 23401
+        },
+        "Richland30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +45.3",
+          "margin": 45.29,
+          "votesRep": 3017,
+          "votesDem": 1136,
+          "votesTotal": 4332
+        },
+        "Roosevelt30": {
+          "color": "#1C408C",
+          "label": "Tester +19.9",
+          "margin": -19.86,
+          "votesRep": 1346,
+          "votesDem": 2013,
+          "votesTotal": 3447
+        },
+        "Rosebud30": {
+          "color": "#FF5865",
+          "label": "Rosendale +7.8",
+          "margin": 7.75,
+          "votesRep": 1765,
+          "votesDem": 1511,
+          "votesTotal": 3367
+        },
+        "Sanders30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +30.1",
+          "margin": 30.12,
+          "votesRep": 3856,
+          "votesDem": 2071,
+          "votesTotal": 6154
+        },
+        "Sheridan30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +17.6",
+          "margin": 17.64,
+          "votesRep": 1017,
+          "votesDem": 712,
+          "votesTotal": 1812
+        },
+        "Silver Bow30": {
+          "color": "#1C408C",
+          "label": "Tester +46.7",
+          "margin": -46.65,
+          "votesRep": 4246,
+          "votesDem": 11672,
+          "votesTotal": 16312
+        },
+        "Stillwater30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +36.2",
+          "margin": 36.22,
+          "votesRep": 3206,
+          "votesDem": 1501,
+          "votesTotal": 4864
+        },
+        "Sweet Grass30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +35.6",
+          "margin": 35.57,
+          "votesRep": 1372,
+          "votesDem": 652,
+          "votesTotal": 2098
+        },
+        "Teton30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +16.1",
+          "margin": 16.07,
+          "votesRep": 1784,
+          "votesDem": 1290,
+          "votesTotal": 3157
+        },
+        "Toole30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +31.7",
+          "margin": 31.73,
+          "votesRep": 1208,
+          "votesDem": 626,
+          "votesTotal": 1903
+        },
+        "Treasure30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +36.8",
+          "margin": 36.76,
+          "votesRep": 279,
+          "votesDem": 129,
+          "votesTotal": 414
+        },
+        "Valley30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +16.1",
+          "margin": 16.08,
+          "votesRep": 2137,
+          "votesDem": 1545,
+          "votesTotal": 3882
+        },
+        "Wheatland30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +30.1",
+          "margin": 30.08,
+          "votesRep": 586,
+          "votesDem": 315,
+          "votesTotal": 933
+        },
+        "Wibaux30": {
+          "color": "#BF1D29",
+          "label": "Rosendale +47.2",
+          "margin": 47.17,
+          "votesRep": 390,
+          "votesDem": 140,
+          "votesTotal": 542
+        },
+        "Yellowstone30": {
+          "color": "#FF8B98",
+          "label": "Rosendale +3.7",
+          "margin": 3.67,
+          "votesRep": 34682,
+          "votesDem": 32225,
+          "votesTotal": 69258
+        }
+      }
+    }
+  ]
+}

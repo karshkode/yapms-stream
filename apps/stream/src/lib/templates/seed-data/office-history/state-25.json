@@ -1,0 +1,522 @@
+{
+  "stateFips": "25",
+  "stateName": "Massachusetts",
+  "races": [
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "John Deaton",
+      "candDem": "Elizabeth Ann Warren",
+      "shortRep": "Deaton",
+      "shortDem": "Warren",
+      "partisan": true,
+      "margin": -19.85,
+      "votesRep": 1365440,
+      "votesDem": 2041668,
+      "votesTotal": 3413329,
+      "regions": {
+        "Barnstable25": {
+          "color": "#1C408C",
+          "label": "Warren +10.7",
+          "margin": -10.66,
+          "votesRep": 65709,
+          "votesDem": 81395,
+          "votesTotal": 147287
+        },
+        "Berkshire25": {
+          "color": "#1C408C",
+          "label": "Warren +40.2",
+          "margin": -40.16,
+          "votesRep": 19984,
+          "votesDem": 46803,
+          "votesTotal": 66852
+        },
+        "Bristol25": {
+          "color": "#CF8980",
+          "label": "Deaton +0.8",
+          "margin": 0.77,
+          "votesRep": 136530,
+          "votesDem": 134451,
+          "votesTotal": 271333
+        },
+        "Dukes25": {
+          "color": "#1C408C",
+          "label": "Warren +45.9",
+          "margin": -45.9,
+          "votesRep": 3260,
+          "votesDem": 8792,
+          "votesTotal": 12062
+        },
+        "Essex25": {
+          "color": "#1C408C",
+          "label": "Warren +15.8",
+          "margin": -15.83,
+          "votesRep": 165907,
+          "votesDem": 228303,
+          "votesTotal": 394778
+        },
+        "Franklin25": {
+          "color": "#1C408C",
+          "label": "Warren +34.0",
+          "margin": -34.05,
+          "votesRep": 13737,
+          "votesDem": 27921,
+          "votesTotal": 41715
+        },
+        "Hampden25": {
+          "color": "#577CCC",
+          "label": "Warren +8.2",
+          "margin": -8.18,
+          "votesRep": 93677,
+          "votesDem": 110375,
+          "votesTotal": 204422
+        },
+        "Hampshire25": {
+          "color": "#1C408C",
+          "label": "Warren +38.8",
+          "margin": -38.76,
+          "votesRep": 25644,
+          "votesDem": 58099,
+          "votesTotal": 83851
+        },
+        "Middlesex25": {
+          "color": "#1C408C",
+          "label": "Warren +33.3",
+          "margin": -33.34,
+          "votesRep": 266265,
+          "votesDem": 532646,
+          "votesTotal": 800434
+        },
+        "Nantucket25": {
+          "color": "#1C408C",
+          "label": "Warren +29.1",
+          "margin": -29.09,
+          "votesRep": 2479,
+          "votesDem": 4513,
+          "votesTotal": 7000
+        },
+        "Norfolk25": {
+          "color": "#1C408C",
+          "label": "Warren +18.8",
+          "margin": -18.79,
+          "votesRep": 154068,
+          "votesDem": 225378,
+          "votesTotal": 380366
+        },
+        "Plymouth25": {
+          "color": "#6b7280",
+          "label": "Deaton +0.2",
+          "margin": 0.16,
+          "votesRep": 148292,
+          "votesDem": 147813,
+          "votesTotal": 296446
+        },
+        "Suffolk25": {
+          "color": "#1C408C",
+          "label": "Warren +51.3",
+          "margin": -51.33,
+          "votesRep": 70676,
+          "votesDem": 219769,
+          "votesTotal": 291451
+        },
+        "Worcester25": {
+          "color": "#8AAFFF",
+          "label": "Warren +3.9",
+          "margin": -3.91,
+          "votesRep": 199212,
+          "votesDem": 215410,
+          "votesTotal": 415332
+        }
+      }
+    },
+    {
+      "id": "governor-2022",
+      "office": "governor",
+      "year": 2022,
+      "label": "2022 Governor",
+      "candRep": "Diehl",
+      "candDem": "Healey",
+      "shortRep": "Diehl",
+      "shortDem": "Healey",
+      "partisan": true,
+      "margin": -29.67,
+      "votesRep": 859343,
+      "votesDem": 1584403,
+      "votesTotal": 2485796,
+      "regions": {
+        "Barnstable25": {
+          "color": "#1C408C",
+          "label": "Healey +20.8",
+          "margin": -20.79,
+          "votesRep": 46011,
+          "votesDem": 70163,
+          "votesTotal": 117842
+        },
+        "Berkshire25": {
+          "color": "#1C408C",
+          "label": "Healey +45.1",
+          "margin": -45.1,
+          "votesRep": 13205,
+          "votesDem": 34898,
+          "votesTotal": 49030
+        },
+        "Bristol25": {
+          "color": "#577CCC",
+          "label": "Healey +10.0",
+          "margin": -9.96,
+          "votesRep": 81033,
+          "votesDem": 98969,
+          "votesTotal": 183390
+        },
+        "Dukes25": {
+          "color": "#1C408C",
+          "label": "Healey +56.3",
+          "margin": -56.26,
+          "votesRep": 2011,
+          "votesDem": 7185,
+          "votesTotal": 9343
+        },
+        "Essex25": {
+          "color": "#1C408C",
+          "label": "Healey +26.0",
+          "margin": -26,
+          "votesRep": 104400,
+          "votesDem": 177760,
+          "votesTotal": 286816
+        },
+        "Franklin25": {
+          "color": "#1C408C",
+          "label": "Healey +43.4",
+          "margin": -43.44,
+          "votesRep": 8788,
+          "votesDem": 22287,
+          "votesTotal": 31615
+        },
+        "Hampden25": {
+          "color": "#1C408C",
+          "label": "Healey +11.3",
+          "margin": -11.29,
+          "votesRep": 60203,
+          "votesDem": 75523,
+          "votesTotal": 138239
+        },
+        "Hampshire25": {
+          "color": "#1C408C",
+          "label": "Healey +46.3",
+          "margin": -46.29,
+          "votesRep": 17138,
+          "votesDem": 46679,
+          "votesTotal": 64838
+        },
+        "Middlesex25": {
+          "color": "#1C408C",
+          "label": "Healey +43.0",
+          "margin": -43.03,
+          "votesRep": 169707,
+          "votesDem": 426054,
+          "votesTotal": 605766
+        },
+        "Nantucket25": {
+          "color": "#1C408C",
+          "label": "Healey +35.5",
+          "margin": -35.49,
+          "votesRep": 1553,
+          "votesDem": 3262,
+          "votesTotal": 4903
+        },
+        "Norfolk25": {
+          "color": "#1C408C",
+          "label": "Healey +31.1",
+          "margin": -31.09,
+          "votesRep": 96607,
+          "votesDem": 183795,
+          "votesTotal": 284985
+        },
+        "Plymouth25": {
+          "color": "#577CCC",
+          "label": "Healey +9.5",
+          "margin": -9.52,
+          "votesRep": 95669,
+          "votesDem": 115810,
+          "votesTotal": 214794
+        },
+        "Suffolk25": {
+          "color": "#1C408C",
+          "label": "Healey +60.7",
+          "margin": -60.74,
+          "votesRep": 38886,
+          "votesDem": 159232,
+          "votesTotal": 201428
+        },
+        "Worcester25": {
+          "color": "#1C408C",
+          "label": "Healey +13.5",
+          "margin": -13.47,
+          "votesRep": 124132,
+          "votesDem": 162786,
+          "votesTotal": 292807
+        }
+      }
+    },
+    {
+      "id": "governor-2018",
+      "office": "governor",
+      "year": 2018,
+      "label": "2018 Governor",
+      "candRep": "Baker",
+      "candDem": "Gonzalez",
+      "shortRep": "Baker",
+      "shortDem": "Gonzalez",
+      "partisan": true,
+      "margin": 33.58,
+      "votesRep": 1781341,
+      "votesDem": 885770,
+      "votesTotal": 2674615,
+      "regions": {
+        "Barnstable25": {
+          "color": "#BF1D29",
+          "label": "Baker +47.9",
+          "margin": 47.94,
+          "votesRep": 85726,
+          "votesDem": 30169,
+          "votesTotal": 116254
+        },
+        "Berkshire25": {
+          "color": "#FF5865",
+          "label": "Baker +6.2",
+          "margin": 6.19,
+          "votesRep": 28331,
+          "votesDem": 25030,
+          "votesTotal": 53428
+        },
+        "Bristol25": {
+          "color": "#BF1D29",
+          "label": "Baker +41.8",
+          "margin": 41.84,
+          "votesRep": 132371,
+          "votesDem": 54280,
+          "votesTotal": 187074
+        },
+        "Dukes25": {
+          "color": "#BF1D29",
+          "label": "Baker +10.8",
+          "margin": 10.83,
+          "votesRep": 5556,
+          "votesDem": 4470,
+          "votesTotal": 10033
+        },
+        "Essex25": {
+          "color": "#BF1D29",
+          "label": "Baker +43.3",
+          "margin": 43.28,
+          "votesRep": 219522,
+          "votesDem": 86893,
+          "votesTotal": 307269
+        },
+        "Franklin25": {
+          "color": "#BF1D29",
+          "label": "Baker +11.5",
+          "margin": 11.46,
+          "votesRep": 18263,
+          "votesDem": 14507,
+          "votesTotal": 32805
+        },
+        "Hampden25": {
+          "color": "#BF1D29",
+          "label": "Baker +43.0",
+          "margin": 43.02,
+          "votesRep": 109952,
+          "votesDem": 43806,
+          "votesTotal": 154279
+        },
+        "Hampshire25": {
+          "color": "#FF5865",
+          "label": "Baker +6.6",
+          "margin": 6.58,
+          "votesRep": 37272,
+          "votesDem": 32667,
+          "votesTotal": 70036
+        },
+        "Middlesex25": {
+          "color": "#BF1D29",
+          "label": "Baker +25.2",
+          "margin": 25.15,
+          "votesRep": 411687,
+          "votesDem": 246197,
+          "votesTotal": 659505
+        },
+        "Nantucket25": {
+          "color": "#BF1D29",
+          "label": "Baker +15.4",
+          "margin": 15.42,
+          "votesRep": 2388,
+          "votesDem": 1750,
+          "votesTotal": 4148
+        },
+        "Norfolk25": {
+          "color": "#BF1D29",
+          "label": "Baker +38.6",
+          "margin": 38.61,
+          "votesRep": 209318,
+          "votesDem": 92709,
+          "votesTotal": 303045
+        },
+        "Plymouth25": {
+          "color": "#BF1D29",
+          "label": "Baker +50.3",
+          "margin": 50.35,
+          "votesRep": 164438,
+          "votesDem": 54303,
+          "votesTotal": 219486
+        },
+        "Suffolk25": {
+          "color": "#FF8B98",
+          "label": "Baker +1.2",
+          "margin": 1.21,
+          "votesRep": 125247,
+          "votesDem": 122249,
+          "votesTotal": 248259
+        },
+        "Worcester25": {
+          "color": "#BF1D29",
+          "label": "Baker +50.2",
+          "margin": 50.17,
+          "votesRep": 231270,
+          "votesDem": 76740,
+          "votesTotal": 308994
+        }
+      }
+    },
+    {
+      "id": "senate-2018",
+      "office": "senate",
+      "year": 2018,
+      "label": "2018 US Senate",
+      "candRep": "Geoff Diehl",
+      "candDem": "Elizabeth Warren",
+      "shortRep": "Diehl",
+      "shortDem": "Warren",
+      "partisan": true,
+      "margin": -25.04,
+      "votesRep": 979210,
+      "votesDem": 1633371,
+      "votesTotal": 2707090,
+      "regions": {
+        "Barnstable25": {
+          "color": "#577CCC",
+          "label": "Warren +9.5",
+          "margin": -9.49,
+          "votesRep": 51810,
+          "votesDem": 62670,
+          "votesTotal": 118171
+        },
+        "Berkshire25": {
+          "color": "#1C408C",
+          "label": "Warren +48.4",
+          "margin": -48.36,
+          "votesRep": 13501,
+          "votesDem": 38792,
+          "votesTotal": 53867
+        },
+        "Bristol25": {
+          "color": "#577CCC",
+          "label": "Warren +8.2",
+          "margin": -8.2,
+          "votesRep": 83919,
+          "votesDem": 98921,
+          "votesTotal": 189625
+        },
+        "Dukes25": {
+          "color": "#1C408C",
+          "label": "Warren +52.1",
+          "margin": -52.05,
+          "votesRep": 2338,
+          "votesDem": 7414,
+          "votesTotal": 10138
+        },
+        "Essex25": {
+          "color": "#1C408C",
+          "label": "Warren +19.1",
+          "margin": -19.13,
+          "votesRep": 121067,
+          "votesDem": 178343,
+          "votesTotal": 311443
+        },
+        "Franklin25": {
+          "color": "#1C408C",
+          "label": "Warren +44.5",
+          "margin": -44.55,
+          "votesRep": 8790,
+          "votesDem": 22912,
+          "votesTotal": 32976
+        },
+        "Hampden25": {
+          "color": "#1C408C",
+          "label": "Warren +15.8",
+          "margin": -15.8,
+          "votesRep": 63152,
+          "votesDem": 86861,
+          "votesTotal": 156064
+        },
+        "Hampshire25": {
+          "color": "#1C408C",
+          "label": "Warren +46.5",
+          "margin": -46.55,
+          "votesRep": 18217,
+          "votesDem": 49943,
+          "votesTotal": 70771
+        },
+        "Middlesex25": {
+          "color": "#1C408C",
+          "label": "Warren +37.0",
+          "margin": -36.97,
+          "votesRep": 202871,
+          "votesDem": 440901,
+          "votesTotal": 667183
+        },
+        "Nantucket25": {
+          "color": "#1C408C",
+          "label": "Warren +32.7",
+          "margin": -32.67,
+          "votesRep": 1351,
+          "votesDem": 2662,
+          "votesTotal": 4159
+        },
+        "Norfolk25": {
+          "color": "#1C408C",
+          "label": "Warren +21.1",
+          "margin": -21.09,
+          "votesRep": 117202,
+          "votesDem": 179853,
+          "votesTotal": 307095
+        },
+        "Plymouth25": {
+          "color": "#FF8B98",
+          "label": "Diehl +1.1",
+          "margin": 1.1,
+          "votesRep": 109995,
+          "votesDem": 107595,
+          "votesTotal": 224201
+        },
+        "Suffolk25": {
+          "color": "#1C408C",
+          "label": "Warren +61.7",
+          "margin": -61.75,
+          "votesRep": 46502,
+          "votesDem": 196623,
+          "votesTotal": 250010
+        },
+        "Worcester25": {
+          "color": "#577CCC",
+          "label": "Warren +7.2",
+          "margin": -7.17,
+          "votesRep": 138495,
+          "votesDem": 159881,
+          "votesTotal": 311387
+        }
+      }
+    }
+  ]
+}

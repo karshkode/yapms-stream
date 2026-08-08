@@ -1,0 +1,2265 @@
+{
+  "stateFips": "18",
+  "stateName": "Indiana",
+  "races": [
+    {
+      "id": "governor-2024",
+      "office": "governor",
+      "year": 2024,
+      "label": "2024 Governor",
+      "candRep": "Mike Braun",
+      "candDem": "Jennifer McCormick",
+      "shortRep": "Braun",
+      "shortDem": "McCormick",
+      "partisan": true,
+      "margin": 15.24,
+      "votesRep": 1647664,
+      "votesDem": 1211806,
+      "votesTotal": 2995542,
+      "regions": {
+        "Adams18": {
+          "color": "#BF1D29",
+          "label": "Braun +47.3",
+          "margin": 47.28,
+          "votesRep": 9495,
+          "votesDem": 3399,
+          "votesTotal": 13643
+        },
+        "Allen18": {
+          "color": "#BF1D29",
+          "label": "Braun +10.8",
+          "margin": 10.75,
+          "votesRep": 84139,
+          "votesDem": 67803,
+          "votesTotal": 158129
+        },
+        "Bartholomew18": {
+          "color": "#BF1D29",
+          "label": "Braun +23.8",
+          "margin": 23.84,
+          "votesRep": 20406,
+          "votesDem": 12549,
+          "votesTotal": 34877
+        },
+        "Benton18": {
+          "color": "#BF1D29",
+          "label": "Braun +43.8",
+          "margin": 43.85,
+          "votesRep": 2654,
+          "votesDem": 1036,
+          "votesTotal": 3954
+        },
+        "Blackford18": {
+          "color": "#BF1D29",
+          "label": "Braun +37.9",
+          "margin": 37.95,
+          "votesRep": 3019,
+          "votesDem": 1358,
+          "votesTotal": 4914
+        },
+        "Boone18": {
+          "color": "#BF1D29",
+          "label": "Braun +12.6",
+          "margin": 12.6,
+          "votesRep": 20832,
+          "votesDem": 16170,
+          "votesTotal": 39117
+        },
+        "Brown18": {
+          "color": "#BF1D29",
+          "label": "Braun +25.2",
+          "margin": 25.23,
+          "votesRep": 4917,
+          "votesDem": 2936,
+          "votesTotal": 8859
+        },
+        "Carroll18": {
+          "color": "#BF1D29",
+          "label": "Braun +42.9",
+          "margin": 42.87,
+          "votesRep": 5934,
+          "votesDem": 2373,
+          "votesTotal": 8961
+        },
+        "Cass18": {
+          "color": "#BF1D29",
+          "label": "Braun +35.7",
+          "margin": 35.7,
+          "votesRep": 8976,
+          "votesDem": 4253,
+          "votesTotal": 14153
+        },
+        "Clark18": {
+          "color": "#BF1D29",
+          "label": "Braun +14.6",
+          "margin": 14.59,
+          "votesRep": 31970,
+          "votesDem": 23830,
+          "votesTotal": 57743
+        },
+        "Clay18": {
+          "color": "#BF1D29",
+          "label": "Braun +51.0",
+          "margin": 51.02,
+          "votesRep": 8261,
+          "votesDem": 2679,
+          "votesTotal": 11639
+        },
+        "Clinton18": {
+          "color": "#BF1D29",
+          "label": "Braun +35.3",
+          "margin": 35.25,
+          "votesRep": 7489,
+          "votesDem": 3585,
+          "votesTotal": 11949
+        },
+        "Crawford18": {
+          "color": "#BF1D29",
+          "label": "Braun +36.8",
+          "margin": 36.84,
+          "votesRep": 3235,
+          "votesDem": 1493,
+          "votesTotal": 4932
+        },
+        "Daviess18": {
+          "color": "#BF1D29",
+          "label": "Braun +53.3",
+          "margin": 53.3,
+          "votesRep": 7691,
+          "votesDem": 2343,
+          "votesTotal": 10979
+        },
+        "Dearborn18": {
+          "color": "#BF1D29",
+          "label": "Braun +57.7",
+          "margin": 57.66,
+          "votesRep": 20222,
+          "votesDem": 5431,
+          "votesTotal": 26462
+        },
+        "Decatur18": {
+          "color": "#BF1D29",
+          "label": "Braun +52.6",
+          "margin": 52.56,
+          "votesRep": 8243,
+          "votesDem": 2563,
+          "votesTotal": 11635
+        },
+        "DeKalb18": {
+          "color": "#BF1D29",
+          "label": "Braun +42.6",
+          "margin": 42.57,
+          "votesRep": 13100,
+          "votesDem": 5277,
+          "votesTotal": 19539
+        },
+        "Delaware18": {
+          "color": "#FF8B98",
+          "label": "Braun +4.4",
+          "margin": 4.38,
+          "votesRep": 22026,
+          "votesDem": 20177,
+          "votesTotal": 44171
+        },
+        "Dubois18": {
+          "color": "#BF1D29",
+          "label": "Braun +26.8",
+          "margin": 26.75,
+          "votesRep": 11951,
+          "votesDem": 6906,
+          "votesTotal": 20587
+        },
+        "Elkhart18": {
+          "color": "#BF1D29",
+          "label": "Braun +29.8",
+          "margin": 29.81,
+          "votesRep": 43571,
+          "votesDem": 23559,
+          "votesTotal": 69778
+        },
+        "Fayette18": {
+          "color": "#BF1D29",
+          "label": "Braun +50.6",
+          "margin": 50.62,
+          "votesRep": 6714,
+          "votesDem": 2201,
+          "votesTotal": 9383
+        },
+        "Floyd18": {
+          "color": "#BF1D29",
+          "label": "Braun +13.0",
+          "margin": 13.03,
+          "votesRep": 22642,
+          "votesDem": 17420,
+          "votesTotal": 41030
+        },
+        "Fountain18": {
+          "color": "#BF1D29",
+          "label": "Braun +53.7",
+          "margin": 53.75,
+          "votesRep": 5664,
+          "votesDem": 1704,
+          "votesTotal": 7938
+        },
+        "Franklin18": {
+          "color": "#BF1D29",
+          "label": "Braun +60.5",
+          "margin": 60.49,
+          "votesRep": 8763,
+          "votesDem": 2157,
+          "votesTotal": 11324
+        },
+        "Fulton18": {
+          "color": "#BF1D29",
+          "label": "Braun +41.3",
+          "margin": 41.28,
+          "votesRep": 5673,
+          "votesDem": 2358,
+          "votesTotal": 8829
+        },
+        "Gibson18": {
+          "color": "#BF1D29",
+          "label": "Braun +47.1",
+          "margin": 47.07,
+          "votesRep": 11073,
+          "votesDem": 3985,
+          "votesTotal": 15665
+        },
+        "Grant18": {
+          "color": "#BF1D29",
+          "label": "Braun +35.9",
+          "margin": 35.94,
+          "votesRep": 15694,
+          "votesDem": 7395,
+          "votesTotal": 24693
+        },
+        "Greene18": {
+          "color": "#BF1D29",
+          "label": "Braun +45.3",
+          "margin": 45.29,
+          "votesRep": 9530,
+          "votesDem": 3589,
+          "votesTotal": 14052
+        },
+        "Hamilton18": {
+          "color": "#FF5865",
+          "label": "Braun +5.6",
+          "margin": 5.59,
+          "votesRep": 100223,
+          "votesDem": 89605,
+          "votesTotal": 195859
+        },
+        "Hancock18": {
+          "color": "#BF1D29",
+          "label": "Braun +27.8",
+          "margin": 27.77,
+          "votesRep": 26136,
+          "votesDem": 14775,
+          "votesTotal": 44057
+        },
+        "Harrison18": {
+          "color": "#BF1D29",
+          "label": "Braun +41.2",
+          "margin": 41.19,
+          "votesRep": 13875,
+          "votesDem": 5780,
+          "votesTotal": 20287
+        },
+        "Hendricks18": {
+          "color": "#BF1D29",
+          "label": "Braun +18.1",
+          "margin": 18.12,
+          "votesRep": 90272,
+          "votesDem": 62580,
+          "votesTotal": 161104
+        },
+        "Henry18": {
+          "color": "#BF1D29",
+          "label": "Braun +34.5",
+          "margin": 34.51,
+          "votesRep": 13004,
+          "votesDem": 6331,
+          "votesTotal": 20604
+        },
+        "Howard18": {
+          "color": "#BF1D29",
+          "label": "Braun +27.2",
+          "margin": 27.23,
+          "votesRep": 23030,
+          "votesDem": 13173,
+          "votesTotal": 38593
+        },
+        "Huntington18": {
+          "color": "#BF1D29",
+          "label": "Braun +42.1",
+          "margin": 42.1,
+          "votesRep": 11348,
+          "votesDem": 4624,
+          "votesTotal": 17149
+        },
+        "Jackson18": {
+          "color": "#BF1D29",
+          "label": "Braun +45.4",
+          "margin": 45.43,
+          "votesRep": 12760,
+          "votesDem": 4788,
+          "votesTotal": 18568
+        },
+        "Jasper18": {
+          "color": "#BF1D29",
+          "label": "Braun +47.6",
+          "margin": 47.58,
+          "votesRep": 10484,
+          "votesDem": 3724,
+          "votesTotal": 14917
+        },
+        "Jay18": {
+          "color": "#BF1D29",
+          "label": "Braun +46.1",
+          "margin": 46.07,
+          "votesRep": 5262,
+          "votesDem": 1943,
+          "votesTotal": 7758
+        },
+        "Jefferson18": {
+          "color": "#BF1D29",
+          "label": "Braun +27.5",
+          "margin": 27.52,
+          "votesRep": 8444,
+          "votesDem": 4799,
+          "votesTotal": 13738
+        },
+        "Jennings18": {
+          "color": "#BF1D29",
+          "label": "Braun +48.3",
+          "margin": 48.34,
+          "votesRep": 8069,
+          "votesDem": 2810,
+          "votesTotal": 11667
+        },
+        "Johnson18": {
+          "color": "#BF1D29",
+          "label": "Braun +30.1",
+          "margin": 30.14,
+          "votesRep": 47249,
+          "votesDem": 25361,
+          "votesTotal": 76951
+        },
+        "Knox18": {
+          "color": "#BF1D29",
+          "label": "Braun +44.3",
+          "margin": 44.31,
+          "votesRep": 9880,
+          "votesDem": 3813,
+          "votesTotal": 14351
+        },
+        "Kosciusko18": {
+          "color": "#BF1D29",
+          "label": "Braun +48.4",
+          "margin": 48.37,
+          "votesRep": 23059,
+          "votesDem": 8024,
+          "votesTotal": 33627
+        },
+        "LaGrange18": {
+          "color": "#BF1D29",
+          "label": "Braun +51.2",
+          "margin": 51.22,
+          "votesRep": 7143,
+          "votesDem": 2304,
+          "votesTotal": 9957
+        },
+        "Lake18": {
+          "color": "#577CCC",
+          "label": "McCormick +9.8",
+          "margin": -9.78,
+          "votesRep": 88280,
+          "votesDem": 107417,
+          "votesTotal": 199826
+        },
+        "LaPorte18": {
+          "color": "#FF5865",
+          "label": "Braun +8.5",
+          "margin": 8.49,
+          "votesRep": 23534,
+          "votesDem": 19850,
+          "votesTotal": 45179
+        },
+        "Lawrence18": {
+          "color": "#BF1D29",
+          "label": "Braun +44.5",
+          "margin": 44.5,
+          "votesRep": 13626,
+          "votesDem": 5234,
+          "votesTotal": 20369
+        },
+        "Madison18": {
+          "color": "#BF1D29",
+          "label": "Braun +18.7",
+          "margin": 18.66,
+          "votesRep": 31023,
+          "votesDem": 21266,
+          "votesTotal": 55547
+        },
+        "Marion18": {
+          "color": "#1C408C",
+          "label": "McCormick +30.5",
+          "margin": -30.48,
+          "votesRep": 118511,
+          "votesDem": 222440,
+          "votesTotal": 353262
+        },
+        "Marshall18": {
+          "color": "#BF1D29",
+          "label": "Braun +37.9",
+          "margin": 37.86,
+          "votesRep": 12298,
+          "votesDem": 5543,
+          "votesTotal": 18964
+        },
+        "Martin18": {
+          "color": "#BF1D29",
+          "label": "Braun +36.2",
+          "margin": 36.22,
+          "votesRep": 2787,
+          "votesDem": 1305,
+          "votesTotal": 4891
+        },
+        "Miami18": {
+          "color": "#BF1D29",
+          "label": "Braun +41.6",
+          "margin": 41.56,
+          "votesRep": 8834,
+          "votesDem": 3647,
+          "votesTotal": 13448
+        },
+        "Monroe18": {
+          "color": "#1C408C",
+          "label": "McCormick +38.2",
+          "margin": -38.15,
+          "votesRep": 4602,
+          "votesDem": 10280,
+          "votesTotal": 15394
+        },
+        "Montgomery18": {
+          "color": "#BF1D29",
+          "label": "Braun +41.5",
+          "margin": 41.5,
+          "votesRep": 10742,
+          "votesDem": 4441,
+          "votesTotal": 16531
+        },
+        "Morgan18": {
+          "color": "#BF1D29",
+          "label": "Braun +47.5",
+          "margin": 47.49,
+          "votesRep": 22915,
+          "votesDem": 8159,
+          "votesTotal": 34107
+        },
+        "Newton18": {
+          "color": "#BF1D29",
+          "label": "Braun +48.4",
+          "margin": 48.43,
+          "votesRep": 4625,
+          "votesDem": 1607,
+          "votesTotal": 6547
+        },
+        "Noble18": {
+          "color": "#BF1D29",
+          "label": "Braun +45.2",
+          "margin": 45.21,
+          "votesRep": 12365,
+          "votesDem": 4665,
+          "votesTotal": 18257
+        },
+        "Ohio18": {
+          "color": "#BF1D29",
+          "label": "Braun +50.9",
+          "margin": 50.94,
+          "votesRep": 2215,
+          "votesDem": 720,
+          "votesTotal": 3024
+        },
+        "Orange18": {
+          "color": "#BF1D29",
+          "label": "Braun +41.3",
+          "margin": 41.25,
+          "votesRep": 5504,
+          "votesDem": 2289,
+          "votesTotal": 8271
+        },
+        "Owen18": {
+          "color": "#BF1D29",
+          "label": "Braun +44.2",
+          "margin": 44.18,
+          "votesRep": 6191,
+          "votesDem": 2397,
+          "votesTotal": 9544
+        },
+        "Parke18": {
+          "color": "#BF1D29",
+          "label": "Braun +50.6",
+          "margin": 50.58,
+          "votesRep": 4503,
+          "votesDem": 1478,
+          "votesTotal": 6342
+        },
+        "Perry18": {
+          "color": "#BF1D29",
+          "label": "Braun +22.4",
+          "margin": 22.45,
+          "votesRep": 4871,
+          "votesDem": 3085,
+          "votesTotal": 8209
+        },
+        "Pike18": {
+          "color": "#BF1D29",
+          "label": "Braun +48.2",
+          "margin": 48.18,
+          "votesRep": 4009,
+          "votesDem": 1402,
+          "votesTotal": 5716
+        },
+        "Porter18": {
+          "color": "#FF5865",
+          "label": "Braun +6.4",
+          "margin": 6.37,
+          "votesRep": 44035,
+          "votesDem": 38764,
+          "votesTotal": 85196
+        },
+        "Posey18": {
+          "color": "#BF1D29",
+          "label": "Braun +41.5",
+          "margin": 41.52,
+          "votesRep": 8875,
+          "votesDem": 3667,
+          "votesTotal": 12924
+        },
+        "Pulaski18": {
+          "color": "#BF1D29",
+          "label": "Braun +44.0",
+          "margin": 43.97,
+          "votesRep": 3618,
+          "votesDem": 1408,
+          "votesTotal": 5506
+        },
+        "Putnam18": {
+          "color": "#BF1D29",
+          "label": "Braun +44.1",
+          "margin": 44.13,
+          "votesRep": 10675,
+          "votesDem": 4138,
+          "votesTotal": 16186
+        },
+        "Randolph18": {
+          "color": "#BF1D29",
+          "label": "Braun +43.8",
+          "margin": 43.78,
+          "votesRep": 6821,
+          "votesDem": 2667,
+          "votesTotal": 10061
+        },
+        "Ripley18": {
+          "color": "#BF1D29",
+          "label": "Braun +57.2",
+          "margin": 57.17,
+          "votesRep": 10741,
+          "votesDem": 2927,
+          "votesTotal": 14317
+        },
+        "Rush18": {
+          "color": "#BF1D29",
+          "label": "Braun +44.1",
+          "margin": 44.13,
+          "votesRep": 4933,
+          "votesDem": 1912,
+          "votesTotal": 7378
+        },
+        "Scott18": {
+          "color": "#BF1D29",
+          "label": "Braun +17.8",
+          "margin": 17.78,
+          "votesRep": 5627,
+          "votesDem": 3928,
+          "votesTotal": 9900
+        },
+        "Shelby18": {
+          "color": "#BF1D29",
+          "label": "Braun +39.8",
+          "margin": 39.8,
+          "votesRep": 12160,
+          "votesDem": 5236,
+          "votesTotal": 18924
+        },
+        "Spencer18": {
+          "color": "#BF1D29",
+          "label": "Braun +38.4",
+          "margin": 38.39,
+          "votesRep": 6691,
+          "votesDem": 2979,
+          "votesTotal": 10050
+        },
+        "St. Joseph18": {
+          "color": "#8AAFFF",
+          "label": "McCormick +2.7",
+          "margin": -2.67,
+          "votesRep": 104112,
+          "votesDem": 109822,
+          "votesTotal": 220686
+        },
+        "Starke18": {
+          "color": "#BF1D29",
+          "label": "Braun +43.1",
+          "margin": 43.07,
+          "votesRep": 6426,
+          "votesDem": 2557,
+          "votesTotal": 9819
+        },
+        "Steuben18": {
+          "color": "#BF1D29",
+          "label": "Braun +38.8",
+          "margin": 38.75,
+          "votesRep": 10380,
+          "votesDem": 4582,
+          "votesTotal": 15678
+        },
+        "Sullivan18": {
+          "color": "#BF1D29",
+          "label": "Braun +42.5",
+          "margin": 42.48,
+          "votesRep": 5657,
+          "votesDem": 2284,
+          "votesTotal": 8437
+        },
+        "Switzerland18": {
+          "color": "#BF1D29",
+          "label": "Braun +49.5",
+          "margin": 49.5,
+          "votesRep": 3020,
+          "votesDem": 1020,
+          "votesTotal": 4175
+        },
+        "Tippecanoe18": {
+          "color": "#BF1D29",
+          "label": "Braun +100.0",
+          "margin": 100,
+          "votesRep": 29053,
+          "votesDem": 0,
+          "votesTotal": 32132
+        },
+        "Tipton18": {
+          "color": "#BF1D29",
+          "label": "Braun +42.7",
+          "margin": 42.72,
+          "votesRep": 5103,
+          "votesDem": 2048,
+          "votesTotal": 7702
+        },
+        "Union18": {
+          "color": "#BF1D29",
+          "label": "Braun +53.5",
+          "margin": 53.45,
+          "votesRep": 2535,
+          "votesDem": 769,
+          "votesTotal": 3440
+        },
+        "Vanderburgh18": {
+          "color": "#BF1D29",
+          "label": "Braun +12.4",
+          "margin": 12.36,
+          "votesRep": 40270,
+          "votesDem": 31408,
+          "votesTotal": 73434
+        },
+        "Vermillion18": {
+          "color": "#BF1D29",
+          "label": "Braun +36.2",
+          "margin": 36.21,
+          "votesRep": 4382,
+          "votesDem": 2052,
+          "votesTotal": 6930
+        },
+        "Vigo18": {
+          "color": "#BF1D29",
+          "label": "Braun +12.2",
+          "margin": 12.18,
+          "votesRep": 21814,
+          "votesDem": 17076,
+          "votesTotal": 40554
+        },
+        "Wabash18": {
+          "color": "#BF1D29",
+          "label": "Braun +46.0",
+          "margin": 46.04,
+          "votesRep": 9158,
+          "votesDem": 3384,
+          "votesTotal": 13487
+        },
+        "Warren18": {
+          "color": "#BF1D29",
+          "label": "Braun +50.1",
+          "margin": 50.15,
+          "votesRep": 3045,
+          "votesDem": 1011,
+          "votesTotal": 4346
+        },
+        "Warrick18": {
+          "color": "#BF1D29",
+          "label": "Braun +29.3",
+          "margin": 29.3,
+          "votesRep": 19982,
+          "votesDem": 10926,
+          "votesTotal": 31768
+        },
+        "Washington18": {
+          "color": "#BF1D29",
+          "label": "Braun +45.0",
+          "margin": 45.04,
+          "votesRep": 8613,
+          "votesDem": 3264,
+          "votesTotal": 12558
+        },
+        "Wayne18": {
+          "color": "#BF1D29",
+          "label": "Braun +26.1",
+          "margin": 26.11,
+          "votesRep": 15907,
+          "votesDem": 9320,
+          "votesTotal": 26475
+        },
+        "Wells18": {
+          "color": "#BF1D29",
+          "label": "Braun +54.0",
+          "margin": 53.95,
+          "votesRep": 9977,
+          "votesDem": 2984,
+          "votesTotal": 13840
+        },
+        "White18": {
+          "color": "#BF1D29",
+          "label": "Braun +37.3",
+          "margin": 37.35,
+          "votesRep": 6947,
+          "votesDem": 3169,
+          "votesTotal": 10929
+        },
+        "Whitley18": {
+          "color": "#BF1D29",
+          "label": "Braun +45.6",
+          "margin": 45.59,
+          "votesRep": 11550,
+          "votesDem": 4316,
+          "votesTotal": 17160
+        }
+      }
+    },
+    {
+      "id": "senate-2024",
+      "office": "senate",
+      "year": 2024,
+      "label": "2024 US Senate",
+      "candRep": "Jim Banks",
+      "candDem": "Valerie McCray",
+      "shortRep": "Banks",
+      "shortDem": "McCray",
+      "partisan": true,
+      "margin": 20.4,
+      "votesRep": 1659416,
+      "votesDem": 1097061,
+      "votesTotal": 2829897,
+      "regions": {
+        "Adams18": {
+          "color": "#BF1D29",
+          "label": "Banks +56.6",
+          "margin": 56.56,
+          "votesRep": 9453,
+          "votesDem": 2623,
+          "votesTotal": 12376
+        },
+        "Allen18": {
+          "color": "#BF1D29",
+          "label": "Banks +16.6",
+          "margin": 16.58,
+          "votesRep": 89831,
+          "votesDem": 64275,
+          "votesTotal": 157837
+        },
+        "Bartholomew18": {
+          "color": "#BF1D29",
+          "label": "Banks +31.2",
+          "margin": 31.19,
+          "votesRep": 20573,
+          "votesDem": 10790,
+          "votesTotal": 32259
+        },
+        "Benton18": {
+          "color": "#BF1D29",
+          "label": "Banks +51.6",
+          "margin": 51.59,
+          "votesRep": 2887,
+          "votesDem": 922,
+          "votesTotal": 3925
+        },
+        "Blackford18": {
+          "color": "#BF1D29",
+          "label": "Banks +52.4",
+          "margin": 52.43,
+          "votesRep": 3554,
+          "votesDem": 1109,
+          "votesTotal": 4821
+        },
+        "Boone18": {
+          "color": "#BF1D29",
+          "label": "Banks +22.4",
+          "margin": 22.43,
+          "votesRep": 23037,
+          "votesDem": 14596,
+          "votesTotal": 38788
+        },
+        "Brown18": {
+          "color": "#BF1D29",
+          "label": "Banks +33.3",
+          "margin": 33.35,
+          "votesRep": 5392,
+          "votesDem": 2695,
+          "votesTotal": 8444
+        },
+        "Carroll18": {
+          "color": "#BF1D29",
+          "label": "Banks +54.5",
+          "margin": 54.46,
+          "votesRep": 6898,
+          "votesDem": 2034,
+          "votesTotal": 9172
+        },
+        "Cass18": {
+          "color": "#BF1D29",
+          "label": "Banks +46.5",
+          "margin": 46.52,
+          "votesRep": 10031,
+          "votesDem": 3661,
+          "votesTotal": 14100
+        },
+        "Clark18": {
+          "color": "#BF1D29",
+          "label": "Banks +19.3",
+          "margin": 19.28,
+          "votesRep": 32978,
+          "votesDem": 22317,
+          "votesTotal": 57189
+        },
+        "Clay18": {
+          "color": "#BF1D29",
+          "label": "Banks +57.3",
+          "margin": 57.31,
+          "votesRep": 8752,
+          "votesDem": 2375,
+          "votesTotal": 11453
+        },
+        "Clinton18": {
+          "color": "#BF1D29",
+          "label": "Banks +50.9",
+          "margin": 50.92,
+          "votesRep": 8620,
+          "votesDem": 2803,
+          "votesTotal": 11783
+        },
+        "Crawford18": {
+          "color": "#BF1D29",
+          "label": "Banks +43.2",
+          "margin": 43.24,
+          "votesRep": 3311,
+          "votesDem": 1312,
+          "votesTotal": 4750
+        },
+        "Daviess18": {
+          "color": "#BF1D29",
+          "label": "Banks +65.0",
+          "margin": 65.03,
+          "votesRep": 8632,
+          "votesDem": 1829,
+          "votesTotal": 10705
+        },
+        "Dearborn18": {
+          "color": "#BF1D29",
+          "label": "Banks +59.7",
+          "margin": 59.73,
+          "votesRep": 20655,
+          "votesDem": 5208,
+          "votesTotal": 26414
+        },
+        "Decatur18": {
+          "color": "#BF1D29",
+          "label": "Banks +62.1",
+          "margin": 62.09,
+          "votesRep": 8971,
+          "votesDem": 2098,
+          "votesTotal": 11444
+        },
+        "DeKalb18": {
+          "color": "#BF1D29",
+          "label": "Banks +50.7",
+          "margin": 50.68,
+          "votesRep": 13530,
+          "votesDem": 4429,
+          "votesTotal": 18512
+        },
+        "Delaware18": {
+          "color": "#BF1D29",
+          "label": "Banks +17.0",
+          "margin": 17.01,
+          "votesRep": 24801,
+          "votesDem": 17590,
+          "votesTotal": 43645
+        },
+        "Dubois18": {
+          "color": "#BF1D29",
+          "label": "Banks +42.7",
+          "margin": 42.73,
+          "votesRep": 13549,
+          "votesDem": 5436,
+          "votesTotal": 19577
+        },
+        "Elkhart18": {
+          "color": "#BF1D29",
+          "label": "Banks +35.4",
+          "margin": 35.37,
+          "votesRep": 46298,
+          "votesDem": 22106,
+          "votesTotal": 69708
+        },
+        "Fayette18": {
+          "color": "#BF1D29",
+          "label": "Banks +56.7",
+          "margin": 56.66,
+          "votesRep": 7066,
+          "votesDem": 1955,
+          "votesTotal": 9271
+        },
+        "Floyd18": {
+          "color": "#BF1D29",
+          "label": "Banks +16.4",
+          "margin": 16.41,
+          "votesRep": 23053,
+          "votesDem": 16554,
+          "votesTotal": 40712
+        },
+        "Fountain18": {
+          "color": "#BF1D29",
+          "label": "Banks +61.6",
+          "margin": 61.56,
+          "votesRep": 6224,
+          "votesDem": 1481,
+          "votesTotal": 7919
+        },
+        "Franklin18": {
+          "color": "#BF1D29",
+          "label": "Banks +64.8",
+          "margin": 64.79,
+          "votesRep": 9043,
+          "votesDem": 1932,
+          "votesTotal": 11235
+        },
+        "Fulton18": {
+          "color": "#BF1D29",
+          "label": "Banks +53.6",
+          "margin": 53.56,
+          "votesRep": 6580,
+          "votesDem": 1990,
+          "votesTotal": 8785
+        },
+        "Gibson18": {
+          "color": "#BF1D29",
+          "label": "Banks +51.2",
+          "margin": 51.15,
+          "votesRep": 11424,
+          "votesDem": 3692,
+          "votesTotal": 15522
+        },
+        "Grant18": {
+          "color": "#BF1D29",
+          "label": "Banks +45.0",
+          "margin": 45.01,
+          "votesRep": 16244,
+          "votesDem": 6160,
+          "votesTotal": 22967
+        },
+        "Greene18": {
+          "color": "#BF1D29",
+          "label": "Banks +52.8",
+          "margin": 52.84,
+          "votesRep": 10146,
+          "votesDem": 3131,
+          "votesTotal": 13668
+        },
+        "Hamilton18": {
+          "color": "#BF1D29",
+          "label": "Banks +12.4",
+          "margin": 12.44,
+          "votesRep": 99855,
+          "votesDem": 77761,
+          "votesTotal": 181846
+        },
+        "Hancock18": {
+          "color": "#BF1D29",
+          "label": "Banks +37.4",
+          "margin": 37.38,
+          "votesRep": 28667,
+          "votesDem": 13067,
+          "votesTotal": 43660
+        },
+        "Harrison18": {
+          "color": "#BF1D29",
+          "label": "Banks +46.3",
+          "margin": 46.29,
+          "votesRep": 14256,
+          "votesDem": 5234,
+          "votesTotal": 20056
+        },
+        "Hendricks18": {
+          "color": "#BF1D29",
+          "label": "Banks +25.7",
+          "margin": 25.71,
+          "votesRep": 48718,
+          "votesDem": 28790,
+          "votesTotal": 79851
+        },
+        "Henry18": {
+          "color": "#BF1D29",
+          "label": "Banks +49.4",
+          "margin": 49.37,
+          "votesRep": 14818,
+          "votesDem": 5023,
+          "votesTotal": 20443
+        },
+        "Howard18": {
+          "color": "#BF1D29",
+          "label": "Banks +36.5",
+          "margin": 36.47,
+          "votesRep": 25369,
+          "votesDem": 11810,
+          "votesTotal": 38428
+        },
+        "Huntington18": {
+          "color": "#BF1D29",
+          "label": "Banks +51.6",
+          "margin": 51.57,
+          "votesRep": 12579,
+          "votesDem": 4019,
+          "votesTotal": 17121
+        },
+        "Jackson18": {
+          "color": "#BF1D29",
+          "label": "Banks +55.8",
+          "margin": 55.82,
+          "votesRep": 13946,
+          "votesDem": 3954,
+          "votesTotal": 18360
+        },
+        "Jasper18": {
+          "color": "#BF1D29",
+          "label": "Banks +54.7",
+          "margin": 54.7,
+          "votesRep": 11204,
+          "votesDem": 3281,
+          "votesTotal": 14843
+        },
+        "Jay18": {
+          "color": "#BF1D29",
+          "label": "Banks +57.9",
+          "margin": 57.89,
+          "votesRep": 5976,
+          "votesDem": 1594,
+          "votesTotal": 7780
+        },
+        "Jefferson18": {
+          "color": "#BF1D29",
+          "label": "Banks +36.1",
+          "margin": 36.12,
+          "votesRep": 8943,
+          "votesDem": 4197,
+          "votesTotal": 13507
+        },
+        "Jennings18": {
+          "color": "#BF1D29",
+          "label": "Banks +57.7",
+          "margin": 57.71,
+          "votesRep": 8816,
+          "votesDem": 2364,
+          "votesTotal": 11548
+        },
+        "Johnson18": {
+          "color": "#BF1D29",
+          "label": "Banks +37.4",
+          "margin": 37.37,
+          "votesRep": 45502,
+          "votesDem": 20743,
+          "votesTotal": 68347
+        },
+        "Knox18": {
+          "color": "#BF1D29",
+          "label": "Banks +48.8",
+          "margin": 48.77,
+          "votesRep": 10167,
+          "votesDem": 3501,
+          "votesTotal": 14052
+        },
+        "Kosciusko18": {
+          "color": "#BF1D29",
+          "label": "Banks +57.5",
+          "margin": 57.45,
+          "votesRep": 25610,
+          "votesDem": 6920,
+          "votesTotal": 33441
+        },
+        "LaGrange18": {
+          "color": "#BF1D29",
+          "label": "Banks +59.9",
+          "margin": 59.93,
+          "votesRep": 7806,
+          "votesDem": 1956,
+          "votesTotal": 9967
+        },
+        "Lake18": {
+          "color": "#577CCC",
+          "label": "McCray +8.8",
+          "margin": -8.85,
+          "votesRep": 88474,
+          "votesDem": 105648,
+          "votesTotal": 197745
+        },
+        "LaPorte18": {
+          "color": "#BF1D29",
+          "label": "Banks +13.6",
+          "margin": 13.59,
+          "votesRep": 24752,
+          "votesDem": 18828,
+          "votesTotal": 44726
+        },
+        "Lawrence18": {
+          "color": "#BF1D29",
+          "label": "Banks +52.7",
+          "margin": 52.71,
+          "votesRep": 14811,
+          "votesDem": 4586,
+          "votesTotal": 20022
+        },
+        "Madison18": {
+          "color": "#BF1D29",
+          "label": "Banks +28.4",
+          "margin": 28.37,
+          "votesRep": 34393,
+          "votesDem": 19190,
+          "votesTotal": 55302
+        },
+        "Marion18": {
+          "color": "#1C408C",
+          "label": "McCray +26.5",
+          "margin": -26.47,
+          "votesRep": 126643,
+          "votesDem": 217819,
+          "votesTotal": 352909
+        },
+        "Marshall18": {
+          "color": "#BF1D29",
+          "label": "Banks +47.2",
+          "margin": 47.22,
+          "votesRep": 13495,
+          "votesDem": 4838,
+          "votesTotal": 18733
+        },
+        "Martin18": {
+          "color": "#BF1D29",
+          "label": "Banks +56.8",
+          "margin": 56.76,
+          "votesRep": 3633,
+          "votesDem": 1002,
+          "votesTotal": 4819
+        },
+        "Miami18": {
+          "color": "#BF1D29",
+          "label": "Banks +55.6",
+          "margin": 55.58,
+          "votesRep": 9983,
+          "votesDem": 2850,
+          "votesTotal": 13220
+        },
+        "Monroe18": {
+          "color": "#1C408C",
+          "label": "McCray +25.9",
+          "margin": -25.85,
+          "votesRep": 21187,
+          "votesDem": 35960,
+          "votesTotal": 58668
+        },
+        "Montgomery18": {
+          "color": "#BF1D29",
+          "label": "Banks +52.1",
+          "margin": 52.15,
+          "votesRep": 12101,
+          "votesDem": 3806,
+          "votesTotal": 16386
+        },
+        "Morgan18": {
+          "color": "#BF1D29",
+          "label": "Banks +56.2",
+          "margin": 56.17,
+          "votesRep": 25306,
+          "votesDem": 7103,
+          "votesTotal": 33605
+        },
+        "Newton18": {
+          "color": "#BF1D29",
+          "label": "Banks +56.5",
+          "margin": 56.47,
+          "votesRep": 4860,
+          "votesDem": 1352,
+          "votesTotal": 6433
+        },
+        "Noble18": {
+          "color": "#BF1D29",
+          "label": "Banks +54.5",
+          "margin": 54.52,
+          "votesRep": 13710,
+          "votesDem": 4035,
+          "votesTotal": 18216
+        },
+        "Ohio18": {
+          "color": "#BF1D29",
+          "label": "Banks +54.2",
+          "margin": 54.17,
+          "votesRep": 2254,
+          "votesDem": 670,
+          "votesTotal": 3000
+        },
+        "Orange18": {
+          "color": "#BF1D29",
+          "label": "Banks +51.6",
+          "margin": 51.63,
+          "votesRep": 5947,
+          "votesDem": 1897,
+          "votesTotal": 8055
+        },
+        "Owen18": {
+          "color": "#BF1D29",
+          "label": "Banks +51.6",
+          "margin": 51.6,
+          "votesRep": 6744,
+          "votesDem": 2153,
+          "votesTotal": 9399
+        },
+        "Parke18": {
+          "color": "#BF1D29",
+          "label": "Banks +57.8",
+          "margin": 57.83,
+          "votesRep": 4768,
+          "votesDem": 1274,
+          "votesTotal": 6215
+        },
+        "Perry18": {
+          "color": "#BF1D29",
+          "label": "Banks +25.6",
+          "margin": 25.64,
+          "votesRep": 4961,
+          "votesDem": 2936,
+          "votesTotal": 8052
+        },
+        "Pike18": {
+          "color": "#BF1D29",
+          "label": "Banks +54.5",
+          "margin": 54.53,
+          "votesRep": 4166,
+          "votesDem": 1226,
+          "votesTotal": 5542
+        },
+        "Porter18": {
+          "color": "#BF1D29",
+          "label": "Banks +10.9",
+          "margin": 10.95,
+          "votesRep": 46011,
+          "votesDem": 36931,
+          "votesTotal": 84738
+        },
+        "Posey18": {
+          "color": "#BF1D29",
+          "label": "Banks +46.2",
+          "margin": 46.2,
+          "votesRep": 9147,
+          "votesDem": 3366,
+          "votesTotal": 12801
+        },
+        "Pulaski18": {
+          "color": "#BF1D29",
+          "label": "Banks +55.4",
+          "margin": 55.37,
+          "votesRep": 4031,
+          "votesDem": 1158,
+          "votesTotal": 5352
+        },
+        "Putnam18": {
+          "color": "#BF1D29",
+          "label": "Banks +53.9",
+          "margin": 53.88,
+          "votesRep": 11918,
+          "votesDem": 3572,
+          "votesTotal": 16020
+        },
+        "Randolph18": {
+          "color": "#BF1D29",
+          "label": "Banks +55.3",
+          "margin": 55.27,
+          "votesRep": 7533,
+          "votesDem": 2170,
+          "votesTotal": 9963
+        },
+        "Ripley18": {
+          "color": "#BF1D29",
+          "label": "Banks +62.1",
+          "margin": 62.09,
+          "votesRep": 11286,
+          "votesDem": 2640,
+          "votesTotal": 14242
+        },
+        "Rush18": {
+          "color": "#BF1D29",
+          "label": "Banks +57.4",
+          "margin": 57.38,
+          "votesRep": 5532,
+          "votesDem": 1498,
+          "votesTotal": 7289
+        },
+        "Scott18": {
+          "color": "#BF1D29",
+          "label": "Banks +43.3",
+          "margin": 43.26,
+          "votesRep": 6042,
+          "votesDem": 2393,
+          "votesTotal": 8676
+        },
+        "Shelby18": {
+          "color": "#BF1D29",
+          "label": "Banks +50.3",
+          "margin": 50.28,
+          "votesRep": 13495,
+          "votesDem": 4465,
+          "votesTotal": 18707
+        },
+        "Spencer18": {
+          "color": "#BF1D29",
+          "label": "Banks +44.6",
+          "margin": 44.62,
+          "votesRep": 7051,
+          "votesDem": 2700,
+          "votesTotal": 9964
+        },
+        "St. Joseph18": {
+          "color": "#FF8B98",
+          "label": "Banks +1.2",
+          "margin": 1.24,
+          "votesRep": 54590,
+          "votesDem": 53253,
+          "votesTotal": 110066
+        },
+        "Starke18": {
+          "color": "#BF1D29",
+          "label": "Banks +51.1",
+          "margin": 51.06,
+          "votesRep": 7035,
+          "votesDem": 2279,
+          "votesTotal": 9590
+        },
+        "Steuben18": {
+          "color": "#BF1D29",
+          "label": "Banks +47.8",
+          "margin": 47.83,
+          "votesRep": 11345,
+          "votesDem": 4004,
+          "votesTotal": 15735
+        },
+        "Sullivan18": {
+          "color": "#BF1D29",
+          "label": "Banks +48.8",
+          "margin": 48.77,
+          "votesRep": 5898,
+          "votesDem": 2031,
+          "votesTotal": 8122
+        },
+        "Switzerland18": {
+          "color": "#BF1D29",
+          "label": "Banks +55.1",
+          "margin": 55.09,
+          "votesRep": 3156,
+          "votesDem": 914,
+          "votesTotal": 4143
+        },
+        "Tippecanoe18": {
+          "color": "#FF8B98",
+          "label": "Banks +2.6",
+          "margin": 2.6,
+          "votesRep": 31699,
+          "votesDem": 30091,
+          "votesTotal": 63669
+        },
+        "Tipton18": {
+          "color": "#BF1D29",
+          "label": "Banks +54.1",
+          "margin": 54.06,
+          "votesRep": 5617,
+          "votesDem": 1675,
+          "votesTotal": 7569
+        },
+        "Union18": {
+          "color": "#BF1D29",
+          "label": "Banks +57.9",
+          "margin": 57.94,
+          "votesRep": 2606,
+          "votesDem": 694,
+          "votesTotal": 3427
+        },
+        "Vanderburgh18": {
+          "color": "#BF1D29",
+          "label": "Banks +14.9",
+          "margin": 14.94,
+          "votesRep": 41084,
+          "votesDem": 30403,
+          "votesTotal": 72992
+        },
+        "Vermillion18": {
+          "color": "#BF1D29",
+          "label": "Banks +41.3",
+          "margin": 41.29,
+          "votesRep": 4645,
+          "votesDem": 1930,
+          "votesTotal": 6766
+        },
+        "Vigo18": {
+          "color": "#BF1D29",
+          "label": "Banks +16.9",
+          "margin": 16.89,
+          "votesRep": 22898,
+          "votesDem": 16282,
+          "votesTotal": 40177
+        },
+        "Wabash18": {
+          "color": "#BF1D29",
+          "label": "Banks +54.5",
+          "margin": 54.52,
+          "votesRep": 10102,
+          "votesDem": 2973,
+          "votesTotal": 13420
+        },
+        "Warren18": {
+          "color": "#BF1D29",
+          "label": "Banks +58.5",
+          "margin": 58.55,
+          "votesRep": 3362,
+          "votesDem": 879,
+          "votesTotal": 4336
+        },
+        "Warrick18": {
+          "color": "#BF1D29",
+          "label": "Banks +33.0",
+          "margin": 33.03,
+          "votesRep": 20314,
+          "votesDem": 10227,
+          "votesTotal": 31219
+        },
+        "Washington18": {
+          "color": "#BF1D29",
+          "label": "Banks +53.6",
+          "margin": 53.62,
+          "votesRep": 9219,
+          "votesDem": 2783,
+          "votesTotal": 12404
+        },
+        "Wayne18": {
+          "color": "#BF1D29",
+          "label": "Banks +34.2",
+          "margin": 34.2,
+          "votesRep": 17083,
+          "votesDem": 8376,
+          "votesTotal": 26357
+        },
+        "Wells18": {
+          "color": "#BF1D29",
+          "label": "Banks +62.0",
+          "margin": 61.98,
+          "votesRep": 10135,
+          "votesDem": 2379,
+          "votesTotal": 12884
+        },
+        "White18": {
+          "color": "#BF1D29",
+          "label": "Banks +49.8",
+          "margin": 49.76,
+          "votesRep": 7900,
+          "votesDem": 2650,
+          "votesTotal": 10859
+        },
+        "Whitley18": {
+          "color": "#BF1D29",
+          "label": "Banks +53.5",
+          "margin": 53.51,
+          "votesRep": 12729,
+          "votesDem": 3855,
+          "votesTotal": 17132
+        }
+      }
+    },
+    {
+      "id": "senate-2016",
+      "office": "senate",
+      "year": 2016,
+      "label": "2016 US Senate",
+      "candRep": "Todd Young",
+      "candDem": "Evan Bayh",
+      "shortRep": "Young",
+      "shortDem": "Bayh",
+      "partisan": true,
+      "margin": 10.18,
+      "votesRep": 1423865,
+      "votesDem": 1160844,
+      "votesTotal": 2751622,
+      "regions": {
+        "Adams18": {
+          "color": "#BF1D29",
+          "label": "Young +37.4",
+          "margin": 37.41,
+          "votesRep": 8430,
+          "votesDem": 3840,
+          "votesTotal": 13136
+        },
+        "Allen18": {
+          "color": "#BF1D29",
+          "label": "Young +14.0",
+          "margin": 14.01,
+          "votesRep": 79370,
+          "votesDem": 59868,
+          "votesTotal": 147741
+        },
+        "Bartholomew18": {
+          "color": "#BF1D29",
+          "label": "Young +25.3",
+          "margin": 25.31,
+          "votesRep": 19050,
+          "votesDem": 11354,
+          "votesTotal": 32243
+        },
+        "Benton18": {
+          "color": "#BF1D29",
+          "label": "Young +34.3",
+          "margin": 34.34,
+          "votesRep": 2316,
+          "votesDem": 1132,
+          "votesTotal": 3694
+        },
+        "Blackford18": {
+          "color": "#BF1D29",
+          "label": "Young +23.4",
+          "margin": 23.37,
+          "votesRep": 2748,
+          "votesDem": 1707,
+          "votesTotal": 4820
+        },
+        "Boone18": {
+          "color": "#BF1D29",
+          "label": "Young +30.7",
+          "margin": 30.71,
+          "votesRep": 19966,
+          "votesDem": 10583,
+          "votesTotal": 32264
+        },
+        "Brown18": {
+          "color": "#BF1D29",
+          "label": "Young +22.7",
+          "margin": 22.72,
+          "votesRep": 4616,
+          "votesDem": 2907,
+          "votesTotal": 7985
+        },
+        "Carroll18": {
+          "color": "#BF1D29",
+          "label": "Young +37.2",
+          "margin": 37.22,
+          "votesRep": 5512,
+          "votesDem": 2522,
+          "votesTotal": 8682
+        },
+        "Cass18": {
+          "color": "#BF1D29",
+          "label": "Young +25.5",
+          "margin": 25.53,
+          "votesRep": 8306,
+          "votesDem": 4927,
+          "votesTotal": 14246
+        },
+        "Clark18": {
+          "color": "#BF1D29",
+          "label": "Young +12.8",
+          "margin": 12.76,
+          "votesRep": 27681,
+          "votesDem": 21415,
+          "votesTotal": 51092
+        },
+        "Clay18": {
+          "color": "#BF1D29",
+          "label": "Young +23.6",
+          "margin": 23.61,
+          "votesRep": 6439,
+          "votesDem": 3979,
+          "votesTotal": 11115
+        },
+        "Clinton18": {
+          "color": "#BF1D29",
+          "label": "Young +32.8",
+          "margin": 32.76,
+          "votesRep": 7291,
+          "votesDem": 3693,
+          "votesTotal": 11724
+        },
+        "Crawford18": {
+          "color": "#BF1D29",
+          "label": "Young +13.9",
+          "margin": 13.9,
+          "votesRep": 2500,
+          "votesDem": 1890,
+          "votesTotal": 4559
+        },
+        "Daviess18": {
+          "color": "#BF1D29",
+          "label": "Young +38.8",
+          "margin": 38.77,
+          "votesRep": 7096,
+          "votesDem": 3131,
+          "votesTotal": 10677
+        },
+        "Dearborn18": {
+          "color": "#BF1D29",
+          "label": "Young +53.4",
+          "margin": 53.41,
+          "votesRep": 17288,
+          "votesDem": 5251,
+          "votesTotal": 23492
+        },
+        "Decatur18": {
+          "color": "#BF1D29",
+          "label": "Young +41.5",
+          "margin": 41.45,
+          "votesRep": 7301,
+          "votesDem": 3022,
+          "votesTotal": 10926
+        },
+        "DeKalb18": {
+          "color": "#BF1D29",
+          "label": "Young +34.1",
+          "margin": 34.08,
+          "votesRep": 10228,
+          "votesDem": 5028,
+          "votesTotal": 16669
+        },
+        "Delaware18": {
+          "color": "#FF8B98",
+          "label": "Young +2.4",
+          "margin": 2.38,
+          "votesRep": 21515,
+          "votesDem": 20515,
+          "votesTotal": 44770
+        },
+        "Dubois18": {
+          "color": "#BF1D29",
+          "label": "Young +17.8",
+          "margin": 17.82,
+          "votesRep": 11029,
+          "votesDem": 7692,
+          "votesTotal": 19683
+        },
+        "Elkhart18": {
+          "color": "#BF1D29",
+          "label": "Young +25.3",
+          "margin": 25.32,
+          "votesRep": 39291,
+          "votesDem": 23416,
+          "votesTotal": 66105
+        },
+        "Fayette18": {
+          "color": "#BF1D29",
+          "label": "Young +27.7",
+          "margin": 27.72,
+          "votesRep": 5602,
+          "votesDem": 3170,
+          "votesTotal": 9381
+        },
+        "Floyd18": {
+          "color": "#BF1D29",
+          "label": "Young +14.4",
+          "margin": 14.45,
+          "votesRep": 20730,
+          "votesDem": 15497,
+          "votesTotal": 37575
+        },
+        "Fountain18": {
+          "color": "#BF1D29",
+          "label": "Young +41.3",
+          "margin": 41.27,
+          "votesRep": 4982,
+          "votesDem": 2071,
+          "votesTotal": 7502
+        },
+        "Franklin18": {
+          "color": "#BF1D29",
+          "label": "Young +50.2",
+          "margin": 50.24,
+          "votesRep": 7926,
+          "votesDem": 2625,
+          "votesTotal": 10910
+        },
+        "Fulton18": {
+          "color": "#BF1D29",
+          "label": "Young +29.0",
+          "margin": 29.01,
+          "votesRep": 5076,
+          "votesDem": 2793,
+          "votesTotal": 8421
+        },
+        "Gibson18": {
+          "color": "#BF1D29",
+          "label": "Young +25.1",
+          "margin": 25.11,
+          "votesRep": 9220,
+          "votesDem": 5519,
+          "votesTotal": 15515
+        },
+        "Grant18": {
+          "color": "#BF1D29",
+          "label": "Young +29.4",
+          "margin": 29.35,
+          "votesRep": 15280,
+          "votesDem": 8345,
+          "votesTotal": 25265
+        },
+        "Greene18": {
+          "color": "#BF1D29",
+          "label": "Young +21.7",
+          "margin": 21.69,
+          "votesRep": 7866,
+          "votesDem": 5062,
+          "votesTotal": 13629
+        },
+        "Hamilton18": {
+          "color": "#BF1D29",
+          "label": "Young +24.9",
+          "margin": 24.94,
+          "votesRep": 92655,
+          "votesDem": 55663,
+          "votesTotal": 155116
+        },
+        "Hancock18": {
+          "color": "#BF1D29",
+          "label": "Young +36.6",
+          "margin": 36.56,
+          "votesRep": 23187,
+          "votesDem": 10772,
+          "votesTotal": 36361
+        },
+        "Harrison18": {
+          "color": "#BF1D29",
+          "label": "Young +27.0",
+          "margin": 26.98,
+          "votesRep": 11442,
+          "votesDem": 6580,
+          "votesTotal": 18602
+        },
+        "Hendricks18": {
+          "color": "#BF1D29",
+          "label": "Young +31.3",
+          "margin": 31.34,
+          "votesRep": 46722,
+          "votesDem": 24427,
+          "votesTotal": 75037
+        },
+        "Henry18": {
+          "color": "#BF1D29",
+          "label": "Young +25.6",
+          "margin": 25.56,
+          "votesRep": 11664,
+          "votesDem": 6915,
+          "votesTotal": 20136
+        },
+        "Howard18": {
+          "color": "#BF1D29",
+          "label": "Young +17.5",
+          "margin": 17.54,
+          "votesRep": 20408,
+          "votesDem": 14316,
+          "votesTotal": 37101
+        },
+        "Huntington18": {
+          "color": "#BF1D29",
+          "label": "Young +37.1",
+          "margin": 37.1,
+          "votesRep": 9970,
+          "votesDem": 4574,
+          "votesTotal": 15853
+        },
+        "Jackson18": {
+          "color": "#BF1D29",
+          "label": "Young +33.4",
+          "margin": 33.4,
+          "votesRep": 11269,
+          "votesDem": 5626,
+          "votesTotal": 35015
+        },
+        "Jasper18": {
+          "color": "#BF1D29",
+          "label": "Young +35.1",
+          "margin": 35.14,
+          "votesRep": 8556,
+          "votesDem": 4106,
+          "votesTotal": 13237
+        },
+        "Jay18": {
+          "color": "#BF1D29",
+          "label": "Young +24.9",
+          "margin": 24.94,
+          "votesRep": 4529,
+          "votesDem": 2721,
+          "votesTotal": 7846
+        },
+        "Jefferson18": {
+          "color": "#BF1D29",
+          "label": "Young +16.3",
+          "margin": 16.33,
+          "votesRep": 7541,
+          "votesDem": 5424,
+          "votesTotal": 13428
+        },
+        "Jennings18": {
+          "color": "#BF1D29",
+          "label": "Young +30.5",
+          "margin": 30.49,
+          "votesRep": 6949,
+          "votesDem": 3702,
+          "votesTotal": 11166
+        },
+        "Johnson18": {
+          "color": "#BF1D29",
+          "label": "Young +37.0",
+          "margin": 37.05,
+          "votesRep": 43317,
+          "votesDem": 19897,
+          "votesTotal": 66933
+        },
+        "Knox18": {
+          "color": "#FF5865",
+          "label": "Young +9.0",
+          "margin": 9.03,
+          "votesRep": 7876,
+          "votesDem": 6571,
+          "votesTotal": 15263
+        },
+        "Kosciusko18": {
+          "color": "#BF1D29",
+          "label": "Young +46.9",
+          "margin": 46.88,
+          "votesRep": 22188,
+          "votesDem": 8025,
+          "votesTotal": 32195
+        },
+        "LaGrange18": {
+          "color": "#BF1D29",
+          "label": "Young +38.2",
+          "margin": 38.21,
+          "votesRep": 6222,
+          "votesDem": 2782,
+          "votesTotal": 9622
+        },
+        "Lake18": {
+          "color": "#1C408C",
+          "label": "Bayh +28.7",
+          "margin": -28.67,
+          "votesRep": 67657,
+          "votesDem": 122036,
+          "votesTotal": 197231
+        },
+        "LaPorte18": {
+          "color": "#577CCC",
+          "label": "Bayh +6.3",
+          "margin": -6.33,
+          "votesRep": 19733,
+          "votesDem": 22401,
+          "votesTotal": 44900
+        },
+        "Lawrence18": {
+          "color": "#BF1D29",
+          "label": "Young +38.4",
+          "margin": 38.35,
+          "votesRep": 12327,
+          "votesDem": 5493,
+          "votesTotal": 18827
+        },
+        "Madison18": {
+          "color": "#BF1D29",
+          "label": "Young +11.7",
+          "margin": 11.68,
+          "votesRep": 28057,
+          "votesDem": 22188,
+          "votesTotal": 53934
+        },
+        "Marion18": {
+          "color": "#1C408C",
+          "label": "Bayh +23.7",
+          "margin": -23.74,
+          "votesRep": 131574,
+          "votesDem": 213477,
+          "votesTotal": 365191
+        },
+        "Marshall18": {
+          "color": "#BF1D29",
+          "label": "Young +26.3",
+          "margin": 26.28,
+          "votesRep": 10659,
+          "votesDem": 6223,
+          "votesTotal": 17941
+        },
+        "Martin18": {
+          "color": "#BF1D29",
+          "label": "Young +29.6",
+          "margin": 29.57,
+          "votesRep": 2934,
+          "votesDem": 1595,
+          "votesTotal": 4790
+        },
+        "Miami18": {
+          "color": "#BF1D29",
+          "label": "Young +37.6",
+          "margin": 37.57,
+          "votesRep": 8453,
+          "votesDem": 3836,
+          "votesTotal": 13296
+        },
+        "Monroe18": {
+          "color": "#1C408C",
+          "label": "Bayh +23.9",
+          "margin": -23.87,
+          "votesRep": 21057,
+          "votesDem": 34260,
+          "votesTotal": 58796
+        },
+        "Montgomery18": {
+          "color": "#BF1D29",
+          "label": "Young +38.1",
+          "margin": 38.13,
+          "votesRep": 9808,
+          "votesDem": 4393,
+          "votesTotal": 15177
+        },
+        "Morgan18": {
+          "color": "#BF1D29",
+          "label": "Young +46.1",
+          "margin": 46.09,
+          "votesRep": 21193,
+          "votesDem": 7821,
+          "votesTotal": 31025
+        },
+        "Newton18": {
+          "color": "#BF1D29",
+          "label": "Young +34.5",
+          "margin": 34.53,
+          "votesRep": 3670,
+          "votesDem": 1786,
+          "votesTotal": 5769
+        },
+        "Noble18": {
+          "color": "#BF1D29",
+          "label": "Young +35.6",
+          "margin": 35.56,
+          "votesRep": 10509,
+          "votesDem": 4996,
+          "votesTotal": 16722
+        },
+        "Ohio18": {
+          "color": "#BF1D29",
+          "label": "Young +39.1",
+          "margin": 39.09,
+          "votesRep": 1948,
+          "votesDem": 853,
+          "votesTotal": 2896
+        },
+        "Orange18": {
+          "color": "#BF1D29",
+          "label": "Young +29.5",
+          "margin": 29.5,
+          "votesRep": 5134,
+          "votesDem": 2795,
+          "votesTotal": 8220
+        },
+        "Owen18": {
+          "color": "#BF1D29",
+          "label": "Young +33.7",
+          "margin": 33.74,
+          "votesRep": 5333,
+          "votesDem": 2642,
+          "votesTotal": 8532
+        },
+        "Parke18": {
+          "color": "#BF1D29",
+          "label": "Young +24.5",
+          "margin": 24.52,
+          "votesRep": 3859,
+          "votesDem": 2339,
+          "votesTotal": 6633
+        },
+        "Perry18": {
+          "color": "#8AAFFF",
+          "label": "Bayh +5.0",
+          "margin": -4.97,
+          "votesRep": 3612,
+          "votesDem": 3990,
+          "votesTotal": 7990
+        },
+        "Pike18": {
+          "color": "#BF1D29",
+          "label": "Young +20.9",
+          "margin": 20.89,
+          "votesRep": 3405,
+          "votesDem": 2228,
+          "votesTotal": 5948
+        },
+        "Porter18": {
+          "color": "#8AAFFF",
+          "label": "Bayh +1.7",
+          "margin": -1.65,
+          "votesRep": 35629,
+          "votesDem": 36828,
+          "votesTotal": 76723
+        },
+        "Posey18": {
+          "color": "#BF1D29",
+          "label": "Young +18.5",
+          "margin": 18.47,
+          "votesRep": 7058,
+          "votesDem": 4857,
+          "votesTotal": 12512
+        },
+        "Pulaski18": {
+          "color": "#BF1D29",
+          "label": "Young +25.2",
+          "margin": 25.16,
+          "votesRep": 3109,
+          "votesDem": 1859,
+          "votesTotal": 5340
+        },
+        "Putnam18": {
+          "color": "#BF1D29",
+          "label": "Young +37.5",
+          "margin": 37.54,
+          "votesRep": 9510,
+          "votesDem": 4319,
+          "votesTotal": 14690
+        },
+        "Randolph18": {
+          "color": "#BF1D29",
+          "label": "Young +33.0",
+          "margin": 32.99,
+          "votesRep": 6411,
+          "votesDem": 3230,
+          "votesTotal": 10255
+        },
+        "Ripley18": {
+          "color": "#BF1D29",
+          "label": "Young +48.7",
+          "margin": 48.71,
+          "votesRep": 9227,
+          "votesDem": 3182,
+          "votesTotal": 12873
+        },
+        "Rush18": {
+          "color": "#BF1D29",
+          "label": "Young +33.3",
+          "margin": 33.29,
+          "votesRep": 4472,
+          "votesDem": 2238,
+          "votesTotal": 7151
+        },
+        "Scott18": {
+          "color": "#BF1D29",
+          "label": "Young +14.6",
+          "margin": 14.56,
+          "votesRep": 5046,
+          "votesDem": 3763,
+          "votesTotal": 9097
+        },
+        "Shelby18": {
+          "color": "#BF1D29",
+          "label": "Young +34.0",
+          "margin": 34,
+          "votesRep": 11267,
+          "votesDem": 5549,
+          "votesTotal": 17929
+        },
+        "Spencer18": {
+          "color": "#BF1D29",
+          "label": "Young +16.0",
+          "margin": 15.97,
+          "votesRep": 5465,
+          "votesDem": 3960,
+          "votesTotal": 9883
+        },
+        "St. Joseph18": {
+          "color": "#577CCC",
+          "label": "Bayh +9.0",
+          "margin": -9.03,
+          "votesRep": 47353,
+          "votesDem": 56749,
+          "votesTotal": 110884
+        },
+        "Starke18": {
+          "color": "#BF1D29",
+          "label": "Young +17.4",
+          "margin": 17.41,
+          "votesRep": 4895,
+          "votesDem": 3443,
+          "votesTotal": 9037
+        },
+        "Steuben18": {
+          "color": "#BF1D29",
+          "label": "Young +33.3",
+          "margin": 33.26,
+          "votesRep": 9078,
+          "votesDem": 4546,
+          "votesTotal": 14641
+        },
+        "Sullivan18": {
+          "color": "#FF8B98",
+          "label": "Young +3.8",
+          "margin": 3.84,
+          "votesRep": 4164,
+          "votesDem": 3856,
+          "votesTotal": 8449
+        },
+        "Switzerland18": {
+          "color": "#BF1D29",
+          "label": "Young +29.1",
+          "margin": 29.07,
+          "votesRep": 2260,
+          "votesDem": 1242,
+          "votesTotal": 3641
+        },
+        "Tippecanoe18": {
+          "color": "#FF8B98",
+          "label": "Young +2.0",
+          "margin": 1.97,
+          "votesRep": 30081,
+          "votesDem": 28921,
+          "votesTotal": 63015
+        },
+        "Tipton18": {
+          "color": "#FF5865",
+          "label": "Young +9.8",
+          "margin": 9.77,
+          "votesRep": 4760,
+          "votesDem": 3913,
+          "votesTotal": 9169
+        },
+        "Union18": {
+          "color": "#BF1D29",
+          "label": "Young +42.8",
+          "margin": 42.85,
+          "votesRep": 2252,
+          "votesDem": 901,
+          "votesTotal": 3289
+        },
+        "Vanderburgh18": {
+          "color": "#FF5865",
+          "label": "Young +6.9",
+          "margin": 6.9,
+          "votesRep": 36835,
+          "votesDem": 32077,
+          "votesTotal": 72699
+        },
+        "Vermillion18": {
+          "color": "#8AAFFF",
+          "label": "Bayh +3.8",
+          "margin": -3.76,
+          "votesRep": 3197,
+          "votesDem": 3447,
+          "votesTotal": 7099
+        },
+        "Vigo18": {
+          "color": "#1C408C",
+          "label": "Bayh +11.8",
+          "margin": -11.82,
+          "votesRep": 16581,
+          "votesDem": 21028,
+          "votesTotal": 39836
+        },
+        "Wabash18": {
+          "color": "#BF1D29",
+          "label": "Young +37.3",
+          "margin": 37.3,
+          "votesRep": 8595,
+          "votesDem": 3925,
+          "votesTotal": 13368
+        },
+        "Warren18": {
+          "color": "#BF1D29",
+          "label": "Young +38.2",
+          "margin": 38.15,
+          "votesRep": 2589,
+          "votesDem": 1159,
+          "votesTotal": 3959
+        },
+        "Warrick18": {
+          "color": "#BF1D29",
+          "label": "Young +21.7",
+          "margin": 21.74,
+          "votesRep": 17255,
+          "votesDem": 11092,
+          "votesTotal": 29649
+        },
+        "Washington18": {
+          "color": "#BF1D29",
+          "label": "Young +31.2",
+          "margin": 31.21,
+          "votesRep": 7197,
+          "votesDem": 3773,
+          "votesTotal": 11375
+        },
+        "Wayne18": {
+          "color": "#BF1D29",
+          "label": "Young +22.5",
+          "margin": 22.46,
+          "votesRep": 14703,
+          "votesDem": 9309,
+          "votesTotal": 25690
+        },
+        "Wells18": {
+          "color": "#BF1D29",
+          "label": "Young +43.0",
+          "margin": 42.95,
+          "votesRep": 8811,
+          "votesDem": 3516,
+          "votesTotal": 13163
+        },
+        "White18": {
+          "color": "#BF1D29",
+          "label": "Young +30.6",
+          "margin": 30.62,
+          "votesRep": 6128,
+          "votesDem": 3255,
+          "votesTotal": 10083
+        },
+        "Whitley18": {
+          "color": "#BF1D29",
+          "label": "Young +37.3",
+          "margin": 37.35,
+          "votesRep": 9865,
+          "votesDem": 4500,
+          "votesTotal": 15573
+        }
+      }
+    }
+  ]
+}
