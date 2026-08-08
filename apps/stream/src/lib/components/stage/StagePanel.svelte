@@ -161,6 +161,7 @@
 					tab={state.ui.activeMapTab}
 					fill
 					readonly={!interactive}
+					mirror={interactive ? 'publish' : 'follow'}
 					onselect={interactive
 						? (attr) => {
 								// Toggle so re-clicking a selected region dismisses — the host

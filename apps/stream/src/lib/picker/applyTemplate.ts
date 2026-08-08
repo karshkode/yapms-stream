@@ -38,6 +38,11 @@ export function applyTemplate(state: StreamState, template: RaceTemplate): Strea
 			regionsPage: 1,
 			regionsSearch: '',
 			dirty: false,
+			// The shared map camera is a rectangle in the outgoing map's own
+			// coordinates. Carried into a different geography it would frame
+			// nowhere in particular, so the new race starts at full extent and the
+			// first pan on the desk republishes.
+			mapCamera: null,
 			comparison: {
 				...state.ui.comparison,
 				// A new race gets a new answer to "compared to what?". The old

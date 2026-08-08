@@ -191,13 +191,12 @@
 		return n.toLocaleString();
 	}
 
-	// When the slider is on "Live", we still want to surface historical context
-	// for unreported regions — so the archival block is always visible when
-	// data exists, but its heading clarifies whether the host explicitly
-	// selected that year or we're just using it as a default.
-	let archivalSourceNote = $derived(
-		state.ui.archivalYear ? null : '(default baseline — slider on Live)'
-	);
+	// Historical context is worth showing for an unreported region even when
+	// nothing asked for a particular year, so the presidential block appears
+	// whenever there's data for it — the note distinguishes that default from a
+	// year a saved race explicitly carries. (The year scrubber that used to set
+	// it is gone; Compare owns baseline selection now.)
+	let archivalSourceNote = $derived(state.ui.archivalYear ? null : '(default baseline)');
 </script>
 
 {#if region}

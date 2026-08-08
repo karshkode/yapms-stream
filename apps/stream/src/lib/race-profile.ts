@@ -13,7 +13,17 @@ import { z } from 'zod';
 export const PartyBadge = z.enum(['D', 'R', 'P', 'I', 'G', 'L', 'N']);
 export type PartyBadge = z.infer<typeof PartyBadge>;
 
-export const RegionLabel = z.enum(['Counties', 'Districts', 'States', 'Precincts', 'Wards']);
+// "Boroughs" is New York City's, and the reason the list isn't just a string:
+// the resolver decides whether to auto-select a county by asking whether the map
+// is a county map, so a city map has to be able to say it isn't one.
+export const RegionLabel = z.enum([
+	'Counties',
+	'Boroughs',
+	'Districts',
+	'States',
+	'Precincts',
+	'Wards'
+]);
 export type RegionLabel = z.infer<typeof RegionLabel>;
 
 export const SubTab = z.enum(['Results', 'Forecast', 'Early Voting', 'Markets']);

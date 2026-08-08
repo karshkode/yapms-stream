@@ -1,5 +1,6 @@
 import type { RaceTemplate } from '../race-profile';
 import { BROWSE_US_TEMPLATE } from './browse';
+import { CITY_TEMPLATES } from './city-counties';
 import { LOCAL_NO_MAP_TEMPLATE } from './local-no-map';
 import { STATE_STATEWIDE_TEMPLATES } from './state-statewide';
 import { US_GOVERNORS_TEMPLATES } from './us-governors';
@@ -26,6 +27,7 @@ export const ALL_TEMPLATES: RaceTemplate[] = [
 	...US_GOVERNORS_TEMPLATES,
 	US_HOUSE_GENERIC,
 	STATE_LEG_GENERIC,
+	...CITY_TEMPLATES,
 	LOCAL_NO_MAP_TEMPLATE
 ];
 

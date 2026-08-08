@@ -374,6 +374,29 @@
 		};
 	});
 
+	// One fetch the moment a new civicAPI race is attached.
+	//
+	// The repeating loop below pauses while the host is drilled into a region, so
+	// that a poll tick doesn't yank the map out from under them mid-sentence. But
+	// a race that has just been loaded has nothing to yank: it has no candidates,
+	// no counts, and a title the template guessed. And several load paths *set* a
+	// region on the way in — the picker pre-selects the county a local race
+	// covers — so the pause was catching races on arrival and holding them empty
+	// until the host happened to close the card. That is the "I click the mayor's
+	// race, get the statewide one, X out of it and then the mayor loads" report:
+	// closing the card was what let the first fetch through.
+	//
+	// Keyed on the race id alone, so it fires once per race and not on every
+	// count change. The drilled region is read untracked: this only needs to
+	// cover the case where the loop *won't* fetch, and subscribing to the
+	// selection would fire a request every time the host clicked a county.
+	$effect(() => {
+		const ds = streamStore.state.dataSource;
+		if (ds.adapter !== 'civicapi' || !ds.raceId) return;
+		if (!untrack(() => streamStore.state.ui.selectedRegionAttr)) return;
+		void refreshActiveRace();
+	});
+
 	// Automatic candidate-photo pass.
 	//
 	// The dependency list is deliberately narrow: candidate *ids*, the race

@@ -327,6 +327,13 @@
 		streamStore.state = applyTemplate(streamStore.state, template);
 		streamStore.state.ui.homeStateAbbr = drillingFromAbbr;
 
+		// Name it now rather than at the first poll — same reason as the picker's
+		// apply path: the template's seed title belongs to whichever generic
+		// template matched, not to the race the host just clicked.
+		if (civicApiTitle) {
+			streamStore.state.race.title = civicApiTitle;
+		}
+
 		// Auto-focus the county mentioned in civicAPI's `district` field
 		// (e.g. "Yorktown Town Council" → district="Delaware" → zoom Delaware,
 		// Indiana). Same flow the picker uses — centralized helper.

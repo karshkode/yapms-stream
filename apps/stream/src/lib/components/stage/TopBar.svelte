@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { StreamState } from '$lib/stream-state';
 	import { STATES_BY_ABBR } from '$lib/templates/states';
-	import ArchivalSlider from './ArchivalSlider.svelte';
 
 	interface Props {
 		// Named `streamState` (not `state`) because Svelte 5 treats a local
@@ -210,17 +209,14 @@
 				</span>
 			</button>
 		{/if}
-		<!-- The archival scrubber overlays a past presidential result as the map
-		     baseline, which needs a race to overlay onto. On the browse-us home
-		     shell the regions carry no archival data, so the six pills were a
-		     full row of toolbar that did nothing — the bulk of the chrome above
-		     the map on a phone. -->
-		{#if streamState.profile && streamState.profile.id !== 'browse-us'}
-			<div class="archival-wrap">
-				<ArchivalSlider state={streamState} />
-			</div>
-		{/if}
-
+		<!-- The archival year scrubber used to sit here: six pills that overlaid a
+		     past presidential result as the map baseline. It was the widest thing
+		     in the bar and it has been superseded twice over — Compare picks a
+		     baseline (including a past race for the same office) and names it in
+		     the legend, and the region card shows that race's own numbers. Six
+		     buttons for the one baseline they duplicated wasn't worth the row.
+		     `ui.archivalYear` stays in the schema and still paints when a saved
+		     race carries a year; nothing sets it now. -->
 		<button
 			type="button"
 			class="edit-btn"
@@ -280,9 +276,8 @@
 		border-bottom: 1px solid var(--color-secondary);
 		gap: 0.75rem;
 		flex-shrink: 0;
-		/* Wrapping instead of overflowing matters below ~700px, where the
-		   brand block plus the six-pill archival slider plus the action
-		   buttons no longer fit on one line. */
+		/* Wrapping instead of overflowing matters below ~700px, where the brand
+		   block plus the action buttons no longer fit on one line. */
 		flex-wrap: wrap;
 	}
 	.brand {
@@ -391,11 +386,6 @@
 		display: inline-flex;
 		gap: 0.15rem;
 		flex-shrink: 0;
-	}
-	.archival-wrap {
-		display: flex;
-		align-items: center;
-		min-width: 0;
 	}
 	.obs {
 		position: relative;
@@ -632,11 +622,6 @@
 		}
 		.refresh-race-btn {
 			order: 4;
-		}
-		.archival-wrap {
-			order: 5;
-			flex-basis: 100%;
-			min-width: 0;
 		}
 	}
 </style>
