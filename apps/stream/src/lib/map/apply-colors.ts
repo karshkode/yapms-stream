@@ -132,6 +132,15 @@ export function applyStreamColors(
 			node.style.stroke = '#f5c518';
 			node.style.strokeWidth = '3';
 			node.style.vectorEffect = 'non-scaling-stroke';
+			// A glow, so the highlight reads as lit rather than drawn on. Affordable
+			// here and nowhere else on the map: this is one path, and the same filter
+			// across three thousand counties would be a frame-time problem on a
+			// machine that is also encoding video.
+			node.style.filter = 'drop-shadow(0 0 4px rgb(245 197 24 / 0.55))';
+			// The stroke sits over this region's own fill rather than under it, unlike
+			// the seams — an outline that only shows its outer half is half a
+			// highlight.
+			node.style.paintOrder = 'fill stroke';
 			// Bring selected path to front by re-appending it; fixes the case where
 			// the neighboring region's edge covers our stroke.
 			const parent = node.parentNode;
@@ -140,6 +149,8 @@ export function applyStreamColors(
 			node.style.removeProperty('stroke');
 			node.style.removeProperty('stroke-width');
 			node.style.removeProperty('vector-effect');
+			node.style.removeProperty('filter');
+			node.style.removeProperty('paint-order');
 		}
 	}
 

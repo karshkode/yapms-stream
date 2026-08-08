@@ -29,6 +29,19 @@
 	let source = $state('Decision Desk');
 	let note = $state('');
 
+	/**
+	 * How long the graphic stays up. Fourteen seconds is about as long as a host
+	 * takes to say who won and why it matters, which is the length of the moment
+	 * the card exists for; "stay up" is there for the call that ends the night.
+	 */
+	const HOLDS: { ms: number; label: string }[] = [
+		{ ms: 8000, label: '8s' },
+		{ ms: 14000, label: '14s' },
+		{ ms: 25000, label: '25s' },
+		{ ms: 0, label: 'Stay up' }
+	];
+	let holdMs = $state(14000);
+
 	const call = $derived(streamState.ui.broadcast.call);
 
 	const visible = $derived(streamState.candidates.filter((c) => !c.hidden));
@@ -67,6 +80,7 @@
 			pct,
 			marginPct: Math.max(0, pct - runnerUpPct),
 			reportedPct,
+			holdMs,
 			source: source.trim(),
 			note: note.trim(),
 			raceTitle: streamState.race.title
@@ -98,15 +112,29 @@
 		call ? formatTimeInZone(new Date(call.at), streamState.race.timeZone) : ''
 	);
 
+	// Seconds left on the graphic. Ticked here rather than derived from the call
+	// alone, because nothing about the state changes as time passes — without a
+	// clock the host would watch a static number until the card vanished.
+	let now = $state(Date.now());
+	$effect(() => {
+		if (!call || call.holdMs <= 0) return;
+		const id = setInterval(() => (now = Date.now()), 500);
+		return () => clearInterval(id);
+	});
+	const secondsLeft = $derived.by(() => {
+		if (!call || call.holdMs <= 0) return null;
+		return Math.max(0, Math.ceil((call.at + call.holdMs - now) / 1000));
+	});
+
 	const feedWinner = $derived(streamState.candidates.find((c) => c.called) ?? null);
 </script>
 
 <section class="race-card p-4">
 	<h3 class="heading">Call the race</h3>
 	<p class="blurb">
-		Pushes a full-screen card to the overlay with the candidate's photo, a check and the numbers as
-		they stand right now. Those numbers are frozen at the moment you press it, so the card keeps
-		saying what you said when you said it.
+		Takes the overlay's scene with a card carrying this race's map, the candidate's photo, a check
+		and the numbers as they stand right now. Those numbers are frozen at the moment you press it, so
+		the card keeps saying what you said when you said it, and it fades out on its own.
 	</p>
 
 	{#if call}
@@ -115,6 +143,11 @@
 				<span class="pill">{call.kind === 'winner' ? 'Winner' : 'Projected'}</span>
 				<strong>{call.name}</strong>
 				<span class="muted">called {stamp}</span>
+				{#if secondsLeft !== null}
+					<span class="muted">· clears in {secondsLeft}s</span>
+				{:else}
+					<span class="muted">· staying up</span>
+				{/if}
 			</div>
 			<p class="on-air-figures">
 				{call.pct.toFixed(1)}% · {call.votes.toLocaleString()} votes · +{call.marginPct.toFixed(1)}
@@ -143,6 +176,21 @@
 				push it.
 			</p>
 		{/if}
+
+		<div class="holds">
+			<span class="holds-label">On screen for</span>
+			{#each HOLDS as h (h.ms)}
+				<button
+					type="button"
+					class="hold"
+					class:active={holdMs === h.ms}
+					aria-pressed={holdMs === h.ms}
+					onclick={() => (holdMs = h.ms)}
+				>
+					{h.label}
+				</button>
+			{/each}
+		</div>
 
 		<div class="fields">
 			<label class="field">
@@ -259,6 +307,24 @@
 	.on-air-actions {
 		display: flex;
 		gap: 0.3rem;
+	}
+	.holds {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		margin: 0 0 0.5rem;
+		flex-wrap: wrap;
+	}
+	.holds-label {
+		margin-right: 0.2rem;
+		font-size: 0.62rem;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: rgb(from var(--color-base-content) r g b / 0.55);
+	}
+	.hold {
+		padding: 0.2rem 0.45rem;
+		font-size: 0.7rem;
 	}
 	.fields {
 		display: grid;

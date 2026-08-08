@@ -122,6 +122,21 @@ export const RaceCall = z.object({
 	/** Lead over the runner-up in points at the moment of the call. */
 	marginPct: z.number().default(0),
 	reportedPct: z.number().nullable().default(null),
+	/**
+	 * How long the card stays up before it fades out, in ms. 0 means "until the
+	 * host takes it down".
+	 *
+	 * A call is an announcement, and an announcement that never ends stops being
+	 * one — it becomes a panel covering the map for the rest of the night. Left
+	 * to a manual clear it also becomes something to forget while talking, which
+	 * is exactly when nobody is looking at the desk.
+	 *
+	 * Carried on the call rather than read from config at render time so that
+	 * every surface agrees on when it goes: the desk owns the timer and clears the
+	 * state, and the overlays see the same disappearance they would have timed
+	 * themselves.
+	 */
+	holdMs: z.number().int().nonnegative().default(14_000),
 	/** Who made the call: the desk, a wire, or the candidate's own concession. */
 	source: z.string().default(''),
 	/** One optional line of colour, e.g. "first Democrat to hold this seat since 1994". */
