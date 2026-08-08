@@ -360,6 +360,31 @@
 		streamStore.state.ui.comparison.baselineRef = ref;
 	});
 
+	// Take the call card down when its time is up.
+	//
+	// The desk runs this rather than each overlay running its own, so the graphic
+	// leaves every surface at the same moment and there is exactly one thing that
+	// decides when: the state. An overlay timing its own fade would drift from the
+	// desk's copy and from the other overlays, and a viewer that joined late would
+	// start a fresh countdown on a call made ten minutes ago.
+	$effect(() => {
+		const call = streamStore.state.ui.broadcast.call;
+		if (!call || call.holdMs <= 0) return;
+		const remaining = call.at + call.holdMs - Date.now();
+		if (remaining <= 0) {
+			streamStore.state.ui.broadcast.call = null;
+			return;
+		}
+		const timer = setTimeout(() => {
+			// Re-read rather than closing over: the host may have pushed a different
+			// call while this one was counting down, and clearing then would take
+			// down the new graphic seconds after it appeared.
+			const current = streamStore.state.ui.broadcast.call;
+			if (current && current.at === call.at) streamStore.state.ui.broadcast.call = null;
+		}, remaining);
+		return () => clearTimeout(timer);
+	});
+
 	// Market price + polling average.
 	//
 	// Owned by /control for the same reason every other fetch is: /overlay is the

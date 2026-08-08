@@ -101,12 +101,31 @@ body {
  * It also stops the borders thickening as the host zooms in. A stroke that
  * scales with the transform means the closer you look at a county, the more of
  * it is outline.
+ *
+ * It also stops the borders thickening as the host zooms in. A stroke that
+ * scales with the transform means the closer you look at a county, the more of
+ * it is outline.
+ *
+ * At one pixel that read flat, which lost something worth keeping: the old
+ * over-wide strokes gave the map a tiled, panelled look, regions sitting in
+ * their own cut channels. Two pixels of the page's own background colour brings
+ * that back — the seam reads as a gap between raised shapes rather than a line
+ * drawn on a flat one — and `paint-order` makes the gap crisp by putting each
+ * region's fill over the inner half of its own stroke, so only the outer half
+ * survives and neighbours can't paint across each other's edges.
+ *
+ * Done with paint order and a colour rather than a shadow filter on purpose.
+ * Adjacent regions tile into one solid shape, so a `drop-shadow` on the group
+ * would only outline the whole map's silhouette, and a per-path shadow would put
+ * a filter pass on three thousand counties in a renderer that also has to encode
+ * video.
  */
 [map-type='regions'] path {
-	stroke: rgb(from var(--color-base-100) r g b / 0.9);
-	stroke-width: 1;
+	stroke: rgb(from var(--color-base-100) r g b / 0.95);
+	stroke-width: 2;
 	vector-effect: non-scaling-stroke;
 	stroke-linejoin: round;
+	paint-order: stroke fill;
 }
 
 [map-type='inset-texts'] {
