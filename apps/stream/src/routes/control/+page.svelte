@@ -14,10 +14,31 @@
 	import { applyTemplate } from '$lib/picker/applyTemplate';
 	import type { FollowedRace } from '$lib/stream-state';
 	import { streamStore } from '$lib/stream-store.svelte';
-	import { createBroadcastSync } from '$lib/sync/broadcast';
+	import { createDeskSync } from '$lib/sync';
+	import { deskRoomCode, setDeskRoomCode } from '$lib/sync/room-code';
+	import type { SyncProvider } from '$lib/sync/types';
 	import { BROWSE_US_TEMPLATE } from '$lib/templates';
 
 	let overlayUrl = $state('');
+	let roomCode = $state('');
+	// Held so the publish effect below can reach it. Not `$state`: it's created
+	// once on mount and the effect only ever calls a method on it.
+	let desk: SyncProvider | null = null;
+
+	/**
+	 * Move this desk to another room, which is how a second person takes over as
+	 * host: they type the code the first one was using and every overlay pointed
+	 * at it starts following them instead.
+	 */
+	function changeRoom(next: string) {
+		const applied = setDeskRoomCode(next);
+		if (applied === roomCode) return;
+		roomCode = applied;
+		overlayUrl = `${location.origin}/overlay?room=${applied}`;
+		desk?.dispose();
+		desk = createDeskSync(applied);
+		desk.publish(streamStore.state);
+	}
 
 	// Phone viewports don't get the PiP preview: its frame is a hard 520px,
 	// wider than the screen, and the host can just open /overlay in another
@@ -164,15 +185,20 @@
 			resetToBrowseHome();
 		}
 
-		overlayUrl = `${location.origin}/overlay`;
+		roomCode = deskRoomCode();
+		// The room is in the link because that is the whole configuration step: the
+		// host copies this into OBS, or sends it to whoever is watching, and the
+		// overlay knows which desk to follow. A bare /overlay can only see a desk
+		// in the same browser, which OBS never is.
+		overlayUrl = `${location.origin}/overlay?room=${roomCode}`;
 
-		// Every mutation re-publishes the whole state to /overlay + to
-		// localStorage. Cheap because the state payload is small.
-		const sync = createBroadcastSync('control');
-		const interval = setInterval(() => {
-			sync.publish(streamStore.state);
-			persistState(streamStore.state);
-		}, 250);
+		desk = createDeskSync(roomCode);
+		// Persisting on a timer is fine — it only has to survive a refresh — but
+		// *publishing* on one was the reason the overlay looked frozen whenever the
+		// host was on another tab. A background tab's timers are throttled to about
+		// once a second and its animation frames stop entirely, so the desk went
+		// quiet exactly when someone was looking at the overlay instead of it.
+		const interval = setInterval(() => persistState(streamStore.state), 250);
 
 		// Global keyboard shortcuts:
 		//   Cmd/Ctrl+K -> open race picker
@@ -220,9 +246,22 @@
 
 		return () => {
 			clearInterval(interval);
-			sync.dispose();
+			desk?.dispose();
+			desk = null;
 			window.removeEventListener('keydown', onKey);
 		};
+	});
+
+	// Publish whenever anything changes, rather than on a clock.
+	//
+	// `publish` serializes the whole state, which means reading every field, which
+	// is what subscribes this effect to all of them. Svelte flushes effects on a
+	// microtask, and microtasks keep running in a hidden tab — so unlike the timer
+	// this used to sit on, the desk keeps talking while the host is looking at the
+	// overlay. Each provider does its own rate limiting and drops publishes whose
+	// payload is unchanged.
+	$effect(() => {
+		desk?.publish(streamStore.state);
 	});
 
 	// civicAPI live polling. Runs while dataSource.running is true with the
@@ -505,6 +544,8 @@
 	<TopBar
 		streamState={streamStore.state}
 		{overlayUrl}
+		{roomCode}
+		onRoomChange={changeRoom}
 		onToggleDrawer={() => (streamStore.state.ui.drawerOpen = !streamStore.state.ui.drawerOpen)}
 		onOpenPicker={() => (streamStore.state.ui.pickerOpen = true)}
 		onGoHome={() => {

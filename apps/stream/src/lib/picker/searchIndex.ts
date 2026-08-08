@@ -50,8 +50,9 @@ export function searchTemplates(query: string, limit = 40): SearchHit[] {
 	const q = query.trim().toLowerCase();
 	if (!q) return [];
 	// Normalized rather than raw-tokenized, so "nyc mayoral 2025" reaches the
-	// New York and mayor templates instead of matching nothing: no template
-	// names a city, spells "mayoral", or carries a year in its tags.
+	// city and mayor templates instead of matching nothing: nothing in the index
+	// spells "mayoral" or carries a year in its tags, and only the handful of
+	// city maps name a city at all.
 	const qTokens = normalizeQueryTokens(q);
 	if (qTokens.length === 0) return [];
 

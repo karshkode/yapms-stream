@@ -59,6 +59,53 @@ const CITY_MAPS: CityMap[] = [
 		// to hard-code.
 		regionAttrs: ['Bronx36', 'Kings36', 'New York36', 'Queens36', 'Richmond36'],
 		regionLabel: 'Boroughs'
+	},
+	// The consolidated city-counties below need no judgement at all: the city and
+	// the county are the same jurisdiction with the same borders, so a one-county
+	// filter is exactly the city. They exist as entries rather than being left to
+	// the statewide fallback because the fallback shows the whole state — a Denver
+	// mayoral race on a map of Colorado's 64 counties is 99% Colorado and 1% race.
+	{
+		municipalityKeys: ['denver', 'city and county of denver'],
+		titleKeys: ['denver'],
+		slug: 'denver',
+		name: 'Denver',
+		stateFips: '08',
+		regionAttrs: ['Denver08'],
+		regionLabel: 'Counties'
+	},
+	{
+		municipalityKeys: ['san francisco', 'city and county of san francisco'],
+		titleKeys: ['san francisco'],
+		slug: 'san-francisco',
+		name: 'San Francisco',
+		stateFips: '06',
+		regionAttrs: ['San Francisco06'],
+		regionLabel: 'Counties'
+	},
+	{
+		municipalityKeys: ['philadelphia'],
+		titleKeys: ['philadelphia'],
+		slug: 'philadelphia',
+		name: 'Philadelphia',
+		stateFips: '42',
+		regionAttrs: ['Philadelphia42'],
+		regionLabel: 'Counties'
+	},
+	// Baltimore and St. Louis are the obvious next two and are deliberately
+	// absent: both are independent cities sitting beside a same-named county, and
+	// the county seeds carry only one entry for each ("Baltimore" → the county).
+	// Without a region that is definitely the city, a city map here would be a map
+	// of the wrong jurisdiction — which is worse than the statewide fallback,
+	// because it would look right.
+	{
+		municipalityKeys: ['honolulu', 'city and county of honolulu'],
+		titleKeys: ['honolulu'],
+		slug: 'honolulu',
+		name: 'Honolulu',
+		stateFips: '15',
+		regionAttrs: ['Honolulu15'],
+		regionLabel: 'Counties'
 	}
 ];
 

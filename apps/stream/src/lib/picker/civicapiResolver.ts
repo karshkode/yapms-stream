@@ -74,8 +74,14 @@ export function resolveCivicApiRace(entry: RaceListEntry): ResolvedCivicRace | n
 	// House (single-district), and state-leg (single-district) maps all
 	// already fill-frame their geography, so injecting a county hint would
 	// target a region that isn't in the map.
+	//
+	// City maps are excluded even though a single-county one is labelled
+	// "Counties": the map already *is* the city, so selecting a region inside it
+	// would zoom into what already fills the frame and swap the citywide
+	// scoreboard for a one-region card.
+	const isCityMap = template.id.startsWith('city-');
 	const isCountyMap = template.profile.geography?.regionLabel === 'Counties';
-	const hint = isCountyMap ? derivePreselectCounty(entry) : null;
+	const hint = isCountyMap && !isCityMap ? derivePreselectCounty(entry) : null;
 	return { template, preselectCountyName: hint };
 }
 

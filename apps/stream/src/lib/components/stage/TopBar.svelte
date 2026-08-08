@@ -10,6 +10,14 @@
 		// FormsDrawer / StateRacesCard.
 		streamState: StreamState;
 		overlayUrl: string;
+		/**
+		 * Which room this desk publishes to. Shown because it is the one piece of
+		 * setup that isn't automatic: a second person watching, or a second host
+		 * taking over, needs the code, and reading it off the overlay URL means
+		 * parsing a query string in your head.
+		 */
+		roomCode?: string;
+		onRoomChange?: (code: string) => void;
 		onToggleDrawer: () => void;
 		/** Open the race search (RacePicker). */
 		onOpenPicker: () => void;
@@ -36,12 +44,31 @@
 	let {
 		streamState,
 		overlayUrl,
+		roomCode = '',
+		onRoomChange,
 		onToggleDrawer,
 		onOpenPicker,
 		onGoHome,
 		onBackToState,
 		onRefreshRace
 	}: Props = $props();
+
+	// Local while the host types, committed on blur or Enter: applying every
+	// keystroke would move the desk into rooms "A", "AB", "ABC" on the way to
+	// "ABCD", dragging every connected overlay through each one.
+	let roomDraft = $state('');
+	let editingRoom = $state(false);
+	const roomShown = $derived(editingRoom ? roomDraft : roomCode);
+
+	function startRoomEdit(input: HTMLInputElement) {
+		roomDraft = roomCode;
+		editingRoom = true;
+		input.select();
+	}
+	function commitRoom() {
+		editingRoom = false;
+		if (roomDraft && roomDraft !== roomCode) onRoomChange?.(roomDraft);
+	}
 
 	// Local "currently refreshing" flag. We don't lift this into the parent
 	// because the visual feedback is purely local — the parent doesn't need
@@ -244,8 +271,31 @@
 				⋯
 			</button>
 			<div class="obs-row" class:open={obsOpen}>
+				<label class="room" title="Overlays following this code see this desk. One desk per room.">
+					<span>Room</span>
+					<input
+						type="text"
+						class="room-input"
+						maxlength="8"
+						autocomplete="off"
+						spellcheck="false"
+						aria-label="Room code"
+						value={roomShown}
+						oninput={(e) => (roomDraft = (e.currentTarget as HTMLInputElement).value.toUpperCase())}
+						onfocus={(e) => startRoomEdit(e.currentTarget as HTMLInputElement)}
+						onblur={commitRoom}
+						onkeydown={(e) => {
+							if (e.key === 'Enter') (e.currentTarget as HTMLInputElement).blur();
+							if (e.key === 'Escape') {
+								editingRoom = false;
+								(e.currentTarget as HTMLInputElement).blur();
+							}
+						}}
+					/>
+				</label>
 				<input
 					type="text"
+					class="url-input"
 					readonly
 					value={overlayUrl}
 					aria-label="Overlay URL"
@@ -254,7 +304,7 @@
 				<button type="button" onclick={copyOverlayUrl} title="Copy overlay URL">Copy</button>
 				<a
 					class="btn-link"
-					href="/overlay"
+					href={roomCode ? `/overlay?room=${roomCode}` : '/overlay'}
 					target="_blank"
 					rel="noreferrer"
 					title="Open the overlay in a new tab. Move the mouse there (or press F) for a fullscreen button — handy as a program-out display on a second monitor."
@@ -422,6 +472,28 @@
 		font-family: ui-monospace, monospace;
 		font-size: 0.75rem;
 	}
+	.room {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3rem;
+		flex-shrink: 0;
+		font-size: 0.62rem;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: rgb(from var(--color-base-content) r g b / 0.6);
+	}
+	.obs-row .room-input {
+		width: 4.5rem;
+		text-align: center;
+		font-size: 0.85rem;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+	}
+	.obs-row .room-input:focus {
+		border-color: var(--color-primary);
+		outline: none;
+	}
 	.obs-row button,
 	.btn-link {
 		padding: 0.25rem 0.5rem;
@@ -513,7 +585,9 @@
 	   the row becomes a popover where the field is wanted again, so this is
 	   bounded at both ends. */
 	@media (max-width: 980px) and (min-width: 641px) {
-		.obs-row input {
+		/* The URL only — the room code is four characters and is the thing a host
+		   reads out to whoever is watching, so it stays at every width. */
+		.obs-row .url-input {
 			display: none;
 		}
 	}
