@@ -385,9 +385,15 @@ export function regionSwing(
  * captured baseline only holds the counties that had reported when the host
  * pressed the button. Dividing a region's live share of all 62 counties by its
  * baseline share of 57 makes every county in the state look like it turned out
- * below its own history, by roughly whatever share the missing ones held.
- * Restricting both totals to the overlap removes that bias entirely, and leaves
- * the answer meaning what the legend says it means.
+ * below its own history, by roughly whatever share the missing ones held: hiding
+ * Wayne, Oakland and Macomb from a Michigan baseline moved all 80 remaining
+ * counties down by an average of 0.35 on an index whose whole interesting range
+ * is about ±0.3, so every county read as a collapse.
+ *
+ * Restricting both totals to the overlap leaves an average error of 0.05 and no
+ * particular direction to it — and that residue isn't error so much as the
+ * truth about a smaller electorate, since with Detroit absent a county really
+ * does account for more of what's left.
  */
 export interface TurnoutScale {
 	/** Projected live votes across regions the baseline also covers. */
