@@ -1,4 +1,5 @@
 import type { RaceTemplate } from '../race-profile';
+import { zoneForStateAbbr } from '../time-zone';
 import { FULL_SECTIONS, RESULTS_ONLY, getStateSeed } from './defaults';
 import { STATES } from './states';
 
@@ -44,6 +45,7 @@ function buildStatewide(stateFips: string, stateName: string, stateAbbr: string)
 		seed: {
 			title: `${stateName} Statewide Race`,
 			dateLabel: '',
+			timeZone: zoneForStateAbbr(stateAbbr) ?? undefined,
 			candidates: [],
 			regions: (seed?.counties ?? []).map((c) => ({
 				name: c.name,

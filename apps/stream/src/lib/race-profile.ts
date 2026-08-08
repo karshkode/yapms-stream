@@ -230,6 +230,14 @@ export const RaceSeed = z.object({
 	partyBadgeColor: z.string().optional(),
 	pollsCloseLabel: z.string().optional(),
 	dateLabel: z.string().optional(),
+	/**
+	 * IANA zone of the state this template covers, so the overlay clock reads in
+	 * the election's local time rather than the host's. Absent on templates whose
+	 * geography spans zones (the presidential and Senate-class maps) and on the
+	 * generic parameterized placeholders, which have no state until the host
+	 * picks one. See lib/time-zone.ts.
+	 */
+	timeZone: z.string().optional(),
 	candidates: z.array(Candidate).default([]),
 	regions: z.array(RegionResult).default([]),
 	performance: z.array(PerformanceRow).default([])

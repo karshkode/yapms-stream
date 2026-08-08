@@ -22,7 +22,12 @@ export function applyTemplate(state: StreamState, template: RaceTemplate): Strea
 			decisionMadeLabel: null,
 			reportedPctLabel: null,
 			reportedPct: null,
-			totalVotes: null
+			totalVotes: null,
+			// Null rather than keeping the outgoing race's zone: a template with
+			// no zone of its own is either national or unplaced, and inheriting
+			// Kentucky's clock into a presidential map would be worse than
+			// falling back to the host's.
+			timeZone: template.seed.timeZone ?? null
 		},
 		candidates: [...template.seed.candidates],
 		regions: [...template.seed.regions],
