@@ -54,7 +54,10 @@
 		},
 		{
 			id: 'local-no-map',
-			label: 'Local / no map',
+			// The category id still says "no map" because it predates any local
+			// race having one; the group now also holds the city maps, so the
+			// heading says what's in it rather than what the id is called.
+			label: 'Local & municipal',
 			filter: (t) => t.category === 'local-no-map'
 		},
 		{

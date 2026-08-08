@@ -206,6 +206,16 @@ function resolveTemplate(entry: RaceListEntry): RaceTemplate | null {
 		return TEMPLATES_BY_ID[`state-statewide-${state.fips}`] ?? null;
 	}
 
+	// A city we have a real map for, checked ahead of the statewide offices
+	// because several of those office names are also city offices: New York City
+	// elects a Comptroller and a Public Advocate, and matching "comptroller"
+	// first handed a citywide race the whole state. Both lookups are narrow
+	// enough to sit here — an exact `municipality`, or a title containing a
+	// string that can only be the city ("New York City", "NYC") and never the
+	// state on its own.
+	const city = cityTemplateFor(entry.municipality) ?? cityTemplateFromTitle(entry.title);
+	if (city) return city;
+
 	// Statewide offices.
 	if (
 		state &&
@@ -215,13 +225,6 @@ function resolveTemplate(entry: RaceListEntry): RaceTemplate | null {
 	) {
 		return TEMPLATES_BY_ID[`state-statewide-${state.fips}`] ?? null;
 	}
-
-	// A city we have a real map for gets it. Checked before the state fallback
-	// because the state map is a strictly worse answer for a citywide race: New
-	// York City is five of New York's sixty-two counties, so the statewide map
-	// shows the race as a speck in one corner of a mostly-rural state.
-	const city = cityTemplateFor(entry.municipality) ?? cityTemplateFromTitle(entry.title);
-	if (city) return city;
 
 	// Local / city / county races. When we know the state, prefer the state's
 	// county map — even without district-level tie-in, the host can manually

@@ -27,8 +27,17 @@ import { STATES_BY_FIPS } from './states';
  */
 
 interface CityMap {
-	/** Matched against civicAPI's municipality/title, normalised. */
-	keys: string[];
+	/**
+	 * Accepted as an exact `municipality` value. May include the bare city name,
+	 * since a municipality field saying "New York" can only mean the city.
+	 */
+	municipalityKeys: string[];
+	/**
+	 * Looked for inside a race title, so these have to be unambiguous on their
+	 * own. "New York" is not: it is the start of "New York Governor" and of every
+	 * statewide race in the state. "New York City" and "NYC" can only be the city.
+	 */
+	titleKeys: string[];
 	slug: string;
 	name: string;
 	stateFips: string;
@@ -40,7 +49,8 @@ interface CityMap {
 
 const CITY_MAPS: CityMap[] = [
 	{
-		keys: ['new york city', 'new york', 'nyc'],
+		municipalityKeys: ['new york city', 'new york', 'nyc'],
+		titleKeys: ['new york city', 'nyc'],
 		slug: 'nyc',
 		name: 'New York City',
 		stateFips: '36',
@@ -148,27 +158,23 @@ export function cityTemplateFor(municipality: string | null | undefined): RaceTe
 	if (!municipality) return null;
 	const target = normalize(municipality);
 	if (!target) return null;
-	const index = CITY_MAPS.findIndex((city) => city.keys.some((key) => key === target));
+	const index = CITY_MAPS.findIndex((city) => city.municipalityKeys.includes(target));
 	return index >= 0 ? CITY_TEMPLATES[index] : null;
 }
 
 /**
  * The city template a race title names, or null.
  *
- * A fallback for when civicAPI leaves `municipality` unset but calls the race
- * "New York City Mayor", which it often does — the city is in the title of a
- * municipal race almost by definition.
+ * Needed because civicAPI often leaves `municipality` unset and puts the city in
+ * the title, which for a municipal race it does almost by definition. Matching
+ * on `titleKeys` keeps that from swallowing statewide races that merely start
+ * with the state's name.
  */
 export function cityTemplateFromTitle(title: string): RaceTemplate | null {
 	const target = normalize(title);
 	if (!target) return null;
 	for (const [index, city] of CITY_MAPS.entries()) {
-		// Longest key first so "new york city" wins over "new york" for a title
-		// that contains both.
-		const keys = [...city.keys].sort((a, b) => b.length - a.length);
-		for (const key of keys) {
-			if (target.includes(key)) return CITY_TEMPLATES[index];
-		}
+		if (city.titleKeys.some((key) => target.includes(key))) return CITY_TEMPLATES[index];
 	}
 	return null;
 }
