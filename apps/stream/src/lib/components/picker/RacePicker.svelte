@@ -164,6 +164,17 @@
 		}
 		streamStore.state = applyTemplate(streamStore.state, template);
 
+		// Name the race the moment it's applied. The template's seed title is a
+		// generic placeholder — one statewide template serves every race in a
+		// state, so it says "New York Statewide Race" — and until now that
+		// placeholder stayed on screen until the first poll landed. The host
+		// clicked "New York City Mayor" and got a stage captioned with another
+		// race's name, which is worse than useless while on air. We already know
+		// the real title here; the poll will confirm it.
+		if (civicApiTitle) {
+			streamStore.state.race.title = civicApiTitle;
+		}
+
 		// If the civicAPI entry targets a specific county (e.g. a Yorktown
 		// Town Council race scoped to Delaware County, IN), fuzzy-match that
 		// county name against the freshly-stamped state-statewide regions

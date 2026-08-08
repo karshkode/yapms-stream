@@ -80,6 +80,94 @@ export function makeSceneController(
 }
 
 /**
+ * The part of the map currently on screen, in the SVG's own coordinates.
+ *
+ * This is what gets mirrored to /overlay rather than panzoom's transform,
+ * because a transform is only meaningful against the box it was computed in.
+ * The operator's map lives beside a 22rem results rail in a browser window; the
+ * OBS source is a different width and a different aspect ratio. Copying
+ * `{x, y, scale}` across would put the two maps at the same magnification
+ * looking at different places. A rectangle in user units says "these counties",
+ * which is the thing the host actually means, and each side works out its own
+ * transform to frame it.
+ */
+export interface MapCamera {
+	x: number;
+	y: number;
+	w: number;
+	h: number;
+}
+
+/** The viewBox mapping, `pixels = k * user + t`, in viewport coordinates. */
+function viewBoxMapping(
+	svg: SVGSVGElement,
+	viewport: HTMLElement
+): { k: number; tx: number; ty: number } | null {
+	const ctm = svg.getScreenCTM();
+	if (!ctm || ctm.a === 0) return null;
+	const rect = viewport.getBoundingClientRect();
+	return { k: ctm.a, tx: ctm.e - rect.left, ty: ctm.f - rect.top };
+}
+
+/** The visible rect in user units, from panzoom's current pixel transform. */
+export function cameraFromTransform(
+	svg: SVGSVGElement,
+	viewport: HTMLElement,
+	transform: { x: number; y: number; scale: number }
+): MapCamera | null {
+	const mapping = viewBoxMapping(svg, viewport);
+	if (!mapping) return null;
+	const { k, tx, ty } = mapping;
+	const { scale } = transform;
+	if (scale === 0) return null;
+	const rect = viewport.getBoundingClientRect();
+	if (rect.width === 0 || rect.height === 0) return null;
+
+	// A viewport pixel `p` shows the user point `u` where p = scale*(k*u + t) + P,
+	// so inverting at the two corners gives the rect.
+	const toUser = (px: number, pan: number, origin: number) => (px - pan) / scale / k - origin / k;
+	return {
+		x: toUser(0, transform.x, tx),
+		y: toUser(0, transform.y, ty),
+		w: rect.width / (scale * k),
+		h: rect.height / (scale * k)
+	};
+}
+
+/**
+ * The panzoom transform that frames a camera rect in this viewport.
+ *
+ * Fits rather than stretches — panzoom has one scale, and the two surfaces have
+ * different aspect ratios — so the follower shows the host's rectangle plus
+ * whatever slack its own shape adds on one axis. Showing slightly more than the
+ * operator is the right failure: showing less would crop the county they're
+ * pointing at.
+ */
+export function transformForCamera(
+	svg: SVGSVGElement,
+	viewport: HTMLElement,
+	camera: MapCamera
+): { x: number; y: number; scale: number } | null {
+	const mapping = viewBoxMapping(svg, viewport);
+	if (!mapping) return null;
+	const { k, tx, ty } = mapping;
+	const rect = viewport.getBoundingClientRect();
+	if (rect.width === 0 || rect.height === 0) return null;
+	if (camera.w <= 0 || camera.h <= 0) return null;
+
+	const scale = Math.min(rect.width / (k * camera.w), rect.height / (k * camera.h));
+	if (!Number.isFinite(scale) || scale <= 0) return null;
+
+	const cx = camera.x + camera.w / 2;
+	const cy = camera.y + camera.h / 2;
+	return {
+		scale,
+		x: rect.width / 2 - scale * (k * cx + tx),
+		y: rect.height / 2 - scale * (k * cy + ty)
+	};
+}
+
+/**
  * panzoom's pixel-space transform, rewritten in the SVG's user units.
  *
  * The viewBox already maps a user point `u` onto the viewport at `k*u + t`.
@@ -107,11 +195,10 @@ function sceneMatrix(
 	// SVG is detached or display:none, in which case the identity fallback is
 	// harmless — nothing is on screen to be misplaced, and the next frame after
 	// it becomes visible recomputes.
-	const ctm = svg.getScreenCTM();
-	const rect = viewport.getBoundingClientRect();
-	const k = ctm && ctm.a !== 0 ? ctm.a : 1;
-	const originX = ctm ? ctm.e - rect.left : 0;
-	const originY = ctm ? ctm.f - rect.top : 0;
+	const mapping = viewBoxMapping(svg, viewport);
+	const k = mapping?.k ?? 1;
+	const originX = mapping?.tx ?? 0;
+	const originY = mapping?.ty ?? 0;
 
 	const dx = ((scale - 1) * originX + transform.x) / k;
 	const dy = ((scale - 1) * originY + transform.y) / k;

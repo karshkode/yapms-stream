@@ -240,6 +240,31 @@ export const ComparisonConfig = z.object({
 });
 export type ComparisonConfig = z.infer<typeof ComparisonConfig>;
 
+/**
+ * Which part of the map the operator is looking at, so /overlay looks there too.
+ *
+ * The overlay already followed a *region selection* — click a county on the desk
+ * and the OBS scene zoomed to the same county — but a free pan or a wheel-zoom
+ * moved only the desk. That's the half of the gesture a host uses most: sliding
+ * up the Hudson Valley while talking, pulling back a little to get two counties
+ * in frame. On air the map just sat there.
+ *
+ * Stored as a rectangle in the SVG's own user units rather than as panzoom's
+ * `{x, y, scale}`, because the two surfaces are different sizes — the desk's map
+ * shares its width with a results rail, the OBS canvas doesn't. See `MapCamera`
+ * in map/pan-scene.ts for the arithmetic. `profileId` stamps which map the rect
+ * belongs to, so a camera left over from the previous race is ignored rather
+ * than applied to a different geography.
+ */
+export const MapCameraState = z.object({
+	profileId: z.string(),
+	x: z.number(),
+	y: z.number(),
+	w: z.number(),
+	h: z.number()
+});
+export type MapCameraState = z.infer<typeof MapCameraState>;
+
 export const UiState = z.object({
 	activeMapTab: MapTab.default('results'),
 	activeSubTab: SubTab.default('Results'),
@@ -347,6 +372,10 @@ export const UiState = z.object({
 	// the one it came from, so it has to survive `applyTemplate` spreading
 	// `...state.ui` when the host loads November's general.
 	comparison: ComparisonConfig.default(() => ComparisonConfig.parse({})),
+	// Published by /control's map on every pan and zoom; applied by /overlay's.
+	// Null until the first gesture, and after a race load — the follower falls
+	// back to framing whatever region is selected, which is what it did before.
+	mapCamera: MapCameraState.nullable().default(null),
 	// Market price + polling average. Under `ui` alongside `broadcast` for the
 	// same reasons, and one of its own: the host's corrected market search for a
 	// race with an awkward name shouldn't be thrown away by a template reload.

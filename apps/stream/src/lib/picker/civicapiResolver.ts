@@ -1,6 +1,7 @@
 import type { RaceListEntry } from '../data/source';
 import { listAvailableSvgs } from '../map/load-svg';
 import type { RaceTemplate } from '../race-profile';
+import { cityTemplateFor, cityTemplateFromTitle } from '../templates/city-counties';
 import { STATES_BY_ABBR } from '../templates/states';
 import { TEMPLATES_BY_ID } from '../templates';
 import { makeStateLegTemplate } from '../templates/state-leg';
@@ -18,12 +19,15 @@ import { makeUsHouseTemplate } from '../templates/us-house';
  *   4. Any statewide office (Governor, US Senate, AG, SoS, Treasurer,
  *      ballot measure, state supreme court, etc.) → state-statewide, which
  *      renders the state's county map.
- *   5. Local races with an identifiable state → state-statewide so the host
- *      can still zoom into the region the race covers. This is a deliberate
- *      upgrade from the old behavior (always fall to local-no-map) because
- *      a county map with no live data plotted is still more useful than a
- *      dead stage for a "Fort Bend County Sheriff" race.
- *   6. Truly unplaceable → local-no-map.
+ *   5. A city we ship a map for (see templates/city-counties.ts) → that city's
+ *      own map, filtered to the counties it covers. Only a short hand-checked
+ *      list, but it covers the races big enough to carry a broadcast.
+ *   6. Other local races with an identifiable state → state-statewide so the
+ *      host can still zoom into the region the race covers. This is a
+ *      deliberate upgrade from the old behavior (always fall to local-no-map)
+ *      because a county map with no live data plotted is still more useful
+ *      than a dead stage for a "Fort Bend County Sheriff" race.
+ *   7. Truly unplaceable → local-no-map.
  *
  * The result also carries an optional `preselectCountyName` — the civicAPI
  * `district` field verbatim ("Delaware", "Dallas", "Fountain", ...). When
@@ -86,10 +90,8 @@ export function resolveCivicApiRace(entry: RaceListEntry): ResolvedCivicRace | n
  *      e.g. "Colorado County Commissioner Precinct 4" → county="Colorado".
  *      This was the "Colorado County TX race loads Texas but doesn't zoom
  *      in" bug: the state was right but the county hint was missing.
- *   3. `entry.municipality` — weakest signal, often contains a city name that
- *      isn't itself a county ("Yorktown"), but worth trying when the first
- *      two fail. findRegionAttrByName's fuzzy match will drop it if nothing
- *      in the state's region list even starts with that name.
+ *   3. `entry.municipality`, but only when it names the county exactly — see
+ *      below.
  */
 function derivePreselectCounty(entry: RaceListEntry): string | null {
 	const fromDistrict = entry.district?.trim();
@@ -107,9 +109,33 @@ function derivePreselectCounty(entry: RaceListEntry): string | null {
 	}
 	const fromTitle = extractCountyFromTitle(entry.title);
 	if (fromTitle) return fromTitle;
+
+	// A municipality is a city, and a city is not a county. This used to be
+	// passed to the same fuzzy matcher as the other two, on the theory that a
+	// near-miss would simply fail — but the matcher accepts a prefix in either
+	// direction, so "New York City" matched New York *County* and a mayoral race
+	// opened zoomed into Manhattan with a card titled "New York". The cities
+	// where the name really is the county's — Denver, San Francisco, Philadelphia
+	// — match exactly and still work; nothing else guesses.
 	const fromMun = entry.municipality?.trim();
-	if (fromMun) return fromMun;
+	if (fromMun && exactRegionName(entry, fromMun)) return fromMun;
 	return null;
+}
+
+/**
+ * Whether a name is one of the state's county names outright.
+ *
+ * Checked against the resolved template's own regions rather than a separate
+ * county list, so it can't disagree with the map the host is about to get.
+ */
+function exactRegionName(entry: RaceListEntry, name: string): boolean {
+	const state = entry.state ? STATES_BY_ABBR[entry.state.toUpperCase()] : null;
+	if (!state) return false;
+	const template = TEMPLATES_BY_ID[`state-statewide-${state.fips}`];
+	if (!template) return false;
+	const normalize = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+	const target = normalize(name);
+	return template.seed.regions.some((r) => normalize(r.name) === target);
 }
 
 /**
@@ -179,6 +205,16 @@ function resolveTemplate(entry: RaceListEntry): RaceTemplate | null {
 	if (/(us senate|u\.s\. senate|us house|u\.s\. house)/i.test(title) && state) {
 		return TEMPLATES_BY_ID[`state-statewide-${state.fips}`] ?? null;
 	}
+
+	// A city we have a real map for, checked ahead of the statewide offices
+	// because several of those office names are also city offices: New York City
+	// elects a Comptroller and a Public Advocate, and matching "comptroller"
+	// first handed a citywide race the whole state. Both lookups are narrow
+	// enough to sit here — an exact `municipality`, or a title containing a
+	// string that can only be the city ("New York City", "NYC") and never the
+	// state on its own.
+	const city = cityTemplateFor(entry.municipality) ?? cityTemplateFromTitle(entry.title);
+	if (city) return city;
 
 	// Statewide offices.
 	if (

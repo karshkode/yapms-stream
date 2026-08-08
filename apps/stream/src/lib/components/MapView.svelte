@@ -3,7 +3,13 @@
 	import { applyStreamColors } from '../map/apply-colors';
 	import { loadProfileSvg } from '../map/load-svg';
 	import { applyCityOverlay, updateOverlayScale, removeCityOverlay } from '../map/cities-overlay';
-	import { ensureScene, makeSceneController } from '../map/pan-scene';
+	import {
+		cameraFromTransform,
+		ensureScene,
+		makeSceneController,
+		transformForCamera,
+		type MapCamera
+	} from '../map/pan-scene';
 	import type { MapTab } from '../race-profile';
 	import type { StreamState } from '../stream-state';
 	import { streamStore } from '../stream-store.svelte';
@@ -31,9 +37,26 @@
 		 * input-inert while still re-painting on every BroadcastChannel update.
 		 */
 		readonly?: boolean;
+		/**
+		 * Whether this map drives the shared camera, follows it, or ignores it.
+		 *
+		 * An explicit prop rather than something inferred from `readonly`, because
+		 * /control renders two maps: the stage, which is the one the host is
+		 * driving, and the PiP's legacy RacePage, which is also interactive. If
+		 * publishing were implied by interactivity they would both write, and the
+		 * OBS scene would follow whichever moved last.
+		 */
+		mirror?: 'publish' | 'follow' | 'off';
 	}
 
-	let { tab, onselect, onregionsextracted, fill = false, readonly = false }: Props = $props();
+	let {
+		tab,
+		onselect,
+		onregionsextracted,
+		fill = false,
+		readonly = false,
+		mirror = 'off'
+	}: Props = $props();
 
 	// Read/write the app-level store directly — same rationale as StagePanel /
 	// FormsDrawer / OverlayPip: Svelte 5's ownership warning otherwise flags
@@ -81,6 +104,50 @@
 	 *  can't be framed at a scale panzoom will immediately refuse. */
 	const MAX_ZOOM = 20;
 
+	// --- Shared camera -------------------------------------------------------
+	// rAF-throttled so a drag writes state about sixty times a second instead of
+	// on every pointer event, and skipped when nothing moved enough to see.
+	let cameraRaf: number | null = null;
+	/** Set while a follower is applying a camera, so it can't echo one back. */
+	let applyingCamera = false;
+	/** The last camera this map applied, to tell "already there" from "moved". */
+	let appliedCamera: MapCamera | null = null;
+
+	/**
+	 * True when the rects differ by less than a thousandth of the frame.
+	 *
+	 * The map is published from one box and re-derived in another, so a follower's
+	 * own reading of where it is will never be bit-identical to what it was told.
+	 * Without a tolerance the two sides trade rounding error forever.
+	 */
+	function sameCamera(a: MapCamera | null, b: MapCamera | null): boolean {
+		if (!a || !b) return a === b;
+		const tol = Math.max(a.w, a.h) / 1000;
+		return (
+			Math.abs(a.x - b.x) < tol &&
+			Math.abs(a.y - b.y) < tol &&
+			Math.abs(a.w - b.w) < tol &&
+			Math.abs(a.h - b.h) < tol
+		);
+	}
+
+	function publishCamera() {
+		if (mirror !== 'publish' || applyingCamera) return;
+		if (cameraRaf) return;
+		cameraRaf = requestAnimationFrame(() => {
+			cameraRaf = null;
+			if (!pz || !container) return;
+			const svg = container.querySelector<SVGSVGElement>('svg');
+			const profileId = streamState.profile?.id;
+			if (!svg || !profileId) return;
+			const camera = cameraFromTransform(svg, container, pz.getTransform());
+			if (!camera) return;
+			const current = streamStore.state.ui.mapCamera;
+			if (current && current.profileId === profileId && sameCamera(current, camera)) return;
+			streamStore.state.ui.mapCamera = { profileId, ...camera };
+		});
+	}
+
 	$effect(() => {
 		if (typeof window === 'undefined') return;
 		const mq = window.matchMedia('(max-width: 640px)');
@@ -112,6 +179,9 @@
 			}
 			clickHandler = null;
 			handlerSvg = null;
+			// A camera is a rectangle in the outgoing map's coordinates, so it
+			// means nothing against the new one.
+			appliedCamera = null;
 			svgMarkup = markup;
 		});
 	});
@@ -225,6 +295,10 @@
 				// so pinch-zoom doesn't also zoom the page.
 				onTouch: (e: TouchEvent) => e.touches.length > 1
 			});
+			// One listener covers every way the map can move — wheel, drag, pinch,
+			// the +/- buttons, and the programmatic click-to-zoom below — because
+			// panzoom fires `transform` after each of them.
+			pz.on('transform', publishCamera);
 			// Keep the city-overlay glyphs at a constant screen size as the
 			// user zooms. Without this, labels balloon to enormous sizes at
 			// 10x zoom and shrink to specks zoomed out.
@@ -311,6 +385,17 @@
 	// the bug that plagued every previous attempt. By splitting into phases
 	// with explicit rAF waits between them, every measurement reflects the
 	// current CSS transform.
+	// A follower with a camera to follow ignores its own selection-driven zoom.
+	// Both would be trying to set the same transform, and the camera is the
+	// better authority: it already reflects whatever the host's click-to-zoom
+	// did, plus every pan and wheel-zoom they made afterwards, which selection
+	// alone can't express. With no camera yet (nothing has moved since the race
+	// loaded) the old behaviour stands, so the overlay still frames a clicked
+	// county.
+	const followingCamera = $derived(
+		mirror === 'follow' && streamState.ui.mapCamera?.profileId === streamState.profile?.id
+	);
+
 	$effect(() => {
 		const attr = streamState.ui.selectedRegionAttr;
 		// Read pzReady so the effect registers a dependency on panzoom's
@@ -319,6 +404,7 @@
 		// (set before the SVG was ready) lands in frame. `void` because a bare
 		// `pzReady;` reads as a stray expression to eslint.
 		void pzReady;
+		if (followingCamera) return;
 		if (!pz || !container) return;
 		const svg = container.querySelector<SVGSVGElement>('svg');
 		if (!svg) return;
@@ -400,6 +486,38 @@
 		};
 	});
 
+	// Follow the operator's framing. Runs on /overlay and on any other mirror,
+	// re-firing whenever the published rect changes or panzoom reattaches after
+	// an SVG swap.
+	//
+	// `applyingCamera` is held across the two calls because panzoom emits
+	// `transform` from each of them: a follower that also published would echo
+	// its own fitted rect back, and since the fit differs by aspect ratio the two
+	// surfaces would walk each other outward frame by frame.
+	$effect(() => {
+		const camera = streamState.ui.mapCamera;
+		void pzReady;
+		if (mirror !== 'follow' || !camera) return;
+		if (camera.profileId !== streamState.profile?.id) return;
+		if (!pz || !container) return;
+		const svg = container.querySelector<SVGSVGElement>('svg');
+		if (!svg) return;
+		if (sameCamera(appliedCamera, camera)) return;
+
+		const next = transformForCamera(svg, container, camera);
+		if (!next) return;
+		applyingCamera = true;
+		try {
+			pz.zoomAbs(0, 0, next.scale);
+			pz.moveTo(next.x, next.y);
+			appliedCamera = { x: camera.x, y: camera.y, w: camera.w, h: camera.h };
+		} finally {
+			applyingCamera = false;
+		}
+		const cur = container.querySelector<SVGElement>('svg');
+		if (cur && showCities) updateOverlayScale(cur, next.scale);
+	});
+
 	// Tear down the click handler when the component unmounts. `handlerSvg`
 	// is the SVG the listener was attached to (may differ from the current
 	// container child if an intermediate SVG was replaced without unmount).
@@ -415,6 +533,10 @@
 			if (overlayScaleRaf) {
 				cancelAnimationFrame(overlayScaleRaf);
 				overlayScaleRaf = null;
+			}
+			if (cameraRaf) {
+				cancelAnimationFrame(cameraRaf);
+				cameraRaf = null;
 			}
 		};
 	});
