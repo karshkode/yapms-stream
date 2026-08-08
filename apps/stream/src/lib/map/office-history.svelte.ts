@@ -1,3 +1,4 @@
+import { officeFromTitle } from '../race-office';
 import type { StreamState } from '../stream-state';
 
 /**
@@ -183,25 +184,16 @@ export function countyMapStateFips(state: StreamState): string | null {
 }
 
 /**
- * Which office the loaded race is for, guessed from its title.
- *
- * There is nothing better to go on. One template serves every statewide race in
- * a state — governor, senator, attorney general, a ballot measure — so the
- * profile can't say, and the host renames the race as a matter of course
- * ("Michigan Statewide Race" becomes "Michigan US Senate" before they go on
- * air). Deriving it from the title means that rename is all it takes.
+ * Which office the loaded race is for, of the two the bake covers.
  *
  * Only used to decide which baseline is offered *first*; every baked race for
  * the state is selectable either way. So a wrong guess costs a default, not a
  * wrong number on screen — which is what makes a guess acceptable here.
+ *
+ * A US House race reads as `house` upstream and null here, which is right: the
+ * bake is county-keyed and has nothing to say about a district map.
  */
 export function inferOffice(title: string): HistoryOffice | null {
-	const t = title.toLowerCase();
-	// "Lieutenant Governor" and "Governor's Council" are their own races, and
-	// "Senate District 12" is a state senate seat, not the US Senate.
-	if (/\blieutenant\b|\blt\.?\s+gov/.test(t)) return null;
-	if (/\bgovernor\b|\bgubernatorial\b/.test(t)) return 'governor';
-	if (/\bdistrict\b|\bstate senate\b/.test(t)) return null;
-	if (/\bu\.?\s?s\.?\s+senate\b|\bus senator\b|\bsenate\b|\bsenator\b/.test(t)) return 'senate';
-	return null;
+	const office = officeFromTitle(title);
+	return office === 'senate' || office === 'governor' ? office : null;
 }

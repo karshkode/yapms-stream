@@ -1,9 +1,11 @@
 <script lang="ts">
 	import type { StreamState } from '$lib/stream-state';
 	import BroadcastPanel from '$lib/components/BroadcastPanel.svelte';
+	import CallPanel from '$lib/components/CallPanel.svelte';
 	import CandidateEditor from '$lib/components/CandidateEditor.svelte';
 	import ComparePanel from '$lib/components/ComparePanel.svelte';
 	import DataSourcePanel from '$lib/components/DataSourcePanel.svelte';
+	import MarketsPanel from '$lib/components/MarketsPanel.svelte';
 	import RaceMetaForm from '$lib/components/RaceMetaForm.svelte';
 	import RegionEditor from '$lib/components/RegionEditor.svelte';
 	import VisibilityPanel from '$lib/components/VisibilityPanel.svelte';
@@ -18,10 +20,17 @@
 
 	type DrawerTab = StreamState['ui']['activeDrawerTab'];
 
+	// Order is roughly the order of a broadcast: set the race up, then the two
+	// things you reach for while on air. Call sits directly after Markets & polls
+	// because those are the two tabs a host touches with the show running, and
+	// hunting for the call button past four setup panels is how a projection goes
+	// up late.
 	const tabs: { id: DrawerTab; label: string }[] = [
 		{ id: 'meta', label: 'Race meta' },
 		{ id: 'candidates', label: 'Candidates' },
 		{ id: 'regions', label: 'Regions' },
+		{ id: 'markets', label: 'Markets & polls' },
+		{ id: 'call', label: 'Call race' },
 		{ id: 'compare', label: 'Compare' },
 		{ id: 'visibility', label: 'Visibility' },
 		{ id: 'broadcast', label: 'Broadcast' },
@@ -101,6 +110,10 @@
 			<CandidateEditor {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'regions'}
 			<RegionEditor state={streamState} />
+		{:else if streamState.ui.activeDrawerTab === 'markets'}
+			<MarketsPanel {streamState} />
+		{:else if streamState.ui.activeDrawerTab === 'call'}
+			<CallPanel {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'compare'}
 			<ComparePanel {streamState} />
 		{:else if streamState.ui.activeDrawerTab === 'visibility'}
