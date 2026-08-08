@@ -308,7 +308,12 @@
 				</ul>
 			</section>
 
-			<p class="hint">Click a county on the map to see its breakdown.</p>
+			{#if interactive}
+				<!-- An instruction to the operator, not a caption for the audience.
+				     On /overlay the map isn't clickable and nobody watching can act on
+				     it, so it was a line of stage direction sitting on air. -->
+				<p class="hint">Click a county on the map to see its breakdown.</p>
+			{/if}
 		{/if}
 	</aside>
 {/if}
