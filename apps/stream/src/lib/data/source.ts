@@ -221,10 +221,18 @@ export function preserveHeadshots(
  *
  * Strategy:
  *   1. Normalize both sides (lowercase, strip non-alphanum).
- *   2. Index seed regions by normalized name.
- *   3. For each live row, swap its regionAttr to the seed's attr when the
- *      normalized names match. Unmatched live rows fall through unchanged
- *      (they still show up in the regions table).
+ *   2. Index seed regions by normalized name, plus the aliases below.
+ *   3. For each live row, try its own name and aliases against that index.
+ *      Unmatched live rows fall through unchanged (they still show up in the
+ *      regions table).
+ *
+ * The aliases exist because a region can be known by more than one true name
+ * and the two sides need not pick the same one. New York City's map labels its
+ * regions the way a New Yorker says them — "Brooklyn (Kings)", "The Bronx" —
+ * while a feed reports the county, "Kings". Exact-name matching found one
+ * borough out of five, and the one it found was Queens, whose two names happen
+ * to be the same word. Four boroughs went colourless with their votes filed
+ * under a regionAttr the map had never heard of.
  */
 export function remapLiveRegionsToSeed(
 	seed: StreamState['regions'],
@@ -236,11 +244,60 @@ export function remapLiveRegionsToSeed(
 			.toLowerCase()
 			.replace(/\./g, '')
 			.replace(/[^a-z0-9]+/g, '');
-	const seedByName = new Map<string, StreamState['regions'][number]>();
-	for (const r of seed) seedByName.set(normalize(r.name), r);
+
+	/**
+	 * Every spelling a region answers to, the full name first.
+	 *
+	 * A parenthetical is treated as a second name rather than as decoration,
+	 * which is the convention the city maps already use, and it works in both
+	 * directions: whichever of the two a feed reports, it lands on the same seed
+	 * row. The article and the "County" suffix are dropped because they are
+	 * noise that one side tends to carry and the other doesn't.
+	 */
+	const namesFor = (name: string): string[] => {
+		const out: string[] = [];
+		const add = (value: string) => {
+			const key = normalize(value);
+			if (key && !out.includes(key)) out.push(key);
+		};
+		add(name);
+		const parenthetical = /^(.*?)\s*\(([^)]+)\)\s*$/.exec(name);
+		if (parenthetical) {
+			add(parenthetical[1]);
+			add(parenthetical[2]);
+		}
+		add(name.replace(/^the\s+/i, ''));
+		add(name.replace(/\s+county$/i, ''));
+		return out;
+	};
+
+	// Primary names and aliases are kept apart so a full-name match always beats
+	// an alias. Two regions in one state can share an alias — a "Baltimore" that
+	// is the county and a "Baltimore City" that isn't — and in that case the one
+	// that spelled it out should win rather than whichever was indexed last.
+	const byName = new Map<string, StreamState['regions'][number]>();
+	const byAlias = new Map<string, StreamState['regions'][number]>();
+	for (const r of seed) {
+		const [primary, ...aliases] = namesFor(r.name);
+		if (primary && !byName.has(primary)) byName.set(primary, r);
+		for (const alias of aliases) if (!byAlias.has(alias)) byAlias.set(alias, r);
+	}
+
+	const find = (name: string) => {
+		const candidates = namesFor(name);
+		for (const key of candidates) {
+			const hit = byName.get(key);
+			if (hit) return hit;
+		}
+		for (const key of candidates) {
+			const hit = byAlias.get(key);
+			if (hit) return hit;
+		}
+		return undefined;
+	};
 
 	return live.map((row) => {
-		const match = seedByName.get(normalize(row.name));
+		const match = find(row.name);
 		if (!match) return row;
 		// Preserve the seed's baked multi-year archival baseline when civicAPI
 		// has nothing to say — the live row never carries archival data (it
