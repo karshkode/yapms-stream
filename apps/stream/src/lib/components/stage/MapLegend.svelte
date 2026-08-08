@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { MapTab } from '$lib/race-profile';
-	import { resolveBaseline } from '$lib/map/metrics';
+	import { isPartisanField, resolveBaseline } from '$lib/map/metrics';
 	import { streamStore } from '$lib/stream-store.svelte';
 
 	/**
@@ -102,8 +102,13 @@
 		if (tab === 'swing' && !baseline.partisan) {
 			return `${baseline.label} wasn’t a two-party race, so a swing against it means nothing. Turnout still works.`;
 		}
-		if (tab === 'turnout' && !baseline.hasShares) {
-			return `${baseline.label} has no vote totals to compare turnout against. Capture a race in Compare to use this mode.`;
+		// Only worth saying once there's a field to say it about; an empty roster
+		// isn't a same-party contest, it's a map waiting for a race.
+		if (tab === 'swing' && state.candidates.length >= 2 && !isPartisanField(state.candidates)) {
+			return 'This race’s top two are from the same party, so its margin isn’t a partisan one and a swing against any baseline means nothing. Turnout still works.';
+		}
+		if (tab === 'turnout' && !baseline.hasVotes) {
+			return `${baseline.label} has no vote totals to compare turnout against. Pick a past Senate or Governor race in Compare to use this mode.`;
 		}
 		return null;
 	});

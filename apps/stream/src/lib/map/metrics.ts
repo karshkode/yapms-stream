@@ -1,5 +1,6 @@
 import type { Candidate, ComparisonBaseline, RegionResult } from '../race-profile';
 import type { StreamState } from '../stream-state';
+import { countyMapStateFips, inferOffice, officeHistoryFor } from './office-history.svelte';
 
 /**
  * Per-region numbers behind the map's comparison modes, and the baseline they
@@ -99,15 +100,20 @@ export interface ResolvedBaseline {
 	partisan: boolean;
 	/** Signed two-party margin (positive = R) for a region, or null. */
 	marginFor(regionAttr: string): number | null;
-	/** The region's fraction (0-1) of the baseline race's total vote, or null. */
-	shareFor(regionAttr: string): number | null;
 	/**
-	 * False when the baseline carries no vote totals, so turnout share can't be
-	 * computed against it. True of the baked presidential seeds, which store
-	 * margins only. Stated up front so the legend can explain a blank turnout
-	 * map instead of probing `shareFor` and guessing.
+	 * Votes cast in this region in the baseline race, or null.
+	 *
+	 * Raw votes rather than a precomputed share, because the denominator that
+	 * makes turnout meaningful can only be worked out once both sides are known
+	 * — see `turnoutScale`.
 	 */
-	hasShares: boolean;
+	votesFor(regionAttr: string): number | null;
+	/**
+	 * False when the baseline carries no vote counts at all, so turnout can't be
+	 * computed against it. Stated up front so the legend can explain a blank
+	 * turnout map instead of probing every region and guessing.
+	 */
+	hasVotes: boolean;
 	/** How many regions the baseline actually has data for. */
 	coverage: number;
 }
@@ -117,7 +123,8 @@ export const ARCHIVAL_YEARS = ['2008', '2012', '2016', '2020', '2024'] as const;
 /**
  * Turn `ui.comparison.baselineRef` into something the map can read, or null
  * when the reference points at data this race doesn't have (a captured baseline
- * the host deleted, or a presidential year absent from these seeds).
+ * the host deleted, a presidential year absent from these seeds, or a past
+ * same-office race in a state whose history hasn't loaded yet).
  */
 export function resolveBaseline(state: StreamState): ResolvedBaseline | null {
 	const ref = state.ui.comparison.baselineRef;
@@ -125,22 +132,38 @@ export function resolveBaseline(state: StreamState): ResolvedBaseline | null {
 	if (ref.startsWith('archival:')) {
 		const year = ref.slice('archival:'.length);
 		const margins = new Map<string, number>();
+		const votes = new Map<string, number>();
 		for (const region of state.regions) {
 			const snap = region.archivalByYear?.[year];
-			if (snap) margins.set(region.regionAttr, snap.margin);
+			if (!snap) continue;
+			margins.set(region.regionAttr, snap.margin);
+			if (snap.votesTotal > 0) votes.set(region.regionAttr, snap.votesTotal);
 		}
 		if (margins.size === 0) return null;
-		// The presidential seeds carry two-party margins and per-candidate vote
-		// counts, but not a statewide total to divide by, so there's no share to
-		// compare turnout against.
 		return {
 			ref,
 			label: `${year} president`,
 			partisan: true,
 			marginFor: (attr) => margins.get(attr) ?? null,
-			shareFor: () => null,
-			hasShares: false,
+			votesFor: (attr) => votes.get(attr) ?? null,
+			hasVotes: votes.size > 0,
 			coverage: margins.size
+		};
+	}
+
+	if (ref.startsWith('history:')) {
+		const race = officeHistoryFor(countyMapStateFips(state)).find(
+			(r) => r.id === ref.slice('history:'.length)
+		);
+		if (!race) return null;
+		return {
+			ref,
+			label: race.label,
+			partisan: race.partisan,
+			marginFor: (attr) => race.regions[attr]?.margin ?? null,
+			votesFor: (attr) => race.regions[attr]?.votesTotal ?? null,
+			hasVotes: race.votesTotal > 0,
+			coverage: Object.keys(race.regions).length
 		};
 	}
 
@@ -153,8 +176,8 @@ export function resolveBaseline(state: StreamState): ResolvedBaseline | null {
 			label: baseline.label,
 			partisan: baseline.partisan,
 			marginFor: (attr) => baseline.regions[attr]?.margin ?? null,
-			shareFor: (attr) => baseline.regions[attr]?.share ?? null,
-			hasShares: baseline.totalVotes > 0,
+			votesFor: (attr) => baseline.regions[attr]?.votes ?? null,
+			hasVotes: baseline.totalVotes > 0,
 			coverage: Object.keys(baseline.regions).length
 		};
 	}
@@ -166,49 +189,101 @@ export function resolveBaseline(state: StreamState): ResolvedBaseline | null {
 export interface BaselineOption {
 	ref: string;
 	label: string;
-	kind: 'archival' | 'captured';
+	kind: 'archival' | 'history' | 'captured';
 	/** Regions in the loaded race this baseline has data for. */
 	coverage: number;
 	partisan: boolean;
 	/** True when the baseline was captured on a different map. */
 	geographyMismatch: boolean;
+	/** True when this is a past race for the office the loaded race is for. */
+	sameOffice: boolean;
 }
 
 export function baselineOptions(state: StreamState): BaselineOption[] {
-	const options: BaselineOption[] = [];
 	const attrs = new Set(state.regions.map((r) => r.regionAttr));
 
+	// Past same-office races first. This is the comparison a host wants by
+	// default on a downballot night, and the one they'd otherwise have to know
+	// exists to go looking for.
+	const office = inferOffice(state.race.title);
+	const history: Array<BaselineOption & { year: number }> = [];
+	for (const race of officeHistoryFor(countyMapStateFips(state))) {
+		let coverage = 0;
+		for (const attr of Object.keys(race.regions)) if (attrs.has(attr)) coverage++;
+		if (coverage === 0) continue;
+		history.push({
+			ref: `history:${race.id}`,
+			label: race.label,
+			kind: 'history',
+			coverage,
+			partisan: race.partisan,
+			geographyMismatch: false,
+			sameOffice: race.office === office,
+			year: race.year
+		});
+	}
+	// Same office first, each group newest-first. A Senate night should not have
+	// to scroll past three governor's races to find the last Senate one, and the
+	// baked file's own order is neither.
+	history.sort((a, b) => Number(b.sameOffice) - Number(a.sameOffice) || b.year - a.year);
+
+	const archival: BaselineOption[] = [];
 	for (const year of ARCHIVAL_YEARS) {
 		let coverage = 0;
 		for (const region of state.regions) if (region.archivalByYear?.[year]) coverage++;
 		if (coverage === 0) continue;
-		options.push({
+		archival.push({
 			ref: `archival:${year}`,
 			label: `${year} president`,
 			kind: 'archival',
 			coverage,
 			partisan: true,
-			geographyMismatch: false
+			geographyMismatch: false,
+			sameOffice: false
 		});
 	}
 
 	const key = geographyKey(state);
+	const captured: BaselineOption[] = [];
 	for (const baseline of state.ui.comparison.baselines) {
 		let coverage = 0;
 		for (const attr of Object.keys(baseline.regions)) if (attrs.has(attr)) coverage++;
-		options.push({
+		captured.push({
 			ref: `captured:${baseline.id}`,
 			label: baseline.label,
 			kind: 'captured',
 			coverage,
 			partisan: baseline.partisan,
-			geographyMismatch: baseline.geographyKey !== null && baseline.geographyKey !== key
+			geographyMismatch: baseline.geographyKey !== null && baseline.geographyKey !== key,
+			sameOffice: false
 		});
 	}
 
-	// Most recent presidential year first, then captures newest-first, which is
-	// the order a host reaches for them.
-	return options.reverse();
+	// Captures newest-first and presidential years most-recent-first, which is
+	// the order a host reaches for each of them.
+	return [...history, ...captured.reverse(), ...archival.reverse()];
+}
+
+/**
+ * The baseline to select for a freshly loaded race, or null to leave it be.
+ *
+ * Prefers the most recent past race for the same office, which is the whole
+ * point of baking them: the host loads Michigan's Senate race and Swing is
+ * already measuring against the last Michigan Senate race, with nothing set up.
+ *
+ * Returns null rather than a fallback when there's no same-office history, so
+ * the caller leaves the existing selection — usually the presidential default —
+ * alone instead of churning it.
+ */
+export function autoBaselineRef(state: StreamState): string | null {
+	const office = inferOffice(state.race.title);
+	if (!office) return null;
+	const attrs = new Set(state.regions.map((r) => r.regionAttr));
+	const best = officeHistoryFor(countyMapStateFips(state))
+		.filter((race) => race.office === office && race.partisan)
+		.filter((race) => Object.keys(race.regions).some((attr) => attrs.has(attr)))
+		.sort((a, b) => b.year - a.year)[0];
+	return best ? `history:${best.id}` : null;
 }
 
 /**
@@ -265,7 +340,7 @@ export function captureBaseline(state: StreamState, label: string): ComparisonBa
  * survives the distinction, so such baselines are kept and the UI points at the
  * mode that works.
  */
-function isPartisanField(candidates: Candidate[]): boolean {
+export function isPartisanField(candidates: Candidate[]): boolean {
 	const top = [...candidates].sort((a, b) => b.votes - a.votes).slice(0, 2);
 	if (top.length < 2) return false;
 	return isRedParty(top[0].partyColor) !== isRedParty(top[1].partyColor);
@@ -277,8 +352,14 @@ function isPartisanField(candidates: Candidate[]): boolean {
 
 /**
  * Signed margin shift for a region since the baseline, in points, positive =
- * toward R. Null when either side is unknown, or when the baseline is a race
- * whose margin has no partisan meaning.
+ * toward R. Null when either side is unknown, or when either race's margin has
+ * no partisan meaning.
+ *
+ * Both sides have to be a two-party contest, not just the baseline. A
+ * Democratic primary's margin is a fact about which Democrat won, so subtracting
+ * a past general's margin from it produces a number — a large one, since the
+ * whole primary field reads as one party — and nothing it could be a
+ * measurement of. The legend says as much rather than shading the map with it.
  */
 export function regionSwing(
 	result: RegionResult,
@@ -286,11 +367,50 @@ export function regionSwing(
 	baseline: ResolvedBaseline | null
 ): number | null {
 	if (!baseline || !baseline.partisan) return null;
+	if (!isPartisanField(candidates)) return null;
 	const base = baseline.marginFor(result.regionAttr);
 	if (base === null) return null;
 	const live = regionMargin(result, candidates);
 	if (!live) return null;
 	return live.signed - base;
+}
+
+/**
+ * The two denominators a turnout comparison divides by.
+ *
+ * Both are summed over the *same* set of regions — the ones that have a
+ * projectable live count and a baseline figure — rather than over each side's
+ * own full extent. That matters more than it sounds. Every baseline has gaps:
+ * MEDSL's 2018 file is missing five New York counties including Suffolk, and a
+ * captured baseline only holds the counties that had reported when the host
+ * pressed the button. Dividing a region's live share of all 62 counties by its
+ * baseline share of 57 makes every county in the state look like it turned out
+ * below its own history, by roughly whatever share the missing ones held.
+ * Restricting both totals to the overlap removes that bias entirely, and leaves
+ * the answer meaning what the legend says it means.
+ */
+export interface TurnoutScale {
+	/** Projected live votes across regions the baseline also covers. */
+	liveTotal: number;
+	/** Baseline votes across regions the live race can be projected for. */
+	baseTotal: number;
+}
+
+export function turnoutScale(
+	regions: RegionResult[],
+	baseline: ResolvedBaseline | null
+): TurnoutScale {
+	const scale: TurnoutScale = { liveTotal: 0, baseTotal: 0 };
+	if (!baseline) return scale;
+	for (const region of regions) {
+		const projected = projectedVotes(region);
+		if (projected === null) continue;
+		const base = baseline.votesFor(region.regionAttr);
+		if (base === null || base <= 0) continue;
+		scale.liveTotal += projected;
+		scale.baseTotal += base;
+	}
+	return scale;
 }
 
 /**
@@ -304,21 +424,21 @@ export function regionSwing(
  */
 export function regionTurnoutIndex(
 	result: RegionResult,
-	projectedTotal: number,
+	scale: TurnoutScale,
 	baseline: ResolvedBaseline | null
 ): number | null {
-	if (!baseline || projectedTotal <= 0) return null;
-	const baseShare = baseline.shareFor(result.regionAttr);
-	if (baseShare === null || baseShare <= 0) return null;
+	if (!baseline || scale.liveTotal <= 0 || scale.baseTotal <= 0) return null;
+	const base = baseline.votesFor(result.regionAttr);
+	if (base === null || base <= 0) return null;
 	const projected = projectedVotes(result);
 	if (projected === null) return null;
-	return projected / projectedTotal / baseShare;
+	return projected / scale.liveTotal / (base / scale.baseTotal);
 }
 
 /**
- * Sum of every region's projected final vote, the denominator for turnout
- * share. Only regions that can be projected contribute, so the shares compare
- * like with like.
+ * Sum of every region's projected final vote. Only regions that can be
+ * projected contribute, so a race's completeness isn't overstated by counties
+ * that haven't started counting.
  */
 export function projectedRaceTotal(regions: RegionResult[]): number {
 	let total = 0;

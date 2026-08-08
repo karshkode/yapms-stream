@@ -7,6 +7,7 @@
 	import { fillMissingHeadshots } from '$lib/broadcast/candidatePhotoFill';
 	import { civicApi } from '$lib/data/civicapi';
 	import { loadPersistedState, persistState } from '$lib/data/manual';
+	import { autoBaselineRef } from '$lib/map/metrics';
 	import { preserveHeadshots, remapLiveRegionsToSeed } from '$lib/data/source';
 	import { applyTemplate } from '$lib/picker/applyTemplate';
 	import type { FollowedRace } from '$lib/stream-state';
@@ -293,6 +294,29 @@
 		return () => {
 			stop = true;
 		};
+	});
+
+	// Point Swing and Turnout at the last race for this same office.
+	//
+	// This is what makes the baked history worth baking. Left to a control the
+	// host has to find, the comparison spends election night on the presidential
+	// margin — which measures ticket-splitting rather than how the state moved,
+	// and is the wrong number to read out over a Senate map. The pick can only
+	// happen here and not at load time: which office this is comes from the race
+	// title, which civicAPI fills in a tick later and the host then edits, and
+	// the state's history file is fetched on demand so the candidates to choose
+	// from arrive later still. An effect covers all three, whenever they land.
+	//
+	// `baselineAuto` is what keeps this from being obnoxious: the Compare panel
+	// clears it the moment the host picks anything, so this never argues with a
+	// deliberate choice. Reading the current ref untracked keeps the write from
+	// re-running the effect it came from.
+	$effect(() => {
+		if (!streamStore.state.ui.comparison.baselineAuto) return;
+		const ref = autoBaselineRef(streamStore.state);
+		if (!ref) return;
+		if (untrack(() => streamStore.state.ui.comparison.baselineRef) === ref) return;
+		streamStore.state.ui.comparison.baselineRef = ref;
 	});
 
 	// Automatic candidate-photo pass.

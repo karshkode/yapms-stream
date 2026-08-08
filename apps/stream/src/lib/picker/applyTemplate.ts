@@ -32,7 +32,19 @@ export function applyTemplate(state: StreamState, template: RaceTemplate): Strea
 			candidatesExpanded: false,
 			regionsPage: 1,
 			regionsSearch: '',
-			dirty: false
+			dirty: false,
+			comparison: {
+				...state.ui.comparison,
+				// A new race gets a new answer to "compared to what?". The old
+				// selection was about the race being replaced — a `history:` ref
+				// naming an office this one isn't for, or a capture taken on another
+				// state's map — so it reverts to the always-available presidential
+				// margin and re-arms the automatic same-office pick, which upgrades
+				// it as soon as this state's history loads. Captures themselves are
+				// kept; only which one is active is reset.
+				baselineRef: 'archival:2024',
+				baselineAuto: true
+			}
 		}
 	};
 }
